@@ -1,0 +1,157 @@
+\hypertarget{class_gameplay_manager}{}\doxysection{Gameplay\+Manager Class Reference}
+\label{class_gameplay_manager}\index{GameplayManager@{GameplayManager}}
+
+
+Inheritance diagram for Gameplay\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_gameplay_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Gameplay\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{class_gameplay_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3}{Gameplay\+State}} \{ \newline
+\mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3aa444257b19ebdad5dfdf78059b8362c2}{GAME\+\_\+\+RUNNING}}
+, \mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3ac284700dc9572f6575a2a6cce186ab6f}{GAME\+\_\+\+PAUSE}}
+, \mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a53a6cdbb3faacc18a96f53787c0f3e05}{GAME\+\_\+\+GAMEOVER}}
+, \mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a2ceec8ee42cb4076cd6831200c0dd895}{GAME\+\_\+\+GAMEWIN}}
+, \newline
+\mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a4b86ad41aa8cb5c61aaf1fa814898978}{GAME\+\_\+\+ENDCLOSE}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_gameplay_manager_a6080c8c0fe36406953ebc3e3d13a7134}{Toggle\+UIBy\+Index}} (int index)
+\item 
+void \mbox{\hyperlink{class_gameplay_manager_a8fa41cf7382504e9ba6a3a1e574b9ab4}{set\+Gameplay\+Time\+Scale}} (float time\+Scale\+Val)
+\item 
+void \mbox{\hyperlink{class_gameplay_manager_a7dcb2fe82a368839b77b162f52e227cb}{cheat\+Increase\+Time\+Scale}} ()
+\item 
+void \mbox{\hyperlink{class_gameplay_manager_a13fc649366c9856364afa79e18c3f911}{cheat\+Decrease\+Time\+Scale}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3}{Gameplay\+State}} \mbox{\hyperlink{class_gameplay_manager_ae0a38b9f8c7c4899dc9f37656f65af60}{Curr\+Gameplay\+State}}
+\item 
+float \mbox{\hyperlink{class_gameplay_manager_ad43d362c2f28f6ddea36d0a84ea10807}{Gameplay\+Time\+Scale}} = 1
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_gameplay_manager_acca3296a7830253209508f37a8756fb2}{UIObjs}}
+\item 
+Game\+Object \mbox{\hyperlink{class_gameplay_manager_a4b9c5c627b3de91d0df5467ce25ee72c}{curr\+UIObj}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_gameplay_manager}{Gameplay\+Manager}} \mbox{\hyperlink{class_gameplay_manager_a4e5bbf33d5f4054ec063aebe34b5d21c}{instance}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3}\label{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3}} 
+\index{GameplayManager@{GameplayManager}!GameplayState@{GameplayState}}
+\index{GameplayState@{GameplayState}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{GameplayState}{GameplayState}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3}{Gameplay\+Manager.\+Gameplay\+State}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GAME\_RUNNING@{GAME\_RUNNING}!GameplayManager@{GameplayManager}}\index{GameplayManager@{GameplayManager}!GAME\_RUNNING@{GAME\_RUNNING}}}\mbox{\Hypertarget{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3aa444257b19ebdad5dfdf78059b8362c2}\label{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3aa444257b19ebdad5dfdf78059b8362c2}} 
+GAME\+\_\+\+RUNNING&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GAME\_PAUSE@{GAME\_PAUSE}!GameplayManager@{GameplayManager}}\index{GameplayManager@{GameplayManager}!GAME\_PAUSE@{GAME\_PAUSE}}}\mbox{\Hypertarget{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3ac284700dc9572f6575a2a6cce186ab6f}\label{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3ac284700dc9572f6575a2a6cce186ab6f}} 
+GAME\+\_\+\+PAUSE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GAME\_GAMEOVER@{GAME\_GAMEOVER}!GameplayManager@{GameplayManager}}\index{GameplayManager@{GameplayManager}!GAME\_GAMEOVER@{GAME\_GAMEOVER}}}\mbox{\Hypertarget{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a53a6cdbb3faacc18a96f53787c0f3e05}\label{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a53a6cdbb3faacc18a96f53787c0f3e05}} 
+GAME\+\_\+\+GAMEOVER&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GAME\_GAMEWIN@{GAME\_GAMEWIN}!GameplayManager@{GameplayManager}}\index{GameplayManager@{GameplayManager}!GAME\_GAMEWIN@{GAME\_GAMEWIN}}}\mbox{\Hypertarget{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a2ceec8ee42cb4076cd6831200c0dd895}\label{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a2ceec8ee42cb4076cd6831200c0dd895}} 
+GAME\+\_\+\+GAMEWIN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GAME\_ENDCLOSE@{GAME\_ENDCLOSE}!GameplayManager@{GameplayManager}}\index{GameplayManager@{GameplayManager}!GAME\_ENDCLOSE@{GAME\_ENDCLOSE}}}\mbox{\Hypertarget{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a4b86ad41aa8cb5c61aaf1fa814898978}\label{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3a4b86ad41aa8cb5c61aaf1fa814898978}} 
+GAME\+\_\+\+ENDCLOSE&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_gameplay_manager_a13fc649366c9856364afa79e18c3f911}\label{class_gameplay_manager_a13fc649366c9856364afa79e18c3f911}} 
+\index{GameplayManager@{GameplayManager}!cheatDecreaseTimeScale@{cheatDecreaseTimeScale}}
+\index{cheatDecreaseTimeScale@{cheatDecreaseTimeScale}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{cheatDecreaseTimeScale()}{cheatDecreaseTimeScale()}}
+{\footnotesize\ttfamily void Gameplay\+Manager.\+cheat\+Decrease\+Time\+Scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_gameplay_manager_a7dcb2fe82a368839b77b162f52e227cb}\label{class_gameplay_manager_a7dcb2fe82a368839b77b162f52e227cb}} 
+\index{GameplayManager@{GameplayManager}!cheatIncreaseTimeScale@{cheatIncreaseTimeScale}}
+\index{cheatIncreaseTimeScale@{cheatIncreaseTimeScale}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{cheatIncreaseTimeScale()}{cheatIncreaseTimeScale()}}
+{\footnotesize\ttfamily void Gameplay\+Manager.\+cheat\+Increase\+Time\+Scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_gameplay_manager_a8fa41cf7382504e9ba6a3a1e574b9ab4}\label{class_gameplay_manager_a8fa41cf7382504e9ba6a3a1e574b9ab4}} 
+\index{GameplayManager@{GameplayManager}!setGameplayTimeScale@{setGameplayTimeScale}}
+\index{setGameplayTimeScale@{setGameplayTimeScale}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{setGameplayTimeScale()}{setGameplayTimeScale()}}
+{\footnotesize\ttfamily void Gameplay\+Manager.\+set\+Gameplay\+Time\+Scale (\begin{DoxyParamCaption}\item[{float}]{time\+Scale\+Val }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_gameplay_manager_a6080c8c0fe36406953ebc3e3d13a7134}\label{class_gameplay_manager_a6080c8c0fe36406953ebc3e3d13a7134}} 
+\index{GameplayManager@{GameplayManager}!ToggleUIByIndex@{ToggleUIByIndex}}
+\index{ToggleUIByIndex@{ToggleUIByIndex}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{ToggleUIByIndex()}{ToggleUIByIndex()}}
+{\footnotesize\ttfamily void Gameplay\+Manager.\+Toggle\+UIBy\+Index (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_gameplay_manager_ae0a38b9f8c7c4899dc9f37656f65af60}\label{class_gameplay_manager_ae0a38b9f8c7c4899dc9f37656f65af60}} 
+\index{GameplayManager@{GameplayManager}!CurrGameplayState@{CurrGameplayState}}
+\index{CurrGameplayState@{CurrGameplayState}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{CurrGameplayState}{CurrGameplayState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_gameplay_manager_a9680f34e2fba2030c179f2ba2af908d3}{Gameplay\+State}} Gameplay\+Manager.\+Curr\+Gameplay\+State}
+
+\mbox{\Hypertarget{class_gameplay_manager_a4b9c5c627b3de91d0df5467ce25ee72c}\label{class_gameplay_manager_a4b9c5c627b3de91d0df5467ce25ee72c}} 
+\index{GameplayManager@{GameplayManager}!currUIObj@{currUIObj}}
+\index{currUIObj@{currUIObj}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{currUIObj}{currUIObj}}
+{\footnotesize\ttfamily Game\+Object Gameplay\+Manager.\+curr\+UIObj}
+
+\mbox{\Hypertarget{class_gameplay_manager_ad43d362c2f28f6ddea36d0a84ea10807}\label{class_gameplay_manager_ad43d362c2f28f6ddea36d0a84ea10807}} 
+\index{GameplayManager@{GameplayManager}!GameplayTimeScale@{GameplayTimeScale}}
+\index{GameplayTimeScale@{GameplayTimeScale}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{GameplayTimeScale}{GameplayTimeScale}}
+{\footnotesize\ttfamily float Gameplay\+Manager.\+Gameplay\+Time\+Scale = 1}
+
+\mbox{\Hypertarget{class_gameplay_manager_a4e5bbf33d5f4054ec063aebe34b5d21c}\label{class_gameplay_manager_a4e5bbf33d5f4054ec063aebe34b5d21c}} 
+\index{GameplayManager@{GameplayManager}!instance@{instance}}
+\index{instance@{instance}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{instance}{instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_gameplay_manager}{Gameplay\+Manager}} Gameplay\+Manager.\+instance\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_gameplay_manager_acca3296a7830253209508f37a8756fb2}\label{class_gameplay_manager_acca3296a7830253209508f37a8756fb2}} 
+\index{GameplayManager@{GameplayManager}!UIObjs@{UIObjs}}
+\index{UIObjs@{UIObjs}!GameplayManager@{GameplayManager}}
+\doxysubsubsection{\texorpdfstring{UIObjs}{UIObjs}}
+{\footnotesize\ttfamily List$<$Game\+Object$>$ Gameplay\+Manager.\+UIObjs}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+\_\+\+Common\+V0.\+2/\+Singletons/\mbox{\hyperlink{_gameplay_manager_8cs}{Gameplay\+Manager.\+cs}}\end{DoxyCompactItemize}

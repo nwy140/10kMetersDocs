@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_intro_choice" kind="class" language="C#" prot="public">
+    <compoundname>IntroChoice</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_intro_choice_1ad8ca59fe00d535a99440a508f8efef6a" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_introduction" kindref="compound">Introduction</ref></type>
+        <definition>Introduction IntroChoice.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="8" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_intro_choice_1aac3f9006265a01dec5ab488b9b9d7de4" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject IntroChoice.introPanel</definition>
+        <argsstring></argsstring>
+        <name>introPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="11" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_intro_choice_1ae04ef9053dfad8d302071dc7083ac833" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject IntroChoice.choicePanel</definition>
+        <argsstring></argsstring>
+        <name>choicePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="12" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_intro_choice_1ae8cdfd4378d4ce86c005512e67398f38" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject IntroChoice.scientistTalk</definition>
+        <argsstring></argsstring>
+        <name>scientistTalk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="15" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_intro_choice_1a5726d02b7dc6bb574fe6bec9361f5c0f" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject IntroChoice.scientistIdle</definition>
+        <argsstring></argsstring>
+        <name>scientistIdle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="16" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_intro_choice_1af7d4bd6c18c828e74c79feaa4aa4b8cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IntroChoice.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="19" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_intro_choice_1a5b60e710fe3732383240d0061f5029eb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string IntroChoice.noticeToAllTechs</definition>
+        <argsstring></argsstring>
+        <name>noticeToAllTechs</name>
+        <initializer>= &quot;Leave the last element in every dialogue boxes empty or there&apos;ll be an <ref refid="class_intro_choice_1af7d4bd6c18c828e74c79feaa4aa4b8cb" kindref="member">index</ref> boundary error.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="111" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_intro_choice_1aced1c9cf876281458287edd8de7aa704" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] IntroChoice.brief</definition>
+        <argsstring></argsstring>
+        <name>brief</name>
+        <initializer>= new string[]
+    {
+        &quot;The way Liam’s eyes squint at you is almost imperceptible, but you catch it regardless. It makes you flinch a little. :You&quot;,
+        &quot;Alright, fine. Pay attention this time. :Liam&quot;,
+        &quot;As you know, the USSR has been making rapid advancements on their nautical travel technology. &quot;,
+        &quot;Word has it that they’re close to reaching the bottom.&quot;,
+        &quot;His lips form into a thin line. You can hear the disdain behind his words. :You&quot;,
+        &quot;Naturally, that means the Cold War is drawing to a close very soon, with the USSR coming out as the victors. :Liam&quot;,
+        &quot;Which is, well, not very ideal for us, no.&quot;,
+        &quot;That’s where you come in.&quot;,
+        &quot;Liam inclines his head at you. :You&quot;,
+        &quot;You’ll be helping us gather live specimens for our research, hopefully efficiently enough, to let us better equip the submarine for deeper diving. :Liam&quot;,
+        &quot;His hand gestures towards the door that leads to the submarine docking station. :You&quot;,
+        &quot;And also do the diving to the bottom of the ocean, preferably before the USSR does. :Liam&quot;,
+        &quot;He finishes, and folds his arms together. :You&quot;,
+        &quot;We don’t know how long we have left, exactly, but we know it’s soon. :Liam&quot;,
+        &quot;Liam takes out a clipboard from his coat and writes something down. :You&quot;,
+        &quot;We’ll have to act quickly, especially when we can’t know when it’ll happen. :Liam&quot;,
+        &quot;Let’s get you acquainted with the submarine, first. It’s a little… different from the conventional military models.&quot;,
+        &quot;You trail behind Liam as he leads you to the submarine, visibly vibrating in excitement. :You&quot;,
+        &quot; &quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="113" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_intro_choice_1acbb9438d2edf5875211f46c4066743e9" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] IntroChoice.endBriefing</definition>
+        <argsstring></argsstring>
+        <name>endBriefing</name>
+        <initializer>= new string[]
+    {
+        &quot;Good, good. :Liam&quot;,
+        &quot;Satisfied, he nods. :You&quot;,
+        &quot;We don’t know how long we have left, exactly, but we know it’s soon. :Liam&quot;,
+        &quot;Liam takes out a clipboard from his coat and writes something down. :You&quot;,
+        &quot;We’ll have to act quickly, especially when we can’t know when it’ll happen. :Liam&quot;,
+        &quot;Let’s get you acquainted with the submarine, first. It’s a little… different from the conventional military models.&quot;,
+        &quot;You trail behind Liam as he leads you to the submarine, visibly vibrating in excitement. :You&quot;,
+        &quot; &quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="136" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_intro_choice_1a4d768075c660ba8841294a36aa42d8fa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_dialogue_system" kindref="compound">DialogueSystem</ref></type>
+        <definition>DialogueSystem IntroChoice.dialogue</definition>
+        <argsstring></argsstring>
+        <name>dialogue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="21" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_intro_choice_1a289256ec51841a2f49b0389e61c87b86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IntroChoice.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_intro_choice_1ac5e18548245cd8bad94ce567c08a6cd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IntroChoice.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="29" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="29" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_intro_choice_1ad25c722472e698b678cb97d552a160fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IntroChoice.Talk</definition>
+        <argsstring>(string s)</argsstring>
+        <name>Talk</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="101" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="101" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IntroChoice</label>
+        <link refid="class_intro_choice"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IntroChoice</label>
+        <link refid="class_intro_choice"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Introduction</label>
+        <link refid="class_introduction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/IntroChoice.cs" bodystart="7" bodyend="147"/>
+    <listofallmembers>
+      <member refid="class_intro_choice_1aced1c9cf876281458287edd8de7aa704" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>brief</name></member>
+      <member refid="class_intro_choice_1ae04ef9053dfad8d302071dc7083ac833" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>choicePanel</name></member>
+      <member refid="class_intro_choice_1a4d768075c660ba8841294a36aa42d8fa" prot="private" virt="non-virtual"><scope>IntroChoice</scope><name>dialogue</name></member>
+      <member refid="class_intro_choice_1acbb9438d2edf5875211f46c4066743e9" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>endBriefing</name></member>
+      <member refid="class_intro_choice_1af7d4bd6c18c828e74c79feaa4aa4b8cb" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>index</name></member>
+      <member refid="class_intro_choice_1ad8ca59fe00d535a99440a508f8efef6a" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>instance</name></member>
+      <member refid="class_intro_choice_1aac3f9006265a01dec5ab488b9b9d7de4" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>introPanel</name></member>
+      <member refid="class_intro_choice_1a5b60e710fe3732383240d0061f5029eb" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>noticeToAllTechs</name></member>
+      <member refid="class_intro_choice_1a5726d02b7dc6bb574fe6bec9361f5c0f" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>scientistIdle</name></member>
+      <member refid="class_intro_choice_1ae8cdfd4378d4ce86c005512e67398f38" prot="public" virt="non-virtual"><scope>IntroChoice</scope><name>scientistTalk</name></member>
+      <member refid="class_intro_choice_1a289256ec51841a2f49b0389e61c87b86" prot="private" virt="non-virtual"><scope>IntroChoice</scope><name>Start</name></member>
+      <member refid="class_intro_choice_1ad25c722472e698b678cb97d552a160fa" prot="private" virt="non-virtual"><scope>IntroChoice</scope><name>Talk</name></member>
+      <member refid="class_intro_choice_1ac5e18548245cd8bad94ce567c08a6cd7" prot="private" virt="non-virtual"><scope>IntroChoice</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

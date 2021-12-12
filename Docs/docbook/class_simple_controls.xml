@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_simple_controls" xml:lang="en-US">
+<title>SimpleControls Class Reference</title>
+<indexterm><primary>SimpleControls</primary></indexterm>
+Inheritance diagram for SimpleControls:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_simple_controls__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SimpleControls:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_simple_controls__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_simple_controls_1_1_gameplay_actions">GameplayActions</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_simple_controls_1_1_i_gameplay_actions">IGameplayActions</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_simple_controls_1a8ea6e89c13dfaf5a91d3779a18e88660">SimpleControls</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controls_1ad2bc28d2ac44dcd2cd2ce2f207a6193c">Dispose</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_simple_controls_1aa2a1ee14c35a1bb94ad1d75b421e21f6">Contains</link> (InputAction action)</para>
+</listitem>
+            <listitem><para>IEnumerator&lt; InputAction &gt; <link linkend="_class_simple_controls_1a754e9aa3a68b76cd802d061b0ce61b0d">GetEnumerator</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controls_1a7ed80c60643102fd618035ee6e89788e">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controls_1aeec60e089683297d9dcfdfe45856c9f3">Disable</link> ()</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_class_simple_controls_1a6531ca89e28e0a078a38c257d52b0e4a">FindAction</link> (string actionNameOrId, bool throwIfNotFound=false)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_simple_controls_1ad5adce8c3e437eea41db6428d00ea2ae">FindBinding</link> (InputBinding <link linkend="_class_simple_controls_1a238a77f4b6ac080fba7d5863a4cc5482">bindingMask</link>, out InputAction action)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputActionAsset <link linkend="_class_simple_controls_1a4d89aeff8f3c86a76a4ada59e847fa41">asset</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputBinding? <link linkend="_class_simple_controls_1a238a77f4b6ac080fba7d5863a4cc5482">bindingMask</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ReadOnlyArray&lt; InputDevice &gt;? <link linkend="_class_simple_controls_1a53b989ba126cd98707723cf4340b1290">devices</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ReadOnlyArray&lt; InputControlScheme &gt; <link linkend="_class_simple_controls_1a9b06a9b1b0a6b2ed57de99ea462cc608">controlSchemes</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>IEnumerable&lt; InputBinding &gt; <link linkend="_class_simple_controls_1ad45355ebd17b3aa9ecf5fe1980f9affc">bindings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_struct_simple_controls_1_1_gameplay_actions">GameplayActions</link> <link linkend="_class_simple_controls_1aa1f7940301bdcd3f53e5199eee0a87fd">gameplay</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_simple_controls_1a8ea6e89c13dfaf5a91d3779a18e88660"/><section>
+    <title>SimpleControls()</title>
+<indexterm><primary>SimpleControls</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>SimpleControls</secondary></indexterm>
+<para><computeroutput>SimpleControls.SimpleControls ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_simple_controls_1aa2a1ee14c35a1bb94ad1d75b421e21f6"/><section>
+    <title>Contains()</title>
+<indexterm><primary>Contains</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>Contains</secondary></indexterm>
+<para><computeroutput>bool SimpleControls.Contains (InputAction action)</computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1aeec60e089683297d9dcfdfe45856c9f3"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void SimpleControls.Disable ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_simple_controls_aeec60e089683297d9dcfdfe45856c9f3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_simple_controls_1ad2bc28d2ac44dcd2cd2ce2f207a6193c"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>void SimpleControls.Dispose ( )</computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1a7ed80c60643102fd618035ee6e89788e"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void SimpleControls.Enable ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_simple_controls_a7ed80c60643102fd618035ee6e89788e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_simple_controls_1a6531ca89e28e0a078a38c257d52b0e4a"/><section>
+    <title>FindAction()</title>
+<indexterm><primary>FindAction</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>FindAction</secondary></indexterm>
+<para><computeroutput>InputAction SimpleControls.FindAction (string actionNameOrId, bool throwIfNotFound = <computeroutput>false</computeroutput>
+)</computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1ad5adce8c3e437eea41db6428d00ea2ae"/><section>
+    <title>FindBinding()</title>
+<indexterm><primary>FindBinding</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>FindBinding</secondary></indexterm>
+<para><computeroutput>int SimpleControls.FindBinding (InputBinding bindingMask, out InputAction action)</computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1a754e9aa3a68b76cd802d061b0ce61b0d"/><section>
+    <title>GetEnumerator()</title>
+<indexterm><primary>GetEnumerator</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>GetEnumerator</secondary></indexterm>
+<para><computeroutput>IEnumerator&lt; InputAction &gt; SimpleControls.GetEnumerator ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_simple_controls_1a4d89aeff8f3c86a76a4ada59e847fa41"/><section>
+    <title>asset</title>
+<indexterm><primary>asset</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>asset</secondary></indexterm>
+<para><computeroutput>InputActionAsset SimpleControls.asset<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1a238a77f4b6ac080fba7d5863a4cc5482"/><section>
+    <title>bindingMask</title>
+<indexterm><primary>bindingMask</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>bindingMask</secondary></indexterm>
+<para><computeroutput>InputBinding? SimpleControls.bindingMask<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1ad45355ebd17b3aa9ecf5fe1980f9affc"/><section>
+    <title>bindings</title>
+<indexterm><primary>bindings</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>bindings</secondary></indexterm>
+<para><computeroutput>IEnumerable&lt;InputBinding&gt; SimpleControls.bindings<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1a9b06a9b1b0a6b2ed57de99ea462cc608"/><section>
+    <title>controlSchemes</title>
+<indexterm><primary>controlSchemes</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>controlSchemes</secondary></indexterm>
+<para><computeroutput>ReadOnlyArray&lt;InputControlScheme&gt; SimpleControls.controlSchemes<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1a53b989ba126cd98707723cf4340b1290"/><section>
+    <title>devices</title>
+<indexterm><primary>devices</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>devices</secondary></indexterm>
+<para><computeroutput>ReadOnlyArray&lt;InputDevice&gt;? SimpleControls.devices<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_simple_controls_1aa1f7940301bdcd3f53e5199eee0a87fd"/><section>
+    <title>gameplay</title>
+<indexterm><primary>gameplay</primary><secondary>SimpleControls</secondary></indexterm>
+<indexterm><primary>SimpleControls</primary><secondary>gameplay</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_simple_controls_1_1_gameplay_actions">GameplayActions</link> SimpleControls.gameplay<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/<link linkend="__simple_controls_8cs">SimpleControls.cs</link></section>
+</section>

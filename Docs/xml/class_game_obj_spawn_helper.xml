@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_game_obj_spawn_helper" kind="class" language="C#" prot="public">
+    <compoundname>GameObjSpawnHelper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_obj_spawn_helper_1af7f8641a22201364237dc420ea7ad9f9" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; GameObjSpawnHelper.objsToSpawn</definition>
+        <argsstring></argsstring>
+        <name>objsToSpawn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="8" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_game_obj_spawn_helper_1abcc9d74bca42452baba12808fbdf5043" compoundref="_game_obj_spawn_helper_8cs" startline="29" endline="35">SpawnAllObjs</referencedby>
+        <referencedby refid="class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6" compoundref="_game_obj_spawn_helper_8cs" startline="37" endline="52">SpawnRandomObj</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_obj_spawn_helper_1ac9afb0469e1b8843db330e87a36be6d9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameObjSpawnHelper.isUseThisObjPos</definition>
+        <argsstring></argsstring>
+        <name>isUseThisObjPos</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="9" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_game_obj_spawn_helper_1a1e5ea6884e5a1a48726f29d8694dee06" compoundref="_game_obj_spawn_helper_8cs" startline="16" endline="26">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_obj_spawn_helper_1ad1d4baca87c38f910d6805f981bf0e71" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 GameObjSpawnHelper.spawnPos</definition>
+        <argsstring></argsstring>
+        <name>spawnPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="10" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_game_obj_spawn_helper_1abcc9d74bca42452baba12808fbdf5043" compoundref="_game_obj_spawn_helper_8cs" startline="29" endline="35">SpawnAllObjs</referencedby>
+        <referencedby refid="class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6" compoundref="_game_obj_spawn_helper_8cs" startline="37" endline="52">SpawnRandomObj</referencedby>
+        <referencedby refid="class_game_obj_spawn_helper_1a1e5ea6884e5a1a48726f29d8694dee06" compoundref="_game_obj_spawn_helper_8cs" startline="16" endline="26">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_obj_spawn_helper_1a9896ce456972d1450e9d5c94dc506477" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameObjSpawnHelper.isUseThisObjRotEuler</definition>
+        <argsstring></argsstring>
+        <name>isUseThisObjRotEuler</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="11" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_game_obj_spawn_helper_1a1e5ea6884e5a1a48726f29d8694dee06" compoundref="_game_obj_spawn_helper_8cs" startline="16" endline="26">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_obj_spawn_helper_1a1a5909d140d96ecf1ad3d21527ad0ed3" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 GameObjSpawnHelper.spawnRotEuler</definition>
+        <argsstring></argsstring>
+        <name>spawnRotEuler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="12" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_game_obj_spawn_helper_1abcc9d74bca42452baba12808fbdf5043" compoundref="_game_obj_spawn_helper_8cs" startline="29" endline="35">SpawnAllObjs</referencedby>
+        <referencedby refid="class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6" compoundref="_game_obj_spawn_helper_8cs" startline="37" endline="52">SpawnRandomObj</referencedby>
+        <referencedby refid="class_game_obj_spawn_helper_1a1e5ea6884e5a1a48726f29d8694dee06" compoundref="_game_obj_spawn_helper_8cs" startline="16" endline="26">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_obj_spawn_helper_1aad6471399297ae7e199f4dc302081325" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; GameObjSpawnHelper.spawnedObjs</definition>
+        <argsstring></argsstring>
+        <name>spawnedObjs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="14" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6" compoundref="_game_obj_spawn_helper_8cs" startline="37" endline="52">SpawnRandomObj</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_obj_spawn_helper_1aebd87c3a941b0d520449b5059ae7a21a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameObjSpawnHelper.spawnedObjsMaxCount</definition>
+        <argsstring></argsstring>
+        <name>spawnedObjsMaxCount</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="15" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6" compoundref="_game_obj_spawn_helper_8cs" startline="37" endline="52">SpawnRandomObj</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_obj_spawn_helper_1a1e5ea6884e5a1a48726f29d8694dee06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameObjSpawnHelper.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="16" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="16" bodyend="26"/>
+        <references refid="class_game_obj_spawn_helper_1ac9afb0469e1b8843db330e87a36be6d9" compoundref="_game_obj_spawn_helper_8cs" startline="9">isUseThisObjPos</references>
+        <references refid="class_game_obj_spawn_helper_1a9896ce456972d1450e9d5c94dc506477" compoundref="_game_obj_spawn_helper_8cs" startline="11">isUseThisObjRotEuler</references>
+        <references refid="class_game_obj_spawn_helper_1ad1d4baca87c38f910d6805f981bf0e71" compoundref="_game_obj_spawn_helper_8cs" startline="10">spawnPos</references>
+        <references refid="class_game_obj_spawn_helper_1a1a5909d140d96ecf1ad3d21527ad0ed3" compoundref="_game_obj_spawn_helper_8cs" startline="12">spawnRotEuler</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_obj_spawn_helper_1abcc9d74bca42452baba12808fbdf5043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameObjSpawnHelper.SpawnAllObjs</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnAllObjs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="29" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="29" bodyend="35"/>
+        <references refid="class_game_obj_spawn_helper_1af7f8641a22201364237dc420ea7ad9f9" compoundref="_game_obj_spawn_helper_8cs" startline="8">objsToSpawn</references>
+        <references refid="class_game_obj_spawn_helper_1ad1d4baca87c38f910d6805f981bf0e71" compoundref="_game_obj_spawn_helper_8cs" startline="10">spawnPos</references>
+        <references refid="class_game_obj_spawn_helper_1a1a5909d140d96ecf1ad3d21527ad0ed3" compoundref="_game_obj_spawn_helper_8cs" startline="12">spawnRotEuler</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameObjSpawnHelper.SpawnRandomObj</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnRandomObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="37" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="37" bodyend="52"/>
+        <references refid="class_game_obj_spawn_helper_1af7f8641a22201364237dc420ea7ad9f9" compoundref="_game_obj_spawn_helper_8cs" startline="8">objsToSpawn</references>
+        <references refid="class_game_obj_spawn_helper_1aad6471399297ae7e199f4dc302081325" compoundref="_game_obj_spawn_helper_8cs" startline="14">spawnedObjs</references>
+        <references refid="class_game_obj_spawn_helper_1aebd87c3a941b0d520449b5059ae7a21a" compoundref="_game_obj_spawn_helper_8cs" startline="15">spawnedObjsMaxCount</references>
+        <references refid="class_game_obj_spawn_helper_1ad1d4baca87c38f910d6805f981bf0e71" compoundref="_game_obj_spawn_helper_8cs" startline="10">spawnPos</references>
+        <references refid="class_game_obj_spawn_helper_1a1a5909d140d96ecf1ad3d21527ad0ed3" compoundref="_game_obj_spawn_helper_8cs" startline="12">spawnRotEuler</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameObjSpawnHelper</label>
+        <link refid="class_game_obj_spawn_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameObjSpawnHelper</label>
+        <link refid="class_game_obj_spawn_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/GameObjSpawnHelper.cs" bodystart="6" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_game_obj_spawn_helper_1ac9afb0469e1b8843db330e87a36be6d9" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>isUseThisObjPos</name></member>
+      <member refid="class_game_obj_spawn_helper_1a9896ce456972d1450e9d5c94dc506477" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>isUseThisObjRotEuler</name></member>
+      <member refid="class_game_obj_spawn_helper_1af7f8641a22201364237dc420ea7ad9f9" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>objsToSpawn</name></member>
+      <member refid="class_game_obj_spawn_helper_1abcc9d74bca42452baba12808fbdf5043" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>SpawnAllObjs</name></member>
+      <member refid="class_game_obj_spawn_helper_1aad6471399297ae7e199f4dc302081325" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>spawnedObjs</name></member>
+      <member refid="class_game_obj_spawn_helper_1aebd87c3a941b0d520449b5059ae7a21a" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>spawnedObjsMaxCount</name></member>
+      <member refid="class_game_obj_spawn_helper_1ad1d4baca87c38f910d6805f981bf0e71" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>spawnPos</name></member>
+      <member refid="class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>SpawnRandomObj</name></member>
+      <member refid="class_game_obj_spawn_helper_1a1a5909d140d96ecf1ad3d21527ad0ed3" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>spawnRotEuler</name></member>
+      <member refid="class_game_obj_spawn_helper_1a1e5ea6884e5a1a48726f29d8694dee06" prot="public" virt="non-virtual"><scope>GameObjSpawnHelper</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

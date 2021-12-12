@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_alert" xml:lang="en-US">
+<title>Alert Class Reference</title>
+<indexterm><primary>Alert</primary></indexterm>
+Inheritance diagram for Alert:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_alert__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Alert:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_alert__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_alert_1add42baa70f4315a34bbabfda056f1c4f">Alert</link> (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_alert_1a4c74d0a6408ab55791ad5925867de6ef">OnEnterState</link> ()</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_alert_1a5074dc24717dd36b9c760590c39fb68b">OnExitState</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_alert_1add42baa70f4315a34bbabfda056f1c4f"/><section>
+    <title>Alert()</title>
+<indexterm><primary>Alert</primary><secondary>Alert</secondary></indexterm>
+<indexterm><primary>Alert</primary><secondary>Alert</secondary></indexterm>
+<para><computeroutput>Alert.Alert (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_alert_1a4c74d0a6408ab55791ad5925867de6ef"/><section>
+    <title>OnEnterState()</title>
+<indexterm><primary>OnEnterState</primary><secondary>Alert</secondary></indexterm>
+<indexterm><primary>Alert</primary><secondary>OnEnterState</secondary></indexterm>
+<para><computeroutput>override bool Alert.OnEnterState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_alert_1a5074dc24717dd36b9c760590c39fb68b"/><section>
+    <title>OnExitState()</title>
+<indexterm><primary>OnExitState</primary><secondary>Alert</secondary></indexterm>
+<indexterm><primary>Alert</primary><secondary>OnExitState</secondary></indexterm>
+<para><computeroutput>override bool Alert.OnExitState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">FSMBaseState</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/<link linkend="__n_p_c_a_i_states_type_a_8cs">NPCAIStatesTypeA.cs</link></section>
+</section>

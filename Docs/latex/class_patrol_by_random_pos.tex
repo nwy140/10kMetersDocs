@@ -1,0 +1,179 @@
+\hypertarget{class_patrol_by_random_pos}{}\doxysection{Patrol\+By\+Random\+Pos Class Reference}
+\label{class_patrol_by_random_pos}\index{PatrolByRandomPos@{PatrolByRandomPos}}
+
+
+Inheritance diagram for Patrol\+By\+Random\+Pos\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_patrol_by_random_pos__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Patrol\+By\+Random\+Pos\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_patrol_by_random_pos__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_patrol_by_random_pos_adc519deb1865afa1a55e3eb69ecadce0}{Patrol\+By\+Random\+Pos}} (\mbox{\hyperlink{class_f_s_m_system_base}{FSMSystem\+Base}} system)
+\item 
+override bool \mbox{\hyperlink{class_patrol_by_random_pos_a126c52c12f9907a4e7693a746151b3b5}{On\+Enter\+State}} ()
+\item 
+override bool \mbox{\hyperlink{class_patrol_by_random_pos_a35f20bf96a35e62a592e92492b73e272}{On\+Exit\+State}} ()
+\item 
+override void \mbox{\hyperlink{class_patrol_by_random_pos_a15772a59fb76183c34994c59ce27fe3c}{On\+Update}} ()
+\item 
+override void \mbox{\hyperlink{class_patrol_by_random_pos_a079eb0d6a5439a0e77e9d30e86b0eb7c}{On\+Stay\+State}} ()
+\item 
+void \mbox{\hyperlink{class_patrol_by_random_pos_a6277984521445fecbb7a99c4b8b207ec}{Perform\+State\+Behaviour}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_patrol_by_random_pos_a24716daa7c10ff70c7c8161c175247ae}{waypoint\+Index}} = 0
+\item 
+\mbox{\hyperlink{class_waypoint_path}{Waypoint\+Path}} \mbox{\hyperlink{class_patrol_by_random_pos_a5c9aacbbe51ded1fc8d1678b54b7e19f}{waypoint\+Comp}}
+\item 
+bool \mbox{\hyperlink{class_patrol_by_random_pos_ae61d4c34884179d0dd12541ea0f21f22}{has\+Set\+Destination}}
+\item 
+float \mbox{\hyperlink{class_patrol_by_random_pos_a88b8db5a376199b6be18022a349e9ddc}{eta\+Next\+Waypoint}}
+\item 
+float \mbox{\hyperlink{class_patrol_by_random_pos_a5599049c9139d68f40b290a93467a7bf}{time\+Between\+Waypoints\+Min}} = 5f
+\item 
+float \mbox{\hyperlink{class_patrol_by_random_pos_a6c381c9d217ce77b5e3503369b1451a4}{time\+Between\+Waypoints\+Max}} = 10f
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_patrol_by_random_pos_adc519deb1865afa1a55e3eb69ecadce0}\label{class_patrol_by_random_pos_adc519deb1865afa1a55e3eb69ecadce0}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!PatrolByRandomPos@{PatrolByRandomPos}}
+\index{PatrolByRandomPos@{PatrolByRandomPos}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{PatrolByRandomPos()}{PatrolByRandomPos()}}
+{\footnotesize\ttfamily Patrol\+By\+Random\+Pos.\+Patrol\+By\+Random\+Pos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_s_m_system_base}{FSMSystem\+Base}}}]{system }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_patrol_by_random_pos_a126c52c12f9907a4e7693a746151b3b5}\label{class_patrol_by_random_pos_a126c52c12f9907a4e7693a746151b3b5}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!OnEnterState@{OnEnterState}}
+\index{OnEnterState@{OnEnterState}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{OnEnterState()}{OnEnterState()}}
+{\footnotesize\ttfamily override bool Patrol\+By\+Random\+Pos.\+On\+Enter\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_base_state_afce6f3cd900d48397de7d426c55aa4aa}{FSMBase\+State}}.
+
+\mbox{\Hypertarget{class_patrol_by_random_pos_a35f20bf96a35e62a592e92492b73e272}\label{class_patrol_by_random_pos_a35f20bf96a35e62a592e92492b73e272}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!OnExitState@{OnExitState}}
+\index{OnExitState@{OnExitState}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{OnExitState()}{OnExitState()}}
+{\footnotesize\ttfamily override bool Patrol\+By\+Random\+Pos.\+On\+Exit\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_base_state_aca1b00bfc69e2bf3675a9749731a08c2}{FSMBase\+State}}.
+
+\mbox{\Hypertarget{class_patrol_by_random_pos_a079eb0d6a5439a0e77e9d30e86b0eb7c}\label{class_patrol_by_random_pos_a079eb0d6a5439a0e77e9d30e86b0eb7c}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!OnStayState@{OnStayState}}
+\index{OnStayState@{OnStayState}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{OnStayState()}{OnStayState()}}
+{\footnotesize\ttfamily override void Patrol\+By\+Random\+Pos.\+On\+Stay\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_base_state_a24001f0dd8208f4a50a1d47c2503072c}{FSMBase\+State}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_patrol_by_random_pos_a079eb0d6a5439a0e77e9d30e86b0eb7c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_patrol_by_random_pos_a15772a59fb76183c34994c59ce27fe3c}\label{class_patrol_by_random_pos_a15772a59fb76183c34994c59ce27fe3c}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{OnUpdate()}{OnUpdate()}}
+{\footnotesize\ttfamily override void Patrol\+By\+Random\+Pos.\+On\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_base_state_a8bbff9bd64640de38f8748c38553f56e}{FSMBase\+State}}.
+
+\mbox{\Hypertarget{class_patrol_by_random_pos_a6277984521445fecbb7a99c4b8b207ec}\label{class_patrol_by_random_pos_a6277984521445fecbb7a99c4b8b207ec}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!PerformStateBehaviour@{PerformStateBehaviour}}
+\index{PerformStateBehaviour@{PerformStateBehaviour}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{PerformStateBehaviour()}{PerformStateBehaviour()}}
+{\footnotesize\ttfamily void Patrol\+By\+Random\+Pos.\+Perform\+State\+Behaviour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_patrol_by_random_pos_a6277984521445fecbb7a99c4b8b207ec_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_patrol_by_random_pos_a6277984521445fecbb7a99c4b8b207ec_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_patrol_by_random_pos_a88b8db5a376199b6be18022a349e9ddc}\label{class_patrol_by_random_pos_a88b8db5a376199b6be18022a349e9ddc}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!etaNextWaypoint@{etaNextWaypoint}}
+\index{etaNextWaypoint@{etaNextWaypoint}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{etaNextWaypoint}{etaNextWaypoint}}
+{\footnotesize\ttfamily float Patrol\+By\+Random\+Pos.\+eta\+Next\+Waypoint}
+
+\mbox{\Hypertarget{class_patrol_by_random_pos_ae61d4c34884179d0dd12541ea0f21f22}\label{class_patrol_by_random_pos_ae61d4c34884179d0dd12541ea0f21f22}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!hasSetDestination@{hasSetDestination}}
+\index{hasSetDestination@{hasSetDestination}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{hasSetDestination}{hasSetDestination}}
+{\footnotesize\ttfamily bool Patrol\+By\+Random\+Pos.\+has\+Set\+Destination}
+
+\mbox{\Hypertarget{class_patrol_by_random_pos_a6c381c9d217ce77b5e3503369b1451a4}\label{class_patrol_by_random_pos_a6c381c9d217ce77b5e3503369b1451a4}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!timeBetweenWaypointsMax@{timeBetweenWaypointsMax}}
+\index{timeBetweenWaypointsMax@{timeBetweenWaypointsMax}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{timeBetweenWaypointsMax}{timeBetweenWaypointsMax}}
+{\footnotesize\ttfamily float Patrol\+By\+Random\+Pos.\+time\+Between\+Waypoints\+Max = 10f}
+
+\mbox{\Hypertarget{class_patrol_by_random_pos_a5599049c9139d68f40b290a93467a7bf}\label{class_patrol_by_random_pos_a5599049c9139d68f40b290a93467a7bf}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!timeBetweenWaypointsMin@{timeBetweenWaypointsMin}}
+\index{timeBetweenWaypointsMin@{timeBetweenWaypointsMin}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{timeBetweenWaypointsMin}{timeBetweenWaypointsMin}}
+{\footnotesize\ttfamily float Patrol\+By\+Random\+Pos.\+time\+Between\+Waypoints\+Min = 5f}
+
+\mbox{\Hypertarget{class_patrol_by_random_pos_a5c9aacbbe51ded1fc8d1678b54b7e19f}\label{class_patrol_by_random_pos_a5c9aacbbe51ded1fc8d1678b54b7e19f}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!waypointComp@{waypointComp}}
+\index{waypointComp@{waypointComp}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{waypointComp}{waypointComp}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_waypoint_path}{Waypoint\+Path}} Patrol\+By\+Random\+Pos.\+waypoint\+Comp}
+
+\mbox{\Hypertarget{class_patrol_by_random_pos_a24716daa7c10ff70c7c8161c175247ae}\label{class_patrol_by_random_pos_a24716daa7c10ff70c7c8161c175247ae}} 
+\index{PatrolByRandomPos@{PatrolByRandomPos}!waypointIndex@{waypointIndex}}
+\index{waypointIndex@{waypointIndex}!PatrolByRandomPos@{PatrolByRandomPos}}
+\doxysubsubsection{\texorpdfstring{waypointIndex}{waypointIndex}}
+{\footnotesize\ttfamily int Patrol\+By\+Random\+Pos.\+waypoint\+Index = 0}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+\_\+\+\_\+\+Experimental/\+AIApproach/\+State\+Pattern/\mbox{\hyperlink{_n_p_c_a_i_states_type_a_8cs}{NPCAIStates\+Type\+A.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_grain_component" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::GrainComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; GrainModel &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_grain_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::GrainComponent::Uniforms</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_grain_component_1adb5baf66470f91776c51124f01acb3e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.GrainComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" line="13" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_grain_component_1a0550db3c0f4dbf113e22880bcf8b0d76" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEngine.PostProcessing.GrainComponent.m_GrainLookupRT</definition>
+        <argsstring></argsstring>
+        <name>m_GrainLookupRT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" line="24" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_grain_component_1a345fbfa8ab350022e79fbcae210c3210" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.GrainComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" line="26" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" bodystart="26" bodyend="30"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a33ab867d673af33b801d7e6edafaa8e7" compoundref="_graphics_utils_8cs" startline="124" endline="137">UnityEngine.PostProcessing.GraphicsUtils.Destroy</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_grain_component_1a6a1c8bf2f8d860c91df6cf012c63c27a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.GrainComponent.Prepare</definition>
+        <argsstring>(Material uberMaterial)</argsstring>
+        <name>Prepare</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732">Prepare</reimplements>
+        <param>
+          <type>Material</type>
+          <declname>uberMaterial</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" line="32" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" bodystart="32" bodyend="77"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a33ab867d673af33b801d7e6edafaa8e7" compoundref="_graphics_utils_8cs" startline="124" endline="137">UnityEngine.PostProcessing.GraphicsUtils.Destroy</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PostProcessingComponentRenderTexture&lt; GrainModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.GrainComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PostProcessingComponentRenderTexture&lt; GrainModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.GrainComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" line="3" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/GrainComponent.cs" bodystart="4" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_grain_component_1adb5baf66470f91776c51124f01acb3e5" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GrainComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_grain_component_1a0550db3c0f4dbf113e22880bcf8b0d76" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::GrainComponent</scope><name>m_GrainLookupRT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_grain_component_1a345fbfa8ab350022e79fbcae210c3210" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GrainComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_grain_component_1a6a1c8bf2f8d860c91df6cf012c63c27a" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::GrainComponent</scope><name>Prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

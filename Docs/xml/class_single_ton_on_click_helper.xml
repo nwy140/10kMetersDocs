@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_single_ton_on_click_helper" kind="class" language="C#" prot="public">
+    <compoundname>SingleTonOnClickHelper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_single_ton_on_click_helper_1ab789bcd5bd540a13d80e1f56b1707925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SingleTonOnClickHelper.AudioManPlaySFX</definition>
+        <argsstring>(string name)</argsstring>
+        <name>AudioManPlaySFX</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" line="7" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" bodystart="7" bodyend="11"/>
+        <references refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" compoundref="_audio_manager_8cs" startline="12">AudioManager.instance</references>
+        <references refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" compoundref="_audio_manager_8cs" startline="155" endline="185">AudioManager.PlaySFX</references>
+      </memberdef>
+      <memberdef kind="function" id="class_single_ton_on_click_helper_1ab8783aaa2ef78b7b60988c5c35f639b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SingleTonOnClickHelper.AudioManPlayBGM</definition>
+        <argsstring>(string name)</argsstring>
+        <name>AudioManPlayBGM</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" line="12" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" bodystart="12" bodyend="16"/>
+        <references refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" compoundref="_audio_manager_8cs" startline="12">AudioManager.instance</references>
+        <references refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" compoundref="_audio_manager_8cs" startline="187" endline="230">AudioManager.PlayBGM</references>
+      </memberdef>
+      <memberdef kind="function" id="class_single_ton_on_click_helper_1a850393aef0c4c3530a81e4b40986b4a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SingleTonOnClickHelper.AudioManResetVolumeSettingsToDefault</definition>
+        <argsstring>()</argsstring>
+        <name>AudioManResetVolumeSettingsToDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" line="18" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" bodystart="18" bodyend="22"/>
+        <references refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" compoundref="_audio_manager_8cs" startline="12">AudioManager.instance</references>
+        <references refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" compoundref="_audio_manager_8cs" startline="84" endline="90">AudioManager.ResetVolumeSettingsToDefault</references>
+      </memberdef>
+      <memberdef kind="function" id="class_single_ton_on_click_helper_1a956bff8eeb749243905053525bf4b147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SingleTonOnClickHelper.AudioManSaveVolumeSettingsPlayerPrefs</definition>
+        <argsstring>()</argsstring>
+        <name>AudioManSaveVolumeSettingsPlayerPrefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" line="23" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" bodystart="23" bodyend="27"/>
+        <references refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" compoundref="_audio_manager_8cs" startline="12">AudioManager.instance</references>
+        <references refid="class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2" compoundref="_audio_manager_8cs" startline="99" endline="108">AudioManager.SaveVolumeSettingsPlayerPrefs</references>
+      </memberdef>
+      <memberdef kind="function" id="class_single_ton_on_click_helper_1a00a8c9f0dd05698b5f4f91457a05034e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SingleTonOnClickHelper.CommonTurnOnOffObjVisibility</definition>
+        <argsstring>(GameObject obj)</argsstring>
+        <name>CommonTurnOnOffObjVisibility</name>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" line="31" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_single_ton_on_click_helper_1a86e4ecf36dec37d71d94dc7fad2a6d8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SingleTonOnClickHelper.CommonSetSelfVisibilityByObjVisibility</definition>
+        <argsstring>(GameObject obj)</argsstring>
+        <name>CommonSetSelfVisibilityByObjVisibility</name>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" line="37" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_single_ton_on_click_helper_1ac0278753686d37371dbcd56f741a89ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SingleTonOnClickHelper.CommonSetSelfVisibilityByObjVisibilityInverted</definition>
+        <argsstring>(GameObject obj)</argsstring>
+        <name>CommonSetSelfVisibilityByObjVisibilityInverted</name>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" line="42" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SingleTonOnClickHelper</label>
+        <link refid="class_single_ton_on_click_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SingleTonOnClickHelper</label>
+        <link refid="class_single_ton_on_click_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" line="4" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs" bodystart="5" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_single_ton_on_click_helper_1ab8783aaa2ef78b7b60988c5c35f639b3" prot="public" virt="non-virtual"><scope>SingleTonOnClickHelper</scope><name>AudioManPlayBGM</name></member>
+      <member refid="class_single_ton_on_click_helper_1ab789bcd5bd540a13d80e1f56b1707925" prot="public" virt="non-virtual"><scope>SingleTonOnClickHelper</scope><name>AudioManPlaySFX</name></member>
+      <member refid="class_single_ton_on_click_helper_1a850393aef0c4c3530a81e4b40986b4a2" prot="public" virt="non-virtual"><scope>SingleTonOnClickHelper</scope><name>AudioManResetVolumeSettingsToDefault</name></member>
+      <member refid="class_single_ton_on_click_helper_1a956bff8eeb749243905053525bf4b147" prot="public" virt="non-virtual"><scope>SingleTonOnClickHelper</scope><name>AudioManSaveVolumeSettingsPlayerPrefs</name></member>
+      <member refid="class_single_ton_on_click_helper_1a86e4ecf36dec37d71d94dc7fad2a6d8a" prot="public" virt="non-virtual"><scope>SingleTonOnClickHelper</scope><name>CommonSetSelfVisibilityByObjVisibility</name></member>
+      <member refid="class_single_ton_on_click_helper_1ac0278753686d37371dbcd56f741a89ec" prot="public" virt="non-virtual"><scope>SingleTonOnClickHelper</scope><name>CommonSetSelfVisibilityByObjVisibilityInverted</name></member>
+      <member refid="class_single_ton_on_click_helper_1a00a8c9f0dd05698b5f4f91457a05034e" prot="public" virt="non-virtual"><scope>SingleTonOnClickHelper</scope><name>CommonTurnOnOffObjVisibility</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

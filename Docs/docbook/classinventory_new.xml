@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classinventory_new" xml:lang="en-US">
+<title>inventoryNew Class Reference</title>
+<indexterm><primary>inventoryNew</primary></indexterm>
+Inheritance diagram for inventoryNew:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classinventory_new__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for inventoryNew:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classinventory_new__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_classinventory_new_1afdef58cdfdb139e9ba9c5d47ef5a7eaf">addItem</link> (<link linkend="_classitem_new">itemNew</link> <link linkend="_classitem">item</link>)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_classinventory_new_1aa2b63c67069cc81cea458ca7bf47210b">removeItem</link> (<link linkend="_classitem">item</link> <link linkend="_classitem">item</link>)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_classinventory_new_1abd48c99551acf6f114ae48e8170e84be">IsFull</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para>System.Action&lt; <link linkend="_classitem_new">itemNew</link> &gt; <link linkend="_classinventory_new_1a0c0caf976a16d5672d653698add50527">OnItemRightClickEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classinventory_new_1afdef58cdfdb139e9ba9c5d47ef5a7eaf"/><section>
+    <title>addItem()</title>
+<indexterm><primary>addItem</primary><secondary>inventoryNew</secondary></indexterm>
+<indexterm><primary>inventoryNew</primary><secondary>addItem</secondary></indexterm>
+<para><computeroutput>bool inventoryNew.addItem (<link linkend="_classitem_new">itemNew</link> item)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classinventory_new_afdef58cdfdb139e9ba9c5d47ef5a7eaf_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classinventory_new_1abd48c99551acf6f114ae48e8170e84be"/><section>
+    <title>IsFull()</title>
+<indexterm><primary>IsFull</primary><secondary>inventoryNew</secondary></indexterm>
+<indexterm><primary>inventoryNew</primary><secondary>IsFull</secondary></indexterm>
+<para><computeroutput>bool inventoryNew.IsFull ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classinventory_new_abd48c99551acf6f114ae48e8170e84be_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classinventory_new_1aa2b63c67069cc81cea458ca7bf47210b"/><section>
+    <title>removeItem()</title>
+<indexterm><primary>removeItem</primary><secondary>inventoryNew</secondary></indexterm>
+<indexterm><primary>inventoryNew</primary><secondary>removeItem</secondary></indexterm>
+<para><computeroutput>bool inventoryNew.removeItem (<link linkend="_classitem">item</link> item)</computeroutput></para></section>
+</section>
+<section>
+<title>Event Documentation</title>
+<anchor xml:id="_classinventory_new_1a0c0caf976a16d5672d653698add50527"/><section>
+    <title>OnItemRightClickEvent</title>
+<indexterm><primary>OnItemRightClickEvent</primary><secondary>inventoryNew</secondary></indexterm>
+<indexterm><primary>inventoryNew</primary><secondary>OnItemRightClickEvent</secondary></indexterm>
+<para><computeroutput>System.Action&lt;<link linkend="_classitem_new">itemNew</link>&gt; inventoryNew.OnItemRightClickEvent</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/<link linkend="_inventory_new_8cs">inventoryNew.cs</link></section>
+</section>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_outpost_choices_1_1_save_object" kind="class" language="C#" prot="private">
+    <compoundname>OutpostChoices::SaveObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_outpost_choices_1_1_save_object_1a72a914e745fc6659a1bd6bbfcbe02969" prot="public" static="no" mutable="no">
+        <type><ref refid="class_turbine" kindref="compound">Turbine</ref></type>
+        <definition>Turbine OutpostChoices.SaveObject.turbineUpgrade</definition>
+        <argsstring></argsstring>
+        <name>turbineUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="104" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1_1_save_object_1a11541fdf7cafbe55d1781109c148575e" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="classitem" kindref="compound">item</ref> &gt;</type>
+        <definition>List&lt;item&gt; OutpostChoices.SaveObject.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="105" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>OutpostChoices.SaveObject</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+turbineUpgrade</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>Turbine</label>
+        <link refid="class_turbine"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="102" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="103" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_outpost_choices_1_1_save_object_1a11541fdf7cafbe55d1781109c148575e" prot="public" virt="non-virtual"><scope>OutpostChoices::SaveObject</scope><name>items</name></member>
+      <member refid="class_outpost_choices_1_1_save_object_1a72a914e745fc6659a1bd6bbfcbe02969" prot="public" virt="non-virtual"><scope>OutpostChoices::SaveObject</scope><name>turbineUpgrade</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

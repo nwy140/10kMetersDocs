@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_intro_choice" xml:lang="en-US">
+<title>IntroChoice Class Reference</title>
+<indexterm><primary>IntroChoice</primary></indexterm>
+Inheritance diagram for IntroChoice:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_intro_choice__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for IntroChoice:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_intro_choice__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_intro_choice_1aac3f9006265a01dec5ab488b9b9d7de4">introPanel</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_intro_choice_1ae04ef9053dfad8d302071dc7083ac833">choicePanel</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_intro_choice_1ae8cdfd4378d4ce86c005512e67398f38">scientistTalk</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_intro_choice_1a5726d02b7dc6bb574fe6bec9361f5c0f">scientistIdle</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_intro_choice_1af7d4bd6c18c828e74c79feaa4aa4b8cb">index</link> = 0</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_intro_choice_1a5b60e710fe3732383240d0061f5029eb">noticeToAllTechs</link> = &quot;Leave the last element in every dialogue boxes empty or there&apos;ll be an <link linkend="_class_intro_choice_1af7d4bd6c18c828e74c79feaa4aa4b8cb">index</link> boundary error.&quot;</para>
+</listitem>
+            <listitem><para>string[] <link linkend="_class_intro_choice_1aced1c9cf876281458287edd8de7aa704">brief</link></para>
+</listitem>
+            <listitem><para>string[] <link linkend="_class_intro_choice_1acbb9438d2edf5875211f46c4066743e9">endBriefing</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_introduction">Introduction</link> <link linkend="_class_intro_choice_1ad8ca59fe00d535a99440a508f8efef6a">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_intro_choice_1aced1c9cf876281458287edd8de7aa704"/><section>
+    <title>brief</title>
+<indexterm><primary>brief</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>brief</secondary></indexterm>
+<para><computeroutput>string [] IntroChoice.brief</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;<emphasis role="keyword">new</emphasis>&#32;<emphasis role="keywordtype">string</emphasis>[]
+&#32;&#32;&#32;&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;The&#32;way&#32;Liam’s&#32;eyes&#32;squint&#32;at&#32;you&#32;is&#32;almost&#32;imperceptible,&#32;but&#32;you&#32;catch&#32;it&#32;regardless.&#32;It&#32;makes&#32;you&#32;flinch&#32;a&#32;little.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Alright,&#32;fine.&#32;Pay&#32;attention&#32;this&#32;time.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;As&#32;you&#32;know,&#32;the&#32;USSR&#32;has&#32;been&#32;making&#32;rapid&#32;advancements&#32;on&#32;their&#32;nautical&#32;travel&#32;technology.&#32;&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Word&#32;has&#32;it&#32;that&#32;they’re&#32;close&#32;to&#32;reaching&#32;the&#32;bottom.&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;His&#32;lips&#32;form&#32;into&#32;a&#32;thin&#32;line.&#32;You&#32;can&#32;hear&#32;the&#32;disdain&#32;behind&#32;his&#32;words.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Naturally,&#32;that&#32;means&#32;the&#32;Cold&#32;War&#32;is&#32;drawing&#32;to&#32;a&#32;close&#32;very&#32;soon,&#32;with&#32;the&#32;USSR&#32;coming&#32;out&#32;as&#32;the&#32;victors.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Which&#32;is,&#32;well,&#32;not&#32;very&#32;ideal&#32;for&#32;us,&#32;no.&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;That’s&#32;where&#32;you&#32;come&#32;in.&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Liam&#32;inclines&#32;his&#32;head&#32;at&#32;you.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;You’ll&#32;be&#32;helping&#32;us&#32;gather&#32;live&#32;specimens&#32;for&#32;our&#32;research,&#32;hopefully&#32;efficiently&#32;enough,&#32;to&#32;let&#32;us&#32;better&#32;equip&#32;the&#32;submarine&#32;for&#32;deeper&#32;diving.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;His&#32;hand&#32;gestures&#32;towards&#32;the&#32;door&#32;that&#32;leads&#32;to&#32;the&#32;submarine&#32;docking&#32;station.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;And&#32;also&#32;do&#32;the&#32;diving&#32;to&#32;the&#32;bottom&#32;of&#32;the&#32;ocean,&#32;preferably&#32;before&#32;the&#32;USSR&#32;does.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;He&#32;finishes,&#32;and&#32;folds&#32;his&#32;arms&#32;together.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;We&#32;don’t&#32;know&#32;how&#32;long&#32;we&#32;have&#32;left,&#32;exactly,&#32;but&#32;we&#32;know&#32;it’s&#32;soon.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Liam&#32;takes&#32;out&#32;a&#32;clipboard&#32;from&#32;his&#32;coat&#32;and&#32;writes&#32;something&#32;down.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;We’ll&#32;have&#32;to&#32;act&#32;quickly,&#32;especially&#32;when&#32;we&#32;can’t&#32;know&#32;when&#32;it’ll&#32;happen.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Let’s&#32;get&#32;you&#32;acquainted&#32;with&#32;the&#32;submarine,&#32;first.&#32;It’s&#32;a&#32;little…&#32;different&#32;from&#32;the&#32;conventional&#32;military&#32;models.&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;You&#32;trail&#32;behind&#32;Liam&#32;as&#32;he&#32;leads&#32;you&#32;to&#32;the&#32;submarine,&#32;visibly&#32;vibrating&#32;in&#32;excitement.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;&#32;&quot;</emphasis>
+&#32;&#32;&#32;&#32;}
+</programlisting></section>
+<anchor xml:id="_class_intro_choice_1ae04ef9053dfad8d302071dc7083ac833"/><section>
+    <title>choicePanel</title>
+<indexterm><primary>choicePanel</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>choicePanel</secondary></indexterm>
+<para><computeroutput>GameObject IntroChoice.choicePanel</computeroutput></para></section>
+<anchor xml:id="_class_intro_choice_1acbb9438d2edf5875211f46c4066743e9"/><section>
+    <title>endBriefing</title>
+<indexterm><primary>endBriefing</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>endBriefing</secondary></indexterm>
+<para><computeroutput>string [] IntroChoice.endBriefing</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;<emphasis role="keyword">new</emphasis>&#32;<emphasis role="keywordtype">string</emphasis>[]
+&#32;&#32;&#32;&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Good,&#32;good.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Satisfied,&#32;he&#32;nods.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;We&#32;don’t&#32;know&#32;how&#32;long&#32;we&#32;have&#32;left,&#32;exactly,&#32;but&#32;we&#32;know&#32;it’s&#32;soon.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Liam&#32;takes&#32;out&#32;a&#32;clipboard&#32;from&#32;his&#32;coat&#32;and&#32;writes&#32;something&#32;down.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;We’ll&#32;have&#32;to&#32;act&#32;quickly,&#32;especially&#32;when&#32;we&#32;can’t&#32;know&#32;when&#32;it’ll&#32;happen.&#32;:Liam&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;Let’s&#32;get&#32;you&#32;acquainted&#32;with&#32;the&#32;submarine,&#32;first.&#32;It’s&#32;a&#32;little…&#32;different&#32;from&#32;the&#32;conventional&#32;military&#32;models.&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;You&#32;trail&#32;behind&#32;Liam&#32;as&#32;he&#32;leads&#32;you&#32;to&#32;the&#32;submarine,&#32;visibly&#32;vibrating&#32;in&#32;excitement.&#32;:You&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;&#32;&quot;</emphasis>
+&#32;&#32;&#32;&#32;}
+</programlisting></section>
+<anchor xml:id="_class_intro_choice_1af7d4bd6c18c828e74c79feaa4aa4b8cb"/><section>
+    <title>index</title>
+<indexterm><primary>index</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>int IntroChoice.index = 0</computeroutput></para></section>
+<anchor xml:id="_class_intro_choice_1ad8ca59fe00d535a99440a508f8efef6a"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_introduction">Introduction</link> IntroChoice.instance<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_intro_choice_1aac3f9006265a01dec5ab488b9b9d7de4"/><section>
+    <title>introPanel</title>
+<indexterm><primary>introPanel</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>introPanel</secondary></indexterm>
+<para><computeroutput>GameObject IntroChoice.introPanel</computeroutput></para></section>
+<anchor xml:id="_class_intro_choice_1a5b60e710fe3732383240d0061f5029eb"/><section>
+    <title>noticeToAllTechs</title>
+<indexterm><primary>noticeToAllTechs</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>noticeToAllTechs</secondary></indexterm>
+<para><computeroutput>string IntroChoice.noticeToAllTechs = &quot;Leave the last element in every dialogue boxes empty or there&apos;ll be an <link linkend="_class_intro_choice_1af7d4bd6c18c828e74c79feaa4aa4b8cb">index</link> boundary error.&quot;</computeroutput></para></section>
+<anchor xml:id="_class_intro_choice_1a5726d02b7dc6bb574fe6bec9361f5c0f"/><section>
+    <title>scientistIdle</title>
+<indexterm><primary>scientistIdle</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>scientistIdle</secondary></indexterm>
+<para><computeroutput>GameObject IntroChoice.scientistIdle</computeroutput></para></section>
+<anchor xml:id="_class_intro_choice_1ae8cdfd4378d4ce86c005512e67398f38"/><section>
+    <title>scientistTalk</title>
+<indexterm><primary>scientistTalk</primary><secondary>IntroChoice</secondary></indexterm>
+<indexterm><primary>IntroChoice</primary><secondary>scientistTalk</secondary></indexterm>
+<para><computeroutput>GameObject IntroChoice.scientistTalk</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/<link linkend="__intro_choice_8cs">IntroChoice.cs</link></section>
+</section>

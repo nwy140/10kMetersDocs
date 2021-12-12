@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_button_remap_screen_controller" kind="class" language="C#" prot="public">
+    <compoundname>ButtonRemapScreenController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_button_remap_screen_controller_1aa414ac3b7e7c0b495cc909a7d4606154" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button ButtonRemapScreenController.okButton</definition>
+        <argsstring></argsstring>
+        <name>okButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" line="8" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_remap_screen_controller_1a206fb50c9f03217b607198baec5aa66a" prot="public" static="no" mutable="no">
+        <type>InputActionAsset</type>
+        <definition>InputActionAsset ButtonRemapScreenController.tanksInputActions</definition>
+        <argsstring></argsstring>
+        <name>tanksInputActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" line="9" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_button_remap_screen_controller_1ad4519521229c95733093134b4a3e5b2a" prot="private" static="no" mutable="no">
+        <type>InputActionMap</type>
+        <definition>InputActionMap ButtonRemapScreenController.playerActionMap</definition>
+        <argsstring></argsstring>
+        <name>playerActionMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" line="10" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_button_remap_screen_controller_1abed33ebffe4ae25fdf6715956a144856" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonRemapScreenController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" line="12" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_remap_screen_controller_1ad4daafee207829480093e8a547e8da58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonRemapScreenController.OkButtonClicked</definition>
+        <argsstring>()</argsstring>
+        <name>OkButtonClicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" line="19" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ButtonRemapScreenController</label>
+        <link refid="class_button_remap_screen_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ButtonRemapScreenController</label>
+        <link refid="class_button_remap_screen_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ButtonRemapScreenController.cs" bodystart="7" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_button_remap_screen_controller_1aa414ac3b7e7c0b495cc909a7d4606154" prot="public" virt="non-virtual"><scope>ButtonRemapScreenController</scope><name>okButton</name></member>
+      <member refid="class_button_remap_screen_controller_1ad4daafee207829480093e8a547e8da58" prot="private" virt="non-virtual"><scope>ButtonRemapScreenController</scope><name>OkButtonClicked</name></member>
+      <member refid="class_button_remap_screen_controller_1ad4519521229c95733093134b4a3e5b2a" prot="private" virt="non-virtual"><scope>ButtonRemapScreenController</scope><name>playerActionMap</name></member>
+      <member refid="class_button_remap_screen_controller_1abed33ebffe4ae25fdf6715956a144856" prot="private" virt="non-virtual"><scope>ButtonRemapScreenController</scope><name>Start</name></member>
+      <member refid="class_button_remap_screen_controller_1a206fb50c9f03217b607198baec5aa66a" prot="public" virt="non-virtual"><scope>ButtonRemapScreenController</scope><name>tanksInputActions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

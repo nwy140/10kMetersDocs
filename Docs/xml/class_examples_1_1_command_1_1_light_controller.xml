@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_examples_1_1_command_1_1_light_controller" kind="class" language="C#" prot="public">
+    <compoundname>Examples::Command::LightController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_controller_1a0890e8ec1defbb1a49ffea0f30df77b6" prot="private" static="no" mutable="no">
+        <type>Light</type>
+        <definition>Light Examples.Command.LightController._light</definition>
+        <argsstring></argsstring>
+        <name>_light</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="15" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_controller_1abda713243c216b059e0ab0f23d7f250c" prot="private" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode Examples.Command.LightController._toggleKey</definition>
+        <argsstring></argsstring>
+        <name>_toggleKey</name>
+        <initializer>= KeyCode.Alpha1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_controller_1a1941a115299d3f890f1496b60bcd14a1" prot="private" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode Examples.Command.LightController._increaseIntensityKey</definition>
+        <argsstring></argsstring>
+        <name>_increaseIntensityKey</name>
+        <initializer>= KeyCode.Alpha2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="19" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_controller_1a4317584c3324d8936588132b59ab5f2a" prot="private" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode Examples.Command.LightController._decreaseIntensityKey</definition>
+        <argsstring></argsstring>
+        <name>_decreaseIntensityKey</name>
+        <initializer>= KeyCode.Alpha3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="20" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_controller_1a1d5f50428ab2e193de9cba1a2c22ad27" prot="private" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode Examples.Command.LightController._randomColorKey</definition>
+        <argsstring></argsstring>
+        <name>_randomColorKey</name>
+        <initializer>= KeyCode.Alpha4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_controller_1aecb97cbc3a1c4a5247d6aa612df1ece9" prot="private" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode Examples.Command.LightController._undoCommandKey</definition>
+        <argsstring></argsstring>
+        <name>_undoCommandKey</name>
+        <initializer>= KeyCode.Z</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="22" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_controller_1a619c445bf7a771c156cc86a3d24dc28d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_command_stack" kindref="compound">CommandStack</ref></type>
+        <definition>CommandStack Examples.Command.LightController._commandStack</definition>
+        <argsstring></argsstring>
+        <name>_commandStack</name>
+        <initializer>= new <ref refid="class_command_stack" kindref="compound">CommandStack</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="24" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_controller_1a582500467f13d629c0240f7bd5afa90e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="26" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="26" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_controller_1a375a326194c06a08d1ddcca74fd97d12" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightController.DetectToggleInput</definition>
+        <argsstring>()</argsstring>
+        <name>DetectToggleInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="36" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_controller_1ab861f339ea4efc1a245ed793f3d41573" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightController.DetectIncreaseIntensityInput</definition>
+        <argsstring>()</argsstring>
+        <name>DetectIncreaseIntensityInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="45" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_controller_1aa15a8a2d1cfa4a38aa083ddb3ec07a03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightController.DetectDecreaseIntensityInput</definition>
+        <argsstring>()</argsstring>
+        <name>DetectDecreaseIntensityInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="54" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_controller_1ad931954b43d8f0c88985e3b4c135053a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightController.DetectRandomColorInput</definition>
+        <argsstring>()</argsstring>
+        <name>DetectRandomColorInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="63" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="63" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_controller_1a51934845ce814e0f2823adbf6e8d3fda" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightController.DetectUndoInput</definition>
+        <argsstring>()</argsstring>
+        <name>DetectUndoInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="73" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="73" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Examples.Command.LightController</label>
+        <link refid="class_examples_1_1_command_1_1_light_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Examples.Command.LightController</label>
+        <link refid="class_examples_1_1_command_1_1_light_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" line="12" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/LightController.cs" bodystart="13" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1a619c445bf7a771c156cc86a3d24dc28d" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>_commandStack</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1a4317584c3324d8936588132b59ab5f2a" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>_decreaseIntensityKey</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1a1941a115299d3f890f1496b60bcd14a1" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>_increaseIntensityKey</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1a0890e8ec1defbb1a49ffea0f30df77b6" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>_light</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1a1d5f50428ab2e193de9cba1a2c22ad27" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>_randomColorKey</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1abda713243c216b059e0ab0f23d7f250c" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>_toggleKey</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1aecb97cbc3a1c4a5247d6aa612df1ece9" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>_undoCommandKey</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1aa15a8a2d1cfa4a38aa083ddb3ec07a03" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>DetectDecreaseIntensityInput</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1ab861f339ea4efc1a245ed793f3d41573" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>DetectIncreaseIntensityInput</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1ad931954b43d8f0c88985e3b4c135053a" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>DetectRandomColorInput</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1a375a326194c06a08d1ddcca74fd97d12" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>DetectToggleInput</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1a51934845ce814e0f2823adbf6e8d3fda" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>DetectUndoInput</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_controller_1a582500467f13d629c0240f7bd5afa90e" prot="private" virt="non-virtual"><scope>Examples::Command::LightController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

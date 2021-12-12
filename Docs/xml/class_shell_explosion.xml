@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_shell_explosion" kind="class" language="C#" prot="public">
+    <compoundname>ShellExplosion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shell_explosion_1a7836a8802592e5b16960749293b7e8a1" prot="public" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask ShellExplosion.m_TankMask</definition>
+        <argsstring></argsstring>
+        <name>m_TankMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="6" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shell_explosion_1adfe43cddc71e351e3a44cc6a0e626de4" prot="public" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem ShellExplosion.m_ExplosionParticles</definition>
+        <argsstring></argsstring>
+        <name>m_ExplosionParticles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="7" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shell_explosion_1a71d680ca98a5c785614d96677dcc1017" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource ShellExplosion.m_ExplosionAudio</definition>
+        <argsstring></argsstring>
+        <name>m_ExplosionAudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="8" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shell_explosion_1a05ff4d14e0e711cfa6bdec9335d58256" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShellExplosion.m_MaxDamage</definition>
+        <argsstring></argsstring>
+        <name>m_MaxDamage</name>
+        <initializer>= 100f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shell_explosion_1aedf8145b8210b8be0bd077eab2adb184" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShellExplosion.m_ExplosionForce</definition>
+        <argsstring></argsstring>
+        <name>m_ExplosionForce</name>
+        <initializer>= 1000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shell_explosion_1a6a3f3ce0baaa7342c0a455f0d85a5cae" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShellExplosion.m_MaxLifeTime</definition>
+        <argsstring></argsstring>
+        <name>m_MaxLifeTime</name>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shell_explosion_1a17648fa0f429b6dab061971065fe0344" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShellExplosion.m_ExplosionRadius</definition>
+        <argsstring></argsstring>
+        <name>m_ExplosionRadius</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_shell_explosion_1ac2df783af898d6494db508d1eccb5bfb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShellExplosion.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shell_explosion_1a1297866f42355a1b15a8617a3b9994b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShellExplosion.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="21" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shell_explosion_1a36e302e5a41075452d8d8389884ad8fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ShellExplosion.CalculateDamage</definition>
+        <argsstring>(Vector3 targetPosition)</argsstring>
+        <name>CalculateDamage</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="70" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="70" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShellExplosion</label>
+        <link refid="class_shell_explosion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShellExplosion</label>
+        <link refid="class_shell_explosion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" line="4" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/ShellExplosion.cs" bodystart="5" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_shell_explosion_1a36e302e5a41075452d8d8389884ad8fa" prot="private" virt="non-virtual"><scope>ShellExplosion</scope><name>CalculateDamage</name></member>
+      <member refid="class_shell_explosion_1a71d680ca98a5c785614d96677dcc1017" prot="public" virt="non-virtual"><scope>ShellExplosion</scope><name>m_ExplosionAudio</name></member>
+      <member refid="class_shell_explosion_1aedf8145b8210b8be0bd077eab2adb184" prot="public" virt="non-virtual"><scope>ShellExplosion</scope><name>m_ExplosionForce</name></member>
+      <member refid="class_shell_explosion_1adfe43cddc71e351e3a44cc6a0e626de4" prot="public" virt="non-virtual"><scope>ShellExplosion</scope><name>m_ExplosionParticles</name></member>
+      <member refid="class_shell_explosion_1a17648fa0f429b6dab061971065fe0344" prot="public" virt="non-virtual"><scope>ShellExplosion</scope><name>m_ExplosionRadius</name></member>
+      <member refid="class_shell_explosion_1a05ff4d14e0e711cfa6bdec9335d58256" prot="public" virt="non-virtual"><scope>ShellExplosion</scope><name>m_MaxDamage</name></member>
+      <member refid="class_shell_explosion_1a6a3f3ce0baaa7342c0a455f0d85a5cae" prot="public" virt="non-virtual"><scope>ShellExplosion</scope><name>m_MaxLifeTime</name></member>
+      <member refid="class_shell_explosion_1a7836a8802592e5b16960749293b7e8a1" prot="public" virt="non-virtual"><scope>ShellExplosion</scope><name>m_TankMask</name></member>
+      <member refid="class_shell_explosion_1a1297866f42355a1b15a8617a3b9994b1" prot="private" virt="non-virtual"><scope>ShellExplosion</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_shell_explosion_1ac2df783af898d6494db508d1eccb5bfb" prot="private" virt="non-virtual"><scope>ShellExplosion</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

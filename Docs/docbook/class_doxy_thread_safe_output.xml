@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_doxy_thread_safe_output" xml:lang="en-US">
+<title>DoxyThreadSafeOutput Class Reference</title>
+<indexterm><primary>DoxyThreadSafeOutput</primary></indexterm>
+<para>
+
+<para>This class encapsulates the data output by Doxygen so it can be shared with Unity in a thread share way. </para>
+ 
+</para>
+Collaboration diagram for DoxyThreadSafeOutput:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_thread_safe_output__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_doxy_thread_safe_output_1a84958c6ebe8de10ced504bf5f2fde015">ReadLine</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_doxy_thread_safe_output_1a97e2149569e2bb5e749851daa2781423">SetFinished</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_doxy_thread_safe_output_1ad08186c77f145bc3cb1ddb50259ef589">SetStarted</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_doxy_thread_safe_output_1afc9e32fd7203a5c6c74ee914241c3e79">isStarted</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_doxy_thread_safe_output_1a676622488e7bec792b66693fc1f20e73">isFinished</link> ()</para>
+</listitem>
+            <listitem><para>List&lt; string &gt; <link linkend="_class_doxy_thread_safe_output_1a962a29a15fce0620bb0b338e96e62989">ReadFullLog</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_doxy_thread_safe_output_1aa831eccd758e59c835fd3486c39a4a8c">WriteFullLog</link> (List&lt; string &gt; newLog)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_doxy_thread_safe_output_1ab2083e9efa17a35c72d3c2c784ef6800">WriteLine</link> (string newOutput)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class encapsulates the data output by Doxygen so it can be shared with Unity in a thread share way. </para>
+
+
+
+<para>
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_doxy_thread_safe_output_1a676622488e7bec792b66693fc1f20e73"/><section>
+    <title>isFinished()</title>
+<indexterm><primary>isFinished</primary><secondary>DoxyThreadSafeOutput</secondary></indexterm>
+<indexterm><primary>DoxyThreadSafeOutput</primary><secondary>isFinished</secondary></indexterm>
+<para><computeroutput>bool DoxyThreadSafeOutput.isFinished ( )</computeroutput></para></section>
+<anchor xml:id="_class_doxy_thread_safe_output_1afc9e32fd7203a5c6c74ee914241c3e79"/><section>
+    <title>isStarted()</title>
+<indexterm><primary>isStarted</primary><secondary>DoxyThreadSafeOutput</secondary></indexterm>
+<indexterm><primary>DoxyThreadSafeOutput</primary><secondary>isStarted</secondary></indexterm>
+<para><computeroutput>bool DoxyThreadSafeOutput.isStarted ( )</computeroutput></para></section>
+<anchor xml:id="_class_doxy_thread_safe_output_1a962a29a15fce0620bb0b338e96e62989"/><section>
+    <title>ReadFullLog()</title>
+<indexterm><primary>ReadFullLog</primary><secondary>DoxyThreadSafeOutput</secondary></indexterm>
+<indexterm><primary>DoxyThreadSafeOutput</primary><secondary>ReadFullLog</secondary></indexterm>
+<para><computeroutput>List&lt; string &gt; DoxyThreadSafeOutput.ReadFullLog ( )</computeroutput></para></section>
+<anchor xml:id="_class_doxy_thread_safe_output_1a84958c6ebe8de10ced504bf5f2fde015"/><section>
+    <title>ReadLine()</title>
+<indexterm><primary>ReadLine</primary><secondary>DoxyThreadSafeOutput</secondary></indexterm>
+<indexterm><primary>DoxyThreadSafeOutput</primary><secondary>ReadLine</secondary></indexterm>
+<para><computeroutput>string DoxyThreadSafeOutput.ReadLine ( )</computeroutput></para></section>
+<anchor xml:id="_class_doxy_thread_safe_output_1a97e2149569e2bb5e749851daa2781423"/><section>
+    <title>SetFinished()</title>
+<indexterm><primary>SetFinished</primary><secondary>DoxyThreadSafeOutput</secondary></indexterm>
+<indexterm><primary>DoxyThreadSafeOutput</primary><secondary>SetFinished</secondary></indexterm>
+<para><computeroutput>void DoxyThreadSafeOutput.SetFinished ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_thread_safe_output_a97e2149569e2bb5e749851daa2781423_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_doxy_thread_safe_output_1ad08186c77f145bc3cb1ddb50259ef589"/><section>
+    <title>SetStarted()</title>
+<indexterm><primary>SetStarted</primary><secondary>DoxyThreadSafeOutput</secondary></indexterm>
+<indexterm><primary>DoxyThreadSafeOutput</primary><secondary>SetStarted</secondary></indexterm>
+<para><computeroutput>void DoxyThreadSafeOutput.SetStarted ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_thread_safe_output_ad08186c77f145bc3cb1ddb50259ef589_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_doxy_thread_safe_output_1aa831eccd758e59c835fd3486c39a4a8c"/><section>
+    <title>WriteFullLog()</title>
+<indexterm><primary>WriteFullLog</primary><secondary>DoxyThreadSafeOutput</secondary></indexterm>
+<indexterm><primary>DoxyThreadSafeOutput</primary><secondary>WriteFullLog</secondary></indexterm>
+<para><computeroutput>void DoxyThreadSafeOutput.WriteFullLog (List&lt; string &gt; newLog)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_thread_safe_output_aa831eccd758e59c835fd3486c39a4a8c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_doxy_thread_safe_output_1ab2083e9efa17a35c72d3c2c784ef6800"/><section>
+    <title>WriteLine()</title>
+<indexterm><primary>WriteLine</primary><secondary>DoxyThreadSafeOutput</secondary></indexterm>
+<indexterm><primary>DoxyThreadSafeOutput</primary><secondary>WriteLine</secondary></indexterm>
+<para><computeroutput>void DoxyThreadSafeOutput.WriteLine (string newOutput)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_thread_safe_output_ab2083e9efa17a35c72d3c2c784ef6800_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/<link linkend="__doxygen_window_8cs">DoxygenWindow.cs</link></section>
+</section>

@@ -1,0 +1,113 @@
+.TH "FSMBaseState" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FSMBaseState
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits ScriptableObject\&.
+.PP
+Inherited by \fBAlert\fP, \fBChase\fP, \fBDefaultState\fP, \fBFlee\fP, \fBPatrolByRandomPos\fP, and \fBPatrolByWaypoints\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBFSMBaseState\fP (\fBFSMSystemBase\fP system)"
+.br
+.ti -1c
+.RI "virtual bool \fBOnEnterState\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBOnUpdate\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBOnStayState\fP ()"
+.br
+.ti -1c
+.RI "virtual bool \fBOnExitState\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnDisable\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBFSMExecutionState\fP \fB_ExecutionState\fP"
+.br
+.ti -1c
+.RI "float \fBOnEnterTimeStamp\fP"
+.br
+.ti -1c
+.RI "float \fBElapsedTime\fP"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "readonly \fBFSMSystemBase\fP \fB_system\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "virtual string \fBaName\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "virtual \fBFSMExecutionState\fP \fBExecutionState\fP\fC [getset]\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FSMBaseState\&.FSMBaseState (\fBFSMSystemBase\fP system)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void FSMBaseState\&.OnDisable ()"
+
+.SS "void FSMBaseState\&.OnEnable ()"
+
+.SS "virtual bool FSMBaseState\&.OnEnterState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented in \fBDefaultState\fP, \fBAlert\fP, \fBChase\fP, \fBFlee\fP, \fBPatrolByRandomPos\fP, and \fBPatrolByWaypoints\fP\&.
+.SS "virtual bool FSMBaseState\&.OnExitState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented in \fBDefaultState\fP, \fBAlert\fP, \fBChase\fP, \fBFlee\fP, \fBPatrolByRandomPos\fP, and \fBPatrolByWaypoints\fP\&.
+.SS "virtual void FSMBaseState\&.OnStayState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented in \fBChase\fP, \fBFlee\fP, \fBPatrolByRandomPos\fP, and \fBPatrolByWaypoints\fP\&.
+.SS "virtual void FSMBaseState\&.OnUpdate ()\fC [virtual]\fP"
+
+.PP
+Reimplemented in \fBDefaultState\fP, \fBPatrolByRandomPos\fP, and \fBPatrolByWaypoints\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBFSMExecutionState\fP FSMBaseState\&._ExecutionState"
+
+.SS "readonly \fBFSMSystemBase\fP FSMBaseState\&._system\fC [protected]\fP"
+
+.SS "float FSMBaseState\&.ElapsedTime"
+
+.SS "float FSMBaseState\&.OnEnterTimeStamp"
+
+.SH "Property Documentation"
+.PP 
+.SS "virtual string FSMBaseState\&.aName\fC [get]\fP, \fC [set]\fP"
+
+.SS "virtual \fBFSMExecutionState\fP FSMBaseState\&.ExecutionState\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

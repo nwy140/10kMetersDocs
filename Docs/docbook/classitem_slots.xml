@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classitem_slots" xml:lang="en-US">
+<title>itemSlots Class Reference</title>
+<indexterm><primary>itemSlots</primary></indexterm>
+Inheritance diagram for itemSlots:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classitem_slots__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for itemSlots:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classitem_slots__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual bool <link linkend="_classitem_slots_1a09cf38829a1752070590e1729ef4eab5">CanReceiveItem</link> (<link linkend="_classitem">item</link> <link linkend="_classitem">item</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classitem_slots_1a3c6c0eb5d5b4cb3777102ce5e274dd3a">OnPointerClick</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classitem_slots_1a653c8e8dc294ae1a48adb85b6955f1da">OnPointerEnter</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classitem_slots_1a2281a1b1996fa5c3f99f9db18246dbdd">OnPointerExit</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classitem_slots_1acea6866a6e07207ab1ba8bf84cdaadd0">OnBeginDrag</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classitem_slots_1ae023cf102b335381d287f0cae7bdeb87">OnEndDrag</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classitem_slots_1aa9c455bb0718e54098c8663354bd2feb">OnDrag</link> (PointerEventData eventData)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classitem_slots_1a22635e15ca6c38e205c6ab478427164d">OnDrop</link> (PointerEventData eventData)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Image <link linkend="_classitem_slots_1a432ea09adb085d97ce8d8f5566722152">slotBorder</link></para>
+</listitem>
+            <listitem><para><link linkend="_classitem">item</link> <link linkend="_classitem_slots_1ac19f70ef5c20d1539daeb027c1cbfffe">_item</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classitem">item</link> <link linkend="_classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d">Item</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9">Amount</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_classitem_slots_1acee73e9bcf9cdeb868c26f18540b9d3b">OnPointerEnterEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_classitem_slots_1a50c75f6962c3ef55bfea2b371fdee7a6">OnPointerExitEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_classitem_slots_1a45b82359bcc8b42c50195b62b84bdb5c">OnLeftClickEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_classitem_slots_1ae2a45277f4b0b9b25483f39aa4bf1d40">OnBeginDragEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_classitem_slots_1a1c5d1ad6e3cab3246b0b9fd417627511">OnEndDragEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_classitem_slots_1a398784e0c960716f9f7d5df5288fdd70">OnDragEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_classitem_slots_1ad94f4c527b301aef291a02e7c49df4a7">OnDropEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classitem_slots_1a09cf38829a1752070590e1729ef4eab5"/><section>
+    <title>CanReceiveItem()</title>
+<indexterm><primary>CanReceiveItem</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>CanReceiveItem</secondary></indexterm>
+<para><computeroutput>virtual bool itemSlots.CanReceiveItem (<link linkend="_classitem">item</link> item)<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1acea6866a6e07207ab1ba8bf84cdaadd0"/><section>
+    <title>OnBeginDrag()</title>
+<indexterm><primary>OnBeginDrag</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnBeginDrag</secondary></indexterm>
+<para><computeroutput>void itemSlots.OnBeginDrag (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1aa9c455bb0718e54098c8663354bd2feb"/><section>
+    <title>OnDrag()</title>
+<indexterm><primary>OnDrag</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnDrag</secondary></indexterm>
+<para><computeroutput>void itemSlots.OnDrag (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a22635e15ca6c38e205c6ab478427164d"/><section>
+    <title>OnDrop()</title>
+<indexterm><primary>OnDrop</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnDrop</secondary></indexterm>
+<para><computeroutput>void itemSlots.OnDrop (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1ae023cf102b335381d287f0cae7bdeb87"/><section>
+    <title>OnEndDrag()</title>
+<indexterm><primary>OnEndDrag</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnEndDrag</secondary></indexterm>
+<para><computeroutput>void itemSlots.OnEndDrag (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a3c6c0eb5d5b4cb3777102ce5e274dd3a"/><section>
+    <title>OnPointerClick()</title>
+<indexterm><primary>OnPointerClick</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnPointerClick</secondary></indexterm>
+<para><computeroutput>void itemSlots.OnPointerClick (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a653c8e8dc294ae1a48adb85b6955f1da"/><section>
+    <title>OnPointerEnter()</title>
+<indexterm><primary>OnPointerEnter</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnPointerEnter</secondary></indexterm>
+<para><computeroutput>void itemSlots.OnPointerEnter (PointerEventData eventData)</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a2281a1b1996fa5c3f99f9db18246dbdd"/><section>
+    <title>OnPointerExit()</title>
+<indexterm><primary>OnPointerExit</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnPointerExit</secondary></indexterm>
+<para><computeroutput>void itemSlots.OnPointerExit (PointerEventData eventData)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classitem_slots_1ac19f70ef5c20d1539daeb027c1cbfffe"/><section>
+    <title>_item</title>
+<indexterm><primary>_item</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>_item</secondary></indexterm>
+<para><computeroutput><link linkend="_classitem">item</link> itemSlots._item</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a432ea09adb085d97ce8d8f5566722152"/><section>
+    <title>slotBorder</title>
+<indexterm><primary>slotBorder</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>slotBorder</secondary></indexterm>
+<para><computeroutput>Image itemSlots.slotBorder</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9"/><section>
+    <title>Amount</title>
+<indexterm><primary>Amount</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>Amount</secondary></indexterm>
+<para><computeroutput>int itemSlots.Amount<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d"/><section>
+    <title>Item</title>
+<indexterm><primary>Item</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>Item</secondary></indexterm>
+<para><computeroutput><link linkend="_classitem">item</link> itemSlots.Item<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Event Documentation</title>
+<anchor xml:id="_classitem_slots_1ae2a45277f4b0b9b25483f39aa4bf1d40"/><section>
+    <title>OnBeginDragEvent</title>
+<indexterm><primary>OnBeginDragEvent</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnBeginDragEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; itemSlots.OnBeginDragEvent</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a398784e0c960716f9f7d5df5288fdd70"/><section>
+    <title>OnDragEvent</title>
+<indexterm><primary>OnDragEvent</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnDragEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; itemSlots.OnDragEvent</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1ad94f4c527b301aef291a02e7c49df4a7"/><section>
+    <title>OnDropEvent</title>
+<indexterm><primary>OnDropEvent</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnDropEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; itemSlots.OnDropEvent</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a1c5d1ad6e3cab3246b0b9fd417627511"/><section>
+    <title>OnEndDragEvent</title>
+<indexterm><primary>OnEndDragEvent</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnEndDragEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; itemSlots.OnEndDragEvent</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a45b82359bcc8b42c50195b62b84bdb5c"/><section>
+    <title>OnLeftClickEvent</title>
+<indexterm><primary>OnLeftClickEvent</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnLeftClickEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; itemSlots.OnLeftClickEvent</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1acee73e9bcf9cdeb868c26f18540b9d3b"/><section>
+    <title>OnPointerEnterEvent</title>
+<indexterm><primary>OnPointerEnterEvent</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnPointerEnterEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; itemSlots.OnPointerEnterEvent</computeroutput></para></section>
+<anchor xml:id="_classitem_slots_1a50c75f6962c3ef55bfea2b371fdee7a6"/><section>
+    <title>OnPointerExitEvent</title>
+<indexterm><primary>OnPointerExitEvent</primary><secondary>itemSlots</secondary></indexterm>
+<indexterm><primary>itemSlots</primary><secondary>OnPointerExitEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; itemSlots.OnPointerExitEvent</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/<link linkend="_item_slots_8cs">itemSlots.cs</link></section>
+</section>

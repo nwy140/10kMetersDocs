@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_previous_position" kind="class" language="C#" prot="public">
+    <compoundname>PreviousPosition</compoundname>
+    <basecompoundref refid="class_scene_transitioning" prot="public" virt="non-virtual">SceneTransitioning</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_previous_position_1ad3fef6d0fb8e1b8ee4c372625a06e676" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform PreviousPosition.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" line="7" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_previous_position_1a48bad4a1506c412bf884f70d9375ad53" compoundref="_previous_position_8cs" startline="11" endline="19">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_previous_position_1abc032666fb43c6fa0efa162ae7c9473b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PreviousPosition.posX</definition>
+        <argsstring></argsstring>
+        <name>posX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_previous_position_1a48bad4a1506c412bf884f70d9375ad53" compoundref="_previous_position_8cs" startline="11" endline="19">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_previous_position_1a055fdbf5385fbd62de226eb3ce5eb738" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PreviousPosition.posY</definition>
+        <argsstring></argsstring>
+        <name>posY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" line="8" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_previous_position_1a48bad4a1506c412bf884f70d9375ad53" compoundref="_previous_position_8cs" startline="11" endline="19">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_previous_position_1a80b486c6234e8d3aaae13666513d5e06" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PreviousPosition.previousSceneName</definition>
+        <argsstring></argsstring>
+        <name>previousSceneName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" line="9" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_previous_position_1a48bad4a1506c412bf884f70d9375ad53" compoundref="_previous_position_8cs" startline="11" endline="19">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_previous_position_1a48bad4a1506c412bf884f70d9375ad53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void PreviousPosition.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_scene_transitioning_1a220cc89537fc81bc30cd452c33c24c02">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" line="11" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" bodystart="11" bodyend="19"/>
+        <references refid="class_previous_position_1ad3fef6d0fb8e1b8ee4c372625a06e676" compoundref="_previous_position_8cs" startline="7">player</references>
+        <references refid="class_previous_position_1abc032666fb43c6fa0efa162ae7c9473b" compoundref="_previous_position_8cs" startline="8">posX</references>
+        <references refid="class_previous_position_1a055fdbf5385fbd62de226eb3ce5eb738" compoundref="_previous_position_8cs" startline="8">posY</references>
+        <references refid="class_previous_position_1a80b486c6234e8d3aaae13666513d5e06" compoundref="_previous_position_8cs" startline="9">previousSceneName</references>
+        <references refid="class_scene_transitioning_1a14204420cd27751ecb647e2d8b89c418" compoundref="_scene_transitioning_8cs" startline="8">SceneTransitioning.prevScene</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PreviousPosition</label>
+        <link refid="class_previous_position"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SceneTransitioning</label>
+        <link refid="class_scene_transitioning"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PreviousPosition</label>
+        <link refid="class_previous_position"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SceneTransitioning</label>
+        <link refid="class_scene_transitioning"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/PreviousPosition.cs" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_scene_transitioning_1a9d718bbe238abeed35b05d7928d86149" prot="public" virt="non-virtual"><scope>PreviousPosition</scope><name>currScene</name></member>
+      <member refid="class_previous_position_1ad3fef6d0fb8e1b8ee4c372625a06e676" prot="public" virt="non-virtual"><scope>PreviousPosition</scope><name>player</name></member>
+      <member refid="class_previous_position_1abc032666fb43c6fa0efa162ae7c9473b" prot="public" virt="non-virtual"><scope>PreviousPosition</scope><name>posX</name></member>
+      <member refid="class_previous_position_1a055fdbf5385fbd62de226eb3ce5eb738" prot="public" virt="non-virtual"><scope>PreviousPosition</scope><name>posY</name></member>
+      <member refid="class_previous_position_1a80b486c6234e8d3aaae13666513d5e06" prot="public" virt="non-virtual"><scope>PreviousPosition</scope><name>previousSceneName</name></member>
+      <member refid="class_scene_transitioning_1a14204420cd27751ecb647e2d8b89c418" prot="public" virt="non-virtual"><scope>PreviousPosition</scope><name>prevScene</name></member>
+      <member refid="class_scene_transitioning_1ad27d0b124bba4968f64724df3c600620" prot="public" virt="non-virtual"><scope>PreviousPosition</scope><name>SceneTransition</name></member>
+      <member refid="class_previous_position_1a48bad4a1506c412bf884f70d9375ad53" prot="public" virt="virtual"><scope>PreviousPosition</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

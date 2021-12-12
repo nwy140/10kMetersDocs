@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer" prot="public" virt="non-virtual">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; Vector2 &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a0b139e1fbb463ebe9f012aac97bfdd53" prot="public" static="no" mutable="no">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.maximums</definition>
+        <argsstring></argsstring>
+        <name>maximums</name>
+        <initializer>= new Vector2[360 / 3]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="148" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="148" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1ae97d390b5e2bbf4defd1f498e80ff7b0" compoundref="_visualization_helpers_8cs" startline="159" endline="188">UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.AddSample</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a8bbf1808417511d6f325a1bd1ace4de7" compoundref="_visualization_helpers_8cs" startline="190" endline="254">UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.OnDraw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1aa20c755c493014383b1477c9efeeef92" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.limits</definition>
+        <argsstring></argsstring>
+        <name>limits</name>
+        <initializer>= new Vector2(1, 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="149" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="149" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1ae97d390b5e2bbf4defd1f498e80ff7b0" compoundref="_visualization_helpers_8cs" startline="159" endline="188">UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.AddSample</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a8bbf1808417511d6f325a1bd1ace4de7" compoundref="_visualization_helpers_8cs" startline="190" endline="254">UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.OnDraw</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a182d2ecd3f7659e2d95d07af1d29a607" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.limitsXText</definition>
+        <argsstring></argsstring>
+        <name>limitsXText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="151" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a40721644eedd133cb115c7882a116017" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.limitsYText</definition>
+        <argsstring></argsstring>
+        <name>limitsYText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="152" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1aff361a7ef10aad4234fb272f363c16f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.Vector2Visualizer</definition>
+        <argsstring>(int numSamples=10)</argsstring>
+        <name>Vector2Visualizer</name>
+        <param>
+          <type>int</type>
+          <declname>numSamples</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="154" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1ae97d390b5e2bbf4defd1f498e80ff7b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.AddSample</definition>
+        <argsstring>(object value, double time)</argsstring>
+        <name>AddSample</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="159" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="159" bodyend="188"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1aa20c755c493014383b1477c9efeeef92" compoundref="_visualization_helpers_8cs" startline="149">UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.limits</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a0b139e1fbb463ebe9f012aac97bfdd53" compoundref="_visualization_helpers_8cs" startline="148">UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.maximums</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a8bbf1808417511d6f325a1bd1ace4de7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.OnDraw</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>OnDraw</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="190" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="190" bodyend="254"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1aa20c755c493014383b1477c9efeeef92" compoundref="_visualization_helpers_8cs" startline="149">UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.limits</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a0b139e1fbb463ebe9f012aac97bfdd53" compoundref="_visualization_helpers_8cs" startline="148">UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.maximums</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20b92ea14426fc5627156e7b03c7cc37" compoundref="_visualization_helpers_8cs" startline="23">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; Vector2 &gt;::samples</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20aeb2b6e3eecdddd211da1b1c6c1663" compoundref="_visualization_helpers_8cs" startline="24">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; Vector2 &gt;::samplesText</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a4158736f7568dac4ad22b2f48fff2379" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Rect</type>
+        <definition>Rect UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.RectForValue</definition>
+        <argsstring>(Vector2 value, Rect rect)</argsstring>
+        <name>RectForValue</name>
+        <param>
+          <type>Vector2</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="256" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="256" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a262441f9d25e22338961dd0ae900422f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer.PixelPosForValue</definition>
+        <argsstring>(Vector2 value, Rect rect)</argsstring>
+        <name>PixelPosForValue</name>
+        <param>
+          <type>Vector2</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="262" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="262" bodyend="271"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ValueVisualizer&lt; Vector2 &gt;</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.Vector2Visualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ValueVisualizer&lt; Vector2 &gt;</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="143" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="144" bodyend="272"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1ae97d390b5e2bbf4defd1f498e80ff7b0" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>AddSample</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1aa20c755c493014383b1477c9efeeef92" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>limits</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a182d2ecd3f7659e2d95d07af1d29a607" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>limitsXText</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a40721644eedd133cb115c7882a116017" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>limitsYText</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a0b139e1fbb463ebe9f012aac97bfdd53" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>maximums</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a8bbf1808417511d6f325a1bd1ace4de7" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>OnDraw</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a262441f9d25e22338961dd0ae900422f" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>PixelPosForValue</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1a4158736f7568dac4ad22b2f48fff2379" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>RectForValue</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20b92ea14426fc5627156e7b03c7cc37" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>samples</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20aeb2b6e3eecdddd211da1b1c6c1663" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>samplesText</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a0372961daa481fa8c00c502a61407eb5" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>ValueVisualizer</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer_1aff361a7ef10aad4234fb272f363c16f2" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</scope><name>Vector2Visualizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

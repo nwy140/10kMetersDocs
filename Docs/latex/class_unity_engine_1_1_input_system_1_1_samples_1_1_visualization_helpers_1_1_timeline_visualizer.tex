@@ -1,0 +1,224 @@
+\hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer}{}\doxysection{Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer Class Reference}
+\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer}\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+
+
+Inheritance diagram for Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8c}{Plot\+Type}} \{ \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8cab2922530860f953bc5bb9cf359a0f752}{Line\+Graph}}
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8ca3cf967140c7b9d66e292887510ff6ef7}{Bar\+Chart}}
+ \}
+\item 
+enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7c}{Time\+Unit}} \{ \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465}{Seconds}}
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7ca2b81bb9b3deebcbfa05edad7a845005a}{Frames}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a197496ea10ae51c28a3ff1ac1f00d03f}{Timeline\+Visualizer}} (float total\+Time\+Units\+Shown=4)
+\item 
+override void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_afbccf89713fb498a8d84f7b885b9fa25}{On\+Draw}} (Rect rect)
+\item 
+override void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0e3e80a4d324b8577cbf6bf485e2413f}{Add\+Sample}} (object value, double time)
+\item 
+int \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aad30f0afefed8dfedbb9b957e0a35813}{Add\+Timeline}} (string name, Color color, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8c}{Plot\+Type}} plot\+Type=default)
+\item 
+int \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0d48c2a801da3231f37c482e99d411cd}{Get\+Timeline}} (string name)
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a3f03923d7969aa3a666cb0753554628e}{Add\+Sample}} (int timeline\+Index, Primitive\+Value value, float time)
+\item 
+ref Primitive\+Value \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_add31d7ebb4e910831b6e14db5c9cb313}{Get\+Or\+Create\+Sample}} (int timeline\+Index, int frame)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a98564bd3e4d2f839923bb28d0a5d72c6}{show\+Legend}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a73c21e2a7cf1a8c6894dd38cd67a547e}{show\+Limits}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7c}{Time\+Unit}} \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a739476db086f23bb5ee0c1a698783d48}{time\+Unit}} = \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465}{Time\+Unit.\+Seconds}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+GUIContent \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aeee6c8383cf50fd073fb0d25bf4de157}{value\+Unit}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aa55122d11b8b62d9fe37dc489b5d353d}{timeline\+Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_ace279bfa02fd1bbad90f731ef5530af2}{history\+Depth}} = 100\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+Vector2 \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_ac367d14f31b26929151551ee45f9574b}{limitsY}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8c}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8c}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!PlotType@{PlotType}}
+\index{PlotType@{PlotType}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{PlotType}{PlotType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8c}{Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+Plot\+Type}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LineGraph@{LineGraph}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!LineGraph@{LineGraph}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8cab2922530860f953bc5bb9cf359a0f752}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8cab2922530860f953bc5bb9cf359a0f752}} 
+Line\+Graph&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BarChart@{BarChart}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!BarChart@{BarChart}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8ca3cf967140c7b9d66e292887510ff6ef7}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8ca3cf967140c7b9d66e292887510ff6ef7}} 
+Bar\+Chart&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7c}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7c}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!TimeUnit@{TimeUnit}}
+\index{TimeUnit@{TimeUnit}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{TimeUnit}{TimeUnit}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7c}{Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+Time\+Unit}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Seconds@{Seconds}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!Seconds@{Seconds}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465}} 
+Seconds&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Frames@{Frames}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!Frames@{Frames}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7ca2b81bb9b3deebcbfa05edad7a845005a}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7ca2b81bb9b3deebcbfa05edad7a845005a}} 
+Frames&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a197496ea10ae51c28a3ff1ac1f00d03f}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a197496ea10ae51c28a3ff1ac1f00d03f}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!TimelineVisualizer@{TimelineVisualizer}}
+\index{TimelineVisualizer@{TimelineVisualizer}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{TimelineVisualizer()}{TimelineVisualizer()}}
+{\footnotesize\ttfamily Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+Timeline\+Visualizer (\begin{DoxyParamCaption}\item[{float}]{total\+Time\+Units\+Shown = {\ttfamily 4} }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a3f03923d7969aa3a666cb0753554628e}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a3f03923d7969aa3a666cb0753554628e}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!AddSample@{AddSample}}
+\index{AddSample@{AddSample}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{AddSample()}{AddSample()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+Add\+Sample (\begin{DoxyParamCaption}\item[{int}]{timeline\+Index,  }\item[{Primitive\+Value}]{value,  }\item[{float}]{time }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0e3e80a4d324b8577cbf6bf485e2413f}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0e3e80a4d324b8577cbf6bf485e2413f}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!AddSample@{AddSample}}
+\index{AddSample@{AddSample}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{AddSample()}{AddSample()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily override void Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+Add\+Sample (\begin{DoxyParamCaption}\item[{object}]{value,  }\item[{double}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_aa4595a8dcdf9b1bafc07a66e2b3cf528}{Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Visualizer}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0e3e80a4d324b8577cbf6bf485e2413f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0e3e80a4d324b8577cbf6bf485e2413f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aad30f0afefed8dfedbb9b957e0a35813}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aad30f0afefed8dfedbb9b957e0a35813}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!AddTimeline@{AddTimeline}}
+\index{AddTimeline@{AddTimeline}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{AddTimeline()}{AddTimeline()}}
+{\footnotesize\ttfamily int Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+Add\+Timeline (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{Color}]{color,  }\item[{\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9fb492da84369d163a1c55c241977d8c}{Plot\+Type}}}]{plot\+Type = {\ttfamily default} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_add31d7ebb4e910831b6e14db5c9cb313}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_add31d7ebb4e910831b6e14db5c9cb313}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!GetOrCreateSample@{GetOrCreateSample}}
+\index{GetOrCreateSample@{GetOrCreateSample}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{GetOrCreateSample()}{GetOrCreateSample()}}
+{\footnotesize\ttfamily ref Primitive\+Value Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+Get\+Or\+Create\+Sample (\begin{DoxyParamCaption}\item[{int}]{timeline\+Index,  }\item[{int}]{frame }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0d48c2a801da3231f37c482e99d411cd}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0d48c2a801da3231f37c482e99d411cd}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!GetTimeline@{GetTimeline}}
+\index{GetTimeline@{GetTimeline}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{GetTimeline()}{GetTimeline()}}
+{\footnotesize\ttfamily int Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+Get\+Timeline (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_afbccf89713fb498a8d84f7b885b9fa25}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_afbccf89713fb498a8d84f7b885b9fa25}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!OnDraw@{OnDraw}}
+\index{OnDraw@{OnDraw}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{OnDraw()}{OnDraw()}}
+{\footnotesize\ttfamily override void Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+On\+Draw (\begin{DoxyParamCaption}\item[{Rect}]{rect }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_ac226269829c48806e6365065befd204a}{Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Visualizer}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_ace279bfa02fd1bbad90f731ef5530af2}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_ace279bfa02fd1bbad90f731ef5530af2}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!historyDepth@{historyDepth}}
+\index{historyDepth@{historyDepth}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{historyDepth}{historyDepth}}
+{\footnotesize\ttfamily int Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+history\+Depth = 100\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_ac367d14f31b26929151551ee45f9574b}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_ac367d14f31b26929151551ee45f9574b}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!limitsY@{limitsY}}
+\index{limitsY@{limitsY}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{limitsY}{limitsY}}
+{\footnotesize\ttfamily Vector2 Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+limitsY\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a98564bd3e4d2f839923bb28d0a5d72c6}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a98564bd3e4d2f839923bb28d0a5d72c6}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!showLegend@{showLegend}}
+\index{showLegend@{showLegend}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{showLegend}{showLegend}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+show\+Legend\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a73c21e2a7cf1a8c6894dd38cd67a547e}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a73c21e2a7cf1a8c6894dd38cd67a547e}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!showLimits@{showLimits}}
+\index{showLimits@{showLimits}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{showLimits}{showLimits}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+show\+Limits\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aa55122d11b8b62d9fe37dc489b5d353d}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aa55122d11b8b62d9fe37dc489b5d353d}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!timelineCount@{timelineCount}}
+\index{timelineCount@{timelineCount}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{timelineCount}{timelineCount}}
+{\footnotesize\ttfamily int Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+timeline\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a739476db086f23bb5ee0c1a698783d48}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a739476db086f23bb5ee0c1a698783d48}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!timeUnit@{timeUnit}}
+\index{timeUnit@{timeUnit}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{timeUnit}{timeUnit}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7c}{Time\+Unit}} Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+time\+Unit = \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465}{Time\+Unit.\+Seconds}}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aeee6c8383cf50fd073fb0d25bf4de157}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_aeee6c8383cf50fd073fb0d25bf4de157}} 
+\index{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}!valueUnit@{valueUnit}}
+\index{valueUnit@{valueUnit}!UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer@{UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer}}
+\doxysubsubsection{\texorpdfstring{valueUnit}{valueUnit}}
+{\footnotesize\ttfamily GUIContent Unity\+Engine.\+Input\+System.\+Samples.\+Visualization\+Helpers.\+Timeline\+Visualizer.\+value\+Unit\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Samples/\+Input System/1.\+0.\+2/\+Visualizers/\mbox{\hyperlink{_visualization_helpers_8cs}{Visualization\+Helpers.\+cs}}\end{DoxyCompactItemize}

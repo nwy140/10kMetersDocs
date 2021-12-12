@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer Class Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary></indexterm>
+Inheritance diagram for UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8c">PlotType</link> { <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8cab2922530860f953bc5bb9cf359a0f752">LineGraph</link>
+, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8ca3cf967140c7b9d66e292887510ff6ef7">BarChart</link>
+ }</para>
+</listitem>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7c">TimeUnit</link> { <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465">Seconds</link>
+, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7ca2b81bb9b3deebcbfa05edad7a845005a">Frames</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a197496ea10ae51c28a3ff1ac1f00d03f">TimelineVisualizer</link> (float totalTimeUnitsShown=4)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1afbccf89713fb498a8d84f7b885b9fa25">OnDraw</link> (Rect rect)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a0e3e80a4d324b8577cbf6bf485e2413f">AddSample</link> (object value, double time)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1aad30f0afefed8dfedbb9b957e0a35813">AddTimeline</link> (string name, Color color, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8c">PlotType</link> plotType=default)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a0d48c2a801da3231f37c482e99d411cd">GetTimeline</link> (string name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a3f03923d7969aa3a666cb0753554628e">AddSample</link> (int timelineIndex, PrimitiveValue value, float time)</para>
+</listitem>
+            <listitem><para>ref PrimitiveValue <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1add31d7ebb4e910831b6e14db5c9cb313">GetOrCreateSample</link> (int timelineIndex, int frame)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a98564bd3e4d2f839923bb28d0a5d72c6">showLegend</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a73c21e2a7cf1a8c6894dd38cd67a547e">showLimits</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7c">TimeUnit</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a739476db086f23bb5ee0c1a698783d48">timeUnit</link> = <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465">TimeUnit.Seconds</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>GUIContent <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1aeee6c8383cf50fd073fb0d25bf4de157">valueUnit</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1aa55122d11b8b62d9fe37dc489b5d353d">timelineCount</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1ace279bfa02fd1bbad90f731ef5530af2">historyDepth</link> = 100<computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>Vector2 <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1ac367d14f31b26929151551ee45f9574b">limitsY</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8c"/><section>
+    <title>PlotType</title>
+<indexterm><primary>PlotType</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>PlotType</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8c">UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.PlotType</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>LineGraph</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>LineGraph</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8cab2922530860f953bc5bb9cf359a0f752"/>LineGraph</entry><entry></entry></row><row><entry><indexterm><primary>BarChart</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>BarChart</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8ca3cf967140c7b9d66e292887510ff6ef7"/>BarChart</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7c"/><section>
+    <title>TimeUnit</title>
+<indexterm><primary>TimeUnit</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>TimeUnit</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7c">UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.TimeUnit</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Seconds</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>Seconds</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465"/>Seconds</entry><entry></entry></row><row><entry><indexterm><primary>Frames</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>Frames</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7ca2b81bb9b3deebcbfa05edad7a845005a"/>Frames</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a197496ea10ae51c28a3ff1ac1f00d03f"/><section>
+    <title>TimelineVisualizer()</title>
+<indexterm><primary>TimelineVisualizer</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>TimelineVisualizer</secondary></indexterm>
+<para><computeroutput>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.TimelineVisualizer (float totalTimeUnitsShown = <computeroutput>4</computeroutput>
+)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a3f03923d7969aa3a666cb0753554628e"/><section>
+    <title>AddSample()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>AddSample</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>AddSample</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.AddSample (int timelineIndex, PrimitiveValue value, float time)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a0e3e80a4d324b8577cbf6bf485e2413f"/><section>
+    <title>AddSample()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>AddSample</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>AddSample</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.AddSample (object value, double time)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1aa4595a8dcdf9b1bafc07a66e2b3cf528">UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0e3e80a4d324b8577cbf6bf485e2413f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_a0e3e80a4d324b8577cbf6bf485e2413f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1aad30f0afefed8dfedbb9b957e0a35813"/><section>
+    <title>AddTimeline()</title>
+<indexterm><primary>AddTimeline</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>AddTimeline</secondary></indexterm>
+<para><computeroutput>int UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.AddTimeline (string name, Color color, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8c">PlotType</link> plotType = <computeroutput>default</computeroutput>
+)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1add31d7ebb4e910831b6e14db5c9cb313"/><section>
+    <title>GetOrCreateSample()</title>
+<indexterm><primary>GetOrCreateSample</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>GetOrCreateSample</secondary></indexterm>
+<para><computeroutput>ref PrimitiveValue UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.GetOrCreateSample (int timelineIndex, int frame)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a0d48c2a801da3231f37c482e99d411cd"/><section>
+    <title>GetTimeline()</title>
+<indexterm><primary>GetTimeline</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>GetTimeline</secondary></indexterm>
+<para><computeroutput>int UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.GetTimeline (string name)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1afbccf89713fb498a8d84f7b885b9fa25"/><section>
+    <title>OnDraw()</title>
+<indexterm><primary>OnDraw</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>OnDraw</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.OnDraw (Rect rect)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1ac226269829c48806e6365065befd204a">UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1ace279bfa02fd1bbad90f731ef5530af2"/><section>
+    <title>historyDepth</title>
+<indexterm><primary>historyDepth</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>historyDepth</secondary></indexterm>
+<para><computeroutput>int UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.historyDepth = 100<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1ac367d14f31b26929151551ee45f9574b"/><section>
+    <title>limitsY</title>
+<indexterm><primary>limitsY</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>limitsY</secondary></indexterm>
+<para><computeroutput>Vector2 UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.limitsY<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a98564bd3e4d2f839923bb28d0a5d72c6"/><section>
+    <title>showLegend</title>
+<indexterm><primary>showLegend</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>showLegend</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.showLegend<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a73c21e2a7cf1a8c6894dd38cd67a547e"/><section>
+    <title>showLimits</title>
+<indexterm><primary>showLimits</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>showLimits</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.showLimits<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1aa55122d11b8b62d9fe37dc489b5d353d"/><section>
+    <title>timelineCount</title>
+<indexterm><primary>timelineCount</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>timelineCount</secondary></indexterm>
+<para><computeroutput>int UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.timelineCount<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a739476db086f23bb5ee0c1a698783d48"/><section>
+    <title>timeUnit</title>
+<indexterm><primary>timeUnit</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>timeUnit</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7c">TimeUnit</link> UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.timeUnit = <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9050979cc115b2162a59f3ae06d7ad7ca8f19a8c7566af54ea8981029730e5465">TimeUnit.Seconds</link><computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1aeee6c8383cf50fd073fb0d25bf4de157"/><section>
+    <title>valueUnit</title>
+<indexterm><primary>valueUnit</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</primary><secondary>valueUnit</secondary></indexterm>
+<para><computeroutput>GUIContent UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.valueUnit<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/<link linkend="__visualization_helpers_8cs">VisualizationHelpers.cs</link></section>
+</section>

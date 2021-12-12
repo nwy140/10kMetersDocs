@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_resource" kind="class" language="C#" prot="public">
+    <compoundname>Resource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_fish_material" prot="public" virt="non-virtual">FishMaterial</derivedcompoundref>
+    <derivedcompoundref refid="class_raw_material" prot="public" virt="non-virtual">RawMaterial</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_resource_1a62a89c6b7193a3f2878286e956ecba2d" prot="public" static="no" mutable="no">
+        <type><ref refid="classitem" kindref="compound">item</ref></type>
+        <definition>item Resource.itemType</definition>
+        <argsstring></argsstring>
+        <name>itemType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Resource/Resource.cs" line="7" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Resource/Resource.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_resource_1adba089b2f60bb9e1605da1dfbc02c49c" compoundref="_resource_8cs" startline="9" endline="12">GetItemType</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_resource_1adba089b2f60bb9e1605da1dfbc02c49c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classitem" kindref="compound">item</ref></type>
+        <definition>item Resource.GetItemType</definition>
+        <argsstring>()</argsstring>
+        <name>GetItemType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Resource/Resource.cs" line="9" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Resource/Resource.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_resource_1a62a89c6b7193a3f2878286e956ecba2d" compoundref="_resource_8cs" startline="7">itemType</references>
+        <referencedby refid="class_player_movement_1a69aaa28d0715d1d2a86845ee7c0077ed" compoundref="_player_movement_8cs" startline="125" endline="162">PlayerMovement.Command_Interact</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>FishMaterial</label>
+        <link refid="class_fish_material"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>RawMaterial</label>
+        <link refid="class_raw_material"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Resource</label>
+        <link refid="class_resource"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Resource</label>
+        <link refid="class_resource"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+itemType</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>item</label>
+        <link refid="classitem"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Resource/Resource.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Resource/Resource.cs" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_resource_1adba089b2f60bb9e1605da1dfbc02c49c" prot="public" virt="non-virtual"><scope>Resource</scope><name>GetItemType</name></member>
+      <member refid="class_resource_1a62a89c6b7193a3f2878286e956ecba2d" prot="public" virt="non-virtual"><scope>Resource</scope><name>itemType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

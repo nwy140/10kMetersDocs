@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_stat" kind="class" language="C#" prot="public">
+    <compoundname>Stat</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stat_1a4cc1c7524be9b500c512a948f0d0b11e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stat._curValue</definition>
+        <argsstring></argsstring>
+        <name>_curValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="11" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stat_1abf57d78ddbb20cb43ce646f16b4354db" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Stat.lerpHP</definition>
+        <argsstring></argsstring>
+        <name>lerpHP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="23" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stat_1a34389c3b69d4e3945f6ef27d413ab3d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>virtual int Stat.curValue</definition>
+        <argsstring></argsstring>
+        <name>curValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="12" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_stat_1ab5e2b14bcd59e9c22ab52cfacf16a59a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stat.maxValue</definition>
+        <argsstring></argsstring>
+        <name>maxValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="13" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_stat_1a478b0262ab30af3ebdc6317c000e5680" compoundref="_stat_8cs" startline="33" endline="39">DecrementValue</referencedby>
+        <referencedby refid="class_stat_1abbdf79c800dd18a27b39bf50c37b0ade" compoundref="_stat_8cs" startline="27" endline="32">IncrementValue</referencedby>
+        <referencedby refid="class_stat_1a280ed9b5d39d1cbab7c6f84bc4ea4028" compoundref="_stat_8cs" startline="48" endline="54">OnExternalUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stat_1a20c4b06ff8c2161091f4fdaa1e9a7764" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stat.minValue</definition>
+        <argsstring></argsstring>
+        <name>minValue</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="14" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_stat_1a478b0262ab30af3ebdc6317c000e5680" compoundref="_stat_8cs" startline="33" endline="39">DecrementValue</referencedby>
+        <referencedby refid="class_stat_1abbdf79c800dd18a27b39bf50c37b0ade" compoundref="_stat_8cs" startline="27" endline="32">IncrementValue</referencedby>
+        <referencedby refid="class_stat_1a280ed9b5d39d1cbab7c6f84bc4ea4028" compoundref="_stat_8cs" startline="48" endline="54">OnExternalUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stat_1a81be2f5532330a6d2d677d20fbf164e5" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent Stat.OnStatValueModifiedEvent</definition>
+        <argsstring></argsstring>
+        <name>OnStatValueModifiedEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="15" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_stat_1ad97cef0a04f694041d0afeff0e4a370e" compoundref="_stat_8cs" startline="41" endline="46">OnStatValueModified</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stat_1a28f5c6ac17e8ef4610a907c0bbe84c1e" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider Stat.slider</definition>
+        <argsstring></argsstring>
+        <name>slider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="18" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_stat_1a280ed9b5d39d1cbab7c6f84bc4ea4028" compoundref="_stat_8cs" startline="48" endline="54">OnExternalUpdate</referencedby>
+        <referencedby refid="class_stat_1ad97cef0a04f694041d0afeff0e4a370e" compoundref="_stat_8cs" startline="41" endline="46">OnStatValueModified</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_stat_1a5e69f84b29a6caa2eaa9727b80ba1040" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI Stat.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="19" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stat_1afd1b26cd647dd56d5dc8b6cf8a160279" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Stat.hpSliderLerpSpeed</definition>
+        <argsstring></argsstring>
+        <name>hpSliderLerpSpeed</name>
+        <initializer>= 0.95f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="24" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stat_1acccdfd69ccaadd433b03ecd0168da715" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Stat.hasSliderFinishedLerping</definition>
+        <argsstring></argsstring>
+        <name>hasSliderFinishedLerping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="56" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stat_1abbdf79c800dd18a27b39bf50c37b0ade" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Stat.IncrementValue</definition>
+        <argsstring>(int incrementVal)</argsstring>
+        <name>IncrementValue</name>
+        <param>
+          <type>int</type>
+          <declname>incrementVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="27" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="27" bodyend="32"/>
+        <references refid="class_stat_1ab5e2b14bcd59e9c22ab52cfacf16a59a" compoundref="_stat_8cs" startline="13">maxValue</references>
+        <references refid="class_stat_1a20c4b06ff8c2161091f4fdaa1e9a7764" compoundref="_stat_8cs" startline="14">minValue</references>
+        <references refid="class_stat_1ad97cef0a04f694041d0afeff0e4a370e" compoundref="_stat_8cs" startline="41" endline="46">OnStatValueModified</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stat_1a478b0262ab30af3ebdc6317c000e5680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Stat.DecrementValue</definition>
+        <argsstring>(int decrementVal)</argsstring>
+        <name>DecrementValue</name>
+        <param>
+          <type>int</type>
+          <declname>decrementVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="33" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="33" bodyend="39"/>
+        <references refid="class_stat_1ab5e2b14bcd59e9c22ab52cfacf16a59a" compoundref="_stat_8cs" startline="13">maxValue</references>
+        <references refid="class_stat_1a20c4b06ff8c2161091f4fdaa1e9a7764" compoundref="_stat_8cs" startline="14">minValue</references>
+        <references refid="class_stat_1ad97cef0a04f694041d0afeff0e4a370e" compoundref="_stat_8cs" startline="41" endline="46">OnStatValueModified</references>
+      </memberdef>
+      <memberdef kind="function" id="class_stat_1ad97cef0a04f694041d0afeff0e4a370e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stat.OnStatValueModified</definition>
+        <argsstring>()</argsstring>
+        <name>OnStatValueModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="41" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="41" bodyend="46"/>
+        <references refid="class_stat_1a81be2f5532330a6d2d677d20fbf164e5" compoundref="_stat_8cs" startline="15">OnStatValueModifiedEvent</references>
+        <references refid="class_stat_1a28f5c6ac17e8ef4610a907c0bbe84c1e" compoundref="_stat_8cs" startline="18">slider</references>
+        <referencedby refid="class_stat_1a478b0262ab30af3ebdc6317c000e5680" compoundref="_stat_8cs" startline="33" endline="39">DecrementValue</referencedby>
+        <referencedby refid="class_stat_1abbdf79c800dd18a27b39bf50c37b0ade" compoundref="_stat_8cs" startline="27" endline="32">IncrementValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_stat_1a280ed9b5d39d1cbab7c6f84bc4ea4028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stat.OnExternalUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnExternalUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="48" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="48" bodyend="54"/>
+        <references refid="class_stat_1ab5e2b14bcd59e9c22ab52cfacf16a59a" compoundref="_stat_8cs" startline="13">maxValue</references>
+        <references refid="class_stat_1a20c4b06ff8c2161091f4fdaa1e9a7764" compoundref="_stat_8cs" startline="14">minValue</references>
+        <references refid="class_stat_1a28f5c6ac17e8ef4610a907c0bbe84c1e" compoundref="_stat_8cs" startline="18">slider</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_stat_1a911a4eadd0330aa4f1d92f0092662710" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Stat.HandleSliderLerpValue</definition>
+        <argsstring>()</argsstring>
+        <name>HandleSliderLerpValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="57" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="57" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Stat</label>
+        <link refid="class_stat"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" line="9" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/Stat.cs" bodystart="10" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_stat_1a4cc1c7524be9b500c512a948f0d0b11e" prot="private" virt="non-virtual"><scope>Stat</scope><name>_curValue</name></member>
+      <member refid="class_stat_1a34389c3b69d4e3945f6ef27d413ab3d9" prot="public" virt="non-virtual"><scope>Stat</scope><name>curValue</name></member>
+      <member refid="class_stat_1a478b0262ab30af3ebdc6317c000e5680" prot="public" virt="non-virtual"><scope>Stat</scope><name>DecrementValue</name></member>
+      <member refid="class_stat_1a911a4eadd0330aa4f1d92f0092662710" prot="private" virt="non-virtual"><scope>Stat</scope><name>HandleSliderLerpValue</name></member>
+      <member refid="class_stat_1acccdfd69ccaadd433b03ecd0168da715" prot="public" virt="non-virtual"><scope>Stat</scope><name>hasSliderFinishedLerping</name></member>
+      <member refid="class_stat_1afd1b26cd647dd56d5dc8b6cf8a160279" prot="public" virt="non-virtual"><scope>Stat</scope><name>hpSliderLerpSpeed</name></member>
+      <member refid="class_stat_1abbdf79c800dd18a27b39bf50c37b0ade" prot="public" virt="non-virtual"><scope>Stat</scope><name>IncrementValue</name></member>
+      <member refid="class_stat_1abf57d78ddbb20cb43ce646f16b4354db" prot="private" virt="non-virtual"><scope>Stat</scope><name>lerpHP</name></member>
+      <member refid="class_stat_1ab5e2b14bcd59e9c22ab52cfacf16a59a" prot="public" virt="non-virtual"><scope>Stat</scope><name>maxValue</name></member>
+      <member refid="class_stat_1a20c4b06ff8c2161091f4fdaa1e9a7764" prot="public" virt="non-virtual"><scope>Stat</scope><name>minValue</name></member>
+      <member refid="class_stat_1a280ed9b5d39d1cbab7c6f84bc4ea4028" prot="public" virt="non-virtual"><scope>Stat</scope><name>OnExternalUpdate</name></member>
+      <member refid="class_stat_1ad97cef0a04f694041d0afeff0e4a370e" prot="public" virt="non-virtual"><scope>Stat</scope><name>OnStatValueModified</name></member>
+      <member refid="class_stat_1a81be2f5532330a6d2d677d20fbf164e5" prot="public" virt="non-virtual"><scope>Stat</scope><name>OnStatValueModifiedEvent</name></member>
+      <member refid="class_stat_1a28f5c6ac17e8ef4610a907c0bbe84c1e" prot="public" virt="non-virtual"><scope>Stat</scope><name>slider</name></member>
+      <member refid="class_stat_1a5e69f84b29a6caa2eaa9727b80ba1040" prot="public" virt="non-virtual"><scope>Stat</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

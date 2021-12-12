@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_camera_control" kind="class" language="C#" prot="public">
+    <compoundname>CameraControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_control_1addb68bd79aebb97a8611c7cf063ad8cf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraControl.m_DampTime</definition>
+        <argsstring></argsstring>
+        <name>m_DampTime</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="6" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_control_1aabb1255be1a2f913fd69db9c75d3be5d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraControl.m_ScreenEdgeBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_ScreenEdgeBuffer</name>
+        <initializer>= 4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="7" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_control_1a71b56d132918e2c7ff36d1a273eac03b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraControl.m_MinSize</definition>
+        <argsstring></argsstring>
+        <name>m_MinSize</name>
+        <initializer>= 6.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_control_1af7c531a124be556f16f7b531ec588037" prot="public" static="no" mutable="no">
+        <type>Transform[]</type>
+        <definition>Transform [] CameraControl.m_Targets</definition>
+        <argsstring></argsstring>
+        <name>m_Targets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="9" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_control_1af1f149a6ed5adf0fe960d096759c7227" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera CameraControl.m_Camera</definition>
+        <argsstring></argsstring>
+        <name>m_Camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="12" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_control_1a04f6ca22ba1f5b5c73d81316045f08a8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraControl.m_ZoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_ZoomSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="13" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_control_1af2d5d4da8c893672ad6138d9a161979d" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CameraControl.m_MoveVelocity</definition>
+        <argsstring></argsstring>
+        <name>m_MoveVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="14" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_control_1ac55f4d947c07f07cc0980e51b98894f4" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CameraControl.m_DesiredPosition</definition>
+        <argsstring></argsstring>
+        <name>m_DesiredPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="15" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_control_1a36fcad075c535c497189472fca0c29ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraControl.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_control_1a010f7c4a88afceba4e92cf92ef379e8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraControl.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="23" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_control_1adb230213003e177db2c0fbb04f0abb6d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraControl.Move</definition>
+        <argsstring>()</argsstring>
+        <name>Move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="32" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_control_1a05c497c0f59a51bc5a3309cd04685024" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraControl.FindAveragePosition</definition>
+        <argsstring>()</argsstring>
+        <name>FindAveragePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="41" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="41" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_control_1a0313dcae0b6db50b02641f8bcc24eb66" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraControl.Zoom</definition>
+        <argsstring>()</argsstring>
+        <name>Zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="69" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_control_1a217a29b955c2a314bd2b5f5051e18344" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float CameraControl.FindRequiredSize</definition>
+        <argsstring>()</argsstring>
+        <name>FindRequiredSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="76" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="76" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_control_1ae9cc28818b70f48ef7fbb8cbad8e0d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraControl.SetStartPositionAndSize</definition>
+        <argsstring>()</argsstring>
+        <name>SetStartPositionAndSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="113" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="113" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CameraControl</label>
+        <link refid="class_camera_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CameraControl</label>
+        <link refid="class_camera_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" line="4" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Camera/CameraControl.cs" bodystart="5" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_camera_control_1a36fcad075c535c497189472fca0c29ac" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>Awake</name></member>
+      <member refid="class_camera_control_1a05c497c0f59a51bc5a3309cd04685024" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>FindAveragePosition</name></member>
+      <member refid="class_camera_control_1a217a29b955c2a314bd2b5f5051e18344" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>FindRequiredSize</name></member>
+      <member refid="class_camera_control_1a010f7c4a88afceba4e92cf92ef379e8f" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>FixedUpdate</name></member>
+      <member refid="class_camera_control_1af1f149a6ed5adf0fe960d096759c7227" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>m_Camera</name></member>
+      <member refid="class_camera_control_1addb68bd79aebb97a8611c7cf063ad8cf" prot="public" virt="non-virtual"><scope>CameraControl</scope><name>m_DampTime</name></member>
+      <member refid="class_camera_control_1ac55f4d947c07f07cc0980e51b98894f4" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>m_DesiredPosition</name></member>
+      <member refid="class_camera_control_1a71b56d132918e2c7ff36d1a273eac03b" prot="public" virt="non-virtual"><scope>CameraControl</scope><name>m_MinSize</name></member>
+      <member refid="class_camera_control_1af2d5d4da8c893672ad6138d9a161979d" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>m_MoveVelocity</name></member>
+      <member refid="class_camera_control_1aabb1255be1a2f913fd69db9c75d3be5d" prot="public" virt="non-virtual"><scope>CameraControl</scope><name>m_ScreenEdgeBuffer</name></member>
+      <member refid="class_camera_control_1af7c531a124be556f16f7b531ec588037" prot="public" virt="non-virtual"><scope>CameraControl</scope><name>m_Targets</name></member>
+      <member refid="class_camera_control_1a04f6ca22ba1f5b5c73d81316045f08a8" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>m_ZoomSpeed</name></member>
+      <member refid="class_camera_control_1adb230213003e177db2c0fbb04f0abb6d" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>Move</name></member>
+      <member refid="class_camera_control_1ae9cc28818b70f48ef7fbb8cbad8e0d5f" prot="public" virt="non-virtual"><scope>CameraControl</scope><name>SetStartPositionAndSize</name></member>
+      <member refid="class_camera_control_1a0313dcae0b6db50b02641f8bcc24eb66" prot="private" virt="non-virtual"><scope>CameraControl</scope><name>Zoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

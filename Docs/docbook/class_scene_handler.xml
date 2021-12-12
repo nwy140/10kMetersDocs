@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_scene_handler" xml:lang="en-US">
+<title>SceneHandler Class Reference</title>
+<indexterm><primary>SceneHandler</primary></indexterm>
+Inheritance diagram for SceneHandler:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_scene_handler__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SceneHandler:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_scene_handler__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_scene_handler_1af218bba64c59cc22e2d29dcaec206c08">RestartGame</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_scene_handler_1a9cd4ef77ac299bad19d2d9ef78c7bdcf">MainMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_scene_handler_1a2b941702d4bba8833873481ad34511c6">Quit</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_scene_handler_1adb15c35660dc143aadc6e036c658af5b">LoadSceneByName</link> (string sceneName)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_scene_handler_1adb15c35660dc143aadc6e036c658af5b"/><section>
+    <title>LoadSceneByName()</title>
+<indexterm><primary>LoadSceneByName</primary><secondary>SceneHandler</secondary></indexterm>
+<indexterm><primary>SceneHandler</primary><secondary>LoadSceneByName</secondary></indexterm>
+<para><computeroutput>void SceneHandler.LoadSceneByName (string sceneName)</computeroutput></para></section>
+<anchor xml:id="_class_scene_handler_1a9cd4ef77ac299bad19d2d9ef78c7bdcf"/><section>
+    <title>MainMenu()</title>
+<indexterm><primary>MainMenu</primary><secondary>SceneHandler</secondary></indexterm>
+<indexterm><primary>SceneHandler</primary><secondary>MainMenu</secondary></indexterm>
+<para><computeroutput>void SceneHandler.MainMenu ( )</computeroutput></para></section>
+<anchor xml:id="_class_scene_handler_1a2b941702d4bba8833873481ad34511c6"/><section>
+    <title>Quit()</title>
+<indexterm><primary>Quit</primary><secondary>SceneHandler</secondary></indexterm>
+<indexterm><primary>SceneHandler</primary><secondary>Quit</secondary></indexterm>
+<para><computeroutput>void SceneHandler.Quit ( )</computeroutput></para></section>
+<anchor xml:id="_class_scene_handler_1af218bba64c59cc22e2d29dcaec206c08"/><section>
+    <title>RestartGame()</title>
+<indexterm><primary>RestartGame</primary><secondary>SceneHandler</secondary></indexterm>
+<indexterm><primary>SceneHandler</primary><secondary>RestartGame</secondary></indexterm>
+<para><computeroutput>void SceneHandler.RestartGame ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/<link linkend="__scene_handler_8cs">SceneHandler.cs</link></section>
+</section>

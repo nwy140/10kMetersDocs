@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_audio_manager" kind="class" language="C#" prot="public">
+    <compoundname>AudioManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_audio_manager" kindref="compound">AudioManager</ref></type>
+        <definition>AudioManager AudioManager.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="12" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_single_ton_on_click_helper_1ab8783aaa2ef78b7b60988c5c35f639b3" compoundref="_single_ton_on_click_helper_8cs" startline="12" endline="16">SingleTonOnClickHelper.AudioManPlayBGM</referencedby>
+        <referencedby refid="class_single_ton_on_click_helper_1ab789bcd5bd540a13d80e1f56b1707925" compoundref="_single_ton_on_click_helper_8cs" startline="7" endline="11">SingleTonOnClickHelper.AudioManPlaySFX</referencedby>
+        <referencedby refid="class_single_ton_on_click_helper_1a850393aef0c4c3530a81e4b40986b4a2" compoundref="_single_ton_on_click_helper_8cs" startline="18" endline="22">SingleTonOnClickHelper.AudioManResetVolumeSettingsToDefault</referencedby>
+        <referencedby refid="class_single_ton_on_click_helper_1a956bff8eeb749243905053525bf4b147" compoundref="_single_ton_on_click_helper_8cs" startline="23" endline="27">SingleTonOnClickHelper.AudioManSaveVolumeSettingsPlayerPrefs</referencedby>
+        <referencedby refid="class_player_movement_1a69aaa28d0715d1d2a86845ee7c0077ed" compoundref="_player_movement_8cs" startline="125" endline="162">PlayerMovement.Command_Interact</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1ab2dcb0a8fb571e950d82f67c96fc0d20" compoundref="_u_i_volume_slider_8cs" startline="57" endline="64">UIVolumeSlider.OnBGMVolumeSliderValueChanged</referencedby>
+        <referencedby refid="class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed" compoundref="_player_bullet_8cs" startline="65" endline="74">PlayerBullet.OnHitBox</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1aefd7a872ebf2f7dd5fbcfdfe9f005aaa" compoundref="_u_i_volume_slider_8cs" startline="41" endline="48">UIVolumeSlider.OnOverallVolumeSliderValueChanged</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1a8fdf4dea80cb5c421f8553dba8bdc22c" compoundref="_u_i_volume_slider_8cs" startline="49" endline="56">UIVolumeSlider.OnSFXVolumeSliderValueChanged</referencedby>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">TestDialogue.StartUpdating</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1a7ed105228fa977c04c4e036644806a30" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.defaultSFXMasterVolume</definition>
+        <argsstring></argsstring>
+        <name>defaultSFXMasterVolume</name>
+        <initializer>= 0.75f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" compoundref="_audio_manager_8cs" startline="84" endline="90">ResetVolumeSettingsToDefault</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a089d4e33fb32ca3918cd19fa03c50570" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.defaultBGMMasterVolume</definition>
+        <argsstring></argsstring>
+        <name>defaultBGMMasterVolume</name>
+        <initializer>= 0.8f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="17" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" compoundref="_audio_manager_8cs" startline="84" endline="90">ResetVolumeSettingsToDefault</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a2f377e4c17fcc04e4342bfbe323a3555" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.defaultOverallVolume</definition>
+        <argsstring></argsstring>
+        <name>defaultOverallVolume</name>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="19" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" compoundref="_audio_manager_8cs" startline="84" endline="90">ResetVolumeSettingsToDefault</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1adc61667569155015f40995bc072fe579" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AudioManager.isVolumeSettingSaved</definition>
+        <argsstring></argsstring>
+        <name>isVolumeSettingSaved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="20" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1aa51b69611551c60195b629367c607e3a" compoundref="_audio_manager_8cs" startline="91" endline="98">LoadVolumeSettingsPlayerPrefs</referencedby>
+        <referencedby refid="class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2" compoundref="_audio_manager_8cs" startline="99" endline="108">SaveVolumeSettingsPlayerPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1aa991e389ccf5fb16eba490b6142bfa46" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AudioManager.isApplicationRunInBackground</definition>
+        <argsstring></argsstring>
+        <name>isApplicationRunInBackground</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="22" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1aa8d0c09ddf7bbed454f76c499dc11b06" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.SFXMasterVolume</definition>
+        <argsstring></argsstring>
+        <name>SFXMasterVolume</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="26" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1aa51b69611551c60195b629367c607e3a" compoundref="_audio_manager_8cs" startline="91" endline="98">LoadVolumeSettingsPlayerPrefs</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1a8fdf4dea80cb5c421f8553dba8bdc22c" compoundref="_u_i_volume_slider_8cs" startline="49" endline="56">UIVolumeSlider.OnSFXVolumeSliderValueChanged</referencedby>
+        <referencedby refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" compoundref="_audio_manager_8cs" startline="84" endline="90">ResetVolumeSettingsToDefault</referencedby>
+        <referencedby refid="class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2" compoundref="_audio_manager_8cs" startline="99" endline="108">SaveVolumeSettingsPlayerPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a3c8f103cfc152c9da6dcf9cf601caf76" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.BGMMasterVolume</definition>
+        <argsstring></argsstring>
+        <name>BGMMasterVolume</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="28" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1aa51b69611551c60195b629367c607e3a" compoundref="_audio_manager_8cs" startline="91" endline="98">LoadVolumeSettingsPlayerPrefs</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1ab2dcb0a8fb571e950d82f67c96fc0d20" compoundref="_u_i_volume_slider_8cs" startline="57" endline="64">UIVolumeSlider.OnBGMVolumeSliderValueChanged</referencedby>
+        <referencedby refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" compoundref="_audio_manager_8cs" startline="84" endline="90">ResetVolumeSettingsToDefault</referencedby>
+        <referencedby refid="class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2" compoundref="_audio_manager_8cs" startline="99" endline="108">SaveVolumeSettingsPlayerPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a30ee500ed936234fed201fbaa68c3f2b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.overallVolume</definition>
+        <argsstring></argsstring>
+        <name>overallVolume</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="30" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1aa51b69611551c60195b629367c607e3a" compoundref="_audio_manager_8cs" startline="91" endline="98">LoadVolumeSettingsPlayerPrefs</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1aefd7a872ebf2f7dd5fbcfdfe9f005aaa" compoundref="_u_i_volume_slider_8cs" startline="41" endline="48">UIVolumeSlider.OnOverallVolumeSliderValueChanged</referencedby>
+        <referencedby refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" compoundref="_audio_manager_8cs" startline="84" endline="90">ResetVolumeSettingsToDefault</referencedby>
+        <referencedby refid="class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2" compoundref="_audio_manager_8cs" startline="99" endline="108">SaveVolumeSettingsPlayerPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a47ecbaf236ea543101bea3585bb8e930" prot="public" static="no" mutable="no">
+        <type><ref refid="class_sound" kindref="compound">Sound</ref></type>
+        <definition>Sound AudioManager.currSFX</definition>
+        <argsstring></argsstring>
+        <name>currSFX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="31" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" compoundref="_audio_manager_8cs" startline="155" endline="185">PlaySFX</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1adc6aae05cee1b51de7ded43313c7a8aa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_sound" kindref="compound">Sound</ref></type>
+        <definition>Sound AudioManager.currBGM</definition>
+        <argsstring></argsstring>
+        <name>currBGM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="32" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" compoundref="_audio_manager_8cs" startline="187" endline="230">PlayBGM</referencedby>
+        <referencedby refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" compoundref="_audio_manager_8cs" startline="246" endline="289">PlayBGMFadeTransition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a59b00472bf64329ce7b8df10c5b7f6f9" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject AudioManager.multiAudioSourceObj</definition>
+        <argsstring></argsstring>
+        <name>multiAudioSourceObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="33" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" compoundref="_audio_manager_8cs" startline="187" endline="230">PlayBGM</referencedby>
+        <referencedby refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" compoundref="_audio_manager_8cs" startline="246" endline="289">PlayBGMFadeTransition</referencedby>
+        <referencedby refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" compoundref="_audio_manager_8cs" startline="155" endline="185">PlaySFX</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a9c02e7ce083c96b3282795eaacf1405a" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_sound" kindref="compound">Sound</ref> &gt;</type>
+        <definition>List&lt;Sound&gt; AudioManager.soundsSFX</definition>
+        <argsstring></argsstring>
+        <name>soundsSFX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="34" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" compoundref="_audio_manager_8cs" startline="155" endline="185">PlaySFX</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1adcc47be5d0c98b9f97cc91f13fec1bb2" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_sound" kindref="compound">Sound</ref> &gt;</type>
+        <definition>List&lt;Sound&gt; AudioManager.soundsBGM</definition>
+        <argsstring></argsstring>
+        <name>soundsBGM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="35" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" compoundref="_audio_manager_8cs" startline="187" endline="230">PlayBGM</referencedby>
+        <referencedby refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" compoundref="_audio_manager_8cs" startline="246" endline="289">PlayBGMFadeTransition</referencedby>
+        <referencedby refid="class_audio_manager_1acd438e15c4afe675fe47d3f77fee4e4f" compoundref="_audio_manager_8cs" startline="233" endline="241">StopBGM</referencedby>
+        <referencedby refid="class_audio_manager_1ab55ae7d62d8473122b8969709e60e2a0" compoundref="_audio_manager_8cs" startline="290" endline="299">StopBGMFadeOutTransition</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1a4bf8e1c2d1dc121fdd1d8e65ce3079f7" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform AudioManager.sfxChild</definition>
+        <argsstring></argsstring>
+        <name>sfxChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="37" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a06100a6f25bb7aed1c012a5bdd66db1d" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform AudioManager.bgmChild</definition>
+        <argsstring></argsstring>
+        <name>bgmChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="38" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a3b8bb70eed3374680e30304c8ba1f0ae" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AudioManager.currSceneName</definition>
+        <argsstring></argsstring>
+        <name>currSceneName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="40" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a70b5fc69ce0352a05506daf6c8d76d9e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.bgmFadeInDuration</definition>
+        <argsstring></argsstring>
+        <name>bgmFadeInDuration</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="244" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1ae04d9827e6faa7a2668a432f4d131adc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AudioManager.bgmFadeOutDuration</definition>
+        <argsstring></argsstring>
+        <name>bgmFadeOutDuration</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="245" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="42" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="42" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a7875f969600d382d372aa20e7d5760cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="75" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a220892c97c3955571e2408733a917dbc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="109" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="109" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ae785b160fc0baa509073ae95eb82f141" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.InitNewAudioSFXSource</definition>
+        <argsstring>(Sound s)</argsstring>
+        <name>InitNewAudioSFXSource</name>
+        <param>
+          <type><ref refid="class_sound" kindref="compound">Sound</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="129" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="129" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a78c66d06abe2837cd6a514f352731a01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.InitNewAudioBGMSource</definition>
+        <argsstring>(Sound s)</argsstring>
+        <name>InitNewAudioBGMSource</name>
+        <param>
+          <type><ref refid="class_sound" kindref="compound">Sound</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="136" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="136" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ad3c506798de7d1ccc6f38d32c820c3e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.OnSceneChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="144" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="144" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.ResetVolumeSettingsToDefault</definition>
+        <argsstring>()</argsstring>
+        <name>ResetVolumeSettingsToDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="84" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="84" bodyend="90"/>
+        <references refid="class_audio_manager_1a3c8f103cfc152c9da6dcf9cf601caf76" compoundref="_audio_manager_8cs" startline="28">BGMMasterVolume</references>
+        <references refid="class_audio_manager_1a089d4e33fb32ca3918cd19fa03c50570" compoundref="_audio_manager_8cs" startline="17">defaultBGMMasterVolume</references>
+        <references refid="class_audio_manager_1a2f377e4c17fcc04e4342bfbe323a3555" compoundref="_audio_manager_8cs" startline="19">defaultOverallVolume</references>
+        <references refid="class_audio_manager_1a7ed105228fa977c04c4e036644806a30" compoundref="_audio_manager_8cs" startline="15">defaultSFXMasterVolume</references>
+        <references refid="class_audio_manager_1a30ee500ed936234fed201fbaa68c3f2b" compoundref="_audio_manager_8cs" startline="30">overallVolume</references>
+        <references refid="class_audio_manager_1aa8d0c09ddf7bbed454f76c499dc11b06" compoundref="_audio_manager_8cs" startline="26">SFXMasterVolume</references>
+        <referencedby refid="class_single_ton_on_click_helper_1a850393aef0c4c3530a81e4b40986b4a2" compoundref="_single_ton_on_click_helper_8cs" startline="18" endline="22">SingleTonOnClickHelper.AudioManResetVolumeSettingsToDefault</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1aa51b69611551c60195b629367c607e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.LoadVolumeSettingsPlayerPrefs</definition>
+        <argsstring>()</argsstring>
+        <name>LoadVolumeSettingsPlayerPrefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="91" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="91" bodyend="98"/>
+        <references refid="class_audio_manager_1a3c8f103cfc152c9da6dcf9cf601caf76" compoundref="_audio_manager_8cs" startline="28">BGMMasterVolume</references>
+        <references refid="class_audio_manager_1adc61667569155015f40995bc072fe579" compoundref="_audio_manager_8cs" startline="20">isVolumeSettingSaved</references>
+        <references refid="class_audio_manager_1a30ee500ed936234fed201fbaa68c3f2b" compoundref="_audio_manager_8cs" startline="30">overallVolume</references>
+        <references refid="class_audio_manager_1aa8d0c09ddf7bbed454f76c499dc11b06" compoundref="_audio_manager_8cs" startline="26">SFXMasterVolume</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.SaveVolumeSettingsPlayerPrefs</definition>
+        <argsstring>()</argsstring>
+        <name>SaveVolumeSettingsPlayerPrefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="99" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="99" bodyend="108"/>
+        <references refid="class_audio_manager_1a3c8f103cfc152c9da6dcf9cf601caf76" compoundref="_audio_manager_8cs" startline="28">BGMMasterVolume</references>
+        <references refid="class_audio_manager_1adc61667569155015f40995bc072fe579" compoundref="_audio_manager_8cs" startline="20">isVolumeSettingSaved</references>
+        <references refid="class_audio_manager_1a30ee500ed936234fed201fbaa68c3f2b" compoundref="_audio_manager_8cs" startline="30">overallVolume</references>
+        <references refid="class_audio_manager_1aa8d0c09ddf7bbed454f76c499dc11b06" compoundref="_audio_manager_8cs" startline="26">SFXMasterVolume</references>
+        <referencedby refid="class_single_ton_on_click_helper_1a956bff8eeb749243905053525bf4b147" compoundref="_single_ton_on_click_helper_8cs" startline="23" endline="27">SingleTonOnClickHelper.AudioManSaveVolumeSettingsPlayerPrefs</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1ab2dcb0a8fb571e950d82f67c96fc0d20" compoundref="_u_i_volume_slider_8cs" startline="57" endline="64">UIVolumeSlider.OnBGMVolumeSliderValueChanged</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1aefd7a872ebf2f7dd5fbcfdfe9f005aaa" compoundref="_u_i_volume_slider_8cs" startline="41" endline="48">UIVolumeSlider.OnOverallVolumeSliderValueChanged</referencedby>
+        <referencedby refid="class_u_i_volume_slider_1a8fdf4dea80cb5c421f8553dba8bdc22c" compoundref="_u_i_volume_slider_8cs" startline="49" endline="56">UIVolumeSlider.OnSFXVolumeSliderValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlaySFX</definition>
+        <argsstring>(string sfxName)</argsstring>
+        <name>PlaySFX</name>
+        <param>
+          <type>string</type>
+          <declname>sfxName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="155" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="155" bodyend="185"/>
+        <references refid="class_audio_manager_1a47ecbaf236ea543101bea3585bb8e930" compoundref="_audio_manager_8cs" startline="31">currSFX</references>
+        <references refid="class_sound_1a916f03f461ea5c83019c82c504ab0ac2" compoundref="_sound_8cs" startline="12">Sound.isAllowMultiAudioSrcInstance</references>
+        <references refid="class_audio_manager_1a59b00472bf64329ce7b8df10c5b7f6f9" compoundref="_audio_manager_8cs" startline="33">multiAudioSourceObj</references>
+        <references refid="class_audio_manager_1a9c02e7ce083c96b3282795eaacf1405a" compoundref="_audio_manager_8cs" startline="34">soundsSFX</references>
+        <references refid="class_sound_1ac6ec734812a52abf31595cab2ba48d8d" compoundref="_sound_8cs" startline="23">Sound.source</references>
+        <referencedby refid="class_single_ton_on_click_helper_1ab789bcd5bd540a13d80e1f56b1707925" compoundref="_single_ton_on_click_helper_8cs" startline="7" endline="11">SingleTonOnClickHelper.AudioManPlaySFX</referencedby>
+        <referencedby refid="class_player_movement_1a69aaa28d0715d1d2a86845ee7c0077ed" compoundref="_player_movement_8cs" startline="125" endline="162">PlayerMovement.Command_Interact</referencedby>
+        <referencedby refid="class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed" compoundref="_player_bullet_8cs" startline="65" endline="74">PlayerBullet.OnHitBox</referencedby>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">TestDialogue.StartUpdating</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayBGM</definition>
+        <argsstring>(string bgmName)</argsstring>
+        <name>PlayBGM</name>
+        <param>
+          <type>string</type>
+          <declname>bgmName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="187" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="187" bodyend="230"/>
+        <references refid="class_audio_manager_1adc6aae05cee1b51de7ded43313c7a8aa" compoundref="_audio_manager_8cs" startline="32">currBGM</references>
+        <references refid="class_sound_1a916f03f461ea5c83019c82c504ab0ac2" compoundref="_sound_8cs" startline="12">Sound.isAllowMultiAudioSrcInstance</references>
+        <references refid="class_audio_manager_1a59b00472bf64329ce7b8df10c5b7f6f9" compoundref="_audio_manager_8cs" startline="33">multiAudioSourceObj</references>
+        <references refid="class_sound_1a6232daa7d1f983315cc0d10cf776ab76" compoundref="_sound_8cs" startline="8">Sound.name</references>
+        <references refid="class_audio_manager_1adcc47be5d0c98b9f97cc91f13fec1bb2" compoundref="_audio_manager_8cs" startline="35">soundsBGM</references>
+        <references refid="class_sound_1ac6ec734812a52abf31595cab2ba48d8d" compoundref="_sound_8cs" startline="23">Sound.source</references>
+        <referencedby refid="class_single_ton_on_click_helper_1ab8783aaa2ef78b7b60988c5c35f639b3" compoundref="_single_ton_on_click_helper_8cs" startline="12" endline="16">SingleTonOnClickHelper.AudioManPlayBGM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1acd438e15c4afe675fe47d3f77fee4e4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.StopBGM</definition>
+        <argsstring>(string name)</argsstring>
+        <name>StopBGM</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="233" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="233" bodyend="241"/>
+        <references refid="class_audio_manager_1adcc47be5d0c98b9f97cc91f13fec1bb2" compoundref="_audio_manager_8cs" startline="35">soundsBGM</references>
+        <references refid="class_sound_1ac6ec734812a52abf31595cab2ba48d8d" compoundref="_sound_8cs" startline="23">Sound.source</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayBGMFadeTransition</definition>
+        <argsstring>(string name)</argsstring>
+        <name>PlayBGMFadeTransition</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="246" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="246" bodyend="289"/>
+        <references refid="class_audio_manager_1adc6aae05cee1b51de7ded43313c7a8aa" compoundref="_audio_manager_8cs" startline="32">currBGM</references>
+        <references refid="class_audio_fade_1a511cd3d05043fbb6468e3043a45a7024" compoundref="_audio_manager_8cs" startline="355" endline="377">AudioFade.FadeIn</references>
+        <references refid="class_sound_1a916f03f461ea5c83019c82c504ab0ac2" compoundref="_sound_8cs" startline="12">Sound.isAllowMultiAudioSrcInstance</references>
+        <references refid="class_audio_manager_1a59b00472bf64329ce7b8df10c5b7f6f9" compoundref="_audio_manager_8cs" startline="33">multiAudioSourceObj</references>
+        <references refid="class_sound_1a6232daa7d1f983315cc0d10cf776ab76" compoundref="_sound_8cs" startline="8">Sound.name</references>
+        <references refid="class_audio_manager_1adcc47be5d0c98b9f97cc91f13fec1bb2" compoundref="_audio_manager_8cs" startline="35">soundsBGM</references>
+        <references refid="class_sound_1ac6ec734812a52abf31595cab2ba48d8d" compoundref="_sound_8cs" startline="23">Sound.source</references>
+        <references refid="class_audio_manager_1ab55ae7d62d8473122b8969709e60e2a0" compoundref="_audio_manager_8cs" startline="290" endline="299">StopBGMFadeOutTransition</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1ab55ae7d62d8473122b8969709e60e2a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.StopBGMFadeOutTransition</definition>
+        <argsstring>(string name)</argsstring>
+        <name>StopBGMFadeOutTransition</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="290" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="290" bodyend="299"/>
+        <references refid="class_audio_fade_1a05280991a4b1eea213ca976f6fe77a5a" compoundref="_audio_manager_8cs" startline="339" endline="354">AudioFade.FadeOut</references>
+        <references refid="class_audio_manager_1adcc47be5d0c98b9f97cc91f13fec1bb2" compoundref="_audio_manager_8cs" startline="35">soundsBGM</references>
+        <referencedby refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" compoundref="_audio_manager_8cs" startline="246" endline="289">PlayBGMFadeTransition</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AudioManager</label>
+        <link refid="class_audio_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AudioManager</label>
+        <link refid="class_audio_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+currBGM</edgelabel>
+          <edgelabel>+currSFX</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>Sound</label>
+        <link refid="class_sound"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="10" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="11" bodyend="334"/>
+    <listofallmembers>
+      <member refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>Awake</name></member>
+      <member refid="class_audio_manager_1a06100a6f25bb7aed1c012a5bdd66db1d" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>bgmChild</name></member>
+      <member refid="class_audio_manager_1a70b5fc69ce0352a05506daf6c8d76d9e" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>bgmFadeInDuration</name></member>
+      <member refid="class_audio_manager_1ae04d9827e6faa7a2668a432f4d131adc" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>bgmFadeOutDuration</name></member>
+      <member refid="class_audio_manager_1a3c8f103cfc152c9da6dcf9cf601caf76" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>BGMMasterVolume</name></member>
+      <member refid="class_audio_manager_1adc6aae05cee1b51de7ded43313c7a8aa" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>currBGM</name></member>
+      <member refid="class_audio_manager_1a3b8bb70eed3374680e30304c8ba1f0ae" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>currSceneName</name></member>
+      <member refid="class_audio_manager_1a47ecbaf236ea543101bea3585bb8e930" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>currSFX</name></member>
+      <member refid="class_audio_manager_1a089d4e33fb32ca3918cd19fa03c50570" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>defaultBGMMasterVolume</name></member>
+      <member refid="class_audio_manager_1a2f377e4c17fcc04e4342bfbe323a3555" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>defaultOverallVolume</name></member>
+      <member refid="class_audio_manager_1a7ed105228fa977c04c4e036644806a30" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>defaultSFXMasterVolume</name></member>
+      <member refid="class_audio_manager_1a78c66d06abe2837cd6a514f352731a01" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>InitNewAudioBGMSource</name></member>
+      <member refid="class_audio_manager_1ae785b160fc0baa509073ae95eb82f141" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>InitNewAudioSFXSource</name></member>
+      <member refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>instance</name></member>
+      <member refid="class_audio_manager_1aa991e389ccf5fb16eba490b6142bfa46" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>isApplicationRunInBackground</name></member>
+      <member refid="class_audio_manager_1adc61667569155015f40995bc072fe579" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>isVolumeSettingSaved</name></member>
+      <member refid="class_audio_manager_1aa51b69611551c60195b629367c607e3a" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>LoadVolumeSettingsPlayerPrefs</name></member>
+      <member refid="class_audio_manager_1a59b00472bf64329ce7b8df10c5b7f6f9" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>multiAudioSourceObj</name></member>
+      <member refid="class_audio_manager_1a7875f969600d382d372aa20e7d5760cd" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>OnEnable</name></member>
+      <member refid="class_audio_manager_1ad3c506798de7d1ccc6f38d32c820c3e7" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>OnSceneChanged</name></member>
+      <member refid="class_audio_manager_1a30ee500ed936234fed201fbaa68c3f2b" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>overallVolume</name></member>
+      <member refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayBGM</name></member>
+      <member refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlayBGMFadeTransition</name></member>
+      <member refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>PlaySFX</name></member>
+      <member refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>ResetVolumeSettingsToDefault</name></member>
+      <member refid="class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SaveVolumeSettingsPlayerPrefs</name></member>
+      <member refid="class_audio_manager_1a4bf8e1c2d1dc121fdd1d8e65ce3079f7" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>sfxChild</name></member>
+      <member refid="class_audio_manager_1aa8d0c09ddf7bbed454f76c499dc11b06" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>SFXMasterVolume</name></member>
+      <member refid="class_audio_manager_1adcc47be5d0c98b9f97cc91f13fec1bb2" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>soundsBGM</name></member>
+      <member refid="class_audio_manager_1a9c02e7ce083c96b3282795eaacf1405a" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>soundsSFX</name></member>
+      <member refid="class_audio_manager_1acd438e15c4afe675fe47d3f77fee4e4f" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>StopBGM</name></member>
+      <member refid="class_audio_manager_1ab55ae7d62d8473122b8969709e60e2a0" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>StopBGMFadeOutTransition</name></member>
+      <member refid="class_audio_manager_1a220892c97c3955571e2408733a917dbc" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

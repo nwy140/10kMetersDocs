@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_tanks_input_actions_1_1_i_u_i_actions" kind="interface" language="C#" prot="public">
+    <compoundname>TanksInputActions::IUIActions</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_u_i_actions_1af555a103ab44fd39eca336088c22f41c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IUIActions.OnNavigate</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnNavigate</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="533" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_u_i_actions_1a7e431847345823d2e663d48104748e75" compoundref="_tanks_input_actions_8cs" startline="463" endline="502">TanksInputActions.UIActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_u_i_actions_1a6fc20065ebab4bd79833f655ee0aef39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IUIActions.OnSubmit</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnSubmit</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="534" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_u_i_actions_1a7e431847345823d2e663d48104748e75" compoundref="_tanks_input_actions_8cs" startline="463" endline="502">TanksInputActions.UIActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_u_i_actions_1a9b11474140c77cd3b1650cabcf7b6814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IUIActions.OnCancel</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnCancel</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="535" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_u_i_actions_1a7e431847345823d2e663d48104748e75" compoundref="_tanks_input_actions_8cs" startline="463" endline="502">TanksInputActions.UIActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_u_i_actions_1a27d013524ab4ebb805dde019b6515bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IUIActions.OnPoint</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnPoint</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="536" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_u_i_actions_1a7e431847345823d2e663d48104748e75" compoundref="_tanks_input_actions_8cs" startline="463" endline="502">TanksInputActions.UIActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_u_i_actions_1abd2037de9e10591e001628e948170544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IUIActions.OnClick</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnClick</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="537" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_u_i_actions_1a7e431847345823d2e663d48104748e75" compoundref="_tanks_input_actions_8cs" startline="463" endline="502">TanksInputActions.UIActions.SetCallbacks</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TanksInputActions.IUIActions</label>
+        <link refid="interface_tanks_input_actions_1_1_i_u_i_actions"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="531" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="532" bodyend="538"/>
+    <listofallmembers>
+      <member refid="interface_tanks_input_actions_1_1_i_u_i_actions_1a9b11474140c77cd3b1650cabcf7b6814" prot="public" virt="non-virtual"><scope>TanksInputActions::IUIActions</scope><name>OnCancel</name></member>
+      <member refid="interface_tanks_input_actions_1_1_i_u_i_actions_1abd2037de9e10591e001628e948170544" prot="public" virt="non-virtual"><scope>TanksInputActions::IUIActions</scope><name>OnClick</name></member>
+      <member refid="interface_tanks_input_actions_1_1_i_u_i_actions_1af555a103ab44fd39eca336088c22f41c" prot="public" virt="non-virtual"><scope>TanksInputActions::IUIActions</scope><name>OnNavigate</name></member>
+      <member refid="interface_tanks_input_actions_1_1_i_u_i_actions_1a27d013524ab4ebb805dde019b6515bdb" prot="public" virt="non-virtual"><scope>TanksInputActions::IUIActions</scope><name>OnPoint</name></member>
+      <member refid="interface_tanks_input_actions_1_1_i_u_i_actions_1a6fc20065ebab4bd79833f655ee0aef39" prot="public" virt="non-virtual"><scope>TanksInputActions::IUIActions</scope><name>OnSubmit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

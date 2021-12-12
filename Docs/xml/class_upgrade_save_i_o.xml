@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_upgrade_save_i_o" kind="class" language="C#" prot="public">
+    <compoundname>UpgradeSaveIO</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_upgrade_save_i_o_1adc3ac9a934e0dd43dd4d3cc6acc2402d" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string UpgradeSaveIO.baseSavePath</definition>
+        <argsstring></argsstring>
+        <name>baseSavePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" line="5" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_upgrade_save_i_o_1a166d8e0dd0ac3657987bcd15c5e590c0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static UpgradeSaveIO.UpgradeSaveIO</definition>
+        <argsstring>()</argsstring>
+        <name>UpgradeSaveIO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" line="7" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_upgrade_save_i_o_1adacdb91b84a07bc26d50b7f6d13feefa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UpgradeSaveIO.SaveUpgrades</definition>
+        <argsstring>(InstalledUpgradeSaveData upgrade, string filename)</argsstring>
+        <name>SaveUpgrades</name>
+        <param>
+          <type><ref refid="class_installed_upgrade_save_data" kindref="compound">InstalledUpgradeSaveData</ref></type>
+          <declname>upgrade</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" line="12" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_save_i_o_1a4480b2dd3f7ebf9854bd685bdeba9345" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_installed_upgrade_save_data" kindref="compound">InstalledUpgradeSaveData</ref></type>
+        <definition>static InstalledUpgradeSaveData UpgradeSaveIO.LoadUpgrades</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>LoadUpgrades</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" line="17" column="44" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" bodystart="17" bodyend="27"/>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UpgradeSaveIO</label>
+        <link refid="class_upgrade_save_i_o"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" line="3" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveIO.cs" bodystart="4" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_upgrade_save_i_o_1adc3ac9a934e0dd43dd4d3cc6acc2402d" prot="private" virt="non-virtual"><scope>UpgradeSaveIO</scope><name>baseSavePath</name></member>
+      <member refid="class_upgrade_save_i_o_1a4480b2dd3f7ebf9854bd685bdeba9345" prot="public" virt="non-virtual"><scope>UpgradeSaveIO</scope><name>LoadUpgrades</name></member>
+      <member refid="class_upgrade_save_i_o_1adacdb91b84a07bc26d50b7f6d13feefa" prot="public" virt="non-virtual"><scope>UpgradeSaveIO</scope><name>SaveUpgrades</name></member>
+      <member refid="class_upgrade_save_i_o_1a166d8e0dd0ac3657987bcd15c5e590c0" prot="private" virt="non-virtual"><scope>UpgradeSaveIO</scope><name>UpgradeSaveIO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

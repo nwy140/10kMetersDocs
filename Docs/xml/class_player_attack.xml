@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_attack" kind="class" language="C#" prot="public">
+    <compoundname>PlayerAttack</compoundname>
+    <basecompoundref refid="class_player" prot="public" virt="non-virtual">Player</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_attack_1ab51d1d847769c78a6d4f07f6e513bf1a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+        <definition>UpgradeHolder PlayerAttack.upgradeHolder</definition>
+        <argsstring></argsstring>
+        <name>upgradeHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="9" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1aeb652d977ea216e52d120c4b891b87ea" prot="private" static="no" mutable="no">
+        <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+        <definition>Weapon PlayerAttack.currentWeaponUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentWeaponUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="12" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1a4212225c3097a03e56ad7bdced42be69" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_bullet" kindref="compound">PlayerBullet</ref></type>
+        <definition>PlayerBullet PlayerAttack.playerBulletPrefab</definition>
+        <argsstring></argsstring>
+        <name>playerBulletPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="15" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1af6c1b42c1e5395a4ba6365e1f17fc2ca" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerAttack.attackTime</definition>
+        <argsstring></argsstring>
+        <name>attackTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="17" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1a301253a4d97dfda538b27cc63fd67b97" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerAttack.xDirection</definition>
+        <argsstring></argsstring>
+        <name>xDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="18" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1af3135fe1508b74238d1eaa66a7f06599" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerAttack.yDirection</definition>
+        <argsstring></argsstring>
+        <name>yDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="19" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1aabc7b9af1303195a95adf7cc9e6a9e42" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 PlayerAttack.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="20" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_attack_1a75a7eb591949c398ffb3d72974ca8503" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform PlayerAttack.spawnSocket</definition>
+        <argsstring></argsstring>
+        <name>spawnSocket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="22" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1a56b59f30fb9dabdfb0e10dd906aebb39" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerAttack.spawnBaseForceMultiplier</definition>
+        <argsstring></argsstring>
+        <name>spawnBaseForceMultiplier</name>
+        <initializer>= 100f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f" compoundref="_player_attack_8cs" startline="174" endline="186">SimulateShoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1a6bafb5f3654430e6693fa6e753a78341" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform PlayerAttack.turret</definition>
+        <argsstring></argsstring>
+        <name>turret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="26" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_player_attack_1a9903eb855cd21bf6e83ac4173eb431f1" compoundref="_player_attack_8cs" startline="46" endline="64">RotateTurretToMousePos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1a5907060de32257991245f13277159aad" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerAttack.turretLerpRotSpeed</definition>
+        <argsstring></argsstring>
+        <name>turretLerpRotSpeed</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="27" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_player_attack_1a9903eb855cd21bf6e83ac4173eb431f1" compoundref="_player_attack_8cs" startline="46" endline="64">RotateTurretToMousePos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_attack_1aa713d486272d440d288c1186c32cff51" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerAttack.turretRotZOffset</definition>
+        <argsstring></argsstring>
+        <name>turretRotZOffset</name>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="28" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_player_attack_1a9903eb855cd21bf6e83ac4173eb431f1" compoundref="_player_attack_8cs" startline="46" endline="64">RotateTurretToMousePos</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_attack_1a6f870997319046f036f4422eba03c1ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="30" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_attack_1a17e02511c51f255ab478963b8d3a2938" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="37" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="37" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_attack_1a27a2c8eff1180a17b841e7a3aed7fac3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_bullet" kindref="compound">PlayerBullet</ref></type>
+        <definition>PlayerBullet PlayerAttack.CreateBullet</definition>
+        <argsstring>(float bulletDamage, float bulletSpeed)</argsstring>
+        <name>CreateBullet</name>
+        <param>
+          <type>float</type>
+          <declname>bulletDamage</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bulletSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="65" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="65" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_attack_1a7fbb88515f7a4d2769408150a23c07d8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.AttackBehaviour</definition>
+        <argsstring>()</argsstring>
+        <name>AttackBehaviour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="81" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="81" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_attack_1a4e371d950051975ec2cd0a6f0fd25fb9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.AttackBehaviour2</definition>
+        <argsstring>()</argsstring>
+        <name>AttackBehaviour2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="141" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="141" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_attack_1a9903eb855cd21bf6e83ac4173eb431f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.RotateTurretToMousePos</definition>
+        <argsstring>()</argsstring>
+        <name>RotateTurretToMousePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="46" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="46" bodyend="64"/>
+        <references refid="class_player_attack_1a6bafb5f3654430e6693fa6e753a78341" compoundref="_player_attack_8cs" startline="26">turret</references>
+        <references refid="class_player_attack_1a5907060de32257991245f13277159aad" compoundref="_player_attack_8cs" startline="27">turretLerpRotSpeed</references>
+        <references refid="class_player_attack_1aa713d486272d440d288c1186c32cff51" compoundref="_player_attack_8cs" startline="28">turretRotZOffset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_attack_1a1b0d72ce915f4a931ba9af1dd0ecee7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.AttackBehaviour3</definition>
+        <argsstring>()</argsstring>
+        <name>AttackBehaviour3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="162" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="162" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.SimulateShoot</definition>
+        <argsstring>()</argsstring>
+        <name>SimulateShoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="174" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="174" bodyend="186"/>
+        <references refid="class_weapon_1a7ebf6aad2e3f7413c6726b0dc8937f56" compoundref="_weapon_8cs" startline="18" endline="21">Weapon.GetAttackDamage</references>
+        <references refid="class_weapon_1a5c81263243b28047f939212f29bb8bcb" compoundref="_weapon_8cs" startline="13" endline="16">Weapon.GetAttackRate</references>
+        <references refid="class_weapon_1ab3cfe59fd638a383ed59a5383b2b2b35" compoundref="_weapon_8cs" startline="23" endline="26">Weapon.GetAttackSpeed</references>
+        <references refid="class_player_attack_1a56b59f30fb9dabdfb0e10dd906aebb39" compoundref="_player_attack_8cs" startline="23">spawnBaseForceMultiplier</references>
+        <referencedby refid="class_player_attack_1a1a476dbd27cb999a19cb4b9d232fa63e" compoundref="_player_attack_8cs" startline="188" endline="199">OnInput</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_attack_1a1a476dbd27cb999a19cb4b9d232fa63e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.OnInput</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnInput</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="188" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="188" bodyend="199"/>
+        <references refid="class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f" compoundref="_player_attack_8cs" startline="174" endline="186">SimulateShoot</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_attack_1a62227787e3b1b332c1bdd7dd26752995" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAttack.OnSimulateInput</definition>
+        <argsstring>(bool IsPressedThisFrame, float axis)</argsstring>
+        <name>OnSimulateInput</name>
+        <param>
+          <type>bool</type>
+          <declname>IsPressedThisFrame</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="202" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="202" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PlayerAttack</label>
+        <link refid="class_player_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PlayerAttack</label>
+        <link refid="class_player_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerAttack.cs" bodystart="8" bodyend="208"/>
+    <listofallmembers>
+      <member refid="class_player_attack_1a7fbb88515f7a4d2769408150a23c07d8" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>AttackBehaviour</name></member>
+      <member refid="class_player_attack_1a4e371d950051975ec2cd0a6f0fd25fb9" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>AttackBehaviour2</name></member>
+      <member refid="class_player_attack_1a1b0d72ce915f4a931ba9af1dd0ecee7c" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>AttackBehaviour3</name></member>
+      <member refid="class_player_attack_1af6c1b42c1e5395a4ba6365e1f17fc2ca" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>attackTime</name></member>
+      <member refid="class_player_attack_1a27a2c8eff1180a17b841e7a3aed7fac3" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>CreateBullet</name></member>
+      <member refid="class_player_attack_1aeb652d977ea216e52d120c4b891b87ea" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>currentWeaponUpgrade</name></member>
+      <member refid="class_player_attack_1aabc7b9af1303195a95adf7cc9e6a9e42" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>direction</name></member>
+      <member refid="class_player_attack_1a17e02511c51f255ab478963b8d3a2938" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>FixedUpdate</name></member>
+      <member refid="class_player_1ac546e5988a6e13cafc7a2b4820351ee2" prot="protected" virt="non-virtual"><scope>PlayerAttack</scope><name>isDead</name></member>
+      <member refid="class_player_attack_1a1a476dbd27cb999a19cb4b9d232fa63e" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>OnInput</name></member>
+      <member refid="class_player_attack_1a62227787e3b1b332c1bdd7dd26752995" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>OnSimulateInput</name></member>
+      <member refid="class_player_attack_1a4212225c3097a03e56ad7bdced42be69" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>playerBulletPrefab</name></member>
+      <member refid="class_player_1af093347214c362c15ea71eec0394207a" prot="protected" virt="non-virtual"><scope>PlayerAttack</scope><name>playerRigidbody2D</name></member>
+      <member refid="class_player_attack_1a9903eb855cd21bf6e83ac4173eb431f1" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>RotateTurretToMousePos</name></member>
+      <member refid="class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>SimulateShoot</name></member>
+      <member refid="class_player_attack_1a56b59f30fb9dabdfb0e10dd906aebb39" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>spawnBaseForceMultiplier</name></member>
+      <member refid="class_player_attack_1a75a7eb591949c398ffb3d72974ca8503" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>spawnSocket</name></member>
+      <member refid="class_player_1aea53f64a37269e7378929cf92feba188" prot="protected" virt="non-virtual"><scope>PlayerAttack</scope><name>sprite</name></member>
+      <member refid="class_player_attack_1a6f870997319046f036f4422eba03c1ab" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>Start</name></member>
+      <member refid="class_player_attack_1a6bafb5f3654430e6693fa6e753a78341" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>turret</name></member>
+      <member refid="class_player_attack_1a5907060de32257991245f13277159aad" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>turretLerpRotSpeed</name></member>
+      <member refid="class_player_attack_1aa713d486272d440d288c1186c32cff51" prot="public" virt="non-virtual"><scope>PlayerAttack</scope><name>turretRotZOffset</name></member>
+      <member refid="class_player_attack_1ab51d1d847769c78a6d4f07f6e513bf1a" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>upgradeHolder</name></member>
+      <member refid="class_player_attack_1a301253a4d97dfda538b27cc63fd67b97" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>xDirection</name></member>
+      <member refid="class_player_attack_1af3135fe1508b74238d1eaa66a7f06599" prot="private" virt="non-virtual"><scope>PlayerAttack</scope><name>yDirection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

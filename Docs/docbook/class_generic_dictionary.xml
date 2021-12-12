@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_generic_dictionary" xml:lang="en-US">
+<title>GenericDictionary&lt; TKey, TValue &gt; Class Template Reference</title>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary></indexterm>
+<para>
+
+<para>Generic Serializable Dictionary for Unity 2020.1. </para>
+ 
+</para>
+Inheritance diagram for GenericDictionary&lt; TKey, TValue &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_generic_dictionary__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for GenericDictionary&lt; TKey, TValue &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_generic_dictionary__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_generic_dictionary_1afa7d7ea0b03cb741f5972cdb9dad9820">OnBeforeSerialize</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_generic_dictionary_1aa7e3c7674d72aa09908d823828bfe9a0">OnAfterDeserialize</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_generic_dictionary_1a3131a602b17fa42446948df937e584f7">Add</link> (TKey key, TValue value)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_generic_dictionary_1a467b6e4d31cedc2b38b39a0229bc27f3">ContainsKey</link> (TKey key)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_generic_dictionary_1acb60c1c04eaf193894e672a903d4d7c9">Remove</link> (TKey key)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_generic_dictionary_1abcf475aa029c54b4d76528e3f18c959a">TryGetValue</link> (TKey key, out TValue value)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_generic_dictionary_1a5518c081100f250284866a97ffeaae83">Add</link> (KeyValuePair&lt; TKey, TValue &gt; pair)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_generic_dictionary_1a5db3892fe9887beb04bbe276ef87e8a6">Clear</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_generic_dictionary_1a7ef41939aa49dc6c0c18a64dca398839">Contains</link> (KeyValuePair&lt; TKey, TValue &gt; pair)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_generic_dictionary_1aebb652620a964cc219be4bd9f9a92378">CopyTo</link> (KeyValuePair&lt; TKey, TValue &gt;[] array, int arrayIndex)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_generic_dictionary_1a329fdd017e33a42057b50469a9720ba9">Remove</link> (KeyValuePair&lt; TKey, TValue &gt; pair)</para>
+</listitem>
+            <listitem><para>IEnumerator&lt; KeyValuePair&lt; TKey, TValue &gt; &gt; <link linkend="_class_generic_dictionary_1abbc58e30b43342a6debd5de40b2245c8">GetEnumerator</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>TValue <link linkend="_class_generic_dictionary_1a3366552e2cdd8858f2d18478a6bb6f25">this[TKey key]</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ICollection&lt; TKey &gt; <link linkend="_class_generic_dictionary_1a679f48bd2ee64873186e97c78b642213">Keys</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ICollection&lt; TValue &gt; <link linkend="_class_generic_dictionary_1af906857dbe6c25c750b6dc7fb1aedca0">Values</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_generic_dictionary_1a26ee931c47c12e0f13ee6bbb27264fe8">Count</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_generic_dictionary_1aa3fd065828bdb39d64be67280a056d96">IsReadOnly</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Generic Serializable Dictionary for Unity 2020.1. </para>
+
+
+
+<para>Simply declare your key/value types and you&apos;re good to go - zero boilerplate. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_generic_dictionary_1a5518c081100f250284866a97ffeaae83"/><section>
+    <title>Add()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Add</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Add</secondary></indexterm>
+<para><computeroutput>void <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Add (KeyValuePair&lt; TKey, TValue &gt; pair)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_generic_dictionary_a5518c081100f250284866a97ffeaae83_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_generic_dictionary_1a3131a602b17fa42446948df937e584f7"/><section>
+    <title>Add()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Add</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Add</secondary></indexterm>
+<para><computeroutput>void <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Add (TKey key, TValue value)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_generic_dictionary_a3131a602b17fa42446948df937e584f7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_generic_dictionary_1a5db3892fe9887beb04bbe276ef87e8a6"/><section>
+    <title>Clear()</title>
+<indexterm><primary>Clear</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Clear</secondary></indexterm>
+<para><computeroutput>void <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Clear ( )</computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1a7ef41939aa49dc6c0c18a64dca398839"/><section>
+    <title>Contains()</title>
+<indexterm><primary>Contains</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Contains</secondary></indexterm>
+<para><computeroutput>bool <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Contains (KeyValuePair&lt; TKey, TValue &gt; pair)</computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1a467b6e4d31cedc2b38b39a0229bc27f3"/><section>
+    <title>ContainsKey()</title>
+<indexterm><primary>ContainsKey</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>ContainsKey</secondary></indexterm>
+<para><computeroutput>bool <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.ContainsKey (TKey key)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_generic_dictionary_a467b6e4d31cedc2b38b39a0229bc27f3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_generic_dictionary_1aebb652620a964cc219be4bd9f9a92378"/><section>
+    <title>CopyTo()</title>
+<indexterm><primary>CopyTo</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>CopyTo</secondary></indexterm>
+<para><computeroutput>void <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.CopyTo (KeyValuePair&lt; TKey, TValue &gt;[] array, int arrayIndex)</computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1abbc58e30b43342a6debd5de40b2245c8"/><section>
+    <title>GetEnumerator()</title>
+<indexterm><primary>GetEnumerator</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>GetEnumerator</secondary></indexterm>
+<para><computeroutput>IEnumerator&lt; KeyValuePair&lt; TKey, TValue &gt; &gt; <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.GetEnumerator ( )</computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1aa7e3c7674d72aa09908d823828bfe9a0"/><section>
+    <title>OnAfterDeserialize()</title>
+<indexterm><primary>OnAfterDeserialize</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>OnAfterDeserialize</secondary></indexterm>
+<para><computeroutput>void <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.OnAfterDeserialize ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_generic_dictionary_aa7e3c7674d72aa09908d823828bfe9a0_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_generic_dictionary_1afa7d7ea0b03cb741f5972cdb9dad9820"/><section>
+    <title>OnBeforeSerialize()</title>
+<indexterm><primary>OnBeforeSerialize</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>OnBeforeSerialize</secondary></indexterm>
+<para><computeroutput>void <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.OnBeforeSerialize ( )</computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1a329fdd017e33a42057b50469a9720ba9"/><section>
+    <title>Remove()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Remove</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Remove</secondary></indexterm>
+<para><computeroutput>bool <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Remove (KeyValuePair&lt; TKey, TValue &gt; pair)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_generic_dictionary_a329fdd017e33a42057b50469a9720ba9_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_generic_dictionary_1acb60c1c04eaf193894e672a903d4d7c9"/><section>
+    <title>Remove()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Remove</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Remove</secondary></indexterm>
+<para><computeroutput>bool <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Remove (TKey key)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_generic_dictionary_acb60c1c04eaf193894e672a903d4d7c9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_generic_dictionary_1abcf475aa029c54b4d76528e3f18c959a"/><section>
+    <title>TryGetValue()</title>
+<indexterm><primary>TryGetValue</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>TryGetValue</secondary></indexterm>
+<para><computeroutput>bool <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.TryGetValue (TKey key, out TValue value)</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_generic_dictionary_1a26ee931c47c12e0f13ee6bbb27264fe8"/><section>
+    <title>Count</title>
+<indexterm><primary>Count</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Count</secondary></indexterm>
+<para><computeroutput>int <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Count<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1aa3fd065828bdb39d64be67280a056d96"/><section>
+    <title>IsReadOnly</title>
+<indexterm><primary>IsReadOnly</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>IsReadOnly</secondary></indexterm>
+<para><computeroutput>bool <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.IsReadOnly<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1a679f48bd2ee64873186e97c78b642213"/><section>
+    <title>Keys</title>
+<indexterm><primary>Keys</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Keys</secondary></indexterm>
+<para><computeroutput>ICollection&lt;TKey&gt; <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Keys<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1a3366552e2cdd8858f2d18478a6bb6f25"/><section>
+    <title>this[TKey key]</title>
+<indexterm><primary>this[TKey key]</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>this[TKey key]</secondary></indexterm>
+<para><computeroutput>TValue <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.this[TKey key]<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_generic_dictionary_1af906857dbe6c25c750b6dc7fb1aedca0"/><section>
+    <title>Values</title>
+<indexterm><primary>Values</primary><secondary>GenericDictionary&lt; TKey, TValue &gt;</secondary></indexterm>
+<indexterm><primary>GenericDictionary&lt; TKey, TValue &gt;</primary><secondary>Values</secondary></indexterm>
+<para><computeroutput>ICollection&lt;TValue&gt; <link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; TKey, TValue &gt;.Values<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/<link linkend="__generic_dictionary_8cs">GenericDictionary.cs</link></section>
+</section>

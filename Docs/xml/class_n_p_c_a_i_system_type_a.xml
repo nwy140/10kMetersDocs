@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_n_p_c_a_i_system_type_a" kind="class" language="C#" prot="public">
+    <compoundname>NPCAISystemTypeA</compoundname>
+    <basecompoundref refid="class_f_s_m_system_base" prot="public" virt="non-virtual">FSMSystemBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1acccedf1008acf03883bb07c628b70f71" prot="public" static="no" mutable="no">
+        <type><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081" kindref="member">NPCAITypeAReactinStyle</ref></type>
+        <definition>NPCAITypeAReactinStyle NPCAISystemTypeA.reactionStyle</definition>
+        <argsstring></argsstring>
+        <name>reactionStyle</name>
+        <initializer>= <ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081aeaff692e84900d6b0999355abb0f3e43" kindref="member">NPCAITypeAReactinStyle.Chase</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="17" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="81" endline="125">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_s_m_base_state" kindref="compound">FSMBaseState</ref> &gt;</type>
+        <definition>List&lt;FSMBaseState&gt; NPCAISystemTypeA.possibleStatesSOInstance</definition>
+        <argsstring></argsstring>
+        <name>possibleStatesSOInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="18" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="29" endline="79">Awake</referencedby>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="151" endline="154">GetStateSOInstanceByName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1a2801ced43f434bdb5f63bf84675433a2" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; NPCAISystemTypeA.possibleStatesNames</definition>
+        <argsstring></argsstring>
+        <name>possibleStatesNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="19" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="29" endline="79">Awake</referencedby>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="151" endline="154">GetStateSOInstanceByName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1a281f06a167415bd50de695bfd96df510" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_slots_holder_manager" kindref="compound">CommandSlotsHolderManager</ref></type>
+        <definition>CommandSlotsHolderManager NPCAISystemTypeA.commandSlotsHolderManager</definition>
+        <argsstring></argsstring>
+        <name>commandSlotsHolderManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="20" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="29" endline="79">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" prot="public" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent NPCAISystemTypeA.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="21" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="29" endline="79">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1a3019d46ac9182a9bfedb5b22b2eb0c43" prot="public" static="no" mutable="no">
+        <type><ref refid="class_camera_sight_perception_sensor2_d" kindref="compound">CameraSightPerceptionSensor2D</ref></type>
+        <definition>CameraSightPerceptionSensor2D NPCAISystemTypeA.sensor</definition>
+        <argsstring></argsstring>
+        <name>sensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="22" column="42" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="81" endline="125">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1a9f8b200312416836a716a5ec1ca11a1b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_waypoint_path" kindref="compound">WaypointPath</ref></type>
+        <definition>WaypointPath NPCAISystemTypeA.waypointComp</definition>
+        <argsstring></argsstring>
+        <name>waypointComp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="24" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="29" endline="79">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NPCAISystemTypeA.isUseWaypoint</definition>
+        <argsstring></argsstring>
+        <name>isUseWaypoint</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="25" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="29" endline="79">Awake</referencedby>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="127" endline="139">HandleEnterPatrolState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" prot="public" static="no" mutable="no">
+        <type>RotationConstraint</type>
+        <definition>RotationConstraint NPCAISystemTypeA.rotationConstraint</definition>
+        <argsstring></argsstring>
+        <name>rotationConstraint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="27" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="29" endline="79">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_a_i_system_type_a_1a9d56a4587b059bc33ef8232285097e57" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform NPCAISystemTypeA.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="156" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void NPCAISystemTypeA.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <reimplements refid="class_f_s_m_system_base_1ab80678c5526db2e0089a98a440c29a60">Awake</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="29" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="29" bodyend="79"/>
+        <references refid="class_f_s_m_system_base_1a2f6e165ca4a189639dfac080fff32714" compoundref="_f_s_m_system_base_8cs" startline="10">FSMSystemBase._curState</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="21">agent</references>
+        <references refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081aeaff692e84900d6b0999355abb0f3e43">Chase</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a281f06a167415bd50de695bfd96df510" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="20">commandSlotsHolderManager</references>
+        <references refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081a20a8b1e6e473f9f1b219973fb365af44">Flee</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="127" endline="139">HandleEnterPatrolState</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="25">isUseWaypoint</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a2801ced43f434bdb5f63bf84675433a2" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="19">possibleStatesNames</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="18">possibleStatesSOInstance</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="27">rotationConstraint</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a9f8b200312416836a716a5ec1ca11a1b" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="24">waypointComp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void NPCAISystemTypeA.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_f_s_m_system_base_1a4da20f26b8e2b553122e84ef9eb70bfc">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="81" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="81" bodyend="125"/>
+        <references refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081aeaff692e84900d6b0999355abb0f3e43">Chase</references>
+        <references refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081a20a8b1e6e473f9f1b219973fb365af44">Flee</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="151" endline="154">GetStateSOInstanceByName</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="127" endline="139">HandleEnterPatrolState</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1acccedf1008acf03883bb07c628b70f71" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="17">reactionStyle</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a3019d46ac9182a9bfedb5b22b2eb0c43" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="22">sensor</references>
+        <references refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" compoundref="_f_s_m_system_base_8cs" startline="39" endline="49">FSMSystemBase.TryEnterState</references>
+        <references refid="class_camera_sight_perception_sensor2_d_1adedb682ee7cead7a4e23568ca2ab59ea" compoundref="_camera_sight_perception_sensor2_d_8cs" startline="15">CameraSightPerceptionSensor2D.visibleRenderers</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPCAISystemTypeA.HandleEnterPatrolState</definition>
+        <argsstring>()</argsstring>
+        <name>HandleEnterPatrolState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="127" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="127" bodyend="139"/>
+        <references refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="151" endline="154">GetStateSOInstanceByName</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="25">isUseWaypoint</references>
+        <references refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" compoundref="_f_s_m_system_base_8cs" startline="39" endline="49">FSMSystemBase.TryEnterState</references>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="29" endline="79">Awake</referencedby>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="81" endline="125">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_p_c_a_i_system_type_a_1a30682f80178535058a2c8a57203957da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPCAISystemTypeA.TryEnterStateByName</definition>
+        <argsstring>(string nextStateName)</argsstring>
+        <name>TryEnterStateByName</name>
+        <param>
+          <type>string</type>
+          <declname>nextStateName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="141" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="141" bodyend="144"/>
+        <references refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="151" endline="154">GetStateSOInstanceByName</references>
+        <references refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" compoundref="_f_s_m_system_base_8cs" startline="39" endline="49">FSMSystemBase.TryEnterState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_s_m_base_state" kindref="compound">FSMBaseState</ref></type>
+        <definition>FSMBaseState NPCAISystemTypeA.GetStateSOInstanceByName</definition>
+        <argsstring>(string stateName)</argsstring>
+        <name>GetStateSOInstanceByName</name>
+        <param>
+          <type>string</type>
+          <declname>stateName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="151" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="151" bodyend="154"/>
+        <references refid="class_n_p_c_a_i_system_type_a_1a2801ced43f434bdb5f63bf84675433a2" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="19">possibleStatesNames</references>
+        <references refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="18">possibleStatesSOInstance</references>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="127" endline="139">HandleEnterPatrolState</referencedby>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1a30682f80178535058a2c8a57203957da" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="141" endline="144">TryEnterStateByName</referencedby>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="81" endline="125">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_p_c_a_i_system_type_a_1a573ecd9af9058670ebe155294a2cbd72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPCAISystemTypeA.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="146" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_p_c_a_i_system_type_a_1a71dbc7c14f3dbbca2c357bb6bbc75140" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPCAISystemTypeA.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="164" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="164" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FSMSystemBase</label>
+        <link refid="class_f_s_m_system_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NPCAISystemTypeA</label>
+        <link refid="class_n_p_c_a_i_system_type_a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>CameraSightPerceptionSensor2D</label>
+        <link refid="class_camera_sight_perception_sensor2_d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CommandSlotsHolderManager</label>
+        <link refid="class_command_slots_holder_manager"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>#_system</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FSMSystemBase</label>
+        <link refid="class_f_s_m_system_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+_curState</edgelabel>
+          <edgelabel>+_prevState</edgelabel>
+          <edgelabel>+_startingState</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NPCAISystemTypeA</label>
+        <link refid="class_n_p_c_a_i_system_type_a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+commandSlotsHolderManager</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+sensor</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+waypointComp</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="8">
+        <label>WaypointPath</label>
+        <link refid="class_waypoint_path"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="15" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="16" bodyend="170"/>
+    <listofallmembers>
+      <member refid="class_f_s_m_system_base_1a2f6e165ca4a189639dfac080fff32714" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>_curState</name></member>
+      <member refid="class_f_s_m_system_base_1a0f54c1e32ce76012a1385fe453ba953f" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>_prevState</name></member>
+      <member refid="class_f_s_m_system_base_1a40aaff0316f2a0b01ad8e51812c47282" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>_startingState</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>agent</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" prot="public" virt="virtual"><scope>NPCAISystemTypeA</scope><name>Awake</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a281f06a167415bd50de695bfd96df510" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>commandSlotsHolderManager</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>GetStateSOInstanceByName</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>HandleEnterPatrolState</name></member>
+      <member refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>isDebugLog</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>isUseWaypoint</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a71dbc7c14f3dbbca2c357bb6bbc75140" prot="private" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a573ecd9af9058670ebe155294a2cbd72" prot="private" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>OnEnable</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a2801ced43f434bdb5f63bf84675433a2" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>possibleStatesNames</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>possibleStatesSOInstance</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1acccedf1008acf03883bb07c628b70f71" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>reactionStyle</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>rotationConstraint</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a3019d46ac9182a9bfedb5b22b2eb0c43" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>sensor</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a9d56a4587b059bc33ef8232285097e57" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>target</name></member>
+      <member refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" prot="public" virt="virtual"><scope>NPCAISystemTypeA</scope><name>TryEnterState</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a30682f80178535058a2c8a57203957da" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>TryEnterStateByName</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" prot="public" virt="virtual"><scope>NPCAISystemTypeA</scope><name>Update</name></member>
+      <member refid="class_n_p_c_a_i_system_type_a_1a9f8b200312416836a716a5ec1ca11a1b" prot="public" virt="non-virtual"><scope>NPCAISystemTypeA</scope><name>waypointComp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

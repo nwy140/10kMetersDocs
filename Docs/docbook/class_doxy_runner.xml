@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_doxy_runner" xml:lang="en-US">
+<title>DoxyRunner Class Reference</title>
+<indexterm><primary>DoxyRunner</primary></indexterm>
+<para>
+
+<para>This class spawns and runs Doxygen in a separate thread, and could serve as an example of how to create plugins for unity that call a command line application and then get the data back into Unity safely. </para>
+ 
+</para>
+Collaboration diagram for DoxyRunner:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_doxy_runner_1aed7742f6732027e7427393d727898eba">DoxyRunner</link> (string exepath, string[] args, <link linkend="_class_doxy_thread_safe_output">DoxyThreadSafeOutput</link> safeoutput, Action&lt; int &gt; callback)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_doxy_runner_1a4474ed980f895f97ac3517fe85834259">updateOuputString</link> (string output)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6">RunThreadedDoxy</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_class_doxy_runner_1a7458975df0c43d397051f225d6def184">Run</link> (Action&lt; string &gt; output, TextReader input, string exe, params string[] args)</para>
+
+<para>Runs the specified executable with the provided arguments and returns the process&apos; exit code. </para>
+</listitem>
+            <listitem><para>static string <link linkend="_class_doxy_runner_1a9e1ad0bb37f42899aeac2e2fb59cb769">EscapeArguments</link> (params string[] args)</para>
+
+<para>Quotes all arguments that contain whitespace, or begin with a quote and returns a single argument string for use with Process.Start(). </para>
+</listitem>
+            <listitem><para>static string <link linkend="_class_doxy_runner_1a0923bf6769c3b99b4fb8e9ce67877a94">FindExePath</link> (string exe)</para>
+
+<para>Expands environment variables and, if unqualified, locates the exe in the working directory or the evironment&apos;s path. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Action&lt; int &gt; <link linkend="_class_doxy_runner_1ac1401822d6b3dea5626b786a94aa98d5">onCompleteCallBack</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_class_doxy_runner_1a9661f03da50c7783e9bc99e2a92f14e6">EXE</link> = null</para>
+</listitem>
+            <listitem><para>string[] <link linkend="_class_doxy_runner_1a015e8e8211c24140065dfc92f5fba71b">Args</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class spawns and runs Doxygen in a separate thread, and could serve as an example of how to create plugins for unity that call a command line application and then get the data back into Unity safely. </para>
+
+
+
+<para>
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_doxy_runner_1aed7742f6732027e7427393d727898eba"/><section>
+    <title>DoxyRunner()</title>
+<indexterm><primary>DoxyRunner</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>DoxyRunner</secondary></indexterm>
+<para><computeroutput>DoxyRunner.DoxyRunner (string exepath, string[] args, <link linkend="_class_doxy_thread_safe_output">DoxyThreadSafeOutput</link> safeoutput, Action&lt; int &gt; callback)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_doxy_runner_1a9e1ad0bb37f42899aeac2e2fb59cb769"/><section>
+    <title>EscapeArguments()</title>
+<indexterm><primary>EscapeArguments</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>EscapeArguments</secondary></indexterm>
+<para><computeroutput>static string DoxyRunner.EscapeArguments (params string[] args)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Quotes all arguments that contain whitespace, or begin with a quote and returns a single argument string for use with Process.Start(). </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>args</entry><entry>
+<para>A list of strings for arguments, may not contain null, &apos;\0&apos;, &apos;\r&apos;, or &apos;
+<literallayout>&#160;&#xa;</literallayout>
+&apos;</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The combined list of escaped/quoted strings</para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>System.ArgumentNullException</entry><entry>
+<para>Raised when one of the arguments is null</para>
+</entry>
+                            </row>
+                            <row>
+<entry>System.ArgumentOutOfRangeException</entry><entry>
+<para>Raised if an argument contains &apos;\0&apos;, &apos;\r&apos;, or &apos;
+<literallayout>&#160;&#xa;</literallayout>
+&apos;</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner_a9e1ad0bb37f42899aeac2e2fb59cb769_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_doxy_runner_1a0923bf6769c3b99b4fb8e9ce67877a94"/><section>
+    <title>FindExePath()</title>
+<indexterm><primary>FindExePath</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>FindExePath</secondary></indexterm>
+<para><computeroutput>static string DoxyRunner.FindExePath (string exe)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Expands environment variables and, if unqualified, locates the exe in the working directory or the evironment&apos;s path. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>exe</entry><entry>
+<para>The name of the executable file</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The fully-qualified path to the file</para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>System.IO.FileNotFoundException</entry><entry>
+<para>Raised when the exe was not found</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner_a0923bf6769c3b99b4fb8e9ce67877a94_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_doxy_runner_1a7458975df0c43d397051f225d6def184"/><section>
+    <title>Run()</title>
+<indexterm><primary>Run</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>Run</secondary></indexterm>
+<para><computeroutput>static int DoxyRunner.Run (Action&lt; string &gt; output, TextReader input, string exe, params string[] args)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Runs the specified executable with the provided arguments and returns the process&apos; exit code. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>output</entry><entry>
+<para>Recieves the output of either std/err or std/out</para>
+</entry>
+                            </row>
+                            <row>
+<entry>input</entry><entry>
+<para>Provides the line-by-line input that will be written to std/in, null for empty</para>
+</entry>
+                            </row>
+                            <row>
+<entry>exe</entry><entry>
+<para>The executable to run, may be unqualified or contain environment variables</para>
+</entry>
+                            </row>
+                            <row>
+<entry>args</entry><entry>
+<para>The list of unescaped arguments to provide to the executable</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Returns process&apos; exit code after the program exits</para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>System.IO.FileNotFoundException</entry><entry>
+<para>Raised when the exe was not found</para>
+</entry>
+                            </row>
+                            <row>
+<entry>System.ArgumentNullException</entry><entry>
+<para>Raised when one of the arguments is null</para>
+</entry>
+                            </row>
+                            <row>
+<entry>System.ArgumentOutOfRangeException</entry><entry>
+<para>Raised if an argument contains &apos;\0&apos;, &apos;\r&apos;, or &apos;
+<literallayout>&#160;&#xa;</literallayout>
+&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner_a7458975df0c43d397051f225d6def184_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner_a7458975df0c43d397051f225d6def184_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6"/><section>
+    <title>RunThreadedDoxy()</title>
+<indexterm><primary>RunThreadedDoxy</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>RunThreadedDoxy</secondary></indexterm>
+<para><computeroutput>void DoxyRunner.RunThreadedDoxy ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner_a0a838402bf7b6661d4a1959c1b57aeb6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner_a0a838402bf7b6661d4a1959c1b57aeb6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_doxy_runner_1a4474ed980f895f97ac3517fe85834259"/><section>
+    <title>updateOuputString()</title>
+<indexterm><primary>updateOuputString</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>updateOuputString</secondary></indexterm>
+<para><computeroutput>void DoxyRunner.updateOuputString (string output)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner_a4474ed980f895f97ac3517fe85834259_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_doxy_runner_a4474ed980f895f97ac3517fe85834259_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_doxy_runner_1a015e8e8211c24140065dfc92f5fba71b"/><section>
+    <title>Args</title>
+<indexterm><primary>Args</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>Args</secondary></indexterm>
+<para><computeroutput>string [] DoxyRunner.Args</computeroutput></para></section>
+<anchor xml:id="_class_doxy_runner_1a9661f03da50c7783e9bc99e2a92f14e6"/><section>
+    <title>EXE</title>
+<indexterm><primary>EXE</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>EXE</secondary></indexterm>
+<para><computeroutput>string DoxyRunner.EXE = null</computeroutput></para></section>
+<anchor xml:id="_class_doxy_runner_1ac1401822d6b3dea5626b786a94aa98d5"/><section>
+    <title>onCompleteCallBack</title>
+<indexterm><primary>onCompleteCallBack</primary><secondary>DoxyRunner</secondary></indexterm>
+<indexterm><primary>DoxyRunner</primary><secondary>onCompleteCallBack</secondary></indexterm>
+<para><computeroutput>Action&lt;int&gt; DoxyRunner.onCompleteCallBack</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/<link linkend="__doxygen_window_8cs">DoxygenWindow.cs</link></section>
+</section>

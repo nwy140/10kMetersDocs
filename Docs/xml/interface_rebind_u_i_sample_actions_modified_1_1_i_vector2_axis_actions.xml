@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions" kind="interface" language="C#" prot="public">
+    <compoundname>RebindUISampleActionsModified::IVector2AxisActions</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions_1af474b2643a109f5fa26c54e6e12f8216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RebindUISampleActionsModified.IVector2AxisActions.OnNewaction</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnNewaction</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1964" column="14"/>
+        <referencedby refid="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1af527b4c74d68ab75da5490b4babb5654" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1875" endline="1908">RebindUISampleActionsModified.Vector2AxisActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions_1a7a792f24fcaf980e8e4f1a39d6052be8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RebindUISampleActionsModified.IVector2AxisActions.OnLeftStickAxis2D</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnLeftStickAxis2D</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1965" column="14"/>
+        <referencedby refid="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1af527b4c74d68ab75da5490b4babb5654" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1875" endline="1908">RebindUISampleActionsModified.Vector2AxisActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions_1a9fe08cb7faced5d6010250a0b9c864bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RebindUISampleActionsModified.IVector2AxisActions.OnRightStickAxis2D</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnRightStickAxis2D</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1966" column="14"/>
+        <referencedby refid="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1af527b4c74d68ab75da5490b4babb5654" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1875" endline="1908">RebindUISampleActionsModified.Vector2AxisActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions_1af3c8ce602245f7f4a27e4ffb4613db16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RebindUISampleActionsModified.IVector2AxisActions.OnDPadAxis2D</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnDPadAxis2D</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1967" column="14"/>
+        <referencedby refid="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1af527b4c74d68ab75da5490b4babb5654" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1875" endline="1908">RebindUISampleActionsModified.Vector2AxisActions.SetCallbacks</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>RebindUISampleActionsModified.IVector2AxisActions</label>
+        <link refid="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1962" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1963" bodyend="1968"/>
+    <listofallmembers>
+      <member refid="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions_1af3c8ce602245f7f4a27e4ffb4613db16" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified::IVector2AxisActions</scope><name>OnDPadAxis2D</name></member>
+      <member refid="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions_1a7a792f24fcaf980e8e4f1a39d6052be8" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified::IVector2AxisActions</scope><name>OnLeftStickAxis2D</name></member>
+      <member refid="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions_1af474b2643a109f5fa26c54e6e12f8216" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified::IVector2AxisActions</scope><name>OnNewaction</name></member>
+      <member refid="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions_1a9fe08cb7faced5d6010250a0b9c864bd" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified::IVector2AxisActions</scope><name>OnRightStickAxis2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_oxygen_tank" kind="class" language="C#" prot="public">
+    <compoundname>OxygenTank</compoundname>
+    <basecompoundref refid="class_player_upgrades" prot="public" virt="non-virtual">PlayerUpgrades</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_oxygen_tank_1a9b98089e3356725ac67996a54d36c2cf" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OxygenTank.oxygenSupplyAmount</definition>
+        <argsstring></argsstring>
+        <name>oxygenSupplyAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" line="9" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_oxygen_tank_1a5ad13f1f475e9560b3c406fc1789d1ba" prot="private" static="no" mutable="no">
+        <type>readonly float[]</type>
+        <definition>readonly float [] OxygenTank.oxygenDepletionRate</definition>
+        <argsstring></argsstring>
+        <name>oxygenDepletionRate</name>
+        <initializer>= { 3, 2, 1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" line="10" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_oxygen_tank_1a61b0bac4e562496a9578522beaf053d5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OxygenTank.defaultOxygenDepletionRate</definition>
+        <argsstring></argsstring>
+        <name>defaultOxygenDepletionRate</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" line="13" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_oxygen_tank_1af6255a4dca7ce1d06cb72f059e1bcabd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OxygenTank.isUsingLowTechUniqueFeature</definition>
+        <argsstring></argsstring>
+        <name>isUsingLowTechUniqueFeature</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" line="14" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_oxygen_tank_1a417e3453b99c7ef61adb24d984e6c033" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float OxygenTank.GetOxygenSupplyAmount</definition>
+        <argsstring>()</argsstring>
+        <name>GetOxygenSupplyAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" line="16" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_oxygen_tank_1a4f6040c3c0613bc39eb54e74c1efae53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float OxygenTank.GetDefaultOxygenDepletionRate</definition>
+        <argsstring>()</argsstring>
+        <name>GetDefaultOxygenDepletionRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_oxygen_tank_1ac26a34061c77989b40a991e4f74f9947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float OxygenTank.GetOxygenDepletionRate</definition>
+        <argsstring>(int stage)</argsstring>
+        <name>GetOxygenDepletionRate</name>
+        <param>
+          <type>int</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" line="26" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>OxygenTank</label>
+        <link refid="class_oxygen_tank"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>OxygenTank</label>
+        <link refid="class_oxygen_tank"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/OxygenTank.cs" bodystart="7" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_oxygen_tank_1a61b0bac4e562496a9578522beaf053d5" prot="private" virt="non-virtual"><scope>OxygenTank</scope><name>defaultOxygenDepletionRate</name></member>
+      <member refid="class_player_upgrades_1a60236534be903afb7996373f5ae6d3c6" prot="public" virt="virtual"><scope>OxygenTank</scope><name>GetCopy</name></member>
+      <member refid="class_oxygen_tank_1a4f6040c3c0613bc39eb54e74c1efae53" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>GetDefaultOxygenDepletionRate</name></member>
+      <member refid="class_player_upgrades_1aafbbe9499b027d5b1670ef1d31aab7a4" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>GetFishMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a6bb164625c5847a6af36709571ec851f" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>GetFishMaterialTypeRequirement</name></member>
+      <member refid="class_oxygen_tank_1ac26a34061c77989b40a991e4f74f9947" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>GetOxygenDepletionRate</name></member>
+      <member refid="class_oxygen_tank_1a417e3453b99c7ef61adb24d984e6c033" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>GetOxygenSupplyAmount</name></member>
+      <member refid="class_player_upgrades_1a90101816a84d5531335b6f1ca159376f" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>GetRawMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a5bc2766abbc8c3a46300fe0ec7501514" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>GetRawMaterialTypeRequirement</name></member>
+      <member refid="class_player_upgrades_1aca8c0ea9036e67a009629ccca22689b6" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>ID</name></member>
+      <member refid="class_player_upgrades_1ae9eb4584c3af767f5948d6ec5fc243e8" prot="protected" virt="non-virtual"><scope>OxygenTank</scope><name>isLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a22e5dc654af417e4cd9ccaf347373a53" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>IsLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a5362fd69bdd7e457fbebc5a427ed30ce" prot="protected" virt="non-virtual"><scope>OxygenTank</scope><name>isUniqueFeatureUsed</name></member>
+      <member refid="class_player_upgrades_1a69f6c2f7ce04aa2445f6cd6c130807c5" prot="public" virt="non-virtual"><scope>OxygenTank</scope><name>IsUniqueFeatureUsed</name></member>
+      <member refid="class_oxygen_tank_1af6255a4dca7ce1d06cb72f059e1bcabd" prot="private" virt="non-virtual"><scope>OxygenTank</scope><name>isUsingLowTechUniqueFeature</name></member>
+      <member refid="class_oxygen_tank_1a5ad13f1f475e9560b3c406fc1789d1ba" prot="private" virt="non-virtual"><scope>OxygenTank</scope><name>oxygenDepletionRate</name></member>
+      <member refid="class_oxygen_tank_1a9b98089e3356725ac67996a54d36c2cf" prot="private" virt="non-virtual"><scope>OxygenTank</scope><name>oxygenSupplyAmount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

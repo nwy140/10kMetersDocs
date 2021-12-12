@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__param_state_behavior_8cs" xml:lang="en-US">
+<title>C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs File Reference</title>
+<indexterm><primary>C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_param_state_behavior">ParamStateBehavior</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_set_param_state_data">SetParamStateData</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3">EAnimParamType</link> { 
+<link linkend="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3aac228c69db6e7bb358a5884af71cd322">BOOL_SetDefaultState</link>
+, <link linkend="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3a9787ed9a1dd5d55724ccd53e5742ef8e">TRIGGER_Set</link>
+, <link linkend="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3af2defe30d0a31deed31eaf9abda2fe91">TRIGGER_Reset</link>
+, <link linkend="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3a53f93baa3057821107c750323892fa92">INT</link>
+, 
+<link linkend="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3ae738c26bf4ce1037fa81b039a915cbf6">FLOAT</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3"/><section>
+    <title>EAnimParamType</title>
+<indexterm><primary>EAnimParamType</primary><secondary>ParamStateBehavior.cs</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior.cs</primary><secondary>EAnimParamType</secondary></indexterm>
+<para><computeroutput>enum <link linkend="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3">EAnimParamType</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>BOOL_SetDefaultState</primary><secondary>ParamStateBehavior.cs</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior.cs</primary><secondary>BOOL_SetDefaultState</secondary></indexterm>
+<anchor xml:id="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3aac228c69db6e7bb358a5884af71cd322"/>BOOL_SetDefaultState</entry><entry></entry></row><row><entry><indexterm><primary>TRIGGER_Set</primary><secondary>ParamStateBehavior.cs</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior.cs</primary><secondary>TRIGGER_Set</secondary></indexterm>
+<anchor xml:id="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3a9787ed9a1dd5d55724ccd53e5742ef8e"/>TRIGGER_Set</entry><entry></entry></row><row><entry><indexterm><primary>TRIGGER_Reset</primary><secondary>ParamStateBehavior.cs</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior.cs</primary><secondary>TRIGGER_Reset</secondary></indexterm>
+<anchor xml:id="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3af2defe30d0a31deed31eaf9abda2fe91"/>TRIGGER_Reset</entry><entry></entry></row><row><entry><indexterm><primary>INT</primary><secondary>ParamStateBehavior.cs</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior.cs</primary><secondary>INT</secondary></indexterm>
+<anchor xml:id="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3a53f93baa3057821107c750323892fa92"/>INT</entry><entry></entry></row><row><entry><indexterm><primary>FLOAT</primary><secondary>ParamStateBehavior.cs</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior.cs</primary><secondary>FLOAT</secondary></indexterm>
+<anchor xml:id="__param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3ae738c26bf4ce1037fa81b039a915cbf6"/>FLOAT</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

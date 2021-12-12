@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_spawn_flock_manager" kind="class" language="C#" prot="public">
+    <compoundname>SpawnFlockManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spawn_flock_manager_1a6b3b1dbc15160010bc264aa08d576bc2" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] SpawnFlockManager.objPrefabs</definition>
+        <argsstring></argsstring>
+        <name>objPrefabs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="10" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1a894b05239598b16c3f888cc0ad00af52" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpawnFlockManager.flockCount</definition>
+        <argsstring></argsstring>
+        <name>flockCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="11" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1a1ccb997ac6b58f7013954cb908115a01" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; SpawnFlockManager.allObjsInFlock</definition>
+        <argsstring></argsstring>
+        <name>allObjsInFlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="12" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1a09b367bf099a939c5aae5cc66b49487c" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 SpawnFlockManager.boundLimits</definition>
+        <argsstring></argsstring>
+        <name>boundLimits</name>
+        <initializer>= new Vector3(5, 5, 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="13" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1a0205b920645f35ad3f58f4fa19a80623" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 SpawnFlockManager.goalPos</definition>
+        <argsstring></argsstring>
+        <name>goalPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="14" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1ad260229b3236d03d744e7f022446b747" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpawnFlockManager.isUseNavAgentInstead</definition>
+        <argsstring></argsstring>
+        <name>isUseNavAgentInstead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="17" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1a7c42b4a360379fca7eb19dcb75a72010" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpawnFlockManager.minSpeed</definition>
+        <argsstring></argsstring>
+        <name>minSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1a60bfff3bd34b4614bbfb7b31f893fdcb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpawnFlockManager.maxSpeed</definition>
+        <argsstring></argsstring>
+        <name>maxSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1aee1a6d746a31f88e9d49471a645ea001" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpawnFlockManager.rotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationSpeed</name>
+        <initializer>= 4.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="24" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_flock_manager_1a02eeda0b97963024284ed5877f8cc287" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpawnFlockManager.neighbourDistance</definition>
+        <argsstring></argsstring>
+        <name>neighbourDistance</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="27" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spawn_flock_manager_1a8cb5847784e573987f60eb8aa503c98f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpawnFlockManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="29" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="29" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SpawnFlockManager</label>
+        <link refid="class_spawn_flock_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SpawnFlockManager</label>
+        <link refid="class_spawn_flock_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/General/Unique/SpawnFlockManager.cs" bodystart="9" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_spawn_flock_manager_1a1ccb997ac6b58f7013954cb908115a01" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>allObjsInFlock</name></member>
+      <member refid="class_spawn_flock_manager_1a09b367bf099a939c5aae5cc66b49487c" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>boundLimits</name></member>
+      <member refid="class_spawn_flock_manager_1a894b05239598b16c3f888cc0ad00af52" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>flockCount</name></member>
+      <member refid="class_spawn_flock_manager_1a0205b920645f35ad3f58f4fa19a80623" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>goalPos</name></member>
+      <member refid="class_spawn_flock_manager_1ad260229b3236d03d744e7f022446b747" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>isUseNavAgentInstead</name></member>
+      <member refid="class_spawn_flock_manager_1a60bfff3bd34b4614bbfb7b31f893fdcb" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>maxSpeed</name></member>
+      <member refid="class_spawn_flock_manager_1a7c42b4a360379fca7eb19dcb75a72010" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>minSpeed</name></member>
+      <member refid="class_spawn_flock_manager_1a02eeda0b97963024284ed5877f8cc287" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>neighbourDistance</name></member>
+      <member refid="class_spawn_flock_manager_1a6b3b1dbc15160010bc264aa08d576bc2" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>objPrefabs</name></member>
+      <member refid="class_spawn_flock_manager_1aee1a6d746a31f88e9d49471a645ea001" prot="public" virt="non-virtual"><scope>SpawnFlockManager</scope><name>rotationSpeed</name></member>
+      <member refid="class_spawn_flock_manager_1a8cb5847784e573987f60eb8aa503c98f" prot="private" virt="non-virtual"><scope>SpawnFlockManager</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

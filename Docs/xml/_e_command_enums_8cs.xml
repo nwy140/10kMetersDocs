@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_e_command_enums_8cs" kind="file" language="C#">
+    <compoundname>ECommandEnums.cs</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CommandCastStatus</name>
+        <enumvalue id="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005a5b9cca31b21c9c04c3d6f9ecbcc3ffc8" prot="public">
+          <name>Cooldown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005a4d3d769b812b6faa6b76e1a8abaece2d" prot="public">
+          <name>Active</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005ae7d31fc0602fb2ede144d18cdffd816b" prot="public">
+          <name>Ready</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/ECommandEnums.cs" line="1" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/ECommandEnums.cs" bodystart="2" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="enum" id="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ReadStyle</name>
+        <enumvalue id="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5a73cf2f244bc0cb0d205b99c04fa13978" prot="public">
+          <name>Tap</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5abcd8db575b47c838e5d551e3973db4ac" prot="public">
+          <name>Hold</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5ab8e7b465df7c5979dc731d06e84ce2cf" prot="public">
+          <name>Release</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/ECommandEnums.cs" line="9" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/ECommandEnums.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005" refkind="member"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005" kindref="member">CommandCastStatus</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005a5b9cca31b21c9c04c3d6f9ecbcc3ffc8" kindref="member">Cooldown</ref>,</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005a4d3d769b812b6faa6b76e1a8abaece2d" kindref="member">Active</ref>,</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005ae7d31fc0602fb2ede144d18cdffd816b" kindref="member">Ready</ref>,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Check<sp/>Tekken&apos;s<sp/>Input<sp/>Combo<sp/>StyleGuide<sp/>:<sp/>Ref:<sp/>https://youtu.be/K-WhR09Q6TU?list=PLuLJclBWmeWXiumbbwToOD9spR-OzqScz&amp;t=40</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5" kindref="member">ReadStyle</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5a73cf2f244bc0cb0d205b99c04fa13978" kindref="member">Tap</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5abcd8db575b47c838e5d551e3973db4ac" kindref="member">Hold</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5ab8e7b465df7c5979dc731d06e84ce2cf" kindref="member">Release</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/ECommandEnums.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classitem_slots_new" kind="class" language="C#" prot="public">
+    <compoundname>itemSlotsNew</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classitem_slots_new_1a13adf9700d902c54601f06ec477080f6" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image itemSlotsNew.Image</definition>
+        <argsstring></argsstring>
+        <name>Image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="10" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_slots_new_1a7428cd3c5626e9f75ae96b5fbb112834" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text itemSlotsNew.itemAmountText</definition>
+        <argsstring></argsstring>
+        <name>itemAmountText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="11" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_slots_new_1a43cd29d4511504a7ce25d66fb3e97fad" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem_new" kindref="compound">itemNew</ref></type>
+        <definition>itemNew itemSlotsNew._item</definition>
+        <argsstring></argsstring>
+        <name>_item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="14" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_slots_new_1a3cf7ae8298ba43620e2cae15ad797b6c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int itemSlotsNew._amount</definition>
+        <argsstring></argsstring>
+        <name>_amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="33" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="classitem_slots_new_1a66f4f7ab4a101e432c74d01fdeb0c932" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.Action&lt; <ref refid="classitem_new" kindref="compound">itemNew</ref> &gt;</type>
+        <definition>System.Action&lt;itemNew&gt; itemSlotsNew.OnRightClickEvent</definition>
+        <argsstring></argsstring>
+        <name>OnRightClickEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="12" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classitem_slots_new_1af9181b8198f313b5521160633c57b9d8" compoundref="item_slots_new_8cs" startline="70" endline="85">OnPointerClick</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classitem_slots_new_1aed950f557b3427f5c8418b90aba9c697" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="classitem_new" kindref="compound">itemNew</ref></type>
+        <definition>itemNew itemSlotsNew.Item</definition>
+        <argsstring></argsstring>
+        <name>Item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="15" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="16" bodyend="31"/>
+        <referencedby refid="classitem_slots_new_1af9181b8198f313b5521160633c57b9d8" compoundref="item_slots_new_8cs" startline="70" endline="85">OnPointerClick</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classitem_slots_new_1a824f54added581a7201c14c6604f98ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int itemSlotsNew.Amount</definition>
+        <argsstring></argsstring>
+        <name>Amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="34" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="35" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classitem_slots_new_1aa97d5c65df373d632d31f727abf16d32" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlotsNew.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="49" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="49" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classitem_slots_new_1af9181b8198f313b5521160633c57b9d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlotsNew.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="70" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="70" bodyend="85"/>
+        <references refid="classitem_slots_new_1aed950f557b3427f5c8418b90aba9c697" compoundref="item_slots_new_8cs" startline="16" endline="31">Item</references>
+        <references refid="classitem_slots_new_1a66f4f7ab4a101e432c74d01fdeb0c932" compoundref="item_slots_new_8cs" startline="12">OnRightClickEvent</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>itemSlotsNew</label>
+        <link refid="classitem_slots_new"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>itemSlotsNew</label>
+        <link refid="classitem_slots_new"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemSlotsNew.cs" bodystart="8" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classitem_slots_new_1a3cf7ae8298ba43620e2cae15ad797b6c" prot="private" virt="non-virtual"><scope>itemSlotsNew</scope><name>_amount</name></member>
+      <member refid="classitem_slots_new_1a43cd29d4511504a7ce25d66fb3e97fad" prot="private" virt="non-virtual"><scope>itemSlotsNew</scope><name>_item</name></member>
+      <member refid="classitem_slots_new_1a824f54added581a7201c14c6604f98ff" prot="public" virt="non-virtual"><scope>itemSlotsNew</scope><name>Amount</name></member>
+      <member refid="classitem_slots_new_1a13adf9700d902c54601f06ec477080f6" prot="private" virt="non-virtual"><scope>itemSlotsNew</scope><name>Image</name></member>
+      <member refid="classitem_slots_new_1aed950f557b3427f5c8418b90aba9c697" prot="public" virt="non-virtual"><scope>itemSlotsNew</scope><name>Item</name></member>
+      <member refid="classitem_slots_new_1a7428cd3c5626e9f75ae96b5fbb112834" prot="private" virt="non-virtual"><scope>itemSlotsNew</scope><name>itemAmountText</name></member>
+      <member refid="classitem_slots_new_1af9181b8198f313b5521160633c57b9d8" prot="public" virt="non-virtual"><scope>itemSlotsNew</scope><name>OnPointerClick</name></member>
+      <member refid="classitem_slots_new_1a66f4f7ab4a101e432c74d01fdeb0c932" prot="public" virt="non-virtual"><scope>itemSlotsNew</scope><name>OnRightClickEvent</name></member>
+      <member refid="classitem_slots_new_1aa97d5c65df373d632d31f727abf16d32" prot="private" virt="non-virtual"><scope>itemSlotsNew</scope><name>OnValidate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

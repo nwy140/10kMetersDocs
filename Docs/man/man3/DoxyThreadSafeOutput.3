@@ -1,0 +1,66 @@
+.TH "DoxyThreadSafeOutput" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DoxyThreadSafeOutput \- This class encapsulates the data output by Doxygen so it can be shared with Unity in a thread share way\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "string \fBReadLine\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetFinished\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetStarted\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisStarted\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisFinished\fP ()"
+.br
+.ti -1c
+.RI "List< string > \fBReadFullLog\fP ()"
+.br
+.ti -1c
+.RI "void \fBWriteFullLog\fP (List< string > newLog)"
+.br
+.ti -1c
+.RI "void \fBWriteLine\fP (string newOutput)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class encapsulates the data output by Doxygen so it can be shared with Unity in a thread share way\&. 
+
+
+.br
+ 
+.SH "Member Function Documentation"
+.PP 
+.SS "bool DoxyThreadSafeOutput\&.isFinished ()"
+
+.SS "bool DoxyThreadSafeOutput\&.isStarted ()"
+
+.SS "List< string > DoxyThreadSafeOutput\&.ReadFullLog ()"
+
+.SS "string DoxyThreadSafeOutput\&.ReadLine ()"
+
+.SS "void DoxyThreadSafeOutput\&.SetFinished ()"
+
+.SS "void DoxyThreadSafeOutput\&.SetStarted ()"
+
+.SS "void DoxyThreadSafeOutput\&.WriteFullLog (List< string > newLog)"
+
+.SS "void DoxyThreadSafeOutput\&.WriteLine (string newOutput)"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

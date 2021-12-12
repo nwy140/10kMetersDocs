@@ -1,0 +1,217 @@
+\hypertarget{class_item_container}{}\doxysection{Item\+Container Class Reference}
+\label{class_item_container}\index{ItemContainer@{ItemContainer}}
+
+
+Inheritance diagram for Item\+Container\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_item_container__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Item\+Container\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{class_item_container__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_item_container_afdacd7d3275a184268f58a243ab264a9}{Awake}} ()
+\item 
+bool \mbox{\hyperlink{class_item_container_a5628acd2a1298ad30086abcfb0b2f445}{Check\+If\+Slot\+Is\+Empty}} (\mbox{\hyperlink{classitem}{item}} \mbox{\hyperlink{classitem}{item}})
+\item 
+bool \mbox{\hyperlink{class_item_container_af6d25e8fc0187dca050a37f6b3d6767b}{add\+Item}} (\mbox{\hyperlink{classitem}{item}} \mbox{\hyperlink{classitem}{item}})
+\item 
+bool \mbox{\hyperlink{class_item_container_ab50a72dfcb950d3a483dc1c53471fedf}{remove\+Item}} (\mbox{\hyperlink{classitem}{item}} \mbox{\hyperlink{classitem}{item}})
+\item 
+bool \mbox{\hyperlink{class_item_container_a9fa954c3d26b1ee1844a73aa4e7f65eb}{discard\+Item}} (\mbox{\hyperlink{classitem_slots}{item\+Slots}} \mbox{\hyperlink{classitem}{item}})
+\item 
+bool \mbox{\hyperlink{class_item_container_adfd88e49a35c5bd49417507c48c05260}{remove\+Item\+With\+Amount}} (\mbox{\hyperlink{classitem}{item}} \mbox{\hyperlink{classitem}{item}}, int amount)
+\item 
+bool \mbox{\hyperlink{class_item_container_aaaa93fedc164672528fee56061686ee0}{Is\+Full}} ()
+\item 
+void \mbox{\hyperlink{class_item_container_ab50b820cf41946e71e0b4d680bf8117f}{Clear}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classitem_slots}{item\+Slots}} $>$ \mbox{\hyperlink{class_item_container_a2a11aea62d65f1bf89a372c6b72ab1ff}{Item\+Slots}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Action$<$ \mbox{\hyperlink{classitem_slots}{item\+Slots}} $>$ \mbox{\hyperlink{class_item_container_a881703dfdea0d17ac5dd71439b14a41a}{On\+Pointer\+Enter\+Event}}
+\item 
+Action$<$ \mbox{\hyperlink{classitem_slots}{item\+Slots}} $>$ \mbox{\hyperlink{class_item_container_a79cf8f59fe58b8f27100ef2fa9dc6ab5}{On\+Pointer\+Exit\+Event}}
+\item 
+Action$<$ \mbox{\hyperlink{classitem_slots}{item\+Slots}} $>$ \mbox{\hyperlink{class_item_container_a51e056c389290250e3b95270fd3e50e4}{On\+Left\+Click\+Event}}
+\item 
+Action$<$ \mbox{\hyperlink{classitem_slots}{item\+Slots}} $>$ \mbox{\hyperlink{class_item_container_a02f085904d3da683b71f5bbf7ab4cc95}{On\+Begin\+Drag\+Event}}
+\item 
+Action$<$ \mbox{\hyperlink{classitem_slots}{item\+Slots}} $>$ \mbox{\hyperlink{class_item_container_aa640b20e572e8ac726d2914375956d1e}{On\+End\+Drag\+Event}}
+\item 
+Action$<$ \mbox{\hyperlink{classitem_slots}{item\+Slots}} $>$ \mbox{\hyperlink{class_item_container_ad8ea44ce84d6b1d8c5f8523038379cfb}{On\+Drag\+Event}}
+\item 
+Action$<$ \mbox{\hyperlink{classitem_slots}{item\+Slots}} $>$ \mbox{\hyperlink{class_item_container_afe1f3259c2bd0f43dd3f4d53464e7d81}{On\+Drop\+Event}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_item_container_af6d25e8fc0187dca050a37f6b3d6767b}\label{class_item_container_af6d25e8fc0187dca050a37f6b3d6767b}} 
+\index{ItemContainer@{ItemContainer}!addItem@{addItem}}
+\index{addItem@{addItem}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{addItem()}{addItem()}}
+{\footnotesize\ttfamily bool Item\+Container.\+add\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classitem}{item}}}]{item }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_item_container_af6d25e8fc0187dca050a37f6b3d6767b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_container_afdacd7d3275a184268f58a243ab264a9}\label{class_item_container_afdacd7d3275a184268f58a243ab264a9}} 
+\index{ItemContainer@{ItemContainer}!Awake@{Awake}}
+\index{Awake@{Awake}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily virtual void Item\+Container.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classstorage_a72387ff5adec348a9190a7b5944ca260}{storage}}.
+
+\mbox{\Hypertarget{class_item_container_a5628acd2a1298ad30086abcfb0b2f445}\label{class_item_container_a5628acd2a1298ad30086abcfb0b2f445}} 
+\index{ItemContainer@{ItemContainer}!CheckIfSlotIsEmpty@{CheckIfSlotIsEmpty}}
+\index{CheckIfSlotIsEmpty@{CheckIfSlotIsEmpty}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{CheckIfSlotIsEmpty()}{CheckIfSlotIsEmpty()}}
+{\footnotesize\ttfamily bool Item\+Container.\+Check\+If\+Slot\+Is\+Empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classitem}{item}}}]{item }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_item_container_a5628acd2a1298ad30086abcfb0b2f445_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_container_ab50b820cf41946e71e0b4d680bf8117f}\label{class_item_container_ab50b820cf41946e71e0b4d680bf8117f}} 
+\index{ItemContainer@{ItemContainer}!Clear@{Clear}}
+\index{Clear@{Clear}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void Item\+Container.\+Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_item_container_ab50b820cf41946e71e0b4d680bf8117f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_container_a9fa954c3d26b1ee1844a73aa4e7f65eb}\label{class_item_container_a9fa954c3d26b1ee1844a73aa4e7f65eb}} 
+\index{ItemContainer@{ItemContainer}!discardItem@{discardItem}}
+\index{discardItem@{discardItem}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{discardItem()}{discardItem()}}
+{\footnotesize\ttfamily bool Item\+Container.\+discard\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classitem_slots}{item\+Slots}}}]{item }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_item_container_a9fa954c3d26b1ee1844a73aa4e7f65eb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_container_aaaa93fedc164672528fee56061686ee0}\label{class_item_container_aaaa93fedc164672528fee56061686ee0}} 
+\index{ItemContainer@{ItemContainer}!IsFull@{IsFull}}
+\index{IsFull@{IsFull}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{IsFull()}{IsFull()}}
+{\footnotesize\ttfamily bool Item\+Container.\+Is\+Full (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_item_container_ab50a72dfcb950d3a483dc1c53471fedf}\label{class_item_container_ab50a72dfcb950d3a483dc1c53471fedf}} 
+\index{ItemContainer@{ItemContainer}!removeItem@{removeItem}}
+\index{removeItem@{removeItem}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{removeItem()}{removeItem()}}
+{\footnotesize\ttfamily bool Item\+Container.\+remove\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classitem}{item}}}]{item }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_item_container_adfd88e49a35c5bd49417507c48c05260}\label{class_item_container_adfd88e49a35c5bd49417507c48c05260}} 
+\index{ItemContainer@{ItemContainer}!removeItemWithAmount@{removeItemWithAmount}}
+\index{removeItemWithAmount@{removeItemWithAmount}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{removeItemWithAmount()}{removeItemWithAmount()}}
+{\footnotesize\ttfamily bool Item\+Container.\+remove\+Item\+With\+Amount (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classitem}{item}}}]{item,  }\item[{int}]{amount }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_item_container_adfd88e49a35c5bd49417507c48c05260_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_item_container_a2a11aea62d65f1bf89a372c6b72ab1ff}\label{class_item_container_a2a11aea62d65f1bf89a372c6b72ab1ff}} 
+\index{ItemContainer@{ItemContainer}!ItemSlots@{ItemSlots}}
+\index{ItemSlots@{ItemSlots}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{ItemSlots}{ItemSlots}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classitem_slots}{item\+Slots}}$>$ Item\+Container.\+Item\+Slots}
+
+
+
+\doxysubsection{Event Documentation}
+\mbox{\Hypertarget{class_item_container_a02f085904d3da683b71f5bbf7ab4cc95}\label{class_item_container_a02f085904d3da683b71f5bbf7ab4cc95}} 
+\index{ItemContainer@{ItemContainer}!OnBeginDragEvent@{OnBeginDragEvent}}
+\index{OnBeginDragEvent@{OnBeginDragEvent}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{OnBeginDragEvent}{OnBeginDragEvent}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{classitem_slots}{item\+Slots}}$>$ Item\+Container.\+On\+Begin\+Drag\+Event}
+
+\mbox{\Hypertarget{class_item_container_ad8ea44ce84d6b1d8c5f8523038379cfb}\label{class_item_container_ad8ea44ce84d6b1d8c5f8523038379cfb}} 
+\index{ItemContainer@{ItemContainer}!OnDragEvent@{OnDragEvent}}
+\index{OnDragEvent@{OnDragEvent}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{OnDragEvent}{OnDragEvent}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{classitem_slots}{item\+Slots}}$>$ Item\+Container.\+On\+Drag\+Event}
+
+\mbox{\Hypertarget{class_item_container_afe1f3259c2bd0f43dd3f4d53464e7d81}\label{class_item_container_afe1f3259c2bd0f43dd3f4d53464e7d81}} 
+\index{ItemContainer@{ItemContainer}!OnDropEvent@{OnDropEvent}}
+\index{OnDropEvent@{OnDropEvent}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{OnDropEvent}{OnDropEvent}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{classitem_slots}{item\+Slots}}$>$ Item\+Container.\+On\+Drop\+Event}
+
+\mbox{\Hypertarget{class_item_container_aa640b20e572e8ac726d2914375956d1e}\label{class_item_container_aa640b20e572e8ac726d2914375956d1e}} 
+\index{ItemContainer@{ItemContainer}!OnEndDragEvent@{OnEndDragEvent}}
+\index{OnEndDragEvent@{OnEndDragEvent}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{OnEndDragEvent}{OnEndDragEvent}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{classitem_slots}{item\+Slots}}$>$ Item\+Container.\+On\+End\+Drag\+Event}
+
+\mbox{\Hypertarget{class_item_container_a51e056c389290250e3b95270fd3e50e4}\label{class_item_container_a51e056c389290250e3b95270fd3e50e4}} 
+\index{ItemContainer@{ItemContainer}!OnLeftClickEvent@{OnLeftClickEvent}}
+\index{OnLeftClickEvent@{OnLeftClickEvent}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{OnLeftClickEvent}{OnLeftClickEvent}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{classitem_slots}{item\+Slots}}$>$ Item\+Container.\+On\+Left\+Click\+Event}
+
+\mbox{\Hypertarget{class_item_container_a881703dfdea0d17ac5dd71439b14a41a}\label{class_item_container_a881703dfdea0d17ac5dd71439b14a41a}} 
+\index{ItemContainer@{ItemContainer}!OnPointerEnterEvent@{OnPointerEnterEvent}}
+\index{OnPointerEnterEvent@{OnPointerEnterEvent}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{OnPointerEnterEvent}{OnPointerEnterEvent}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{classitem_slots}{item\+Slots}}$>$ Item\+Container.\+On\+Pointer\+Enter\+Event}
+
+\mbox{\Hypertarget{class_item_container_a79cf8f59fe58b8f27100ef2fa9dc6ab5}\label{class_item_container_a79cf8f59fe58b8f27100ef2fa9dc6ab5}} 
+\index{ItemContainer@{ItemContainer}!OnPointerExitEvent@{OnPointerExitEvent}}
+\index{OnPointerExitEvent@{OnPointerExitEvent}!ItemContainer@{ItemContainer}}
+\doxysubsubsection{\texorpdfstring{OnPointerExitEvent}{OnPointerExitEvent}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{classitem_slots}{item\+Slots}}$>$ Item\+Container.\+On\+Pointer\+Exit\+Event}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Scripts/\+Arif\textquotesingle{}s Test Scripts/\mbox{\hyperlink{_item_container_8cs}{Item\+Container.\+cs}}\end{DoxyCompactItemize}

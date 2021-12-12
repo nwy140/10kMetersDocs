@@ -1,0 +1,132 @@
+.TH "UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.Visualizer\fP\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBPlotType\fP { \fBLineGraph\fP, \fBBarChart\fP }"
+.br
+.ti -1c
+.RI "enum \fBTimeUnit\fP { \fBSeconds\fP, \fBFrames\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTimelineVisualizer\fP (float totalTimeUnitsShown=4)"
+.br
+.ti -1c
+.RI "override void \fBOnDraw\fP (Rect rect)"
+.br
+.ti -1c
+.RI "override void \fBAddSample\fP (object value, double time)"
+.br
+.ti -1c
+.RI "int \fBAddTimeline\fP (string name, Color color, \fBPlotType\fP plotType=default)"
+.br
+.ti -1c
+.RI "int \fBGetTimeline\fP (string name)"
+.br
+.ti -1c
+.RI "void \fBAddSample\fP (int timelineIndex, PrimitiveValue value, float time)"
+.br
+.ti -1c
+.RI "ref PrimitiveValue \fBGetOrCreateSample\fP (int timelineIndex, int frame)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "bool \fBshowLegend\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "bool \fBshowLimits\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "\fBTimeUnit\fP \fBtimeUnit\fP = \fBTimeUnit\&.Seconds\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "GUIContent \fBvalueUnit\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "int \fBtimelineCount\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBhistoryDepth\fP = 100\fC [getset]\fP"
+.br
+.ti -1c
+.RI "Vector2 \fBlimitsY\fP\fC [getset]\fP"
+.br
+.in -1c
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBUnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.PlotType\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILineGraph \fP\fP
+.TP
+\fB\fIBarChart \fP\fP
+.SS "enum \fBUnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.TimeUnit\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fISeconds \fP\fP
+.TP
+\fB\fIFrames \fP\fP
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.TimelineVisualizer (float totalTimeUnitsShown = \fC4\fP)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.AddSample (int timelineIndex, PrimitiveValue value, float time)"
+
+.SS "override void UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.AddSample (object value, double time)\fC [virtual]\fP"
+
+.PP
+Implements \fBUnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.Visualizer\fP\&.
+.SS "int UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.AddTimeline (string name, Color color, \fBPlotType\fP plotType = \fCdefault\fP)"
+
+.SS "ref PrimitiveValue UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.GetOrCreateSample (int timelineIndex, int frame)"
+
+.SS "int UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.GetTimeline (string name)"
+
+.SS "override void UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.OnDraw (Rect rect)\fC [virtual]\fP"
+
+.PP
+Implements \fBUnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.Visualizer\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "int UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.historyDepth = 100\fC [get]\fP, \fC [set]\fP"
+
+.SS "Vector2 UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.limitsY\fC [get]\fP, \fC [set]\fP"
+
+.SS "bool UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.showLegend\fC [get]\fP, \fC [set]\fP"
+
+.SS "bool UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.showLimits\fC [get]\fP, \fC [set]\fP"
+
+.SS "int UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.timelineCount\fC [get]\fP"
+
+.SS "\fBTimeUnit\fP UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.timeUnit = \fBTimeUnit\&.Seconds\fP\fC [get]\fP, \fC [set]\fP"
+
+.SS "GUIContent UnityEngine\&.InputSystem\&.Samples\&.VisualizationHelpers\&.TimelineVisualizer\&.valueUnit\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

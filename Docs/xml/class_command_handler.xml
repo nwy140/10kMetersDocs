@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_handler" kind="class" language="C#" prot="public">
+    <compoundname>CommandHandler</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_command_handler_1a04566303bec712823dc9d792977f7532" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="interface_i_command_o_w_s" kindref="compound">ICommandOWS</ref> &gt;</type>
+        <definition>List&lt;ICommandOWS&gt; CommandHandler.commandList</definition>
+        <argsstring></argsstring>
+        <name>commandList</name>
+        <initializer>= new List&lt;<ref refid="interface_i_command_o_w_s" kindref="compound">ICommandOWS</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_handler_1ad84ab79980dba0875781075217c50b8e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CommandHandler.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" line="12" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_handler_1aaced5d8a9f662d1b76cefbd1e078543d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandHandler.AddCommand</definition>
+        <argsstring>(ICommandOWS command)</argsstring>
+        <name>AddCommand</name>
+        <param>
+          <type><ref refid="interface_i_command_o_w_s" kindref="compound">ICommandOWS</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" line="14" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" bodystart="14" bodyend="22"/>
+        <references refid="interface_i_command_o_w_s_1adcd8f91e3914e3e1fa342868527f5942">ICommandOWS.Execute</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_handler_1aa7750e06c4053d499ed57f1e80271476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandHandler.UndoCommand</definition>
+        <argsstring>()</argsstring>
+        <name>UndoCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" line="24" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_handler_1a4cc8725842050eb05536f37e26b11673" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandHandler.RedoCommand</definition>
+        <argsstring>()</argsstring>
+        <name>RedoCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" line="35" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" bodystart="35" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandHandler</label>
+        <link refid="class_command_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/CommandHandler.cs" bodystart="6" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_command_handler_1aaced5d8a9f662d1b76cefbd1e078543d" prot="public" virt="non-virtual"><scope>CommandHandler</scope><name>AddCommand</name></member>
+      <member refid="class_command_handler_1a04566303bec712823dc9d792977f7532" prot="private" virt="non-virtual"><scope>CommandHandler</scope><name>commandList</name></member>
+      <member refid="class_command_handler_1ad84ab79980dba0875781075217c50b8e" prot="private" virt="non-virtual"><scope>CommandHandler</scope><name>index</name></member>
+      <member refid="class_command_handler_1a4cc8725842050eb05536f37e26b11673" prot="public" virt="non-virtual"><scope>CommandHandler</scope><name>RedoCommand</name></member>
+      <member refid="class_command_handler_1aa7750e06c4053d499ed57f1e80271476" prot="public" virt="non-virtual"><scope>CommandHandler</scope><name>UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tank_manager" xml:lang="en-US">
+<title>TankManager Class Reference</title>
+<indexterm><primary>TankManager</primary></indexterm>
+Collaboration diagram for TankManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tank_manager__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_tank_manager_1adfea056ff87cf9e231b8517424523587">Setup</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_tank_manager_1a215f539b28fcd32c07f831a28533386d">DisableControl</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_tank_manager_1ad904353e6e7eeeaf9bde2092b1e87b66">EnableControl</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_tank_manager_1a89675bc32c6dd907f68f7421a7c6e8e2">Reset</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Color <link linkend="_class_tank_manager_1a00f8ea8c026bc2be1215255c572ce24c">m_PlayerColor</link></para>
+</listitem>
+            <listitem><para>Transform <link linkend="_class_tank_manager_1a0a19fbc586bdd84486db536fbe25f61a">m_SpawnPoint</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_tank_manager_1afdf9037848c7f6194f835381752edc3f">m_PlayerNumber</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_class_tank_manager_1a57aeeff3cac93ea8ea026a41271e60a0">m_ColoredPlayerText</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_tank_manager_1a16fe43d5057c1b812638a89fde1aa225">m_Instance</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_tank_manager_1a87305e8bf77b24464fb5bfc924a1c85e">m_Wins</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_tank_manager_1a215f539b28fcd32c07f831a28533386d"/><section>
+    <title>DisableControl()</title>
+<indexterm><primary>DisableControl</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>DisableControl</secondary></indexterm>
+<para><computeroutput>void TankManager.DisableControl ( )</computeroutput></para></section>
+<anchor xml:id="_class_tank_manager_1ad904353e6e7eeeaf9bde2092b1e87b66"/><section>
+    <title>EnableControl()</title>
+<indexterm><primary>EnableControl</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>EnableControl</secondary></indexterm>
+<para><computeroutput>void TankManager.EnableControl ( )</computeroutput></para></section>
+<anchor xml:id="_class_tank_manager_1a89675bc32c6dd907f68f7421a7c6e8e2"/><section>
+    <title>Reset()</title>
+<indexterm><primary>Reset</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>Reset</secondary></indexterm>
+<para><computeroutput>void TankManager.Reset ( )</computeroutput></para></section>
+<anchor xml:id="_class_tank_manager_1adfea056ff87cf9e231b8517424523587"/><section>
+    <title>Setup()</title>
+<indexterm><primary>Setup</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>Setup</secondary></indexterm>
+<para><computeroutput>void TankManager.Setup ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_tank_manager_1a57aeeff3cac93ea8ea026a41271e60a0"/><section>
+    <title>m_ColoredPlayerText</title>
+<indexterm><primary>m_ColoredPlayerText</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>m_ColoredPlayerText</secondary></indexterm>
+<para><computeroutput>string TankManager.m_ColoredPlayerText</computeroutput></para></section>
+<anchor xml:id="_class_tank_manager_1a16fe43d5057c1b812638a89fde1aa225"/><section>
+    <title>m_Instance</title>
+<indexterm><primary>m_Instance</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>m_Instance</secondary></indexterm>
+<para><computeroutput>GameObject TankManager.m_Instance</computeroutput></para></section>
+<anchor xml:id="_class_tank_manager_1a00f8ea8c026bc2be1215255c572ce24c"/><section>
+    <title>m_PlayerColor</title>
+<indexterm><primary>m_PlayerColor</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>m_PlayerColor</secondary></indexterm>
+<para><computeroutput>Color TankManager.m_PlayerColor</computeroutput></para></section>
+<anchor xml:id="_class_tank_manager_1afdf9037848c7f6194f835381752edc3f"/><section>
+    <title>m_PlayerNumber</title>
+<indexterm><primary>m_PlayerNumber</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>m_PlayerNumber</secondary></indexterm>
+<para><computeroutput>int TankManager.m_PlayerNumber</computeroutput></para></section>
+<anchor xml:id="_class_tank_manager_1a0a19fbc586bdd84486db536fbe25f61a"/><section>
+    <title>m_SpawnPoint</title>
+<indexterm><primary>m_SpawnPoint</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>m_SpawnPoint</secondary></indexterm>
+<para><computeroutput>Transform TankManager.m_SpawnPoint</computeroutput></para></section>
+<anchor xml:id="_class_tank_manager_1a87305e8bf77b24464fb5bfc924a1c85e"/><section>
+    <title>m_Wins</title>
+<indexterm><primary>m_Wins</primary><secondary>TankManager</secondary></indexterm>
+<indexterm><primary>TankManager</primary><secondary>m_Wins</secondary></indexterm>
+<para><computeroutput>int TankManager.m_Wins</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/<link linkend="__tank_manager_8cs">TankManager.cs</link></section>
+</section>

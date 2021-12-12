@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_color_grading_component" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ColorGradingComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; ColorGradingModel &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::ColorGradingComponent::Uniforms</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a47f6f9ef47432ef92eaf0f50a62cbbca" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEngine.PostProcessing.ColorGradingComponent.k_InternalLogLutSize</definition>
+        <argsstring></argsstring>
+        <name>k_InternalLogLutSize</name>
+        <initializer>= 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="31" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2ec5f0cd56b5ddfb30d77fe7d364ac4e" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEngine.PostProcessing.ColorGradingComponent.k_CurvePrecision</definition>
+        <argsstring></argsstring>
+        <name>k_CurvePrecision</name>
+        <initializer>= 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="32" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ad92888374d8c7a1f096df618e2e30428" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityEngine.PostProcessing.ColorGradingComponent.k_CurveStep</definition>
+        <argsstring></argsstring>
+        <name>k_CurveStep</name>
+        <initializer>= 1f / k_CurvePrecision</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="33" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9a4bc1c63cebb8bace5167bc03bf4282" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.PostProcessing.ColorGradingComponent.m_GradingCurves</definition>
+        <argsstring></argsstring>
+        <name>m_GradingCurves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="35" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1acc86c87eda1936a230afa7c7afad7be9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.ColorGradingComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="37" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a162bff0d2c5c8a3df92bfccec1847b58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.ColorGradingComponent.StandardIlluminantY</definition>
+        <argsstring>(float x)</argsstring>
+        <name>StandardIlluminantY</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="49" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1afbc5e9ca28f3f388c360838fec54b554" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.PostProcessing.ColorGradingComponent.CIExyToLMS</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>CIExyToLMS</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="56" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="56" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a772be961926234e3c23af30fb2e56642" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.PostProcessing.ColorGradingComponent.CalculateColorBalance</definition>
+        <argsstring>(float temperature, float tint)</argsstring>
+        <name>CalculateColorBalance</name>
+        <param>
+          <type>float</type>
+          <declname>temperature</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="69" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="69" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a1b45534c882ec1bb39aea31224adc880" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.PostProcessing.ColorGradingComponent.GetCurveTexture</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurveTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="225" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="225" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a25d1905dd67f35815468477a03717786" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ColorGradingComponent.IsLogLutValid</definition>
+        <argsstring>(RenderTexture lut)</argsstring>
+        <name>IsLogLutValid</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>lut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="270" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="270" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a1b686d69a9a79fbff52554fbb8c1a70e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.ColorGradingComponent.GenerateLut</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateLut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="275" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="275" bodyend="382"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a87af0e41310076a6abb3a1476c0ee089" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color UnityEngine.PostProcessing.ColorGradingComponent.NormalizeColor</definition>
+        <argsstring>(Color c)</argsstring>
+        <name>NormalizeColor</name>
+        <param>
+          <type>Color</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="86" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="86" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a4926ef30ea700919ea542218c9666e35" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.ClampVector</definition>
+        <argsstring>(Vector3 v, float min, float max)</argsstring>
+        <name>ClampVector</name>
+        <param>
+          <type>Vector3</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="102" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="102" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a04daf0a2a8a42ead0163935f90d3f1f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetLiftValue</definition>
+        <argsstring>(Color lift)</argsstring>
+        <name>GetLiftValue</name>
+        <param>
+          <type>Color</type>
+          <declname>lift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="111" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="111" bodyend="124"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896" compoundref="_color_grading_component_8cs" startline="161" endline="166">UnityEngine.PostProcessing.ColorGradingComponent.CalculateLiftGammaGain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a24d6c535749a5f5dc47e98607d4c9816" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetGammaValue</definition>
+        <argsstring>(Color gamma)</argsstring>
+        <name>GetGammaValue</name>
+        <param>
+          <type>Color</type>
+          <declname>gamma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="126" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="126" bodyend="144"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896" compoundref="_color_grading_component_8cs" startline="161" endline="166">UnityEngine.PostProcessing.ColorGradingComponent.CalculateLiftGammaGain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a49b829055865dc106c6e19cce8aedb00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetGainValue</definition>
+        <argsstring>(Color gain)</argsstring>
+        <name>GetGainValue</name>
+        <param>
+          <type>Color</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="146" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="146" bodyend="159"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896" compoundref="_color_grading_component_8cs" startline="161" endline="166">UnityEngine.PostProcessing.ColorGradingComponent.CalculateLiftGammaGain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.PostProcessing.ColorGradingComponent.CalculateLiftGammaGain</definition>
+        <argsstring>(Color lift, Color gamma, Color gain, out Vector3 outLift, out Vector3 outGamma, out Vector3 outGain)</argsstring>
+        <name>CalculateLiftGammaGain</name>
+        <param>
+          <type>Color</type>
+          <declname>lift</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>gain</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outLift</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outGamma</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outGain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="161" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="161" bodyend="166"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a49b829055865dc106c6e19cce8aedb00" compoundref="_color_grading_component_8cs" startline="146" endline="159">UnityEngine.PostProcessing.ColorGradingComponent.GetGainValue</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a24d6c535749a5f5dc47e98607d4c9816" compoundref="_color_grading_component_8cs" startline="126" endline="144">UnityEngine.PostProcessing.ColorGradingComponent.GetGammaValue</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a04daf0a2a8a42ead0163935f90d3f1f9" compoundref="_color_grading_component_8cs" startline="111" endline="124">UnityEngine.PostProcessing.ColorGradingComponent.GetLiftValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ae2018d90179b6aa3f02e04e8884cc2bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetSlopeValue</definition>
+        <argsstring>(Color slope)</argsstring>
+        <name>GetSlopeValue</name>
+        <param>
+          <type>Color</type>
+          <declname>slope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="168" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="168" bodyend="181"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748" compoundref="_color_grading_component_8cs" startline="218" endline="223">UnityEngine.PostProcessing.ColorGradingComponent.CalculateSlopePowerOffset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9f7481136a36d81b1eea1faa04250bda" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetPowerValue</definition>
+        <argsstring>(Color power)</argsstring>
+        <name>GetPowerValue</name>
+        <param>
+          <type>Color</type>
+          <declname>power</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="183" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="183" bodyend="201"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748" compoundref="_color_grading_component_8cs" startline="218" endline="223">UnityEngine.PostProcessing.ColorGradingComponent.CalculateSlopePowerOffset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2819904531cd17c52080489f09b36db6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetOffsetValue</definition>
+        <argsstring>(Color offset)</argsstring>
+        <name>GetOffsetValue</name>
+        <param>
+          <type>Color</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="203" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="203" bodyend="216"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748" compoundref="_color_grading_component_8cs" startline="218" endline="223">UnityEngine.PostProcessing.ColorGradingComponent.CalculateSlopePowerOffset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.PostProcessing.ColorGradingComponent.CalculateSlopePowerOffset</definition>
+        <argsstring>(Color slope, Color power, Color offset, out Vector3 outSlope, out Vector3 outPower, out Vector3 outOffset)</argsstring>
+        <name>CalculateSlopePowerOffset</name>
+        <param>
+          <type>Color</type>
+          <declname>slope</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>power</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outSlope</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outPower</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="218" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="218" bodyend="223"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2819904531cd17c52080489f09b36db6" compoundref="_color_grading_component_8cs" startline="203" endline="216">UnityEngine.PostProcessing.ColorGradingComponent.GetOffsetValue</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9f7481136a36d81b1eea1faa04250bda" compoundref="_color_grading_component_8cs" startline="183" endline="201">UnityEngine.PostProcessing.ColorGradingComponent.GetPowerValue</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ae2018d90179b6aa3f02e04e8884cc2bf" compoundref="_color_grading_component_8cs" startline="168" endline="181">UnityEngine.PostProcessing.ColorGradingComponent.GetSlopeValue</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a6028831311ad34f0f563fa5715c139dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ColorGradingComponent.Prepare</definition>
+        <argsstring>(Material uberMaterial)</argsstring>
+        <name>Prepare</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732">Prepare</reimplements>
+        <param>
+          <type>Material</type>
+          <declname>uberMaterial</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="384" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="384" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1abf942f421fab142504cd5be46b804815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.ColorGradingComponent.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="406" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="406" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a888398f3d7e4eeb2809dd9f66b185622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ColorGradingComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="413" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="413" bodyend="419"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a33ab867d673af33b801d7e6edafaa8e7" compoundref="_graphics_utils_8cs" startline="124" endline="137">UnityEngine.PostProcessing.GraphicsUtils.Destroy</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PostProcessingComponentRenderTexture&lt; ColorGradingModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.ColorGradingComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PostProcessingComponentRenderTexture&lt; ColorGradingModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.ColorGradingComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="5" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="6" bodyend="420"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1acc86c87eda1936a230afa7c7afad7be9" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a772be961926234e3c23af30fb2e56642" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>CalculateColorBalance</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>CalculateLiftGammaGain</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>CalculateSlopePowerOffset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1afbc5e9ca28f3f388c360838fec54b554" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>CIExyToLMS</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a4926ef30ea700919ea542218c9666e35" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>ClampVector</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a1b686d69a9a79fbff52554fbb8c1a70e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GenerateLut</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a1b45534c882ec1bb39aea31224adc880" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetCurveTexture</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a49b829055865dc106c6e19cce8aedb00" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetGainValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a24d6c535749a5f5dc47e98607d4c9816" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetGammaValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a04daf0a2a8a42ead0163935f90d3f1f9" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetLiftValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2819904531cd17c52080489f09b36db6" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetOffsetValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9f7481136a36d81b1eea1faa04250bda" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetPowerValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ae2018d90179b6aa3f02e04e8884cc2bf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetSlopeValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a25d1905dd67f35815468477a03717786" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>IsLogLutValid</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2ec5f0cd56b5ddfb30d77fe7d364ac4e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>k_CurvePrecision</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ad92888374d8c7a1f096df618e2e30428" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>k_CurveStep</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a47f6f9ef47432ef92eaf0f50a62cbbca" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>k_InternalLogLutSize</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9a4bc1c63cebb8bace5167bc03bf4282" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>m_GradingCurves</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a87af0e41310076a6abb3a1476c0ee089" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>NormalizeColor</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a888398f3d7e4eeb2809dd9f66b185622" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1abf942f421fab142504cd5be46b804815" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>OnGUI</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a6028831311ad34f0f563fa5715c139dc" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>Prepare</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a162bff0d2c5c8a3df92bfccec1847b58" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>StandardIlluminantY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

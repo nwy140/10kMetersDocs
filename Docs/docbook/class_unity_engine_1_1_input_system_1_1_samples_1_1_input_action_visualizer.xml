@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.InputActionVisualizer Class Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary></indexterm>
+<para>
+
+<para>A component for debugging purposes that adds an on-screen display which shows activity on an input action over time (<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a61ee5a22cd5f14ed4e48eb5611031e74">InputActionVisualizer.Visualization.Interaction</link>) or an action&apos;s current value (<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a689202409e48743b914713f96d93947c">InputActionVisualizer.Visualization.Value</link>). </para>
+ 
+</para>
+Inheritance diagram for UnityEngine.InputSystem.Samples.InputActionVisualizer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.InputActionVisualizer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8">Visualization</link> { <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a6adf97f83acf6453d4a6a4b1070f3754">None</link>
+, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a689202409e48743b914713f96d93947c">Value</link>
+, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a61ee5a22cd5f14ed4e48eb5611031e74">Interaction</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a658379d2d13cd22c71978fda7a5f9b38">FixedUpdate</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a071ccc1ab67b3d5bb64c40834a3673ca">Update</link> ()</para>
+</listitem>
+            <listitem><para>new void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1af06733090e6e429eb7e76ef2c80dc986">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>new void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a4d9e0ae926d5743b3c33ec6814a12562">OnDisable</link> ()</para>
+</listitem>
+            <listitem><para>new void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a8e83570d163bd349d647d7f0bf1353ee">OnGUI</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1aac16bff89a8b86af09b2e09732be09e5">action</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>The action that is being visualized. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A component for debugging purposes that adds an on-screen display which shows activity on an input action over time (<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a61ee5a22cd5f14ed4e48eb5611031e74">InputActionVisualizer.Visualization.Interaction</link>) or an action&apos;s current value (<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a689202409e48743b914713f96d93947c">InputActionVisualizer.Visualization.Value</link>). </para>
+
+
+
+<para><formalpara><title>See also</title>
+
+<para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer">InputControlVisualizer</link></para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8"/><section>
+    <title>Visualization</title>
+<indexterm><primary>Visualization</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>Visualization</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8">UnityEngine.InputSystem.Samples.InputActionVisualizer.Visualization</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>None</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>None</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a6adf97f83acf6453d4a6a4b1070f3754"/>None</entry><entry></entry></row><row><entry><indexterm><primary>Value</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>Value</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a689202409e48743b914713f96d93947c"/>Value</entry><entry></entry></row><row><entry><indexterm><primary>Interaction</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>Interaction</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a61ee5a22cd5f14ed4e48eb5611031e74"/>Interaction</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a658379d2d13cd22c71978fda7a5f9b38"/><section>
+    <title>FixedUpdate()</title>
+<indexterm><primary>FixedUpdate</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>FixedUpdate</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InputActionVisualizer.FixedUpdate ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a4d9e0ae926d5743b3c33ec6814a12562"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>new void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnDisable ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1af06733090e6e429eb7e76ef2c80dc986"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>new void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnEnable ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a8e83570d163bd349d647d7f0bf1353ee"/><section>
+    <title>OnGUI()</title>
+<indexterm><primary>OnGUI</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>OnGUI</secondary></indexterm>
+<para><computeroutput>new void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnGUI ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a071ccc1ab67b3d5bb64c40834a3673ca"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InputActionVisualizer.Update ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1aac16bff89a8b86af09b2e09732be09e5"/><section>
+    <title>action</title>
+<indexterm><primary>action</primary><secondary>UnityEngine.InputSystem.Samples.InputActionVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputActionVisualizer</primary><secondary>action</secondary></indexterm>
+<para><computeroutput>InputAction UnityEngine.InputSystem.Samples.InputActionVisualizer.action<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>The action that is being visualized. </para>
+</para>
+
+<para>May be null. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/<link linkend="__input_action_visualizer_8cs">InputActionVisualizer.cs</link></section>
+</section>

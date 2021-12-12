@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_random_enemy" kind="class" language="C#" prot="public">
+    <compoundname>RandomEnemy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_random_enemy_1a807d4ed6fed19607a573bf099c47a494" prot="public" static="no" mutable="no">
+        <type>Collider2D[]</type>
+        <definition>Collider2D [] RandomEnemy.colliders</definition>
+        <argsstring></argsstring>
+        <name>colliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="7" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_enemy_1a83c200cc7a11b92394749d430e23ab4b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomEnemy.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_enemy_1a5702daf21bb2129286d0bdb061b6e145" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 RandomEnemy.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <initializer>= new Vector2(0,0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="10" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580" compoundref="_random_enemy_8cs" startline="26" endline="76">spawnEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_enemy_1ac1d4d08b5b013b6ffebee5aa20239907" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RandomEnemy.quad</definition>
+        <argsstring></argsstring>
+        <name>quad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="12" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580" compoundref="_random_enemy_8cs" startline="26" endline="76">spawnEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_enemy_1aa6c71de7ab6223df30bb754bb27100fc" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; RandomEnemy.enemyPool</definition>
+        <argsstring></argsstring>
+        <name>enemyPool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="13" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580" compoundref="_random_enemy_8cs" startline="26" endline="76">spawnEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_enemy_1a3f400699c5770fd670e44dfb99d90d81" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RandomEnemy.numberToSpawn</definition>
+        <argsstring></argsstring>
+        <name>numberToSpawn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="14" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580" compoundref="_random_enemy_8cs" startline="26" endline="76">spawnEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_enemy_1a7bf6f261c66ddd01e0618f369c5b57c7" prot="public" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask RandomEnemy.mask</definition>
+        <argsstring></argsstring>
+        <name>mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="15" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580" compoundref="_random_enemy_8cs" startline="26" endline="76">spawnEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_enemy_1a0e1b9eb5591461d6d81f11c92f3d010b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomEnemy.spawnRad</definition>
+        <argsstring></argsstring>
+        <name>spawnRad</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="16" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_enemy_1aac7b32540284728a180ddc71d5cdd426" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomEnemy.spawnCollisionCheckRadius</definition>
+        <argsstring></argsstring>
+        <name>spawnCollisionCheckRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="17" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580" compoundref="_random_enemy_8cs" startline="26" endline="76">spawnEnemy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_random_enemy_1adb7c30b99d3731ea364af2504b1ed125" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomEnemy.rando</definition>
+        <argsstring></argsstring>
+        <name>rando</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="9" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_random_enemy_1a6ae86c010a398308718627ed5d99b0b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RandomEnemy.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="20" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_random_enemy_1ace3b0e3702eaf286f8a0919cb2402aad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RandomEnemy.PreventSpawnOverLap</definition>
+        <argsstring>(Vector2 pos)</argsstring>
+        <name>PreventSpawnOverLap</name>
+        <param>
+          <type>Vector2</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="78" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="78" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RandomEnemy.spawnEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>spawnEnemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="26" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="26" bodyend="76"/>
+        <references refid="class_random_enemy_1aa6c71de7ab6223df30bb754bb27100fc" compoundref="_random_enemy_8cs" startline="13">enemyPool</references>
+        <references refid="class_random_enemy_1a7bf6f261c66ddd01e0618f369c5b57c7" compoundref="_random_enemy_8cs" startline="15">mask</references>
+        <references refid="class_random_enemy_1a3f400699c5770fd670e44dfb99d90d81" compoundref="_random_enemy_8cs" startline="14">numberToSpawn</references>
+        <references refid="class_random_enemy_1a5702daf21bb2129286d0bdb061b6e145" compoundref="_random_enemy_8cs" startline="10">pos</references>
+        <references refid="class_random_enemy_1ac1d4d08b5b013b6ffebee5aa20239907" compoundref="_random_enemy_8cs" startline="12">quad</references>
+        <references refid="class_random_enemy_1aac7b32540284728a180ddc71d5cdd426" compoundref="_random_enemy_8cs" startline="17">spawnCollisionCheckRadius</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RandomEnemy</label>
+        <link refid="class_random_enemy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RandomEnemy</label>
+        <link refid="class_random_enemy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomEnemy.cs" bodystart="6" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_random_enemy_1a807d4ed6fed19607a573bf099c47a494" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>colliders</name></member>
+      <member refid="class_random_enemy_1aa6c71de7ab6223df30bb754bb27100fc" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>enemyPool</name></member>
+      <member refid="class_random_enemy_1a7bf6f261c66ddd01e0618f369c5b57c7" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>mask</name></member>
+      <member refid="class_random_enemy_1a3f400699c5770fd670e44dfb99d90d81" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>numberToSpawn</name></member>
+      <member refid="class_random_enemy_1a5702daf21bb2129286d0bdb061b6e145" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>pos</name></member>
+      <member refid="class_random_enemy_1ace3b0e3702eaf286f8a0919cb2402aad" prot="private" virt="non-virtual"><scope>RandomEnemy</scope><name>PreventSpawnOverLap</name></member>
+      <member refid="class_random_enemy_1ac1d4d08b5b013b6ffebee5aa20239907" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>quad</name></member>
+      <member refid="class_random_enemy_1a83c200cc7a11b92394749d430e23ab4b" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>radius</name></member>
+      <member refid="class_random_enemy_1adb7c30b99d3731ea364af2504b1ed125" prot="private" virt="non-virtual"><scope>RandomEnemy</scope><name>rando</name></member>
+      <member refid="class_random_enemy_1aac7b32540284728a180ddc71d5cdd426" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>spawnCollisionCheckRadius</name></member>
+      <member refid="class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>spawnEnemy</name></member>
+      <member refid="class_random_enemy_1a0e1b9eb5591461d6d81f11c92f3d010b" prot="public" virt="non-virtual"><scope>RandomEnemy</scope><name>spawnRad</name></member>
+      <member refid="class_random_enemy_1a6ae86c010a398308718627ed5d99b0b1" prot="private" virt="non-virtual"><scope>RandomEnemy</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

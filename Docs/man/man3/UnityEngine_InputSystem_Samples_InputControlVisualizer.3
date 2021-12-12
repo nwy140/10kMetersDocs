@@ -1,0 +1,127 @@
+.TH "UnityEngine.InputSystem.Samples.InputControlVisualizer" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.InputSystem.Samples.InputControlVisualizer \- A component for debugging purposes that adds an on-screen display which shows activity on an input control over time\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUnityEngine\&.InputSystem\&.Samples\&.InputVisualizer\fP\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBMode\fP { \fBNone\fP = 0, \fBValue\fP = 1, \fBEvents\fP = 4, \fBMaximumLag\fP = 6, \fBBytes\fP = 7 }"
+.br
+.RI "Determines which aspect of the control should be visualized\&. "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "new void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "new void \fBOnDisable\fP ()"
+.br
+.ti -1c
+.RI "new void \fBOnGUI\fP ()"
+.br
+.ti -1c
+.RI "new void \fBOnValidate\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBMode\fP \fBvisualization\fP\fC [getset]\fP"
+.br
+.RI "What kind of visualization to show\&. "
+.ti -1c
+.RI "string \fBcontrolPath\fP\fC [getset]\fP"
+.br
+.RI "Path of the control that is to be visualized\&. "
+.ti -1c
+.RI "int \fBcontrolIndex\fP\fC [getset]\fP"
+.br
+.RI "If, at runtime, multiple controls are matching \fBcontrolPath\fP, this property determines the index of the control that is retrieved from the possible options\&. "
+.ti -1c
+.RI "InputControl \fBcontrol\fP\fC [get]\fP"
+.br
+.RI "The control resolved from \fBcontrolPath\fP at runtime\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+A component for debugging purposes that adds an on-screen display which shows activity on an input control over time\&. 
+
+This component is most useful for debugging input directly on the source device\&. 
+.PP
+\fBSee also\fP
+.RS 4
+\fBInputActionVisualizer\fP
+.PP
+.RE
+.PP
+
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBUnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.Mode\fP"
+
+.PP
+Determines which aspect of the control should be visualized\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fIValue \fP\fP
+.TP
+\fB\fIEvents \fP\fP
+.TP
+\fB\fIMaximumLag \fP\fP
+.TP
+\fB\fIBytes \fP\fP
+.SH "Member Function Documentation"
+.PP 
+.SS "new void UnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.OnDisable ()\fC [protected]\fP"
+
+.SS "new void UnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.OnEnable ()\fC [protected]\fP"
+
+.SS "new void UnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.OnGUI ()\fC [protected]\fP"
+
+.SS "new void UnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.OnValidate ()\fC [protected]\fP"
+
+.SH "Property Documentation"
+.PP 
+.SS "InputControl UnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.control\fC [get]\fP"
+
+.PP
+The control resolved from \fBcontrolPath\fP at runtime\&. May be null\&. 
+.SS "int UnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.controlIndex\fC [get]\fP, \fC [set]\fP"
+
+.PP
+If, at runtime, multiple controls are matching \fBcontrolPath\fP, this property determines the index of the control that is retrieved from the possible options\&. 
+.SS "string UnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.controlPath\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Path of the control that is to be visualized\&. 
+.PP
+\fBSee also\fP
+.RS 4
+InputControlPath, InputControl\&.path
+.PP
+.RE
+.PP
+
+.SS "\fBMode\fP UnityEngine\&.InputSystem\&.Samples\&.InputControlVisualizer\&.visualization\fC [get]\fP, \fC [set]\fP"
+
+.PP
+What kind of visualization to show\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

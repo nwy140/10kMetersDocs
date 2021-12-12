@@ -1,0 +1,133 @@
+.TH "itemSlots" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+itemSlots
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, and IDropHandler\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual bool \fBCanReceiveItem\fP (\fBitem\fP \fBitem\fP)"
+.br
+.ti -1c
+.RI "void \fBOnPointerClick\fP (PointerEventData eventData)"
+.br
+.ti -1c
+.RI "void \fBOnPointerEnter\fP (PointerEventData eventData)"
+.br
+.ti -1c
+.RI "void \fBOnPointerExit\fP (PointerEventData eventData)"
+.br
+.ti -1c
+.RI "void \fBOnBeginDrag\fP (PointerEventData eventData)"
+.br
+.ti -1c
+.RI "void \fBOnEndDrag\fP (PointerEventData eventData)"
+.br
+.ti -1c
+.RI "void \fBOnDrag\fP (PointerEventData eventData)"
+.br
+.ti -1c
+.RI "void \fBOnDrop\fP (PointerEventData eventData)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Image \fBslotBorder\fP"
+.br
+.ti -1c
+.RI "\fBitem\fP \fB_item\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBitem\fP \fBItem\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "int \fBAmount\fP\fC [getset]\fP"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnPointerEnterEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnPointerExitEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnLeftClickEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnBeginDragEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnEndDragEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnDragEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnDropEvent\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual bool itemSlots\&.CanReceiveItem (\fBitem\fP item)\fC [virtual]\fP"
+
+.SS "void itemSlots\&.OnBeginDrag (PointerEventData eventData)"
+
+.SS "void itemSlots\&.OnDrag (PointerEventData eventData)"
+
+.SS "void itemSlots\&.OnDrop (PointerEventData eventData)"
+
+.SS "void itemSlots\&.OnEndDrag (PointerEventData eventData)"
+
+.SS "void itemSlots\&.OnPointerClick (PointerEventData eventData)"
+
+.SS "void itemSlots\&.OnPointerEnter (PointerEventData eventData)"
+
+.SS "void itemSlots\&.OnPointerExit (PointerEventData eventData)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBitem\fP itemSlots\&._item"
+
+.SS "Image itemSlots\&.slotBorder"
+
+.SH "Property Documentation"
+.PP 
+.SS "int itemSlots\&.Amount\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBitem\fP itemSlots\&.Item\fC [get]\fP, \fC [set]\fP"
+
+.SH "Event Documentation"
+.PP 
+.SS "Action<\fBitemSlots\fP> itemSlots\&.OnBeginDragEvent"
+
+.SS "Action<\fBitemSlots\fP> itemSlots\&.OnDragEvent"
+
+.SS "Action<\fBitemSlots\fP> itemSlots\&.OnDropEvent"
+
+.SS "Action<\fBitemSlots\fP> itemSlots\&.OnEndDragEvent"
+
+.SS "Action<\fBitemSlots\fP> itemSlots\&.OnLeftClickEvent"
+
+.SS "Action<\fBitemSlots\fP> itemSlots\&.OnPointerEnterEvent"
+
+.SS "Action<\fBitemSlots\fP> itemSlots\&.OnPointerExitEvent"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

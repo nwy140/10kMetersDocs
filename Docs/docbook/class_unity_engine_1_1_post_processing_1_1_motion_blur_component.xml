@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.MotionBlurComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.MotionBlurComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.MotionBlurComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter">FrameBlendingFilter</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter">ReconstructionFilter</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override string <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a9ffec424dc428506c72254c3b7d5ce19">GetName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a796e8f0b76f16076e83b95d302560f95">ResetHistory</link> ()</para>
+</listitem>
+            <listitem><para>override DepthTextureMode <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3733dff98d8b6d020c5f494607a6bebd">GetCameraFlags</link> ()</para>
+</listitem>
+            <listitem><para>override CameraEvent <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ad3a58d6a79a3e0205cbf63b2312cd68a">GetCameraEvent</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aa48148ebf17e8302a7952a49f7034247">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934">PopulateCommandBuffer</link> (CommandBuffer cb)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a61167340f6855f661eed95d30c8528b4">OnDisable</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter">ReconstructionFilter</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aea13feeae21a2323a05a78650f761594">reconstructionFilter</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter">FrameBlendingFilter</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a21f0734301f3bd60e1454df1540c3a79">frameBlendingFilter</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aef85ae6ce557465b097ed27e23f0a27e">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ad3a58d6a79a3e0205cbf63b2312cd68a"/><section>
+    <title>GetCameraEvent()</title>
+<indexterm><primary>GetCameraEvent</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>GetCameraEvent</secondary></indexterm>
+<para><computeroutput>override CameraEvent UnityEngine.PostProcessing.MotionBlurComponent.GetCameraEvent ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; MotionBlurModel &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3733dff98d8b6d020c5f494607a6bebd"/><section>
+    <title>GetCameraFlags()</title>
+<indexterm><primary>GetCameraFlags</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>GetCameraFlags</secondary></indexterm>
+<para><computeroutput>override DepthTextureMode UnityEngine.PostProcessing.MotionBlurComponent.GetCameraFlags ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a9ffec424dc428506c72254c3b7d5ce19"/><section>
+    <title>GetName()</title>
+<indexterm><primary>GetName</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>GetName</secondary></indexterm>
+<para><computeroutput>override string UnityEngine.PostProcessing.MotionBlurComponent.GetName ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; MotionBlurModel &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a61167340f6855f661eed95d30c8528b4"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.MotionBlurComponent.OnDisable ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aa48148ebf17e8302a7952a49f7034247"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.MotionBlurComponent.OnEnable ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934"/><section>
+    <title>PopulateCommandBuffer()</title>
+<indexterm><primary>PopulateCommandBuffer</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>PopulateCommandBuffer</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.MotionBlurComponent.PopulateCommandBuffer (CommandBuffer cb)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; MotionBlurModel &gt;</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_a05817ecea251897db84ddaa616955934_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a796e8f0b76f16076e83b95d302560f95"/><section>
+    <title>ResetHistory()</title>
+<indexterm><primary>ResetHistory</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>ResetHistory</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.MotionBlurComponent.ResetHistory ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_a796e8f0b76f16076e83b95d302560f95_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aef85ae6ce557465b097ed27e23f0a27e"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.MotionBlurComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a21f0734301f3bd60e1454df1540c3a79"/><section>
+    <title>frameBlendingFilter</title>
+<indexterm><primary>frameBlendingFilter</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>frameBlendingFilter</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter">FrameBlendingFilter</link> UnityEngine.PostProcessing.MotionBlurComponent.frameBlendingFilter<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aea13feeae21a2323a05a78650f761594"/><section>
+    <title>reconstructionFilter</title>
+<indexterm><primary>reconstructionFilter</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent</primary><secondary>reconstructionFilter</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter">ReconstructionFilter</link> UnityEngine.PostProcessing.MotionBlurComponent.reconstructionFilter<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__motion_blur_component_8cs">MotionBlurComponent.cs</link></section>
+</section>

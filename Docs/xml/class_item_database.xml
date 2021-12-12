@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_item_database" kind="class" language="C#" prot="public">
+    <compoundname>ItemDatabase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_item_database_1a4d6ff553abaf6a69c31bb2e4850b2356" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem" kindref="compound">item</ref>[]</type>
+        <definition>item [] ItemDatabase.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemDatabase.cs" line="11" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemDatabase.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_database_1afd57da1d69c42a09188d104923cad3fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classitem" kindref="compound">item</ref></type>
+        <definition>item ItemDatabase.GetItemReference</definition>
+        <argsstring>(string itemID)</argsstring>
+        <name>GetItemReference</name>
+        <param>
+          <type>string</type>
+          <declname>itemID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemDatabase.cs" line="13" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemDatabase.cs" bodystart="13" bodyend="24"/>
+        <references refid="classitem_1a68ea20b19325b04375505bf6a450f285" compoundref="item_8cs" startline="9" endline="9">item.ID</references>
+        <referencedby refid="class_item_database_1a3f54a7d4ab8716e32f52dc9a311539de" compoundref="_item_database_8cs" startline="26" endline="31">GetItemCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_database_1a3f54a7d4ab8716e32f52dc9a311539de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classitem" kindref="compound">item</ref></type>
+        <definition>item ItemDatabase.GetItemCopy</definition>
+        <argsstring>(string itemID)</argsstring>
+        <name>GetItemCopy</name>
+        <param>
+          <type>string</type>
+          <declname>itemID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemDatabase.cs" line="26" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemDatabase.cs" bodystart="26" bodyend="31"/>
+        <references refid="classitem_1aa919c4aacef8cc62556ab0606d96af33" compoundref="item_8cs" startline="16" endline="19">item.getCopy</references>
+        <references refid="class_item_database_1afd57da1d69c42a09188d104923cad3fb" compoundref="_item_database_8cs" startline="13" endline="24">GetItemReference</references>
+        <referencedby refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" compoundref="_item_save_manager_8cs" startline="11" endline="42">ItemSaveManager.LoadInventory</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ItemDatabase</label>
+        <link refid="class_item_database"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ItemDatabase</label>
+        <link refid="class_item_database"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemDatabase.cs" line="9" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemDatabase.cs" bodystart="10" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_item_database_1a3f54a7d4ab8716e32f52dc9a311539de" prot="public" virt="non-virtual"><scope>ItemDatabase</scope><name>GetItemCopy</name></member>
+      <member refid="class_item_database_1afd57da1d69c42a09188d104923cad3fb" prot="public" virt="non-virtual"><scope>ItemDatabase</scope><name>GetItemReference</name></member>
+      <member refid="class_item_database_1a4d6ff553abaf6a69c31bb2e4850b2356" prot="private" virt="non-virtual"><scope>ItemDatabase</scope><name>items</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

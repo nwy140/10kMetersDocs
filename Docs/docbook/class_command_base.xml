@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_base" xml:lang="en-US">
+<title>CommandBase Class Reference</title>
+<indexterm><primary>CommandBase</primary></indexterm>
+Inheritance diagram for CommandBase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CommandBase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_command_base_1_1_cooldown_info">CooldownInfo</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_command_base_1_1_execution_info">ExecutionInfo</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_command_base_1_1_info">Info</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_command_base_1_1_instance_info_runtime">InstanceInfoRuntime</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b">CastState</link> { <link linkend="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4bab2fdab230a2c39f3595a947861863cb7">ready</link>
+, <link linkend="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4bac76a5e84e4bdee527e274ea30c680d79">active</link>
+, <link linkend="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4ba59c659396e8d30a10effe3566f8b782d">cooldown</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a99b32aa77f30f6b42ee58778183e5db5">Activate</link> (GameObject ownerRootParentObj=null)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1adcc42ebe79b3532b8a45b8be75958497">BeginCooldown</link> (GameObject ownerRootParentObj=null)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a7e86bdf437ded67513c61d554b2ed79b">StayCooldown</link> (GameObject ownerRootParentObj=null)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1ae4422d145540bf12661a8078c6066ab4">EndCooldown</link> (GameObject ownerRootParentObj=null)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2">HandleCooldown</link> (GameObject ownerRootParentObj)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a405d08e553ab58bb187c762a91fe20d8">TryExecCommand</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0">OnExternalUpdate</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a1daf934f29ab2fed7aa0469e7794f01b">CalculateElapsedTime</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a2555099b8b8f7345919865ca0daa4bdb">ExecPress</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577">ExecDown</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1abce04e951d2ff38afc8110a7e230e0ad">ExecDownCharging</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298">ExecRelease</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1ae0f9aff4793563e3681b052196c93c61">Execd</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1ad212a686f171b8d585283c12f85ec943">InitGameObj</link> (GameObject ownerRootParentObj)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7">Init</link> ()</para>
+</listitem>
+            <listitem><para>virtual <link linkend="_class_command_base">CommandBase</link> <link linkend="_class_command_base_1a4dcfa4d779498beebcace4649f911d2d">CreateNewInstanceOfSelf</link> (GameObject newInstigatorObjRef=null)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a566ca9e15250f13d927bf52c81951923">Awake</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a715925776f1d5f4cb3c75d60043455bd">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1a6bf6020fca1d369cd58792b3d99fedd5">OnDisable</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1af947c78d3d9a637f7a424a679c3b8f52">OnDestroy</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_base_1aaa3fd572c9dfd1314889b530955d9871">Undo</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_command_base_1_1_info">Info</link> <link linkend="_class_command_base_1a4fe442f9e369fb2325c89b2a2488acad">info</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_command_base_1_1_instance_info_runtime">InstanceInfoRuntime</link> <link linkend="_class_command_base_1a0da567c6d9f76378bfafae1145fc76c5">instanceInfo</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_command_base_1_1_cooldown_info">CooldownInfo</link> <link linkend="_class_command_base_1a00855c89a1d7f998d84163304d5568fd">cooldownInfo</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_base_1_1_execution_info">ExecutionInfo</link> <link linkend="_class_command_base_1a9d160629089439a8d86ff0dfabb79315">execInfo</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>virtual string <link linkend="_class_command_base_1aff5582377a9008fb9dd715e06627f345">aName</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>virtual float <link linkend="_class_command_base_1a6593ea3d53501bd90c83e2bc7bb5f81c">TimeStamp</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>virtual float <link linkend="_class_command_base_1aeaa20a07ff3ae4982db4f91d09ee21af">ElapsedTime</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>virtual int <link linkend="_class_command_base_1a9da58b3b0bfbd61fec118c863dff71df">id</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b"/><section>
+    <title>CastState</title>
+<indexterm><primary>CastState</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>CastState</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b">CommandBase.CastState</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>ready</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>ready</secondary></indexterm>
+<anchor xml:id="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4bab2fdab230a2c39f3595a947861863cb7"/>ready</entry><entry></entry></row><row><entry><indexterm><primary>active</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>active</secondary></indexterm>
+<anchor xml:id="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4bac76a5e84e4bdee527e274ea30c680d79"/>active</entry><entry></entry></row><row><entry><indexterm><primary>cooldown</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>cooldown</secondary></indexterm>
+<anchor xml:id="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4ba59c659396e8d30a10effe3566f8b782d"/>cooldown</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_base_1a99b32aa77f30f6b42ee58778183e5db5"/><section>
+    <title>Activate()</title>
+<indexterm><primary>Activate</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>Activate</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.Activate (GameObject ownerRootParentObj = <computeroutput>null</computeroutput>
+)<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a99b32aa77f30f6b42ee58778183e5db5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a566ca9e15250f13d927bf52c81951923"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.Awake ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_base_1adcc42ebe79b3532b8a45b8be75958497"/><section>
+    <title>BeginCooldown()</title>
+<indexterm><primary>BeginCooldown</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>BeginCooldown</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.BeginCooldown (GameObject ownerRootParentObj = <computeroutput>null</computeroutput>
+)<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_adcc42ebe79b3532b8a45b8be75958497_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a1daf934f29ab2fed7aa0469e7794f01b"/><section>
+    <title>CalculateElapsedTime()</title>
+<indexterm><primary>CalculateElapsedTime</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>CalculateElapsedTime</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.CalculateElapsedTime ( )<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a1daf934f29ab2fed7aa0469e7794f01b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a4dcfa4d779498beebcace4649f911d2d"/><section>
+    <title>CreateNewInstanceOfSelf()</title>
+<indexterm><primary>CreateNewInstanceOfSelf</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>CreateNewInstanceOfSelf</secondary></indexterm>
+<para><computeroutput>virtual <link linkend="_class_command_base">CommandBase</link> CommandBase.CreateNewInstanceOfSelf (GameObject newInstigatorObjRef = <computeroutput>null</computeroutput>
+)<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a4dcfa4d779498beebcace4649f911d2d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1ae4422d145540bf12661a8078c6066ab4"/><section>
+    <title>EndCooldown()</title>
+<indexterm><primary>EndCooldown</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>EndCooldown</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.EndCooldown (GameObject ownerRootParentObj = <computeroutput>null</computeroutput>
+)<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_ae4422d145540bf12661a8078c6066ab4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1ae0f9aff4793563e3681b052196c93c61"/><section>
+    <title>Execd()</title>
+<indexterm><primary>Execd</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>Execd</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.Execd ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_input_command_1a30f8aedff59388b5293975b3cbfba443">InputCommand</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_ae0f9aff4793563e3681b052196c93c61_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577"/><section>
+    <title>ExecDown()</title>
+<indexterm><primary>ExecDown</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>ExecDown</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.ExecDown ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_input_command_1a8295f4448a37878709bda4b7db5ce75f">InputCommand</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_ac2d48e3cddefeb4e6a6eabba41aa7577_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1abce04e951d2ff38afc8110a7e230e0ad"/><section>
+    <title>ExecDownCharging()</title>
+<indexterm><primary>ExecDownCharging</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>ExecDownCharging</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.ExecDownCharging ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_input_command_1ac4054b550c7ee70288847ea070f68af0">InputCommand</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_abce04e951d2ff38afc8110a7e230e0ad_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a2555099b8b8f7345919865ca0daa4bdb"/><section>
+    <title>ExecPress()</title>
+<indexterm><primary>ExecPress</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>ExecPress</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.ExecPress ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73">InputCommand</link>, <link linkend="_class_enable_disable_game_object_command_1a90b52b05f06141aa37a6861111b4cb0a">EnableDisableGameObjectCommand</link>, and <link linkend="_class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7">SetMaterialColorCommand</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a2555099b8b8f7345919865ca0daa4bdb_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298"/><section>
+    <title>ExecRelease()</title>
+<indexterm><primary>ExecRelease</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>ExecRelease</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.ExecRelease ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993">InputCommand</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a9f05ac9b2cd4da7f0649e5767629d298_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2"/><section>
+    <title>HandleCooldown()</title>
+<indexterm><primary>HandleCooldown</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>HandleCooldown</secondary></indexterm>
+<para><computeroutput>void CommandBase.HandleCooldown (GameObject ownerRootParentObj)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_af6ee9e1a406a4f1ec172336bb833a8d2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_af6ee9e1a406a4f1ec172336bb833a8d2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7"/><section>
+    <title>Init()</title>
+<indexterm><primary>Init</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>Init</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.Init ( )<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a6cc05d447a42f3b6fd8de5ee36d31df7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1ad212a686f171b8d585283c12f85ec943"/><section>
+    <title>InitGameObj()</title>
+<indexterm><primary>InitGameObj</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>InitGameObj</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.InitGameObj (GameObject ownerRootParentObj)<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_base_1af947c78d3d9a637f7a424a679c3b8f52"/><section>
+    <title>OnDestroy()</title>
+<indexterm><primary>OnDestroy</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>OnDestroy</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.OnDestroy ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_base_1a6bf6020fca1d369cd58792b3d99fedd5"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.OnDisable ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_base_1a715925776f1d5f4cb3c75d60043455bd"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.OnEnable ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5">InputCommand</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a715925776f1d5f4cb3c75d60043455bd_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0"/><section>
+    <title>OnExternalUpdate()</title>
+<indexterm><primary>OnExternalUpdate</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>OnExternalUpdate</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.OnExternalUpdate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_input_command_1a64de2217fb20e650e8e04e1c80deaef8">InputCommand</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a2bd013311318d3d861a7d6f2a8b42cb0_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a7e86bdf437ded67513c61d554b2ed79b"/><section>
+    <title>StayCooldown()</title>
+<indexterm><primary>StayCooldown</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>StayCooldown</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.StayCooldown (GameObject ownerRootParentObj = <computeroutput>null</computeroutput>
+)<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_a7e86bdf437ded67513c61d554b2ed79b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_base_1a405d08e553ab58bb187c762a91fe20d8"/><section>
+    <title>TryExecCommand()</title>
+<indexterm><primary>TryExecCommand</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>TryExecCommand</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.TryExecCommand ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interface_i_command_1a7fc0d324014976db246abbd800a4cc7b">ICommand</link>.</para>
+<para>
+Reimplemented in <link linkend="_class_input_command_1a32ba692a92ce5fd84c67ab3d320965ad">InputCommand</link>.</para>
+</section>
+<anchor xml:id="_class_command_base_1aaa3fd572c9dfd1314889b530955d9871"/><section>
+    <title>Undo()</title>
+<indexterm><primary>Undo</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>Undo</secondary></indexterm>
+<para><computeroutput>virtual void CommandBase.Undo ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interface_i_command_1aaee389e6fbefdb121ccd719f1447a05e">ICommand</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_aaa3fd572c9dfd1314889b530955d9871_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_base_1a00855c89a1d7f998d84163304d5568fd"/><section>
+    <title>cooldownInfo</title>
+<indexterm><primary>cooldownInfo</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>cooldownInfo</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_command_base_1_1_cooldown_info">CooldownInfo</link> CommandBase.cooldownInfo</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1a9d160629089439a8d86ff0dfabb79315"/><section>
+    <title>execInfo</title>
+<indexterm><primary>execInfo</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>execInfo</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_base_1_1_execution_info">ExecutionInfo</link> CommandBase.execInfo</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1a4fe442f9e369fb2325c89b2a2488acad"/><section>
+    <title>info</title>
+<indexterm><primary>info</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>info</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_command_base_1_1_info">Info</link> CommandBase.info</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1a0da567c6d9f76378bfafae1145fc76c5"/><section>
+    <title>instanceInfo</title>
+<indexterm><primary>instanceInfo</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>instanceInfo</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_command_base_1_1_instance_info_runtime">InstanceInfoRuntime</link> CommandBase.instanceInfo</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_command_base_1aff5582377a9008fb9dd715e06627f345"/><section>
+    <title>aName</title>
+<indexterm><primary>aName</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>aName</secondary></indexterm>
+<para><computeroutput>virtual string CommandBase.aName<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_base_1aeaa20a07ff3ae4982db4f91d09ee21af"/><section>
+    <title>ElapsedTime</title>
+<indexterm><primary>ElapsedTime</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>ElapsedTime</secondary></indexterm>
+<para><computeroutput>virtual float CommandBase.ElapsedTime<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_base_1a9da58b3b0bfbd61fec118c863dff71df"/><section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>virtual int CommandBase.id<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_base_1a6593ea3d53501bd90c83e2bc7bb5f81c"/><section>
+    <title>TimeStamp</title>
+<indexterm><primary>TimeStamp</primary><secondary>CommandBase</secondary></indexterm>
+<indexterm><primary>CommandBase</primary><secondary>TimeStamp</secondary></indexterm>
+<para><computeroutput>virtual float CommandBase.TimeStamp<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/<link linkend="__command_base_8cs">CommandBase.cs</link></section>
+</section>

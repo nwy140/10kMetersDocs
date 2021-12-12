@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tanks_input_actions" xml:lang="en-US">
+<title>TanksInputActions Class Reference</title>
+<indexterm><primary>TanksInputActions</primary></indexterm>
+Inheritance diagram for TanksInputActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tanks_input_actions__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for TanksInputActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tanks_input_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>interface <link linkend="_interface_tanks_input_actions_1_1_i_player_actions">IPlayerActions</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_tanks_input_actions_1_1_i_u_i_actions">IUIActions</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_tanks_input_actions_1_1_player_actions">PlayerActions</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_tanks_input_actions_1_1_u_i_actions">UIActions</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_tanks_input_actions_1ab7b41b41c7912479737f2283d61094d1">TanksInputActions</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_tanks_input_actions_1a5598ddb2cc4bde0ee5c53347ec9dd4e6">Dispose</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_tanks_input_actions_1af1ba0c3016036cb10110cca5f91fb3cf">Contains</link> (InputAction action)</para>
+</listitem>
+            <listitem><para>IEnumerator&lt; InputAction &gt; <link linkend="_class_tanks_input_actions_1a1c23145639429484ce4c97180fad1500">GetEnumerator</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_tanks_input_actions_1a830d8fc67fddd09d2ffe6ec259e287b7">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_tanks_input_actions_1a4acb986f03e0e7b94f6549ddd704156f">Disable</link> ()</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_class_tanks_input_actions_1a59fa78676bf512e8903cfcd0cc6cca36">FindAction</link> (string actionNameOrId, bool throwIfNotFound=false)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_tanks_input_actions_1a96af46b7b615c0a058f03bc3d81d7ee0">FindBinding</link> (InputBinding <link linkend="_class_tanks_input_actions_1ad55b6b5c0171da591e7df3ecae50b63e">bindingMask</link>, out InputAction action)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputActionAsset <link linkend="_class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce">asset</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputBinding? <link linkend="_class_tanks_input_actions_1ad55b6b5c0171da591e7df3ecae50b63e">bindingMask</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ReadOnlyArray&lt; InputDevice &gt;? <link linkend="_class_tanks_input_actions_1aa4ca4c642c5c1332a9d7f7f9836b5d52">devices</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ReadOnlyArray&lt; InputControlScheme &gt; <link linkend="_class_tanks_input_actions_1a0d0afdb74e12f2c6cb1a42a13e7fd2d1">controlSchemes</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>IEnumerable&lt; InputBinding &gt; <link linkend="_class_tanks_input_actions_1a8d9fa45ddf7e4832ca4d992ad968de05">bindings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_struct_tanks_input_actions_1_1_player_actions">PlayerActions</link> <link linkend="_class_tanks_input_actions_1a0f3430a6f786f09d35d866c1f2d4009e">Player</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_struct_tanks_input_actions_1_1_u_i_actions">UIActions</link> <link linkend="_class_tanks_input_actions_1aa914dc0ea3abeac9d7c8e6e63c79d0d6">UI</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputControlScheme <link linkend="_class_tanks_input_actions_1afb112abef85f183225073f604065390c">KeyboardMouseScheme</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputControlScheme <link linkend="_class_tanks_input_actions_1a849c30ab8dbfb2fbe432025e19146d18">GamepadScheme</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_tanks_input_actions_1ab7b41b41c7912479737f2283d61094d1"/><section>
+    <title>TanksInputActions()</title>
+<indexterm><primary>TanksInputActions</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>TanksInputActions</secondary></indexterm>
+<para><computeroutput>TanksInputActions.TanksInputActions ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_tanks_input_actions_1af1ba0c3016036cb10110cca5f91fb3cf"/><section>
+    <title>Contains()</title>
+<indexterm><primary>Contains</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>Contains</secondary></indexterm>
+<para><computeroutput>bool TanksInputActions.Contains (InputAction action)</computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a4acb986f03e0e7b94f6549ddd704156f"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.Disable ( )</computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a5598ddb2cc4bde0ee5c53347ec9dd4e6"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.Dispose ( )</computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a830d8fc67fddd09d2ffe6ec259e287b7"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.Enable ( )</computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a59fa78676bf512e8903cfcd0cc6cca36"/><section>
+    <title>FindAction()</title>
+<indexterm><primary>FindAction</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>FindAction</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.FindAction (string actionNameOrId, bool throwIfNotFound = <computeroutput>false</computeroutput>
+)</computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a96af46b7b615c0a058f03bc3d81d7ee0"/><section>
+    <title>FindBinding()</title>
+<indexterm><primary>FindBinding</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>FindBinding</secondary></indexterm>
+<para><computeroutput>int TanksInputActions.FindBinding (InputBinding bindingMask, out InputAction action)</computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a1c23145639429484ce4c97180fad1500"/><section>
+    <title>GetEnumerator()</title>
+<indexterm><primary>GetEnumerator</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>GetEnumerator</secondary></indexterm>
+<para><computeroutput>IEnumerator&lt; InputAction &gt; TanksInputActions.GetEnumerator ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce"/><section>
+    <title>asset</title>
+<indexterm><primary>asset</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>asset</secondary></indexterm>
+<para><computeroutput>InputActionAsset TanksInputActions.asset<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1ad55b6b5c0171da591e7df3ecae50b63e"/><section>
+    <title>bindingMask</title>
+<indexterm><primary>bindingMask</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>bindingMask</secondary></indexterm>
+<para><computeroutput>InputBinding? TanksInputActions.bindingMask<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a8d9fa45ddf7e4832ca4d992ad968de05"/><section>
+    <title>bindings</title>
+<indexterm><primary>bindings</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>bindings</secondary></indexterm>
+<para><computeroutput>IEnumerable&lt;InputBinding&gt; TanksInputActions.bindings<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a0d0afdb74e12f2c6cb1a42a13e7fd2d1"/><section>
+    <title>controlSchemes</title>
+<indexterm><primary>controlSchemes</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>controlSchemes</secondary></indexterm>
+<para><computeroutput>ReadOnlyArray&lt;InputControlScheme&gt; TanksInputActions.controlSchemes<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1aa4ca4c642c5c1332a9d7f7f9836b5d52"/><section>
+    <title>devices</title>
+<indexterm><primary>devices</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>devices</secondary></indexterm>
+<para><computeroutput>ReadOnlyArray&lt;InputDevice&gt;? TanksInputActions.devices<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a849c30ab8dbfb2fbe432025e19146d18"/><section>
+    <title>GamepadScheme</title>
+<indexterm><primary>GamepadScheme</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>GamepadScheme</secondary></indexterm>
+<para><computeroutput>InputControlScheme TanksInputActions.GamepadScheme<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1afb112abef85f183225073f604065390c"/><section>
+    <title>KeyboardMouseScheme</title>
+<indexterm><primary>KeyboardMouseScheme</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>KeyboardMouseScheme</secondary></indexterm>
+<para><computeroutput>InputControlScheme TanksInputActions.KeyboardMouseScheme<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1a0f3430a6f786f09d35d866c1f2d4009e"/><section>
+    <title>Player</title>
+<indexterm><primary>Player</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>Player</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_tanks_input_actions_1_1_player_actions">PlayerActions</link> TanksInputActions.Player<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_tanks_input_actions_1aa914dc0ea3abeac9d7c8e6e63c79d0d6"/><section>
+    <title>UI</title>
+<indexterm><primary>UI</primary><secondary>TanksInputActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions</primary><secondary>UI</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_tanks_input_actions_1_1_u_i_actions">UIActions</link> TanksInputActions.UI<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/<link linkend="__tanks_input_actions_8cs">TanksInputActions.cs</link></section>
+</section>

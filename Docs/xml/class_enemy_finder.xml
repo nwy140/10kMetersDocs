@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_enemy_finder" kind="class" language="C#" prot="public">
+    <compoundname>EnemyFinder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_finder_1a74de7744fde0777af556315ab8e36bab" prot="public" static="no" mutable="no">
+        <type><ref refid="class_enemy_health" kindref="compound">EnemyHealth</ref></type>
+        <definition>EnemyHealth EnemyFinder.enemyHealth</definition>
+        <argsstring></argsstring>
+        <name>enemyHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" line="7" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_finder_1a27c3d9620addef3a854e3f6623db2da2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_homing_bullet" kindref="compound">HomingBullet</ref></type>
+        <definition>HomingBullet EnemyFinder.homingBullet</definition>
+        <argsstring></argsstring>
+        <name>homingBullet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_finder_1aee0f0faa710d8c96cf7ae73ce665cd7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyFinder.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_finder_1ae93cad60b9f054026bd5f3094ca8b1c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyFinder.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" line="16" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" bodystart="16" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_finder_1a1aded9f8a144d1e36683ae74bd9d63e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyFinder.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" line="24" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyFinder</label>
+        <link refid="class_enemy_finder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyFinder</label>
+        <link refid="class_enemy_finder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+enemyHealth</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>EnemyHealth</label>
+        <link refid="class_enemy_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyFinder.cs" bodystart="6" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_enemy_finder_1a74de7744fde0777af556315ab8e36bab" prot="public" virt="non-virtual"><scope>EnemyFinder</scope><name>enemyHealth</name></member>
+      <member refid="class_enemy_finder_1a27c3d9620addef3a854e3f6623db2da2" prot="private" virt="non-virtual"><scope>EnemyFinder</scope><name>homingBullet</name></member>
+      <member refid="class_enemy_finder_1a1aded9f8a144d1e36683ae74bd9d63e5" prot="private" virt="non-virtual"><scope>EnemyFinder</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_enemy_finder_1ae93cad60b9f054026bd5f3094ca8b1c5" prot="private" virt="non-virtual"><scope>EnemyFinder</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_enemy_finder_1aee0f0faa710d8c96cf7ae73ce665cd7e" prot="private" virt="non-virtual"><scope>EnemyFinder</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

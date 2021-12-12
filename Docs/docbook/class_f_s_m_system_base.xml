@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_f_s_m_system_base" xml:lang="en-US">
+<title>FSMSystemBase Class Reference</title>
+<indexterm><primary>FSMSystemBase</primary></indexterm>
+Inheritance diagram for FSMSystemBase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_system_base__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for FSMSystemBase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_system_base__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_f_s_m_system_base_1ab80678c5526db2e0089a98a440c29a60">Awake</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_f_s_m_system_base_1a4da20f26b8e2b553122e84ef9eb70bfc">Update</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a">TryEnterState</link> (<link linkend="_class_f_s_m_base_state">FSMBaseState</link> nextState)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_f_s_m_base_state">FSMBaseState</link> <link linkend="_class_f_s_m_system_base_1a2f6e165ca4a189639dfac080fff32714">_curState</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_f_s_m_base_state">FSMBaseState</link> <link linkend="_class_f_s_m_system_base_1a0f54c1e32ce76012a1385fe453ba953f">_prevState</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_f_s_m_base_state">FSMBaseState</link> <link linkend="_class_f_s_m_system_base_1a40aaff0316f2a0b01ad8e51812c47282">_startingState</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017">isDebugLog</link> = false</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_f_s_m_system_base_1ab80678c5526db2e0089a98a440c29a60"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>FSMSystemBase</secondary></indexterm>
+<indexterm><primary>FSMSystemBase</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>virtual void FSMSystemBase.Awake ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1">NPCAISystemTypeA</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_system_base_ab80678c5526db2e0089a98a440c29a60_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a"/><section>
+    <title>TryEnterState()</title>
+<indexterm><primary>TryEnterState</primary><secondary>FSMSystemBase</secondary></indexterm>
+<indexterm><primary>FSMSystemBase</primary><secondary>TryEnterState</secondary></indexterm>
+<para><computeroutput>virtual void FSMSystemBase.TryEnterState (<link linkend="_class_f_s_m_base_state">FSMBaseState</link> nextState)<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_system_base_a57867290c6bfb9e82cc65ad8b32bf20a_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_system_base_a57867290c6bfb9e82cc65ad8b32bf20a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_f_s_m_system_base_1a4da20f26b8e2b553122e84ef9eb70bfc"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>FSMSystemBase</secondary></indexterm>
+<indexterm><primary>FSMSystemBase</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>virtual void FSMSystemBase.Update ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136">NPCAISystemTypeA</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_system_base_a4da20f26b8e2b553122e84ef9eb70bfc_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_f_s_m_system_base_1a2f6e165ca4a189639dfac080fff32714"/><section>
+    <title>_curState</title>
+<indexterm><primary>_curState</primary><secondary>FSMSystemBase</secondary></indexterm>
+<indexterm><primary>FSMSystemBase</primary><secondary>_curState</secondary></indexterm>
+<para><computeroutput><link linkend="_class_f_s_m_base_state">FSMBaseState</link> FSMSystemBase._curState</computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_system_base_1a0f54c1e32ce76012a1385fe453ba953f"/><section>
+    <title>_prevState</title>
+<indexterm><primary>_prevState</primary><secondary>FSMSystemBase</secondary></indexterm>
+<indexterm><primary>FSMSystemBase</primary><secondary>_prevState</secondary></indexterm>
+<para><computeroutput><link linkend="_class_f_s_m_base_state">FSMBaseState</link> FSMSystemBase._prevState</computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_system_base_1a40aaff0316f2a0b01ad8e51812c47282"/><section>
+    <title>_startingState</title>
+<indexterm><primary>_startingState</primary><secondary>FSMSystemBase</secondary></indexterm>
+<indexterm><primary>FSMSystemBase</primary><secondary>_startingState</secondary></indexterm>
+<para><computeroutput><link linkend="_class_f_s_m_base_state">FSMBaseState</link> FSMSystemBase._startingState</computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017"/><section>
+    <title>isDebugLog</title>
+<indexterm><primary>isDebugLog</primary><secondary>FSMSystemBase</secondary></indexterm>
+<indexterm><primary>FSMSystemBase</primary><secondary>isDebugLog</secondary></indexterm>
+<para><computeroutput>bool FSMSystemBase.isDebugLog = false</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/<link linkend="__f_s_m_system_base_8cs">FSMSystemBase.cs</link></section>
+</section>

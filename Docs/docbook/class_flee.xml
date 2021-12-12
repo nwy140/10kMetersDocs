@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_flee" xml:lang="en-US">
+<title>Flee Class Reference</title>
+<indexterm><primary>Flee</primary></indexterm>
+Inheritance diagram for Flee:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_flee__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Flee:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_flee__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_flee_1a6139b23f08e9a5d006f38d840bf81da1">Flee</link> (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_flee_1a22f828df5c3eb7da25a2e3dd8f59d1cd">OnEnterState</link> ()</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_flee_1a6dac7e6c97f912966967865bd6ba2789">OnExitState</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_flee_1aa3c3ad56ebf0ebd2e4c06a26be350677">OnStayState</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_flee_1ae27c4201cd667c79edb81b72586d9e45">hasSetDestination</link></para>
+</listitem>
+            <listitem><para>Transform <link linkend="_class_flee_1abcbcf0ef7187b9eadcc258711fb52973">target</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_flee_1a01f7466fe663988dd3a68ece62759dda">newSpeed</link> = 30f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_flee_1ac83301c409f8c517f124fd2c357a6b7e">newAgularSpeed</link> = 500f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_flee_1a6139b23f08e9a5d006f38d840bf81da1"/><section>
+    <title>Flee()</title>
+<indexterm><primary>Flee</primary><secondary>Flee</secondary></indexterm>
+<indexterm><primary>Flee</primary><secondary>Flee</secondary></indexterm>
+<para><computeroutput>Flee.Flee (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_flee_1a22f828df5c3eb7da25a2e3dd8f59d1cd"/><section>
+    <title>OnEnterState()</title>
+<indexterm><primary>OnEnterState</primary><secondary>Flee</secondary></indexterm>
+<indexterm><primary>Flee</primary><secondary>OnEnterState</secondary></indexterm>
+<para><computeroutput>override bool Flee.OnEnterState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_flee_1a6dac7e6c97f912966967865bd6ba2789"/><section>
+    <title>OnExitState()</title>
+<indexterm><primary>OnExitState</primary><secondary>Flee</secondary></indexterm>
+<indexterm><primary>Flee</primary><secondary>OnExitState</secondary></indexterm>
+<para><computeroutput>override bool Flee.OnExitState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_flee_1aa3c3ad56ebf0ebd2e4c06a26be350677"/><section>
+    <title>OnStayState()</title>
+<indexterm><primary>OnStayState</primary><secondary>Flee</secondary></indexterm>
+<indexterm><primary>Flee</primary><secondary>OnStayState</secondary></indexterm>
+<para><computeroutput>override void Flee.OnStayState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c">FSMBaseState</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_flee_1ae27c4201cd667c79edb81b72586d9e45"/><section>
+    <title>hasSetDestination</title>
+<indexterm><primary>hasSetDestination</primary><secondary>Flee</secondary></indexterm>
+<indexterm><primary>Flee</primary><secondary>hasSetDestination</secondary></indexterm>
+<para><computeroutput>bool Flee.hasSetDestination</computeroutput></para></section>
+<anchor xml:id="_class_flee_1ac83301c409f8c517f124fd2c357a6b7e"/><section>
+    <title>newAgularSpeed</title>
+<indexterm><primary>newAgularSpeed</primary><secondary>Flee</secondary></indexterm>
+<indexterm><primary>Flee</primary><secondary>newAgularSpeed</secondary></indexterm>
+<para><computeroutput>float Flee.newAgularSpeed = 500f</computeroutput></para></section>
+<anchor xml:id="_class_flee_1a01f7466fe663988dd3a68ece62759dda"/><section>
+    <title>newSpeed</title>
+<indexterm><primary>newSpeed</primary><secondary>Flee</secondary></indexterm>
+<indexterm><primary>Flee</primary><secondary>newSpeed</secondary></indexterm>
+<para><computeroutput>float Flee.newSpeed = 30f</computeroutput></para></section>
+<anchor xml:id="_class_flee_1abcbcf0ef7187b9eadcc258711fb52973"/><section>
+    <title>target</title>
+<indexterm><primary>target</primary><secondary>Flee</secondary></indexterm>
+<indexterm><primary>Flee</primary><secondary>target</secondary></indexterm>
+<para><computeroutput>Transform Flee.target</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/<link linkend="__n_p_c_a_i_states_type_a_8cs">NPCAIStatesTypeA.cs</link></section>
+</section>

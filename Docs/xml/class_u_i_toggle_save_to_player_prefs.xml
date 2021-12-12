@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_u_i_toggle_save_to_player_prefs" kind="class" language="C#" prot="public">
+    <compoundname>UIToggleSaveToPlayerPrefs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_i_toggle_save_to_player_prefs_1aa6e57b0d9adc42879a2b49bb93030ba9" prot="public" static="no" mutable="no">
+        <type>Toggle</type>
+        <definition>Toggle UIToggleSaveToPlayerPrefs.toggleComp</definition>
+        <argsstring></argsstring>
+        <name>toggleComp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" line="9" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_toggle_save_to_player_prefs_1acdfcc659045b2c6aef00b9a244245a92" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UIToggleSaveToPlayerPrefs.pPrefsName</definition>
+        <argsstring></argsstring>
+        <name>pPrefsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" line="10" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_toggle_save_to_player_prefs_1ad47d92a95350e0afedfb89c7c79dcf98" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UIToggleSaveToPlayerPrefs.pPrefsVal</definition>
+        <argsstring></argsstring>
+        <name>pPrefsVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" line="11" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_toggle_save_to_player_prefs_1a8307f7f38cbed36aa76f144fbfd8a2e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIToggleSaveToPlayerPrefs.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_toggle_save_to_player_prefs_1aa7b45dec1c560f2497b9ff6ba42ce095" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIToggleSaveToPlayerPrefs.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" line="19" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIToggleSaveToPlayerPrefs</label>
+        <link refid="class_u_i_toggle_save_to_player_prefs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIToggleSaveToPlayerPrefs</label>
+        <link refid="class_u_i_toggle_save_to_player_prefs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UIToggleSaveToPlayerPrefs.cs" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_u_i_toggle_save_to_player_prefs_1a8307f7f38cbed36aa76f144fbfd8a2e0" prot="private" virt="non-virtual"><scope>UIToggleSaveToPlayerPrefs</scope><name>OnEnable</name></member>
+      <member refid="class_u_i_toggle_save_to_player_prefs_1acdfcc659045b2c6aef00b9a244245a92" prot="public" virt="non-virtual"><scope>UIToggleSaveToPlayerPrefs</scope><name>pPrefsName</name></member>
+      <member refid="class_u_i_toggle_save_to_player_prefs_1ad47d92a95350e0afedfb89c7c79dcf98" prot="private" virt="non-virtual"><scope>UIToggleSaveToPlayerPrefs</scope><name>pPrefsVal</name></member>
+      <member refid="class_u_i_toggle_save_to_player_prefs_1aa6e57b0d9adc42879a2b49bb93030ba9" prot="public" virt="non-virtual"><scope>UIToggleSaveToPlayerPrefs</scope><name>toggleComp</name></member>
+      <member refid="class_u_i_toggle_save_to_player_prefs_1aa7b45dec1c560f2497b9ff6ba42ce095" prot="private" virt="non-virtual"><scope>UIToggleSaveToPlayerPrefs</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

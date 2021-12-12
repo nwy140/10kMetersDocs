@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_param_state_behavior_8cs" kind="file" language="C#">
+    <compoundname>ParamStateBehavior.cs</compoundname>
+    <innerclass refid="class_param_state_behavior" prot="public">ParamStateBehavior</innerclass>
+    <innerclass refid="class_set_param_state_data" prot="public">SetParamStateData</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>EAnimParamType</name>
+        <enumvalue id="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3aac228c69db6e7bb358a5884af71cd322" prot="public">
+          <name>BOOL_SetDefaultState</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3a9787ed9a1dd5d55724ccd53e5742ef8e" prot="public">
+          <name>TRIGGER_Set</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3af2defe30d0a31deed31eaf9abda2fe91" prot="public">
+          <name>TRIGGER_Reset</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3a53f93baa3057821107c750323892fa92" prot="public">
+          <name>INT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3ae738c26bf4ce1037fa81b039a915cbf6" prot="public">
+          <name>FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="110" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="111" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ref:<sp/>https://www.youtube.com/watch?v=BHs7IqQSuSc&amp;list=PLPYO_4PaVtLU-cxSTYaIGpK3PbBMDbldU&amp;index=2<sp/>(Script<sp/>used<sp/>for<sp/>setting<sp/>animator<sp/>param<sp/>values,<sp/>based<sp/>on<sp/>their<sp/>types)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_param_state_behavior" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_param_state_behavior" kindref="compound">ParamStateBehavior</ref><sp/>:<sp/>StateMachineBehaviour</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;OnStateEnter&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="8" refid="class_param_state_behavior_1a096e4c5707dd5785519946640dd38160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref>[]<sp/><ref refid="class_param_state_behavior_1a096e4c5707dd5785519946640dd38160" kindref="member">OnStateEnterParamDatas</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//[Header(&quot;Layer<sp/>Weights&quot;)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>bool<sp/>Enter_isAnimLayerWeightOverride;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>string<sp/>Enter_AnimLayerName;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>float<sp/>OnStateEnter_newAnimLayerWeight;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>OnStateEnter<sp/>is<sp/>called<sp/>when<sp/>a<sp/>transition<sp/>starts<sp/>and<sp/>the<sp/>state<sp/>machine<sp/>starts<sp/>to<sp/>evaluate<sp/>this<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_param_state_behavior_1adc462b35fbeb8cbbf12342ea3b24bc27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_param_state_behavior_1adc462b35fbeb8cbbf12342ea3b24bc27" kindref="member">OnStateEnter</ref>(Animator<sp/>animator,<sp/>AnimatorStateInfo<sp/>stateInfo,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerIndex)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ref:<sp/>https://youtu.be/EmJ9PXF61m0?list=PLPYO_4PaVtLU-cxSTYaIGpK3PbBMDbldU&amp;t=546</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>this<sp/>script<sp/>to<sp/>fix<sp/>animator<sp/>parameters<sp/>transition<sp/>issues</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>i.e<sp/>double<sp/>click<sp/>calling<sp/>same<sp/>animation<sp/>state<sp/>twice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref><sp/>data<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/><ref refid="class_param_state_behavior_1a096e4c5707dd5785519946640dd38160" kindref="member">OnStateEnterParamDatas</ref>)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref>.<ref refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" kindref="member">SetAnimatorParamDatas</ref>(data,<sp/>animator);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(Enter_AnimLayerName.Length<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>Enter_isAnimLayerWeightOverride<sp/>==<sp/>true)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>animator.SetLayerWeight(animator.GetLayerIndex(Enter_AnimLayerName),<sp/>OnStateEnter_newAnimLayerWeight);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_param_state_behavior_1afe12ed29c85d9d5a1d5ead2dcf531749" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_param_state_behavior_1afe12ed29c85d9d5a1d5ead2dcf531749" kindref="member">OnStateUpdate</ref>(Animator<sp/>animator,<sp/>AnimatorStateInfo<sp/>stateInfo,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerIndex)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(animator.GetComponent&lt;CharacterController&gt;()<sp/>!=<sp/>null)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>CharacterController<sp/>cc<sp/>=<sp/>animator.GetComponent&lt;CharacterController&gt;();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(scriptMotionForwardVectorSpeed<sp/>!=<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cc.Move(animator.transform.forward<sp/>*<sp/>scriptMotionForwardVectorSpeed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Time.deltaTime);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(scriptMotionRightVectorSpeed<sp/>!=<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cc.Move(animator.transform.right<sp/>*<sp/>scriptMotionRightVectorSpeed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Time.deltaTime);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/>[Header(&quot;OnStateExit&quot;)]</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>SetParamStateData[]<sp/>OnStateExitParamDatas;</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>bool<sp/>OnStateExit_isAnimLayerWeightOverride;</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>string<sp/>OnStateExit_AnimLayerName;</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>float<sp/>OnStateExit_newAnimLayerWeight;</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>OnStateExit<sp/>is<sp/>called<sp/>when<sp/>a<sp/>transition<sp/>ends<sp/>and<sp/>the<sp/>state<sp/>machine<sp/>finishes<sp/>evaluating<sp/>this<sp/>state</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/>override<sp/>public<sp/>void<sp/>OnStateExit(Animator<sp/>animator,<sp/>AnimatorStateInfo<sp/>stateInfo,<sp/>int<sp/>layerIndex)</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>foreach<sp/>(SetParamStateData<sp/>data<sp/>in<sp/>OnStateExitParamDatas)</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetParamStateData.SetAnimatorParamDatas(data,<sp/>animator);</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(OnStateExit_AnimLayerName.Length<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>OnStateExit_isAnimLayerWeightOverride<sp/>==<sp/>true)</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetLayerWeight(animator.GetLayerIndex(OnStateEnter_AnimLayerName),<sp/>OnStateExit_newAnimLayerWeight);</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/>//IEnumerator<sp/>SetParamStateDataWithDelay(SetParamStateData<sp/>data,<sp/>Animator<sp/>animator,<sp/>AnimatorStateInfo<sp/>stateInfo,</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/>int<sp/>layerIndex)</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/>//{</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/>while<sp/>(stateInfo.normalizedTime<sp/>&lt;<sp/>1.0f)</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//Wait<sp/>every<sp/>frame<sp/>until<sp/>animation<sp/>has<sp/>finished</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/>return<sp/>null;</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/>animator.SetBool(data.paramName,<sp/>data.setDefaultState);</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/>yield<sp/>return<sp/>null;</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/>//}</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/>[Header(&quot;OnStateUpdate&quot;)]</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>SetParamStateData[]<sp/>OnStateUpdateParamDatas;</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>bool<sp/>OnStateUpdate_isAnimLayerWeightOverride;</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>string<sp/>OnStateUpdate_AnimLayerName;</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>float<sp/>OnStateUpdate_newAnimLayerWeight;</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/>//OnStateUpdate<sp/>is<sp/>called<sp/>on<sp/>each<sp/>Update<sp/>frame<sp/>between<sp/>OnStateEnter<sp/>and<sp/>OnStateExit<sp/>callbacks</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/>override<sp/>public<sp/>void<sp/>OnStateUpdate(Animator<sp/>animator,<sp/>AnimatorStateInfo<sp/>stateInfo,<sp/>int<sp/>layerIndex)</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>foreach<sp/>(SetParamStateData<sp/>data<sp/>in<sp/>OnStateUpdateParamDatas)</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetParamStateData.SetAnimatorParamDatas(data,<sp/>animator);</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(OnStateUpdate_AnimLayerName.Length<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>OnStateUpdate_isAnimLayerWeightOverride<sp/>==<sp/>true)</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetLayerWeight(animator.GetLayerIndex(OnStateUpdate_AnimLayerName),<sp/>OnStateUpdate_newAnimLayerWeight);</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>OnStateMove<sp/>is<sp/>called<sp/>right<sp/>after<sp/>Animator.OnAnimatorMove()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//override<sp/>public<sp/>void<sp/>OnStateMove(Animator<sp/>animator,<sp/>AnimatorStateInfo<sp/>stateInfo,<sp/>int<sp/>layerIndex)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//<sp/>Implement<sp/>code<sp/>that<sp/>processes<sp/>and<sp/>affects<sp/>root<sp/>motion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>OnStateIK<sp/>is<sp/>called<sp/>right<sp/>after<sp/>Animator.OnAnimatorIK()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//override<sp/>public<sp/>void<sp/>OnStateIK(Animator<sp/>animator,<sp/>AnimatorStateInfo<sp/>stateInfo,<sp/>int<sp/>layerIndex)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//<sp/>Implement<sp/>code<sp/>that<sp/>sets<sp/>up<sp/>animation<sp/>IK<sp/>(inverse<sp/>kinematics)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110" refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3aac228c69db6e7bb358a5884af71cd322" kindref="member">BOOL_SetDefaultState</ref>,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3a9787ed9a1dd5d55724ccd53e5742ef8e" kindref="member">TRIGGER_Set</ref>,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3af2defe30d0a31deed31eaf9abda2fe91" kindref="member">TRIGGER_Reset</ref>,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3a53f93baa3057821107c750323892fa92" kindref="member">INT</ref>,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3ae738c26bf4ce1037fa81b039a915cbf6" kindref="member">FLOAT</ref>,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">[System.Serializable]</highlight></codeline>
+<codeline lineno="120" refid="class_set_param_state_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref></highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122" refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>public<sp/>Enumstate<sp/>param<sp/>Type<sp/>//<sp/>if<sp/>statement<sp/>on<sp/>param<sp/>type,<sp/>trigger,<sp/>bool,<sp/>int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref><sp/><ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref>;</highlight></codeline>
+<codeline lineno="125" refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" kindref="member">setDefaultState</ref>;<sp/></highlight><highlight class="comment">//<sp/>if<sp/>is<sp/>bool<sp/>param<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" kindref="member">ifIsIntParamType_NewInt</ref>;<sp/></highlight><highlight class="comment">//<sp/>if<sp/>is<sp/>int<sp/>param<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="class_set_param_state_data_1a94faf9ca1ba11fe881829773347a7122" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data_1a94faf9ca1ba11fe881829773347a7122" kindref="member">ifIsFloatParamType_NewFloat</ref>;<sp/></highlight><highlight class="comment">//<sp/>if<sp/>is<sp/>int<sp/>param<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Overload<sp/>Methods<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" kindref="member">SetAnimatorParamDatas</ref>(<ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref><sp/>data,<sp/>Animator<sp/>animator,<sp/>AnimatorStateInfo<sp/>stateInfo,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerIndex)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.BOOL_SetDefaultState)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetBool(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>data.<ref refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" kindref="member">setDefaultState</ref>);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.TRIGGER_Set)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetTrigger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.TRIGGER_Reset)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.ResetTrigger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.INT)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetInteger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>data.<ref refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" kindref="member">ifIsIntParamType_NewInt</ref>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149" refid="class_set_param_state_data_1ad75765809dc58c06ed9fd139ced3e869" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data_1ad75765809dc58c06ed9fd139ced3e869" kindref="member">SetAnimatorParamDatas</ref>(<ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref><sp/>data,<sp/>Animator<sp/>animator)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.BOOL_SetDefaultState)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetBool(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>data.<ref refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" kindref="member">setDefaultState</ref>);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.TRIGGER_Set)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetTrigger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.TRIGGER_Reset)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.ResetTrigger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.INT)</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetInteger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>data.<ref refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" kindref="member">ifIsIntParamType_NewInt</ref>);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168" refid="class_set_param_state_data_1a1051dfd01b8176506b74ba4796ee30e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data_1a1051dfd01b8176506b74ba4796ee30e5" kindref="member">SetAnimatorParamDatas</ref>(<ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref><sp/>data,<sp/>Animator<sp/>animator,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isInvertBOOL,<sp/>AnimatorStateInfo<sp/>stateInfo,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerIndex)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.BOOL_SetDefaultState)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isInvertBOOL<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetBool(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>!data.<ref refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" kindref="member">setDefaultState</ref>);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetBool(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>data.<ref refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" kindref="member">setDefaultState</ref>);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.TRIGGER_Set)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetTrigger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.TRIGGER_Reset)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.ResetTrigger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.INT)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetInteger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>data.<ref refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" kindref="member">ifIsIntParamType_NewInt</ref>);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194" refid="class_set_param_state_data_1a3f1a5038b46154e2e49d8a6fcbcf4bcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_set_param_state_data_1a3f1a5038b46154e2e49d8a6fcbcf4bcc" kindref="member">SetAnimatorParamDatas</ref>(<ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref><sp/>data,<sp/>Animator<sp/>animator,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isInvertBOOL)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.BOOL_SetDefaultState)</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isInvertBOOL<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetBool(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>!data.<ref refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" kindref="member">setDefaultState</ref>);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetBool(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>data.<ref refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" kindref="member">setDefaultState</ref>);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.TRIGGER_Set)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetTrigger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.TRIGGER_Reset)</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.ResetTrigger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data.<ref refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" kindref="member">animParamType</ref><sp/>==<sp/><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref>.INT)</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animator.SetInteger(data.<ref refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" kindref="member">paramName</ref>,<sp/>data.<ref refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" kindref="member">ifIsIntParamType_NewInt</ref>);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs"/>
+  </compounddef>
+</doxygen>

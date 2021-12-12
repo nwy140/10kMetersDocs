@@ -1,0 +1,133 @@
+.TH "DoxygenWindow" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DoxygenWindow \-  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits EditorWindow\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBWindowModes\fP { \fBGenerate\fP, \fBConfiguration\fP, \fBAbout\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBreadBaseConfig\fP ()"
+.br
+.ti -1c
+.RI "void \fBMakeNewDoxyFile\fP (\fBDoxygenConfig\fP config)"
+.br
+.ti -1c
+.RI "void \fBRunDoxygen\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBInit\fP ()"
+.br
+.ti -1c
+.RI "static void \fBOnDoxygenFinished\fP (int code)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBUnityProjectID\fP = PlayerSettings\&.productName+':'"
+.br
+.ti -1c
+.RI "string \fBAssestsFolder\fP = Application\&.dataPath"
+.br
+.ti -1c
+.RI "string[] \fBThemes\fP = new string[3] {'Default', 'Dark and Colorful', 'Light and Clean'}"
+.br
+.ti -1c
+.RI "int \fBSelectedTheme\fP = 1"
+.br
+.ti -1c
+.RI "string \fBBaseFileString\fP = null"
+.br
+.ti -1c
+.RI "string \fBDoxygenOutputString\fP = null"
+.br
+.ti -1c
+.RI "string \fBCurentOutput\fP = null"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fBDoxygenWindow\fP \fBInstance\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+
+A Editor Plugin for automatic doc generation through Doxygen
+.PP
+Author: Jacob Pennock (http://Jacobpennock.com)
+.PP
+Version: 1\&.0
+.PP
+
+.br
+ 
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBDoxygenWindow\&.WindowModes\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIGenerate \fP\fP
+.TP
+\fB\fIConfiguration \fP\fP
+.TP
+\fB\fIAbout \fP\fP
+.SH "Member Function Documentation"
+.PP 
+.SS "static void DoxygenWindow\&.Init ()\fC [static]\fP"
+
+.SS "void DoxygenWindow\&.MakeNewDoxyFile (\fBDoxygenConfig\fP config)"
+
+.SS "static void DoxygenWindow\&.OnDoxygenFinished (int code)\fC [static]\fP"
+
+.SS "void DoxygenWindow\&.readBaseConfig ()"
+
+.SS "void DoxygenWindow\&.RunDoxygen ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "string DoxygenWindow\&.AssestsFolder = Application\&.dataPath"
+
+.SS "string DoxygenWindow\&.BaseFileString = null"
+
+.SS "string DoxygenWindow\&.CurentOutput = null"
+
+.SS "string DoxygenWindow\&.DoxygenOutputString = null"
+
+.SS "\fBDoxygenWindow\fP DoxygenWindow\&.Instance\fC [static]\fP"
+
+.SS "int DoxygenWindow\&.SelectedTheme = 1"
+
+.SS "string [] DoxygenWindow\&.Themes = new string[3] {'Default', 'Dark and Colorful', 'Light and Clean'}"
+
+.SS "string DoxygenWindow\&.UnityProjectID = PlayerSettings\&.productName+':'"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_path_draw" kind="class" language="C#" prot="public">
+    <compoundname>PathDraw</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_path_draw_1a88e588acd81d249ce0e30261d2a819d2" prot="private" static="no" mutable="no">
+        <type>LineRenderer</type>
+        <definition>LineRenderer PathDraw.line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/PathDraw.cs" line="8" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/PathDraw.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_path_draw_1a0682e99cc4427f423fb20be3df2edf91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PathDraw.UpdateLine</definition>
+        <argsstring>(List&lt; Vector3 &gt; points)</argsstring>
+        <name>UpdateLine</name>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/PathDraw.cs" line="11" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/PathDraw.cs" bodystart="11" bodyend="16"/>
+        <referencedby refid="class_character_move_1a68c6e4ca3ff53546dd9c9f4fe27718b7" compoundref="_character_move_8cs" startline="62" endline="78">CharacterMove.UpdateLine</referencedby>
+        <referencedby refid="class_character_move_turn_based_1a19cae3d0bccf1b2768fb1ab62663af1d" compoundref="_character_move_turn_based_8cs" startline="51" endline="67">CharacterMoveTurnBased.UpdateLine</referencedby>
+        <referencedby refid="class_character_move_undo_1a1852153869d857ed772f31c782ca6501" compoundref="_character_move_undo_8cs" startline="44" endline="60">CharacterMoveUndo.UpdateLine</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PathDraw</label>
+        <link refid="class_path_draw"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PathDraw</label>
+        <link refid="class_path_draw"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/PathDraw.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/PathDraw.cs" bodystart="6" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_path_draw_1a88e588acd81d249ce0e30261d2a819d2" prot="private" virt="non-virtual"><scope>PathDraw</scope><name>line</name></member>
+      <member refid="class_path_draw_1a0682e99cc4427f423fb20be3df2edf91" prot="public" virt="non-virtual"><scope>PathDraw</scope><name>UpdateLine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

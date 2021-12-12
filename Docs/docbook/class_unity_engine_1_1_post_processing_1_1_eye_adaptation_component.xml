@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.EyeAdaptationComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.EyeAdaptationComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.EyeAdaptationComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a461fa3fb6ad4571e4d860ed8c7c0beb4">ResetHistory</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a1fd3a905eb93bbb912e2316baa1b1396">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a983236f00adbfa6c477423ecf2d55eec">OnDisable</link> ()</para>
+</listitem>
+            <listitem><para>Texture <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1af6319d4a0410aedaa227fe1725e70309">Prepare</link> (RenderTexture source, Material uberMaterial)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a3f25f90f406ea8d9ae4e51194c802a71">OnGUI</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ae4f7d376419dd90448617b828a9b1238">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a983236f00adbfa6c477423ecf2d55eec"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationComponent</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.EyeAdaptationComponent.OnDisable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_a983236f00adbfa6c477423ecf2d55eec_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a1fd3a905eb93bbb912e2316baa1b1396"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationComponent</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.EyeAdaptationComponent.OnEnable ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a3f25f90f406ea8d9ae4e51194c802a71"/><section>
+    <title>OnGUI()</title>
+<indexterm><primary>OnGUI</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationComponent</primary><secondary>OnGUI</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.EyeAdaptationComponent.OnGUI ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1af6319d4a0410aedaa227fe1725e70309"/><section>
+    <title>Prepare()</title>
+<indexterm><primary>Prepare</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationComponent</primary><secondary>Prepare</secondary></indexterm>
+<para><computeroutput>Texture UnityEngine.PostProcessing.EyeAdaptationComponent.Prepare (RenderTexture source, Material uberMaterial)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a461fa3fb6ad4571e4d860ed8c7c0beb4"/><section>
+    <title>ResetHistory()</title>
+<indexterm><primary>ResetHistory</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationComponent</primary><secondary>ResetHistory</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.EyeAdaptationComponent.ResetHistory ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_a461fa3fb6ad4571e4d860ed8c7c0beb4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ae4f7d376419dd90448617b828a9b1238"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.EyeAdaptationComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__eye_adaptation_component_8cs">EyeAdaptationComponent.cs</link></section>
+</section>

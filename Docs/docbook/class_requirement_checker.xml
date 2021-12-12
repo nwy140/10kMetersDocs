@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_requirement_checker" xml:lang="en-US">
+<title>RequirementChecker Class Reference</title>
+<indexterm><primary>RequirementChecker</primary></indexterm>
+Inheritance diagram for RequirementChecker:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_requirement_checker__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for RequirementChecker:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_requirement_checker__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d">CheckRequirement</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_player_upgrades">PlayerUpgrades</link> <link linkend="_class_requirement_checker_1a704d1da81f86360893c4cdc316996a1b">playerUpgrade</link></para>
+</listitem>
+            <listitem><para>Text[] <link linkend="_class_requirement_checker_1a6ff96efd14c8f4cff078831140c8f46f">fishMaterialText</link></para>
+</listitem>
+            <listitem><para>Text[] <link linkend="_class_requirement_checker_1a469e5254195c45cdf953a3887f2aaa8c">rawMaterialText</link></para>
+</listitem>
+            <listitem><para><link linkend="_classstorage">storage</link> <link linkend="_class_requirement_checker_1ae5e28ce3b309f666ed86aede051a0400">inv</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d"/><section>
+    <title>CheckRequirement()</title>
+<indexterm><primary>CheckRequirement</primary><secondary>RequirementChecker</secondary></indexterm>
+<indexterm><primary>RequirementChecker</primary><secondary>CheckRequirement</secondary></indexterm>
+<para><computeroutput>void RequirementChecker.CheckRequirement ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_requirement_checker_a8f7e080a890694c51d12dba2c225bd8d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_requirement_checker_1a6ff96efd14c8f4cff078831140c8f46f"/><section>
+    <title>fishMaterialText</title>
+<indexterm><primary>fishMaterialText</primary><secondary>RequirementChecker</secondary></indexterm>
+<indexterm><primary>RequirementChecker</primary><secondary>fishMaterialText</secondary></indexterm>
+<para><computeroutput>Text [] RequirementChecker.fishMaterialText</computeroutput></para></section>
+<anchor xml:id="_class_requirement_checker_1ae5e28ce3b309f666ed86aede051a0400"/><section>
+    <title>inv</title>
+<indexterm><primary>inv</primary><secondary>RequirementChecker</secondary></indexterm>
+<indexterm><primary>RequirementChecker</primary><secondary>inv</secondary></indexterm>
+<para><computeroutput><link linkend="_classstorage">storage</link> RequirementChecker.inv</computeroutput></para></section>
+<anchor xml:id="_class_requirement_checker_1a704d1da81f86360893c4cdc316996a1b"/><section>
+    <title>playerUpgrade</title>
+<indexterm><primary>playerUpgrade</primary><secondary>RequirementChecker</secondary></indexterm>
+<indexterm><primary>RequirementChecker</primary><secondary>playerUpgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_class_player_upgrades">PlayerUpgrades</link> RequirementChecker.playerUpgrade</computeroutput></para></section>
+<anchor xml:id="_class_requirement_checker_1a469e5254195c45cdf953a3887f2aaa8c"/><section>
+    <title>rawMaterialText</title>
+<indexterm><primary>rawMaterialText</primary><secondary>RequirementChecker</secondary></indexterm>
+<indexterm><primary>RequirementChecker</primary><secondary>rawMaterialText</secondary></indexterm>
+<para><computeroutput>Text [] RequirementChecker.rawMaterialText</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/<link linkend="__requirement_checker_8cs">RequirementChecker.cs</link></section>
+</section>

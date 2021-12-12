@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tutorial" xml:lang="en-US">
+<title>Tutorial Class Reference</title>
+<indexterm><primary>Tutorial</primary></indexterm>
+Inheritance diagram for Tutorial:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tutorial__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Tutorial:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tutorial__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_tutorial_1a0075438f79f2add2c1c2fd196608833f">CheckIfHappening</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_tutorial_1a8da14339e8bfd87f9742211d7cb0ecf0">sequence</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_class_tutorial_1a036275897b288b4669e0f5f247fbe7a6">tutoDialogue</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_tutorial_1a0075438f79f2add2c1c2fd196608833f"/><section>
+    <title>CheckIfHappening()</title>
+<indexterm><primary>CheckIfHappening</primary><secondary>Tutorial</secondary></indexterm>
+<indexterm><primary>Tutorial</primary><secondary>CheckIfHappening</secondary></indexterm>
+<para><computeroutput>virtual void Tutorial.CheckIfHappening ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_button_tuto_1a51f553ccbf8b237dd852963f6ca37288">ButtonTuto</link>, <link linkend="_class_close_button_tuto_1a1325e5e5b7d122185d8fb73481428786">CloseButtonTuto</link>, <link linkend="_class_continue_next_tuto_1aee6450d21b9525c8c8ab31bf010d074e">ContinueNextTuto</link>, <link linkend="_class_hold_key_input_tuto_1a7ae7d28cd5f71c2256ef58ee25260ccc">HoldKeyInputTuto</link>, <link linkend="_class_key_input_tuto_1a51477a341cf69aae67524f75d2577b6f">KeyInputTuto</link>, and <link linkend="_class_trigger_transition_tuto_1a7126819f5705df9e51831d45b62ef3d8">TriggerTransitionTuto</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_tutorial_1a8da14339e8bfd87f9742211d7cb0ecf0"/><section>
+    <title>sequence</title>
+<indexterm><primary>sequence</primary><secondary>Tutorial</secondary></indexterm>
+<indexterm><primary>Tutorial</primary><secondary>sequence</secondary></indexterm>
+<para><computeroutput>int Tutorial.sequence</computeroutput></para></section>
+<anchor xml:id="_class_tutorial_1a036275897b288b4669e0f5f247fbe7a6"/><section>
+    <title>tutoDialogue</title>
+<indexterm><primary>tutoDialogue</primary><secondary>Tutorial</secondary></indexterm>
+<indexterm><primary>Tutorial</primary><secondary>tutoDialogue</secondary></indexterm>
+<para><computeroutput>string Tutorial.tutoDialogue</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/<link linkend="__tutorial_8cs">Tutorial.cs</link></section>
+</section>

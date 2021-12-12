@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::AmbientOcclusionComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; AmbientOcclusionModel &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::AmbientOcclusionComponent::Uniforms</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>OcclusionSource</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0a8ff61f00665b2125149bf524b747994f" prot="private">
+          <name>DepthTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0aa318ee4404eb66a237e9396490d1ce20" prot="private">
+          <name>DepthNormalsTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0a628adbb6c98e56748110061187f57243" prot="private">
+          <name>GBuffer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="31" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a0394e96a1c17573f8e7d249b62eda9a1" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string UnityEngine.PostProcessing.AmbientOcclusionComponent.k_BlitShaderString</definition>
+        <argsstring></argsstring>
+        <name>k_BlitShaderString</name>
+        <initializer>= &quot;Hidden/Post FX/Blit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="22" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1aab5afd366640d5f65987898bdd3d5ac5" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string UnityEngine.PostProcessing.AmbientOcclusionComponent.k_ShaderString</definition>
+        <argsstring></argsstring>
+        <name>k_ShaderString</name>
+        <initializer>= &quot;Hidden/Post FX/Ambient Occlusion&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="23" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a3d271f1950fca25d561790449e95f9b0" prot="private" static="no" mutable="no">
+        <type>readonly RenderTargetIdentifier[]</type>
+        <definition>readonly RenderTargetIdentifier [] UnityEngine.PostProcessing.AmbientOcclusionComponent.m_MRT</definition>
+        <argsstring></argsstring>
+        <name>m_MRT</name>
+        <initializer>=
+        {
+            BuiltinRenderTextureType.GBuffer0, 
+            BuiltinRenderTextureType.CameraTarget 
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="25" column="41" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a383c6904f750ce5bfe1fd0d69a851fe9" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>OcclusionSource</type>
+        <definition>OcclusionSource UnityEngine.PostProcessing.AmbientOcclusionComponent.occlusionSource</definition>
+        <argsstring></argsstring>
+        <name>occlusionSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="38" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="39" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a818d8d0378085206d92f401ae73c7234" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.AmbientOcclusionComponent.ambientOnlySupported</definition>
+        <argsstring></argsstring>
+        <name>ambientOnlySupported</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="52" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5fa0bbd6818c812f5ffb524b6467fb5c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.AmbientOcclusionComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="57" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1ad75fa4a0898e2d84ffaa842433864c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.AmbientOcclusionComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="67" column="42" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="67" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a912e17f44f887c19511e31cb4211551c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.PostProcessing.AmbientOcclusionComponent.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="80" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a40c2e1160a63cb63a910d9e232515001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override CameraEvent</type>
+        <definition>override CameraEvent UnityEngine.PostProcessing.AmbientOcclusionComponent.GetCameraEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraEvent</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="85" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5f64f7638a6a441cf4bdaeb54dbf1601" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.AmbientOcclusionComponent.PopulateCommandBuffer</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>PopulateCommandBuffer</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="92" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="92" bodyend="160"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1abd61c3a628477b875d7e73af470ef03b" compoundref="_graphics_utils_8cs" startline="39" endline="74">UnityEngine.PostProcessing.GraphicsUtils.quad</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PostProcessingComponentCommandBuffer&lt; AmbientOcclusionModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PostProcessingComponentCommandBuffer&lt; AmbientOcclusionModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="7" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="8" bodyend="161"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5fa0bbd6818c812f5ffb524b6467fb5c" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a818d8d0378085206d92f401ae73c7234" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>ambientOnlySupported</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a40c2e1160a63cb63a910d9e232515001" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>GetCameraEvent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1ad75fa4a0898e2d84ffaa842433864c79" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a912e17f44f887c19511e31cb4211551c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>GetName</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a0394e96a1c17573f8e7d249b62eda9a1" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>k_BlitShaderString</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1aab5afd366640d5f65987898bdd3d5ac5" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>k_ShaderString</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a3d271f1950fca25d561790449e95f9b0" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>m_MRT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>OcclusionSource</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a383c6904f750ce5bfe1fd0d69a851fe9" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>occlusionSource</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5f64f7638a6a441cf4bdaeb54dbf1601" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>PopulateCommandBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

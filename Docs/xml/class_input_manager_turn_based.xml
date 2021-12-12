@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_input_manager_turn_based" kind="class" language="C#" prot="public">
+    <compoundname>InputManagerTurnBased</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_input_manager_turn_based_1a187e6c094ce2e42ac583e5e692e53056" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button InputManagerTurnBased.up</definition>
+        <argsstring></argsstring>
+        <name>up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="9" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_manager_turn_based_1a5bd9a2d57e9ab02e66b6ba609c159895" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button InputManagerTurnBased.down</definition>
+        <argsstring></argsstring>
+        <name>down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="11" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_manager_turn_based_1ad97cb2773eca5bc550429d30aa71d2fa" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button InputManagerTurnBased.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="13" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_manager_turn_based_1a2c91e0d2f7da55b9cb9b7007829e8b75" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button InputManagerTurnBased.right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="15" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_manager_turn_based_1adb6645162d786168a18351b3ced1ab96" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button InputManagerTurnBased.doTurn</definition>
+        <argsstring></argsstring>
+        <name>doTurn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="18" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_manager_turn_based_1a75af85d8820fa21e51fca88db89c59fd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_character_move_turn_based" kindref="compound">CharacterMoveTurnBased</ref></type>
+        <definition>CharacterMoveTurnBased InputManagerTurnBased.character</definition>
+        <argsstring></argsstring>
+        <name>character</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="21" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_manager_turn_based_1a62c6ca43dc192fcc52c996f045bbfa0a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_u_i_command_list" kindref="compound">UICommandList</ref></type>
+        <definition>UICommandList InputManagerTurnBased.uiCommandList</definition>
+        <argsstring></argsstring>
+        <name>uiCommandList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="23" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_input_manager_turn_based_1ad9108a595fa662edc0a1fc4df0e20d4c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputManagerTurnBased.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="25" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_manager_turn_based_1a7e7a86979627a03ad82fbe947d161ee9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputManagerTurnBased.SendMoveCommand</definition>
+        <argsstring>(Transform objectToMove, Vector3 direction, float distance)</argsstring>
+        <name>SendMoveCommand</name>
+        <param>
+          <type>Transform</type>
+          <declname>objectToMove</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="35" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InputManagerTurnBased</label>
+        <link refid="class_input_manager_turn_based"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InputManagerTurnBased</label>
+        <link refid="class_input_manager_turn_based"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/InputManagerTurnBased.cs" bodystart="7" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_input_manager_turn_based_1a75af85d8820fa21e51fca88db89c59fd" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>character</name></member>
+      <member refid="class_input_manager_turn_based_1adb6645162d786168a18351b3ced1ab96" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>doTurn</name></member>
+      <member refid="class_input_manager_turn_based_1a5bd9a2d57e9ab02e66b6ba609c159895" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>down</name></member>
+      <member refid="class_input_manager_turn_based_1ad97cb2773eca5bc550429d30aa71d2fa" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>left</name></member>
+      <member refid="class_input_manager_turn_based_1ad9108a595fa662edc0a1fc4df0e20d4c" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>OnEnable</name></member>
+      <member refid="class_input_manager_turn_based_1a2c91e0d2f7da55b9cb9b7007829e8b75" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>right</name></member>
+      <member refid="class_input_manager_turn_based_1a7e7a86979627a03ad82fbe947d161ee9" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>SendMoveCommand</name></member>
+      <member refid="class_input_manager_turn_based_1a62c6ca43dc192fcc52c996f045bbfa0a" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>uiCommandList</name></member>
+      <member refid="class_input_manager_turn_based_1a187e6c094ce2e42ac583e5e692e53056" prot="private" virt="non-virtual"><scope>InputManagerTurnBased</scope><name>up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

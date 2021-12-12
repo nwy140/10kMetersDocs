@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_trigger_transition_tuto" xml:lang="en-US">
+<title>TriggerTransitionTuto Class Reference</title>
+<indexterm><primary>TriggerTransitionTuto</primary></indexterm>
+Inheritance diagram for TriggerTransitionTuto:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_trigger_transition_tuto__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for TriggerTransitionTuto:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_trigger_transition_tuto__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_trigger_transition_tuto_1a7126819f5705df9e51831d45b62ef3d8">CheckIfHappening</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_trigger_transition_tuto_1a988126572d0763f8190e0e3d0b6c3d1b">OnTriggerEnter2D</link> (Collider2D collision)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Transform <link linkend="_class_trigger_transition_tuto_1a7b9e36b19d622e479f2f59c36cf63e27">outpostTransition</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_trigger_transition_tuto_1a7126819f5705df9e51831d45b62ef3d8"/><section>
+    <title>CheckIfHappening()</title>
+<indexterm><primary>CheckIfHappening</primary><secondary>TriggerTransitionTuto</secondary></indexterm>
+<indexterm><primary>TriggerTransitionTuto</primary><secondary>CheckIfHappening</secondary></indexterm>
+<para><computeroutput>override void TriggerTransitionTuto.CheckIfHappening ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_tutorial_1a0075438f79f2add2c1c2fd196608833f">Tutorial</link>.</para>
+</section>
+<anchor xml:id="_class_trigger_transition_tuto_1a988126572d0763f8190e0e3d0b6c3d1b"/><section>
+    <title>OnTriggerEnter2D()</title>
+<indexterm><primary>OnTriggerEnter2D</primary><secondary>TriggerTransitionTuto</secondary></indexterm>
+<indexterm><primary>TriggerTransitionTuto</primary><secondary>OnTriggerEnter2D</secondary></indexterm>
+<para><computeroutput>void TriggerTransitionTuto.OnTriggerEnter2D (Collider2D collision)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_trigger_transition_tuto_a988126572d0763f8190e0e3d0b6c3d1b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_trigger_transition_tuto_1a7b9e36b19d622e479f2f59c36cf63e27"/><section>
+    <title>outpostTransition</title>
+<indexterm><primary>outpostTransition</primary><secondary>TriggerTransitionTuto</secondary></indexterm>
+<indexterm><primary>TriggerTransitionTuto</primary><secondary>outpostTransition</secondary></indexterm>
+<para><computeroutput>Transform TriggerTransitionTuto.outpostTransition</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/<link linkend="__trigger_transition_tuto_8cs">TriggerTransitionTuto.cs</link></section>
+</section>

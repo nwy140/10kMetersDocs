@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.ScreenSpaceReflectionComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.ScreenSpaceReflectionComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override DepthTextureMode <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aeaa198759ea4fae9a6ee5feac84730fa">GetCameraFlags</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a0d58b4de3e36450e06df20a4de6bd84c">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>override string <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1ad4da13965c3b67798e594134f70505e3">GetName</link> ()</para>
+</listitem>
+            <listitem><para>override CameraEvent <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a696726c8892304b37695a69c900b2b97">GetCameraEvent</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a816b26c983d2e6b8723a049dafa72544">PopulateCommandBuffer</link> (CommandBuffer cb)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aa8700a0b57b1a9d4a9d928af7fb3fbad">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a696726c8892304b37695a69c900b2b97"/><section>
+    <title>GetCameraEvent()</title>
+<indexterm><primary>GetCameraEvent</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</primary><secondary>GetCameraEvent</secondary></indexterm>
+<para><computeroutput>override CameraEvent UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetCameraEvent ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; ScreenSpaceReflectionModel &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aeaa198759ea4fae9a6ee5feac84730fa"/><section>
+    <title>GetCameraFlags()</title>
+<indexterm><primary>GetCameraFlags</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</primary><secondary>GetCameraFlags</secondary></indexterm>
+<para><computeroutput>override DepthTextureMode UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetCameraFlags ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1ad4da13965c3b67798e594134f70505e3"/><section>
+    <title>GetName()</title>
+<indexterm><primary>GetName</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</primary><secondary>GetName</secondary></indexterm>
+<para><computeroutput>override string UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetName ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; ScreenSpaceReflectionModel &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a0d58b4de3e36450e06df20a4de6bd84c"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.OnEnable ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a816b26c983d2e6b8723a049dafa72544"/><section>
+    <title>PopulateCommandBuffer()</title>
+<indexterm><primary>PopulateCommandBuffer</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</primary><secondary>PopulateCommandBuffer</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.PopulateCommandBuffer (CommandBuffer cb)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; ScreenSpaceReflectionModel &gt;</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aa8700a0b57b1a9d4a9d928af7fb3fbad"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__screen_space_reflection_component_8cs">ScreenSpaceReflectionComponent.cs</link></section>
+</section>

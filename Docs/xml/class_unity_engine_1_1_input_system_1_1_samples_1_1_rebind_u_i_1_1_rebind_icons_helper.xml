@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons" prot="public">UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper::GamepadIcons</innerclass>
+    <innerclass refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons" prot="public">UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper::KeyMouseIcons</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1ab1a6aa8ecd4eb130345a8fcd827eb242" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" line="17" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8" compoundref="_rebind_icons_helper_8cs" startline="32" endline="66">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnUpdateBindingDisplay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a52347484abef80a24e4f27732489ac39" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons" kindref="compound">KeyMouseIcons</ref></type>
+        <definition>KeyMouseIcons UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.keyboardMouse</definition>
+        <argsstring></argsstring>
+        <name>keyboardMouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" line="19" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8" compoundref="_rebind_icons_helper_8cs" startline="32" endline="66">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnUpdateBindingDisplay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a0295a2d78d8567d3cc87eb3eafda2825" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons" kindref="compound">GamepadIcons</ref></type>
+        <definition>GamepadIcons UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.xbox</definition>
+        <argsstring></argsstring>
+        <name>xbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" line="20" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8" compoundref="_rebind_icons_helper_8cs" startline="32" endline="66">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnUpdateBindingDisplay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a01d54b7ec606114c19036cf7fb0980f8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons" kindref="compound">GamepadIcons</ref></type>
+        <definition>GamepadIcons UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.ps4</definition>
+        <argsstring></argsstring>
+        <name>ps4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" line="21" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8" compoundref="_rebind_icons_helper_8cs" startline="32" endline="66">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnUpdateBindingDisplay</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1abd5fd185d3b63bed4b61c376096ea5e4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" line="22" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" bodystart="22" bodyend="31"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8" compoundref="_rebind_icons_helper_8cs" startline="32" endline="66">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnUpdateBindingDisplay</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae6f650d471a43cb2f5087df933289a39" compoundref="_rebind_action_u_i_8cs" startline="117" endline="124">UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnUpdateBindingDisplay</definition>
+        <argsstring>(RebindActionUI component, string bindingDisplayString, string deviceLayoutName, string controlPath)</argsstring>
+        <name>OnUpdateBindingDisplay</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i" kindref="compound">RebindActionUI</ref></type>
+          <declname>component</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bindingDisplayString</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>deviceLayoutName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>controlPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" line="32" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" bodystart="32" bodyend="66"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1af99bbe5517e6384d92fee9a67491ff9d" compoundref="_rebind_action_u_i_8cs" startline="75" endline="82">UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText</references>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons_1aa111999a0820c4737558f7b288f64caf" compoundref="_rebind_icons_helper_8cs" startline="91" endline="118">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.GamepadIcons.GetSprite</references>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons_1a5be9db5dbf388ac8792a6ab2f36868fa" compoundref="_rebind_icons_helper_8cs" startline="264" endline="409">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.KeyMouseIcons.GetSprite</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1ab1a6aa8ecd4eb130345a8fcd827eb242" compoundref="_rebind_icons_helper_8cs" startline="17">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.icon</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a52347484abef80a24e4f27732489ac39" compoundref="_rebind_icons_helper_8cs" startline="19">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.keyboardMouse</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a01d54b7ec606114c19036cf7fb0980f8" compoundref="_rebind_icons_helper_8cs" startline="21">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.ps4</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a0295a2d78d8567d3cc87eb3eafda2825" compoundref="_rebind_icons_helper_8cs" startline="20">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.xbox</references>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1abd5fd185d3b63bed4b61c376096ea5e4" compoundref="_rebind_icons_helper_8cs" startline="22" endline="31">UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is an example for how to override the default display behavior of bindings. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The component hooks into <ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae6f650d471a43cb2f5087df933289a39" kindref="member">RebindActionUI.updateBindingUIEvent</ref> which is triggered when <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> display of a binding should be refreshed. It then checks whether we have an icon for the current binding and if so, replaces the default text display with an icon. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+keyboardMouse</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+ps4</edgelabel>
+          <edgelabel>+xbox</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.GamepadIcons</label>
+        <link refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons"/>
+      </node>
+      <node id="3">
+        <label>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.KeyMouseIcons</label>
+        <link refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" line="15" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/RebindIconsHelper.cs" bodystart="16" bodyend="411"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1ab1a6aa8ecd4eb130345a8fcd827eb242" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper</scope><name>icon</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a52347484abef80a24e4f27732489ac39" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper</scope><name>keyboardMouse</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1abd5fd185d3b63bed4b61c376096ea5e4" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper</scope><name>OnUpdateBindingDisplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a01d54b7ec606114c19036cf7fb0980f8" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper</scope><name>ps4</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a0295a2d78d8567d3cc87eb3eafda2825" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::RebindIconsHelper</scope><name>xbox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

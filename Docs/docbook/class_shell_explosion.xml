@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_shell_explosion" xml:lang="en-US">
+<title>ShellExplosion Class Reference</title>
+<indexterm><primary>ShellExplosion</primary></indexterm>
+Inheritance diagram for ShellExplosion:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_shell_explosion__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for ShellExplosion:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_shell_explosion__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>LayerMask <link linkend="_class_shell_explosion_1a7836a8802592e5b16960749293b7e8a1">m_TankMask</link></para>
+</listitem>
+            <listitem><para>ParticleSystem <link linkend="_class_shell_explosion_1adfe43cddc71e351e3a44cc6a0e626de4">m_ExplosionParticles</link></para>
+</listitem>
+            <listitem><para>AudioSource <link linkend="_class_shell_explosion_1a71d680ca98a5c785614d96677dcc1017">m_ExplosionAudio</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_shell_explosion_1a05ff4d14e0e711cfa6bdec9335d58256">m_MaxDamage</link> = 100f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_shell_explosion_1aedf8145b8210b8be0bd077eab2adb184">m_ExplosionForce</link> = 1000f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_shell_explosion_1a6a3f3ce0baaa7342c0a455f0d85a5cae">m_MaxLifeTime</link> = 2f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_shell_explosion_1a17648fa0f429b6dab061971065fe0344">m_ExplosionRadius</link> = 5f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_shell_explosion_1a71d680ca98a5c785614d96677dcc1017"/><section>
+    <title>m_ExplosionAudio</title>
+<indexterm><primary>m_ExplosionAudio</primary><secondary>ShellExplosion</secondary></indexterm>
+<indexterm><primary>ShellExplosion</primary><secondary>m_ExplosionAudio</secondary></indexterm>
+<para><computeroutput>AudioSource ShellExplosion.m_ExplosionAudio</computeroutput></para></section>
+<anchor xml:id="_class_shell_explosion_1aedf8145b8210b8be0bd077eab2adb184"/><section>
+    <title>m_ExplosionForce</title>
+<indexterm><primary>m_ExplosionForce</primary><secondary>ShellExplosion</secondary></indexterm>
+<indexterm><primary>ShellExplosion</primary><secondary>m_ExplosionForce</secondary></indexterm>
+<para><computeroutput>float ShellExplosion.m_ExplosionForce = 1000f</computeroutput></para></section>
+<anchor xml:id="_class_shell_explosion_1adfe43cddc71e351e3a44cc6a0e626de4"/><section>
+    <title>m_ExplosionParticles</title>
+<indexterm><primary>m_ExplosionParticles</primary><secondary>ShellExplosion</secondary></indexterm>
+<indexterm><primary>ShellExplosion</primary><secondary>m_ExplosionParticles</secondary></indexterm>
+<para><computeroutput>ParticleSystem ShellExplosion.m_ExplosionParticles</computeroutput></para></section>
+<anchor xml:id="_class_shell_explosion_1a17648fa0f429b6dab061971065fe0344"/><section>
+    <title>m_ExplosionRadius</title>
+<indexterm><primary>m_ExplosionRadius</primary><secondary>ShellExplosion</secondary></indexterm>
+<indexterm><primary>ShellExplosion</primary><secondary>m_ExplosionRadius</secondary></indexterm>
+<para><computeroutput>float ShellExplosion.m_ExplosionRadius = 5f</computeroutput></para></section>
+<anchor xml:id="_class_shell_explosion_1a05ff4d14e0e711cfa6bdec9335d58256"/><section>
+    <title>m_MaxDamage</title>
+<indexterm><primary>m_MaxDamage</primary><secondary>ShellExplosion</secondary></indexterm>
+<indexterm><primary>ShellExplosion</primary><secondary>m_MaxDamage</secondary></indexterm>
+<para><computeroutput>float ShellExplosion.m_MaxDamage = 100f</computeroutput></para></section>
+<anchor xml:id="_class_shell_explosion_1a6a3f3ce0baaa7342c0a455f0d85a5cae"/><section>
+    <title>m_MaxLifeTime</title>
+<indexterm><primary>m_MaxLifeTime</primary><secondary>ShellExplosion</secondary></indexterm>
+<indexterm><primary>ShellExplosion</primary><secondary>m_MaxLifeTime</secondary></indexterm>
+<para><computeroutput>float ShellExplosion.m_MaxLifeTime = 2f</computeroutput></para></section>
+<anchor xml:id="_class_shell_explosion_1a7836a8802592e5b16960749293b7e8a1"/><section>
+    <title>m_TankMask</title>
+<indexterm><primary>m_TankMask</primary><secondary>ShellExplosion</secondary></indexterm>
+<indexterm><primary>ShellExplosion</primary><secondary>m_TankMask</secondary></indexterm>
+<para><computeroutput>LayerMask ShellExplosion.m_TankMask</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Shell/<link linkend="__shell_explosion_8cs">ShellExplosion.cs</link></section>
+</section>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_examples_1_1_command_1_1_light_active_toggle" kind="class" language="C#" prot="public">
+    <compoundname>Examples::Command::LightActiveToggle</compoundname>
+    <basecompoundref refid="interface_i_command" prot="public" virt="non-virtual">ICommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_active_toggle_1a579e61ee5992d413b27911ff298e8d22" prot="private" static="no" mutable="no">
+        <type>Light</type>
+        <definition>Light Examples.Command.LightActiveToggle._light</definition>
+        <argsstring></argsstring>
+        <name>_light</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" line="12" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_active_toggle_1afdabf62d34b88a63a91ad1f50db9d8cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Examples.Command.LightActiveToggle.LightActiveToggle</definition>
+        <argsstring>(Light light)</argsstring>
+        <name>LightActiveToggle</name>
+        <param>
+          <type>Light</type>
+          <declname>light</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" line="14" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_active_toggle_1a0b7f813cf1e766f6f3be2182b4e7bc68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightActiveToggle.TryExecCommand</definition>
+        <argsstring>()</argsstring>
+        <name>TryExecCommand</name>
+        <reimplements refid="interface_i_command_1a7fc0d324014976db246abbd800a4cc7b">TryExecCommand</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" line="19" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_active_toggle_1a1d66dd7828797831666b976a088d9747" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightActiveToggle.Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <reimplements refid="interface_i_command_1aaee389e6fbefdb121ccd719f1447a05e">Undo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" line="25" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Examples.Command.LightActiveToggle</label>
+        <link refid="class_examples_1_1_command_1_1_light_active_toggle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Examples.Command.LightActiveToggle</label>
+        <link refid="class_examples_1_1_command_1_1_light_active_toggle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" line="10" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightActiveToggle.cs" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_examples_1_1_command_1_1_light_active_toggle_1a579e61ee5992d413b27911ff298e8d22" prot="private" virt="non-virtual"><scope>Examples::Command::LightActiveToggle</scope><name>_light</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_active_toggle_1afdabf62d34b88a63a91ad1f50db9d8cb" prot="public" virt="non-virtual"><scope>Examples::Command::LightActiveToggle</scope><name>LightActiveToggle</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_active_toggle_1a0b7f813cf1e766f6f3be2182b4e7bc68" prot="public" virt="non-virtual"><scope>Examples::Command::LightActiveToggle</scope><name>TryExecCommand</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_active_toggle_1a1d66dd7828797831666b976a088d9747" prot="public" virt="non-virtual"><scope>Examples::Command::LightActiveToggle</scope><name>Undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

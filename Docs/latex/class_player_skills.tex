@@ -1,0 +1,375 @@
+\hypertarget{class_player_skills}{}\doxysection{Player\+Skills Class Reference}
+\label{class_player_skills}\index{PlayerSkills@{PlayerSkills}}
+
+
+Collaboration diagram for Player\+Skills\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_player_skills__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_player_skills_1_1_on_skill_unlocked_event_args}{On\+Skill\+Unlocked\+Event\+Args}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}} \{ \newline
+\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a6adf97f83acf6453d4a6a4b1070f3754}{None}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a55a5a9e59ca582cd9aad9c8967179cac}{Low\+Tier\+Turbine\+Stage1}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0fb9a6ca88ff4c8fd315923c6b60c154}{Low\+Tier\+Turbine\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ad5eb75ef30cfbc44ed5e2b5d00ec76c8}{High\+Tier\+Turbine\+Stage1}}
+, \newline
+\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aa308350ec8c30b54eda811f9e6240171}{High\+Tier\+Turbine\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aac0a9d114313313ebd946a500d0b20e0}{Low\+Tier\+Weapon\+Stage1}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0bae2889c6223909c0180b0d3fdc057c}{Low\+Tier\+Weapon\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298af18bfd184431f35ff0e8fc066e8bb725}{High\+Tier\+Weapon\+Stage1}}
+, \newline
+\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ac3a88cf8786fdc3702e51f88b8e7fc48}{High\+Tier\+Weapon\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a57ecf7a27acb5b19c945a03ba19246bb}{Low\+Tier\+Hull\+Stage1}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a1c828f951acaef361286004b686c1b98}{Low\+Tier\+Hull\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ab6bd8789a9cfa81403d9b16a604ac935}{High\+Tier\+Hull\+Stage1}}
+, \newline
+\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298af73c4f285fd19ecf8e590b689e6dacaa}{High\+Tier\+Hull\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a925a4c4518adfb6b85a8e79b06d0b6c0}{Low\+Tier\+Self\+Repair\+Stage1}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a30cf252e5e1a42c27ca180a17114c2a4}{Low\+Tier\+Self\+Repair\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a97591b3fb76138b125a69f2232f62a08}{High\+Tier\+Self\+Repair\+Stage1}}
+, \newline
+\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a6f8b7dd5340142dabccffca20e0e6805}{High\+Tier\+Self\+Repair\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aba62a5c42d65ffab9f893bf2a0c1bf88}{Low\+Tier\+Oxygen\+Tank\+Stage1}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a3d9389e221cd20ce9075f1e4d5e8fc24}{Low\+Tier\+Oxygen\+Tank\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0fe937fe394b7d1506c20abeb2d2c6db}{High\+Tier\+Oxygen\+Tank\+Stage1}}
+, \newline
+\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aa18b7f28f46902ca8813fa5e16ed6b1b}{High\+Tier\+Oxygen\+Tank\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a1c5627c5ba2d39d4c5edffb185dc6750}{Low\+Tier\+Inventory\+Stage1}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aae797d3ae11f401e1686d35c6a595b7e}{Low\+Tier\+Inventory\+Stage2}}
+, \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a7fcbca285ad3a082883a7f2069f03605}{High\+Tier\+Inventory\+Stage1}}
+, \newline
+\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a72a92ff42375f5f3a4550508f3295caa}{High\+Tier\+Inventory\+Stage2}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_player_skills_a744ba9c950815350b7177d3ff1a825e3}{Player\+Skills}} ()
+\item 
+void \mbox{\hyperlink{class_player_skills_a186254dfc7bca209ecdde37fe874e47c}{Get\+Current\+Upgrades}} (\mbox{\hyperlink{class_upgrade_holder}{Upgrade\+Holder}} upgrade\+Holder)
+\item 
+void \mbox{\hyperlink{class_player_skills_ace8108a48b4b8efa6774e1d571b9221b}{Set\+Requirements}} (\mbox{\hyperlink{classstorage}{storage}} inv, \mbox{\hyperlink{class_player_upgrades}{Player\+Upgrades}} upg)
+\item 
+bool \mbox{\hyperlink{class_player_skills_a22c2907b0d980b1b21b850eb5f0f8dc8}{Is\+Requirement\+Met}} ()
+\item 
+void \mbox{\hyperlink{class_player_skills_a13f145ea2840691dac8b1d4889dbb100}{Remove\+All\+Used\+Resources}} ()
+\item 
+int \mbox{\hyperlink{class_player_skills_a79829d8f1292134b26f37be0455a87c8}{Get\+Skill\+Points}} ()
+\item 
+bool \mbox{\hyperlink{class_player_skills_a237e14f6349adfcd6bae46904e8a9016}{Is\+Skill\+Unlocked}} (\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}} skill\+Type)
+\item 
+bool \mbox{\hyperlink{class_player_skills_ad60a97fd7052171b0ba45469873b8561}{Can\+Unlock}} (\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}} skill\+Type)
+\item 
+\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}} \mbox{\hyperlink{class_player_skills_a13838f81de63d112fd778e6c1ab829a2}{Get\+Skill\+Requirement}} (\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}} skill\+Type)
+\item 
+bool \mbox{\hyperlink{class_player_skills_ad624f39b59e0ddafc5bf982a3edf44a4}{Try\+Unlock\+Skill}} (\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}} skill\+Type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Action \mbox{\hyperlink{class_player_skills_a56adfcda139b8da8b371bb41587ef464}{On\+Set\+Requirement\+For\+Popup}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Event\+Handler$<$ \mbox{\hyperlink{class_player_skills_1_1_on_skill_unlocked_event_args}{On\+Skill\+Unlocked\+Event\+Args}} $>$ \mbox{\hyperlink{class_player_skills_a51336b4071dd19a0a3c28a8f0da0d54c}{On\+Skill\+Unlocked}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}} 
+\index{PlayerSkills@{PlayerSkills}!SkillType@{SkillType}}
+\index{SkillType@{SkillType}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{SkillType}{SkillType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Player\+Skills.\+Skill\+Type}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!None@{None}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a6adf97f83acf6453d4a6a4b1070f3754}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a6adf97f83acf6453d4a6a4b1070f3754}} 
+None&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierTurbineStage1@{LowTierTurbineStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierTurbineStage1@{LowTierTurbineStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a55a5a9e59ca582cd9aad9c8967179cac}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a55a5a9e59ca582cd9aad9c8967179cac}} 
+Low\+Tier\+Turbine\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierTurbineStage2@{LowTierTurbineStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierTurbineStage2@{LowTierTurbineStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0fb9a6ca88ff4c8fd315923c6b60c154}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0fb9a6ca88ff4c8fd315923c6b60c154}} 
+Low\+Tier\+Turbine\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierTurbineStage1@{HighTierTurbineStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierTurbineStage1@{HighTierTurbineStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ad5eb75ef30cfbc44ed5e2b5d00ec76c8}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ad5eb75ef30cfbc44ed5e2b5d00ec76c8}} 
+High\+Tier\+Turbine\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierTurbineStage2@{HighTierTurbineStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierTurbineStage2@{HighTierTurbineStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aa308350ec8c30b54eda811f9e6240171}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aa308350ec8c30b54eda811f9e6240171}} 
+High\+Tier\+Turbine\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierWeaponStage1@{LowTierWeaponStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierWeaponStage1@{LowTierWeaponStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aac0a9d114313313ebd946a500d0b20e0}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aac0a9d114313313ebd946a500d0b20e0}} 
+Low\+Tier\+Weapon\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierWeaponStage2@{LowTierWeaponStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierWeaponStage2@{LowTierWeaponStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0bae2889c6223909c0180b0d3fdc057c}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0bae2889c6223909c0180b0d3fdc057c}} 
+Low\+Tier\+Weapon\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierWeaponStage1@{HighTierWeaponStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierWeaponStage1@{HighTierWeaponStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298af18bfd184431f35ff0e8fc066e8bb725}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298af18bfd184431f35ff0e8fc066e8bb725}} 
+High\+Tier\+Weapon\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierWeaponStage2@{HighTierWeaponStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierWeaponStage2@{HighTierWeaponStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ac3a88cf8786fdc3702e51f88b8e7fc48}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ac3a88cf8786fdc3702e51f88b8e7fc48}} 
+High\+Tier\+Weapon\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierHullStage1@{LowTierHullStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierHullStage1@{LowTierHullStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a57ecf7a27acb5b19c945a03ba19246bb}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a57ecf7a27acb5b19c945a03ba19246bb}} 
+Low\+Tier\+Hull\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierHullStage2@{LowTierHullStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierHullStage2@{LowTierHullStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a1c828f951acaef361286004b686c1b98}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a1c828f951acaef361286004b686c1b98}} 
+Low\+Tier\+Hull\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierHullStage1@{HighTierHullStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierHullStage1@{HighTierHullStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ab6bd8789a9cfa81403d9b16a604ac935}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298ab6bd8789a9cfa81403d9b16a604ac935}} 
+High\+Tier\+Hull\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierHullStage2@{HighTierHullStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierHullStage2@{HighTierHullStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298af73c4f285fd19ecf8e590b689e6dacaa}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298af73c4f285fd19ecf8e590b689e6dacaa}} 
+High\+Tier\+Hull\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierSelfRepairStage1@{LowTierSelfRepairStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierSelfRepairStage1@{LowTierSelfRepairStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a925a4c4518adfb6b85a8e79b06d0b6c0}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a925a4c4518adfb6b85a8e79b06d0b6c0}} 
+Low\+Tier\+Self\+Repair\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierSelfRepairStage2@{LowTierSelfRepairStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierSelfRepairStage2@{LowTierSelfRepairStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a30cf252e5e1a42c27ca180a17114c2a4}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a30cf252e5e1a42c27ca180a17114c2a4}} 
+Low\+Tier\+Self\+Repair\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierSelfRepairStage1@{HighTierSelfRepairStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierSelfRepairStage1@{HighTierSelfRepairStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a97591b3fb76138b125a69f2232f62a08}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a97591b3fb76138b125a69f2232f62a08}} 
+High\+Tier\+Self\+Repair\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierSelfRepairStage2@{HighTierSelfRepairStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierSelfRepairStage2@{HighTierSelfRepairStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a6f8b7dd5340142dabccffca20e0e6805}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a6f8b7dd5340142dabccffca20e0e6805}} 
+High\+Tier\+Self\+Repair\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierOxygenTankStage1@{LowTierOxygenTankStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierOxygenTankStage1@{LowTierOxygenTankStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aba62a5c42d65ffab9f893bf2a0c1bf88}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aba62a5c42d65ffab9f893bf2a0c1bf88}} 
+Low\+Tier\+Oxygen\+Tank\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierOxygenTankStage2@{LowTierOxygenTankStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierOxygenTankStage2@{LowTierOxygenTankStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a3d9389e221cd20ce9075f1e4d5e8fc24}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a3d9389e221cd20ce9075f1e4d5e8fc24}} 
+Low\+Tier\+Oxygen\+Tank\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierOxygenTankStage1@{HighTierOxygenTankStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierOxygenTankStage1@{HighTierOxygenTankStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0fe937fe394b7d1506c20abeb2d2c6db}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a0fe937fe394b7d1506c20abeb2d2c6db}} 
+High\+Tier\+Oxygen\+Tank\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierOxygenTankStage2@{HighTierOxygenTankStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierOxygenTankStage2@{HighTierOxygenTankStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aa18b7f28f46902ca8813fa5e16ed6b1b}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aa18b7f28f46902ca8813fa5e16ed6b1b}} 
+High\+Tier\+Oxygen\+Tank\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierInventoryStage1@{LowTierInventoryStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierInventoryStage1@{LowTierInventoryStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a1c5627c5ba2d39d4c5edffb185dc6750}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a1c5627c5ba2d39d4c5edffb185dc6750}} 
+Low\+Tier\+Inventory\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LowTierInventoryStage2@{LowTierInventoryStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!LowTierInventoryStage2@{LowTierInventoryStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aae797d3ae11f401e1686d35c6a595b7e}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298aae797d3ae11f401e1686d35c6a595b7e}} 
+Low\+Tier\+Inventory\+Stage2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierInventoryStage1@{HighTierInventoryStage1}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierInventoryStage1@{HighTierInventoryStage1}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a7fcbca285ad3a082883a7f2069f03605}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a7fcbca285ad3a082883a7f2069f03605}} 
+High\+Tier\+Inventory\+Stage1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HighTierInventoryStage2@{HighTierInventoryStage2}!PlayerSkills@{PlayerSkills}}\index{PlayerSkills@{PlayerSkills}!HighTierInventoryStage2@{HighTierInventoryStage2}}}\mbox{\Hypertarget{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a72a92ff42375f5f3a4550508f3295caa}\label{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298a72a92ff42375f5f3a4550508f3295caa}} 
+High\+Tier\+Inventory\+Stage2&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_player_skills_a744ba9c950815350b7177d3ff1a825e3}\label{class_player_skills_a744ba9c950815350b7177d3ff1a825e3}} 
+\index{PlayerSkills@{PlayerSkills}!PlayerSkills@{PlayerSkills}}
+\index{PlayerSkills@{PlayerSkills}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{PlayerSkills()}{PlayerSkills()}}
+{\footnotesize\ttfamily Player\+Skills.\+Player\+Skills (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_skills_ad60a97fd7052171b0ba45469873b8561}\label{class_player_skills_ad60a97fd7052171b0ba45469873b8561}} 
+\index{PlayerSkills@{PlayerSkills}!CanUnlock@{CanUnlock}}
+\index{CanUnlock@{CanUnlock}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{CanUnlock()}{CanUnlock()}}
+{\footnotesize\ttfamily bool Player\+Skills.\+Can\+Unlock (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}}}]{skill\+Type }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_ad60a97fd7052171b0ba45469873b8561_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_ad60a97fd7052171b0ba45469873b8561_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_skills_a186254dfc7bca209ecdde37fe874e47c}\label{class_player_skills_a186254dfc7bca209ecdde37fe874e47c}} 
+\index{PlayerSkills@{PlayerSkills}!GetCurrentUpgrades@{GetCurrentUpgrades}}
+\index{GetCurrentUpgrades@{GetCurrentUpgrades}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{GetCurrentUpgrades()}{GetCurrentUpgrades()}}
+{\footnotesize\ttfamily void Player\+Skills.\+Get\+Current\+Upgrades (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_upgrade_holder}{Upgrade\+Holder}}}]{upgrade\+Holder }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_a186254dfc7bca209ecdde37fe874e47c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_skills_a79829d8f1292134b26f37be0455a87c8}\label{class_player_skills_a79829d8f1292134b26f37be0455a87c8}} 
+\index{PlayerSkills@{PlayerSkills}!GetSkillPoints@{GetSkillPoints}}
+\index{GetSkillPoints@{GetSkillPoints}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{GetSkillPoints()}{GetSkillPoints()}}
+{\footnotesize\ttfamily int Player\+Skills.\+Get\+Skill\+Points (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_skills_a13838f81de63d112fd778e6c1ab829a2}\label{class_player_skills_a13838f81de63d112fd778e6c1ab829a2}} 
+\index{PlayerSkills@{PlayerSkills}!GetSkillRequirement@{GetSkillRequirement}}
+\index{GetSkillRequirement@{GetSkillRequirement}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{GetSkillRequirement()}{GetSkillRequirement()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}} Player\+Skills.\+Get\+Skill\+Requirement (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}}}]{skill\+Type }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_a13838f81de63d112fd778e6c1ab829a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_skills_a22c2907b0d980b1b21b850eb5f0f8dc8}\label{class_player_skills_a22c2907b0d980b1b21b850eb5f0f8dc8}} 
+\index{PlayerSkills@{PlayerSkills}!IsRequirementMet@{IsRequirementMet}}
+\index{IsRequirementMet@{IsRequirementMet}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{IsRequirementMet()}{IsRequirementMet()}}
+{\footnotesize\ttfamily bool Player\+Skills.\+Is\+Requirement\+Met (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_a22c2907b0d980b1b21b850eb5f0f8dc8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_a22c2907b0d980b1b21b850eb5f0f8dc8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_skills_a237e14f6349adfcd6bae46904e8a9016}\label{class_player_skills_a237e14f6349adfcd6bae46904e8a9016}} 
+\index{PlayerSkills@{PlayerSkills}!IsSkillUnlocked@{IsSkillUnlocked}}
+\index{IsSkillUnlocked@{IsSkillUnlocked}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{IsSkillUnlocked()}{IsSkillUnlocked()}}
+{\footnotesize\ttfamily bool Player\+Skills.\+Is\+Skill\+Unlocked (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}}}]{skill\+Type }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_a237e14f6349adfcd6bae46904e8a9016_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_skills_a13f145ea2840691dac8b1d4889dbb100}\label{class_player_skills_a13f145ea2840691dac8b1d4889dbb100}} 
+\index{PlayerSkills@{PlayerSkills}!RemoveAllUsedResources@{RemoveAllUsedResources}}
+\index{RemoveAllUsedResources@{RemoveAllUsedResources}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{RemoveAllUsedResources()}{RemoveAllUsedResources()}}
+{\footnotesize\ttfamily void Player\+Skills.\+Remove\+All\+Used\+Resources (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_a13f145ea2840691dac8b1d4889dbb100_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_a13f145ea2840691dac8b1d4889dbb100_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_skills_ace8108a48b4b8efa6774e1d571b9221b}\label{class_player_skills_ace8108a48b4b8efa6774e1d571b9221b}} 
+\index{PlayerSkills@{PlayerSkills}!SetRequirements@{SetRequirements}}
+\index{SetRequirements@{SetRequirements}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{SetRequirements()}{SetRequirements()}}
+{\footnotesize\ttfamily void Player\+Skills.\+Set\+Requirements (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classstorage}{storage}}}]{inv,  }\item[{\mbox{\hyperlink{class_player_upgrades}{Player\+Upgrades}}}]{upg }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_ace8108a48b4b8efa6774e1d571b9221b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_skills_ad624f39b59e0ddafc5bf982a3edf44a4}\label{class_player_skills_ad624f39b59e0ddafc5bf982a3edf44a4}} 
+\index{PlayerSkills@{PlayerSkills}!TryUnlockSkill@{TryUnlockSkill}}
+\index{TryUnlockSkill@{TryUnlockSkill}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{TryUnlockSkill()}{TryUnlockSkill()}}
+{\footnotesize\ttfamily bool Player\+Skills.\+Try\+Unlock\+Skill (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_skills_a107bc5aae0a2bb0104aa07899d8d1298}{Skill\+Type}}}]{skill\+Type }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_skills_ad624f39b59e0ddafc5bf982a3edf44a4_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_player_skills_a56adfcda139b8da8b371bb41587ef464}\label{class_player_skills_a56adfcda139b8da8b371bb41587ef464}} 
+\index{PlayerSkills@{PlayerSkills}!OnSetRequirementForPopup@{OnSetRequirementForPopup}}
+\index{OnSetRequirementForPopup@{OnSetRequirementForPopup}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{OnSetRequirementForPopup}{OnSetRequirementForPopup}}
+{\footnotesize\ttfamily Action Player\+Skills.\+On\+Set\+Requirement\+For\+Popup\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\doxysubsection{Event Documentation}
+\mbox{\Hypertarget{class_player_skills_a51336b4071dd19a0a3c28a8f0da0d54c}\label{class_player_skills_a51336b4071dd19a0a3c28a8f0da0d54c}} 
+\index{PlayerSkills@{PlayerSkills}!OnSkillUnlocked@{OnSkillUnlocked}}
+\index{OnSkillUnlocked@{OnSkillUnlocked}!PlayerSkills@{PlayerSkills}}
+\doxysubsubsection{\texorpdfstring{OnSkillUnlocked}{OnSkillUnlocked}}
+{\footnotesize\ttfamily Event\+Handler$<$\mbox{\hyperlink{class_player_skills_1_1_on_skill_unlocked_event_args}{On\+Skill\+Unlocked\+Event\+Args}}$>$ Player\+Skills.\+On\+Skill\+Unlocked}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Scripts/\+Arif\textquotesingle{}s Test Scripts/\+Skill Tree/\mbox{\hyperlink{_player_skills_8cs}{Player\+Skills.\+cs}}\end{DoxyCompactItemize}

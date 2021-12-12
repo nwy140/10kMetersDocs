@@ -1,0 +1,102 @@
+.TH "PlayerMovement" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PlayerMovement
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBPlayer\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBCommand_Interact\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnInputMoveHorizontalAxis\fP (InputAction\&.CallbackContext context)"
+.br
+.ti -1c
+.RI "void \fBOnInputMoveVerticalAxis\fP (InputAction\&.CallbackContext context)"
+.br
+.ti -1c
+.RI "void \fBOnInputCommandSlot3\fP (InputAction\&.CallbackContext context)"
+.br
+.ti -1c
+.RI "bool \fBIsInvincible\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "float \fBdashSpeed\fP = 100f"
+.br
+.ti -1c
+.RI "float \fBtimeToStopDash\fP = 1f"
+.br
+.ti -1c
+.RI "float \fBcooldown\fP = 5f"
+.br
+.ti -1c
+.RI "GameObject[] \fBallEnemy\fP"
+.br
+.ti -1c
+.RI "bool \fBcooldownFlag\fP"
+.br
+.ti -1c
+.RI "bool \fBisDashing\fP"
+.br
+.ti -1c
+.RI "bool \fBisInvincible\fP = false"
+.br
+.ti -1c
+.RI "float \fBmoveHorizontalAxis\fP"
+.br
+.ti -1c
+.RI "float \fBmoveVerticalAxis\fP"
+.br
+.ti -1c
+.RI "Animator \fBanim\fP"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Member Function Documentation"
+.PP 
+.SS "void PlayerMovement\&.Command_Interact ()"
+\fBstorage\&.IsFull()\fP &&
+.SS "bool PlayerMovement\&.IsInvincible ()"
+
+.SS "void PlayerMovement\&.OnInputCommandSlot3 (InputAction\&.CallbackContext context)"
+
+.SS "void PlayerMovement\&.OnInputMoveHorizontalAxis (InputAction\&.CallbackContext context)"
+
+.SS "void PlayerMovement\&.OnInputMoveVerticalAxis (InputAction\&.CallbackContext context)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "GameObject [] PlayerMovement\&.allEnemy"
+
+.SS "Animator PlayerMovement\&.anim"
+
+.SS "float PlayerMovement\&.cooldown = 5f"
+
+.SS "bool PlayerMovement\&.cooldownFlag"
+
+.SS "float PlayerMovement\&.dashSpeed = 100f"
+
+.SS "bool PlayerMovement\&.isDashing"
+
+.SS "bool PlayerMovement\&.isInvincible = false"
+
+.SS "float PlayerMovement\&.moveHorizontalAxis"
+
+.SS "float PlayerMovement\&.moveVerticalAxis"
+
+.SS "float PlayerMovement\&.timeToStopDash = 1f"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

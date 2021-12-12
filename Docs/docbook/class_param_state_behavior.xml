@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_param_state_behavior" xml:lang="en-US">
+<title>ParamStateBehavior Class Reference</title>
+<indexterm><primary>ParamStateBehavior</primary></indexterm>
+Inheritance diagram for ParamStateBehavior:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_param_state_behavior__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for ParamStateBehavior:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_param_state_behavior__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_param_state_behavior_1adc462b35fbeb8cbbf12342ea3b24bc27">OnStateEnter</link> (Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_param_state_behavior_1afe12ed29c85d9d5a1d5ead2dcf531749">OnStateUpdate</link> (Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_set_param_state_data">SetParamStateData</link>[] <link linkend="_class_param_state_behavior_1a096e4c5707dd5785519946640dd38160">OnStateEnterParamDatas</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_param_state_behavior_1adc462b35fbeb8cbbf12342ea3b24bc27"/><section>
+    <title>OnStateEnter()</title>
+<indexterm><primary>OnStateEnter</primary><secondary>ParamStateBehavior</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior</primary><secondary>OnStateEnter</secondary></indexterm>
+<para><computeroutput>override void ParamStateBehavior.OnStateEnter (Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_param_state_behavior_adc462b35fbeb8cbbf12342ea3b24bc27_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_param_state_behavior_1afe12ed29c85d9d5a1d5ead2dcf531749"/><section>
+    <title>OnStateUpdate()</title>
+<indexterm><primary>OnStateUpdate</primary><secondary>ParamStateBehavior</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior</primary><secondary>OnStateUpdate</secondary></indexterm>
+<para><computeroutput>override void ParamStateBehavior.OnStateUpdate (Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_param_state_behavior_1a096e4c5707dd5785519946640dd38160"/><section>
+    <title>OnStateEnterParamDatas</title>
+<indexterm><primary>OnStateEnterParamDatas</primary><secondary>ParamStateBehavior</secondary></indexterm>
+<indexterm><primary>ParamStateBehavior</primary><secondary>OnStateEnterParamDatas</secondary></indexterm>
+<para><computeroutput><link linkend="_class_set_param_state_data">SetParamStateData</link> [] ParamStateBehavior.OnStateEnterParamDatas</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/<link linkend="__param_state_behavior_8cs">ParamStateBehavior.cs</link></section>
+</section>

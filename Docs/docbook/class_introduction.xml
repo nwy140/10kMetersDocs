@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_introduction" xml:lang="en-US">
+<title>Introduction Class Reference</title>
+<indexterm><primary>Introduction</primary></indexterm>
+Inheritance diagram for Introduction:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_introduction__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Introduction:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_introduction__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_introduction_1a9242ffe53b5baf5d588344da0caede02">ExplainAgain</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_introduction_1ae27a989cc1bd487b4c5d30e481338d28">EndBrief</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_introduction_1a2a66d4eb05f1675099a9543c0b0ded78">introPanel</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_introduction_1aa8b3dce1c40abda3ed00e2478f32c743">choicePanel</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_introduction_1a3890be21b498b06fae2f23a99ff4501a">scientistTalk</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_introduction_1a564655aef3c325062ecf924bb6332173">scientistIdle</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_introduction_1a6946aca073c1605513deda4308572737">glasses</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_introduction_1a03281e70be2e078c4a759d64d40c356a">index</link> = 0</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_introduction_1af786a72d16bb814ae1a99468cf56c2a6">askAgain</link> = false</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_introduction_1ac4f350884ea2f39ebf4c68acf37e4233">hasUnderstand</link> = false</para>
+</listitem>
+            <listitem><para>string[] <link linkend="_class_introduction_1abb8b071b7b5efdb2cc1b3a0936dc0e47">intro</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_introduction">Introduction</link> <link linkend="_class_introduction_1ad6cdacef1ccc2acd5d61744500e92894">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_introduction_1ae27a989cc1bd487b4c5d30e481338d28"/><section>
+    <title>EndBrief()</title>
+<indexterm><primary>EndBrief</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>EndBrief</secondary></indexterm>
+<para><computeroutput>void Introduction.EndBrief ( )</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1a9242ffe53b5baf5d588344da0caede02"/><section>
+    <title>ExplainAgain()</title>
+<indexterm><primary>ExplainAgain</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>ExplainAgain</secondary></indexterm>
+<para><computeroutput>void Introduction.ExplainAgain ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_introduction_1af786a72d16bb814ae1a99468cf56c2a6"/><section>
+    <title>askAgain</title>
+<indexterm><primary>askAgain</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>askAgain</secondary></indexterm>
+<para><computeroutput>bool Introduction.askAgain = false</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1aa8b3dce1c40abda3ed00e2478f32c743"/><section>
+    <title>choicePanel</title>
+<indexterm><primary>choicePanel</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>choicePanel</secondary></indexterm>
+<para><computeroutput>GameObject Introduction.choicePanel</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1a6946aca073c1605513deda4308572737"/><section>
+    <title>glasses</title>
+<indexterm><primary>glasses</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>glasses</secondary></indexterm>
+<para><computeroutput>GameObject Introduction.glasses</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1ac4f350884ea2f39ebf4c68acf37e4233"/><section>
+    <title>hasUnderstand</title>
+<indexterm><primary>hasUnderstand</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>hasUnderstand</secondary></indexterm>
+<para><computeroutput>bool Introduction.hasUnderstand = false</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1a03281e70be2e078c4a759d64d40c356a"/><section>
+    <title>index</title>
+<indexterm><primary>index</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>int Introduction.index = 0</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1ad6cdacef1ccc2acd5d61744500e92894"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_introduction">Introduction</link> Introduction.instance<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_introduction_1abb8b071b7b5efdb2cc1b3a0936dc0e47"/><section>
+    <title>intro</title>
+<indexterm><primary>intro</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>intro</secondary></indexterm>
+<para><computeroutput>string [] Introduction.intro</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1a2a66d4eb05f1675099a9543c0b0ded78"/><section>
+    <title>introPanel</title>
+<indexterm><primary>introPanel</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>introPanel</secondary></indexterm>
+<para><computeroutput>GameObject Introduction.introPanel</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1a564655aef3c325062ecf924bb6332173"/><section>
+    <title>scientistIdle</title>
+<indexterm><primary>scientistIdle</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>scientistIdle</secondary></indexterm>
+<para><computeroutput>GameObject Introduction.scientistIdle</computeroutput></para></section>
+<anchor xml:id="_class_introduction_1a3890be21b498b06fae2f23a99ff4501a"/><section>
+    <title>scientistTalk</title>
+<indexterm><primary>scientistTalk</primary><secondary>Introduction</secondary></indexterm>
+<indexterm><primary>Introduction</primary><secondary>scientistTalk</secondary></indexterm>
+<para><computeroutput>GameObject Introduction.scientistTalk</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/<link linkend="__introduction_8cs">Introduction.cs</link></section>
+</section>

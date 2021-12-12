@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_transform_auto_rotate" kind="class" language="C#" prot="public">
+    <compoundname>TransformAutoRotate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_transform_auto_rotate_1aebe093a0a9a9f8ec8ca62d4e64401ebd" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 TransformAutoRotate.rotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationSpeed</name>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/TransformOffsetORCustomTwine/TransformAutoRotate.cs" line="5" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/TransformOffsetORCustomTwine/TransformAutoRotate.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_transform_auto_rotate_1a9f216e609b60ca09028130c323574469" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransformAutoRotate.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/TransformOffsetORCustomTwine/TransformAutoRotate.cs" line="6" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/TransformOffsetORCustomTwine/TransformAutoRotate.cs" bodystart="6" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransformAutoRotate</label>
+        <link refid="class_transform_auto_rotate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransformAutoRotate</label>
+        <link refid="class_transform_auto_rotate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/TransformOffsetORCustomTwine/TransformAutoRotate.cs" line="3" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/TransformOffsetORCustomTwine/TransformAutoRotate.cs" bodystart="4" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_transform_auto_rotate_1aebe093a0a9a9f8ec8ca62d4e64401ebd" prot="public" virt="non-virtual"><scope>TransformAutoRotate</scope><name>rotationSpeed</name></member>
+      <member refid="class_transform_auto_rotate_1a9f216e609b60ca09028130c323574469" prot="private" virt="non-virtual"><scope>TransformAutoRotate</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

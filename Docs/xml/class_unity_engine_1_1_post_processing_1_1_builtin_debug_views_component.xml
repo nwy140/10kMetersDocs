@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; BuiltinDebugViewsModel &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1_1_arrow_array" prot="private">UnityEngine::PostProcessing::BuiltinDebugViewsComponent::ArrowArray</innerclass>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::BuiltinDebugViewsComponent::Uniforms</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1af1b64dcf9ddd5cbda41d32931ce1a566" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>Pass</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1af1b64dcf9ddd5cbda41d32931ce1a566a675056ad1441b6375b2c5abd48c27ef1" prot="private">
+          <name>Depth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1af1b64dcf9ddd5cbda41d32931ce1a566a4ab971a51f0335cbf8d9c2c65d379e99" prot="private">
+          <name>Normals</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1af1b64dcf9ddd5cbda41d32931ce1a566a936eccc2679d58ee34367c69d9c81988" prot="private">
+          <name>MovecOpacity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1af1b64dcf9ddd5cbda41d32931ce1a566aa9425545032ece31e8d00adbfef12c36" prot="private">
+          <name>MovecImaging</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1af1b64dcf9ddd5cbda41d32931ce1a566a9b721cf2e3e2c9135a603ba7c23c4d60" prot="private">
+          <name>MovecArrows</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="23" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a45c39a3d538b09a9d37d4cbac0050755" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string UnityEngine.PostProcessing.BuiltinDebugViewsComponent.k_ShaderString</definition>
+        <argsstring></argsstring>
+        <name>k_ShaderString</name>
+        <initializer>= &quot;Hidden/Post FX/Builtin Debug Views&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="21" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a95ea11d2fe39f7a587f1b5f1b2336539" prot="private" static="no" mutable="no">
+        <type>ArrowArray</type>
+        <definition>ArrowArray UnityEngine.PostProcessing.BuiltinDebugViewsComponent.m_Arrows</definition>
+        <argsstring></argsstring>
+        <name>m_Arrows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="32" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a278b64dc1a7dc3dfae9f829accb1592c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.BuiltinDebugViewsComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="101" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="102" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1ab4292e4509256eb32cb378060fa3250f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.BuiltinDebugViewsComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="111" column="42" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="111" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a6f11761eaeb91f54400f5b9a3f5864b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override CameraEvent</type>
+        <definition>override CameraEvent UnityEngine.PostProcessing.BuiltinDebugViewsComponent.GetCameraEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraEvent</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="132" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="132" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a18f07a927f8d2aee8f5e7bf045b87714" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.PostProcessing.BuiltinDebugViewsComponent.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="139" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a5eb24d5ee1ad5360967bfd5bc2c8485b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.BuiltinDebugViewsComponent.PopulateCommandBuffer</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>PopulateCommandBuffer</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="144" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="144" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a67be7492ee423602f45ad4ce2896fae1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.BuiltinDebugViewsComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="250" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="250" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a42465df6cb3dcf7306db70348ef57f5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.BuiltinDebugViewsComponent.DepthPass</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>DepthPass</name>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="169" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="169" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a42ede0dbe88072fdbe1304d7f17bf412" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.BuiltinDebugViewsComponent.DepthNormalsPass</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>DepthNormalsPass</name>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="178" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="178" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1ae8426e69bf4b5dc071c9e987f522d8b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.BuiltinDebugViewsComponent.MotionVectorsPass</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>MotionVectorsPass</name>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="184" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="184" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a6757a54480bc8c7b5e2b3d14d31e17d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.BuiltinDebugViewsComponent.PrepareArrows</definition>
+        <argsstring>()</argsstring>
+        <name>PrepareArrows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="235" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="235" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PostProcessingComponentCommandBuffer&lt; BuiltinDebugViewsModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PostProcessingComponentCommandBuffer&lt; BuiltinDebugViewsModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" bodystart="9" bodyend="257"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a278b64dc1a7dc3dfae9f829accb1592c" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a42ede0dbe88072fdbe1304d7f17bf412" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>DepthNormalsPass</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a42465df6cb3dcf7306db70348ef57f5a" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>DepthPass</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a6f11761eaeb91f54400f5b9a3f5864b2" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>GetCameraEvent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1ab4292e4509256eb32cb378060fa3250f" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a18f07a927f8d2aee8f5e7bf045b87714" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>GetName</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a45c39a3d538b09a9d37d4cbac0050755" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>k_ShaderString</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a95ea11d2fe39f7a587f1b5f1b2336539" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>m_Arrows</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1ae8426e69bf4b5dc071c9e987f522d8b0" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>MotionVectorsPass</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a67be7492ee423602f45ad4ce2896fae1" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1af1b64dcf9ddd5cbda41d32931ce1a566" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>Pass</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a5eb24d5ee1ad5360967bfd5bc2c8485b" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>PopulateCommandBuffer</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a6757a54480bc8c7b5e2b3d14d31e17d2" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsComponent</scope><name>PrepareArrows</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

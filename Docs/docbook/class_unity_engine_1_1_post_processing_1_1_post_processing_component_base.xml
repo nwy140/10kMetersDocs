@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.PostProcessingComponentBase Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentBase</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.PostProcessingComponentBase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.PostProcessingComponentBase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual DepthTextureMode <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18">GetCameraFlags</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c">OnDisable</link> ()</para>
+</listitem>
+            <listitem><para>abstract <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model">PostProcessingModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a83558500b9f9bf231f57bffee50062ea">GetModel</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context">PostProcessingContext</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd">context</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>abstract bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2ede55be3b7f31c1628341f5d0fe7b77">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18"/><section>
+    <title>GetCameraFlags()</title>
+<indexterm><primary>GetCameraFlags</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentBase</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentBase</primary><secondary>GetCameraFlags</secondary></indexterm>
+<para><computeroutput>virtual DepthTextureMode UnityEngine.PostProcessing.PostProcessingComponentBase.GetCameraFlags ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a83558500b9f9bf231f57bffee50062ea"/><section>
+    <title>GetModel()</title>
+<indexterm><primary>GetModel</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentBase</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentBase</primary><secondary>GetModel</secondary></indexterm>
+<para><computeroutput>abstract <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model">PostProcessingModel</link> UnityEngine.PostProcessing.PostProcessingComponentBase.GetModel ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_1ac946ffb514e0ebb0141e87777459ffc9">UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentBase</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentBase</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>virtual void UnityEngine.PostProcessing.PostProcessingComponentBase.OnDisable ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentBase</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentBase</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>virtual void UnityEngine.PostProcessing.PostProcessingComponentBase.OnEnable ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd"/><section>
+    <title>context</title>
+<indexterm><primary>context</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentBase</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentBase</primary><secondary>context</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context">PostProcessingContext</link> UnityEngine.PostProcessing.PostProcessingComponentBase.context</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2ede55be3b7f31c1628341f5d0fe7b77"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentBase</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentBase</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>abstract bool UnityEngine.PostProcessing.PostProcessingComponentBase.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/<link linkend="__post_processing_component_8cs">PostProcessingComponent.cs</link></section>
+</section>

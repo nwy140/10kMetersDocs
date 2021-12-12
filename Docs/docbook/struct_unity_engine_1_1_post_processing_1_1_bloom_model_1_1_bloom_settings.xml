@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.BloomModel.BloomSettings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.BloomModel.BloomSettings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.BloomModel.BloomSettings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a873b319dc2a9b7bbc33e34462fc7e8b1">intensity</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a927bbdd918f3c48a278cf32e4d194ef1">threshold</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a89cfb26e2f98e7729931da877b402074">softKnee</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a220aa76e152ad3c502f7f0af64371958">radius</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1ab1e432898f356ebf4794b7d1aac18c9c">antiFlicker</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a7f6ebd042c6cad8cad0eb684f4b0a148">thresholdLinear</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings">BloomSettings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1addcdcbd0f26e700c1857b06be41e462b">defaultSettings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1ab1e432898f356ebf4794b7d1aac18c9c"/><section>
+    <title>antiFlicker</title>
+<indexterm><primary>antiFlicker</primary><secondary>UnityEngine.PostProcessing.BloomModel.BloomSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomModel.BloomSettings</primary><secondary>antiFlicker</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.BloomModel.BloomSettings.antiFlicker</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a873b319dc2a9b7bbc33e34462fc7e8b1"/><section>
+    <title>intensity</title>
+<indexterm><primary>intensity</primary><secondary>UnityEngine.PostProcessing.BloomModel.BloomSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomModel.BloomSettings</primary><secondary>intensity</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.BloomModel.BloomSettings.intensity</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a220aa76e152ad3c502f7f0af64371958"/><section>
+    <title>radius</title>
+<indexterm><primary>radius</primary><secondary>UnityEngine.PostProcessing.BloomModel.BloomSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomModel.BloomSettings</primary><secondary>radius</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.BloomModel.BloomSettings.radius</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a89cfb26e2f98e7729931da877b402074"/><section>
+    <title>softKnee</title>
+<indexterm><primary>softKnee</primary><secondary>UnityEngine.PostProcessing.BloomModel.BloomSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomModel.BloomSettings</primary><secondary>softKnee</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.BloomModel.BloomSettings.softKnee</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a927bbdd918f3c48a278cf32e4d194ef1"/><section>
+    <title>threshold</title>
+<indexterm><primary>threshold</primary><secondary>UnityEngine.PostProcessing.BloomModel.BloomSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomModel.BloomSettings</primary><secondary>threshold</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.BloomModel.BloomSettings.threshold</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1addcdcbd0f26e700c1857b06be41e462b"/><section>
+    <title>defaultSettings</title>
+<indexterm><primary>defaultSettings</primary><secondary>UnityEngine.PostProcessing.BloomModel.BloomSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomModel.BloomSettings</primary><secondary>defaultSettings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings">BloomSettings</link> UnityEngine.PostProcessing.BloomModel.BloomSettings.defaultSettings<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings_1a7f6ebd042c6cad8cad0eb684f4b0a148"/><section>
+    <title>thresholdLinear</title>
+<indexterm><primary>thresholdLinear</primary><secondary>UnityEngine.PostProcessing.BloomModel.BloomSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomModel.BloomSettings</primary><secondary>thresholdLinear</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.BloomModel.BloomSettings.thresholdLinear<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__bloom_model_8cs">BloomModel.cs</link></section>
+</section>

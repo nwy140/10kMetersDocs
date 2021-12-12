@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper Class Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</primary></indexterm>
+<para>
+
+<para>This is an example for how to override the default display behavior of bindings. </para>
+ 
+</para>
+Inheritance diagram for UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons">GamepadIcons</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons">KeyMouseIcons</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Sprite <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1ab1a6aa8ecd4eb130345a8fcd827eb242">icon</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons">KeyMouseIcons</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a52347484abef80a24e4f27732489ac39">keyboardMouse</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons">GamepadIcons</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a0295a2d78d8567d3cc87eb3eafda2825">xbox</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons">GamepadIcons</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a01d54b7ec606114c19036cf7fb0980f8">ps4</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1abd5fd185d3b63bed4b61c376096ea5e4">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8">OnUpdateBindingDisplay</link> (<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i">RebindActionUI</link> component, string bindingDisplayString, string deviceLayoutName, string controlPath)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This is an example for how to override the default display behavior of bindings. </para>
+
+
+
+<para>The component hooks into <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae6f650d471a43cb2f5087df933289a39">RebindActionUI.updateBindingUIEvent</link> which is triggered when <link linkend="_namespace_unity_engine_1_1_input_system_1_1_u_i">UI</link> display of a binding should be refreshed. It then checks whether we have an icon for the current binding and if so, replaces the default text display with an icon. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1abd5fd185d3b63bed4b61c376096ea5e4"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnEnable ( )<computeroutput>[protected]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_abd5fd185d3b63bed4b61c376096ea5e4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a236904ab3d3e6670733c940f80f0b7a8"/><section>
+    <title>OnUpdateBindingDisplay()</title>
+<indexterm><primary>OnUpdateBindingDisplay</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</primary><secondary>OnUpdateBindingDisplay</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.OnUpdateBindingDisplay (<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i">RebindActionUI</link> component, string bindingDisplayString, string deviceLayoutName, string controlPath)<computeroutput>[protected]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a236904ab3d3e6670733c940f80f0b7a8_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a236904ab3d3e6670733c940f80f0b7a8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1ab1a6aa8ecd4eb130345a8fcd827eb242"/><section>
+    <title>icon</title>
+<indexterm><primary>icon</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</primary><secondary>icon</secondary></indexterm>
+<para><computeroutput>Sprite UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.icon</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a52347484abef80a24e4f27732489ac39"/><section>
+    <title>keyboardMouse</title>
+<indexterm><primary>keyboardMouse</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</primary><secondary>keyboardMouse</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons">KeyMouseIcons</link> UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.keyboardMouse</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a01d54b7ec606114c19036cf7fb0980f8"/><section>
+    <title>ps4</title>
+<indexterm><primary>ps4</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</primary><secondary>ps4</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons">GamepadIcons</link> UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.ps4</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1a0295a2d78d8567d3cc87eb3eafda2825"/><section>
+    <title>xbox</title>
+<indexterm><primary>xbox</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper</primary><secondary>xbox</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons">GamepadIcons</link> UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper.xbox</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/<link linkend="__rebind_icons_helper_8cs">RebindIconsHelper.cs</link></section>
+</section>

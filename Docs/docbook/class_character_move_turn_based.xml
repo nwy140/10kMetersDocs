@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_character_move_turn_based" xml:lang="en-US">
+<title>CharacterMoveTurnBased Class Reference</title>
+<indexterm><primary>CharacterMoveTurnBased</primary></indexterm>
+Inheritance diagram for CharacterMoveTurnBased:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_turn_based__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CharacterMoveTurnBased:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_turn_based__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_character_move_turn_based_1a0c25fd1994749ca6e36f4b89c64ce415">AddCommand</link> (<link linkend="_interface_i_command_o_w_s">ICommandOWS</link> command)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_character_move_turn_based_1a6fdedad5895a1faf44dce271157ba72f">DoMoves</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_character_move_turn_based_1a19cae3d0bccf1b2768fb1ab62663af1d">UpdateLine</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_character_move_turn_based_1af2648d22944a510dc397be86c2dc5b95">index</link> = 0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_character_move_turn_based_1a0c25fd1994749ca6e36f4b89c64ce415"/><section>
+    <title>AddCommand()</title>
+<indexterm><primary>AddCommand</primary><secondary>CharacterMoveTurnBased</secondary></indexterm>
+<indexterm><primary>CharacterMoveTurnBased</primary><secondary>AddCommand</secondary></indexterm>
+<para><computeroutput>void CharacterMoveTurnBased.AddCommand (<link linkend="_interface_i_command_o_w_s">ICommandOWS</link> command)</computeroutput></para></section>
+<anchor xml:id="_class_character_move_turn_based_1a6fdedad5895a1faf44dce271157ba72f"/><section>
+    <title>DoMoves()</title>
+<indexterm><primary>DoMoves</primary><secondary>CharacterMoveTurnBased</secondary></indexterm>
+<indexterm><primary>CharacterMoveTurnBased</primary><secondary>DoMoves</secondary></indexterm>
+<para><computeroutput>void CharacterMoveTurnBased.DoMoves ( )</computeroutput></para></section>
+<anchor xml:id="_class_character_move_turn_based_1a19cae3d0bccf1b2768fb1ab62663af1d"/><section>
+    <title>UpdateLine()</title>
+<indexterm><primary>UpdateLine</primary><secondary>CharacterMoveTurnBased</secondary></indexterm>
+<indexterm><primary>CharacterMoveTurnBased</primary><secondary>UpdateLine</secondary></indexterm>
+<para><computeroutput>void CharacterMoveTurnBased.UpdateLine ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_turn_based_a19cae3d0bccf1b2768fb1ab62663af1d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_character_move_turn_based_1af2648d22944a510dc397be86c2dc5b95"/><section>
+    <title>index</title>
+<indexterm><primary>index</primary><secondary>CharacterMoveTurnBased</secondary></indexterm>
+<indexterm><primary>CharacterMoveTurnBased</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>int CharacterMoveTurnBased.index = 0</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/<link linkend="__character_move_turn_based_8cs">CharacterMoveTurnBased.cs</link></section>
+</section>

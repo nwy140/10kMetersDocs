@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_bloom_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.BloomComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.BloomComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.BloomComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_bloom_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.BloomComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_bloom_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_bloom_component_1a36a84fe1a81b038c9e1e0b9e8053c63f">Prepare</link> (RenderTexture source, Material uberMaterial, Texture autoExposure)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_bloom_component_1a8ad2506285bcf581fc6b39f04650baa7">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_bloom_component_1a36a84fe1a81b038c9e1e0b9e8053c63f"/><section>
+    <title>Prepare()</title>
+<indexterm><primary>Prepare</primary><secondary>UnityEngine.PostProcessing.BloomComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomComponent</primary><secondary>Prepare</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.BloomComponent.Prepare (RenderTexture source, Material uberMaterial, Texture autoExposure)</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_bloom_component_1a8ad2506285bcf581fc6b39f04650baa7"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.BloomComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BloomComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.BloomComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__bloom_component_8cs">BloomComponent.cs</link></section>
+</section>

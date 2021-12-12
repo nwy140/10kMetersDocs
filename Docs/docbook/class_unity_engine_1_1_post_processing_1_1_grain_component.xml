@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_grain_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.GrainComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.GrainComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.GrainComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_grain_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.GrainComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_grain_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_component_1a345fbfa8ab350022e79fbcae210c3210">OnDisable</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_component_1a6a1c8bf2f8d860c91df6cf012c63c27a">Prepare</link> (Material uberMaterial)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_component_1adb5baf66470f91776c51124f01acb3e5">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_grain_component_1a345fbfa8ab350022e79fbcae210c3210"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.PostProcessing.GrainComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GrainComponent</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.GrainComponent.OnDisable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_grain_component_a345fbfa8ab350022e79fbcae210c3210_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_grain_component_1a6a1c8bf2f8d860c91df6cf012c63c27a"/><section>
+    <title>Prepare()</title>
+<indexterm><primary>Prepare</primary><secondary>UnityEngine.PostProcessing.GrainComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GrainComponent</primary><secondary>Prepare</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.GrainComponent.Prepare (Material uberMaterial)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; GrainModel &gt;</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_grain_component_a6a1c8bf2f8d860c91df6cf012c63c27a_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_grain_component_1adb5baf66470f91776c51124f01acb3e5"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.GrainComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GrainComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.GrainComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__grain_component_8cs">GrainComponent.cs</link></section>
+</section>

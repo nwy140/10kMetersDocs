@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_u_i_command_list" kind="class" language="C#" prot="public">
+    <compoundname>UICommandList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_command_list_1a85ff217a8d3efa654924e7b1e8bdab12" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_move" kindref="compound">Move</ref> &gt;</type>
+        <definition>List&lt;Move&gt; UICommandList.commandList</definition>
+        <argsstring></argsstring>
+        <name>commandList</name>
+        <initializer>= new List&lt;<ref refid="class_move" kindref="compound">Move</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_command_list_1a93ffe533916f4f3f494b852f846922dc" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text UICommandList.commandText</definition>
+        <argsstring></argsstring>
+        <name>commandText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_command_list_1a5ede9cabf21472c650e8ebe162a36570" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UICommandList.AddCommand</definition>
+        <argsstring>(ICommandOWS command)</argsstring>
+        <name>AddCommand</name>
+        <param>
+          <type><ref refid="interface_i_command_o_w_s" kindref="compound">ICommandOWS</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" line="12" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_command_list_1a8d1629c576f011a204ab537153cffaf0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UICommandList.UpdateUIList</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateUIList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" bodystart="18" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UICommandList</label>
+        <link refid="class_u_i_command_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UICommandList</label>
+        <link refid="class_u_i_command_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/UICommandList.cs" bodystart="7" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_u_i_command_list_1a5ede9cabf21472c650e8ebe162a36570" prot="public" virt="non-virtual"><scope>UICommandList</scope><name>AddCommand</name></member>
+      <member refid="class_u_i_command_list_1a85ff217a8d3efa654924e7b1e8bdab12" prot="private" virt="non-virtual"><scope>UICommandList</scope><name>commandList</name></member>
+      <member refid="class_u_i_command_list_1a93ffe533916f4f3f494b852f846922dc" prot="private" virt="non-virtual"><scope>UICommandList</scope><name>commandText</name></member>
+      <member refid="class_u_i_command_list_1a8d1629c576f011a204ab537153cffaf0" prot="private" virt="non-virtual"><scope>UICommandList</scope><name>UpdateUIList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

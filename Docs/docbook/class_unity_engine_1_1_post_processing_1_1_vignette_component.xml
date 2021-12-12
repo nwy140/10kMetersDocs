@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.VignetteComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.VignetteComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_vignette_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.VignetteComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_vignette_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_component_1a7f8b6fca0970717decfc4148d42c43be">Prepare</link> (Material uberMaterial)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_component_1a74f4203a32fb845ba8aec4d7b204c80f">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_component_1a7f8b6fca0970717decfc4148d42c43be"/><section>
+    <title>Prepare()</title>
+<indexterm><primary>Prepare</primary><secondary>UnityEngine.PostProcessing.VignetteComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteComponent</primary><secondary>Prepare</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.VignetteComponent.Prepare (Material uberMaterial)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; VignetteModel &gt;</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_component_1a74f4203a32fb845ba8aec4d7b204c80f"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.VignetteComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.VignetteComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__vignette_component_8cs">VignetteComponent.cs</link></section>
+</section>

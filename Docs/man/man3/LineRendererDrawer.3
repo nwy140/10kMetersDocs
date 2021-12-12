@@ -1,0 +1,92 @@
+.TH "LineRendererDrawer" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+LineRendererDrawer \- This class gets a line renderer in this object, and then set its end points based on its target\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSetTarget\fP (Transform newTarget)"
+.br
+.ti -1c
+.RI "void \fBResetTarget\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetLineTargetChildObject\fP ()"
+.br
+.RI "This function will attach line Renderer to any child objects of this object Explanation: "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Transform \fBorigin\fP"
+.br
+.ti -1c
+.RI "Transform \fBtarget\fP"
+.br
+.ti -1c
+.RI "LineRenderer \fBline\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class gets a line renderer in this object, and then set its end points based on its target\&. 
+
+Explanation:
+.PP
+Usage: Integration:
+.IP "\(bu" 2
+Attach this class script to an Obj with LineRenderer attached to it\&.
+.IP "\(bu" 2
+Line Renderer will automatically set its endPoint as the target that is passed in this script
+.IP "\(bu" 2
+You can swap the target endPoint by calling the setTarget function
+.IP "\(bu" 2
+You can reset the target to the initial default target by calling the ResetTarget function
+.IP "\(bu" 2
+You can make the LineRenderer target any child obj under this Obj by calling the SetLineTargetChildObject function Implement Later: 
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void LineRendererDrawer\&.ResetTarget ()"
+
+.SS "void LineRendererDrawer\&.SetLineTargetChildObject ()"
+
+.PP
+This function will attach line Renderer to any child objects of this object Explanation: 
+.IP "\(bu" 2
+Whenever there is more than 0 child attached to this object
+.IP "\(bu" 2
+Set first child object as endpoint Usage:
+.IP "\(bu" 2
+
+.PP
+.PP
+Integration:
+.IP "\(bu" 2
+Call this function to make line renderer set its endpoint as targetChildObject 
+.PP
+
+.SS "void LineRendererDrawer\&.SetTarget (Transform newTarget)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "LineRenderer LineRendererDrawer\&.line"
+
+.SS "Transform LineRendererDrawer\&.origin"
+
+.SS "Transform LineRendererDrawer\&.target"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

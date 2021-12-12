@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a45b722d6b5f693200b00c3b5afa10c08">master</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a5eed66ba3015ad1f29f2ac50b7c24d97">red</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1ae071b879ff13830f57d36808aa95b962">green</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1ab803f67e4fdea7436c5dd6b41c21b86f">blue</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1ab1c659430788a2bd5e5ee1e1dcf696a8">hueVShue</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a9e5a01e97c6b387d71a1bf75aeaef88e">hueVSsat</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a721c08fd6beb4a929416132d1693a49c">satVSsat</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1afce41191c94fb22cfed23fa03a029f7f">lumVSsat</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a9f76ca9a7c9634b0ae0f8c19baa4ee41">e_CurrentEditingCurve</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a4452cbfe9626a4ff0bf3829b641cfcd2">e_CurveY</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1add83c3105df444b3f75ee41703bb03c6">e_CurveR</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a941a7a74f9734e7dbac6b33abf449ffd">e_CurveG</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a1987d533cb917c5ab0fcc82a89a8b86f">e_CurveB</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings">CurvesSettings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a64d1e8f2e606f4d9cbd3fb89ace3c93d">defaultSettings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1ab803f67e4fdea7436c5dd6b41c21b86f"/><section>
+    <title>blue</title>
+<indexterm><primary>blue</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>blue</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.blue</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a9f76ca9a7c9634b0ae0f8c19baa4ee41"/><section>
+    <title>e_CurrentEditingCurve</title>
+<indexterm><primary>e_CurrentEditingCurve</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>e_CurrentEditingCurve</secondary></indexterm>
+<para><computeroutput>int UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.e_CurrentEditingCurve</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a1987d533cb917c5ab0fcc82a89a8b86f"/><section>
+    <title>e_CurveB</title>
+<indexterm><primary>e_CurveB</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>e_CurveB</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.e_CurveB</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a941a7a74f9734e7dbac6b33abf449ffd"/><section>
+    <title>e_CurveG</title>
+<indexterm><primary>e_CurveG</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>e_CurveG</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.e_CurveG</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1add83c3105df444b3f75ee41703bb03c6"/><section>
+    <title>e_CurveR</title>
+<indexterm><primary>e_CurveR</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>e_CurveR</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.e_CurveR</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a4452cbfe9626a4ff0bf3829b641cfcd2"/><section>
+    <title>e_CurveY</title>
+<indexterm><primary>e_CurveY</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>e_CurveY</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.e_CurveY</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1ae071b879ff13830f57d36808aa95b962"/><section>
+    <title>green</title>
+<indexterm><primary>green</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>green</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.green</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1ab1c659430788a2bd5e5ee1e1dcf696a8"/><section>
+    <title>hueVShue</title>
+<indexterm><primary>hueVShue</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>hueVShue</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.hueVShue</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a9e5a01e97c6b387d71a1bf75aeaef88e"/><section>
+    <title>hueVSsat</title>
+<indexterm><primary>hueVSsat</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>hueVSsat</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.hueVSsat</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1afce41191c94fb22cfed23fa03a029f7f"/><section>
+    <title>lumVSsat</title>
+<indexterm><primary>lumVSsat</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>lumVSsat</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.lumVSsat</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a45b722d6b5f693200b00c3b5afa10c08"/><section>
+    <title>master</title>
+<indexterm><primary>master</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>master</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.master</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a5eed66ba3015ad1f29f2ac50b7c24d97"/><section>
+    <title>red</title>
+<indexterm><primary>red</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>red</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.red</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a721c08fd6beb4a929416132d1693a49c"/><section>
+    <title>satVSsat</title>
+<indexterm><primary>satVSsat</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>satVSsat</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_curve">ColorGradingCurve</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.satVSsat</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings_1a64d1e8f2e606f4d9cbd3fb89ace3c93d"/><section>
+    <title>defaultSettings</title>
+<indexterm><primary>defaultSettings</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings</primary><secondary>defaultSettings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings">CurvesSettings</link> UnityEngine.PostProcessing.ColorGradingModel.CurvesSettings.defaultSettings<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__color_grading_model_8cs">ColorGradingModel.cs</link></section>
+</section>

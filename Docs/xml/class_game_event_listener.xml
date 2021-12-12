@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_game_event_listener" kind="class" language="C#" prot="public">
+    <compoundname>GameEventListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_command_event_listener" prot="public" virt="non-virtual">CommandEventListener</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_event_listener_1a1eddb6859899c538bfb7fda1a6afb5f0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_game_event" kindref="compound">GameEvent</ref></type>
+        <definition>GameEvent GameEventListener.Event</definition>
+        <argsstring></argsstring>
+        <name>Event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" line="10" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5" compoundref="_command_event_listener_8cs" startline="86" endline="111">CommandEventListener.Init</referencedby>
+        <referencedby refid="class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769" compoundref="_command_event_listener_8cs" startline="60" endline="67">CommandEventListener.OnEventRaised</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_event_listener_1afa9d6933ed7daa06a2a4e9b42d614200" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent GameEventListener.Response</definition>
+        <argsstring></argsstring>
+        <name>Response</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" line="13" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_game_event_listener_1a53d01e4391a42df3c2369e7b978b71e3" compoundref="_game_event_listener_8cs" startline="25" endline="28">OnEventRaised</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_event_listener_1af1d5585a115b74d5e304d79fa73775ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameEventListener.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_event_listener_1a31d742a3f342a583325dd2fff80de358" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameEventListener.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" line="20" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_event_listener_1a53d01e4391a42df3c2369e7b978b71e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GameEventListener.OnEventRaised</definition>
+        <argsstring>()</argsstring>
+        <name>OnEventRaised</name>
+        <reimplementedby refid="class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769">OnEventRaised</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" line="25" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" bodystart="25" bodyend="28"/>
+        <references refid="class_game_event_listener_1afa9d6933ed7daa06a2a4e9b42d614200" compoundref="_game_event_listener_8cs" startline="13">Response</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CommandEventListener</label>
+        <link refid="class_command_event_listener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GameEventListener</label>
+        <link refid="class_game_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GameEventListener</label>
+        <link refid="class_game_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+Event</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEventListener.cs" bodystart="8" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_game_event_listener_1a1eddb6859899c538bfb7fda1a6afb5f0" prot="public" virt="non-virtual"><scope>GameEventListener</scope><name>Event</name></member>
+      <member refid="class_game_event_listener_1a31d742a3f342a583325dd2fff80de358" prot="private" virt="non-virtual"><scope>GameEventListener</scope><name>OnDisable</name></member>
+      <member refid="class_game_event_listener_1af1d5585a115b74d5e304d79fa73775ab" prot="private" virt="non-virtual"><scope>GameEventListener</scope><name>OnEnable</name></member>
+      <member refid="class_game_event_listener_1a53d01e4391a42df3c2369e7b978b71e3" prot="public" virt="virtual"><scope>GameEventListener</scope><name>OnEventRaised</name></member>
+      <member refid="class_game_event_listener_1afa9d6933ed7daa06a2a4e9b42d614200" prot="public" virt="non-virtual"><scope>GameEventListener</scope><name>Response</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

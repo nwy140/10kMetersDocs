@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_simple_controls_1_1_i_gameplay_actions" kind="interface" language="C#" prot="public">
+    <compoundname>SimpleControls::IGameplayActions</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_simple_controls_1_1_i_gameplay_actions_1ab1604849bf93553c8f708bcde939b9cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleControls.IGameplayActions.OnFire</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnFire</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs" line="274" column="14"/>
+        <referencedby refid="struct_simple_controls_1_1_gameplay_actions_1a2c88429e12fb563d33d63a51245fc7a2" compoundref="_simple_controls_8cs" startline="242" endline="269">SimpleControls.GameplayActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_simple_controls_1_1_i_gameplay_actions_1abf3d19d7ed1a44d120f2cb6d48360464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleControls.IGameplayActions.OnMove</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnMove</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs" line="275" column="14"/>
+        <referencedby refid="struct_simple_controls_1_1_gameplay_actions_1a2c88429e12fb563d33d63a51245fc7a2" compoundref="_simple_controls_8cs" startline="242" endline="269">SimpleControls.GameplayActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_simple_controls_1_1_i_gameplay_actions_1a7890e9fde7d8247885cc638dc6e9c55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleControls.IGameplayActions.OnLook</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnLook</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs" line="276" column="14"/>
+        <referencedby refid="struct_simple_controls_1_1_gameplay_actions_1a2c88429e12fb563d33d63a51245fc7a2" compoundref="_simple_controls_8cs" startline="242" endline="269">SimpleControls.GameplayActions.SetCallbacks</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>SimpleControls.IGameplayActions</label>
+        <link refid="interface_simple_controls_1_1_i_gameplay_actions"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs" line="272" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs" bodystart="273" bodyend="277"/>
+    <listofallmembers>
+      <member refid="interface_simple_controls_1_1_i_gameplay_actions_1ab1604849bf93553c8f708bcde939b9cf" prot="public" virt="non-virtual"><scope>SimpleControls::IGameplayActions</scope><name>OnFire</name></member>
+      <member refid="interface_simple_controls_1_1_i_gameplay_actions_1a7890e9fde7d8247885cc638dc6e9c55e" prot="public" virt="non-virtual"><scope>SimpleControls::IGameplayActions</scope><name>OnLook</name></member>
+      <member refid="interface_simple_controls_1_1_i_gameplay_actions_1abf3d19d7ed1a44d120f2cb6d48360464" prot="public" virt="non-virtual"><scope>SimpleControls::IGameplayActions</scope><name>OnMove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

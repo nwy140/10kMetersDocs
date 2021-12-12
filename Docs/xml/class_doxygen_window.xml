@@ -1,0 +1,664 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_doxygen_window" kind="class" language="C#" prot="public">
+    <compoundname>DoxygenWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_doxygen_window_1ad1f6043062e30f52cb634b72294a5676" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>WindowModes</name>
+        <enumvalue id="class_doxygen_window_1ad1f6043062e30f52cb634b72294a5676a32b919d18cfaca89383f6000dcc9c031" prot="public">
+          <name>Generate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_doxygen_window_1ad1f6043062e30f52cb634b72294a5676a254f642527b45bc260048e30704edb39" prot="public">
+          <name>Configuration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_doxygen_window_1ad1f6043062e30f52cb634b72294a5676a8f7f4c1ce7a4f933663d10543562b096" prot="public">
+          <name>About</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="39" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_doxygen_window_1a45d09c9a64d2873367470303789e3bf9" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_doxygen_window" kindref="compound">DoxygenWindow</ref></type>
+        <definition>DoxygenWindow DoxygenWindow.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="38" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1a48f456c44b07cc9283a0583579b1d65a" compoundref="_doxygen_window_8cs" startline="62" endline="68">Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_doxygen_window_1a0c52f34973444c41e90151536dbd6e82" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenWindow.UnityProjectID</definition>
+        <argsstring></argsstring>
+        <name>UnityProjectID</name>
+        <initializer>= PlayerSettings.productName+&quot;:&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="40" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" compoundref="_doxygen_window_8cs" startline="317" endline="359">MakeNewDoxyFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a470870b3c6a44b3fe2f57870e39cfe55" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenWindow.AssestsFolder</definition>
+        <argsstring></argsstring>
+        <name>AssestsFolder</name>
+        <initializer>= Application.dataPath</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="41" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a2dfb0ba26737a0e996797c2848cc2fc0" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] DoxygenWindow.Themes</definition>
+        <argsstring></argsstring>
+        <name>Themes</name>
+        <initializer>= new string[3] {&quot;Default&quot;, &quot;Dark and Colorful&quot;, &quot;Light and Clean&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="42" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1aff9bfc8c7ed3f017a61e67025ea7c99a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DoxygenWindow.SelectedTheme</definition>
+        <argsstring></argsstring>
+        <name>SelectedTheme</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="43" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" compoundref="_doxygen_window_8cs" startline="317" endline="359">MakeNewDoxyFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a7a4acfac0a07a2a05f183e4f0bc53b62" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenWindow.BaseFileString</definition>
+        <argsstring></argsstring>
+        <name>BaseFileString</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="52" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" compoundref="_doxygen_window_8cs" startline="317" endline="359">MakeNewDoxyFile</referencedby>
+        <referencedby refid="class_doxygen_window_1a5ba38d9b1d93fa627bc3b53cdd1dda17" compoundref="_doxygen_window_8cs" startline="307" endline="315">readBaseConfig</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a20e7d1bdb1f32c97f600bf0f0bdb2358" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenWindow.DoxygenOutputString</definition>
+        <argsstring></argsstring>
+        <name>DoxygenOutputString</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="53" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a82b41ae2e3c44b050acc7603031ccd55" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenWindow.CurentOutput</definition>
+        <argsstring></argsstring>
+        <name>CurentOutput</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="54" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_doxygen_window_1a55e152c7a59888faa7f3f889351e70ba" prot="private" static="no" mutable="no">
+        <type><ref refid="class_doxygen_window_1ad1f6043062e30f52cb634b72294a5676" kindref="member">WindowModes</ref></type>
+        <definition>WindowModes DoxygenWindow.DisplayMode</definition>
+        <argsstring></argsstring>
+        <name>DisplayMode</name>
+        <initializer>= <ref refid="class_doxygen_window_1ad1f6043062e30f52cb634b72294a5676a32b919d18cfaca89383f6000dcc9c031" kindref="member">WindowModes.Generate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="44" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1ae5bddf75fc118bfcdcf89178af0b137c" prot="private" static="no" mutable="no">
+        <type>StringReader</type>
+        <definition>StringReader DoxygenWindow.reader</definition>
+        <argsstring></argsstring>
+        <name>reader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="47" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1abcad1d9903966462488d07a55532ec96" prot="private" static="no" mutable="no">
+        <type>TextAsset</type>
+        <definition>TextAsset DoxygenWindow.basefile</definition>
+        <argsstring></argsstring>
+        <name>basefile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="48" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a34901097b2f19f593ad99f8cd31cc674" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DoxygenWindow.DoxyfileCreateProgress</definition>
+        <argsstring></argsstring>
+        <name>DoxyfileCreateProgress</name>
+        <initializer>= -1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="49" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a04a2fe9d8888fe40ded7c4dbb356eb43" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DoxygenWindow.DoxyoutputProgress</definition>
+        <argsstring></argsstring>
+        <name>DoxyoutputProgress</name>
+        <initializer>= -1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="50" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a407b8cf7975d05767ab2be6ba6fd4e48" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenWindow.CreateProgressString</definition>
+        <argsstring></argsstring>
+        <name>CreateProgressString</name>
+        <initializer>= &quot;Creating Doxyfile..&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="51" column="8" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a25be008a208a986b9f7ed4d0bc97b496" prot="private" static="no" mutable="no">
+        <type><ref refid="class_doxy_thread_safe_output" kindref="compound">DoxyThreadSafeOutput</ref></type>
+        <definition>DoxyThreadSafeOutput DoxygenWindow.DoxygenOutput</definition>
+        <argsstring></argsstring>
+        <name>DoxygenOutput</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="55" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1ad58a5dc257ce9ca250e8d3449116214c" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; DoxygenWindow.DoxygenLog</definition>
+        <argsstring></argsstring>
+        <name>DoxygenLog</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="56" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a8bde5475f165ba2ab4b9bda3118d128b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DoxygenWindow.ViewLog</definition>
+        <argsstring></argsstring>
+        <name>ViewLog</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="57" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a5c798273b2084bdb2e59384cc5fc7988" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 DoxygenWindow.scroll</definition>
+        <argsstring></argsstring>
+        <name>scroll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="58" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a077740461a695c034da59b5350a91ed3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DoxygenWindow.DocsGenerated</definition>
+        <argsstring></argsstring>
+        <name>DocsGenerated</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="59" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_doxygen_window_1ac439d9ec5109d842ff9d545b5f3f4f5f" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_doxygen_config" kindref="compound">DoxygenConfig</ref></type>
+        <definition>DoxygenConfig DoxygenWindow.Config</definition>
+        <argsstring></argsstring>
+        <name>Config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="45" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_window_1a2ac948405f6837da408af38fbb3bce94" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool DoxygenWindow.DoxyFileExists</definition>
+        <argsstring></argsstring>
+        <name>DoxyFileExists</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="46" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_doxygen_window_1a48f456c44b07cc9283a0583579b1d65a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DoxygenWindow.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="62" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="62" bodyend="68"/>
+        <references refid="class_doxygen_window_1a45d09c9a64d2873367470303789e3bf9" compoundref="_doxygen_window_8cs" startline="38">Instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1a2809a93b756a6cfc371ee76a9d7168d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DoxygenWindow.OnDoxygenFinished</definition>
+        <argsstring>(int code)</argsstring>
+        <name>OnDoxygenFinished</name>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="406" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="406" bodyend="412"/>
+        <referencedby refid="class_doxygen_window_1a63924417d5b5b7a71570ec9a9ef1ca5e" compoundref="_doxygen_window_8cs" startline="432" endline="446">RunDoxygen</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_doxygen_window_1a17c26f4d5085459ee8a1e32fbe06bb9d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="70" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1abbcaf2088b8039ad61726d4f117fb918" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="76" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1ad1e45df94b1f6cfea9a99f1e3c6920dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="82" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="82" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1ad179f3137dc60602ccc923623a5caed9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.DisplayHeadingToolbar</definition>
+        <argsstring>()</argsstring>
+        <name>DisplayHeadingToolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="101" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="101" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1aaed13a997dde94a58f1f664661c9a898" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.ConfigGUI</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="126" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="126" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1ac13b24988e13a8129702618c45618629" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.AboutGUI</definition>
+        <argsstring>()</argsstring>
+        <name>AboutGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="189" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="189" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1a22550b6648437b01aed667098462184d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.GenerateGUI</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="219" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="219" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1a2df895f6ab15062017644de848f70fdf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.SaveConfigtoEditor</definition>
+        <argsstring>(DoxygenConfig config)</argsstring>
+        <name>SaveConfigtoEditor</name>
+        <param>
+          <type><ref refid="class_doxygen_config" kindref="compound">DoxygenConfig</ref></type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="361" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="361" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1a90d219aa71b1402344c3ba8911abf1e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.LoadConfig</definition>
+        <argsstring>()</argsstring>
+        <name>LoadConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="372" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="372" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1a719e851548f08011b7cc1f1d0de44cda" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DoxygenWindow.LoadSavedConfig</definition>
+        <argsstring>()</argsstring>
+        <name>LoadSavedConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="391" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="391" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1a6bab0bf619cae4e207e0e97ebc7b433b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.SetTheme</definition>
+        <argsstring>(int theme)</argsstring>
+        <name>SetTheme</name>
+        <param>
+          <type>int</type>
+          <declname>theme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="414" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="414" bodyend="430"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_doxygen_window_1a5ba38d9b1d93fa627bc3b53cdd1dda17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.readBaseConfig</definition>
+        <argsstring>()</argsstring>
+        <name>readBaseConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="307" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="307" bodyend="315"/>
+        <references refid="class_doxygen_window_1a7a4acfac0a07a2a05f183e4f0bc53b62" compoundref="_doxygen_window_8cs" startline="52">BaseFileString</references>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.MakeNewDoxyFile</definition>
+        <argsstring>(DoxygenConfig config)</argsstring>
+        <name>MakeNewDoxyFile</name>
+        <param>
+          <type><ref refid="class_doxygen_config" kindref="compound">DoxygenConfig</ref></type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="317" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="317" bodyend="359"/>
+        <references refid="class_doxygen_window_1a7a4acfac0a07a2a05f183e4f0bc53b62" compoundref="_doxygen_window_8cs" startline="52">BaseFileString</references>
+        <references refid="class_doxygen_config_1aea9ba41fe61487effafbeb77120749f0" compoundref="_doxygen_window_8cs" startline="26">DoxygenConfig.DocDirectory</references>
+        <references refid="class_doxygen_config_1ae69318495ba1db9f3a4d88e01764f9b4" compoundref="_doxygen_window_8cs" startline="22">DoxygenConfig.Project</references>
+        <references refid="class_doxygen_config_1aea53b2e7fc0f47a7f658ce25e65c4a09" compoundref="_doxygen_window_8cs" startline="25">DoxygenConfig.ScriptsDirectory</references>
+        <references refid="class_doxygen_window_1aff9bfc8c7ed3f017a61e67025ea7c99a" compoundref="_doxygen_window_8cs" startline="43">SelectedTheme</references>
+        <references refid="class_doxygen_config_1a2b1926144ba2768c36de32a8d3445567" compoundref="_doxygen_window_8cs" startline="23">DoxygenConfig.Synopsis</references>
+        <references refid="class_doxygen_window_1a0c52f34973444c41e90151536dbd6e82" compoundref="_doxygen_window_8cs" startline="40">UnityProjectID</references>
+        <references refid="class_doxygen_config_1af72cbcc553de9766a100f77f90c35626" compoundref="_doxygen_window_8cs" startline="24">DoxygenConfig.Version</references>
+      </memberdef>
+      <memberdef kind="function" id="class_doxygen_window_1a63924417d5b5b7a71570ec9a9ef1ca5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxygenWindow.RunDoxygen</definition>
+        <argsstring>()</argsstring>
+        <name>RunDoxygen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="432" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="432" bodyend="446"/>
+        <references refid="class_doxygen_config_1aea9ba41fe61487effafbeb77120749f0" compoundref="_doxygen_window_8cs" startline="26">DoxygenConfig.DocDirectory</references>
+        <references refid="class_doxygen_window_1a2809a93b756a6cfc371ee76a9d7168d7" compoundref="_doxygen_window_8cs" startline="406" endline="412">OnDoxygenFinished</references>
+        <references refid="class_doxygen_config_1ad308ed1d0bdb202587fba232b754929f" compoundref="_doxygen_window_8cs" startline="27">DoxygenConfig.PathtoDoxygen</references>
+        <references refid="class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6" compoundref="_doxygen_window_8cs" startline="479" endline="486">DoxyRunner.RunThreadedDoxy</references>
+        <references refid="class_doxy_thread_safe_output_1ad08186c77f145bc3cb1ddb50259ef589" compoundref="_doxygen_window_8cs" startline="653" endline="664">DoxyThreadSafeOutput.SetStarted</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Editor Plugin for automatic doc generation through Doxygen</para>
+<para>Author: Jacob Pennock (<ulink url="http://Jacobpennock.com">http://Jacobpennock.com</ulink>)</para>
+<para>Version: 1.0</para>
+<para><linebreak/>
+ </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DoxygenWindow</label>
+        <link refid="class_doxygen_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DoxygenWindow</label>
+        <link refid="class_doxygen_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="36" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="37" bodyend="448"/>
+    <listofallmembers>
+      <member refid="class_doxygen_window_1ac13b24988e13a8129702618c45618629" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>AboutGUI</name></member>
+      <member refid="class_doxygen_window_1a470870b3c6a44b3fe2f57870e39cfe55" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>AssestsFolder</name></member>
+      <member refid="class_doxygen_window_1abcad1d9903966462488d07a55532ec96" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>basefile</name></member>
+      <member refid="class_doxygen_window_1a7a4acfac0a07a2a05f183e4f0bc53b62" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>BaseFileString</name></member>
+      <member refid="class_doxygen_window_1ac439d9ec5109d842ff9d545b5f3f4f5f" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>Config</name></member>
+      <member refid="class_doxygen_window_1aaed13a997dde94a58f1f664661c9a898" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>ConfigGUI</name></member>
+      <member refid="class_doxygen_window_1a407b8cf7975d05767ab2be6ba6fd4e48" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>CreateProgressString</name></member>
+      <member refid="class_doxygen_window_1a82b41ae2e3c44b050acc7603031ccd55" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>CurentOutput</name></member>
+      <member refid="class_doxygen_window_1ad179f3137dc60602ccc923623a5caed9" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>DisplayHeadingToolbar</name></member>
+      <member refid="class_doxygen_window_1a55e152c7a59888faa7f3f889351e70ba" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>DisplayMode</name></member>
+      <member refid="class_doxygen_window_1a077740461a695c034da59b5350a91ed3" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>DocsGenerated</name></member>
+      <member refid="class_doxygen_window_1a34901097b2f19f593ad99f8cd31cc674" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>DoxyfileCreateProgress</name></member>
+      <member refid="class_doxygen_window_1a2ac948405f6837da408af38fbb3bce94" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>DoxyFileExists</name></member>
+      <member refid="class_doxygen_window_1ad58a5dc257ce9ca250e8d3449116214c" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>DoxygenLog</name></member>
+      <member refid="class_doxygen_window_1a25be008a208a986b9f7ed4d0bc97b496" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>DoxygenOutput</name></member>
+      <member refid="class_doxygen_window_1a20e7d1bdb1f32c97f600bf0f0bdb2358" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>DoxygenOutputString</name></member>
+      <member refid="class_doxygen_window_1a04a2fe9d8888fe40ded7c4dbb356eb43" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>DoxyoutputProgress</name></member>
+      <member refid="class_doxygen_window_1a22550b6648437b01aed667098462184d" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>GenerateGUI</name></member>
+      <member refid="class_doxygen_window_1a48f456c44b07cc9283a0583579b1d65a" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>Init</name></member>
+      <member refid="class_doxygen_window_1a45d09c9a64d2873367470303789e3bf9" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>Instance</name></member>
+      <member refid="class_doxygen_window_1a90d219aa71b1402344c3ba8911abf1e5" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>LoadConfig</name></member>
+      <member refid="class_doxygen_window_1a719e851548f08011b7cc1f1d0de44cda" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>LoadSavedConfig</name></member>
+      <member refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>MakeNewDoxyFile</name></member>
+      <member refid="class_doxygen_window_1abbcaf2088b8039ad61726d4f117fb918" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>OnDisable</name></member>
+      <member refid="class_doxygen_window_1a2809a93b756a6cfc371ee76a9d7168d7" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>OnDoxygenFinished</name></member>
+      <member refid="class_doxygen_window_1a17c26f4d5085459ee8a1e32fbe06bb9d" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>OnEnable</name></member>
+      <member refid="class_doxygen_window_1ad1e45df94b1f6cfea9a99f1e3c6920dd" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>OnGUI</name></member>
+      <member refid="class_doxygen_window_1a5ba38d9b1d93fa627bc3b53cdd1dda17" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>readBaseConfig</name></member>
+      <member refid="class_doxygen_window_1ae5bddf75fc118bfcdcf89178af0b137c" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>reader</name></member>
+      <member refid="class_doxygen_window_1a63924417d5b5b7a71570ec9a9ef1ca5e" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>RunDoxygen</name></member>
+      <member refid="class_doxygen_window_1a2df895f6ab15062017644de848f70fdf" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>SaveConfigtoEditor</name></member>
+      <member refid="class_doxygen_window_1a5c798273b2084bdb2e59384cc5fc7988" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>scroll</name></member>
+      <member refid="class_doxygen_window_1aff9bfc8c7ed3f017a61e67025ea7c99a" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>SelectedTheme</name></member>
+      <member refid="class_doxygen_window_1a6bab0bf619cae4e207e0e97ebc7b433b" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>SetTheme</name></member>
+      <member refid="class_doxygen_window_1a2dfb0ba26737a0e996797c2848cc2fc0" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>Themes</name></member>
+      <member refid="class_doxygen_window_1a0c52f34973444c41e90151536dbd6e82" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>UnityProjectID</name></member>
+      <member refid="class_doxygen_window_1a8bde5475f165ba2ab4b9bda3118d128b" prot="private" virt="non-virtual"><scope>DoxygenWindow</scope><name>ViewLog</name></member>
+      <member refid="class_doxygen_window_1ad1f6043062e30f52cb634b72294a5676" prot="public" virt="non-virtual"><scope>DoxygenWindow</scope><name>WindowModes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

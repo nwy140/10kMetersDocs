@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_fxaa_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.FxaaComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.FxaaComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.FxaaComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_fxaa_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.FxaaComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_fxaa_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_fxaa_component_1a6525bbafd720828046143061fa322d9a">Render</link> (RenderTexture source, RenderTexture destination)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_fxaa_component_1a957e4d3dd96f10cfb3668b391a188d43">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_fxaa_component_1a6525bbafd720828046143061fa322d9a"/><section>
+    <title>Render()</title>
+<indexterm><primary>Render</primary><secondary>UnityEngine.PostProcessing.FxaaComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.FxaaComponent</primary><secondary>Render</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.FxaaComponent.Render (RenderTexture source, RenderTexture destination)</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_fxaa_component_1a957e4d3dd96f10cfb3668b391a188d43"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.FxaaComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.FxaaComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.FxaaComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__fxaa_component_8cs">FxaaComponent.cs</link></section>
+</section>

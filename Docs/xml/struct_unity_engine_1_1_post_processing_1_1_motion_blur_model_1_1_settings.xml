@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings" kind="struct" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::MotionBlurModel::Settings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings_1aa87f06f32cbabf70b57bb5d1222a7289" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.MotionBlurModel.Settings.shutterAngle</definition>
+        <argsstring></argsstring>
+        <name>shutterAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" line="12" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings_1a5d2163b0f3cdf31d768131d211608523" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.PostProcessing.MotionBlurModel.Settings.sampleCount</definition>
+        <argsstring></argsstring>
+        <name>sampleCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" line="15" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings_1a1342d04370729632c1e169d6e909a601" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.MotionBlurModel.Settings.frameBlending</definition>
+        <argsstring></argsstring>
+        <name>frameBlending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" line="18" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings_1a9cab7b33d1ea48a1a47b58d93958dbe0" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.MotionBlurModel.Settings.defaultSettings</definition>
+        <argsstring></argsstring>
+        <name>defaultSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" line="20" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" bodystart="21" bodyend="31"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model_1a04196279454910f3f9c840378a80b8c7" compoundref="_motion_blur_model_8cs" startline="42" endline="45">UnityEngine.PostProcessing.MotionBlurModel.Reset</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.MotionBlurModel.Settings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" line="9" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/MotionBlurModel.cs" bodystart="10" bodyend="32"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings_1a9cab7b33d1ea48a1a47b58d93958dbe0" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurModel::Settings</scope><name>defaultSettings</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings_1a1342d04370729632c1e169d6e909a601" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurModel::Settings</scope><name>frameBlending</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings_1a5d2163b0f3cdf31d768131d211608523" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurModel::Settings</scope><name>sampleCount</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_model_1_1_settings_1aa87f06f32cbabf70b57bb5d1222a7289" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurModel::Settings</scope><name>shutterAngle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

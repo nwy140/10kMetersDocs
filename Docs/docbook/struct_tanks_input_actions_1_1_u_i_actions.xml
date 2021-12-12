@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_tanks_input_actions_1_1_u_i_actions" xml:lang="en-US">
+<title>TanksInputActions.UIActions Struct Reference</title>
+<indexterm><primary>TanksInputActions.UIActions</primary></indexterm>
+Collaboration diagram for TanksInputActions.UIActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_u_i_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1a57fc9b811c67f138dc7874cdaa6451fa">UIActions</link> (@<link linkend="_class_tanks_input_actions">TanksInputActions</link> wrapper)</para>
+</listitem>
+            <listitem><para>InputActionMap <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1a185c394c3f2fb2845e5cdfe16049a933">Get</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1a413a415e3d4bab3f954712ee017493da">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1ae645cab4a85f9ecfc7f9f5f5600acd25">Disable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1a7e431847345823d2e663d48104748e75">SetCallbacks</link> (<link linkend="_interface_tanks_input_actions_1_1_i_u_i_actions">IUIActions</link> instance)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static implicit <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1a004451fea3a018732e5cdb83e5d0537f">operator InputActionMap</link> (<link linkend="_struct_tanks_input_actions_1_1_u_i_actions">UIActions</link> set)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1adc2930d88a9203f40736ab7214755ab4">Navigate</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1aecf3fe06800d132a6c71265896509f60">Submit</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1a363232d9490790a19e6da80cbd021b9a">Cancel</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1a517c93b1e1d67bea761e2073d26866b5">Point</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1ab82970bf97323adc87c7fad434aeaa79">Click</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_tanks_input_actions_1_1_u_i_actions_1ac50ea20645a9d49a967da8476a2535c9">enabled</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1a57fc9b811c67f138dc7874cdaa6451fa"/><section>
+    <title>UIActions()</title>
+<indexterm><primary>UIActions</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>UIActions</secondary></indexterm>
+<para><computeroutput>TanksInputActions.UIActions.UIActions (@<link linkend="_class_tanks_input_actions">TanksInputActions</link> wrapper)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1ae645cab4a85f9ecfc7f9f5f5600acd25"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.UIActions.Disable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_u_i_actions_ae645cab4a85f9ecfc7f9f5f5600acd25_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1a413a415e3d4bab3f954712ee017493da"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.UIActions.Enable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_u_i_actions_a413a415e3d4bab3f954712ee017493da_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1a185c394c3f2fb2845e5cdfe16049a933"/><section>
+    <title>Get()</title>
+<indexterm><primary>Get</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>InputActionMap TanksInputActions.UIActions.Get ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_u_i_actions_a185c394c3f2fb2845e5cdfe16049a933_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1a004451fea3a018732e5cdb83e5d0537f"/><section>
+    <title>operator InputActionMap()</title>
+<indexterm><primary>operator InputActionMap</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>operator InputActionMap</secondary></indexterm>
+<para><computeroutput>static implicit TanksInputActions.UIActions.operator InputActionMap (<link linkend="_struct_tanks_input_actions_1_1_u_i_actions">UIActions</link> set)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1a7e431847345823d2e663d48104748e75"/><section>
+    <title>SetCallbacks()</title>
+<indexterm><primary>SetCallbacks</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>SetCallbacks</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.UIActions.SetCallbacks (<link linkend="_interface_tanks_input_actions_1_1_i_u_i_actions">IUIActions</link> instance)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_u_i_actions_a7e431847345823d2e663d48104748e75_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1a363232d9490790a19e6da80cbd021b9a"/><section>
+    <title>Cancel</title>
+<indexterm><primary>Cancel</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>Cancel</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.UIActions.Cancel<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1ab82970bf97323adc87c7fad434aeaa79"/><section>
+    <title>Click</title>
+<indexterm><primary>Click</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>Click</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.UIActions.Click<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1ac50ea20645a9d49a967da8476a2535c9"/><section>
+    <title>enabled</title>
+<indexterm><primary>enabled</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>enabled</secondary></indexterm>
+<para><computeroutput>bool TanksInputActions.UIActions.enabled<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1adc2930d88a9203f40736ab7214755ab4"/><section>
+    <title>Navigate</title>
+<indexterm><primary>Navigate</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>Navigate</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.UIActions.Navigate<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1a517c93b1e1d67bea761e2073d26866b5"/><section>
+    <title>Point</title>
+<indexterm><primary>Point</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>Point</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.UIActions.Point<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_u_i_actions_1aecf3fe06800d132a6c71265896509f60"/><section>
+    <title>Submit</title>
+<indexterm><primary>Submit</primary><secondary>TanksInputActions.UIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.UIActions</primary><secondary>Submit</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.UIActions.Submit<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/<link linkend="__tanks_input_actions_8cs">TanksInputActions.cs</link></section>
+</section>

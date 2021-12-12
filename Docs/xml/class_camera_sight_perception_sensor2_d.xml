@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_camera_sight_perception_sensor2_d" kind="class" language="C#" prot="public">
+    <compoundname>CameraSightPerceptionSensor2D</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_sight_perception_sensor2_d_1a2a03e2917382143567e9114149748c0e" prot="public" static="no" mutable="no">
+        <type>List&lt; SpriteRenderer &gt;</type>
+        <definition>List&lt;SpriteRenderer&gt; CameraSightPerceptionSensor2D.renderers</definition>
+        <argsstring></argsstring>
+        <name>renderers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="14" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_camera_sight_perception_sensor2_d_1ae3eb66f2f940eafaaf634b1d3bfb6506" compoundref="_camera_sight_perception_sensor2_d_8cs" startline="34" endline="53">RefreshRenderersList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_sight_perception_sensor2_d_1adedb682ee7cead7a4e23568ca2ab59ea" prot="public" static="no" mutable="no">
+        <type>List&lt; Transform &gt;</type>
+        <definition>List&lt;Transform&gt; CameraSightPerceptionSensor2D.visibleRenderers</definition>
+        <argsstring></argsstring>
+        <name>visibleRenderers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="15" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" compoundref="_n_p_c_a_i_system_type_a_8cs" startline="81" endline="125">NPCAISystemTypeA.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_sight_perception_sensor2_d_1a89e9798864264dd69c5b2bcb3564ff2c" prot="public" static="no" mutable="no">
+        <type>List&lt; Camera &gt;</type>
+        <definition>List&lt;Camera&gt; CameraSightPerceptionSensor2D.cameras</definition>
+        <argsstring></argsstring>
+        <name>cameras</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="16" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_sight_perception_sensor2_d_1a6d2c692752db589b4f1b3811822a951f" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CameraSightPerceptionSensor2D.ownerRootObj</definition>
+        <argsstring></argsstring>
+        <name>ownerRootObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="17" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_sight_perception_sensor2_d_1a150e667883354a4282610d9664b00570" prot="private" static="no" mutable="no">
+        <type>List&lt; SpriteRenderer &gt;</type>
+        <definition>List&lt;SpriteRenderer&gt; CameraSightPerceptionSensor2D.renderersUnderCurrentOwnerObj</definition>
+        <argsstring></argsstring>
+        <name>renderersUnderCurrentOwnerObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="19" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_sight_perception_sensor2_d_1a11fcaca2d4d88628a92a65507ee05290" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraSightPerceptionSensor2D.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="21" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="21" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_sight_perception_sensor2_d_1a923eb93d9344a450200710e5c00cb35e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraSightPerceptionSensor2D.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="55" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_sight_perception_sensor2_d_1a52cb688a9712a6112edb7f5eac93b355" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraSightPerceptionSensor2D.OutputVisibleRenderers</definition>
+        <argsstring>(List&lt; SpriteRenderer &gt; renderers)</argsstring>
+        <name>OutputVisibleRenderers</name>
+        <param>
+          <type>List&lt; SpriteRenderer &gt;</type>
+          <declname>renderers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="61" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="61" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_sight_perception_sensor2_d_1af091d693990581be041156ad99091756" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CameraSightPerceptionSensor2D.IsVisible</definition>
+        <argsstring>(Renderer renderer)</argsstring>
+        <name>IsVisible</name>
+        <param>
+          <type>Renderer</type>
+          <declname>renderer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="81" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="81" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_sight_perception_sensor2_d_1ae3eb66f2f940eafaaf634b1d3bfb6506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraSightPerceptionSensor2D.RefreshRenderersList</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshRenderersList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="34" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="34" bodyend="53"/>
+        <references refid="class_camera_sight_perception_sensor2_d_1a2a03e2917382143567e9114149748c0e" compoundref="_camera_sight_perception_sensor2_d_8cs" startline="14">renderers</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CameraSightPerceptionSensor2D</label>
+        <link refid="class_camera_sight_perception_sensor2_d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CameraSightPerceptionSensor2D</label>
+        <link refid="class_camera_sight_perception_sensor2_d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" line="9" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/CameraSightPerceptionSensor2D.cs" bodystart="10" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_camera_sight_perception_sensor2_d_1a11fcaca2d4d88628a92a65507ee05290" prot="private" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>Awake</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1a89e9798864264dd69c5b2bcb3564ff2c" prot="public" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>cameras</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1af091d693990581be041156ad99091756" prot="private" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>IsVisible</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1a52cb688a9712a6112edb7f5eac93b355" prot="private" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>OutputVisibleRenderers</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1a6d2c692752db589b4f1b3811822a951f" prot="public" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>ownerRootObj</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1ae3eb66f2f940eafaaf634b1d3bfb6506" prot="public" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>RefreshRenderersList</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1a2a03e2917382143567e9114149748c0e" prot="public" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>renderers</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1a150e667883354a4282610d9664b00570" prot="private" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>renderersUnderCurrentOwnerObj</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1a923eb93d9344a450200710e5c00cb35e" prot="private" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>Update</name></member>
+      <member refid="class_camera_sight_perception_sensor2_d_1adedb682ee7cead7a4e23568ca2ab59ea" prot="public" virt="non-virtual"><scope>CameraSightPerceptionSensor2D</scope><name>visibleRenderers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_a_i_nav_agent_common" xml:lang="en-US">
+<title>AINavAgentCommon Class Reference</title>
+<indexterm><primary>AINavAgentCommon</primary></indexterm>
+Collaboration diagram for AINavAgentCommon:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_a_i_nav_agent_common__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static Vector3 <link linkend="_class_a_i_nav_agent_common_1ae19e88601652b2e60a6eac9aac4ca042">RandomPosition</link> (Vector3 origin, float radius)</para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_a_i_nav_agent_common_1a00638ab5f76a1d3950872cf9c2c11f13">HasAgentReachedDestination</link> (NavMeshAgent mNavMeshAgent)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_a_i_nav_agent_common_1a00638ab5f76a1d3950872cf9c2c11f13"/><section>
+    <title>HasAgentReachedDestination()</title>
+<indexterm><primary>HasAgentReachedDestination</primary><secondary>AINavAgentCommon</secondary></indexterm>
+<indexterm><primary>AINavAgentCommon</primary><secondary>HasAgentReachedDestination</secondary></indexterm>
+<para><computeroutput>static bool AINavAgentCommon.HasAgentReachedDestination (NavMeshAgent mNavMeshAgent)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_a_i_nav_agent_common_a00638ab5f76a1d3950872cf9c2c11f13_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_a_i_nav_agent_common_1ae19e88601652b2e60a6eac9aac4ca042"/><section>
+    <title>RandomPosition()</title>
+<indexterm><primary>RandomPosition</primary><secondary>AINavAgentCommon</secondary></indexterm>
+<indexterm><primary>AINavAgentCommon</primary><secondary>RandomPosition</secondary></indexterm>
+<para><computeroutput>static Vector3 AINavAgentCommon.RandomPosition (Vector3 origin, float radius)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_a_i_nav_agent_common_ae19e88601652b2e60a6eac9aac4ca042_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/<link linkend="__a_i_nav_agent_common_8cs">AINavAgentCommon.cs</link></section>
+</section>

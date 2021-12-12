@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_transform_common" kind="class" language="C#" prot="public">
+    <compoundname>TransformCommon</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_transform_common_1a1471f36d15ab51b462663c8361714762" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Quaternion</type>
+        <definition>static Quaternion TransformCommon.RotateTowards</definition>
+        <argsstring>(Transform selfTransform, Transform targetTransform, float rotSpeed=1f)</argsstring>
+        <name>RotateTowards</name>
+        <param>
+          <type>Transform</type>
+          <declname>selfTransform</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>targetTransform</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rotSpeed</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/TransformCommon.cs" line="15" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/TransformCommon.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TransformCommon</label>
+        <link refid="class_transform_common"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/TransformCommon.cs" line="6" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/TransformCommon.cs" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_transform_common_1a1471f36d15ab51b462663c8361714762" prot="public" virt="non-virtual"><scope>TransformCommon</scope><name>RotateTowards</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

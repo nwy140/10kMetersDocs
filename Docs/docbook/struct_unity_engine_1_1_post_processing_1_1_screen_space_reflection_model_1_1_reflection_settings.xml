@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1acb7310312d36f7cf7cf72d923ee5271b">SSRReflectionBlendType</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1a50bcd5f5a4a49e4edf08ee51ec51ba92">blendType</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1acbe36890d4b8ede4152e13108af7ba1f">SSRResolution</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1ad613e774153cb185dfca45668fe0d4f5">reflectionQuality</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1aaf2a2ee66dd6ece709fab23b9b47f0ec">maxDistance</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1a6dbfe94aaf2dc549cb9b4e0ba39a0d97">iterationCount</link></para>
+
+<para>REFLECTIONS. </para>
+</listitem>
+            <listitem><para>int <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1aa9c897dea0883fcff97b2d9097cc882b">stepSize</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1a63c96d3aa61c8ac6734dec131841e85b">widthModifier</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1a5d0f0e42f7a47b7054f09add92c5a1d4">reflectionBlur</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1aea5f2791fe328b408dca33c78e741dd4">reflectBackfaces</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1a50bcd5f5a4a49e4edf08ee51ec51ba92"/><section>
+    <title>blendType</title>
+<indexterm><primary>blendType</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary><secondary>blendType</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1acb7310312d36f7cf7cf72d923ee5271b">SSRReflectionBlendType</link> UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings.blendType</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1a6dbfe94aaf2dc549cb9b4e0ba39a0d97"/><section>
+    <title>iterationCount</title>
+<indexterm><primary>iterationCount</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary><secondary>iterationCount</secondary></indexterm>
+<para><computeroutput>int UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings.iterationCount</computeroutput></para><para>
+
+<para>REFLECTIONS. </para>
+</para>
+</section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1aaf2a2ee66dd6ece709fab23b9b47f0ec"/><section>
+    <title>maxDistance</title>
+<indexterm><primary>maxDistance</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary><secondary>maxDistance</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings.maxDistance</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1aea5f2791fe328b408dca33c78e741dd4"/><section>
+    <title>reflectBackfaces</title>
+<indexterm><primary>reflectBackfaces</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary><secondary>reflectBackfaces</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings.reflectBackfaces</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1a5d0f0e42f7a47b7054f09add92c5a1d4"/><section>
+    <title>reflectionBlur</title>
+<indexterm><primary>reflectionBlur</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary><secondary>reflectionBlur</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings.reflectionBlur</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1ad613e774153cb185dfca45668fe0d4f5"/><section>
+    <title>reflectionQuality</title>
+<indexterm><primary>reflectionQuality</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary><secondary>reflectionQuality</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1acbe36890d4b8ede4152e13108af7ba1f">SSRResolution</link> UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings.reflectionQuality</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1aa9c897dea0883fcff97b2d9097cc882b"/><section>
+    <title>stepSize</title>
+<indexterm><primary>stepSize</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary><secondary>stepSize</secondary></indexterm>
+<para><computeroutput>int UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings.stepSize</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings_1a63c96d3aa61c8ac6734dec131841e85b"/><section>
+    <title>widthModifier</title>
+<indexterm><primary>widthModifier</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</primary><secondary>widthModifier</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings.widthModifier</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__screen_space_reflection_model_8cs">ScreenSpaceReflectionModel.cs</link></section>
+</section>

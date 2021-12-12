@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions" xml:lang="en-US">
+<title>RebindUISampleActionsModified.IUIMainActions Interface Reference</title>
+<indexterm><primary>RebindUISampleActionsModified.IUIMainActions</primary></indexterm>
+Collaboration diagram for RebindUISampleActionsModified.IUIMainActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a52da0da58f9be224b71dfaaabeef8604">OnNavigate</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a80f0f8c4ff3de03caea2a1e7a55b72ae">OnSubmit</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a6f05e2d41d39c3c0a08cceb66d0073c5">OnCancel</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a81ff576d437cf35efe5ab53d897b5a8c">OnPoint</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a50e4e31c496f88524638e23de62cb7a9">OnClick</link> (InputAction.CallbackContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a6f05e2d41d39c3c0a08cceb66d0073c5"/><section>
+    <title>OnCancel()</title>
+<indexterm><primary>OnCancel</primary><secondary>RebindUISampleActionsModified.IUIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IUIMainActions</primary><secondary>OnCancel</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IUIMainActions.OnCancel (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_a6f05e2d41d39c3c0a08cceb66d0073c5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a50e4e31c496f88524638e23de62cb7a9"/><section>
+    <title>OnClick()</title>
+<indexterm><primary>OnClick</primary><secondary>RebindUISampleActionsModified.IUIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IUIMainActions</primary><secondary>OnClick</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IUIMainActions.OnClick (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_a50e4e31c496f88524638e23de62cb7a9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a52da0da58f9be224b71dfaaabeef8604"/><section>
+    <title>OnNavigate()</title>
+<indexterm><primary>OnNavigate</primary><secondary>RebindUISampleActionsModified.IUIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IUIMainActions</primary><secondary>OnNavigate</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IUIMainActions.OnNavigate (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_a52da0da58f9be224b71dfaaabeef8604_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a81ff576d437cf35efe5ab53d897b5a8c"/><section>
+    <title>OnPoint()</title>
+<indexterm><primary>OnPoint</primary><secondary>RebindUISampleActionsModified.IUIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IUIMainActions</primary><secondary>OnPoint</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IUIMainActions.OnPoint (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_a81ff576d437cf35efe5ab53d897b5a8c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_1a80f0f8c4ff3de03caea2a1e7a55b72ae"/><section>
+    <title>OnSubmit()</title>
+<indexterm><primary>OnSubmit</primary><secondary>RebindUISampleActionsModified.IUIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IUIMainActions</primary><secondary>OnSubmit</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IUIMainActions.OnSubmit (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions_a80f0f8c4ff3de03caea2a1e7a55b72ae_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/<link linkend="__rebind_u_i_sample_actions_modified_8cs">RebindUISampleActionsModified.cs</link></section>
+</section>

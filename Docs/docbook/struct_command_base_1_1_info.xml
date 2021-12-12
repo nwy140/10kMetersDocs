@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_command_base_1_1_info" xml:lang="en-US">
+<title>CommandBase.Info Struct Reference</title>
+<indexterm><primary>CommandBase.Info</primary></indexterm>
+Collaboration diagram for CommandBase.Info:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_command_base_1_1_info__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_struct_command_base_1_1_info_1a3105505479aaffd031fe682605db46f9">_aName</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_struct_command_base_1_1_info_1a8505fce264ed940a383ed1216488985f">query</link></para>
+</listitem>
+            <listitem><para>Sprite <link linkend="_struct_command_base_1_1_info_1a82b8109ae98b7c86a6a6ecb6b4fc5d02">aSprite</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5">_DebugLog</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_command_base_1_1_info_1a3105505479aaffd031fe682605db46f9"/><section>
+    <title>_aName</title>
+<indexterm><primary>_aName</primary><secondary>CommandBase.Info</secondary></indexterm>
+<indexterm><primary>CommandBase.Info</primary><secondary>_aName</secondary></indexterm>
+<para><computeroutput>string CommandBase.Info._aName</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5"/><section>
+    <title>_DebugLog</title>
+<indexterm><primary>_DebugLog</primary><secondary>CommandBase.Info</secondary></indexterm>
+<indexterm><primary>CommandBase.Info</primary><secondary>_DebugLog</secondary></indexterm>
+<para><computeroutput>bool CommandBase.Info._DebugLog</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_info_1a82b8109ae98b7c86a6a6ecb6b4fc5d02"/><section>
+    <title>aSprite</title>
+<indexterm><primary>aSprite</primary><secondary>CommandBase.Info</secondary></indexterm>
+<indexterm><primary>CommandBase.Info</primary><secondary>aSprite</secondary></indexterm>
+<para><computeroutput>Sprite CommandBase.Info.aSprite</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_info_1a8505fce264ed940a383ed1216488985f"/><section>
+    <title>query</title>
+<indexterm><primary>query</primary><secondary>CommandBase.Info</secondary></indexterm>
+<indexterm><primary>CommandBase.Info</primary><secondary>query</secondary></indexterm>
+<para><computeroutput>string CommandBase.Info.query</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/<link linkend="__command_base_8cs">CommandBase.cs</link></section>
+</section>

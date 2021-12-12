@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_examples_1_1_command" kind="namespace" language="C#">
+    <compoundname>Examples::Command</compoundname>
+    <innerclass refid="class_examples_1_1_command_1_1_color_creator" prot="public">Examples::Command::ColorCreator</innerclass>
+    <innerclass refid="class_examples_1_1_command_1_1_light_active_toggle" prot="public">Examples::Command::LightActiveToggle</innerclass>
+    <innerclass refid="class_examples_1_1_command_1_1_light_color_change" prot="public">Examples::Command::LightColorChange</innerclass>
+    <innerclass refid="class_examples_1_1_command_1_1_light_controller" prot="public">Examples::Command::LightController</innerclass>
+    <innerclass refid="class_examples_1_1_command_1_1_light_decrease_intensity" prot="public">Examples::Command::LightDecreaseIntensity</innerclass>
+    <innerclass refid="class_examples_1_1_command_1_1_light_increase_intensity" prot="public">Examples::Command::LightIncreaseIntensity</innerclass>
+    <briefdescription>
+<para>Utility script that creates a random color for us and returns it. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is used to test our <ref refid="namespace_examples_1_1_command" kindref="compound">Command</ref> Stack functionality.</para>
+<para>Example of a <ref refid="namespace_examples_1_1_command" kindref="compound">Command</ref> for our Light.</para>
+<para>Example of a <ref refid="namespace_examples_1_1_command" kindref="compound">Command</ref> for the light.</para>
+<para>Example of a command for the light.</para>
+<para>An example <ref refid="namespace_examples_1_1_command" kindref="compound">Command</ref> for our light that turns on and off the light component.</para>
+<para>We assign a new color to the light, and change it back when we&apos;re done. </para>
+<para>We decrease its intensity, and undo our decrease on undo </para>
+<para>We increase the intensity, and on Undo, we revert our increase. </para>
+<para>You can use key inputs to execute commands through the <ref refid="namespace_examples_1_1_command" kindref="compound">Command</ref> Stack <ref refid="namespace_examples_1_1_command" kindref="compound">Command</ref> Stack tracks history, so Undo button will undo our last command </para>
+    </detaileddescription>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/ColorCreator.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

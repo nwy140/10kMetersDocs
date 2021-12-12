@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__command_base_8cs" xml:lang="en-US">
+<title>C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs File Reference</title>
+<indexterm><primary>C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_command_base">CommandBase</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_command_base_1_1_info">CommandBase.Info</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_command_base_1_1_instance_info_runtime">CommandBase.InstanceInfoRuntime</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_command_base_1_1_cooldown_info">CommandBase.CooldownInfo</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_command_base_1_1_execution_info">CommandBase.ExecutionInfo</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955">ExecStatus</link> { 
+<link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a6adf97f83acf6453d4a6a4b1070f3754">None</link>
+, <link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a90cbe7038951ec2bdb42ba8d4b5c4ac3">ExecPress</link>
+, <link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a2bee2361239a6112b8ce5bff5dab6b23">ExecDown</link>
+, <link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a4bc90201d25949140d67f41f52b671b4">ExecDownCharging</link>
+, 
+<link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955ad7784e3b8ecc60ab08923a3c289f2a5f">ExecRelease</link>
+, <link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a4cb28f6de2d9427aa2f8a9cc52782412">Execd</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955"/><section>
+    <title>ExecStatus</title>
+<indexterm><primary>ExecStatus</primary><secondary>CommandBase.cs</secondary></indexterm>
+<indexterm><primary>CommandBase.cs</primary><secondary>ExecStatus</secondary></indexterm>
+<para><computeroutput>enum <link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955">ExecStatus</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>None</primary><secondary>CommandBase.cs</secondary></indexterm>
+<indexterm><primary>CommandBase.cs</primary><secondary>None</secondary></indexterm>
+<anchor xml:id="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a6adf97f83acf6453d4a6a4b1070f3754"/>None</entry><entry></entry></row><row><entry><indexterm><primary>ExecPress</primary><secondary>CommandBase.cs</secondary></indexterm>
+<indexterm><primary>CommandBase.cs</primary><secondary>ExecPress</secondary></indexterm>
+<anchor xml:id="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a90cbe7038951ec2bdb42ba8d4b5c4ac3"/>ExecPress</entry><entry></entry></row><row><entry><indexterm><primary>ExecDown</primary><secondary>CommandBase.cs</secondary></indexterm>
+<indexterm><primary>CommandBase.cs</primary><secondary>ExecDown</secondary></indexterm>
+<anchor xml:id="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a2bee2361239a6112b8ce5bff5dab6b23"/>ExecDown</entry><entry></entry></row><row><entry><indexterm><primary>ExecDownCharging</primary><secondary>CommandBase.cs</secondary></indexterm>
+<indexterm><primary>CommandBase.cs</primary><secondary>ExecDownCharging</secondary></indexterm>
+<anchor xml:id="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a4bc90201d25949140d67f41f52b671b4"/>ExecDownCharging</entry><entry></entry></row><row><entry><indexterm><primary>ExecRelease</primary><secondary>CommandBase.cs</secondary></indexterm>
+<indexterm><primary>CommandBase.cs</primary><secondary>ExecRelease</secondary></indexterm>
+<anchor xml:id="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955ad7784e3b8ecc60ab08923a3c289f2a5f"/>ExecRelease</entry><entry></entry></row><row><entry><indexterm><primary>Execd</primary><secondary>CommandBase.cs</secondary></indexterm>
+<indexterm><primary>CommandBase.cs</primary><secondary>Execd</secondary></indexterm>
+<anchor xml:id="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955a4cb28f6de2d9427aa2f8a9cc52782412"/>Execd</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

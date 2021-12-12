@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tank_health" xml:lang="en-US">
+<title>TankHealth Class Reference</title>
+<indexterm><primary>TankHealth</primary></indexterm>
+Inheritance diagram for TankHealth:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tank_health__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for TankHealth:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tank_health__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_tank_health_1a5b4692ca0cdcd290c19819b612a1fb6a">TakeDamage</link> (float amount)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_tank_health_1a61f61a506cd75b2382f40c87f376f547">m_StartingHealth</link> = 100f</para>
+</listitem>
+            <listitem><para>Slider <link linkend="_class_tank_health_1a4b41b54ea2d3515d6c258f2dfa352d91">m_Slider</link></para>
+</listitem>
+            <listitem><para>Image <link linkend="_class_tank_health_1afe7189f28749f37650eaee5bbe1e9569">m_FillImage</link></para>
+</listitem>
+            <listitem><para>Color <link linkend="_class_tank_health_1a42ae2cdb01a927ac318e292a408ee530">m_FullHealthColor</link> = Color.green</para>
+</listitem>
+            <listitem><para>Color <link linkend="_class_tank_health_1aa0c52687011855683ffb71b787f159fb">m_ZeroHealthColor</link> = Color.red</para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_tank_health_1a5ef8047ad181f98b49f021dcb2a79eff">m_ExplosionPrefab</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_tank_health_1a5b4692ca0cdcd290c19819b612a1fb6a"/><section>
+    <title>TakeDamage()</title>
+<indexterm><primary>TakeDamage</primary><secondary>TankHealth</secondary></indexterm>
+<indexterm><primary>TankHealth</primary><secondary>TakeDamage</secondary></indexterm>
+<para><computeroutput>void TankHealth.TakeDamage (float amount)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_tank_health_1a5ef8047ad181f98b49f021dcb2a79eff"/><section>
+    <title>m_ExplosionPrefab</title>
+<indexterm><primary>m_ExplosionPrefab</primary><secondary>TankHealth</secondary></indexterm>
+<indexterm><primary>TankHealth</primary><secondary>m_ExplosionPrefab</secondary></indexterm>
+<para><computeroutput>GameObject TankHealth.m_ExplosionPrefab</computeroutput></para></section>
+<anchor xml:id="_class_tank_health_1afe7189f28749f37650eaee5bbe1e9569"/><section>
+    <title>m_FillImage</title>
+<indexterm><primary>m_FillImage</primary><secondary>TankHealth</secondary></indexterm>
+<indexterm><primary>TankHealth</primary><secondary>m_FillImage</secondary></indexterm>
+<para><computeroutput>Image TankHealth.m_FillImage</computeroutput></para></section>
+<anchor xml:id="_class_tank_health_1a42ae2cdb01a927ac318e292a408ee530"/><section>
+    <title>m_FullHealthColor</title>
+<indexterm><primary>m_FullHealthColor</primary><secondary>TankHealth</secondary></indexterm>
+<indexterm><primary>TankHealth</primary><secondary>m_FullHealthColor</secondary></indexterm>
+<para><computeroutput>Color TankHealth.m_FullHealthColor = Color.green</computeroutput></para></section>
+<anchor xml:id="_class_tank_health_1a4b41b54ea2d3515d6c258f2dfa352d91"/><section>
+    <title>m_Slider</title>
+<indexterm><primary>m_Slider</primary><secondary>TankHealth</secondary></indexterm>
+<indexterm><primary>TankHealth</primary><secondary>m_Slider</secondary></indexterm>
+<para><computeroutput>Slider TankHealth.m_Slider</computeroutput></para></section>
+<anchor xml:id="_class_tank_health_1a61f61a506cd75b2382f40c87f376f547"/><section>
+    <title>m_StartingHealth</title>
+<indexterm><primary>m_StartingHealth</primary><secondary>TankHealth</secondary></indexterm>
+<indexterm><primary>TankHealth</primary><secondary>m_StartingHealth</secondary></indexterm>
+<para><computeroutput>float TankHealth.m_StartingHealth = 100f</computeroutput></para></section>
+<anchor xml:id="_class_tank_health_1aa0c52687011855683ffb71b787f159fb"/><section>
+    <title>m_ZeroHealthColor</title>
+<indexterm><primary>m_ZeroHealthColor</primary><secondary>TankHealth</secondary></indexterm>
+<indexterm><primary>TankHealth</primary><secondary>m_ZeroHealthColor</secondary></indexterm>
+<para><computeroutput>Color TankHealth.m_ZeroHealthColor = Color.red</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/<link linkend="__tank_health_8cs">TankHealth.cs</link></section>
+</section>

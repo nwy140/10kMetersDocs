@@ -1,0 +1,105 @@
+.TH "SceneAsyncManager" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SceneAsyncManager
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBAwake\fP ()"
+.br
+.ti -1c
+.RI "void \fBLoadScene\fP (string sceneName)"
+.br
+.ti -1c
+.RI "void \fBLoadLevel\fP (string Name)"
+.br
+.ti -1c
+.RI "void \fBRestartLevel\fP ()"
+.br
+.ti -1c
+.RI "void \fBRequestQuit\fP ()"
+.br
+.ti -1c
+.RI "void \fBLoadNextLevel\fP ()"
+.br
+.ti -1c
+.RI "int \fBGetCurrentLevelIndex\fP ()"
+.br
+.ti -1c
+.RI "void \fBLoadLevelByIndex\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBSetMouseVisibility\fP (bool isVisible)"
+.br
+.ti -1c
+.RI "void \fBPauseLevel\fP ()"
+.br
+.ti -1c
+.RI "void \fBunPauseLevel\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBisForceMouseAlwaysVisible\fP = false"
+.br
+.ti -1c
+.RI "bool \fBisNextSceneFullyLoaded\fP"
+.br
+.ti -1c
+.RI "bool \fBisWaitForAsyncFinishLoading\fP = true"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fBSceneAsyncManager\fP \fBinstance\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void SceneAsyncManager\&.Awake ()"
+
+.SS "int SceneAsyncManager\&.GetCurrentLevelIndex ()"
+
+.SS "void SceneAsyncManager\&.LoadLevel (string Name)"
+
+.SS "void SceneAsyncManager\&.LoadLevelByIndex (int index)"
+
+.SS "void SceneAsyncManager\&.LoadNextLevel ()"
+
+.SS "void SceneAsyncManager\&.LoadScene (string sceneName)"
+
+.SS "void SceneAsyncManager\&.PauseLevel ()"
+
+.SS "void SceneAsyncManager\&.RequestQuit ()"
+
+.SS "void SceneAsyncManager\&.RestartLevel ()"
+
+.SS "void SceneAsyncManager\&.SetMouseVisibility (bool isVisible)"
+
+.SS "void SceneAsyncManager\&.unPauseLevel ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBSceneAsyncManager\fP SceneAsyncManager\&.instance\fC [static]\fP"
+
+.SS "bool SceneAsyncManager\&.isForceMouseAlwaysVisible = false"
+
+.SS "bool SceneAsyncManager\&.isNextSceneFullyLoaded"
+
+.SS "bool SceneAsyncManager\&.isWaitForAsyncFinishLoading = true"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_queue_helper" kind="class" language="C#" prot="public">
+    <compoundname>CommandQueueHelper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_queue_helper_1a8d018449d627df408db833e4a3f11171" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CommandQueueHelper.commandOwnerRootObj</definition>
+        <argsstring></argsstring>
+        <name>commandOwnerRootObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="9" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_queue_helper_1a6309f9ec7e7c58b8b8a2920d6a6a05f4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_generic_dictionary" kindref="compound">GenericDictionary</ref>&lt; string, <ref refid="class_command_queue" kindref="compound">CommandQueue</ref> &gt;</type>
+        <definition>GenericDictionary&lt;string, CommandQueue&gt; CommandQueueHelper.commandQueuesDictionary</definition>
+        <argsstring></argsstring>
+        <name>commandQueuesDictionary</name>
+        <initializer>= new <ref refid="class_generic_dictionary" kindref="compound">GenericDictionary</ref>&lt;string, <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>&gt;()
+        {
+            { &quot;Primary&quot;, new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()}, 
+            { &quot;Secondary&quot;, new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()} ,
+            { &quot;Tertiary&quot;, new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()},
+            { &quot;Axis&quot;, new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()},
+            { &quot;HoldDown&quot;, new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()},
+            { &quot;NegativeEdge&quot;, new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()},  
+            { &quot;Chain&quot;, new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()},
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="13" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1" compoundref="_command_queue_helper_8cs" startline="65" endline="167">CheckSequence</referencedby>
+        <referencedby refid="class_chain_command_invoker_old_type_a_1a4464152b33b1c8cded0a3d1a5e11e82d" compoundref="_chain_command_invoker_old_type_a_8cs" startline="47" endline="58">ChainCommandInvokerOldTypeA.CheckSequenceOld</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_queue_helper_1a13b4dbede98d3e64762c5e1696aaeb01" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CommandQueueHelper.CurrentTick</definition>
+        <argsstring></argsstring>
+        <name>CurrentTick</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="58" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1" compoundref="_command_queue_helper_8cs" startline="65" endline="167">CheckSequence</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_queue_helper_1a9fc850b4fd58f361f9f18f095e959cae" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CommandQueueHelper.maxDefaultAllowedTimeDifferenceCheck</definition>
+        <argsstring></argsstring>
+        <name>maxDefaultAllowedTimeDifferenceCheck</name>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="61" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1" compoundref="_command_queue_helper_8cs" startline="65" endline="167">CheckSequence</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_command_queue_helper_1ad10468c02ca3e56796a6595152b96c2a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandQueueHelper.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="24" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_queue_helper_1a4629e36ed21364f986560492d6358c12" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandQueueHelper.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="31" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_queue_helper_1a059e73292c9585446c11e9e333e80f62" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandQueueHelper.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="49" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="49" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CommandQueueHelper.CheckSequence</definition>
+        <argsstring>(string entryQueueName, string[] sequence, string[] Sequence_Query, string[] ignoreCategory, int maxDuration, CommandBase chainCommand)</argsstring>
+        <name>CheckSequence</name>
+        <param>
+          <type>string</type>
+          <declname>entryQueueName</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>sequence</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>Sequence_Query</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>ignoreCategory</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxDuration</declname>
+        </param>
+        <param>
+          <type><ref refid="class_command_base" kindref="compound">CommandBase</ref></type>
+          <declname>chainCommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="65" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="65" bodyend="167"/>
+        <references refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" compoundref="_command_base_8cs" startline="114" endline="114">CommandBase.aName</references>
+        <references refid="class_command_queue_helper_1a6309f9ec7e7c58b8b8a2920d6a6a05f4" compoundref="_command_queue_helper_8cs" startline="13">commandQueuesDictionary</references>
+        <references refid="class_command_queue_helper_1a13b4dbede98d3e64762c5e1696aaeb01" compoundref="_command_queue_helper_8cs" startline="58">CurrentTick</references>
+        <references refid="class_command_queue_helper_1a9fc850b4fd58f361f9f18f095e959cae" compoundref="_command_queue_helper_8cs" startline="61">maxDefaultAllowedTimeDifferenceCheck</references>
+        <referencedby refid="class_command_queue_helper_1aa447c7015171043cf4a7b187675c3de7" compoundref="_command_queue_helper_8cs" startline="168" endline="179">CheckSequence</referencedby>
+        <referencedby refid="class_chain_command_invoker_old_type_a_1a4464152b33b1c8cded0a3d1a5e11e82d" compoundref="_chain_command_invoker_old_type_a_8cs" startline="47" endline="58">ChainCommandInvokerOldTypeA.CheckSequenceOld</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_queue_helper_1aa447c7015171043cf4a7b187675c3de7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CommandQueueHelper.CheckSequence</definition>
+        <argsstring>(string entryQueueName, ChainCommandData c)</argsstring>
+        <name>CheckSequence</name>
+        <param>
+          <type>string</type>
+          <declname>entryQueueName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_chain_command_data" kindref="compound">ChainCommandData</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="168" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="168" bodyend="179"/>
+        <references refid="class_chain_command_data_1a2923a69b1790ecb406a9fe820afb9094" compoundref="_chain_command_data_8cs" startline="8">ChainCommandData.chainCommandSlot</references>
+        <references refid="class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1" compoundref="_command_queue_helper_8cs" startline="65" endline="167">CheckSequence</references>
+        <references refid="class_command_slot_holder_1a29a0a9ac0f74357a9d13caffb2198911" compoundref="_command_slot_holder_8cs" startline="13">CommandSlotHolder.commandInstanceInSlot</references>
+        <references refid="class_command_queue_helper_1a6309f9ec7e7c58b8b8a2920d6a6a05f4" compoundref="_command_queue_helper_8cs" startline="13">commandQueuesDictionary</references>
+        <references refid="class_chain_command_data_1a66db53cc12cefbe2ec58fc39a92f1391" compoundref="_chain_command_data_8cs" startline="12">ChainCommandData.holdDownSequence</references>
+        <references refid="class_chain_command_data_1a23b321cd4696e3a4bcf075ea9c7ec7d9" compoundref="_chain_command_data_8cs" startline="14">ChainCommandData.ignoreCategory</references>
+        <references refid="class_chain_command_data_1aeebad8078293ddcbda4eb01251f1f093" compoundref="_chain_command_data_8cs" startline="9">ChainCommandData.Sequence</references>
+        <references refid="class_chain_command_data_1aa41a5f41f9bc78cecb4abb33094e8f28" compoundref="_chain_command_data_8cs" startline="11">ChainCommandData.Sequence_Query</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandQueueHelper.ExecCommand_InputSystem</definition>
+        <argsstring>(InputAction.CallbackContext context, InputCommand curCommand, string queueDictionaryElementName=&quot;Primary&quot;)</argsstring>
+        <name>ExecCommand_InputSystem</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="class_input_command" kindref="compound">InputCommand</ref></type>
+          <declname>curCommand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>queueDictionaryElementName</declname>
+          <defval>&quot;Primary&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="194" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="194" bodyend="201"/>
+        <references refid="class_command_queue_helper_1a2e67f0f4796efc3768308214d9c51516" compoundref="_command_queue_helper_8cs" startline="225" endline="234">ExecCommand_Press</references>
+        <references refid="class_input_command_1a97a167a50735820e585e0f6c9b926ede" compoundref="_input_command_8cs" startline="247" endline="260">InputCommand.OnInput</references>
+        <referencedby refid="class_input_handler_old___new_input_system_1a7adc47f6db40463d2066077ebec4c657" compoundref="_input_handler_old___new_input_system_8cs" startline="53" endline="56">InputHandlerOld_NewInputSystem.OnCommandSlot0</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1ab6ad3213c002c6cdbd2a6a896e300937" compoundref="_input_handler_old___new_input_system_8cs" startline="58" endline="61">InputHandlerOld_NewInputSystem.OnCommandSlot1</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a6afe578657da7e744235c32a0a6fb0e2" compoundref="_input_handler_old___new_input_system_8cs" startline="63" endline="66">InputHandlerOld_NewInputSystem.OnCommandSlot2</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1aa20124dbb8fd5409f9445573b2bd2bb9" compoundref="_input_handler_old___new_input_system_8cs" startline="68" endline="71">InputHandlerOld_NewInputSystem.OnCommandSlot3</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1afcea36df39ea7b70ed71dbd96952df94" compoundref="_input_handler_old___new_input_system_8cs" startline="109" endline="113">InputHandlerOld_NewInputSystem.OnDPadAxisHorizontal</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a11483632ae392566a5a092d634420edd" compoundref="_input_handler_old___new_input_system_8cs" startline="115" endline="119">InputHandlerOld_NewInputSystem.OnDPadAxisVertical</referencedby>
+        <referencedby refid="class_command_slot_holder_1ae0ad6427c38d0a7a73d52026d77b6ee8" compoundref="_command_slot_holder_8cs" startline="77" endline="81">CommandSlotHolder.OnInput</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a081f6ee2cfadf295150650520efcdd64" compoundref="_input_handler_old___new_input_system_8cs" startline="121" endline="125">InputHandlerOld_NewInputSystem.OnLeftStickAxisHorizontal</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a79a0e816d234ab0ff1c0b5eefa63224d" compoundref="_input_handler_old___new_input_system_8cs" startline="127" endline="131">InputHandlerOld_NewInputSystem.OnLeftStickAxisVertical</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1ab7d02993af78f31286e78096a3625074" compoundref="_input_handler_old___new_input_system_8cs" startline="73" endline="76">InputHandlerOld_NewInputSystem.OnSecondaryCommandSlot4</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1aac53b963b9f80b3bdafde79b23803f05" compoundref="_input_handler_old___new_input_system_8cs" startline="78" endline="81">InputHandlerOld_NewInputSystem.OnSecondaryCommandSlot5</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1ab1f3e03243d92511facd972a0e55ceea" compoundref="_input_handler_old___new_input_system_8cs" startline="97" endline="102">InputHandlerOld_NewInputSystem.OnSelect</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a87747fee6f8c1e612fddb7538e17b392" compoundref="_input_handler_old___new_input_system_8cs" startline="103" endline="106">InputHandlerOld_NewInputSystem.OnStart</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1afa5ab3bc20b29f3bd011b322c46ebf98" compoundref="_input_handler_old___new_input_system_8cs" startline="84" endline="88">InputHandlerOld_NewInputSystem.OnTertiaryCommandSlotAxis6</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a4c5e9f8f4b92bdc944016637c743f7ad" compoundref="_input_handler_old___new_input_system_8cs" startline="90" endline="94">InputHandlerOld_NewInputSystem.OnTertiaryCommandSlotAxis7</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandQueueHelper.ExecCommand_SimulateInputSystem</definition>
+        <argsstring>(bool IsPressedThisFrame, float axis, InputCommand curCommand, string queueDictionaryElementName=&quot;Primary&quot;)</argsstring>
+        <name>ExecCommand_SimulateInputSystem</name>
+        <param>
+          <type>bool</type>
+          <declname>IsPressedThisFrame</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>axis</declname>
+        </param>
+        <param>
+          <type><ref refid="class_input_command" kindref="compound">InputCommand</ref></type>
+          <declname>curCommand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>queueDictionaryElementName</declname>
+          <defval>&quot;Primary&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="202" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="202" bodyend="210"/>
+        <references refid="class_command_queue_helper_1a2e67f0f4796efc3768308214d9c51516" compoundref="_command_queue_helper_8cs" startline="225" endline="234">ExecCommand_Press</references>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">InputCommand.execExtraInfo</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7" compoundref="_input_command_8cs" startline="24">InputCommand.ExecExtraInfo.m_Axis</references>
+        <references refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">InputCommand.SetExecInfo</references>
+        <referencedby refid="class_command_slot_holder_1a901044c36210e3c92512ec8b83026e85" compoundref="_command_slot_holder_8cs" startline="84" endline="89">CommandSlotHolder.OnSimulateInput</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_queue_helper_1ae88a96a74253b03554ead59e02187039" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandQueueHelper.ExecCommand_SimulateInputSystem</definition>
+        <argsstring>(bool IsPressedThisFrame, InputCommand curCommand, string queueDictionaryElementName=&quot;Primary&quot;)</argsstring>
+        <name>ExecCommand_SimulateInputSystem</name>
+        <param>
+          <type>bool</type>
+          <declname>IsPressedThisFrame</declname>
+        </param>
+        <param>
+          <type><ref refid="class_input_command" kindref="compound">InputCommand</ref></type>
+          <declname>curCommand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>queueDictionaryElementName</declname>
+          <defval>&quot;Primary&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="211" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="211" bodyend="224"/>
+        <references refid="class_command_queue_helper_1a2e67f0f4796efc3768308214d9c51516" compoundref="_command_queue_helper_8cs" startline="225" endline="234">ExecCommand_Press</references>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">InputCommand.execExtraInfo</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7" compoundref="_input_command_8cs" startline="24">InputCommand.ExecExtraInfo.m_Axis</references>
+        <references refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">InputCommand.SetExecInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_queue_helper_1a2e67f0f4796efc3768308214d9c51516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandQueueHelper.ExecCommand_Press</definition>
+        <argsstring>(InputCommand curCommand, string queueDictionaryElementName=&quot;Primary&quot;)</argsstring>
+        <name>ExecCommand_Press</name>
+        <param>
+          <type><ref refid="class_input_command" kindref="compound">InputCommand</ref></type>
+          <declname>curCommand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>queueDictionaryElementName</declname>
+          <defval>&quot;Primary&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="225" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="225" bodyend="234"/>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">InputCommand.execExtraInfo</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a7c6ce14977d6711ffd2dc6846e330361" compoundref="_input_command_8cs" startline="19">InputCommand.ExecExtraInfo.m_ExecButtonPressedThisFrame</references>
+        <referencedby refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">ExecCommand_InputSystem</referencedby>
+        <referencedby refid="class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18" compoundref="_command_queue_helper_8cs" startline="202" endline="210">ExecCommand_SimulateInputSystem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_queue_helper_1a1d27bd76d4426d4967b69d2d434ccc10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandQueueHelper.ExecCommand_HoldRelease</definition>
+        <argsstring>(InputCommand curCommand)</argsstring>
+        <name>ExecCommand_HoldRelease</name>
+        <param>
+          <type><ref refid="class_input_command" kindref="compound">InputCommand</ref></type>
+          <declname>curCommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="235" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="235" bodyend="251"/>
+        <references refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" compoundref="_command_base_8cs" startline="114" endline="114">CommandBase.aName</references>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">InputCommand.execExtraInfo</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a099fdd72e86df4bb6617532c5ccf5a2b" compoundref="_input_command_8cs" startline="21">InputCommand.ExecExtraInfo.m_ExecButtonDown</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CommandQueueHelper</label>
+        <link refid="class_command_queue_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandQueueHelper</label>
+        <link refid="class_command_queue_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandQueueHelper.cs" bodystart="8" bodyend="255"/>
+    <listofallmembers>
+      <member refid="class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>CheckSequence</name></member>
+      <member refid="class_command_queue_helper_1aa447c7015171043cf4a7b187675c3de7" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>CheckSequence</name></member>
+      <member refid="class_command_queue_helper_1a8d018449d627df408db833e4a3f11171" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>commandOwnerRootObj</name></member>
+      <member refid="class_command_queue_helper_1a6309f9ec7e7c58b8b8a2920d6a6a05f4" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>commandQueuesDictionary</name></member>
+      <member refid="class_command_queue_helper_1a13b4dbede98d3e64762c5e1696aaeb01" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>CurrentTick</name></member>
+      <member refid="class_command_queue_helper_1a1d27bd76d4426d4967b69d2d434ccc10" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>ExecCommand_HoldRelease</name></member>
+      <member refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>ExecCommand_InputSystem</name></member>
+      <member refid="class_command_queue_helper_1a2e67f0f4796efc3768308214d9c51516" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>ExecCommand_Press</name></member>
+      <member refid="class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>ExecCommand_SimulateInputSystem</name></member>
+      <member refid="class_command_queue_helper_1ae88a96a74253b03554ead59e02187039" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>ExecCommand_SimulateInputSystem</name></member>
+      <member refid="class_command_queue_helper_1a9fc850b4fd58f361f9f18f095e959cae" prot="public" virt="non-virtual"><scope>CommandQueueHelper</scope><name>maxDefaultAllowedTimeDifferenceCheck</name></member>
+      <member refid="class_command_queue_helper_1a4629e36ed21364f986560492d6358c12" prot="private" virt="non-virtual"><scope>CommandQueueHelper</scope><name>OnDisable</name></member>
+      <member refid="class_command_queue_helper_1ad10468c02ca3e56796a6595152b96c2a" prot="private" virt="non-virtual"><scope>CommandQueueHelper</scope><name>Start</name></member>
+      <member refid="class_command_queue_helper_1a059e73292c9585446c11e9e333e80f62" prot="private" virt="non-virtual"><scope>CommandQueueHelper</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

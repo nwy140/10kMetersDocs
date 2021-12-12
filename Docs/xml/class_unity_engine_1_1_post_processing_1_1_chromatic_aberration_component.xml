@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ChromaticAberrationComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; ChromaticAberrationModel &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::ChromaticAberrationComponent::Uniforms</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1a019440c838f5a050e8beae41b5ea2d0c" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.PostProcessing.ChromaticAberrationComponent.m_SpectrumLut</definition>
+        <argsstring></argsstring>
+        <name>m_SpectrumLut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" line="11" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1ab1fb32c83cea3eb44e199fe7b6fb05e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.ChromaticAberrationComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" line="13" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1aa88d860317b08f10454a6021dce03069" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ChromaticAberrationComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" line="23" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" bodystart="23" bodyend="27"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a33ab867d673af33b801d7e6edafaa8e7" compoundref="_graphics_utils_8cs" startline="124" endline="137">UnityEngine.PostProcessing.GraphicsUtils.Destroy</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1acbf442cadd4fcb16e9008ecfd32698fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ChromaticAberrationComponent.Prepare</definition>
+        <argsstring>(Material uberMaterial)</argsstring>
+        <name>Prepare</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732">Prepare</reimplements>
+        <param>
+          <type>Material</type>
+          <declname>uberMaterial</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" line="29" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" bodystart="29" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PostProcessingComponentRenderTexture&lt; ChromaticAberrationModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PostProcessingComponentRenderTexture&lt; ChromaticAberrationModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" line="3" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" bodystart="4" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1ab1fb32c83cea3eb44e199fe7b6fb05e5" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ChromaticAberrationComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1a019440c838f5a050e8beae41b5ea2d0c" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ChromaticAberrationComponent</scope><name>m_SpectrumLut</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1aa88d860317b08f10454a6021dce03069" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ChromaticAberrationComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1acbf442cadd4fcb16e9008ecfd32698fa" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ChromaticAberrationComponent</scope><name>Prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

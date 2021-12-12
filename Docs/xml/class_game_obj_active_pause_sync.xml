@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_game_obj_active_pause_sync" kind="class" language="C#" prot="public">
+    <compoundname>GameObjActivePauseSync</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_obj_active_pause_sync_1afc6361fadbde3d4a0d43fca089fdeb13" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameObjActivePauseSync.isPaused</definition>
+        <argsstring></argsstring>
+        <name>isPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" line="7" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_game_obj_active_pause_sync_1a5d64e25f92f38f3f94fb5ad3ebe8d97d" compoundref="_game_obj_active_pause_sync_8cs" startline="17" endline="29">SyncActivePauseVariables</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_obj_active_pause_sync_1a4798704c33e9ad324f36920607fa44ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameObjActivePauseSync.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_obj_active_pause_sync_1a8274cbc61c8e6a9c57f4cd1d4ab888dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameObjActivePauseSync.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" line="13" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_obj_active_pause_sync_1a5d64e25f92f38f3f94fb5ad3ebe8d97d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameObjActivePauseSync.SyncActivePauseVariables</definition>
+        <argsstring>()</argsstring>
+        <name>SyncActivePauseVariables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" line="17" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" bodystart="17" bodyend="29"/>
+        <references refid="class_game_obj_active_pause_sync_1afc6361fadbde3d4a0d43fca089fdeb13" compoundref="_game_obj_active_pause_sync_8cs" startline="7">isPaused</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameObjActivePauseSync</label>
+        <link refid="class_game_obj_active_pause_sync"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameObjActivePauseSync</label>
+        <link refid="class_game_obj_active_pause_sync"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/GameObjActivePauseSync.cs" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_game_obj_active_pause_sync_1afc6361fadbde3d4a0d43fca089fdeb13" prot="public" virt="non-virtual"><scope>GameObjActivePauseSync</scope><name>isPaused</name></member>
+      <member refid="class_game_obj_active_pause_sync_1a8274cbc61c8e6a9c57f4cd1d4ab888dc" prot="private" virt="non-virtual"><scope>GameObjActivePauseSync</scope><name>OnDisable</name></member>
+      <member refid="class_game_obj_active_pause_sync_1a4798704c33e9ad324f36920607fa44ab" prot="private" virt="non-virtual"><scope>GameObjActivePauseSync</scope><name>OnEnable</name></member>
+      <member refid="class_game_obj_active_pause_sync_1a5d64e25f92f38f3f94fb5ad3ebe8d97d" prot="public" virt="non-virtual"><scope>GameObjActivePauseSync</scope><name>SyncActivePauseVariables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

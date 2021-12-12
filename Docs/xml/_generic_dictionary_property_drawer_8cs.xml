@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_generic_dictionary_property_drawer_8cs" kind="file" language="C#">
+    <compoundname>GenericDictionaryPropertyDrawer.cs</compoundname>
+    <innerclass refid="class_generic_dictionary_property_drawer" prot="public">GenericDictionaryPropertyDrawer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_editor" kindref="compound">UnityEditor</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Taken<sp/>From<sp/>:<sp/>https://github.com/upscalebaby/generic-serializable-dictionary/blob/master/Assets/Editor/GenericDictionaryPropertyDrawer.cs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Using<sp/><sp/>this<sp/>Editor<sp/>Serializeble<sp/>script<sp/>because<sp/>Unity<sp/>does<sp/>not<sp/>serialize<sp/>dictionary<sp/>by<sp/>default</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">[CustomPropertyDrawer(typeof(<ref refid="class_generic_dictionary" kindref="compound">GenericDictionary&lt;,&gt;</ref>))]</highlight></codeline>
+<codeline lineno="15" refid="class_generic_dictionary_property_drawer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_generic_dictionary_property_drawer" kindref="compound">GenericDictionaryPropertyDrawer</ref><sp/>:<sp/>PropertyDrawer</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lineHeight<sp/>=<sp/>EditorGUIUtility.singleLineHeight;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>vertSpace<sp/>=<sp/>EditorGUIUtility.standardVerticalSpacing;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_generic_dictionary_property_drawer_1a8e0bb97c0d83b511091983334f88bf90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_generic_dictionary_property_drawer_1a8e0bb97c0d83b511091983334f88bf90" kindref="member">OnGUI</ref>(Rect<sp/>pos,<sp/>SerializedProperty<sp/>property,<sp/>GUIContent<sp/>label)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Draw<sp/>list.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>list<sp/>=<sp/></highlight><highlight class="keyword">property</highlight><highlight class="normal">.FindPropertyRelative(</highlight><highlight class="stringliteral">&quot;list&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fieldName<sp/>=<sp/>ObjectNames.NicifyVariableName(fieldInfo.Name);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>currentPos<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rect(lineHeight,<sp/>pos.y,<sp/>pos.width,<sp/>lineHeight);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUI.PropertyField(currentPos,<sp/>list,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GUIContent(fieldName),<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Draw<sp/>key<sp/>collision<sp/>warning.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>keyCollision<sp/>=<sp/></highlight><highlight class="keyword">property</highlight><highlight class="normal">.FindPropertyRelative(</highlight><highlight class="stringliteral">&quot;keyCollision&quot;</highlight><highlight class="normal">).boolValue;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(keyCollision)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentPos.y<sp/>+=<sp/>EditorGUI.GetPropertyHeight(list,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>+<sp/>vertSpace;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>entryPos<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rect(lineHeight,<sp/>currentPos.y,<sp/>pos.width,<sp/>lineHeight<sp/>*<sp/>2f);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUI.HelpBox(entryPos,<sp/></highlight><highlight class="stringliteral">&quot;Duplicate<sp/>keys<sp/>will<sp/>not<sp/>be<sp/>serialized.&quot;</highlight><highlight class="normal">,<sp/>MessageType.Warning);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_generic_dictionary_property_drawer_1ad0501016eb487f54b2aab8d5a064c06d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_generic_dictionary_property_drawer_1ad0501016eb487f54b2aab8d5a064c06d" kindref="member">GetPropertyHeight</ref>(SerializedProperty<sp/>property,<sp/>GUIContent<sp/>label)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>totHeight<sp/>=<sp/>0f;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Height<sp/>of<sp/>KeyValue<sp/>list.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>listProp<sp/>=<sp/></highlight><highlight class="keyword">property</highlight><highlight class="normal">.FindPropertyRelative(</highlight><highlight class="stringliteral">&quot;list&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>totHeight<sp/>+=<sp/>EditorGUI.GetPropertyHeight(listProp,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Height<sp/>of<sp/>key<sp/>collision<sp/>warning.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>keyCollision<sp/>=<sp/></highlight><highlight class="keyword">property</highlight><highlight class="normal">.FindPropertyRelative(</highlight><highlight class="stringliteral">&quot;keyCollision&quot;</highlight><highlight class="normal">).boolValue;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(keyCollision)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>totHeight<sp/>+=<sp/>lineHeight<sp/>*<sp/>2f<sp/>+<sp/>vertSpace;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>totHeight;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Editor/_Utils/SerializableDataStructures/GenericDictionaryPropertyDrawer.cs"/>
+  </compounddef>
+</doxygen>

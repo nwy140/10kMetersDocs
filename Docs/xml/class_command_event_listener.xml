@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_event_listener" kind="class" language="C#" prot="public">
+    <compoundname>CommandEventListener</compoundname>
+    <basecompoundref refid="class_game_event_listener" prot="public" virt="non-virtual">GameEventListener</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_event_listener_1a3ebe6a3d1136fbe9b153e9bebdf0b21c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CommandEventListener.commandName</definition>
+        <argsstring></argsstring>
+        <name>commandName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="10" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_command_event_listener_1a4065b4d2405ee97c4fbfa689bb4b5634" compoundref="_command_event_listener_8cs" startline="77" endline="84">InitTypeA</referencedby>
+        <referencedby refid="class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53" compoundref="_command_event_listener_8cs" startline="68" endline="76">InitTypeB</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_event_listener_1a43a811700afdf4934eaacf37b74ec132" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CommandEventListener.instigatorObj</definition>
+        <argsstring></argsstring>
+        <name>instigatorObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="13" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769" compoundref="_command_event_listener_8cs" startline="60" endline="67">OnEventRaised</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_event_listener_1a97ff577d1e5b6893d896c9b3de67db87" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_base" kindref="compound">CommandBase</ref></type>
+        <definition>CommandBase CommandEventListener.matchingCommand</definition>
+        <argsstring></argsstring>
+        <name>matchingCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="14" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5" compoundref="_command_event_listener_8cs" startline="86" endline="111">Init</referencedby>
+        <referencedby refid="class_command_event_listener_1a4065b4d2405ee97c4fbfa689bb4b5634" compoundref="_command_event_listener_8cs" startline="77" endline="84">InitTypeA</referencedby>
+        <referencedby refid="class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53" compoundref="_command_event_listener_8cs" startline="68" endline="76">InitTypeB</referencedby>
+        <referencedby refid="class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769" compoundref="_command_event_listener_8cs" startline="60" endline="67">OnEventRaised</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_event_listener_1add99b84c2646976e6ffbe3fbf76f4aa9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_accessor_refs_base" kindref="compound">CommandAccessorRefsBase</ref></type>
+        <definition>CommandAccessorRefsBase CommandEventListener.accessorRefs</definition>
+        <argsstring></argsstring>
+        <name>accessorRefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="15" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_event_listener_1a5567df6c89f1ba72556f49bb6d55c624" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CommandEventListener.isCalled</definition>
+        <argsstring></argsstring>
+        <name>isCalled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="19" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769" compoundref="_command_event_listener_8cs" startline="60" endline="67">OnEventRaised</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_command_event_listener_1aee7eaf328c12910169bef8ccd3705ba0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_input_handler_old___new_input_system" kindref="compound">InputHandlerOld_NewInputSystem</ref></type>
+        <definition>InputHandlerOld_NewInputSystem CommandEventListener._inputHandlerOld</definition>
+        <argsstring></argsstring>
+        <name>_inputHandlerOld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="17" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_event_listener_1ae41ad14f78fa3b1d4dad0ea7d845aabc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_command_slots_holder_manager" kindref="compound">CommandSlotsHolderManager</ref></type>
+        <definition>CommandSlotsHolderManager CommandEventListener._commandSlotsHolderManager</definition>
+        <argsstring></argsstring>
+        <name>_commandSlotsHolderManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="18" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_event_listener_1ad3941063b45eb5f3296397669a7b3fd5" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CommandEventListener.comparedInstigatorObj</definition>
+        <argsstring></argsstring>
+        <name>comparedInstigatorObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="28" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_command_event_listener_1a6345d454b6e34743f5af9eeae06da965" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandEventListener.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="20" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_event_listener_1af24746dcec5652225a426773906d4936" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandEventListener.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="29" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="29" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_event_listener_1acf93d44f82f463ef747498fb15ace721" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CommandEventListener.Start_Wait1Frame</definition>
+        <argsstring>()</argsstring>
+        <name>Start_Wait1Frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="49" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="49" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CommandEventListener.OnEventRaised</definition>
+        <argsstring>()</argsstring>
+        <name>OnEventRaised</name>
+        <reimplements refid="class_game_event_listener_1a53d01e4391a42df3c2369e7b978b71e3">OnEventRaised</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="60" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="60" bodyend="67"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a" compoundref="_command_base_8cs" startline="37">CommandBase.InstanceInfoRuntime.commandOwnerRootObj</references>
+        <references refid="class_game_event_listener_1a1eddb6859899c538bfb7fda1a6afb5f0" compoundref="_game_event_listener_8cs" startline="10">GameEventListener.Event</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">CommandBase.instanceInfo</references>
+        <references refid="class_command_event_listener_1a43a811700afdf4934eaacf37b74ec132" compoundref="_command_event_listener_8cs" startline="13">instigatorObj</references>
+        <references refid="class_command_event_listener_1a5567df6c89f1ba72556f49bb6d55c624" compoundref="_command_event_listener_8cs" startline="19">isCalled</references>
+        <references refid="class_command_event_listener_1a97ff577d1e5b6893d896c9b3de67db87" compoundref="_command_event_listener_8cs" startline="14">matchingCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandEventListener.InitTypeB</definition>
+        <argsstring>()</argsstring>
+        <name>InitTypeB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="68" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="68" bodyend="76"/>
+        <references refid="class_command_event_listener_1a3ebe6a3d1136fbe9b153e9bebdf0b21c" compoundref="_command_event_listener_8cs" startline="10">commandName</references>
+        <references refid="class_command_slots_holder_manager_1a6569bc08c5d75fbcc7622d3ef987a080" compoundref="_command_slots_holder_manager_8cs" startline="8">CommandSlotsHolderManager.commandSlotsInChild</references>
+        <references refid="class_command_slots_holder_manager_1a94a87bb937eaa12a7591f086e6550ef5" compoundref="_command_slots_holder_manager_8cs" startline="9">CommandSlotsHolderManager.commandSlotsNames</references>
+        <references refid="class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5" compoundref="_command_event_listener_8cs" startline="86" endline="111">Init</references>
+        <references refid="class_command_event_listener_1a97ff577d1e5b6893d896c9b3de67db87" compoundref="_command_event_listener_8cs" startline="14">matchingCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_event_listener_1a4065b4d2405ee97c4fbfa689bb4b5634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandEventListener.InitTypeA</definition>
+        <argsstring>()</argsstring>
+        <name>InitTypeA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="77" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="77" bodyend="84"/>
+        <references refid="class_command_event_listener_1a3ebe6a3d1136fbe9b153e9bebdf0b21c" compoundref="_command_event_listener_8cs" startline="10">commandName</references>
+        <references refid="class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5" compoundref="_command_event_listener_8cs" startline="86" endline="111">Init</references>
+        <references refid="class_input_handler_old___new_input_system_1a23512fdef672ea191fabaf4044d37d56" compoundref="_input_handler_old___new_input_system_8cs" startline="8">InputHandlerOld_NewInputSystem.inputCommands</references>
+        <references refid="class_command_event_listener_1a97ff577d1e5b6893d896c9b3de67db87" compoundref="_command_event_listener_8cs" startline="14">matchingCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandEventListener.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="86" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="86" bodyend="111"/>
+        <references refid="class_game_event_listener_1a1eddb6859899c538bfb7fda1a6afb5f0" compoundref="_game_event_listener_8cs" startline="10">GameEventListener.Event</references>
+        <references refid="class_command_base_1_1_execution_info_1a16ef0db0e99966a745e1ddef9fd46d1b" compoundref="_command_base_8cs" startline="177">CommandBase.ExecutionInfo.ExecdEvent</references>
+        <references refid="class_command_base_1_1_execution_info_1a2017a99e7cb215d2752aa7a39db59c51" compoundref="_command_base_8cs" startline="175">CommandBase.ExecutionInfo.ExecDownChargingEvent</references>
+        <references refid="class_command_base_1_1_execution_info_1aac32d55c6522a4bbdbf69faa3150ad1b" compoundref="_command_base_8cs" startline="174">CommandBase.ExecutionInfo.ExecDownEvent</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">CommandBase.execInfo</references>
+        <references refid="class_command_base_1_1_execution_info_1ae30a252f15a5dea952d88df9c4e8ffe6" compoundref="_command_base_8cs" startline="173">CommandBase.ExecutionInfo.ExecPressEvent</references>
+        <references refid="class_command_base_1_1_execution_info_1a31354764417cd5a006ba951226c4b981" compoundref="_command_base_8cs" startline="176">CommandBase.ExecutionInfo.ExecReleaseEvent</references>
+        <references refid="class_command_event_listener_1a97ff577d1e5b6893d896c9b3de67db87" compoundref="_command_event_listener_8cs" startline="14">matchingCommand</references>
+        <referencedby refid="class_command_event_listener_1a4065b4d2405ee97c4fbfa689bb4b5634" compoundref="_command_event_listener_8cs" startline="77" endline="84">InitTypeA</referencedby>
+        <referencedby refid="class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53" compoundref="_command_event_listener_8cs" startline="68" endline="76">InitTypeB</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CommandEventListener</label>
+        <link refid="class_command_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GameEventListener</label>
+        <link refid="class_game_event_listener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>CommandAccessorRefsBase</label>
+        <link refid="class_command_accessor_refs_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+commandSlotHolder</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+commandSlotUnityEvents</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>CommandAccessorRefsBase.CommandSlotUnityEvents</label>
+        <link refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events"/>
+      </node>
+      <node id="6">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+info</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+instanceInfo</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+cooldownInfo</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>+execInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>CommandBase.CooldownInfo</label>
+        <link refid="struct_command_base_1_1_cooldown_info"/>
+      </node>
+      <node id="16">
+        <label>CommandBase.ExecutionInfo</label>
+        <link refid="class_command_base_1_1_execution_info"/>
+        <childnode refid="17" relation="usage">
+          <edgelabel>+ExecDownChargingEvent</edgelabel>
+          <edgelabel>+ExecDownEvent</edgelabel>
+          <edgelabel>+ExecPressEvent</edgelabel>
+          <edgelabel>+ExecReleaseEvent</edgelabel>
+          <edgelabel>+ExecdEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CommandBase.Info</label>
+        <link refid="struct_command_base_1_1_info"/>
+      </node>
+      <node id="9">
+        <label>CommandBase.InstanceInfoRuntime</label>
+        <link refid="struct_command_base_1_1_instance_info_runtime"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+commandAccessorRefsComp</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+prevPrimaryCommand</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CommandEventListener</label>
+        <link refid="class_command_event_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+matchingCommand</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+accessorRefs</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>CommandSlotHolder</label>
+        <link refid="class_command_slot_holder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+commandInstanceInSlot</edgelabel>
+          <edgelabel>+commandInstanceSOAsset</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+accessorComp</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GameEventListener</label>
+        <link refid="class_game_event_listener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+Event</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="12">
+        <label>InputCommand</label>
+        <link refid="class_input_command"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+execExtraInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>InputCommand.ExecExtraInfo</label>
+        <link refid="struct_input_command_1_1_exec_extra_info"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEventListener.cs" bodystart="9" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_command_event_listener_1ae41ad14f78fa3b1d4dad0ea7d845aabc" prot="private" virt="non-virtual"><scope>CommandEventListener</scope><name>_commandSlotsHolderManager</name></member>
+      <member refid="class_command_event_listener_1aee7eaf328c12910169bef8ccd3705ba0" prot="private" virt="non-virtual"><scope>CommandEventListener</scope><name>_inputHandlerOld</name></member>
+      <member refid="class_command_event_listener_1add99b84c2646976e6ffbe3fbf76f4aa9" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>accessorRefs</name></member>
+      <member refid="class_command_event_listener_1a6345d454b6e34743f5af9eeae06da965" prot="private" virt="non-virtual"><scope>CommandEventListener</scope><name>Awake</name></member>
+      <member refid="class_command_event_listener_1a3ebe6a3d1136fbe9b153e9bebdf0b21c" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>commandName</name></member>
+      <member refid="class_command_event_listener_1ad3941063b45eb5f3296397669a7b3fd5" prot="private" virt="non-virtual"><scope>CommandEventListener</scope><name>comparedInstigatorObj</name></member>
+      <member refid="class_game_event_listener_1a1eddb6859899c538bfb7fda1a6afb5f0" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>Event</name></member>
+      <member refid="class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>Init</name></member>
+      <member refid="class_command_event_listener_1a4065b4d2405ee97c4fbfa689bb4b5634" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>InitTypeA</name></member>
+      <member refid="class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>InitTypeB</name></member>
+      <member refid="class_command_event_listener_1a43a811700afdf4934eaacf37b74ec132" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>instigatorObj</name></member>
+      <member refid="class_command_event_listener_1a5567df6c89f1ba72556f49bb6d55c624" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>isCalled</name></member>
+      <member refid="class_command_event_listener_1a97ff577d1e5b6893d896c9b3de67db87" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>matchingCommand</name></member>
+      <member refid="class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769" prot="public" virt="virtual"><scope>CommandEventListener</scope><name>OnEventRaised</name></member>
+      <member refid="class_game_event_listener_1afa9d6933ed7daa06a2a4e9b42d614200" prot="public" virt="non-virtual"><scope>CommandEventListener</scope><name>Response</name></member>
+      <member refid="class_command_event_listener_1af24746dcec5652225a426773906d4936" prot="private" virt="non-virtual"><scope>CommandEventListener</scope><name>Start</name></member>
+      <member refid="class_command_event_listener_1acf93d44f82f463ef747498fb15ace721" prot="private" virt="non-virtual"><scope>CommandEventListener</scope><name>Start_Wait1Frame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

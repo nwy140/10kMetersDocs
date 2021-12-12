@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classstorage" kind="class" language="C#" prot="public">
+    <compoundname>storage</compoundname>
+    <basecompoundref refid="class_item_container" prot="public" virt="non-virtual">ItemContainer</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstorage_1a8b26058afb91cb133e42d56384525456" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classitem" kindref="compound">item</ref> &gt;</type>
+        <definition>List&lt;item&gt; storage.startingItems</definition>
+        <argsstring></argsstring>
+        <name>startingItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="11" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstorage_1a7b55b8ac122e8679c3553376e4ad3a0a" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject storage.itemsParentGameObject</definition>
+        <argsstring></argsstring>
+        <name>itemsParentGameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="13" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstorage_1a2a1fa11bb7c46847e1aea18a4b598e7d" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite storage.lockSprite</definition>
+        <argsstring></argsstring>
+        <name>lockSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="14" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstorage_1a4e2ec8ec26ca0efc632a716f555752dd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int storage.startingItemsAmount</definition>
+        <argsstring></argsstring>
+        <name>startingItemsAmount</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="15" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstorage_1a97d36d9bae1f5bd30e8222fb7af73ffa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_inventory" kindref="compound">Inventory</ref></type>
+        <definition>Inventory storage.inventoryUpgrade</definition>
+        <argsstring></argsstring>
+        <name>inventoryUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="18" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstorage_1a5f89a86c3b6d5da4eab2c626ed0ad8a4" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref></type>
+        <definition>itemSlots storage.itemSlotPrefab</definition>
+        <argsstring></argsstring>
+        <name>itemSlotPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="19" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstorage_1af217af5353eb7b7bb71986595009730b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+        <definition>UpgradeHolder storage.upgradeHolder</definition>
+        <argsstring></argsstring>
+        <name>upgradeHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="20" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstorage_1a72387ff5adec348a9190a7b5944ca260" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void storage.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <reimplements refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9">Awake</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="22" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="22" bodyend="28"/>
+        <references refid="class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6" compoundref="_upgrade_holder_8cs" startline="191" endline="200">UpgradeHolder.InventoryUpgrade</references>
+        <references refid="classstorage_1abf5bd78f2ecfc15a5a89a1adc942e34d" compoundref="storage_8cs" startline="62" endline="81">SetInventoryUpgrade</references>
+      </memberdef>
+      <memberdef kind="function" id="classstorage_1abf5bd78f2ecfc15a5a89a1adc942e34d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void storage.SetInventoryUpgrade</definition>
+        <argsstring>(Inventory inventoryUpgrade)</argsstring>
+        <name>SetInventoryUpgrade</name>
+        <param>
+          <type><ref refid="class_inventory" kindref="compound">Inventory</ref></type>
+          <declname>inventoryUpgrade</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="62" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="62" bodyend="81"/>
+        <references refid="class_inventory_1ad1645f35e9b99c20985d541bc021fc9a" compoundref="_inventory_8cs" startline="12" endline="15">Inventory.GetNumberOfSlots</references>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemContainer.ItemSlots</references>
+        <referencedby refid="classstorage_1a72387ff5adec348a9190a7b5944ca260" compoundref="storage_8cs" startline="22" endline="28">Awake</referencedby>
+        <referencedby refid="class_u_i___skill_tree_1acbeb6487c2ef09baf3df2909d8ea45c2" compoundref="_u_i___skill_tree_8cs" startline="39" endline="51">UI_SkillTree.StartBuyingUpgrade</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classstorage_1a3f7ecf1a4a1217578fc922eed3ffde8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>List&lt; itemSlots &gt; storage.GetListOfItemsInInventory</definition>
+        <argsstring>()</argsstring>
+        <name>GetListOfItemsInInventory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="83" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="83" bodyend="94"/>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemContainer.ItemSlots</references>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">RequirementChecker.CheckRequirement</referencedby>
+        <referencedby refid="class_player_skills_1a22c2907b0d980b1b21b850eb5f0f8dc8" compoundref="_player_skills_8cs" startline="158" endline="273">PlayerSkills.IsRequirementMet</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classstorage_1ae390c8bfd25e58dbae383ed3733d7096" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void storage.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="30" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="30" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classstorage_1abbee98c4fd433d6c0276af2a9611715e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void storage.SetStartingItems</definition>
+        <argsstring>()</argsstring>
+        <name>SetStartingItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="41" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="41" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ItemContainer</label>
+        <link refid="class_item_container"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>storage</label>
+        <link refid="classstorage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ItemContainer</label>
+        <link refid="class_item_container"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>storage</label>
+        <link refid="classstorage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/storage.cs" bodystart="9" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_item_container_1af6d25e8fc0187dca050a37f6b3d6767b" prot="public" virt="non-virtual"><scope>storage</scope><name>addItem</name></member>
+      <member refid="classstorage_1a72387ff5adec348a9190a7b5944ca260" prot="public" virt="virtual"><scope>storage</scope><name>Awake</name></member>
+      <member refid="class_item_container_1a5628acd2a1298ad30086abcfb0b2f445" prot="public" virt="non-virtual"><scope>storage</scope><name>CheckIfSlotIsEmpty</name></member>
+      <member refid="class_item_container_1ab50b820cf41946e71e0b4d680bf8117f" prot="public" virt="non-virtual"><scope>storage</scope><name>Clear</name></member>
+      <member refid="class_item_container_1a9fa954c3d26b1ee1844a73aa4e7f65eb" prot="public" virt="non-virtual"><scope>storage</scope><name>discardItem</name></member>
+      <member refid="classstorage_1a3f7ecf1a4a1217578fc922eed3ffde8e" prot="public" virt="non-virtual"><scope>storage</scope><name>GetListOfItemsInInventory</name></member>
+      <member refid="classstorage_1a97d36d9bae1f5bd30e8222fb7af73ffa" prot="private" virt="non-virtual"><scope>storage</scope><name>inventoryUpgrade</name></member>
+      <member refid="class_item_container_1aaaa93fedc164672528fee56061686ee0" prot="public" virt="non-virtual"><scope>storage</scope><name>IsFull</name></member>
+      <member refid="classstorage_1a5f89a86c3b6d5da4eab2c626ed0ad8a4" prot="private" virt="non-virtual"><scope>storage</scope><name>itemSlotPrefab</name></member>
+      <member refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" prot="public" virt="non-virtual"><scope>storage</scope><name>ItemSlots</name></member>
+      <member refid="classstorage_1a7b55b8ac122e8679c3553376e4ad3a0a" prot="private" virt="non-virtual"><scope>storage</scope><name>itemsParentGameObject</name></member>
+      <member refid="classstorage_1a2a1fa11bb7c46847e1aea18a4b598e7d" prot="private" virt="non-virtual"><scope>storage</scope><name>lockSprite</name></member>
+      <member refid="class_item_container_1a02f085904d3da683b71f5bbf7ab4cc95" prot="public" virt="non-virtual"><scope>storage</scope><name>OnBeginDragEvent</name></member>
+      <member refid="class_item_container_1ad8ea44ce84d6b1d8c5f8523038379cfb" prot="public" virt="non-virtual"><scope>storage</scope><name>OnDragEvent</name></member>
+      <member refid="class_item_container_1afe1f3259c2bd0f43dd3f4d53464e7d81" prot="public" virt="non-virtual"><scope>storage</scope><name>OnDropEvent</name></member>
+      <member refid="class_item_container_1aa640b20e572e8ac726d2914375956d1e" prot="public" virt="non-virtual"><scope>storage</scope><name>OnEndDragEvent</name></member>
+      <member refid="class_item_container_1a51e056c389290250e3b95270fd3e50e4" prot="public" virt="non-virtual"><scope>storage</scope><name>OnLeftClickEvent</name></member>
+      <member refid="class_item_container_1a881703dfdea0d17ac5dd71439b14a41a" prot="public" virt="non-virtual"><scope>storage</scope><name>OnPointerEnterEvent</name></member>
+      <member refid="class_item_container_1a79cf8f59fe58b8f27100ef2fa9dc6ab5" prot="public" virt="non-virtual"><scope>storage</scope><name>OnPointerExitEvent</name></member>
+      <member refid="classstorage_1ae390c8bfd25e58dbae383ed3733d7096" prot="private" virt="non-virtual"><scope>storage</scope><name>OnValidate</name></member>
+      <member refid="class_item_container_1ab50a72dfcb950d3a483dc1c53471fedf" prot="public" virt="non-virtual"><scope>storage</scope><name>removeItem</name></member>
+      <member refid="class_item_container_1adfd88e49a35c5bd49417507c48c05260" prot="public" virt="non-virtual"><scope>storage</scope><name>removeItemWithAmount</name></member>
+      <member refid="classstorage_1abf5bd78f2ecfc15a5a89a1adc942e34d" prot="public" virt="non-virtual"><scope>storage</scope><name>SetInventoryUpgrade</name></member>
+      <member refid="classstorage_1abbee98c4fd433d6c0276af2a9611715e" prot="private" virt="non-virtual"><scope>storage</scope><name>SetStartingItems</name></member>
+      <member refid="classstorage_1a8b26058afb91cb133e42d56384525456" prot="private" virt="non-virtual"><scope>storage</scope><name>startingItems</name></member>
+      <member refid="classstorage_1a4e2ec8ec26ca0efc632a716f555752dd" prot="private" virt="non-virtual"><scope>storage</scope><name>startingItemsAmount</name></member>
+      <member refid="classstorage_1af217af5353eb7b7bb71986595009730b" prot="private" virt="non-virtual"><scope>storage</scope><name>upgradeHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

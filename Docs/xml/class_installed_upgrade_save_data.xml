@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_installed_upgrade_save_data" kind="class" language="C#" prot="public">
+    <compoundname>InstalledUpgradeSaveData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_installed_upgrade_save_data_1aab59dc1258f4e5251d84fd1078429007" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_upgrade_save_data" kindref="compound">UpgradeSaveData</ref> &gt;</type>
+        <definition>List&lt;UpgradeSaveData&gt; InstalledUpgradeSaveData.installedUpgrade</definition>
+        <argsstring></argsstring>
+        <name>installedUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" line="18" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_installed_upgrade_save_data_1a3a4008024dee9d810d8ab2982e4a3422" compoundref="_upgrade_save_data_8cs" startline="20" endline="23">InstalledUpgradeSaveData</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_installed_upgrade_save_data_1a3a4008024dee9d810d8ab2982e4a3422" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InstalledUpgradeSaveData.InstalledUpgradeSaveData</definition>
+        <argsstring>()</argsstring>
+        <name>InstalledUpgradeSaveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" line="20" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" bodystart="20" bodyend="23"/>
+        <references refid="class_installed_upgrade_save_data_1aab59dc1258f4e5251d84fd1078429007" compoundref="_upgrade_save_data_8cs" startline="18">installedUpgrade</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>InstalledUpgradeSaveData</label>
+        <link refid="class_installed_upgrade_save_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" line="16" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" bodystart="17" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_installed_upgrade_save_data_1aab59dc1258f4e5251d84fd1078429007" prot="public" virt="non-virtual"><scope>InstalledUpgradeSaveData</scope><name>installedUpgrade</name></member>
+      <member refid="class_installed_upgrade_save_data_1a3a4008024dee9d810d8ab2982e4a3422" prot="public" virt="non-virtual"><scope>InstalledUpgradeSaveData</scope><name>InstalledUpgradeSaveData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

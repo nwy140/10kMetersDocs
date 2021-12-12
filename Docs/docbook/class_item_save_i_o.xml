@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_item_save_i_o" xml:lang="en-US">
+<title>ItemSaveIO Class Reference</title>
+<indexterm><primary>ItemSaveIO</primary></indexterm>
+Collaboration diagram for ItemSaveIO:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_save_i_o__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_item_save_i_o_1a6ff6f5b86e6b8873fae683e038272983">SaveItems</link> (<link linkend="_class_item_container_save_data">ItemContainerSaveData</link> items, string fileName)</para>
+</listitem>
+            <listitem><para>static <link linkend="_class_item_container_save_data">ItemContainerSaveData</link> <link linkend="_class_item_save_i_o_1a584e09dfc868e3d40155b84a0788aeeb">LoadItems</link> (string fileName)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_item_save_i_o_1a584e09dfc868e3d40155b84a0788aeeb"/><section>
+    <title>LoadItems()</title>
+<indexterm><primary>LoadItems</primary><secondary>ItemSaveIO</secondary></indexterm>
+<indexterm><primary>ItemSaveIO</primary><secondary>LoadItems</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_item_container_save_data">ItemContainerSaveData</link> ItemSaveIO.LoadItems (string fileName)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_save_i_o_a584e09dfc868e3d40155b84a0788aeeb_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_item_save_i_o_1a6ff6f5b86e6b8873fae683e038272983"/><section>
+    <title>SaveItems()</title>
+<indexterm><primary>SaveItems</primary><secondary>ItemSaveIO</secondary></indexterm>
+<indexterm><primary>ItemSaveIO</primary><secondary>SaveItems</secondary></indexterm>
+<para><computeroutput>static void ItemSaveIO.SaveItems (<link linkend="_class_item_container_save_data">ItemContainerSaveData</link> items, string fileName)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/<link linkend="__item_save_i_o_8cs">ItemSaveIO.cs</link></section>
+</section>

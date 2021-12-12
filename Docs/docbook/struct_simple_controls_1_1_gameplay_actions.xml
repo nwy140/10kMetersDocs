@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_simple_controls_1_1_gameplay_actions" xml:lang="en-US">
+<title>SimpleControls.GameplayActions Struct Reference</title>
+<indexterm><primary>SimpleControls.GameplayActions</primary></indexterm>
+Collaboration diagram for SimpleControls.GameplayActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_simple_controls_1_1_gameplay_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_simple_controls_1_1_gameplay_actions_1a120722107dab65983fa94e117233cb0d">GameplayActions</link> (@<link linkend="_class_simple_controls">SimpleControls</link> wrapper)</para>
+</listitem>
+            <listitem><para>InputActionMap <link linkend="_struct_simple_controls_1_1_gameplay_actions_1a03fea7c376de6b6abdfe7f794d99b009">Get</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_simple_controls_1_1_gameplay_actions_1a3acca893f89774ff3efedbe98a317a9d">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_simple_controls_1_1_gameplay_actions_1a2467dc12393ab979d43bde54a00bbfce">Disable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_simple_controls_1_1_gameplay_actions_1a2c88429e12fb563d33d63a51245fc7a2">SetCallbacks</link> (<link linkend="_interface_simple_controls_1_1_i_gameplay_actions">IGameplayActions</link> instance)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static implicit <link linkend="_struct_simple_controls_1_1_gameplay_actions_1a4d034d1b4a39a1dd8afae188bcedf4d0">operator InputActionMap</link> (<link linkend="_struct_simple_controls_1_1_gameplay_actions">GameplayActions</link> set)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_struct_simple_controls_1_1_gameplay_actions_1a9fb1ac9a7729fdd1c7b58e3ecfaef801">fire</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_simple_controls_1_1_gameplay_actions_1a5f020372919fd5d14411267c8ff9e29d">move</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_simple_controls_1_1_gameplay_actions_1acf9c6edce97d49d87d88091d9ae81bb7">look</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_simple_controls_1_1_gameplay_actions_1af177ca9ff03a1ed1fd90283dd3eb825f">enabled</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1a120722107dab65983fa94e117233cb0d"/><section>
+    <title>GameplayActions()</title>
+<indexterm><primary>GameplayActions</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>GameplayActions</secondary></indexterm>
+<para><computeroutput>SimpleControls.GameplayActions.GameplayActions (@<link linkend="_class_simple_controls">SimpleControls</link> wrapper)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1a2467dc12393ab979d43bde54a00bbfce"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void SimpleControls.GameplayActions.Disable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_simple_controls_1_1_gameplay_actions_a2467dc12393ab979d43bde54a00bbfce_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1a3acca893f89774ff3efedbe98a317a9d"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void SimpleControls.GameplayActions.Enable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_simple_controls_1_1_gameplay_actions_a3acca893f89774ff3efedbe98a317a9d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1a03fea7c376de6b6abdfe7f794d99b009"/><section>
+    <title>Get()</title>
+<indexterm><primary>Get</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>InputActionMap SimpleControls.GameplayActions.Get ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_simple_controls_1_1_gameplay_actions_a03fea7c376de6b6abdfe7f794d99b009_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1a4d034d1b4a39a1dd8afae188bcedf4d0"/><section>
+    <title>operator InputActionMap()</title>
+<indexterm><primary>operator InputActionMap</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>operator InputActionMap</secondary></indexterm>
+<para><computeroutput>static implicit SimpleControls.GameplayActions.operator InputActionMap (<link linkend="_struct_simple_controls_1_1_gameplay_actions">GameplayActions</link> set)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1a2c88429e12fb563d33d63a51245fc7a2"/><section>
+    <title>SetCallbacks()</title>
+<indexterm><primary>SetCallbacks</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>SetCallbacks</secondary></indexterm>
+<para><computeroutput>void SimpleControls.GameplayActions.SetCallbacks (<link linkend="_interface_simple_controls_1_1_i_gameplay_actions">IGameplayActions</link> instance)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_simple_controls_1_1_gameplay_actions_a2c88429e12fb563d33d63a51245fc7a2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1af177ca9ff03a1ed1fd90283dd3eb825f"/><section>
+    <title>enabled</title>
+<indexterm><primary>enabled</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>enabled</secondary></indexterm>
+<para><computeroutput>bool SimpleControls.GameplayActions.enabled<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1a9fb1ac9a7729fdd1c7b58e3ecfaef801"/><section>
+    <title>fire</title>
+<indexterm><primary>fire</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>fire</secondary></indexterm>
+<para><computeroutput>InputAction SimpleControls.GameplayActions.fire<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1acf9c6edce97d49d87d88091d9ae81bb7"/><section>
+    <title>look</title>
+<indexterm><primary>look</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>look</secondary></indexterm>
+<para><computeroutput>InputAction SimpleControls.GameplayActions.look<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_simple_controls_1_1_gameplay_actions_1a5f020372919fd5d14411267c8ff9e29d"/><section>
+    <title>move</title>
+<indexterm><primary>move</primary><secondary>SimpleControls.GameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.GameplayActions</primary><secondary>move</secondary></indexterm>
+<para><computeroutput>InputAction SimpleControls.GameplayActions.move<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/<link linkend="__simple_controls_8cs">SimpleControls.cs</link></section>
+</section>

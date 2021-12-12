@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::Samples::RebindUI::GamepadIconsExample</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1_1_gamepad_icons" prot="public">UnityEngine::InputSystem::Samples::RebindUI::GamepadIconsExample::GamepadIcons</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1ae54757e7afd37d4b456ea6706983b502" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1_1_gamepad_icons" kindref="compound">GamepadIcons</ref></type>
+        <definition>GamepadIcons UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.xbox</definition>
+        <argsstring></argsstring>
+        <name>xbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" line="16" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1abfef9600aedb8b56b2168323a584e0da" compoundref="_gamepad_icons_example_8cs" startline="30" endline="58">UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1aac205d7d84a826821443eb67b9112f41" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1_1_gamepad_icons" kindref="compound">GamepadIcons</ref></type>
+        <definition>GamepadIcons UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.ps4</definition>
+        <argsstring></argsstring>
+        <name>ps4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" line="17" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1abfef9600aedb8b56b2168323a584e0da" compoundref="_gamepad_icons_example_8cs" startline="30" endline="58">UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1a5db1c4009c7a459e65a3e0087007fcb3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" line="19" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" bodystart="19" bodyend="28"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1abfef9600aedb8b56b2168323a584e0da" compoundref="_gamepad_icons_example_8cs" startline="30" endline="58">UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae6f650d471a43cb2f5087df933289a39" compoundref="_rebind_action_u_i_8cs" startline="117" endline="124">UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1abfef9600aedb8b56b2168323a584e0da" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay</definition>
+        <argsstring>(RebindActionUI component, string bindingDisplayString, string deviceLayoutName, string controlPath)</argsstring>
+        <name>OnUpdateBindingDisplay</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i" kindref="compound">RebindActionUI</ref></type>
+          <declname>component</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bindingDisplayString</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>deviceLayoutName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>controlPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" line="30" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" bodystart="30" bodyend="58"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1af99bbe5517e6384d92fee9a67491ff9d" compoundref="_rebind_action_u_i_8cs" startline="75" endline="82">UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText</references>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1_1_gamepad_icons_1a08270fdffbec279a39f4fe799acddcc5" compoundref="_gamepad_icons_example_8cs" startline="83" endline="110">UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1aac205d7d84a826821443eb67b9112f41" compoundref="_gamepad_icons_example_8cs" startline="17">UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.ps4</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1ae54757e7afd37d4b456ea6706983b502" compoundref="_gamepad_icons_example_8cs" startline="16">UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.xbox</references>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1a5db1c4009c7a459e65a3e0087007fcb3" compoundref="_gamepad_icons_example_8cs" startline="19" endline="28">UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is an example for how to override the default display behavior of bindings. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The component hooks into <ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae6f650d471a43cb2f5087df933289a39" kindref="member">RebindActionUI.updateBindingUIEvent</ref> which is triggered when <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> display of a binding should be refreshed. It then checks whether we have an icon for the current binding and if so, replaces the default text display with an icon. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ps4</edgelabel>
+          <edgelabel>+xbox</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons</label>
+        <link refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1_1_gamepad_icons"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" line="14" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/GamepadIconsExample.cs" bodystart="15" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1a5db1c4009c7a459e65a3e0087007fcb3" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::GamepadIconsExample</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1abfef9600aedb8b56b2168323a584e0da" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::GamepadIconsExample</scope><name>OnUpdateBindingDisplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1aac205d7d84a826821443eb67b9112f41" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::GamepadIconsExample</scope><name>ps4</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_gamepad_icons_example_1ae54757e7afd37d4b456ea6706983b502" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::RebindUI::GamepadIconsExample</scope><name>xbox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

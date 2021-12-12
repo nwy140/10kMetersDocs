@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_rebind_u_i_sample_actions_modified" xml:lang="en-US">
+<title>RebindUISampleActionsModified Class Reference</title>
+<indexterm><primary>RebindUISampleActionsModified</primary></indexterm>
+Inheritance diagram for RebindUISampleActionsModified:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_rebind_u_i_sample_actions_modified__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for RebindUISampleActionsModified:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_rebind_u_i_sample_actions_modified__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions">GameplaySampleUnusedActions</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_gameplay_sample_unused_actions">IGameplaySampleUnusedActions</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions">IPlayerMainActions</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions">IUIMainActions</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions">IVector2AxisActions</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_player_main_actions">PlayerMainActions</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions">UIMainActions</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions">Vector2AxisActions</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_rebind_u_i_sample_actions_modified_1a0206d0df3f2057e09be1ab7852198c2d">RebindUISampleActionsModified</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_rebind_u_i_sample_actions_modified_1aa4ae504f66544be47758cc8ae1349e86">Dispose</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_rebind_u_i_sample_actions_modified_1aeae0ed58b7baa106bde09e7e91a29164">Contains</link> (InputAction action)</para>
+</listitem>
+            <listitem><para>IEnumerator&lt; InputAction &gt; <link linkend="_class_rebind_u_i_sample_actions_modified_1a3a880826b16e17af0219d27c331ef830">GetEnumerator</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_rebind_u_i_sample_actions_modified_1aa054d9bf7b4dab89dc98cc32ed803adc">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_rebind_u_i_sample_actions_modified_1a79077f4452a70cb79e9ddc9942fee2f2">Disable</link> ()</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_class_rebind_u_i_sample_actions_modified_1a0ce4a0313554615ffd31f2911f716670">FindAction</link> (string actionNameOrId, bool throwIfNotFound=false)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_rebind_u_i_sample_actions_modified_1a11f96c7568160527cccdc2a0f7b3c377">FindBinding</link> (InputBinding <link linkend="_class_rebind_u_i_sample_actions_modified_1a1ffce5ae9fc1f5a46fc4279f7d89d7a0">bindingMask</link>, out InputAction action)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputActionAsset <link linkend="_class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5">asset</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputBinding? <link linkend="_class_rebind_u_i_sample_actions_modified_1a1ffce5ae9fc1f5a46fc4279f7d89d7a0">bindingMask</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ReadOnlyArray&lt; InputDevice &gt;? <link linkend="_class_rebind_u_i_sample_actions_modified_1a6e3a0edfad9a66f16bb62f1fdc036411">devices</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ReadOnlyArray&lt; InputControlScheme &gt; <link linkend="_class_rebind_u_i_sample_actions_modified_1ab741f2b2719fc9de651696b3e4ee0e5a">controlSchemes</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>IEnumerable&lt; InputBinding &gt; <link linkend="_class_rebind_u_i_sample_actions_modified_1ac21b48e30a94fa389d9a97d8d74e5e35">bindings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_player_main_actions">PlayerMainActions</link> <link linkend="_class_rebind_u_i_sample_actions_modified_1a2f9cd1cea6deda12666502886120b024">PlayerMain</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions">UIMainActions</link> <link linkend="_class_rebind_u_i_sample_actions_modified_1a08ac677cdbd4473bb0eb1777027b827e">UIMain</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions">GameplaySampleUnusedActions</link> <link linkend="_class_rebind_u_i_sample_actions_modified_1a1598d9b723f8e535444a83d364c5b2a0">GameplaySampleUnused</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions">Vector2AxisActions</link> <link linkend="_class_rebind_u_i_sample_actions_modified_1a53510665014476d73a5a988065bc27dc">Vector2Axis</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputControlScheme <link linkend="_class_rebind_u_i_sample_actions_modified_1a5bd5e709b6590083dad948180a4c5ab4">GamepadScheme</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputControlScheme <link linkend="_class_rebind_u_i_sample_actions_modified_1a0ce5367008c7c62b3a32b693c0db581c">KeyboardScheme</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a0206d0df3f2057e09be1ab7852198c2d"/><section>
+    <title>RebindUISampleActionsModified()</title>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<para><computeroutput>RebindUISampleActionsModified.RebindUISampleActionsModified ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1aeae0ed58b7baa106bde09e7e91a29164"/><section>
+    <title>Contains()</title>
+<indexterm><primary>Contains</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>Contains</secondary></indexterm>
+<para><computeroutput>bool RebindUISampleActionsModified.Contains (InputAction action)</computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a79077f4452a70cb79e9ddc9942fee2f2"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.Disable ( )</computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1aa4ae504f66544be47758cc8ae1349e86"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.Dispose ( )</computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1aa054d9bf7b4dab89dc98cc32ed803adc"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.Enable ( )</computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a0ce4a0313554615ffd31f2911f716670"/><section>
+    <title>FindAction()</title>
+<indexterm><primary>FindAction</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>FindAction</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.FindAction (string actionNameOrId, bool throwIfNotFound = <computeroutput>false</computeroutput>
+)</computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a11f96c7568160527cccdc2a0f7b3c377"/><section>
+    <title>FindBinding()</title>
+<indexterm><primary>FindBinding</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>FindBinding</secondary></indexterm>
+<para><computeroutput>int RebindUISampleActionsModified.FindBinding (InputBinding bindingMask, out InputAction action)</computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a3a880826b16e17af0219d27c331ef830"/><section>
+    <title>GetEnumerator()</title>
+<indexterm><primary>GetEnumerator</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>GetEnumerator</secondary></indexterm>
+<para><computeroutput>IEnumerator&lt; InputAction &gt; RebindUISampleActionsModified.GetEnumerator ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5"/><section>
+    <title>asset</title>
+<indexterm><primary>asset</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>asset</secondary></indexterm>
+<para><computeroutput>InputActionAsset RebindUISampleActionsModified.asset<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a1ffce5ae9fc1f5a46fc4279f7d89d7a0"/><section>
+    <title>bindingMask</title>
+<indexterm><primary>bindingMask</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>bindingMask</secondary></indexterm>
+<para><computeroutput>InputBinding? RebindUISampleActionsModified.bindingMask<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1ac21b48e30a94fa389d9a97d8d74e5e35"/><section>
+    <title>bindings</title>
+<indexterm><primary>bindings</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>bindings</secondary></indexterm>
+<para><computeroutput>IEnumerable&lt;InputBinding&gt; RebindUISampleActionsModified.bindings<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1ab741f2b2719fc9de651696b3e4ee0e5a"/><section>
+    <title>controlSchemes</title>
+<indexterm><primary>controlSchemes</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>controlSchemes</secondary></indexterm>
+<para><computeroutput>ReadOnlyArray&lt;InputControlScheme&gt; RebindUISampleActionsModified.controlSchemes<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a6e3a0edfad9a66f16bb62f1fdc036411"/><section>
+    <title>devices</title>
+<indexterm><primary>devices</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>devices</secondary></indexterm>
+<para><computeroutput>ReadOnlyArray&lt;InputDevice&gt;? RebindUISampleActionsModified.devices<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a5bd5e709b6590083dad948180a4c5ab4"/><section>
+    <title>GamepadScheme</title>
+<indexterm><primary>GamepadScheme</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>GamepadScheme</secondary></indexterm>
+<para><computeroutput>InputControlScheme RebindUISampleActionsModified.GamepadScheme<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a1598d9b723f8e535444a83d364c5b2a0"/><section>
+    <title>GameplaySampleUnused</title>
+<indexterm><primary>GameplaySampleUnused</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>GameplaySampleUnused</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions">GameplaySampleUnusedActions</link> RebindUISampleActionsModified.GameplaySampleUnused<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a0ce5367008c7c62b3a32b693c0db581c"/><section>
+    <title>KeyboardScheme</title>
+<indexterm><primary>KeyboardScheme</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>KeyboardScheme</secondary></indexterm>
+<para><computeroutput>InputControlScheme RebindUISampleActionsModified.KeyboardScheme<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a2f9cd1cea6deda12666502886120b024"/><section>
+    <title>PlayerMain</title>
+<indexterm><primary>PlayerMain</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>PlayerMain</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_player_main_actions">PlayerMainActions</link> RebindUISampleActionsModified.PlayerMain<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a08ac677cdbd4473bb0eb1777027b827e"/><section>
+    <title>UIMain</title>
+<indexterm><primary>UIMain</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>UIMain</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions">UIMainActions</link> RebindUISampleActionsModified.UIMain<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_rebind_u_i_sample_actions_modified_1a53510665014476d73a5a988065bc27dc"/><section>
+    <title>Vector2Axis</title>
+<indexterm><primary>Vector2Axis</primary><secondary>RebindUISampleActionsModified</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified</primary><secondary>Vector2Axis</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions">Vector2AxisActions</link> RebindUISampleActionsModified.Vector2Axis<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/<link linkend="__rebind_u_i_sample_actions_modified_8cs">RebindUISampleActionsModified.cs</link></section>
+</section>

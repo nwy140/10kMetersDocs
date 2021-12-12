@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classitem" xml:lang="en-US">
+<title>item Class Reference</title>
+<indexterm><primary>item</primary></indexterm>
+Inheritance diagram for item:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classitem__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for item:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classitem__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual <link linkend="_classitem">item</link> <link linkend="_classitem_1aa919c4aacef8cc62556ab0606d96af33">getCopy</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_classitem_1ae2da994e1192842d39e400e303b49275">Destroy</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_classitem_1ab64de2044f6e7c7efa363dc8439fd246">resourceName</link></para>
+</listitem>
+            <listitem><para>Sprite <link linkend="_classitem_1adbf0705f885c021ee3271a501fbacf04">Icon</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_classitem_1ae692420cbb3ee47e3f2ae369d72386cb">itemDescription</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classitem_1a9538609f2181dbb017574b44ef64d5d2">maxStack</link> = 2</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_classitem_1a68ea20b19325b04375505bf6a450f285">ID</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classitem_1ae2da994e1192842d39e400e303b49275"/><section>
+    <title>Destroy()</title>
+<indexterm><primary>Destroy</primary><secondary>item</secondary></indexterm>
+<indexterm><primary>item</primary><secondary>Destroy</secondary></indexterm>
+<para><computeroutput>virtual void item.Destroy ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classitem_1aa919c4aacef8cc62556ab0606d96af33"/><section>
+    <title>getCopy()</title>
+<indexterm><primary>getCopy</primary><secondary>item</secondary></indexterm>
+<indexterm><primary>item</primary><secondary>getCopy</secondary></indexterm>
+<para><computeroutput>virtual <link linkend="_classitem">item</link> item.getCopy ( )<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classitem_aa919c4aacef8cc62556ab0606d96af33_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classitem_1adbf0705f885c021ee3271a501fbacf04"/><section>
+    <title>Icon</title>
+<indexterm><primary>Icon</primary><secondary>item</secondary></indexterm>
+<indexterm><primary>item</primary><secondary>Icon</secondary></indexterm>
+<para><computeroutput>Sprite item.Icon</computeroutput></para></section>
+<anchor xml:id="_classitem_1ae692420cbb3ee47e3f2ae369d72386cb"/><section>
+    <title>itemDescription</title>
+<indexterm><primary>itemDescription</primary><secondary>item</secondary></indexterm>
+<indexterm><primary>item</primary><secondary>itemDescription</secondary></indexterm>
+<para><computeroutput>string item.itemDescription</computeroutput></para></section>
+<anchor xml:id="_classitem_1a9538609f2181dbb017574b44ef64d5d2"/><section>
+    <title>maxStack</title>
+<indexterm><primary>maxStack</primary><secondary>item</secondary></indexterm>
+<indexterm><primary>item</primary><secondary>maxStack</secondary></indexterm>
+<para><computeroutput>int item.maxStack = 2</computeroutput></para></section>
+<anchor xml:id="_classitem_1ab64de2044f6e7c7efa363dc8439fd246"/><section>
+    <title>resourceName</title>
+<indexterm><primary>resourceName</primary><secondary>item</secondary></indexterm>
+<indexterm><primary>item</primary><secondary>resourceName</secondary></indexterm>
+<para><computeroutput>string item.resourceName</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classitem_1a68ea20b19325b04375505bf6a450f285"/><section>
+    <title>ID</title>
+<indexterm><primary>ID</primary><secondary>item</secondary></indexterm>
+<indexterm><primary>item</primary><secondary>ID</secondary></indexterm>
+<para><computeroutput>string item.ID<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/<link linkend="_item_8cs">item.cs</link></section>
+</section>

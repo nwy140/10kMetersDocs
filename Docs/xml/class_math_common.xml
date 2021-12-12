@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_math_common" kind="class" language="C#" prot="public">
+    <compoundname>MathCommon</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_math_common_1ac7a4bc3c7bc91a9fc29e028dfd772abe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float MathCommon.CalculateSliderValuePercentage</definition>
+        <argsstring>(Slider sliderUI, float currValue, float maxValue, float lerpTime)</argsstring>
+        <name>CalculateSliderValuePercentage</name>
+        <param>
+          <type>Slider</type>
+          <declname>sliderUI</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>currValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lerpTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" line="10" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" bodystart="10" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_math_common_1aafec06a9d75b7f18a1778638a83e1299" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float MathCommon.CalculateLerpValuePercentage</definition>
+        <argsstring>(float currValue, float maxValue, float lerpTime)</argsstring>
+        <name>CalculateLerpValuePercentage</name>
+        <param>
+          <type>float</type>
+          <declname>currValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lerpTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" line="27" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" bodystart="27" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_math_common_1a5f063f62f56ada8a64719748e2b2cdc0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 MathCommon.lerpLinearVector3</definition>
+        <argsstring>(Vector3 start, Vector3 end, float timeStartedLerping, float lerpTime=1)</argsstring>
+        <name>lerpLinearVector3</name>
+        <param>
+          <type>Vector3</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>timeStartedLerping</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lerpTime</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" line="49" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_math_common_1ab4f7ab95afc8f01d0166035c7944fd1e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float MathCommon.lerpLinearFloat</definition>
+        <argsstring>(float startVal, float endVal, float timeStartedLerping, float lerpTime=1)</argsstring>
+        <name>lerpLinearFloat</name>
+        <param>
+          <type>float</type>
+          <declname>startVal</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>endVal</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>timeStartedLerping</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lerpTime</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" line="56" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" bodystart="56" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_math_common_1a147dd0dbf49544bc599778d12f8c15c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color MathCommon.ColorParseHex</definition>
+        <argsstring>(string hexValue)</argsstring>
+        <name>ColorParseHex</name>
+        <param>
+          <type>string</type>
+          <declname>hexValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" line="73" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_math_common_1afea37ce7e332955adcafc1360fda3322" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color MathCommon.ColorInvert</definition>
+        <argsstring>(Color color)</argsstring>
+        <name>ColorInvert</name>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" line="80" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MathCommon</label>
+        <link refid="class_math_common"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" line="7" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/MathCommon.cs" bodystart="8" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_math_common_1aafec06a9d75b7f18a1778638a83e1299" prot="public" virt="non-virtual"><scope>MathCommon</scope><name>CalculateLerpValuePercentage</name></member>
+      <member refid="class_math_common_1ac7a4bc3c7bc91a9fc29e028dfd772abe" prot="public" virt="non-virtual"><scope>MathCommon</scope><name>CalculateSliderValuePercentage</name></member>
+      <member refid="class_math_common_1afea37ce7e332955adcafc1360fda3322" prot="public" virt="non-virtual"><scope>MathCommon</scope><name>ColorInvert</name></member>
+      <member refid="class_math_common_1a147dd0dbf49544bc599778d12f8c15c6" prot="public" virt="non-virtual"><scope>MathCommon</scope><name>ColorParseHex</name></member>
+      <member refid="class_math_common_1ab4f7ab95afc8f01d0166035c7944fd1e" prot="public" virt="non-virtual"><scope>MathCommon</scope><name>lerpLinearFloat</name></member>
+      <member refid="class_math_common_1a5f063f62f56ada8a64719748e2b2cdc0" prot="public" virt="non-virtual"><scope>MathCommon</scope><name>lerpLinearVector3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

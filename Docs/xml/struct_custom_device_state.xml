@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_custom_device_state" kind="struct" language="C#" prot="public">
+    <compoundname>CustomDeviceState</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IInputStateTypeInfo</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_custom_device_state_1ab04688ea3d2074af6b7f727469f52b60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>FourCC</type>
+        <definition>FourCC CustomDeviceState.format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="25" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_custom_device_state_1a6488dff9118f92a652b36eec630cbc99" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort CustomDeviceState.buttons</definition>
+        <argsstring></argsstring>
+        <name>buttons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="49" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_custom_device_state_1a40c53392d93bd45fe38eaa3d5902ce1c" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte CustomDeviceState.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="100" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_custom_device_state_1af0651600144608c36e255af0bc90a209" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte CustomDeviceState.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="113" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CustomDeviceState</label>
+        <link refid="struct_custom_device_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IInputStateTypeInfo</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CustomDeviceState</label>
+        <link refid="struct_custom_device_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IInputStateTypeInfo</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="21" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="22" bodyend="114"/>
+    <listofallmembers>
+      <member refid="struct_custom_device_state_1a6488dff9118f92a652b36eec630cbc99" prot="public" virt="non-virtual"><scope>CustomDeviceState</scope><name>buttons</name></member>
+      <member refid="struct_custom_device_state_1ab04688ea3d2074af6b7f727469f52b60" prot="public" virt="non-virtual"><scope>CustomDeviceState</scope><name>format</name></member>
+      <member refid="struct_custom_device_state_1a40c53392d93bd45fe38eaa3d5902ce1c" prot="public" virt="non-virtual"><scope>CustomDeviceState</scope><name>x</name></member>
+      <member refid="struct_custom_device_state_1af0651600144608c36e255af0bc90a209" prot="public" virt="non-virtual"><scope>CustomDeviceState</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

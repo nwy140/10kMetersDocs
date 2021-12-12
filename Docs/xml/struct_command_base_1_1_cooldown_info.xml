@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_command_base_1_1_cooldown_info" kind="struct" language="C#" prot="public">
+    <compoundname>CommandBase::CooldownInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_command_base_1_1_cooldown_info_1aa46014d164da650caa0e60cf2e996a44" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CommandBase.CooldownInfo.cooldownTime</definition>
+        <argsstring></argsstring>
+        <name>cooldownTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="52" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">CommandBase.HandleCooldown</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_command_base_1_1_cooldown_info_1a91f07d2e668261920468b08553e93caf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CommandBase.CooldownInfo.curCoolDownTimeElapsed</definition>
+        <argsstring></argsstring>
+        <name>curCoolDownTimeElapsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="55" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">CommandBase.HandleCooldown</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_command_base_1_1_cooldown_info_1a744e22238d30ea394f82cb8f0b0cccd4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b" kindref="member">CastState</ref></type>
+        <definition>CastState CommandBase.CooldownInfo.castState</definition>
+        <argsstring></argsstring>
+        <name>castState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="56" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">CommandBase.HandleCooldown</referencedby>
+        <referencedby refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">InputCommand.SetExecInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_command_base_1_1_cooldown_info_1aace98c3d25895e6cf0fc315803778f28" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CommandBase.CooldownInfo.isCastingNow</definition>
+        <argsstring></argsstring>
+        <name>isCastingNow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="57" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">CommandBase.HandleCooldown</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandBase.CooldownInfo</label>
+        <link refid="struct_command_base_1_1_cooldown_info"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="49" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="50" bodyend="59"/>
+    <listofallmembers>
+      <member refid="struct_command_base_1_1_cooldown_info_1a744e22238d30ea394f82cb8f0b0cccd4" prot="public" virt="non-virtual"><scope>CommandBase::CooldownInfo</scope><name>castState</name></member>
+      <member refid="struct_command_base_1_1_cooldown_info_1aa46014d164da650caa0e60cf2e996a44" prot="public" virt="non-virtual"><scope>CommandBase::CooldownInfo</scope><name>cooldownTime</name></member>
+      <member refid="struct_command_base_1_1_cooldown_info_1a91f07d2e668261920468b08553e93caf" prot="public" virt="non-virtual"><scope>CommandBase::CooldownInfo</scope><name>curCoolDownTimeElapsed</name></member>
+      <member refid="struct_command_base_1_1_cooldown_info_1aace98c3d25895e6cf0fc315803778f28" prot="public" virt="non-virtual"><scope>CommandBase::CooldownInfo</scope><name>isCastingNow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

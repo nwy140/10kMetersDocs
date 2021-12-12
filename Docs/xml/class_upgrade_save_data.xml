@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_upgrade_save_data" kind="class" language="C#" prot="public">
+    <compoundname>UpgradeSaveData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_upgrade_save_data_1a55505e468eacf42f06ec87c4fa88c747" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UpgradeSaveData.UpgradeID</definition>
+        <argsstring></argsstring>
+        <name>UpgradeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" line="7" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+        <referencedby refid="class_upgrade_save_data_1acb57b3bbd14304282ea4b5f820672521" compoundref="_upgrade_save_data_8cs" startline="9" endline="12">UpgradeSaveData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_upgrade_save_data_1acb57b3bbd14304282ea4b5f820672521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpgradeSaveData.UpgradeSaveData</definition>
+        <argsstring>(string id)</argsstring>
+        <name>UpgradeSaveData</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" line="9" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_upgrade_save_data_1a55505e468eacf42f06ec87c4fa88c747" compoundref="_upgrade_save_data_8cs" startline="7">UpgradeID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UpgradeSaveData</label>
+        <link refid="class_upgrade_save_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveData.cs" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_upgrade_save_data_1a55505e468eacf42f06ec87c4fa88c747" prot="public" virt="non-virtual"><scope>UpgradeSaveData</scope><name>UpgradeID</name></member>
+      <member refid="class_upgrade_save_data_1acb57b3bbd14304282ea4b5f820672521" prot="public" virt="non-virtual"><scope>UpgradeSaveData</scope><name>UpgradeSaveData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

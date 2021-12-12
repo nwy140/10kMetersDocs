@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_data" kind="class" language="C#" prot="public">
+    <compoundname>PlayerData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_data_1aa03b30849696fa26b8b6439a3df0ad63" prot="public" static="no" mutable="no">
+        <type><ref refid="class_turbine" kindref="compound">Turbine</ref></type>
+        <definition>Turbine PlayerData.turbineUpgrade</definition>
+        <argsstring></argsstring>
+        <name>turbineUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/PlayerData.cs" line="8" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/PlayerData.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_data_1aea148cf4bd62cf796d2a200401ddc4c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PlayerData.PlayerData</definition>
+        <argsstring>(PlayerMovement playerMovement)</argsstring>
+        <name>PlayerData</name>
+        <param>
+          <type><ref refid="class_player_movement" kindref="compound">PlayerMovement</ref></type>
+          <declname>playerMovement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/PlayerData.cs" line="10" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/PlayerData.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>PlayerData</label>
+        <link refid="class_player_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+turbineUpgrade</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>Turbine</label>
+        <link refid="class_turbine"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/PlayerData.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/PlayerData.cs" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_player_data_1aea148cf4bd62cf796d2a200401ddc4c1" prot="public" virt="non-virtual"><scope>PlayerData</scope><name>PlayerData</name></member>
+      <member refid="class_player_data_1aa03b30849696fa26b8b6439a3df0ad63" prot="public" virt="non-virtual"><scope>PlayerData</scope><name>turbineUpgrade</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

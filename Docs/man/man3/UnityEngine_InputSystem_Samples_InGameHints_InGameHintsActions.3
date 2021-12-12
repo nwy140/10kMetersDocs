@@ -1,0 +1,118 @@
+.TH "UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits IInputActionCollection2, and IDisposable\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBGameplayActions\fP"
+.br
+.ti -1c
+.RI "interface \fBIGameplayActions\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBInGameHintsActions\fP ()"
+.br
+.ti -1c
+.RI "void \fBDispose\fP ()"
+.br
+.ti -1c
+.RI "bool \fBContains\fP (InputAction action)"
+.br
+.ti -1c
+.RI "IEnumerator< InputAction > \fBGetEnumerator\fP ()"
+.br
+.ti -1c
+.RI "void \fBEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBDisable\fP ()"
+.br
+.ti -1c
+.RI "InputAction \fBFindAction\fP (string actionNameOrId, bool throwIfNotFound=false)"
+.br
+.ti -1c
+.RI "int \fBFindBinding\fP (InputBinding \fBbindingMask\fP, out InputAction action)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "InputActionAsset \fBasset\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputBinding? \fBbindingMask\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "ReadOnlyArray< InputDevice >? \fBdevices\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "ReadOnlyArray< InputControlScheme > \fBcontrolSchemes\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "IEnumerable< InputBinding > \fBbindings\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBGameplayActions\fP \fBGameplay\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputControlScheme \fBGamepadScheme\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputControlScheme \fBKeyboardMouseScheme\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.InGameHintsActions ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "bool UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.Contains (InputAction action)"
+
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.Disable ()"
+
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.Dispose ()"
+
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.Enable ()"
+
+.SS "InputAction UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.FindAction (string actionNameOrId, bool throwIfNotFound = \fCfalse\fP)"
+
+.SS "int UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.FindBinding (InputBinding bindingMask, out InputAction action)"
+
+.SS "IEnumerator< InputAction > UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.GetEnumerator ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "InputActionAsset UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.asset\fC [get]\fP"
+
+.SS "InputBinding? UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.bindingMask\fC [get]\fP, \fC [set]\fP"
+
+.SS "IEnumerable<InputBinding> UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.bindings\fC [get]\fP"
+
+.SS "ReadOnlyArray<InputControlScheme> UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.controlSchemes\fC [get]\fP"
+
+.SS "ReadOnlyArray<InputDevice>? UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.devices\fC [get]\fP, \fC [set]\fP"
+
+.SS "InputControlScheme UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.GamepadScheme\fC [get]\fP"
+
+.SS "\fBGameplayActions\fP UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.Gameplay\fC [get]\fP"
+
+.SS "InputControlScheme UnityEngine\&.InputSystem\&.Samples\&.InGameHints\&.InGameHintsActions\&.KeyboardMouseScheme\fC [get]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

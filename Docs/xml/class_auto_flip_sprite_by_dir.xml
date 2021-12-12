@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_auto_flip_sprite_by_dir" kind="class" language="C#" prot="public">
+    <compoundname>AutoFlipSpriteByDir</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_auto_flip_sprite_by_dir_1a6e8cb62df0a0086140e5450e18c7542e" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent AutoFlipSpriteByDir.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_auto_flip_sprite_by_dir_1a8928a75c1fb92bc46e9caa20dc70439e" prot="public" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer AutoFlipSpriteByDir.sprite</definition>
+        <argsstring></argsstring>
+        <name>sprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="9" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_auto_flip_sprite_by_dir_1a31e956ac5c5a813f39c3a82bdf555f1f" prot="public" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D AutoFlipSpriteByDir.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="10" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_auto_flip_sprite_by_dir_1aaac44c4f52f226fa3850ea4bf0ca8cee" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutoFlipSpriteByDir.hasRb</definition>
+        <argsstring></argsstring>
+        <name>hasRb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="11" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_auto_flip_sprite_by_dir_1aa541778597d532c97ad01d83b4132cd2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutoFlipSpriteByDir.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_auto_flip_sprite_by_dir_1a82fd4b4cc63e49f9e030a7b6e2085a9c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutoFlipSpriteByDir.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="18" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_auto_flip_sprite_by_dir_1afe5b24734383218c37e37209c22ed29d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutoFlipSpriteByDir.UpdateFlipSpriteByDir</definition>
+        <argsstring>(Vector3 targetPos, bool isFlipX=false)</argsstring>
+        <name>UpdateFlipSpriteByDir</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetPos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isFlipX</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="30" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="30" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_auto_flip_sprite_by_dir_1a7339068993ba3a2e863a4247eb5f796b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int AutoFlipSpriteByDir.GetObjectDirectionBetween2Vectors</definition>
+        <argsstring>(Vector3 point1, Vector3 point2)</argsstring>
+        <name>GetObjectDirectionBetween2Vectors</name>
+        <param>
+          <type>Vector3</type>
+          <declname>point1</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>point2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="67" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_auto_flip_sprite_by_dir_1a60e2a91dd03c70dd1b3d97a962a901ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int AutoFlipSpriteByDir.AngleDir</definition>
+        <argsstring>(Vector3 fwd, Vector3 targetDir, Vector3 up)</argsstring>
+        <name>AngleDir</name>
+        <param>
+          <type>Vector3</type>
+          <declname>fwd</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>targetDir</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="74" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="74" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_auto_flip_sprite_by_dir_1a914a8f5735ec5dc39adf4d44a49b79b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float AutoFlipSpriteByDir.ClampRotation2</definition>
+        <argsstring>(float angle, float min, float max)</argsstring>
+        <name>ClampRotation2</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="93" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="93" bodyend="103"/>
+        <referencedby refid="class_auto_flip_sprite_by_dir_1abed7f62d6e4eb921ef88b89acc0d623e" compoundref="_auto_flip_sprite_by_dir_8cs" startline="104" endline="114">IsWithinArbitaryRot</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_auto_flip_sprite_by_dir_1abed7f62d6e4eb921ef88b89acc0d623e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AutoFlipSpriteByDir.IsWithinArbitaryRot</definition>
+        <argsstring>(float angle, float min, float max)</argsstring>
+        <name>IsWithinArbitaryRot</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="104" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="104" bodyend="114"/>
+        <references refid="class_auto_flip_sprite_by_dir_1a914a8f5735ec5dc39adf4d44a49b79b4" compoundref="_auto_flip_sprite_by_dir_8cs" startline="93" endline="103">ClampRotation2</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AutoFlipSpriteByDir</label>
+        <link refid="class_auto_flip_sprite_by_dir"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AutoFlipSpriteByDir</label>
+        <link refid="class_auto_flip_sprite_by_dir"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/AutoFlipSpriteByDir.cs" bodystart="7" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_auto_flip_sprite_by_dir_1a6e8cb62df0a0086140e5450e18c7542e" prot="private" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>agent</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1a60e2a91dd03c70dd1b3d97a962a901ce" prot="private" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>AngleDir</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1aa541778597d532c97ad01d83b4132cd2" prot="private" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>Awake</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1a914a8f5735ec5dc39adf4d44a49b79b4" prot="public" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>ClampRotation2</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1a7339068993ba3a2e863a4247eb5f796b" prot="private" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>GetObjectDirectionBetween2Vectors</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1aaac44c4f52f226fa3850ea4bf0ca8cee" prot="public" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>hasRb</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1abed7f62d6e4eb921ef88b89acc0d623e" prot="public" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>IsWithinArbitaryRot</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1a31e956ac5c5a813f39c3a82bdf555f1f" prot="public" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>rb</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1a8928a75c1fb92bc46e9caa20dc70439e" prot="public" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>sprite</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1a82fd4b4cc63e49f9e030a7b6e2085a9c" prot="private" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>Update</name></member>
+      <member refid="class_auto_flip_sprite_by_dir_1afe5b24734383218c37e37209c22ed29d" prot="private" virt="non-virtual"><scope>AutoFlipSpriteByDir</scope><name>UpdateFlipSpriteByDir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

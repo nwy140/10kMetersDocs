@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732">Prepare</link> (Material material)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732"/><section>
+    <title>Prepare()</title>
+<indexterm><primary>Prepare</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</primary><secondary>Prepare</secondary></indexterm>
+<para><computeroutput>virtual void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture</link>&lt; T &gt;.Prepare (Material material)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1acbf442cadd4fcb16e9008ecfd32698fa">UnityEngine.PostProcessing.ChromaticAberrationComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a6028831311ad34f0f563fa5715c139dc">UnityEngine.PostProcessing.ColorGradingComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_dithering_component_1af47fb039901b2434cfe5cd377cf559be">UnityEngine.PostProcessing.DitheringComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_component_1a6a1c8bf2f8d860c91df6cf012c63c27a">UnityEngine.PostProcessing.GrainComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_user_lut_component_1a1d6e06b6268b29af5a7903889feeff4b">UnityEngine.PostProcessing.UserLutComponent</link>, and <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_component_1a7f8b6fca0970717decfc4148d42c43be">UnityEngine.PostProcessing.VignetteComponent</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/<link linkend="__post_processing_component_8cs">PostProcessingComponent.cs</link></section>
+</section>

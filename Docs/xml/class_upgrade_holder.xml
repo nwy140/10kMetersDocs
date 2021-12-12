@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_upgrade_holder" kind="class" language="C#" prot="public">
+    <compoundname>UpgradeHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_upgrade_holder_1acccaecd05530dfb32a1f6e661c6f5064" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_skills" kindref="compound">PlayerSkills</ref></type>
+        <definition>PlayerSkills UpgradeHolder.playerSkills</definition>
+        <argsstring></argsstring>
+        <name>playerSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="7" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a23dd616b1c3497d7b992fcb5be3e8712" prot="private" static="no" mutable="no">
+        <type><ref refid="classstorage" kindref="compound">storage</ref></type>
+        <definition>storage UpgradeHolder.storage</definition>
+        <argsstring></argsstring>
+        <name>storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="8" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1adeb9a97087ab112eae1dd54e57782b6c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_save_manager" kindref="compound">UpgradeSaveManager</ref></type>
+        <definition>UpgradeSaveManager UpgradeHolder.upgradeSaveManager</definition>
+        <argsstring></argsstring>
+        <name>upgradeSaveManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="11" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a3afa8bb882557842fe6f349a28452c3f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_turbine" kindref="compound">Turbine</ref>[]</type>
+        <definition>Turbine [] UpgradeHolder.turbineUpgrades</definition>
+        <argsstring></argsstring>
+        <name>turbineUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="14" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1aceed7804102158c04c02b2754d2ba053" prot="private" static="no" mutable="no">
+        <type><ref refid="class_weapon" kindref="compound">Weapon</ref>[]</type>
+        <definition>Weapon [] UpgradeHolder.weaponUpgrades</definition>
+        <argsstring></argsstring>
+        <name>weaponUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="15" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1abb5886a3a241d0d56ddefd56eda4bd2b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hull" kindref="compound">Hull</ref>[]</type>
+        <definition>Hull [] UpgradeHolder.hullUpgrades</definition>
+        <argsstring></argsstring>
+        <name>hullUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="16" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a76bc5a3bbcd6dae088544f8cb8782139" prot="private" static="no" mutable="no">
+        <type><ref refid="class_self_repair" kindref="compound">SelfRepair</ref>[]</type>
+        <definition>SelfRepair [] UpgradeHolder.selfRepairUpgrades</definition>
+        <argsstring></argsstring>
+        <name>selfRepairUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="17" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a2ec3d5db53eda34f9de5e1cb2ef0a3a4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_oxygen_tank" kindref="compound">OxygenTank</ref>[]</type>
+        <definition>OxygenTank [] UpgradeHolder.oxygenTankUpgrades</definition>
+        <argsstring></argsstring>
+        <name>oxygenTankUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="18" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1ac9ebb7518ae258799fdd18066c73e6e7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_inventory" kindref="compound">Inventory</ref>[]</type>
+        <definition>Inventory [] UpgradeHolder.inventoryUpgrades</definition>
+        <argsstring></argsstring>
+        <name>inventoryUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="19" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a48c5211ff0e4919d2ac7ba67af1e5d56" prot="private" static="no" mutable="no">
+        <type><ref refid="class_turbine" kindref="compound">Turbine</ref></type>
+        <definition>Turbine UpgradeHolder.currentTurbineUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentTurbineUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="22" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a4a1cad6ed8fbc5dcc7909e4d3793949a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+        <definition>Weapon UpgradeHolder.currentWeaponUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentWeaponUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="23" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a41ef1087b4a07cdc20234c60862ba6f7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hull" kindref="compound">Hull</ref></type>
+        <definition>Hull UpgradeHolder.currentHullUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentHullUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="24" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a1bf32e0a108c4095fa060fc277a8f30c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_self_repair" kindref="compound">SelfRepair</ref></type>
+        <definition>SelfRepair UpgradeHolder.currentSelfRepairUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentSelfRepairUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="25" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a0c6101befe47031981582f7d32b531c2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_oxygen_tank" kindref="compound">OxygenTank</ref></type>
+        <definition>OxygenTank UpgradeHolder.currentOxygenTankUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentOxygenTankUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="26" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_holder_1a65b8e7f60a9dcc0759bf3fca2baade8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_inventory" kindref="compound">Inventory</ref></type>
+        <definition>Inventory UpgradeHolder.currentInventoryUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentInventoryUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="27" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_upgrade_holder_1aedf282972fb27acfa5d548136a5c28c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_turbine" kindref="compound">Turbine</ref></type>
+        <definition>Turbine UpgradeHolder.TurbineUpgrade</definition>
+        <argsstring></argsstring>
+        <name>TurbineUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="135" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="136" bodyend="145"/>
+        <referencedby refid="class_upgrade_checker_1a8a229f1a0d156b501b2804cc64e0dda2" compoundref="_upgrade_checker_8cs" startline="60" endline="68">UpgradeChecker.CheckAllUpgrades</referencedby>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" compoundref="_upgrade_save_manager_8cs" startline="31" endline="34">UpgradeSaveManager.SaveUpgrade</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_upgrade_holder_1a1d6fdce24c1016914fabd8952dc3b18a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+        <definition>Weapon UpgradeHolder.WeaponUpgrade</definition>
+        <argsstring></argsstring>
+        <name>WeaponUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="146" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="147" bodyend="156"/>
+        <referencedby refid="class_upgrade_checker_1a8a229f1a0d156b501b2804cc64e0dda2" compoundref="_upgrade_checker_8cs" startline="60" endline="68">UpgradeChecker.CheckAllUpgrades</referencedby>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" compoundref="_upgrade_save_manager_8cs" startline="31" endline="34">UpgradeSaveManager.SaveUpgrade</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_upgrade_holder_1ae99c4ea3908d4ca167b180a33938d303" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_hull" kindref="compound">Hull</ref></type>
+        <definition>Hull UpgradeHolder.HullUpgrade</definition>
+        <argsstring></argsstring>
+        <name>HullUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="157" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="158" bodyend="167"/>
+        <referencedby refid="class_upgrade_checker_1a8a229f1a0d156b501b2804cc64e0dda2" compoundref="_upgrade_checker_8cs" startline="60" endline="68">UpgradeChecker.CheckAllUpgrades</referencedby>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" compoundref="_upgrade_save_manager_8cs" startline="31" endline="34">UpgradeSaveManager.SaveUpgrade</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_upgrade_holder_1afc3be7202277fa87ac4a4a5587164fac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_self_repair" kindref="compound">SelfRepair</ref></type>
+        <definition>SelfRepair UpgradeHolder.SelfRepairUpgrade</definition>
+        <argsstring></argsstring>
+        <name>SelfRepairUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="168" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="169" bodyend="178"/>
+        <referencedby refid="class_upgrade_checker_1a8a229f1a0d156b501b2804cc64e0dda2" compoundref="_upgrade_checker_8cs" startline="60" endline="68">UpgradeChecker.CheckAllUpgrades</referencedby>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" compoundref="_upgrade_save_manager_8cs" startline="31" endline="34">UpgradeSaveManager.SaveUpgrade</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_upgrade_holder_1ad96dbb09f57c0bbadb98c7a61cdf6dd7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_oxygen_tank" kindref="compound">OxygenTank</ref></type>
+        <definition>OxygenTank UpgradeHolder.OxygenTankUpgrade</definition>
+        <argsstring></argsstring>
+        <name>OxygenTankUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="179" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="180" bodyend="189"/>
+        <referencedby refid="class_upgrade_checker_1a8a229f1a0d156b501b2804cc64e0dda2" compoundref="_upgrade_checker_8cs" startline="60" endline="68">UpgradeChecker.CheckAllUpgrades</referencedby>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" compoundref="_upgrade_save_manager_8cs" startline="31" endline="34">UpgradeSaveManager.SaveUpgrade</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_inventory" kindref="compound">Inventory</ref></type>
+        <definition>Inventory UpgradeHolder.InventoryUpgrade</definition>
+        <argsstring></argsstring>
+        <name>InventoryUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="190" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="191" bodyend="200"/>
+        <referencedby refid="classstorage_1a72387ff5adec348a9190a7b5944ca260" compoundref="storage_8cs" startline="22" endline="28">storage.Awake</referencedby>
+        <referencedby refid="class_upgrade_checker_1a8a229f1a0d156b501b2804cc64e0dda2" compoundref="_upgrade_checker_8cs" startline="60" endline="68">UpgradeChecker.CheckAllUpgrades</referencedby>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+        <referencedby refid="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" compoundref="_upgrade_save_manager_8cs" startline="31" endline="34">UpgradeSaveManager.SaveUpgrade</referencedby>
+        <referencedby refid="class_u_i___skill_tree_1acbeb6487c2ef09baf3df2909d8ea45c2" compoundref="_u_i___skill_tree_8cs" startline="39" endline="51">UI_SkillTree.StartBuyingUpgrade</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_upgrade_holder_1aad598ee94790d2aa489a92d0b851e7d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeHolder.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="29" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1a01b3db30f294208909f9e0b5cb24a7af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeHolder.PlayerSkills_OnSkillUnlocked</definition>
+        <argsstring>(object sender, PlayerSkills.OnSkillUnlockedEventArgs e)</argsstring>
+        <name>PlayerSkills_OnSkillUnlocked</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player_skills_1_1_on_skill_unlocked_event_args" kindref="compound">PlayerSkills.OnSkillUnlockedEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="39" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="39" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1a46d0b925bfc5c803b6fb196c449bfc71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeHolder.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="129" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_upgrade_holder_1a3b4afaa85bfb57d1378da74f72e3f76e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_skills" kindref="compound">PlayerSkills</ref></type>
+        <definition>PlayerSkills UpgradeHolder.GetPlayerSkills</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlayerSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="203" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1af73c5d2c92cf6f4fd8c80ff4b40be54b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classstorage" kindref="compound">storage</ref></type>
+        <definition>storage UpgradeHolder.GetStorage</definition>
+        <argsstring>()</argsstring>
+        <name>GetStorage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="208" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="208" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1ab850945bf9d76f2cd44fee60df417bfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_turbine" kindref="compound">Turbine</ref>[]</type>
+        <definition>Turbine[] UpgradeHolder.GetTurbineUpgrades</definition>
+        <argsstring>()</argsstring>
+        <name>GetTurbineUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="213" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="213" bodyend="216"/>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1a3b69f1ed25de4dc6b9d9ad6ac560f36c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_weapon" kindref="compound">Weapon</ref>[]</type>
+        <definition>Weapon[] UpgradeHolder.GetWeaponUpgrades</definition>
+        <argsstring>()</argsstring>
+        <name>GetWeaponUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="217" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="217" bodyend="220"/>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1a031deb2c7cc03415b0d2a248ee2f7fcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_hull" kindref="compound">Hull</ref>[]</type>
+        <definition>Hull[] UpgradeHolder.GetHullUpgrades</definition>
+        <argsstring>()</argsstring>
+        <name>GetHullUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="221" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="221" bodyend="224"/>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1a240c6fb7fa5c7c40c45a5aff5dacb1b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_self_repair" kindref="compound">SelfRepair</ref>[]</type>
+        <definition>SelfRepair[] UpgradeHolder.GetSelfRepairUpgrades</definition>
+        <argsstring>()</argsstring>
+        <name>GetSelfRepairUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="225" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="225" bodyend="228"/>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1ac846be559406fcc8fd8d2b0b760d6dc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_oxygen_tank" kindref="compound">OxygenTank</ref>[]</type>
+        <definition>OxygenTank[] UpgradeHolder.GetOxygenTankUpgrades</definition>
+        <argsstring>()</argsstring>
+        <name>GetOxygenTankUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="229" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="229" bodyend="232"/>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_holder_1a8979d01786a6df9284a7bbe620af7cae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_inventory" kindref="compound">Inventory</ref>[]</type>
+        <definition>Inventory[] UpgradeHolder.GetInventoryUpgrades</definition>
+        <argsstring>()</argsstring>
+        <name>GetInventoryUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="233" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="233" bodyend="236"/>
+        <referencedby refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" compoundref="_player_skills_8cs" startline="68" endline="135">PlayerSkills.GetCurrentUpgrades</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UpgradeHolder</label>
+        <link refid="class_upgrade_holder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UpgradeHolder</label>
+        <link refid="class_upgrade_holder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UpgradeHolder.cs" bodystart="6" bodyend="239"/>
+    <listofallmembers>
+      <member refid="class_upgrade_holder_1aad598ee94790d2aa489a92d0b851e7d5" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>Awake</name></member>
+      <member refid="class_upgrade_holder_1a41ef1087b4a07cdc20234c60862ba6f7" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>currentHullUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a65b8e7f60a9dcc0759bf3fca2baade8d" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>currentInventoryUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a0c6101befe47031981582f7d32b531c2" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>currentOxygenTankUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a1bf32e0a108c4095fa060fc277a8f30c" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>currentSelfRepairUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a48c5211ff0e4919d2ac7ba67af1e5d56" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>currentTurbineUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a4a1cad6ed8fbc5dcc7909e4d3793949a" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>currentWeaponUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a031deb2c7cc03415b0d2a248ee2f7fcf" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>GetHullUpgrades</name></member>
+      <member refid="class_upgrade_holder_1a8979d01786a6df9284a7bbe620af7cae" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>GetInventoryUpgrades</name></member>
+      <member refid="class_upgrade_holder_1ac846be559406fcc8fd8d2b0b760d6dc7" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>GetOxygenTankUpgrades</name></member>
+      <member refid="class_upgrade_holder_1a3b4afaa85bfb57d1378da74f72e3f76e" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>GetPlayerSkills</name></member>
+      <member refid="class_upgrade_holder_1a240c6fb7fa5c7c40c45a5aff5dacb1b6" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>GetSelfRepairUpgrades</name></member>
+      <member refid="class_upgrade_holder_1af73c5d2c92cf6f4fd8c80ff4b40be54b" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>GetStorage</name></member>
+      <member refid="class_upgrade_holder_1ab850945bf9d76f2cd44fee60df417bfc" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>GetTurbineUpgrades</name></member>
+      <member refid="class_upgrade_holder_1a3b69f1ed25de4dc6b9d9ad6ac560f36c" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>GetWeaponUpgrades</name></member>
+      <member refid="class_upgrade_holder_1ae99c4ea3908d4ca167b180a33938d303" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>HullUpgrade</name></member>
+      <member refid="class_upgrade_holder_1abb5886a3a241d0d56ddefd56eda4bd2b" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>hullUpgrades</name></member>
+      <member refid="class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>InventoryUpgrade</name></member>
+      <member refid="class_upgrade_holder_1ac9ebb7518ae258799fdd18066c73e6e7" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>inventoryUpgrades</name></member>
+      <member refid="class_upgrade_holder_1ad96dbb09f57c0bbadb98c7a61cdf6dd7" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>OxygenTankUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a2ec3d5db53eda34f9de5e1cb2ef0a3a4" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>oxygenTankUpgrades</name></member>
+      <member refid="class_upgrade_holder_1acccaecd05530dfb32a1f6e661c6f5064" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>playerSkills</name></member>
+      <member refid="class_upgrade_holder_1a01b3db30f294208909f9e0b5cb24a7af" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>PlayerSkills_OnSkillUnlocked</name></member>
+      <member refid="class_upgrade_holder_1afc3be7202277fa87ac4a4a5587164fac" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>SelfRepairUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a76bc5a3bbcd6dae088544f8cb8782139" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>selfRepairUpgrades</name></member>
+      <member refid="class_upgrade_holder_1a46d0b925bfc5c803b6fb196c449bfc71" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>Start</name></member>
+      <member refid="class_upgrade_holder_1a23dd616b1c3497d7b992fcb5be3e8712" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>storage</name></member>
+      <member refid="class_upgrade_holder_1aedf282972fb27acfa5d548136a5c28c3" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>TurbineUpgrade</name></member>
+      <member refid="class_upgrade_holder_1a3afa8bb882557842fe6f349a28452c3f" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>turbineUpgrades</name></member>
+      <member refid="class_upgrade_holder_1adeb9a97087ab112eae1dd54e57782b6c" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>upgradeSaveManager</name></member>
+      <member refid="class_upgrade_holder_1a1d6fdce24c1016914fabd8952dc3b18a" prot="public" virt="non-virtual"><scope>UpgradeHolder</scope><name>WeaponUpgrade</name></member>
+      <member refid="class_upgrade_holder_1aceed7804102158c04c02b2754d2ba053" prot="private" virt="non-virtual"><scope>UpgradeHolder</scope><name>weaponUpgrades</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

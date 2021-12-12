@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classitem_new" kind="class" language="C#" prot="public">
+    <compoundname>itemNew</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classitem_new_1a018b93b9b79cf3f61ca170334c12c418" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string itemNew.resourceName</definition>
+        <argsstring></argsstring>
+        <name>resourceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" line="9" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_new_1a6ab9f3ee71ad4f6190a03d05bf2176d3" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite itemNew.Sprite</definition>
+        <argsstring></argsstring>
+        <name>Sprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" line="10" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_new_1a091d77ce4d86355d334b73e87c1f23e0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int itemNew.MaxStack</definition>
+        <argsstring></argsstring>
+        <name>MaxStack</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" line="12" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classitem_new_1a15f590326fe9eed0d618fa9054605892" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classitem_new" kindref="compound">itemNew</ref></type>
+        <definition>virtual itemNew itemNew.getCopy</definition>
+        <argsstring>()</argsstring>
+        <name>getCopy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" line="14" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>itemNew</label>
+        <link refid="classitem_new"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>itemNew</label>
+        <link refid="classitem_new"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/itemsNew.cs" bodystart="7" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classitem_new_1a15f590326fe9eed0d618fa9054605892" prot="public" virt="virtual"><scope>itemNew</scope><name>getCopy</name></member>
+      <member refid="classitem_new_1a091d77ce4d86355d334b73e87c1f23e0" prot="public" virt="non-virtual"><scope>itemNew</scope><name>MaxStack</name></member>
+      <member refid="classitem_new_1a018b93b9b79cf3f61ca170334c12c418" prot="public" virt="non-virtual"><scope>itemNew</scope><name>resourceName</name></member>
+      <member refid="classitem_new_1a6ab9f3ee71ad4f6190a03d05bf2176d3" prot="public" virt="non-virtual"><scope>itemNew</scope><name>Sprite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

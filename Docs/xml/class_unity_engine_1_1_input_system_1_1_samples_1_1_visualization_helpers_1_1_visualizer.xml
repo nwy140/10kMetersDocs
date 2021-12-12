@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>UnityEngine::InputSystem::Samples::VisualizationHelpers::Visualizer</compoundname>
+    <derivedcompoundref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer" prot="public" virt="non-virtual">UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer" prot="public" virt="non-virtual">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1ac226269829c48806e6365065befd204a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer.OnDraw</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>OnDraw</name>
+        <reimplementedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer_1ad1ba7e8439695f2f45da5288146df372">OnDraw</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1afbccf89713fb498a8d84f7b885b9fa25">OnDraw</reimplementedby>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="16" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1aa4595a8dcdf9b1bafc07a66e2b3cf528" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer.AddSample</definition>
+        <argsstring>(object value, double time)</argsstring>
+        <name>AddSample</name>
+        <reimplementedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1aa241faf4ea3fa22cca2232d21a9d550b">AddSample</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer_1a4923130fba9c8d5f1df85488286a01c9">AddSample</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a0e3e80a4d324b8577cbf6bf485e2413f">AddSample</reimplementedby>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="17" column="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer"/>
+      </node>
+      <node id="4">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.ScalarVisualizer&lt; TValue &gt;</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="14" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1aa4595a8dcdf9b1bafc07a66e2b3cf528" prot="public" virt="pure-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Visualizer</scope><name>AddSample</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1ac226269829c48806e6365065befd204a" prot="public" virt="pure-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::Visualizer</scope><name>OnDraw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

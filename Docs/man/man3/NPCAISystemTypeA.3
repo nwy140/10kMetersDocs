@@ -1,0 +1,105 @@
+.TH "NPCAISystemTypeA" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+NPCAISystemTypeA
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFSMSystemBase\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBAwake\fP ()"
+.br
+.ti -1c
+.RI "override void \fBUpdate\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleEnterPatrolState\fP ()"
+.br
+.ti -1c
+.RI "void \fBTryEnterStateByName\fP (string nextStateName)"
+.br
+.ti -1c
+.RI "\fBFSMBaseState\fP \fBGetStateSOInstanceByName\fP (string stateName)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBNPCAITypeAReactinStyle\fP \fBreactionStyle\fP = \fBNPCAITypeAReactinStyle\&.Chase\fP"
+.br
+.ti -1c
+.RI "List< \fBFSMBaseState\fP > \fBpossibleStatesSOInstance\fP"
+.br
+.ti -1c
+.RI "List< string > \fBpossibleStatesNames\fP"
+.br
+.ti -1c
+.RI "\fBCommandSlotsHolderManager\fP \fBcommandSlotsHolderManager\fP"
+.br
+.ti -1c
+.RI "NavMeshAgent \fBagent\fP"
+.br
+.ti -1c
+.RI "\fBCameraSightPerceptionSensor2D\fP \fBsensor\fP"
+.br
+.ti -1c
+.RI "\fBWaypointPath\fP \fBwaypointComp\fP"
+.br
+.ti -1c
+.RI "bool \fBisUseWaypoint\fP = true"
+.br
+.ti -1c
+.RI "RotationConstraint \fBrotationConstraint\fP"
+.br
+.ti -1c
+.RI "Transform \fBtarget\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "override void NPCAISystemTypeA\&.Awake ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMSystemBase\fP\&.
+.SS "\fBFSMBaseState\fP NPCAISystemTypeA\&.GetStateSOInstanceByName (string stateName)"
+
+.SS "void NPCAISystemTypeA\&.HandleEnterPatrolState ()"
+
+.SS "void NPCAISystemTypeA\&.TryEnterStateByName (string nextStateName)"
+
+.SS "override void NPCAISystemTypeA\&.Update ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMSystemBase\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "NavMeshAgent NPCAISystemTypeA\&.agent"
+
+.SS "\fBCommandSlotsHolderManager\fP NPCAISystemTypeA\&.commandSlotsHolderManager"
+
+.SS "bool NPCAISystemTypeA\&.isUseWaypoint = true"
+
+.SS "List<string> NPCAISystemTypeA\&.possibleStatesNames"
+
+.SS "List<\fBFSMBaseState\fP> NPCAISystemTypeA\&.possibleStatesSOInstance"
+
+.SS "\fBNPCAITypeAReactinStyle\fP NPCAISystemTypeA\&.reactionStyle = \fBNPCAITypeAReactinStyle\&.Chase\fP"
+
+.SS "RotationConstraint NPCAISystemTypeA\&.rotationConstraint"
+
+.SS "\fBCameraSightPerceptionSensor2D\fP NPCAISystemTypeA\&.sensor"
+
+.SS "Transform NPCAISystemTypeA\&.target"
+
+.SS "\fBWaypointPath\fP NPCAISystemTypeA\&.waypointComp"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

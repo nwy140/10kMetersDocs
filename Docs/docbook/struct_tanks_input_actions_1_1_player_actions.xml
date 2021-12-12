@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_tanks_input_actions_1_1_player_actions" xml:lang="en-US">
+<title>TanksInputActions.PlayerActions Struct Reference</title>
+<indexterm><primary>TanksInputActions.PlayerActions</primary></indexterm>
+Collaboration diagram for TanksInputActions.PlayerActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_player_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_tanks_input_actions_1_1_player_actions_1a251e5c13e9bfd2bdd50dfb60fd81cc9c">PlayerActions</link> (@<link linkend="_class_tanks_input_actions">TanksInputActions</link> wrapper)</para>
+</listitem>
+            <listitem><para>InputActionMap <link linkend="_struct_tanks_input_actions_1_1_player_actions_1a41c89299e4d2b2b06ce7f335d88791f8">Get</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_tanks_input_actions_1_1_player_actions_1a747dd05cc93736da5445e4a693bedc60">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_tanks_input_actions_1_1_player_actions_1ac87c81638502263351f1d7f8821cc951">Disable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_tanks_input_actions_1_1_player_actions_1aadcdc0271de678b3d4e451bd0ad8ce90">SetCallbacks</link> (<link linkend="_interface_tanks_input_actions_1_1_i_player_actions">IPlayerActions</link> instance)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static implicit <link linkend="_struct_tanks_input_actions_1_1_player_actions_1a55246cd1d021d74d2a16ebab1502f4cb">operator InputActionMap</link> (<link linkend="_struct_tanks_input_actions_1_1_player_actions">PlayerActions</link> set)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_player_actions_1a0efba6d9d79e0695e596d2c4268ad520">Gas</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_player_actions_1a677a380502303361f95a51d1fe00d76f">Brake</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_player_actions_1a091b56ce173dfd205f5b430af883f732">Turret</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_player_actions_1a539bbdd0ea863a75c3f30ec5693f8202">Fire</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_tanks_input_actions_1_1_player_actions_1a2150186d7fe4ac98a830ef88ac4c3d54">Pause</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_tanks_input_actions_1_1_player_actions_1ad49b14edf19fd3f3388e7205ecc1f3f6">enabled</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a251e5c13e9bfd2bdd50dfb60fd81cc9c"/><section>
+    <title>PlayerActions()</title>
+<indexterm><primary>PlayerActions</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>PlayerActions</secondary></indexterm>
+<para><computeroutput>TanksInputActions.PlayerActions.PlayerActions (@<link linkend="_class_tanks_input_actions">TanksInputActions</link> wrapper)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1ac87c81638502263351f1d7f8821cc951"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.PlayerActions.Disable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_player_actions_ac87c81638502263351f1d7f8821cc951_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a747dd05cc93736da5445e4a693bedc60"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.PlayerActions.Enable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_player_actions_a747dd05cc93736da5445e4a693bedc60_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a41c89299e4d2b2b06ce7f335d88791f8"/><section>
+    <title>Get()</title>
+<indexterm><primary>Get</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>InputActionMap TanksInputActions.PlayerActions.Get ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_player_actions_a41c89299e4d2b2b06ce7f335d88791f8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a55246cd1d021d74d2a16ebab1502f4cb"/><section>
+    <title>operator InputActionMap()</title>
+<indexterm><primary>operator InputActionMap</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>operator InputActionMap</secondary></indexterm>
+<para><computeroutput>static implicit TanksInputActions.PlayerActions.operator InputActionMap (<link linkend="_struct_tanks_input_actions_1_1_player_actions">PlayerActions</link> set)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1aadcdc0271de678b3d4e451bd0ad8ce90"/><section>
+    <title>SetCallbacks()</title>
+<indexterm><primary>SetCallbacks</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>SetCallbacks</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.PlayerActions.SetCallbacks (<link linkend="_interface_tanks_input_actions_1_1_i_player_actions">IPlayerActions</link> instance)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_tanks_input_actions_1_1_player_actions_aadcdc0271de678b3d4e451bd0ad8ce90_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a677a380502303361f95a51d1fe00d76f"/><section>
+    <title>Brake</title>
+<indexterm><primary>Brake</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>Brake</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.PlayerActions.Brake<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1ad49b14edf19fd3f3388e7205ecc1f3f6"/><section>
+    <title>enabled</title>
+<indexterm><primary>enabled</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>enabled</secondary></indexterm>
+<para><computeroutput>bool TanksInputActions.PlayerActions.enabled<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a539bbdd0ea863a75c3f30ec5693f8202"/><section>
+    <title>Fire</title>
+<indexterm><primary>Fire</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>Fire</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.PlayerActions.Fire<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a0efba6d9d79e0695e596d2c4268ad520"/><section>
+    <title>Gas</title>
+<indexterm><primary>Gas</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>Gas</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.PlayerActions.Gas<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a2150186d7fe4ac98a830ef88ac4c3d54"/><section>
+    <title>Pause</title>
+<indexterm><primary>Pause</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>Pause</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.PlayerActions.Pause<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_tanks_input_actions_1_1_player_actions_1a091b56ce173dfd205f5b430af883f732"/><section>
+    <title>Turret</title>
+<indexterm><primary>Turret</primary><secondary>TanksInputActions.PlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.PlayerActions</primary><secondary>Turret</secondary></indexterm>
+<para><computeroutput>InputAction TanksInputActions.PlayerActions.Turret<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/<link linkend="__tanks_input_actions_8cs">TanksInputActions.cs</link></section>
+</section>

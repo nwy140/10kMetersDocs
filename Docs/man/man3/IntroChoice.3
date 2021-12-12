@@ -1,0 +1,108 @@
+.TH "IntroChoice" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+IntroChoice
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "GameObject \fBintroPanel\fP"
+.br
+.ti -1c
+.RI "GameObject \fBchoicePanel\fP"
+.br
+.ti -1c
+.RI "GameObject \fBscientistTalk\fP"
+.br
+.ti -1c
+.RI "GameObject \fBscientistIdle\fP"
+.br
+.ti -1c
+.RI "int \fBindex\fP = 0"
+.br
+.ti -1c
+.RI "string \fBnoticeToAllTechs\fP = 'Leave the last element in every dialogue boxes empty or there'll be an \fBindex\fP boundary error\&.'"
+.br
+.ti -1c
+.RI "string[] \fBbrief\fP"
+.br
+.ti -1c
+.RI "string[] \fBendBriefing\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fBIntroduction\fP \fBinstance\fP"
+.br
+.in -1c
+.SH "Member Data Documentation"
+.PP 
+.SS "string [] IntroChoice\&.brief"
+\fBInitial value:\fP
+.PP
+.nf
+= new string[]
+    {
+        "The way Liam’s eyes squint at you is almost imperceptible, but you catch it regardless\&. It makes you flinch a little\&. :You",
+        "Alright, fine\&. Pay attention this time\&. :Liam",
+        "As you know, the USSR has been making rapid advancements on their nautical travel technology\&. ",
+        "Word has it that they’re close to reaching the bottom\&.",
+        "His lips form into a thin line\&. You can hear the disdain behind his words\&. :You",
+        "Naturally, that means the Cold War is drawing to a close very soon, with the USSR coming out as the victors\&. :Liam",
+        "Which is, well, not very ideal for us, no\&.",
+        "That’s where you come in\&.",
+        "Liam inclines his head at you\&. :You",
+        "You’ll be helping us gather live specimens for our research, hopefully efficiently enough, to let us better equip the submarine for deeper diving\&. :Liam",
+        "His hand gestures towards the door that leads to the submarine docking station\&. :You",
+        "And also do the diving to the bottom of the ocean, preferably before the USSR does\&. :Liam",
+        "He finishes, and folds his arms together\&. :You",
+        "We don’t know how long we have left, exactly, but we know it’s soon\&. :Liam",
+        "Liam takes out a clipboard from his coat and writes something down\&. :You",
+        "We’ll have to act quickly, especially when we can’t know when it’ll happen\&. :Liam",
+        "Let’s get you acquainted with the submarine, first\&. It’s a little… different from the conventional military models\&.",
+        "You trail behind Liam as he leads you to the submarine, visibly vibrating in excitement\&. :You",
+        " "
+    }
+.fi
+.SS "GameObject IntroChoice\&.choicePanel"
+
+.SS "string [] IntroChoice\&.endBriefing"
+\fBInitial value:\fP
+.PP
+.nf
+= new string[]
+    {
+        "Good, good\&. :Liam",
+        "Satisfied, he nods\&. :You",
+        "We don’t know how long we have left, exactly, but we know it’s soon\&. :Liam",
+        "Liam takes out a clipboard from his coat and writes something down\&. :You",
+        "We’ll have to act quickly, especially when we can’t know when it’ll happen\&. :Liam",
+        "Let’s get you acquainted with the submarine, first\&. It’s a little… different from the conventional military models\&.",
+        "You trail behind Liam as he leads you to the submarine, visibly vibrating in excitement\&. :You",
+        " "
+    }
+.fi
+.SS "int IntroChoice\&.index = 0"
+
+.SS "\fBIntroduction\fP IntroChoice\&.instance\fC [static]\fP"
+
+.SS "GameObject IntroChoice\&.introPanel"
+
+.SS "string IntroChoice\&.noticeToAllTechs = 'Leave the last element in every dialogue boxes empty or there'll be an \fBindex\fP boundary error\&.'"
+
+.SS "GameObject IntroChoice\&.scientistIdle"
+
+.SS "GameObject IntroChoice\&.scientistTalk"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

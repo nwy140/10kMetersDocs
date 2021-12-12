@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_tanks_input_actions_1_1_i_player_actions" xml:lang="en-US">
+<title>TanksInputActions.IPlayerActions Interface Reference</title>
+<indexterm><primary>TanksInputActions.IPlayerActions</primary></indexterm>
+Collaboration diagram for TanksInputActions.IPlayerActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_player_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_player_actions_1af2748877b719f79d8b208abb614ddbec">OnGas</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_player_actions_1af46d97b3d118b677ab0292fa89ac9695">OnBrake</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_player_actions_1a7ec815739023a02fa5f56d246e6be8c6">OnTurret</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_player_actions_1a7a3cee78b1264760cd9522a24add995d">OnFire</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_player_actions_1a6644d0c055dc39c6ae919bbd2c3a30a0">OnPause</link> (InputAction.CallbackContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_player_actions_1af46d97b3d118b677ab0292fa89ac9695"/><section>
+    <title>OnBrake()</title>
+<indexterm><primary>OnBrake</primary><secondary>TanksInputActions.IPlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IPlayerActions</primary><secondary>OnBrake</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IPlayerActions.OnBrake (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_player_actions_af46d97b3d118b677ab0292fa89ac9695_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_player_actions_1a7a3cee78b1264760cd9522a24add995d"/><section>
+    <title>OnFire()</title>
+<indexterm><primary>OnFire</primary><secondary>TanksInputActions.IPlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IPlayerActions</primary><secondary>OnFire</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IPlayerActions.OnFire (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_player_actions_a7a3cee78b1264760cd9522a24add995d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_player_actions_1af2748877b719f79d8b208abb614ddbec"/><section>
+    <title>OnGas()</title>
+<indexterm><primary>OnGas</primary><secondary>TanksInputActions.IPlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IPlayerActions</primary><secondary>OnGas</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IPlayerActions.OnGas (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_player_actions_af2748877b719f79d8b208abb614ddbec_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_player_actions_1a6644d0c055dc39c6ae919bbd2c3a30a0"/><section>
+    <title>OnPause()</title>
+<indexterm><primary>OnPause</primary><secondary>TanksInputActions.IPlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IPlayerActions</primary><secondary>OnPause</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IPlayerActions.OnPause (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_player_actions_a6644d0c055dc39c6ae919bbd2c3a30a0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_player_actions_1a7ec815739023a02fa5f56d246e6be8c6"/><section>
+    <title>OnTurret()</title>
+<indexterm><primary>OnTurret</primary><secondary>TanksInputActions.IPlayerActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IPlayerActions</primary><secondary>OnTurret</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IPlayerActions.OnTurret (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_player_actions_a7ec815739023a02fa5f56d246e6be8c6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/<link linkend="__tanks_input_actions_8cs">TanksInputActions.cs</link></section>
+</section>

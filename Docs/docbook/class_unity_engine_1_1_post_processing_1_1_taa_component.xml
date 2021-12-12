@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_taa_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.TaaComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.TaaComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.TaaComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_taa_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.TaaComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_taa_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override DepthTextureMode <link linkend="_class_unity_engine_1_1_post_processing_1_1_taa_component_1acdb6cc8b86f8792042c7d57579db1e4a">GetCameraFlags</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_taa_component_1a338933e1af86c58cfcd016994651b5d8">ResetHistory</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_taa_component_1ac388a6ff1c2b47604772d4a18e6e8d24">SetProjectionMatrix</link> (Func&lt; Vector2, Matrix4x4 &gt; jitteredFunc)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_taa_component_1a84a55cff0051067183e6e2daa8cfe317">Render</link> (RenderTexture source, RenderTexture destination)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_taa_component_1aae1a9b2df8e23593b75e7eb2c9cc6b4c">OnDisable</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_taa_component_1aadb855573680151dae4900d12af520b2">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_taa_component_1acdb6cc8b86f8792042c7d57579db1e4a"/><section>
+    <title>GetCameraFlags()</title>
+<indexterm><primary>GetCameraFlags</primary><secondary>UnityEngine.PostProcessing.TaaComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.TaaComponent</primary><secondary>GetCameraFlags</secondary></indexterm>
+<para><computeroutput>override DepthTextureMode UnityEngine.PostProcessing.TaaComponent.GetCameraFlags ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_taa_component_1aae1a9b2df8e23593b75e7eb2c9cc6b4c"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.PostProcessing.TaaComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.TaaComponent</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.TaaComponent.OnDisable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_taa_component_aae1a9b2df8e23593b75e7eb2c9cc6b4c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_taa_component_1a84a55cff0051067183e6e2daa8cfe317"/><section>
+    <title>Render()</title>
+<indexterm><primary>Render</primary><secondary>UnityEngine.PostProcessing.TaaComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.TaaComponent</primary><secondary>Render</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.TaaComponent.Render (RenderTexture source, RenderTexture destination)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_taa_component_a84a55cff0051067183e6e2daa8cfe317_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_taa_component_1a338933e1af86c58cfcd016994651b5d8"/><section>
+    <title>ResetHistory()</title>
+<indexterm><primary>ResetHistory</primary><secondary>UnityEngine.PostProcessing.TaaComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.TaaComponent</primary><secondary>ResetHistory</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.TaaComponent.ResetHistory ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_taa_component_a338933e1af86c58cfcd016994651b5d8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_taa_component_1ac388a6ff1c2b47604772d4a18e6e8d24"/><section>
+    <title>SetProjectionMatrix()</title>
+<indexterm><primary>SetProjectionMatrix</primary><secondary>UnityEngine.PostProcessing.TaaComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.TaaComponent</primary><secondary>SetProjectionMatrix</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.TaaComponent.SetProjectionMatrix (Func&lt; Vector2, Matrix4x4 &gt; jitteredFunc)</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_taa_component_1aadb855573680151dae4900d12af520b2"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.TaaComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.TaaComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.TaaComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__taa_component_8cs">TaaComponent.cs</link></section>
+</section>

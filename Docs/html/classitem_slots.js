@@ -16,7 +16,7 @@ var classitem_slots =
     [ "OnDragEvent", "classitem_slots.html#a398784e0c960716f9f7d5df5288fdd70", null ],
     [ "OnDropEvent", "classitem_slots.html#ad94f4c527b301aef291a02e7c49df4a7", null ],
     [ "OnEndDragEvent", "classitem_slots.html#a1c5d1ad6e3cab3246b0b9fd417627511", null ],
+    [ "OnLeftClickEvent", "classitem_slots.html#a45b82359bcc8b42c50195b62b84bdb5c", null ],
     [ "OnPointerEnterEvent", "classitem_slots.html#acee73e9bcf9cdeb868c26f18540b9d3b", null ],
-    [ "OnPointerExitEvent", "classitem_slots.html#a50c75f6962c3ef55bfea2b371fdee7a6", null ],
-    [ "OnRightClickEvent", "classitem_slots.html#a1a34fee57a3dddb779bda5732a1f4eb8", null ]
+    [ "OnPointerExitEvent", "classitem_slots.html#a50c75f6962c3ef55bfea2b371fdee7a6", null ]
 ];

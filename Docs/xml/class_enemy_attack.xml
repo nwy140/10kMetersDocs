@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_enemy_attack" kind="class" language="C#" prot="public">
+    <compoundname>EnemyAttack</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_attack_1aa61aa2759c4dbd5b3f5cc36dd06a44ed" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_health" kindref="compound">PlayerHealth</ref></type>
+        <definition>PlayerHealth EnemyAttack.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_attack_1a4a25e770267f19a3daf9948f094a64e3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAttack.attackDamage</definition>
+        <argsstring></argsstring>
+        <name>attackDamage</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="9" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_attack_1ac3a0a785eaf9a1bd020729c09fefa6c8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAttack.attackRate</definition>
+        <argsstring></argsstring>
+        <name>attackRate</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="10" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_attack_1a8b4ca84e59e91c07199bea353d4956d6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAttack.attackTime</definition>
+        <argsstring></argsstring>
+        <name>attackTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="11" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_attack_1af85efb6788801e6eb533245baea9dcb6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyAttack.isAttacking</definition>
+        <argsstring></argsstring>
+        <name>isAttacking</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="12" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_attack_1af23d0107b7b7c84b0a65dc0c7ebb1be6" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent EnemyAttack.OnAtk</definition>
+        <argsstring></argsstring>
+        <name>OnAtk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="59" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_attack_1a1b0cf8a00ecc5bfe1aeb1c6378fcd006" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAttack.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_attack_1a1126b50974e33d82218df74b63836fb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAttack.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="19" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="19" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_attack_1ac4175f232543ed82d46ff0cc57e195e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAttack.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="40" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_attack_1ad409277c9dc5c86dd5eff1b60ccebf30" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAttack.OnTriggerExit2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerExit2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="51" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="51" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyAttack</label>
+        <link refid="class_enemy_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyAttack</label>
+        <link refid="class_enemy_attack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyAttack.cs" bodystart="7" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_enemy_attack_1a4a25e770267f19a3daf9948f094a64e3" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>attackDamage</name></member>
+      <member refid="class_enemy_attack_1ac3a0a785eaf9a1bd020729c09fefa6c8" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>attackRate</name></member>
+      <member refid="class_enemy_attack_1a8b4ca84e59e91c07199bea353d4956d6" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>attackTime</name></member>
+      <member refid="class_enemy_attack_1af85efb6788801e6eb533245baea9dcb6" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>isAttacking</name></member>
+      <member refid="class_enemy_attack_1af23d0107b7b7c84b0a65dc0c7ebb1be6" prot="public" virt="non-virtual"><scope>EnemyAttack</scope><name>OnAtk</name></member>
+      <member refid="class_enemy_attack_1ac4175f232543ed82d46ff0cc57e195e7" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_enemy_attack_1ad409277c9dc5c86dd5eff1b60ccebf30" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>OnTriggerExit2D</name></member>
+      <member refid="class_enemy_attack_1aa61aa2759c4dbd5b3f5cc36dd06a44ed" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>player</name></member>
+      <member refid="class_enemy_attack_1a1b0cf8a00ecc5bfe1aeb1c6378fcd006" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>Start</name></member>
+      <member refid="class_enemy_attack_1a1126b50974e33d82218df74b63836fb2" prot="private" virt="non-virtual"><scope>EnemyAttack</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

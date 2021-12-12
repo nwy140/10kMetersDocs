@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_text_animation" xml:lang="en-US">
+<title>TextAnimation Class Reference</title>
+<indexterm><primary>TextAnimation</primary></indexterm>
+Inheritance diagram for TextAnimation:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_animation__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for TextAnimation:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_animation__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_text_animation_1a6d262c271cf511b878c61f849002b521">choices</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_text_animation_1a515df81799004d77100bfabf97eeaf6f">text</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_text_animation_1ac402bfea1091618ba66f94b65cffc5b4">coverHover</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_text_animation_1a02942b9299f3513d3764ef382f97ab9d">pressEnter</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_text_animation_1aa53c5c1004d593c23873ced3c8ba5a46">textDelay</link> = 0.1f</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_text_animation_1aae8f35f663fce7a7e616b408d3505dbf">fullText</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_text_animation_1a1cbdaa1843582a17141cfd3c81b4cf2d">finishText</link> = false</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_text_animation_1a6d262c271cf511b878c61f849002b521"/><section>
+    <title>choices</title>
+<indexterm><primary>choices</primary><secondary>TextAnimation</secondary></indexterm>
+<indexterm><primary>TextAnimation</primary><secondary>choices</secondary></indexterm>
+<para><computeroutput>GameObject TextAnimation.choices</computeroutput></para></section>
+<anchor xml:id="_class_text_animation_1ac402bfea1091618ba66f94b65cffc5b4"/><section>
+    <title>coverHover</title>
+<indexterm><primary>coverHover</primary><secondary>TextAnimation</secondary></indexterm>
+<indexterm><primary>TextAnimation</primary><secondary>coverHover</secondary></indexterm>
+<para><computeroutput>GameObject TextAnimation.coverHover</computeroutput></para></section>
+<anchor xml:id="_class_text_animation_1a1cbdaa1843582a17141cfd3c81b4cf2d"/><section>
+    <title>finishText</title>
+<indexterm><primary>finishText</primary><secondary>TextAnimation</secondary></indexterm>
+<indexterm><primary>TextAnimation</primary><secondary>finishText</secondary></indexterm>
+<para><computeroutput>bool TextAnimation.finishText = false</computeroutput></para></section>
+<anchor xml:id="_class_text_animation_1aae8f35f663fce7a7e616b408d3505dbf"/><section>
+    <title>fullText</title>
+<indexterm><primary>fullText</primary><secondary>TextAnimation</secondary></indexterm>
+<indexterm><primary>TextAnimation</primary><secondary>fullText</secondary></indexterm>
+<para><computeroutput>string TextAnimation.fullText</computeroutput></para></section>
+<anchor xml:id="_class_text_animation_1a02942b9299f3513d3764ef382f97ab9d"/><section>
+    <title>pressEnter</title>
+<indexterm><primary>pressEnter</primary><secondary>TextAnimation</secondary></indexterm>
+<indexterm><primary>TextAnimation</primary><secondary>pressEnter</secondary></indexterm>
+<para><computeroutput>GameObject TextAnimation.pressEnter</computeroutput></para></section>
+<anchor xml:id="_class_text_animation_1a515df81799004d77100bfabf97eeaf6f"/><section>
+    <title>text</title>
+<indexterm><primary>text</primary><secondary>TextAnimation</secondary></indexterm>
+<indexterm><primary>TextAnimation</primary><secondary>text</secondary></indexterm>
+<para><computeroutput>GameObject TextAnimation.text</computeroutput></para></section>
+<anchor xml:id="_class_text_animation_1aa53c5c1004d593c23873ced3c8ba5a46"/><section>
+    <title>textDelay</title>
+<indexterm><primary>textDelay</primary><secondary>TextAnimation</secondary></indexterm>
+<indexterm><primary>TextAnimation</primary><secondary>textDelay</secondary></indexterm>
+<para><computeroutput>float TextAnimation.textDelay = 0.1f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/<link linkend="__text_animation_8cs">TextAnimation.cs</link></section>
+</section>

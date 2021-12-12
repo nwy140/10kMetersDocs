@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_on_enable_play_s_f_x" kind="class" language="C#" prot="public">
+    <compoundname>OnEnablePlaySFX</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_on_enable_play_s_f_x_1a71c0fee87b29e8d71fb300497f20d72c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string OnEnablePlaySFX.SFXName</definition>
+        <argsstring></argsstring>
+        <name>SFXName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlaySFX.cs" line="7" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlaySFX.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_on_enable_play_s_f_x_1a254d3f65ae4b877442829a32424c75e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnEnablePlaySFX.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlaySFX.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlaySFX.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_on_enable_play_s_f_x_1aa6a1ca3b84a93340919d8f61fbb591d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnEnablePlaySFX.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlaySFX.cs" line="13" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlaySFX.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OnEnablePlaySFX</label>
+        <link refid="class_on_enable_play_s_f_x"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OnEnablePlaySFX</label>
+        <link refid="class_on_enable_play_s_f_x"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlaySFX.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlaySFX.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_on_enable_play_s_f_x_1aa6a1ca3b84a93340919d8f61fbb591d3" prot="private" virt="non-virtual"><scope>OnEnablePlaySFX</scope><name>OnEnable</name></member>
+      <member refid="class_on_enable_play_s_f_x_1a71c0fee87b29e8d71fb300497f20d72c" prot="public" virt="non-virtual"><scope>OnEnablePlaySFX</scope><name>SFXName</name></member>
+      <member refid="class_on_enable_play_s_f_x_1a254d3f65ae4b877442829a32424c75e7" prot="private" virt="non-virtual"><scope>OnEnablePlaySFX</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_default_state" xml:lang="en-US">
+<title>DefaultState Class Reference</title>
+<indexterm><primary>DefaultState</primary></indexterm>
+Inheritance diagram for DefaultState:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_default_state__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for DefaultState:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_default_state__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_default_state_1a372b08455454537d6d65a00761b572c9">DefaultState</link> (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_default_state_1a1ac73c9e44849218e1987cc049406cd5">OnEnterState</link> ()</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_default_state_1ab46682c863828f1a5ab57cb164cb4223">OnExitState</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_default_state_1a07b33569596bb004a631be1bd10eb41d">OnUpdate</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_default_state_1a372b08455454537d6d65a00761b572c9"/><section>
+    <title>DefaultState()</title>
+<indexterm><primary>DefaultState</primary><secondary>DefaultState</secondary></indexterm>
+<indexterm><primary>DefaultState</primary><secondary>DefaultState</secondary></indexterm>
+<para><computeroutput>DefaultState.DefaultState (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_default_state_1a1ac73c9e44849218e1987cc049406cd5"/><section>
+    <title>OnEnterState()</title>
+<indexterm><primary>OnEnterState</primary><secondary>DefaultState</secondary></indexterm>
+<indexterm><primary>DefaultState</primary><secondary>OnEnterState</secondary></indexterm>
+<para><computeroutput>override bool DefaultState.OnEnterState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_default_state_1ab46682c863828f1a5ab57cb164cb4223"/><section>
+    <title>OnExitState()</title>
+<indexterm><primary>OnExitState</primary><secondary>DefaultState</secondary></indexterm>
+<indexterm><primary>DefaultState</primary><secondary>OnExitState</secondary></indexterm>
+<para><computeroutput>override bool DefaultState.OnExitState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_default_state_1a07b33569596bb004a631be1bd10eb41d"/><section>
+    <title>OnUpdate()</title>
+<indexterm><primary>OnUpdate</primary><secondary>DefaultState</secondary></indexterm>
+<indexterm><primary>DefaultState</primary><secondary>OnUpdate</secondary></indexterm>
+<para><computeroutput>override void DefaultState.OnUpdate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e">FSMBaseState</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/<link linkend="__n_p_c_a_i_states_type_a_8cs">NPCAIStatesTypeA.cs</link></section>
+</section>

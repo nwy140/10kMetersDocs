@@ -1,0 +1,213 @@
+\hypertarget{class_doxygen_window}{}\doxysection{Doxygen\+Window Class Reference}
+\label{class_doxygen_window}\index{DoxygenWindow@{DoxygenWindow}}
+
+
+ 
+
+
+
+
+Inheritance diagram for Doxygen\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{class_doxygen_window__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Doxygen\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{class_doxygen_window__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676}{Window\+Modes}} \{ \mbox{\hyperlink{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a32b919d18cfaca89383f6000dcc9c031}{Generate}}
+, \mbox{\hyperlink{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a254f642527b45bc260048e30704edb39}{Configuration}}
+, \mbox{\hyperlink{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a8f7f4c1ce7a4f933663d10543562b096}{About}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_doxygen_window_a5ba38d9b1d93fa627bc3b53cdd1dda17}{read\+Base\+Config}} ()
+\item 
+void \mbox{\hyperlink{class_doxygen_window_abf3c2a3c3a53e6691e58b865da8404de}{Make\+New\+Doxy\+File}} (\mbox{\hyperlink{class_doxygen_config}{Doxygen\+Config}} config)
+\item 
+void \mbox{\hyperlink{class_doxygen_window_a63924417d5b5b7a71570ec9a9ef1ca5e}{Run\+Doxygen}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_doxygen_window_a48f456c44b07cc9283a0583579b1d65a}{Init}} ()
+\item 
+static void \mbox{\hyperlink{class_doxygen_window_a2809a93b756a6cfc371ee76a9d7168d7}{On\+Doxygen\+Finished}} (int code)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_doxygen_window_a0c52f34973444c41e90151536dbd6e82}{Unity\+Project\+ID}} = Player\+Settings.\+product\+Name+\char`\"{}\+:\char`\"{}
+\item 
+string \mbox{\hyperlink{class_doxygen_window_a470870b3c6a44b3fe2f57870e39cfe55}{Assests\+Folder}} = Application.\+data\+Path
+\item 
+string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_doxygen_window_a2dfb0ba26737a0e996797c2848cc2fc0}{Themes}} = new string\mbox{[}3\mbox{]} \{\char`\"{}Default\char`\"{}, \char`\"{}Dark and Colorful\char`\"{}, \char`\"{}Light and Clean\char`\"{}\}
+\item 
+int \mbox{\hyperlink{class_doxygen_window_aff9bfc8c7ed3f017a61e67025ea7c99a}{Selected\+Theme}} = 1
+\item 
+string \mbox{\hyperlink{class_doxygen_window_a7a4acfac0a07a2a05f183e4f0bc53b62}{Base\+File\+String}} = null
+\item 
+string \mbox{\hyperlink{class_doxygen_window_a20e7d1bdb1f32c97f600bf0f0bdb2358}{Doxygen\+Output\+String}} = null
+\item 
+string \mbox{\hyperlink{class_doxygen_window_a82b41ae2e3c44b050acc7603031ccd55}{Curent\+Output}} = null
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_doxygen_window}{Doxygen\+Window}} \mbox{\hyperlink{class_doxygen_window_a45d09c9a64d2873367470303789e3bf9}{Instance}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+A Editor Plugin for automatic doc generation through Doxygen
+
+Author\+: Jacob Pennock (\href{http://Jacobpennock.com}{\texttt{ http\+://\+Jacobpennock.\+com}})
+
+Version\+: 1.\+0
+
+~\newline
+ 
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676}\label{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676}} 
+\index{DoxygenWindow@{DoxygenWindow}!WindowModes@{WindowModes}}
+\index{WindowModes@{WindowModes}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{WindowModes}{WindowModes}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676}{Doxygen\+Window.\+Window\+Modes}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Generate@{Generate}!DoxygenWindow@{DoxygenWindow}}\index{DoxygenWindow@{DoxygenWindow}!Generate@{Generate}}}\mbox{\Hypertarget{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a32b919d18cfaca89383f6000dcc9c031}\label{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a32b919d18cfaca89383f6000dcc9c031}} 
+Generate&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Configuration@{Configuration}!DoxygenWindow@{DoxygenWindow}}\index{DoxygenWindow@{DoxygenWindow}!Configuration@{Configuration}}}\mbox{\Hypertarget{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a254f642527b45bc260048e30704edb39}\label{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a254f642527b45bc260048e30704edb39}} 
+Configuration&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{About@{About}!DoxygenWindow@{DoxygenWindow}}\index{DoxygenWindow@{DoxygenWindow}!About@{About}}}\mbox{\Hypertarget{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a8f7f4c1ce7a4f933663d10543562b096}\label{class_doxygen_window_ad1f6043062e30f52cb634b72294a5676a8f7f4c1ce7a4f933663d10543562b096}} 
+About&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_doxygen_window_a48f456c44b07cc9283a0583579b1d65a}\label{class_doxygen_window_a48f456c44b07cc9283a0583579b1d65a}} 
+\index{DoxygenWindow@{DoxygenWindow}!Init@{Init}}
+\index{Init@{Init}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily static void Doxygen\+Window.\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_doxygen_window_abf3c2a3c3a53e6691e58b865da8404de}\label{class_doxygen_window_abf3c2a3c3a53e6691e58b865da8404de}} 
+\index{DoxygenWindow@{DoxygenWindow}!MakeNewDoxyFile@{MakeNewDoxyFile}}
+\index{MakeNewDoxyFile@{MakeNewDoxyFile}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{MakeNewDoxyFile()}{MakeNewDoxyFile()}}
+{\footnotesize\ttfamily void Doxygen\+Window.\+Make\+New\+Doxy\+File (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_doxygen_config}{Doxygen\+Config}}}]{config }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_doxygen_window_a2809a93b756a6cfc371ee76a9d7168d7}\label{class_doxygen_window_a2809a93b756a6cfc371ee76a9d7168d7}} 
+\index{DoxygenWindow@{DoxygenWindow}!OnDoxygenFinished@{OnDoxygenFinished}}
+\index{OnDoxygenFinished@{OnDoxygenFinished}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{OnDoxygenFinished()}{OnDoxygenFinished()}}
+{\footnotesize\ttfamily static void Doxygen\+Window.\+On\+Doxygen\+Finished (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doxygen_window_a2809a93b756a6cfc371ee76a9d7168d7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_doxygen_window_a5ba38d9b1d93fa627bc3b53cdd1dda17}\label{class_doxygen_window_a5ba38d9b1d93fa627bc3b53cdd1dda17}} 
+\index{DoxygenWindow@{DoxygenWindow}!readBaseConfig@{readBaseConfig}}
+\index{readBaseConfig@{readBaseConfig}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{readBaseConfig()}{readBaseConfig()}}
+{\footnotesize\ttfamily void Doxygen\+Window.\+read\+Base\+Config (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_doxygen_window_a63924417d5b5b7a71570ec9a9ef1ca5e}\label{class_doxygen_window_a63924417d5b5b7a71570ec9a9ef1ca5e}} 
+\index{DoxygenWindow@{DoxygenWindow}!RunDoxygen@{RunDoxygen}}
+\index{RunDoxygen@{RunDoxygen}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{RunDoxygen()}{RunDoxygen()}}
+{\footnotesize\ttfamily void Doxygen\+Window.\+Run\+Doxygen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doxygen_window_a63924417d5b5b7a71570ec9a9ef1ca5e_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_doxygen_window_a470870b3c6a44b3fe2f57870e39cfe55}\label{class_doxygen_window_a470870b3c6a44b3fe2f57870e39cfe55}} 
+\index{DoxygenWindow@{DoxygenWindow}!AssestsFolder@{AssestsFolder}}
+\index{AssestsFolder@{AssestsFolder}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{AssestsFolder}{AssestsFolder}}
+{\footnotesize\ttfamily string Doxygen\+Window.\+Assests\+Folder = Application.\+data\+Path}
+
+\mbox{\Hypertarget{class_doxygen_window_a7a4acfac0a07a2a05f183e4f0bc53b62}\label{class_doxygen_window_a7a4acfac0a07a2a05f183e4f0bc53b62}} 
+\index{DoxygenWindow@{DoxygenWindow}!BaseFileString@{BaseFileString}}
+\index{BaseFileString@{BaseFileString}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{BaseFileString}{BaseFileString}}
+{\footnotesize\ttfamily string Doxygen\+Window.\+Base\+File\+String = null}
+
+\mbox{\Hypertarget{class_doxygen_window_a82b41ae2e3c44b050acc7603031ccd55}\label{class_doxygen_window_a82b41ae2e3c44b050acc7603031ccd55}} 
+\index{DoxygenWindow@{DoxygenWindow}!CurentOutput@{CurentOutput}}
+\index{CurentOutput@{CurentOutput}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{CurentOutput}{CurentOutput}}
+{\footnotesize\ttfamily string Doxygen\+Window.\+Curent\+Output = null}
+
+\mbox{\Hypertarget{class_doxygen_window_a20e7d1bdb1f32c97f600bf0f0bdb2358}\label{class_doxygen_window_a20e7d1bdb1f32c97f600bf0f0bdb2358}} 
+\index{DoxygenWindow@{DoxygenWindow}!DoxygenOutputString@{DoxygenOutputString}}
+\index{DoxygenOutputString@{DoxygenOutputString}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{DoxygenOutputString}{DoxygenOutputString}}
+{\footnotesize\ttfamily string Doxygen\+Window.\+Doxygen\+Output\+String = null}
+
+\mbox{\Hypertarget{class_doxygen_window_a45d09c9a64d2873367470303789e3bf9}\label{class_doxygen_window_a45d09c9a64d2873367470303789e3bf9}} 
+\index{DoxygenWindow@{DoxygenWindow}!Instance@{Instance}}
+\index{Instance@{Instance}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_doxygen_window}{Doxygen\+Window}} Doxygen\+Window.\+Instance\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_doxygen_window_aff9bfc8c7ed3f017a61e67025ea7c99a}\label{class_doxygen_window_aff9bfc8c7ed3f017a61e67025ea7c99a}} 
+\index{DoxygenWindow@{DoxygenWindow}!SelectedTheme@{SelectedTheme}}
+\index{SelectedTheme@{SelectedTheme}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{SelectedTheme}{SelectedTheme}}
+{\footnotesize\ttfamily int Doxygen\+Window.\+Selected\+Theme = 1}
+
+\mbox{\Hypertarget{class_doxygen_window_a2dfb0ba26737a0e996797c2848cc2fc0}\label{class_doxygen_window_a2dfb0ba26737a0e996797c2848cc2fc0}} 
+\index{DoxygenWindow@{DoxygenWindow}!Themes@{Themes}}
+\index{Themes@{Themes}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{Themes}{Themes}}
+{\footnotesize\ttfamily string \mbox{[}$\,$\mbox{]} Doxygen\+Window.\+Themes = new string\mbox{[}3\mbox{]} \{\char`\"{}Default\char`\"{}, \char`\"{}Dark and Colorful\char`\"{}, \char`\"{}Light and Clean\char`\"{}\}}
+
+\mbox{\Hypertarget{class_doxygen_window_a0c52f34973444c41e90151536dbd6e82}\label{class_doxygen_window_a0c52f34973444c41e90151536dbd6e82}} 
+\index{DoxygenWindow@{DoxygenWindow}!UnityProjectID@{UnityProjectID}}
+\index{UnityProjectID@{UnityProjectID}!DoxygenWindow@{DoxygenWindow}}
+\doxysubsubsection{\texorpdfstring{UnityProjectID}{UnityProjectID}}
+{\footnotesize\ttfamily string Doxygen\+Window.\+Unity\+Project\+ID = Player\+Settings.\+product\+Name+\char`\"{}\+:\char`\"{}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Editor/\+Doxygen/\mbox{\hyperlink{_doxygen_window_8cs}{Doxygen\+Window.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings" kind="struct" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ScreenSpaceReflectionModel::Settings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1af5e50a060b8a92557f3b27f0ecbcf1f0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings" kindref="compound">ReflectionSettings</ref></type>
+        <definition>ReflectionSettings UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings.reflection</definition>
+        <argsstring></argsstring>
+        <name>reflection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" line="87" column="39" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a379bc477aa7fa436d6838f6919017b2a" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_intensity_settings" kindref="compound">IntensitySettings</ref></type>
+        <definition>IntensitySettings UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings.intensity</definition>
+        <argsstring></argsstring>
+        <name>intensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" line="88" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a3cb099eb427c211492d905039c26d337" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_screen_edge_mask" kindref="compound">ScreenEdgeMask</ref></type>
+        <definition>ScreenEdgeMask UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings.screenEdgeMask</definition>
+        <argsstring></argsstring>
+        <name>screenEdgeMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" line="89" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a911d8f7c6b2e2dddaea49dc9ae8db8b0" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings.defaultSettings</definition>
+        <argsstring></argsstring>
+        <name>defaultSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" line="91" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" bodystart="92" bodyend="124"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1abf314aab69e370e9f092e17e69a57066" compoundref="_screen_space_reflection_model_8cs" startline="135" endline="138">UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Reset</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+reflection</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+intensity</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+screenEdgeMask</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.IntensitySettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_intensity_settings"/>
+      </node>
+      <node id="2">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+blendType</edgelabel>
+          <edgelabel>+reflectionQuality</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ScreenEdgeMask</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_screen_edge_mask"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" line="85" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" bodystart="86" bodyend="125"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a911d8f7c6b2e2dddaea49dc9ae8db8b0" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionModel::Settings</scope><name>defaultSettings</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a379bc477aa7fa436d6838f6919017b2a" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionModel::Settings</scope><name>intensity</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1af5e50a060b8a92557f3b27f0ecbcf1f0" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionModel::Settings</scope><name>reflection</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a3cb099eb427c211492d905039c26d337" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionModel::Settings</scope><name>screenEdgeMask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

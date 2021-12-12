@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classitem_slots" kind="class" language="C#" prot="public">
+    <compoundname>itemSlots</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IBeginDragHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEndDragHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDragHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDropHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classitem_slots_1aa57665dbb524a2e6f1f39c4d20ac43db" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image itemSlots.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="10" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_slots_1a3c81112be05700b78b5dfa731a064317" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text itemSlots.itemAmountText</definition>
+        <argsstring></argsstring>
+        <name>itemAmountText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="12" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_slots_1a04b9c366b578c266b39ba275dc35d73b" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color itemSlots.normalColor</definition>
+        <argsstring></argsstring>
+        <name>normalColor</name>
+        <initializer>= Color.white</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="22" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_slots_1ab392d8d4145e9dae8f91a7920ffa7f89" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color itemSlots.disabledColor</definition>
+        <argsstring></argsstring>
+        <name>disabledColor</name>
+        <initializer>= new Color(1, 1, 1, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="23" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_slots_1aae2ba75f93c0ba6c53959a530f8f339d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int itemSlots._amount</definition>
+        <argsstring></argsstring>
+        <name>_amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="45" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classitem_slots_1a432ea09adb085d97ce8d8f5566722152" prot="public" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image itemSlots.slotBorder</definition>
+        <argsstring></argsstring>
+        <name>slotBorder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_slots_1ac19f70ef5c20d1539daeb027c1cbfffe" prot="public" static="no" mutable="no">
+        <type><ref refid="classitem" kindref="compound">item</ref></type>
+        <definition>item itemSlots._item</definition>
+        <argsstring></argsstring>
+        <name>_item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="25" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="classitem_slots_1acee73e9bcf9cdeb868c26f18540b9d3b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; itemSlots.OnPointerEnterEvent</definition>
+        <argsstring></argsstring>
+        <name>OnPointerEnterEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="14" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classitem_slots_1a653c8e8dc294ae1a48adb85b6955f1da" compoundref="item_slots_8cs" startline="84" endline="88">OnPointerEnter</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="classitem_slots_1a50c75f6962c3ef55bfea2b371fdee7a6" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; itemSlots.OnPointerExitEvent</definition>
+        <argsstring></argsstring>
+        <name>OnPointerExitEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="15" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classitem_slots_1a2281a1b1996fa5c3f99f9db18246dbdd" compoundref="item_slots_8cs" startline="90" endline="94">OnPointerExit</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="classitem_slots_1a45b82359bcc8b42c50195b62b84bdb5c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; itemSlots.OnLeftClickEvent</definition>
+        <argsstring></argsstring>
+        <name>OnLeftClickEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="16" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classitem_slots_1a3c6c0eb5d5b4cb3777102ce5e274dd3a" compoundref="item_slots_8cs" startline="75" endline="82">OnPointerClick</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="classitem_slots_1ae2a45277f4b0b9b25483f39aa4bf1d40" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; itemSlots.OnBeginDragEvent</definition>
+        <argsstring></argsstring>
+        <name>OnBeginDragEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="17" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classitem_slots_1acea6866a6e07207ab1ba8bf84cdaadd0" compoundref="item_slots_8cs" startline="96" endline="100">OnBeginDrag</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="classitem_slots_1a1c5d1ad6e3cab3246b0b9fd417627511" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; itemSlots.OnEndDragEvent</definition>
+        <argsstring></argsstring>
+        <name>OnEndDragEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="18" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classitem_slots_1ae023cf102b335381d287f0cae7bdeb87" compoundref="item_slots_8cs" startline="102" endline="106">OnEndDrag</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="classitem_slots_1a398784e0c960716f9f7d5df5288fdd70" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; itemSlots.OnDragEvent</definition>
+        <argsstring></argsstring>
+        <name>OnDragEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="19" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classitem_slots_1aa9c455bb0718e54098c8663354bd2feb" compoundref="item_slots_8cs" startline="108" endline="112">OnDrag</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="classitem_slots_1ad94f4c527b301aef291a02e7c49df4a7" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; itemSlots.OnDropEvent</definition>
+        <argsstring></argsstring>
+        <name>OnDropEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="20" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classitem_slots_1a22635e15ca6c38e205c6ab478427164d" compoundref="item_slots_8cs" startline="114" endline="118">OnDrop</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="classitem" kindref="compound">item</ref></type>
+        <definition>item itemSlots.Item</definition>
+        <argsstring></argsstring>
+        <name>Item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="26" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="27" bodyend="43"/>
+        <referencedby refid="classinventory_new_1afdef58cdfdb139e9ba9c5d47ef5a7eaf" compoundref="inventory_new_8cs" startline="71" endline="135">inventoryNew.addItem</referencedby>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">RequirementChecker.CheckRequirement</referencedby>
+        <referencedby refid="class_player_skills_1a22c2907b0d980b1b21b850eb5f0f8dc8" compoundref="_player_skills_8cs" startline="158" endline="273">PlayerSkills.IsRequirementMet</referencedby>
+        <referencedby refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" compoundref="_item_save_manager_8cs" startline="11" endline="42">ItemSaveManager.LoadInventory</referencedby>
+        <referencedby refid="classinventory_new_1aa2b63c67069cc81cea458ca7bf47210b" compoundref="inventory_new_8cs" startline="137" endline="155">inventoryNew.removeItem</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int itemSlots.Amount</definition>
+        <argsstring></argsstring>
+        <name>Amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="47" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="48" bodyend="62"/>
+        <referencedby refid="classinventory_new_1afdef58cdfdb139e9ba9c5d47ef5a7eaf" compoundref="inventory_new_8cs" startline="71" endline="135">inventoryNew.addItem</referencedby>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">RequirementChecker.CheckRequirement</referencedby>
+        <referencedby refid="class_player_skills_1a22c2907b0d980b1b21b850eb5f0f8dc8" compoundref="_player_skills_8cs" startline="158" endline="273">PlayerSkills.IsRequirementMet</referencedby>
+        <referencedby refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" compoundref="_item_save_manager_8cs" startline="11" endline="42">ItemSaveManager.LoadInventory</referencedby>
+        <referencedby refid="classinventory_new_1aa2b63c67069cc81cea458ca7bf47210b" compoundref="inventory_new_8cs" startline="137" endline="155">inventoryNew.removeItem</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classitem_slots_1ac41454c59d7b69fa062b3f885a8a07b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlots.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="64" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="64" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classitem_slots_1a09cf38829a1752070590e1729ef4eab5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool itemSlots.CanReceiveItem</definition>
+        <argsstring>(item item)</argsstring>
+        <name>CanReceiveItem</name>
+        <param>
+          <type><ref refid="classitem" kindref="compound">item</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="70" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classitem_slots_1a3c6c0eb5d5b4cb3777102ce5e274dd3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlots.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="75" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="75" bodyend="82"/>
+        <references refid="classitem_slots_1a45b82359bcc8b42c50195b62b84bdb5c" compoundref="item_slots_8cs" startline="16">OnLeftClickEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="classitem_slots_1a653c8e8dc294ae1a48adb85b6955f1da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlots.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="84" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="84" bodyend="88"/>
+        <references refid="classitem_slots_1acee73e9bcf9cdeb868c26f18540b9d3b" compoundref="item_slots_8cs" startline="14">OnPointerEnterEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="classitem_slots_1a2281a1b1996fa5c3f99f9db18246dbdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlots.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="90" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="90" bodyend="94"/>
+        <references refid="classitem_slots_1a50c75f6962c3ef55bfea2b371fdee7a6" compoundref="item_slots_8cs" startline="15">OnPointerExitEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="classitem_slots_1acea6866a6e07207ab1ba8bf84cdaadd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlots.OnBeginDrag</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnBeginDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="96" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="96" bodyend="100"/>
+        <references refid="classitem_slots_1ae2a45277f4b0b9b25483f39aa4bf1d40" compoundref="item_slots_8cs" startline="17">OnBeginDragEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="classitem_slots_1ae023cf102b335381d287f0cae7bdeb87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlots.OnEndDrag</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnEndDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="102" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="102" bodyend="106"/>
+        <references refid="classitem_slots_1a1c5d1ad6e3cab3246b0b9fd417627511" compoundref="item_slots_8cs" startline="18">OnEndDragEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="classitem_slots_1aa9c455bb0718e54098c8663354bd2feb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlots.OnDrag</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="108" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="108" bodyend="112"/>
+        <references refid="classitem_slots_1a398784e0c960716f9f7d5df5288fdd70" compoundref="item_slots_8cs" startline="19">OnDragEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="classitem_slots_1a22635e15ca6c38e205c6ab478427164d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void itemSlots.OnDrop</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnDrop</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="114" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="114" bodyend="118"/>
+        <references refid="classitem_slots_1ad94f4c527b301aef291a02e7c49df4a7" compoundref="item_slots_8cs" startline="20">OnDropEvent</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="8">
+        <label>IDragHandler</label>
+      </node>
+      <node id="9">
+        <label>IDropHandler</label>
+      </node>
+      <node id="7">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="3">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="5">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>itemSlots</label>
+        <link refid="classitem_slots"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="8">
+        <label>IDragHandler</label>
+      </node>
+      <node id="9">
+        <label>IDropHandler</label>
+      </node>
+      <node id="7">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="3">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="5">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="11">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="10">
+        <label>item</label>
+        <link refid="classitem"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>itemSlots</label>
+        <link refid="classitem_slots"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+_item</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/itemSlots.cs" bodystart="8" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classitem_slots_1aae2ba75f93c0ba6c53959a530f8f339d" prot="private" virt="non-virtual"><scope>itemSlots</scope><name>_amount</name></member>
+      <member refid="classitem_slots_1ac19f70ef5c20d1539daeb027c1cbfffe" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>_item</name></member>
+      <member refid="classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>Amount</name></member>
+      <member refid="classitem_slots_1a09cf38829a1752070590e1729ef4eab5" prot="public" virt="virtual"><scope>itemSlots</scope><name>CanReceiveItem</name></member>
+      <member refid="classitem_slots_1ab392d8d4145e9dae8f91a7920ffa7f89" prot="private" virt="non-virtual"><scope>itemSlots</scope><name>disabledColor</name></member>
+      <member refid="classitem_slots_1aa57665dbb524a2e6f1f39c4d20ac43db" prot="private" virt="non-virtual"><scope>itemSlots</scope><name>image</name></member>
+      <member refid="classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>Item</name></member>
+      <member refid="classitem_slots_1a3c81112be05700b78b5dfa731a064317" prot="private" virt="non-virtual"><scope>itemSlots</scope><name>itemAmountText</name></member>
+      <member refid="classitem_slots_1a04b9c366b578c266b39ba275dc35d73b" prot="private" virt="non-virtual"><scope>itemSlots</scope><name>normalColor</name></member>
+      <member refid="classitem_slots_1acea6866a6e07207ab1ba8bf84cdaadd0" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnBeginDrag</name></member>
+      <member refid="classitem_slots_1ae2a45277f4b0b9b25483f39aa4bf1d40" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnBeginDragEvent</name></member>
+      <member refid="classitem_slots_1aa9c455bb0718e54098c8663354bd2feb" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnDrag</name></member>
+      <member refid="classitem_slots_1a398784e0c960716f9f7d5df5288fdd70" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnDragEvent</name></member>
+      <member refid="classitem_slots_1a22635e15ca6c38e205c6ab478427164d" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnDrop</name></member>
+      <member refid="classitem_slots_1ad94f4c527b301aef291a02e7c49df4a7" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnDropEvent</name></member>
+      <member refid="classitem_slots_1ae023cf102b335381d287f0cae7bdeb87" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnEndDrag</name></member>
+      <member refid="classitem_slots_1a1c5d1ad6e3cab3246b0b9fd417627511" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnEndDragEvent</name></member>
+      <member refid="classitem_slots_1a45b82359bcc8b42c50195b62b84bdb5c" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnLeftClickEvent</name></member>
+      <member refid="classitem_slots_1a3c6c0eb5d5b4cb3777102ce5e274dd3a" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnPointerClick</name></member>
+      <member refid="classitem_slots_1a653c8e8dc294ae1a48adb85b6955f1da" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnPointerEnter</name></member>
+      <member refid="classitem_slots_1acee73e9bcf9cdeb868c26f18540b9d3b" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnPointerEnterEvent</name></member>
+      <member refid="classitem_slots_1a2281a1b1996fa5c3f99f9db18246dbdd" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnPointerExit</name></member>
+      <member refid="classitem_slots_1a50c75f6962c3ef55bfea2b371fdee7a6" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>OnPointerExitEvent</name></member>
+      <member refid="classitem_slots_1ac41454c59d7b69fa062b3f885a8a07b7" prot="private" virt="non-virtual"><scope>itemSlots</scope><name>OnValidate</name></member>
+      <member refid="classitem_slots_1a432ea09adb085d97ce8d8f5566722152" prot="public" virt="non-virtual"><scope>itemSlots</scope><name>slotBorder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

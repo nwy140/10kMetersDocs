@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.VignetteModel.Settings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.VignetteModel.Settings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53d">Mode</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a70993fbc5ddef9c6c693ab24e3bcdb7f">mode</link></para>
+</listitem>
+            <listitem><para>Color <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a005772424eda7fa18a7fb0680d5502b4">color</link></para>
+</listitem>
+            <listitem><para>Vector2 <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1abe48f553acd7a93dbd24c142ebf5848c">center</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a1c9bfe2cdd2bbf056335af7c889f5cd8">intensity</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a8414a693bb78e1e9ccf559b1fb44d566">smoothness</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1aa177ec69f0450f879da7f02cceb3b43d">roundness</link></para>
+</listitem>
+            <listitem><para>Texture <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a7d929d4c446d91c488ced7f5fbbcc692">mask</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a12f126ffbe9e86dce6a11d5f8313ace6">opacity</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1ac84a3387d5ffb33aea9fe2b7639ae402">rounded</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings">Settings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a7c1f4d2623dc2a4679a59de4c1d8ab11">defaultSettings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1abe48f553acd7a93dbd24c142ebf5848c"/><section>
+    <title>center</title>
+<indexterm><primary>center</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>center</secondary></indexterm>
+<para><computeroutput>Vector2 UnityEngine.PostProcessing.VignetteModel.Settings.center</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a005772424eda7fa18a7fb0680d5502b4"/><section>
+    <title>color</title>
+<indexterm><primary>color</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>color</secondary></indexterm>
+<para><computeroutput>Color UnityEngine.PostProcessing.VignetteModel.Settings.color</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a1c9bfe2cdd2bbf056335af7c889f5cd8"/><section>
+    <title>intensity</title>
+<indexterm><primary>intensity</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>intensity</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.VignetteModel.Settings.intensity</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a7d929d4c446d91c488ced7f5fbbcc692"/><section>
+    <title>mask</title>
+<indexterm><primary>mask</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>mask</secondary></indexterm>
+<para><computeroutput>Texture UnityEngine.PostProcessing.VignetteModel.Settings.mask</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a70993fbc5ddef9c6c693ab24e3bcdb7f"/><section>
+    <title>mode</title>
+<indexterm><primary>mode</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>mode</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53d">Mode</link> UnityEngine.PostProcessing.VignetteModel.Settings.mode</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a12f126ffbe9e86dce6a11d5f8313ace6"/><section>
+    <title>opacity</title>
+<indexterm><primary>opacity</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>opacity</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.VignetteModel.Settings.opacity</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1ac84a3387d5ffb33aea9fe2b7639ae402"/><section>
+    <title>rounded</title>
+<indexterm><primary>rounded</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>rounded</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.VignetteModel.Settings.rounded</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1aa177ec69f0450f879da7f02cceb3b43d"/><section>
+    <title>roundness</title>
+<indexterm><primary>roundness</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>roundness</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.VignetteModel.Settings.roundness</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a8414a693bb78e1e9ccf559b1fb44d566"/><section>
+    <title>smoothness</title>
+<indexterm><primary>smoothness</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>smoothness</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.VignetteModel.Settings.smoothness</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a7c1f4d2623dc2a4679a59de4c1d8ab11"/><section>
+    <title>defaultSettings</title>
+<indexterm><primary>defaultSettings</primary><secondary>UnityEngine.PostProcessing.VignetteModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel.Settings</primary><secondary>defaultSettings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings">Settings</link> UnityEngine.PostProcessing.VignetteModel.Settings.defaultSettings<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__vignette_model_8cs">VignetteModel.cs</link></section>
+</section>

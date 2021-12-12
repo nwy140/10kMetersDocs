@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_simple_multiplayer_player_8cs" kind="file" language="C#">
+    <compoundname>SimpleMultiplayerPlayer.cs</compoundname>
+    <innerclass refid="class_simple_multiplayer_player" prot="public">SimpleMultiplayerPlayer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_simple_multiplayer_player" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_simple_multiplayer_player" kindref="compound">SimpleMultiplayerPlayer</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Just<sp/>add<sp/>*some*<sp/>kind<sp/>of<sp/>movement.<sp/>The<sp/>specifics<sp/>here<sp/>are<sp/>not<sp/>of<sp/>interest.<sp/>Serves<sp/>just<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>demonstrate<sp/>that<sp/>the<sp/>inputs<sp/>are<sp/>indeed<sp/>separate.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_simple_multiplayer_player_1ac96d5050596b95482b12e64a49f3bb23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_simple_multiplayer_player_1ac96d5050596b95482b12e64a49f3bb23" kindref="member">OnTeleport</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.position<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(Random.Range(-75,<sp/>75),<sp/>0.5f,<sp/>Random.Range(-75,<sp/>75));</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Multiplayer/SimpleMultiplayerPlayer.cs"/>
+  </compounddef>
+</doxygen>

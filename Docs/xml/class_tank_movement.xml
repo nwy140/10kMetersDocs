@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_tank_movement" kind="class" language="C#" prot="public">
+    <compoundname>TankMovement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tank_movement_1a092fd2b162c27d963991f423b24bf714" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TankMovement.m_PlayerNumber</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerNumber</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="7" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_tank_manager_1adfea056ff87cf9e231b8517424523587" compoundref="_tank_manager_8cs" startline="26" endline="49">TankManager.Setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1a946b8dddff1ced5a2bc6e2c81734c9a9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankMovement.m_Speed</definition>
+        <argsstring></argsstring>
+        <name>m_Speed</name>
+        <initializer>= 12f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1a3d4a37dc23ba03bcd56c6272213e81e1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankMovement.m_TurnSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_TurnSpeed</name>
+        <initializer>= 180f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1adeb10deeb3d19a4e09a373009472d30d" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource TankMovement.m_MovementAudio</definition>
+        <argsstring></argsstring>
+        <name>m_MovementAudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="10" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1afd7b9063830e3f36586d8f65ce9e9864" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip TankMovement.m_EngineIdling</definition>
+        <argsstring></argsstring>
+        <name>m_EngineIdling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="11" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1a1f8950f3ace7c6eb9db3245e56a3e242" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip TankMovement.m_EngineDriving</definition>
+        <argsstring></argsstring>
+        <name>m_EngineDriving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="12" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1ac40fed4b4da6dfb71113b1fe0061c251" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankMovement.m_PitchRange</definition>
+        <argsstring></argsstring>
+        <name>m_PitchRange</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="13" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tank_movement_1ad07cb51fe28a6dc9e933e935697e6b79" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody TankMovement.m_Rigidbody</definition>
+        <argsstring></argsstring>
+        <name>m_Rigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="15" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1af216d1b4ad171f92d44561729b94d2d5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankMovement.m_MovementInputValue</definition>
+        <argsstring></argsstring>
+        <name>m_MovementInputValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="16" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1a18343f7bd7891d4a400c7a0982b29d53" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankMovement.m_TurnInputValue</definition>
+        <argsstring></argsstring>
+        <name>m_TurnInputValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="17" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1abb36632b5d59bfcd8fde7a674194bf36" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankMovement.m_OriginalPitch</definition>
+        <argsstring></argsstring>
+        <name>m_OriginalPitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="18" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_movement_1a6b423670f6113a56028bfec555f27b3c" prot="private" static="no" mutable="no">
+        <type>ParticleSystem[]</type>
+        <definition>ParticleSystem [] TankMovement.m_particleSystems</definition>
+        <argsstring></argsstring>
+        <name>m_particleSystems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="19" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tank_movement_1a35b819d8f8a3b3635e0044ecb63e58a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a3f4c326aecb66df9c38b1dd09bb369d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="26" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="26" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a9871fd5e2c7a302453c1cd97f81eff29" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="45" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="45" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a0afe198b2175c91bb7c9d65a4916338e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="57" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a2874324c9625394192cf5fa51326485f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="63" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1af18dfc4015ef218187fff65272f76616" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.EngineAudio</definition>
+        <argsstring>()</argsstring>
+        <name>EngineAudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="68" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="68" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a440e41098d4a7ec11c1afedcda5d7800" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="95" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1ae526bef828b8f6398d7bd9538899ac57" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.Move</definition>
+        <argsstring>()</argsstring>
+        <name>Move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="102" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="102" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a740eb2a114f28111f52bb5be3e749c12" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.Turn</definition>
+        <argsstring>()</argsstring>
+        <name>Turn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="111" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="111" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a6248c06c754865c033ed95710664e180" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.OnGas</definition>
+        <argsstring>(InputValue value)</argsstring>
+        <name>OnGas</name>
+        <param>
+          <type>InputValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="125" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1abd2946bf078ff9cacc747d3324d6f4c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.OnBrake</definition>
+        <argsstring>(InputValue value)</argsstring>
+        <name>OnBrake</name>
+        <param>
+          <type>InputValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="132" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a74479b12cfec20e1cb2881cfc583d72d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.OnTurret</definition>
+        <argsstring>(InputValue value)</argsstring>
+        <name>OnTurret</name>
+        <param>
+          <type>InputValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="139" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_movement_1a0de206bb942ceec1cccedc406dcf3ebd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankMovement.OnPause</definition>
+        <argsstring>(InputValue value)</argsstring>
+        <name>OnPause</name>
+        <param>
+          <type>InputValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="146" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TankMovement</label>
+        <link refid="class_tank_movement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TankMovement</label>
+        <link refid="class_tank_movement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankMovement.cs" bodystart="6" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_tank_movement_1a35b819d8f8a3b3635e0044ecb63e58a6" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>Awake</name></member>
+      <member refid="class_tank_movement_1af18dfc4015ef218187fff65272f76616" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>EngineAudio</name></member>
+      <member refid="class_tank_movement_1a440e41098d4a7ec11c1afedcda5d7800" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>FixedUpdate</name></member>
+      <member refid="class_tank_movement_1a1f8950f3ace7c6eb9db3245e56a3e242" prot="public" virt="non-virtual"><scope>TankMovement</scope><name>m_EngineDriving</name></member>
+      <member refid="class_tank_movement_1afd7b9063830e3f36586d8f65ce9e9864" prot="public" virt="non-virtual"><scope>TankMovement</scope><name>m_EngineIdling</name></member>
+      <member refid="class_tank_movement_1adeb10deeb3d19a4e09a373009472d30d" prot="public" virt="non-virtual"><scope>TankMovement</scope><name>m_MovementAudio</name></member>
+      <member refid="class_tank_movement_1af216d1b4ad171f92d44561729b94d2d5" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>m_MovementInputValue</name></member>
+      <member refid="class_tank_movement_1abb36632b5d59bfcd8fde7a674194bf36" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>m_OriginalPitch</name></member>
+      <member refid="class_tank_movement_1a6b423670f6113a56028bfec555f27b3c" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>m_particleSystems</name></member>
+      <member refid="class_tank_movement_1ac40fed4b4da6dfb71113b1fe0061c251" prot="public" virt="non-virtual"><scope>TankMovement</scope><name>m_PitchRange</name></member>
+      <member refid="class_tank_movement_1a092fd2b162c27d963991f423b24bf714" prot="public" virt="non-virtual"><scope>TankMovement</scope><name>m_PlayerNumber</name></member>
+      <member refid="class_tank_movement_1ad07cb51fe28a6dc9e933e935697e6b79" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>m_Rigidbody</name></member>
+      <member refid="class_tank_movement_1a946b8dddff1ced5a2bc6e2c81734c9a9" prot="public" virt="non-virtual"><scope>TankMovement</scope><name>m_Speed</name></member>
+      <member refid="class_tank_movement_1a18343f7bd7891d4a400c7a0982b29d53" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>m_TurnInputValue</name></member>
+      <member refid="class_tank_movement_1a3d4a37dc23ba03bcd56c6272213e81e1" prot="public" virt="non-virtual"><scope>TankMovement</scope><name>m_TurnSpeed</name></member>
+      <member refid="class_tank_movement_1ae526bef828b8f6398d7bd9538899ac57" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>Move</name></member>
+      <member refid="class_tank_movement_1abd2946bf078ff9cacc747d3324d6f4c2" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>OnBrake</name></member>
+      <member refid="class_tank_movement_1a9871fd5e2c7a302453c1cd97f81eff29" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>OnDisable</name></member>
+      <member refid="class_tank_movement_1a3f4c326aecb66df9c38b1dd09bb369d5" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>OnEnable</name></member>
+      <member refid="class_tank_movement_1a6248c06c754865c033ed95710664e180" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>OnGas</name></member>
+      <member refid="class_tank_movement_1a0de206bb942ceec1cccedc406dcf3ebd" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>OnPause</name></member>
+      <member refid="class_tank_movement_1a74479b12cfec20e1cb2881cfc583d72d" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>OnTurret</name></member>
+      <member refid="class_tank_movement_1a0afe198b2175c91bb7c9d65a4916338e" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>Start</name></member>
+      <member refid="class_tank_movement_1a740eb2a114f28111f52bb5be3e749c12" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>Turn</name></member>
+      <member refid="class_tank_movement_1a2874324c9625394192cf5fa51326485f" prot="private" virt="non-virtual"><scope>TankMovement</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

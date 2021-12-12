@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_character_move_undo" kind="class" language="C#" prot="public">
+    <compoundname>CharacterMoveUndo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_character_move_undo_1a959ba549c534ab2ae9c0a2597f63d946" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_move" kindref="compound">Move</ref> &gt;</type>
+        <definition>List&lt;Move&gt; CharacterMoveUndo.commandList</definition>
+        <argsstring></argsstring>
+        <name>commandList</name>
+        <initializer>= new List&lt;<ref refid="class_move" kindref="compound">Move</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_move_undo_1a973322307b70bd6c7e289e4ce7f4de1a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CharacterMoveUndo.verticalOffset</definition>
+        <argsstring></argsstring>
+        <name>verticalOffset</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="13" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_move_undo_1a9ed0090192dcd0bc973c129908633035" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CharacterMoveUndo.startPoint</definition>
+        <argsstring></argsstring>
+        <name>startPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="14" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_move_undo_1a9a74e81f4f85128cca4f9a0a2499e49d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_path_draw" kindref="compound">PathDraw</ref></type>
+        <definition>PathDraw CharacterMoveUndo.pathDrawer</definition>
+        <argsstring></argsstring>
+        <name>pathDrawer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="15" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_character_move_undo_1a926c2e4cf544a7c2ab9ad910a594d6a4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CharacterMoveUndo.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="9" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_character_move_undo_1ad6b548534994e1ac1eea6089a885627c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterMoveUndo.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="17" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_character_move_undo_1aa25ee1998425dab636d56172c79c7a39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterMoveUndo.AddCommand</definition>
+        <argsstring>(ICommandOWS command)</argsstring>
+        <name>AddCommand</name>
+        <param>
+          <type><ref refid="interface_i_command_o_w_s" kindref="compound">ICommandOWS</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="25" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="25" bodyend="31"/>
+        <references refid="interface_i_command_o_w_s_1adcd8f91e3914e3e1fa342868527f5942">ICommandOWS.Execute</references>
+        <references refid="class_character_move_undo_1a1852153869d857ed772f31c782ca6501" compoundref="_character_move_undo_8cs" startline="44" endline="60">UpdateLine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_move_undo_1a162d60fc2bf1d834244fd46164abda74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterMoveUndo.UndoCommand</definition>
+        <argsstring>()</argsstring>
+        <name>UndoCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="33" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="33" bodyend="42"/>
+        <references refid="class_character_move_undo_1a1852153869d857ed772f31c782ca6501" compoundref="_character_move_undo_8cs" startline="44" endline="60">UpdateLine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_move_undo_1a1852153869d857ed772f31c782ca6501" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterMoveUndo.UpdateLine</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="44" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="44" bodyend="60"/>
+        <references refid="class_path_draw_1a0682e99cc4427f423fb20be3df2edf91" compoundref="_path_draw_8cs" startline="11" endline="16">PathDraw.UpdateLine</references>
+        <referencedby refid="class_character_move_undo_1aa25ee1998425dab636d56172c79c7a39" compoundref="_character_move_undo_8cs" startline="25" endline="31">AddCommand</referencedby>
+        <referencedby refid="class_character_move_undo_1a162d60fc2bf1d834244fd46164abda74" compoundref="_character_move_undo_8cs" startline="33" endline="42">UndoCommand</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CharacterMoveUndo</label>
+        <link refid="class_character_move_undo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CharacterMoveUndo</label>
+        <link refid="class_character_move_undo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveUndo.cs" bodystart="6" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_character_move_undo_1aa25ee1998425dab636d56172c79c7a39" prot="public" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>AddCommand</name></member>
+      <member refid="class_character_move_undo_1a959ba549c534ab2ae9c0a2597f63d946" prot="private" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>commandList</name></member>
+      <member refid="class_character_move_undo_1a926c2e4cf544a7c2ab9ad910a594d6a4" prot="public" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>index</name></member>
+      <member refid="class_character_move_undo_1a9a74e81f4f85128cca4f9a0a2499e49d" prot="private" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>pathDrawer</name></member>
+      <member refid="class_character_move_undo_1ad6b548534994e1ac1eea6089a885627c" prot="private" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>Start</name></member>
+      <member refid="class_character_move_undo_1a9ed0090192dcd0bc973c129908633035" prot="private" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>startPoint</name></member>
+      <member refid="class_character_move_undo_1a162d60fc2bf1d834244fd46164abda74" prot="public" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>UndoCommand</name></member>
+      <member refid="class_character_move_undo_1a1852153869d857ed772f31c782ca6501" prot="public" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>UpdateLine</name></member>
+      <member refid="class_character_move_undo_1a973322307b70bd6c7e289e4ce7f4de1a" prot="private" virt="non-virtual"><scope>CharacterMoveUndo</scope><name>verticalOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

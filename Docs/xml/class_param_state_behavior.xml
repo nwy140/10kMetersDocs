@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_param_state_behavior" kind="class" language="C#" prot="public">
+    <compoundname>ParamStateBehavior</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">StateMachineBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_param_state_behavior_1a096e4c5707dd5785519946640dd38160" prot="public" static="no" mutable="no">
+        <type><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref>[]</type>
+        <definition>SetParamStateData [] ParamStateBehavior.OnStateEnterParamDatas</definition>
+        <argsstring></argsstring>
+        <name>OnStateEnterParamDatas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="8" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_param_state_behavior_1adc462b35fbeb8cbbf12342ea3b24bc27" compoundref="_param_state_behavior_8cs" startline="15" endline="28">OnStateEnter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_param_state_behavior_1adc462b35fbeb8cbbf12342ea3b24bc27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ParamStateBehavior.OnStateEnter</definition>
+        <argsstring>(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</argsstring>
+        <name>OnStateEnter</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>AnimatorStateInfo</type>
+          <declname>stateInfo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="15" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="15" bodyend="28"/>
+        <references refid="class_param_state_behavior_1a096e4c5707dd5785519946640dd38160" compoundref="_param_state_behavior_8cs" startline="8">OnStateEnterParamDatas</references>
+        <references refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" compoundref="_param_state_behavior_8cs" startline="130" endline="148">SetParamStateData.SetAnimatorParamDatas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_param_state_behavior_1afe12ed29c85d9d5a1d5ead2dcf531749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ParamStateBehavior.OnStateUpdate</definition>
+        <argsstring>(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</argsstring>
+        <name>OnStateUpdate</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>AnimatorStateInfo</type>
+          <declname>stateInfo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="30" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="30" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ParamStateBehavior</label>
+        <link refid="class_param_state_behavior"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StateMachineBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParamStateBehavior</label>
+        <link refid="class_param_state_behavior"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+OnStateEnterParamDatas</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SetParamStateData</label>
+        <link refid="class_set_param_state_data"/>
+      </node>
+      <node id="2">
+        <label>StateMachineBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="4" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="5" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_param_state_behavior_1adc462b35fbeb8cbbf12342ea3b24bc27" prot="public" virt="non-virtual"><scope>ParamStateBehavior</scope><name>OnStateEnter</name></member>
+      <member refid="class_param_state_behavior_1a096e4c5707dd5785519946640dd38160" prot="public" virt="non-virtual"><scope>ParamStateBehavior</scope><name>OnStateEnterParamDatas</name></member>
+      <member refid="class_param_state_behavior_1afe12ed29c85d9d5a1d5ead2dcf531749" prot="public" virt="non-virtual"><scope>ParamStateBehavior</scope><name>OnStateUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

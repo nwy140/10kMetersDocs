@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_chase" kind="class" language="C#" prot="public">
+    <compoundname>Chase</compoundname>
+    <basecompoundref refid="class_f_s_m_base_state" prot="public" virt="non-virtual">FSMBaseState</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_chase_1af095af324c0a0141d769796c6e964b39" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent Chase.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="58" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chase_1a56ba46d9b4d3e84cdbb734c61d49a81c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Chase.originalSpeed</definition>
+        <argsstring></argsstring>
+        <name>originalSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="62" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chase_1a19404577e22f520f7aa8a5ce85142259" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Chase.originalAngularSpeed</definition>
+        <argsstring></argsstring>
+        <name>originalAngularSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="63" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chase_1a10b4d161119d8693b93e39ba8490660e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Chase.fleeRadius</definition>
+        <argsstring></argsstring>
+        <name>fleeRadius</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="81" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_chase_1a9a18b74618e717985bb1b8ae629ce92f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Chase.hasSetDestination</definition>
+        <argsstring></argsstring>
+        <name>hasSetDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="59" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chase_1a4554f6bbac08992b606aeea964328e43" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Chase.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="60" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_chase_1a8ca474ca24a2c28b07c6b17535a38548" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="85" endline="94">OnStayState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_chase_1af7ceeae7ebbb209cd13f32730a3ec21d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Chase.newSpeed</definition>
+        <argsstring></argsstring>
+        <name>newSpeed</name>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="82" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chase_1a5fd43e35858a698ca4003c324cc72ece" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Chase.newAgularSpeed</definition>
+        <argsstring></argsstring>
+        <name>newAgularSpeed</name>
+        <initializer>= 500f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="83" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_chase_1ae83ef24db35726136b86857301f9d6ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Chase.Chase</definition>
+        <argsstring>(FSMSystemBase system)</argsstring>
+        <name>Chase</name>
+        <param>
+          <type><ref refid="class_f_s_m_system_base" kindref="compound">FSMSystemBase</ref></type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="64" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="64" bodyend="69"/>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">FSMBaseState._system</references>
+      </memberdef>
+      <memberdef kind="function" id="class_chase_1a391d61b7b55208fbf6093eb013db4aa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Chase.OnEnterState</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnterState</name>
+        <reimplements refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">OnEnterState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="70" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chase_1ad693e8310c8bd50502f914fa9593aa02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Chase.OnExitState</definition>
+        <argsstring>()</argsstring>
+        <name>OnExitState</name>
+        <reimplements refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">OnExitState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="75" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chase_1a8ca474ca24a2c28b07c6b17535a38548" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Chase.OnStayState</definition>
+        <argsstring>()</argsstring>
+        <name>OnStayState</name>
+        <reimplements refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c">OnStayState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="85" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="85" bodyend="94"/>
+        <references refid="class_chase_1a4554f6bbac08992b606aeea964328e43" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="60">target</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Chase</label>
+        <link refid="class_chase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Chase</label>
+        <link refid="class_chase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>#_system</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FSMSystemBase</label>
+        <link refid="class_f_s_m_system_base"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+_curState</edgelabel>
+          <edgelabel>+_prevState</edgelabel>
+          <edgelabel>+_startingState</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="56" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="57" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" prot="public" virt="non-virtual"><scope>Chase</scope><name>_ExecutionState</name></member>
+      <member refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" prot="protected" virt="non-virtual"><scope>Chase</scope><name>_system</name></member>
+      <member refid="class_chase_1af095af324c0a0141d769796c6e964b39" prot="private" virt="non-virtual"><scope>Chase</scope><name>agent</name></member>
+      <member refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" prot="public" virt="non-virtual"><scope>Chase</scope><name>aName</name></member>
+      <member refid="class_chase_1ae83ef24db35726136b86857301f9d6ff" prot="public" virt="non-virtual"><scope>Chase</scope><name>Chase</name></member>
+      <member refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" prot="public" virt="non-virtual"><scope>Chase</scope><name>ElapsedTime</name></member>
+      <member refid="class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b" prot="public" virt="non-virtual"><scope>Chase</scope><name>ExecutionState</name></member>
+      <member refid="class_chase_1a10b4d161119d8693b93e39ba8490660e" prot="private" virt="non-virtual"><scope>Chase</scope><name>fleeRadius</name></member>
+      <member refid="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" prot="public" virt="non-virtual"><scope>Chase</scope><name>FSMBaseState</name></member>
+      <member refid="class_chase_1a9a18b74618e717985bb1b8ae629ce92f" prot="public" virt="non-virtual"><scope>Chase</scope><name>hasSetDestination</name></member>
+      <member refid="class_chase_1a5fd43e35858a698ca4003c324cc72ece" prot="public" virt="non-virtual"><scope>Chase</scope><name>newAgularSpeed</name></member>
+      <member refid="class_chase_1af7ceeae7ebbb209cd13f32730a3ec21d" prot="public" virt="non-virtual"><scope>Chase</scope><name>newSpeed</name></member>
+      <member refid="class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8" prot="public" virt="non-virtual"><scope>Chase</scope><name>OnDisable</name></member>
+      <member refid="class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce" prot="public" virt="non-virtual"><scope>Chase</scope><name>OnEnable</name></member>
+      <member refid="class_chase_1a391d61b7b55208fbf6093eb013db4aa0" prot="public" virt="virtual"><scope>Chase</scope><name>OnEnterState</name></member>
+      <member refid="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" prot="public" virt="non-virtual"><scope>Chase</scope><name>OnEnterTimeStamp</name></member>
+      <member refid="class_chase_1ad693e8310c8bd50502f914fa9593aa02" prot="public" virt="virtual"><scope>Chase</scope><name>OnExitState</name></member>
+      <member refid="class_chase_1a8ca474ca24a2c28b07c6b17535a38548" prot="public" virt="virtual"><scope>Chase</scope><name>OnStayState</name></member>
+      <member refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" prot="public" virt="virtual"><scope>Chase</scope><name>OnUpdate</name></member>
+      <member refid="class_chase_1a19404577e22f520f7aa8a5ce85142259" prot="private" virt="non-virtual"><scope>Chase</scope><name>originalAngularSpeed</name></member>
+      <member refid="class_chase_1a56ba46d9b4d3e84cdbb734c61d49a81c" prot="private" virt="non-virtual"><scope>Chase</scope><name>originalSpeed</name></member>
+      <member refid="class_chase_1a4554f6bbac08992b606aeea964328e43" prot="public" virt="non-virtual"><scope>Chase</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

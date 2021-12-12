@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classitem_slots_new" xml:lang="en-US">
+<title>itemSlotsNew Class Reference</title>
+<indexterm><primary>itemSlotsNew</primary></indexterm>
+Inheritance diagram for itemSlotsNew:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classitem_slots_new__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for itemSlotsNew:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classitem_slots_new__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classitem_slots_new_1af9181b8198f313b5521160633c57b9d8">OnPointerClick</link> (PointerEventData eventData)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classitem_new">itemNew</link> <link linkend="_classitem_slots_new_1aed950f557b3427f5c8418b90aba9c697">Item</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_classitem_slots_new_1a824f54added581a7201c14c6604f98ff">Amount</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para>System.Action&lt; <link linkend="_classitem_new">itemNew</link> &gt; <link linkend="_classitem_slots_new_1a66f4f7ab4a101e432c74d01fdeb0c932">OnRightClickEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classitem_slots_new_1af9181b8198f313b5521160633c57b9d8"/><section>
+    <title>OnPointerClick()</title>
+<indexterm><primary>OnPointerClick</primary><secondary>itemSlotsNew</secondary></indexterm>
+<indexterm><primary>itemSlotsNew</primary><secondary>OnPointerClick</secondary></indexterm>
+<para><computeroutput>void itemSlotsNew.OnPointerClick (PointerEventData eventData)</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classitem_slots_new_1a824f54added581a7201c14c6604f98ff"/><section>
+    <title>Amount</title>
+<indexterm><primary>Amount</primary><secondary>itemSlotsNew</secondary></indexterm>
+<indexterm><primary>itemSlotsNew</primary><secondary>Amount</secondary></indexterm>
+<para><computeroutput>int itemSlotsNew.Amount<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classitem_slots_new_1aed950f557b3427f5c8418b90aba9c697"/><section>
+    <title>Item</title>
+<indexterm><primary>Item</primary><secondary>itemSlotsNew</secondary></indexterm>
+<indexterm><primary>itemSlotsNew</primary><secondary>Item</secondary></indexterm>
+<para><computeroutput><link linkend="_classitem_new">itemNew</link> itemSlotsNew.Item<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Event Documentation</title>
+<anchor xml:id="_classitem_slots_new_1a66f4f7ab4a101e432c74d01fdeb0c932"/><section>
+    <title>OnRightClickEvent</title>
+<indexterm><primary>OnRightClickEvent</primary><secondary>itemSlotsNew</secondary></indexterm>
+<indexterm><primary>itemSlotsNew</primary><secondary>OnRightClickEvent</secondary></indexterm>
+<para><computeroutput>System.Action&lt;<link linkend="_classitem_new">itemNew</link>&gt; itemSlotsNew.OnRightClickEvent</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/<link linkend="_item_slots_new_8cs">itemSlotsNew.cs</link></section>
+</section>

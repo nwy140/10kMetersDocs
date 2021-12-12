@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_stack" xml:lang="en-US">
+<title>CommandStack Class Reference</title>
+<indexterm><primary>CommandStack</primary></indexterm>
+Collaboration diagram for CommandStack:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_stack__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_command_stack_1a0f639be831d08eec701e6b559358b515">ExecuteCommand</link> (<link linkend="_interface_i_command">ICommand</link> command)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_stack_1a1428dd3fd746d1e55017fb42445522ac">UndoLastCommand</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Stack&lt; <link linkend="_interface_i_command">ICommand</link> &gt; <link linkend="_class_command_stack_1a11162442240b748cac3d24fff02cd1ac">_commandHistory</link> = new Stack&lt;<link linkend="_interface_i_command">ICommand</link>&gt;()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_stack_1a0f639be831d08eec701e6b559358b515"/><section>
+    <title>ExecuteCommand()</title>
+<indexterm><primary>ExecuteCommand</primary><secondary>CommandStack</secondary></indexterm>
+<indexterm><primary>CommandStack</primary><secondary>ExecuteCommand</secondary></indexterm>
+<para><computeroutput>virtual void CommandStack.ExecuteCommand (<link linkend="_interface_i_command">ICommand</link> command)<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_stack_a0f639be831d08eec701e6b559358b515_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_stack_1a1428dd3fd746d1e55017fb42445522ac"/><section>
+    <title>UndoLastCommand()</title>
+<indexterm><primary>UndoLastCommand</primary><secondary>CommandStack</secondary></indexterm>
+<indexterm><primary>CommandStack</primary><secondary>UndoLastCommand</secondary></indexterm>
+<para><computeroutput>virtual void CommandStack.UndoLastCommand ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_stack_1a11162442240b748cac3d24fff02cd1ac"/><section>
+    <title>_commandHistory</title>
+<indexterm><primary>_commandHistory</primary><secondary>CommandStack</secondary></indexterm>
+<indexterm><primary>CommandStack</primary><secondary>_commandHistory</secondary></indexterm>
+<para><computeroutput>Stack&lt;<link linkend="_interface_i_command">ICommand</link>&gt; CommandStack._commandHistory = new Stack&lt;<link linkend="_interface_i_command">ICommand</link>&gt;()</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/<link linkend="__command_stack_8cs">CommandStack.cs</link></section>
+</section>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.BuiltinDebugViewsModel Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.BuiltinDebugViewsModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.BuiltinDebugViewsModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_depth_settings">DepthSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_motion_vectors_settings">MotionVectorsSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_settings">Settings</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36">Mode</link> { 
+<link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a6adf97f83acf6453d4a6a4b1070f3754">None</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a675056ad1441b6375b2c5abd48c27ef1">Depth</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a4ab971a51f0335cbf8d9c2c65d379e99">Normals</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a51182b90d78579c0d7f1e3576da58593">MotionVectors</link>
+, 
+<link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36ac8a11fb76942933fc111aea6941c334d">AmbientOcclusion</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a6f4522393bf70b6f1983e1c854ac4198">EyeAdaptation</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a306c971657f646e6917d739a98015485">FocusPlane</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a76d11ed02db1943de229ca9a98c97a10">PreGradingLog</link>
+, 
+<link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a40be628b838bf4f45286ea7ed51061ce">LogLut</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36ae1e79f82484ebab47b03f7b5787b371a">UserLut</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1ad9e1b645a461131af7abfc318a45d9b0">Reset</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a3c07a09b1bb7cfe08523d945fc982f1d">IsModeActive</link> (<link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36">Mode</link> mode)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_settings">Settings</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1acf518ba511401f5769463ceef698999a">settings</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a0df7ee63e0c3191da3075438efb41636">willInterrupt</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36"/><section>
+    <title>Mode</title>
+<indexterm><primary>Mode</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>Mode</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36">UnityEngine.PostProcessing.BuiltinDebugViewsModel.Mode</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>None</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>None</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a6adf97f83acf6453d4a6a4b1070f3754"/>None</entry><entry></entry></row><row><entry><indexterm><primary>Depth</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>Depth</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a675056ad1441b6375b2c5abd48c27ef1"/>Depth</entry><entry></entry></row><row><entry><indexterm><primary>Normals</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>Normals</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a4ab971a51f0335cbf8d9c2c65d379e99"/>Normals</entry><entry></entry></row><row><entry><indexterm><primary>MotionVectors</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>MotionVectors</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a51182b90d78579c0d7f1e3576da58593"/>MotionVectors</entry><entry></entry></row><row><entry><indexterm><primary>AmbientOcclusion</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>AmbientOcclusion</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36ac8a11fb76942933fc111aea6941c334d"/>AmbientOcclusion</entry><entry></entry></row><row><entry><indexterm><primary>EyeAdaptation</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>EyeAdaptation</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a6f4522393bf70b6f1983e1c854ac4198"/>EyeAdaptation</entry><entry></entry></row><row><entry><indexterm><primary>FocusPlane</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>FocusPlane</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a306c971657f646e6917d739a98015485"/>FocusPlane</entry><entry></entry></row><row><entry><indexterm><primary>PreGradingLog</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>PreGradingLog</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a76d11ed02db1943de229ca9a98c97a10"/>PreGradingLog</entry><entry></entry></row><row><entry><indexterm><primary>LogLut</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>LogLut</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a40be628b838bf4f45286ea7ed51061ce"/>LogLut</entry><entry></entry></row><row><entry><indexterm><primary>UserLut</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>UserLut</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36ae1e79f82484ebab47b03f7b5787b371a"/>UserLut</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a3c07a09b1bb7cfe08523d945fc982f1d"/><section>
+    <title>IsModeActive()</title>
+<indexterm><primary>IsModeActive</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>IsModeActive</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.BuiltinDebugViewsModel.IsModeActive (<link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36">Mode</link> mode)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1ad9e1b645a461131af7abfc318a45d9b0"/><section>
+    <title>Reset()</title>
+<indexterm><primary>Reset</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>Reset</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.BuiltinDebugViewsModel.Reset ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">UnityEngine.PostProcessing.PostProcessingModel</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1acf518ba511401f5769463ceef698999a"/><section>
+    <title>settings</title>
+<indexterm><primary>settings</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>settings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_settings">Settings</link> UnityEngine.PostProcessing.BuiltinDebugViewsModel.settings<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a0df7ee63e0c3191da3075438efb41636"/><section>
+    <title>willInterrupt</title>
+<indexterm><primary>willInterrupt</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsModel</primary><secondary>willInterrupt</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.BuiltinDebugViewsModel.willInterrupt<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__builtin_debug_views_model_8cs">BuiltinDebugViewsModel.cs</link></section>
+</section>

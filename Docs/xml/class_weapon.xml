@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_weapon" kind="class" language="C#" prot="public">
+    <compoundname>Weapon</compoundname>
+    <basecompoundref refid="class_player_upgrades" prot="public" virt="non-virtual">PlayerUpgrades</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_weapon_1a40e8bed4f6e110463e023c28d87f44ae" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_bullet" kindref="compound">PlayerBullet</ref></type>
+        <definition>PlayerBullet Weapon.playerBullet</definition>
+        <argsstring></argsstring>
+        <name>playerBullet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="8" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1a5ccc62e231fa295baf89fe3241d9e6e9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Weapon.attackRate</definition>
+        <argsstring></argsstring>
+        <name>attackRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="9" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1aecebdadeed0d192cbb85790455732f40" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Weapon.attackDamage</definition>
+        <argsstring></argsstring>
+        <name>attackDamage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="10" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weapon_1ae391f9e963203e2fcc97b9947c9a8fa0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Weapon.attackSpeed</definition>
+        <argsstring></argsstring>
+        <name>attackSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="11" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_weapon_1a5c81263243b28047f939212f29bb8bcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Weapon.GetAttackRate</definition>
+        <argsstring>()</argsstring>
+        <name>GetAttackRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="13" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="13" bodyend="16"/>
+        <referencedby refid="class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f" compoundref="_player_attack_8cs" startline="174" endline="186">PlayerAttack.SimulateShoot</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a7ebf6aad2e3f7413c6726b0dc8937f56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Weapon.GetAttackDamage</definition>
+        <argsstring>()</argsstring>
+        <name>GetAttackDamage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="18" bodyend="21"/>
+        <referencedby refid="class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f" compoundref="_player_attack_8cs" startline="174" endline="186">PlayerAttack.SimulateShoot</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1ab3cfe59fd638a383ed59a5383b2b2b35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Weapon.GetAttackSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>GetAttackSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="23" bodyend="26"/>
+        <referencedby refid="class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f" compoundref="_player_attack_8cs" startline="174" endline="186">PlayerAttack.SimulateShoot</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_weapon_1a08c3723436ab6650f63c26a2407d1d00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_bullet" kindref="compound">PlayerBullet</ref></type>
+        <definition>PlayerBullet Weapon.GetPlayerBullet</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlayerBullet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="28" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/Weapon.cs" bodystart="7" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_weapon_1aecebdadeed0d192cbb85790455732f40" prot="private" virt="non-virtual"><scope>Weapon</scope><name>attackDamage</name></member>
+      <member refid="class_weapon_1a5ccc62e231fa295baf89fe3241d9e6e9" prot="private" virt="non-virtual"><scope>Weapon</scope><name>attackRate</name></member>
+      <member refid="class_weapon_1ae391f9e963203e2fcc97b9947c9a8fa0" prot="private" virt="non-virtual"><scope>Weapon</scope><name>attackSpeed</name></member>
+      <member refid="class_weapon_1a7ebf6aad2e3f7413c6726b0dc8937f56" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetAttackDamage</name></member>
+      <member refid="class_weapon_1a5c81263243b28047f939212f29bb8bcb" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetAttackRate</name></member>
+      <member refid="class_weapon_1ab3cfe59fd638a383ed59a5383b2b2b35" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetAttackSpeed</name></member>
+      <member refid="class_player_upgrades_1a60236534be903afb7996373f5ae6d3c6" prot="public" virt="virtual"><scope>Weapon</scope><name>GetCopy</name></member>
+      <member refid="class_player_upgrades_1aafbbe9499b027d5b1670ef1d31aab7a4" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetFishMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a6bb164625c5847a6af36709571ec851f" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetFishMaterialTypeRequirement</name></member>
+      <member refid="class_weapon_1a08c3723436ab6650f63c26a2407d1d00" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetPlayerBullet</name></member>
+      <member refid="class_player_upgrades_1a90101816a84d5531335b6f1ca159376f" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetRawMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a5bc2766abbc8c3a46300fe0ec7501514" prot="public" virt="non-virtual"><scope>Weapon</scope><name>GetRawMaterialTypeRequirement</name></member>
+      <member refid="class_player_upgrades_1aca8c0ea9036e67a009629ccca22689b6" prot="public" virt="non-virtual"><scope>Weapon</scope><name>ID</name></member>
+      <member refid="class_player_upgrades_1ae9eb4584c3af767f5948d6ec5fc243e8" prot="protected" virt="non-virtual"><scope>Weapon</scope><name>isLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a22e5dc654af417e4cd9ccaf347373a53" prot="public" virt="non-virtual"><scope>Weapon</scope><name>IsLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a5362fd69bdd7e457fbebc5a427ed30ce" prot="protected" virt="non-virtual"><scope>Weapon</scope><name>isUniqueFeatureUsed</name></member>
+      <member refid="class_player_upgrades_1a69f6c2f7ce04aa2445f6cd6c130807c5" prot="public" virt="non-virtual"><scope>Weapon</scope><name>IsUniqueFeatureUsed</name></member>
+      <member refid="class_weapon_1a40e8bed4f6e110463e023c28d87f44ae" prot="private" virt="non-virtual"><scope>Weapon</scope><name>playerBullet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

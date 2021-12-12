@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_upgrade_database" kind="class" language="C#" prot="public">
+    <compoundname>UpgradeDatabase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_upgrade_database_1a02cc41930444befe79d1b7922e02340c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref>[]</type>
+        <definition>PlayerUpgrades [] UpgradeDatabase.playerUpgrades</definition>
+        <argsstring></argsstring>
+        <name>playerUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeDatabase.cs" line="10" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeDatabase.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_upgrade_database_1adede880575c59d007315ee4c1f10e857" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref></type>
+        <definition>PlayerUpgrades UpgradeDatabase.GetUpgradeReference</definition>
+        <argsstring>(string upgradeID)</argsstring>
+        <name>GetUpgradeReference</name>
+        <param>
+          <type>string</type>
+          <declname>upgradeID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeDatabase.cs" line="12" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeDatabase.cs" bodystart="12" bodyend="22"/>
+        <references refid="class_player_upgrades_1aca8c0ea9036e67a009629ccca22689b6" compoundref="_player_upgrades_8cs" startline="15">PlayerUpgrades.ID</references>
+        <referencedby refid="class_upgrade_database_1a94511ed08cae935308783b95bc17a491" compoundref="_upgrade_database_8cs" startline="24" endline="29">GetUpgradeCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_database_1a94511ed08cae935308783b95bc17a491" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref></type>
+        <definition>PlayerUpgrades UpgradeDatabase.GetUpgradeCopy</definition>
+        <argsstring>(string upgradeID)</argsstring>
+        <name>GetUpgradeCopy</name>
+        <param>
+          <type>string</type>
+          <declname>upgradeID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeDatabase.cs" line="24" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeDatabase.cs" bodystart="24" bodyend="29"/>
+        <references refid="class_player_upgrades_1a60236534be903afb7996373f5ae6d3c6" compoundref="_player_upgrades_8cs" startline="46" endline="49">PlayerUpgrades.GetCopy</references>
+        <references refid="class_upgrade_database_1adede880575c59d007315ee4c1f10e857" compoundref="_upgrade_database_8cs" startline="12" endline="22">GetUpgradeReference</references>
+        <referencedby refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" compoundref="_upgrade_save_manager_8cs" startline="10" endline="29">UpgradeSaveManager.LoadUpgrade</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>UpgradeDatabase</label>
+        <link refid="class_upgrade_database"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>UpgradeDatabase</label>
+        <link refid="class_upgrade_database"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeDatabase.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeDatabase.cs" bodystart="9" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_upgrade_database_1a94511ed08cae935308783b95bc17a491" prot="public" virt="non-virtual"><scope>UpgradeDatabase</scope><name>GetUpgradeCopy</name></member>
+      <member refid="class_upgrade_database_1adede880575c59d007315ee4c1f10e857" prot="public" virt="non-virtual"><scope>UpgradeDatabase</scope><name>GetUpgradeReference</name></member>
+      <member refid="class_upgrade_database_1a02cc41930444befe79d1b7922e02340c" prot="private" virt="non-virtual"><scope>UpgradeDatabase</scope><name>playerUpgrades</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_transform2_d_auto_look_at_obj2_d" kind="class" language="C#" prot="public">
+    <compoundname>Transform2DAutoLookAtObj2D</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_transform2_d_auto_look_at_obj2_d_1aac341aea411e557c66fac41e3acf98c6" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Transform2DAutoLookAtObj2D.targetObj</definition>
+        <argsstring></argsstring>
+        <name>targetObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" line="7" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transform2_d_auto_look_at_obj2_d_1ad32692b92ae34a810708637c2a8da017" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Transform2DAutoLookAtObj2D.targetIsPlayer</definition>
+        <argsstring></argsstring>
+        <name>targetIsPlayer</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" line="8" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_transform2_d_auto_look_at_obj2_d_1a25b0513ef3c235fe7a99e87346556f2e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Transform2DAutoLookAtObj2D.aimRotOffset</definition>
+        <argsstring></argsstring>
+        <name>aimRotOffset</name>
+        <initializer>= -90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_transform2_d_auto_look_at_obj2_d_1ac770da01a7d9375439d5c28e14d5e483" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Transform2DAutoLookAtObj2D.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transform2_d_auto_look_at_obj2_d_1a659298a6d7a09aa487d95668b234a634" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Transform2DAutoLookAtObj2D.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" line="15" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" bodystart="15" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Transform2DAutoLookAtObj2D</label>
+        <link refid="class_transform2_d_auto_look_at_obj2_d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Transform2DAutoLookAtObj2D</label>
+        <link refid="class_transform2_d_auto_look_at_obj2_d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Transform2DAutoLookAtObj2D.cs" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_transform2_d_auto_look_at_obj2_d_1a25b0513ef3c235fe7a99e87346556f2e" prot="public" virt="non-virtual"><scope>Transform2DAutoLookAtObj2D</scope><name>aimRotOffset</name></member>
+      <member refid="class_transform2_d_auto_look_at_obj2_d_1ac770da01a7d9375439d5c28e14d5e483" prot="private" virt="non-virtual"><scope>Transform2DAutoLookAtObj2D</scope><name>Awake</name></member>
+      <member refid="class_transform2_d_auto_look_at_obj2_d_1ad32692b92ae34a810708637c2a8da017" prot="private" virt="non-virtual"><scope>Transform2DAutoLookAtObj2D</scope><name>targetIsPlayer</name></member>
+      <member refid="class_transform2_d_auto_look_at_obj2_d_1aac341aea411e557c66fac41e3acf98c6" prot="private" virt="non-virtual"><scope>Transform2DAutoLookAtObj2D</scope><name>targetObj</name></member>
+      <member refid="class_transform2_d_auto_look_at_obj2_d_1a659298a6d7a09aa487d95668b234a634" prot="private" virt="non-virtual"><scope>Transform2DAutoLookAtObj2D</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

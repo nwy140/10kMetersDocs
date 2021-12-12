@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.BuiltinDebugViewsComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.BuiltinDebugViewsComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.BuiltinDebugViewsComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override DepthTextureMode <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1ab4292e4509256eb32cb378060fa3250f">GetCameraFlags</link> ()</para>
+</listitem>
+            <listitem><para>override CameraEvent <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a6f11761eaeb91f54400f5b9a3f5864b2">GetCameraEvent</link> ()</para>
+</listitem>
+            <listitem><para>override string <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a18f07a927f8d2aee8f5e7bf045b87714">GetName</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a5eb24d5ee1ad5360967bfd5bc2c8485b">PopulateCommandBuffer</link> (CommandBuffer cb)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a67be7492ee423602f45ad4ce2896fae1">OnDisable</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a278b64dc1a7dc3dfae9f829accb1592c">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a6f11761eaeb91f54400f5b9a3f5864b2"/><section>
+    <title>GetCameraEvent()</title>
+<indexterm><primary>GetCameraEvent</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</primary><secondary>GetCameraEvent</secondary></indexterm>
+<para><computeroutput>override CameraEvent UnityEngine.PostProcessing.BuiltinDebugViewsComponent.GetCameraEvent ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; BuiltinDebugViewsModel &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1ab4292e4509256eb32cb378060fa3250f"/><section>
+    <title>GetCameraFlags()</title>
+<indexterm><primary>GetCameraFlags</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</primary><secondary>GetCameraFlags</secondary></indexterm>
+<para><computeroutput>override DepthTextureMode UnityEngine.PostProcessing.BuiltinDebugViewsComponent.GetCameraFlags ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a18f07a927f8d2aee8f5e7bf045b87714"/><section>
+    <title>GetName()</title>
+<indexterm><primary>GetName</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</primary><secondary>GetName</secondary></indexterm>
+<para><computeroutput>override string UnityEngine.PostProcessing.BuiltinDebugViewsComponent.GetName ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; BuiltinDebugViewsModel &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a67be7492ee423602f45ad4ce2896fae1"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.BuiltinDebugViewsComponent.OnDisable ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a5eb24d5ee1ad5360967bfd5bc2c8485b"/><section>
+    <title>PopulateCommandBuffer()</title>
+<indexterm><primary>PopulateCommandBuffer</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</primary><secondary>PopulateCommandBuffer</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.BuiltinDebugViewsComponent.PopulateCommandBuffer (CommandBuffer cb)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; BuiltinDebugViewsModel &gt;</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a278b64dc1a7dc3dfae9f829accb1592c"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.BuiltinDebugViewsComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.BuiltinDebugViewsComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__builtin_debug_views_component_8cs">BuiltinDebugViewsComponent.cs</link></section>
+</section>

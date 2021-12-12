@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_set_material_color_command" xml:lang="en-US">
+<title>SetMaterialColorCommand Class Reference</title>
+<indexterm><primary>SetMaterialColorCommand</primary></indexterm>
+Inheritance diagram for SetMaterialColorCommand:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_set_material_color_command__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SetMaterialColorCommand:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_set_material_color_command__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7">ExecPress</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Color <link linkend="_class_set_material_color_command_1aeb93f7f3a1dc07c3b04ab06053f9d449">newColor</link> = Color.white</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7"/><section>
+    <title>ExecPress()</title>
+<indexterm><primary>ExecPress</primary><secondary>SetMaterialColorCommand</secondary></indexterm>
+<indexterm><primary>SetMaterialColorCommand</primary><secondary>ExecPress</secondary></indexterm>
+<para><computeroutput>override void SetMaterialColorCommand.ExecPress ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73">InputCommand</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_set_material_color_command_1aeb93f7f3a1dc07c3b04ab06053f9d449"/><section>
+    <title>newColor</title>
+<indexterm><primary>newColor</primary><secondary>SetMaterialColorCommand</secondary></indexterm>
+<indexterm><primary>SetMaterialColorCommand</primary><secondary>newColor</secondary></indexterm>
+<para><computeroutput>Color SetMaterialColorCommand.newColor = Color.white</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/Misc/<link linkend="__set_material_color_command_8cs">SetMaterialColorCommand.cs</link></section>
+</section>

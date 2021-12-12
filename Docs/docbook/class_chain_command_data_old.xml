@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_chain_command_data_old" xml:lang="en-US">
+<title>ChainCommandDataOld Class Reference</title>
+<indexterm><primary>ChainCommandDataOld</primary></indexterm>
+Collaboration diagram for ChainCommandDataOld:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_chain_command_data_old__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_command_base">CommandBase</link> <link linkend="_class_chain_command_data_old_1ad4db4fce1c53b178fecf9033b90852f4">command</link></para>
+</listitem>
+            <listitem><para>string[] <link linkend="_class_chain_command_data_old_1adb3e2130651fc4aecc36c60ae6c377c5">Sequence</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_chain_command_data_old_1a70f685871797fc3abaccd92faf4690d3">instigatorObj</link></para>
+</listitem>
+            <listitem><para>string[] <link linkend="_class_chain_command_data_old_1ab26608faafa26200c443442e9726aac4">Sequence_Query</link></para>
+</listitem>
+            <listitem><para>int[] <link linkend="_class_chain_command_data_old_1aaa503b591c415eeebc168b51a9631771">Sequence_Axis</link></para>
+</listitem>
+            <listitem><para>string[] <link linkend="_class_chain_command_data_old_1a7ab8e9f98ca04bbe4fbb786d5c0084ec">holdDownSequence</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_class_chain_command_data_old_1a5eee3f016f9e7f2040b35697c4983d6b">ignoreCategory</link></para>
+</listitem>
+            <listitem><para>string[] <link linkend="_class_chain_command_data_old_1a7cecf58279f10559b10088970c67c617">negativeEdgeSequence</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_chain_command_data_old_1ad4db4fce1c53b178fecf9033b90852f4"/><section>
+    <title>command</title>
+<indexterm><primary>command</primary><secondary>ChainCommandDataOld</secondary></indexterm>
+<indexterm><primary>ChainCommandDataOld</primary><secondary>command</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_base">CommandBase</link> ChainCommandDataOld.command</computeroutput></para></section>
+<anchor xml:id="_class_chain_command_data_old_1a7ab8e9f98ca04bbe4fbb786d5c0084ec"/><section>
+    <title>holdDownSequence</title>
+<indexterm><primary>holdDownSequence</primary><secondary>ChainCommandDataOld</secondary></indexterm>
+<indexterm><primary>ChainCommandDataOld</primary><secondary>holdDownSequence</secondary></indexterm>
+<para><computeroutput>string [] ChainCommandDataOld.holdDownSequence</computeroutput></para></section>
+<anchor xml:id="_class_chain_command_data_old_1a5eee3f016f9e7f2040b35697c4983d6b"/><section>
+    <title>ignoreCategory</title>
+<indexterm><primary>ignoreCategory</primary><secondary>ChainCommandDataOld</secondary></indexterm>
+<indexterm><primary>ChainCommandDataOld</primary><secondary>ignoreCategory</secondary></indexterm>
+<para><computeroutput>string ChainCommandDataOld.ignoreCategory</computeroutput></para></section>
+<anchor xml:id="_class_chain_command_data_old_1a70f685871797fc3abaccd92faf4690d3"/><section>
+    <title>instigatorObj</title>
+<indexterm><primary>instigatorObj</primary><secondary>ChainCommandDataOld</secondary></indexterm>
+<indexterm><primary>ChainCommandDataOld</primary><secondary>instigatorObj</secondary></indexterm>
+<para><computeroutput>GameObject ChainCommandDataOld.instigatorObj</computeroutput></para></section>
+<anchor xml:id="_class_chain_command_data_old_1a7cecf58279f10559b10088970c67c617"/><section>
+    <title>negativeEdgeSequence</title>
+<indexterm><primary>negativeEdgeSequence</primary><secondary>ChainCommandDataOld</secondary></indexterm>
+<indexterm><primary>ChainCommandDataOld</primary><secondary>negativeEdgeSequence</secondary></indexterm>
+<para><computeroutput>string [] ChainCommandDataOld.negativeEdgeSequence</computeroutput></para></section>
+<anchor xml:id="_class_chain_command_data_old_1adb3e2130651fc4aecc36c60ae6c377c5"/><section>
+    <title>Sequence</title>
+<indexterm><primary>Sequence</primary><secondary>ChainCommandDataOld</secondary></indexterm>
+<indexterm><primary>ChainCommandDataOld</primary><secondary>Sequence</secondary></indexterm>
+<para><computeroutput>string [] ChainCommandDataOld.Sequence</computeroutput></para></section>
+<anchor xml:id="_class_chain_command_data_old_1aaa503b591c415eeebc168b51a9631771"/><section>
+    <title>Sequence_Axis</title>
+<indexterm><primary>Sequence_Axis</primary><secondary>ChainCommandDataOld</secondary></indexterm>
+<indexterm><primary>ChainCommandDataOld</primary><secondary>Sequence_Axis</secondary></indexterm>
+<para><computeroutput>int [] ChainCommandDataOld.Sequence_Axis</computeroutput></para></section>
+<anchor xml:id="_class_chain_command_data_old_1ab26608faafa26200c443442e9726aac4"/><section>
+    <title>Sequence_Query</title>
+<indexterm><primary>Sequence_Query</primary><secondary>ChainCommandDataOld</secondary></indexterm>
+<indexterm><primary>ChainCommandDataOld</primary><secondary>Sequence_Query</secondary></indexterm>
+<para><computeroutput>string [] ChainCommandDataOld.Sequence_Query</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/<link linkend="__chain_command_invoker_old_type_a_8cs">ChainCommandInvokerOldTypeA.cs</link></section>
+</section>

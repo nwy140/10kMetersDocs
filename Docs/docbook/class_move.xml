@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_move" xml:lang="en-US">
+<title>Move Class Reference</title>
+<indexterm><primary>Move</primary></indexterm>
+Inheritance diagram for Move:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_move__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Move:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_move__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_move_1a94d97e8d4a9315a63b1f7d589cef3e58">Move</link> (Transform objectToMove, Vector3 direction, float distance=1f)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_move_1a53763bbbd1effc869af65c035bec59ab">Execute</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_move_1afdff2fb08f6cf41b01f9d523b203c44e">Undo</link> ()</para>
+</listitem>
+            <listitem><para>Vector3 <link linkend="_class_move_1a568feed72259a8043a5a264456fa0b8f">GetMove</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_move_1a94d97e8d4a9315a63b1f7d589cef3e58"/><section>
+    <title>Move()</title>
+<indexterm><primary>Move</primary><secondary>Move</secondary></indexterm>
+<indexterm><primary>Move</primary><secondary>Move</secondary></indexterm>
+<para><computeroutput>Move.Move (Transform objectToMove, Vector3 direction, float distance = <computeroutput>1f</computeroutput>
+)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_move_1a53763bbbd1effc869af65c035bec59ab"/><section>
+    <title>Execute()</title>
+<indexterm><primary>Execute</primary><secondary>Move</secondary></indexterm>
+<indexterm><primary>Move</primary><secondary>Execute</secondary></indexterm>
+<para><computeroutput>void Move.Execute ( )</computeroutput></para><para>
+Implements <link linkend="_interface_i_command_o_w_s_1adcd8f91e3914e3e1fa342868527f5942">ICommandOWS</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_move_a53763bbbd1effc869af65c035bec59ab_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_move_1a568feed72259a8043a5a264456fa0b8f"/><section>
+    <title>GetMove()</title>
+<indexterm><primary>GetMove</primary><secondary>Move</secondary></indexterm>
+<indexterm><primary>Move</primary><secondary>GetMove</secondary></indexterm>
+<para><computeroutput>Vector3 Move.GetMove ( )</computeroutput></para></section>
+<anchor xml:id="_class_move_1afdff2fb08f6cf41b01f9d523b203c44e"/><section>
+    <title>Undo()</title>
+<indexterm><primary>Undo</primary><secondary>Move</secondary></indexterm>
+<indexterm><primary>Move</primary><secondary>Undo</secondary></indexterm>
+<para><computeroutput>void Move.Undo ( )</computeroutput></para><para>
+Implements <link linkend="_interface_i_command_o_w_s_1a80206dee715e58a0e9d1d32715215f8f">ICommandOWS</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/<link linkend="__move_8cs">Move.cs</link></section>
+</section>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_sync_text_with_text_mesh_pro" kind="class" language="C#" prot="public">
+    <compoundname>SyncTextWithTextMeshPro</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sync_text_with_text_mesh_pro_1a8e06dc8c97b727a1465614a11d8f4d4d" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text SyncTextWithTextMeshPro.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" line="8" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sync_text_with_text_mesh_pro_1ae33017f3e22217896d89f5e9f7ebb08c" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI SyncTextWithTextMeshPro.text_TMPro</definition>
+        <argsstring></argsstring>
+        <name>text_TMPro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" line="9" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sync_text_with_text_mesh_pro_1ac1716adaf937f36af46a23b129a15e25" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SyncTextWithTextMeshPro.removeString</definition>
+        <argsstring></argsstring>
+        <name>removeString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" line="11" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sync_text_with_text_mesh_pro_1a512e316c15a3889099940b4893075d19" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SyncTextWithTextMeshPro.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" line="13" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" bodystart="13" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SyncTextWithTextMeshPro</label>
+        <link refid="class_sync_text_with_text_mesh_pro"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SyncTextWithTextMeshPro</label>
+        <link refid="class_sync_text_with_text_mesh_pro"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+text</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Text</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/SyncTextWithTextMeshPro.cs" bodystart="7" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_sync_text_with_text_mesh_pro_1a512e316c15a3889099940b4893075d19" prot="private" virt="non-virtual"><scope>SyncTextWithTextMeshPro</scope><name>OnGUI</name></member>
+      <member refid="class_sync_text_with_text_mesh_pro_1ac1716adaf937f36af46a23b129a15e25" prot="public" virt="non-virtual"><scope>SyncTextWithTextMeshPro</scope><name>removeString</name></member>
+      <member refid="class_sync_text_with_text_mesh_pro_1a8e06dc8c97b727a1465614a11d8f4d4d" prot="public" virt="non-virtual"><scope>SyncTextWithTextMeshPro</scope><name>text</name></member>
+      <member refid="class_sync_text_with_text_mesh_pro_1ae33017f3e22217896d89f5e9f7ebb08c" prot="public" virt="non-virtual"><scope>SyncTextWithTextMeshPro</scope><name>text_TMPro</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

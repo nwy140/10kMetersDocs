@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions" xml:lang="en-US">
+<title>RebindUISampleActionsModified.Vector2AxisActions Struct Reference</title>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary></indexterm>
+Collaboration diagram for RebindUISampleActionsModified.Vector2AxisActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a83cc8b7f4530974748241c0982424bff">Vector2AxisActions</link> (@<link linkend="_class_rebind_u_i_sample_actions_modified">RebindUISampleActionsModified</link> wrapper)</para>
+</listitem>
+            <listitem><para>InputActionMap <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a461212c0c469e2a10db5ed02fbfc5f57">Get</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1ab603c0cc125e6aef1a58635b1ad48e30">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a80ea60e6b162fec8fa888deb23b3af49">Disable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1af527b4c74d68ab75da5490b4babb5654">SetCallbacks</link> (<link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions">IVector2AxisActions</link> instance)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static implicit <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1ac50c50e80a3a3261eb8cb5a5ecca9b8a">operator InputActionMap</link> (<link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions">Vector2AxisActions</link> set)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a775766c4c676c08f669b21adc4200227">Newaction</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a899a938db570259443038d0840abac88">LeftStickAxis2D</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1ae8e35cfe216c336ae15aed17e395f722">RightStickAxis2D</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1ab18f44af40e9f404542c25a626e99002">DPadAxis2D</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a63dfba850a25f127f70c78ed0284602a">enabled</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a83cc8b7f4530974748241c0982424bff"/><section>
+    <title>Vector2AxisActions()</title>
+<indexterm><primary>Vector2AxisActions</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>Vector2AxisActions</secondary></indexterm>
+<para><computeroutput>RebindUISampleActionsModified.Vector2AxisActions.Vector2AxisActions (@<link linkend="_class_rebind_u_i_sample_actions_modified">RebindUISampleActionsModified</link> wrapper)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a80ea60e6b162fec8fa888deb23b3af49"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.Vector2AxisActions.Disable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_a80ea60e6b162fec8fa888deb23b3af49_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1ab603c0cc125e6aef1a58635b1ad48e30"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.Vector2AxisActions.Enable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_ab603c0cc125e6aef1a58635b1ad48e30_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a461212c0c469e2a10db5ed02fbfc5f57"/><section>
+    <title>Get()</title>
+<indexterm><primary>Get</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>InputActionMap RebindUISampleActionsModified.Vector2AxisActions.Get ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_a461212c0c469e2a10db5ed02fbfc5f57_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1ac50c50e80a3a3261eb8cb5a5ecca9b8a"/><section>
+    <title>operator InputActionMap()</title>
+<indexterm><primary>operator InputActionMap</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>operator InputActionMap</secondary></indexterm>
+<para><computeroutput>static implicit RebindUISampleActionsModified.Vector2AxisActions.operator InputActionMap (<link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions">Vector2AxisActions</link> set)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1af527b4c74d68ab75da5490b4babb5654"/><section>
+    <title>SetCallbacks()</title>
+<indexterm><primary>SetCallbacks</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>SetCallbacks</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.Vector2AxisActions.SetCallbacks (<link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions">IVector2AxisActions</link> instance)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_af527b4c74d68ab75da5490b4babb5654_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1ab18f44af40e9f404542c25a626e99002"/><section>
+    <title>DPadAxis2D</title>
+<indexterm><primary>DPadAxis2D</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>DPadAxis2D</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.Vector2AxisActions.DPadAxis2D<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a63dfba850a25f127f70c78ed0284602a"/><section>
+    <title>enabled</title>
+<indexterm><primary>enabled</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>enabled</secondary></indexterm>
+<para><computeroutput>bool RebindUISampleActionsModified.Vector2AxisActions.enabled<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a899a938db570259443038d0840abac88"/><section>
+    <title>LeftStickAxis2D</title>
+<indexterm><primary>LeftStickAxis2D</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>LeftStickAxis2D</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.Vector2AxisActions.LeftStickAxis2D<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1a775766c4c676c08f669b21adc4200227"/><section>
+    <title>Newaction</title>
+<indexterm><primary>Newaction</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>Newaction</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.Vector2AxisActions.Newaction<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions_1ae8e35cfe216c336ae15aed17e395f722"/><section>
+    <title>RightStickAxis2D</title>
+<indexterm><primary>RightStickAxis2D</primary><secondary>RebindUISampleActionsModified.Vector2AxisActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.Vector2AxisActions</primary><secondary>RightStickAxis2D</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.Vector2AxisActions.RightStickAxis2D<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/<link linkend="__rebind_u_i_sample_actions_modified_8cs">RebindUISampleActionsModified.cs</link></section>
+</section>

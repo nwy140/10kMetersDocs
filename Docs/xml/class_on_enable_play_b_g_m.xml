@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_on_enable_play_b_g_m" kind="class" language="C#" prot="public">
+    <compoundname>OnEnablePlayBGM</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_on_enable_play_b_g_m_1abba48d69e9b6b14aa91eca58d0979416" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string OnEnablePlayBGM.BGMName</definition>
+        <argsstring></argsstring>
+        <name>BGMName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlayBGM.cs" line="7" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlayBGM.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_on_enable_play_b_g_m_1a78ae09b9361cfe247aaf4654982f67f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnEnablePlayBGM.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlayBGM.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlayBGM.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_on_enable_play_b_g_m_1a646d9b47ac2bb909f669d74618bc68b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnEnablePlayBGM.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlayBGM.cs" line="13" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlayBGM.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OnEnablePlayBGM</label>
+        <link refid="class_on_enable_play_b_g_m"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OnEnablePlayBGM</label>
+        <link refid="class_on_enable_play_b_g_m"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlayBGM.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/OnEnablePlayBGM.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_on_enable_play_b_g_m_1abba48d69e9b6b14aa91eca58d0979416" prot="public" virt="non-virtual"><scope>OnEnablePlayBGM</scope><name>BGMName</name></member>
+      <member refid="class_on_enable_play_b_g_m_1a646d9b47ac2bb909f669d74618bc68b8" prot="private" virt="non-virtual"><scope>OnEnablePlayBGM</scope><name>OnEnable</name></member>
+      <member refid="class_on_enable_play_b_g_m_1a78ae09b9361cfe247aaf4654982f67f5" prot="private" virt="non-virtual"><scope>OnEnablePlayBGM</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

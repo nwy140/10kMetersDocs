@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tank_shooting" xml:lang="en-US">
+<title>TankShooting Class Reference</title>
+<indexterm><primary>TankShooting</primary></indexterm>
+Inheritance diagram for TankShooting:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tank_shooting__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for TankShooting:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tank_shooting__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_tank_shooting_1afbdc9693b332517975e952436c04b6a0">m_PlayerNumber</link> = 1</para>
+</listitem>
+            <listitem><para>Rigidbody <link linkend="_class_tank_shooting_1ab574880baae316f960a2711a3f357001">m_Shell</link></para>
+</listitem>
+            <listitem><para>Transform <link linkend="_class_tank_shooting_1a11258331a4d05472ffc508152f8e10e0">m_FireTransform</link></para>
+</listitem>
+            <listitem><para>Slider <link linkend="_class_tank_shooting_1abe2f4a5066ad055f925980a193ad555b">m_AimSlider</link></para>
+</listitem>
+            <listitem><para>AudioSource <link linkend="_class_tank_shooting_1a7d8d764d8c953938735573157284ac6a">m_ShootingAudio</link></para>
+</listitem>
+            <listitem><para>AudioClip <link linkend="_class_tank_shooting_1a838c9caaffcc15ecb0e19d5ca26590b5">m_ChargingClip</link></para>
+</listitem>
+            <listitem><para>AudioClip <link linkend="_class_tank_shooting_1a32f4525a7cb238b5684e8bcf3dca24fb">m_FireClip</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_tank_shooting_1ae01a2b150c6391d6f9bdf626ee7e273b">m_MinLaunchForce</link> = 15f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_tank_shooting_1aec0f5624d699ed4a0c7f8b54a88fc1c7">m_MaxLaunchForce</link> = 30f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_tank_shooting_1af8d76f24ef06557eacf3d80cae349dee">m_MaxChargeTime</link> = 0.75f</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_tank_shooting_1ab32c36d7827faa11ad42910898eaf363">m_Fired</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_tank_shooting_1ad716d12ee849c5d34ca9401e4d79e037">m_FireButtonPressedThisFrame</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_tank_shooting_1a8ee5e55d4e957381ed46080f5e799f71">m_FireButtonReleasedThisFrame</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_tank_shooting_1ae863aaaacd90047d060e56d2524932e9">m_FireButtonDown</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_tank_shooting_1abe2f4a5066ad055f925980a193ad555b"/><section>
+    <title>m_AimSlider</title>
+<indexterm><primary>m_AimSlider</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_AimSlider</secondary></indexterm>
+<para><computeroutput>Slider TankShooting.m_AimSlider</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1a838c9caaffcc15ecb0e19d5ca26590b5"/><section>
+    <title>m_ChargingClip</title>
+<indexterm><primary>m_ChargingClip</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_ChargingClip</secondary></indexterm>
+<para><computeroutput>AudioClip TankShooting.m_ChargingClip</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1ae863aaaacd90047d060e56d2524932e9"/><section>
+    <title>m_FireButtonDown</title>
+<indexterm><primary>m_FireButtonDown</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_FireButtonDown</secondary></indexterm>
+<para><computeroutput>bool TankShooting.m_FireButtonDown</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1ad716d12ee849c5d34ca9401e4d79e037"/><section>
+    <title>m_FireButtonPressedThisFrame</title>
+<indexterm><primary>m_FireButtonPressedThisFrame</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_FireButtonPressedThisFrame</secondary></indexterm>
+<para><computeroutput>bool TankShooting.m_FireButtonPressedThisFrame</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1a8ee5e55d4e957381ed46080f5e799f71"/><section>
+    <title>m_FireButtonReleasedThisFrame</title>
+<indexterm><primary>m_FireButtonReleasedThisFrame</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_FireButtonReleasedThisFrame</secondary></indexterm>
+<para><computeroutput>bool TankShooting.m_FireButtonReleasedThisFrame</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1a32f4525a7cb238b5684e8bcf3dca24fb"/><section>
+    <title>m_FireClip</title>
+<indexterm><primary>m_FireClip</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_FireClip</secondary></indexterm>
+<para><computeroutput>AudioClip TankShooting.m_FireClip</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1ab32c36d7827faa11ad42910898eaf363"/><section>
+    <title>m_Fired</title>
+<indexterm><primary>m_Fired</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_Fired</secondary></indexterm>
+<para><computeroutput>bool TankShooting.m_Fired</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1a11258331a4d05472ffc508152f8e10e0"/><section>
+    <title>m_FireTransform</title>
+<indexterm><primary>m_FireTransform</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_FireTransform</secondary></indexterm>
+<para><computeroutput>Transform TankShooting.m_FireTransform</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1af8d76f24ef06557eacf3d80cae349dee"/><section>
+    <title>m_MaxChargeTime</title>
+<indexterm><primary>m_MaxChargeTime</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_MaxChargeTime</secondary></indexterm>
+<para><computeroutput>float TankShooting.m_MaxChargeTime = 0.75f</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1aec0f5624d699ed4a0c7f8b54a88fc1c7"/><section>
+    <title>m_MaxLaunchForce</title>
+<indexterm><primary>m_MaxLaunchForce</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_MaxLaunchForce</secondary></indexterm>
+<para><computeroutput>float TankShooting.m_MaxLaunchForce = 30f</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1ae01a2b150c6391d6f9bdf626ee7e273b"/><section>
+    <title>m_MinLaunchForce</title>
+<indexterm><primary>m_MinLaunchForce</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_MinLaunchForce</secondary></indexterm>
+<para><computeroutput>float TankShooting.m_MinLaunchForce = 15f</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1afbdc9693b332517975e952436c04b6a0"/><section>
+    <title>m_PlayerNumber</title>
+<indexterm><primary>m_PlayerNumber</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_PlayerNumber</secondary></indexterm>
+<para><computeroutput>int TankShooting.m_PlayerNumber = 1</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1ab574880baae316f960a2711a3f357001"/><section>
+    <title>m_Shell</title>
+<indexterm><primary>m_Shell</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_Shell</secondary></indexterm>
+<para><computeroutput>Rigidbody TankShooting.m_Shell</computeroutput></para></section>
+<anchor xml:id="_class_tank_shooting_1a7d8d764d8c953938735573157284ac6a"/><section>
+    <title>m_ShootingAudio</title>
+<indexterm><primary>m_ShootingAudio</primary><secondary>TankShooting</secondary></indexterm>
+<indexterm><primary>TankShooting</primary><secondary>m_ShootingAudio</secondary></indexterm>
+<para><computeroutput>AudioSource TankShooting.m_ShootingAudio</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/<link linkend="__tank_shooting_8cs">TankShooting.cs</link></section>
+</section>

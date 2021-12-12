@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_quick_pause_fix" kind="class" language="C#" prot="public">
+    <compoundname>QuickPauseFix</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quick_pause_fix_1aa4292d8dcf17f233430b29b15b3a4101" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pause_menu_scripts" kindref="compound">PauseMenuScripts</ref></type>
+        <definition>PauseMenuScripts QuickPauseFix.pauseMenuScript</definition>
+        <argsstring></argsstring>
+        <name>pauseMenuScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" line="7" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quick_pause_fix_1aff899c8be3caeb42ff81de7e5657a294" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuickPauseFix.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quick_pause_fix_1ac890db1ac3ee702bb1117bf16dd93824" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuickPauseFix.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" bodystart="12" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quick_pause_fix_1a0a701599ce3bce3f325751d5dd7deb6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuickPauseFix.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" bodystart="23" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuickPauseFix</label>
+        <link refid="class_quick_pause_fix"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuickPauseFix</label>
+        <link refid="class_quick_pause_fix"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickPauseFix.cs" bodystart="6" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_quick_pause_fix_1aff899c8be3caeb42ff81de7e5657a294" prot="private" virt="non-virtual"><scope>QuickPauseFix</scope><name>Awake</name></member>
+      <member refid="class_quick_pause_fix_1a0a701599ce3bce3f325751d5dd7deb6c" prot="private" virt="non-virtual"><scope>QuickPauseFix</scope><name>OnDisable</name></member>
+      <member refid="class_quick_pause_fix_1ac890db1ac3ee702bb1117bf16dd93824" prot="private" virt="non-virtual"><scope>QuickPauseFix</scope><name>OnEnable</name></member>
+      <member refid="class_quick_pause_fix_1aa4292d8dcf17f233430b29b15b3a4101" prot="private" virt="non-virtual"><scope>QuickPauseFix</scope><name>pauseMenuScript</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

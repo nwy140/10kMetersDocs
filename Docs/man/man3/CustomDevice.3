@@ -1,0 +1,75 @@
+.TH "CustomDevice" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CustomDevice
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits InputDevice, and IInputUpdateCallbackReceiver\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBMakeCurrent\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnUpdate\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBFinishSetup\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnRemoved\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "ButtonControl \fBfirstButton\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "ButtonControl \fBsecondButton\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "ButtonControl \fBthirdButton\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "StickControl \fBstick\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "static \fBCustomDevice\fP \fBcurrent\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "override void CustomDevice\&.FinishSetup ()\fC [protected]\fP"
+
+.SS "override void CustomDevice\&.MakeCurrent ()"
+
+.SS "override void CustomDevice\&.OnRemoved ()\fC [protected]\fP"
+
+.SS "void CustomDevice\&.OnUpdate ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBCustomDevice\fP CustomDevice\&.current\fC [static]\fP, \fC [get]\fP"
+
+.SS "ButtonControl CustomDevice\&.firstButton\fC [get]\fP"
+
+.SS "ButtonControl CustomDevice\&.secondButton\fC [get]\fP"
+
+.SS "StickControl CustomDevice\&.stick\fC [get]\fP"
+
+.SS "ButtonControl CustomDevice\&.thirdButton\fC [get]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

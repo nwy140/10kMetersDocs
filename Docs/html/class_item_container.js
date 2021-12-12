@@ -13,7 +13,7 @@ var class_item_container =
     [ "OnDragEvent", "class_item_container.html#ad8ea44ce84d6b1d8c5f8523038379cfb", null ],
     [ "OnDropEvent", "class_item_container.html#afe1f3259c2bd0f43dd3f4d53464e7d81", null ],
     [ "OnEndDragEvent", "class_item_container.html#aa640b20e572e8ac726d2914375956d1e", null ],
+    [ "OnLeftClickEvent", "class_item_container.html#a51e056c389290250e3b95270fd3e50e4", null ],
     [ "OnPointerEnterEvent", "class_item_container.html#a881703dfdea0d17ac5dd71439b14a41a", null ],
-    [ "OnPointerExitEvent", "class_item_container.html#a79cf8f59fe58b8f27100ef2fa9dc6ab5", null ],
-    [ "OnRightClickEvent", "class_item_container.html#a52f0b7f3f18e45283075836e5bbd7c2a", null ]
+    [ "OnPointerExitEvent", "class_item_container.html#a79cf8f59fe58b8f27100ef2fa9dc6ab5", null ]
 ];

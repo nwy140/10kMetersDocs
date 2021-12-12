@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_base_1_1_execution_info" xml:lang="en-US">
+<title>CommandBase.ExecutionInfo Class Reference</title>
+<indexterm><primary>CommandBase.ExecutionInfo</primary></indexterm>
+Collaboration diagram for CommandBase.ExecutionInfo:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_base_1_1_execution_info__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955">ExecStatus</link> <link linkend="_class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e">curExecState</link></para>
+</listitem>
+            <listitem><para>UnityAction <link linkend="_class_command_base_1_1_execution_info_1af07e8d5b8b1440a1f9a87b57087159e3">ExecPressHolderEvent</link></para>
+</listitem>
+            <listitem><para>UnityAction <link linkend="_class_command_base_1_1_execution_info_1a70feff83b673feeb342b55889751cef4">ExecDownHolderEvent</link></para>
+</listitem>
+            <listitem><para>UnityAction <link linkend="_class_command_base_1_1_execution_info_1a3b106a3181aa5ee55cefd65574b11f85">ExecDownChargingHolderEvent</link></para>
+</listitem>
+            <listitem><para>UnityAction <link linkend="_class_command_base_1_1_execution_info_1ada469bb98840c6f302ed9da237725701">ExecReleaseHolderEvent</link></para>
+</listitem>
+            <listitem><para>UnityAction <link linkend="_class_command_base_1_1_execution_info_1a51ad838a1830f6c02229e561513e51cd">ExecdHolderEvent</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_event">CommandEvent</link> <link linkend="_class_command_base_1_1_execution_info_1ae30a252f15a5dea952d88df9c4e8ffe6">ExecPressEvent</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_event">CommandEvent</link> <link linkend="_class_command_base_1_1_execution_info_1aac32d55c6522a4bbdbf69faa3150ad1b">ExecDownEvent</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_event">CommandEvent</link> <link linkend="_class_command_base_1_1_execution_info_1a2017a99e7cb215d2752aa7a39db59c51">ExecDownChargingEvent</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_event">CommandEvent</link> <link linkend="_class_command_base_1_1_execution_info_1a31354764417cd5a006ba951226c4b981">ExecReleaseEvent</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_event">CommandEvent</link> <link linkend="_class_command_base_1_1_execution_info_1a16ef0db0e99966a745e1ddef9fd46d1b">ExecdEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e"/><section>
+    <title>curExecState</title>
+<indexterm><primary>curExecState</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>curExecState</secondary></indexterm>
+<para><computeroutput><link linkend="__command_base_8cs_1ae04a6d49e63b40ab4de2eecb14bc4955">ExecStatus</link> CommandBase.ExecutionInfo.curExecState</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1a16ef0db0e99966a745e1ddef9fd46d1b"/><section>
+    <title>ExecdEvent</title>
+<indexterm><primary>ExecdEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecdEvent</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_event">CommandEvent</link> CommandBase.ExecutionInfo.ExecdEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1a51ad838a1830f6c02229e561513e51cd"/><section>
+    <title>ExecdHolderEvent</title>
+<indexterm><primary>ExecdHolderEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecdHolderEvent</secondary></indexterm>
+<para><computeroutput>UnityAction CommandBase.ExecutionInfo.ExecdHolderEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1a2017a99e7cb215d2752aa7a39db59c51"/><section>
+    <title>ExecDownChargingEvent</title>
+<indexterm><primary>ExecDownChargingEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecDownChargingEvent</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_event">CommandEvent</link> CommandBase.ExecutionInfo.ExecDownChargingEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1a3b106a3181aa5ee55cefd65574b11f85"/><section>
+    <title>ExecDownChargingHolderEvent</title>
+<indexterm><primary>ExecDownChargingHolderEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecDownChargingHolderEvent</secondary></indexterm>
+<para><computeroutput>UnityAction CommandBase.ExecutionInfo.ExecDownChargingHolderEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1aac32d55c6522a4bbdbf69faa3150ad1b"/><section>
+    <title>ExecDownEvent</title>
+<indexterm><primary>ExecDownEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecDownEvent</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_event">CommandEvent</link> CommandBase.ExecutionInfo.ExecDownEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1a70feff83b673feeb342b55889751cef4"/><section>
+    <title>ExecDownHolderEvent</title>
+<indexterm><primary>ExecDownHolderEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecDownHolderEvent</secondary></indexterm>
+<para><computeroutput>UnityAction CommandBase.ExecutionInfo.ExecDownHolderEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1ae30a252f15a5dea952d88df9c4e8ffe6"/><section>
+    <title>ExecPressEvent</title>
+<indexterm><primary>ExecPressEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecPressEvent</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_event">CommandEvent</link> CommandBase.ExecutionInfo.ExecPressEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1af07e8d5b8b1440a1f9a87b57087159e3"/><section>
+    <title>ExecPressHolderEvent</title>
+<indexterm><primary>ExecPressHolderEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecPressHolderEvent</secondary></indexterm>
+<para><computeroutput>UnityAction CommandBase.ExecutionInfo.ExecPressHolderEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1a31354764417cd5a006ba951226c4b981"/><section>
+    <title>ExecReleaseEvent</title>
+<indexterm><primary>ExecReleaseEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecReleaseEvent</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_event">CommandEvent</link> CommandBase.ExecutionInfo.ExecReleaseEvent</computeroutput></para></section>
+<anchor xml:id="_class_command_base_1_1_execution_info_1ada469bb98840c6f302ed9da237725701"/><section>
+    <title>ExecReleaseHolderEvent</title>
+<indexterm><primary>ExecReleaseHolderEvent</primary><secondary>CommandBase.ExecutionInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.ExecutionInfo</primary><secondary>ExecReleaseHolderEvent</secondary></indexterm>
+<para><computeroutput>UnityAction CommandBase.ExecutionInfo.ExecReleaseHolderEvent</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/<link linkend="__command_base_8cs">CommandBase.cs</link></section>
+</section>

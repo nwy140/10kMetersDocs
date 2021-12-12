@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_generic_dictionary" kind="class" language="C#" prot="public">
+    <compoundname>GenericDictionary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDictionary&lt; TKey, TValue &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISerializationCallbackReceiver</basecompoundref>
+    <innerclass refid="struct_generic_dictionary_1_1_key_value_pair" prot="private">GenericDictionary::KeyValuePair</innerclass>
+    <templateparamlist>
+      <param>
+        <type>TKey</type>
+      </param>
+      <param>
+        <type>TValue</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_generic_dictionary_1ac700d9ae6be60a28ef00464f68652790" prot="private" static="no" mutable="no">
+        <type>List&lt; KeyValuePair &gt;</type>
+        <definition>List&lt;KeyValuePair&gt; GenericDictionary&lt; TKey, TValue &gt;.list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <initializer>= new List&lt;KeyValuePair&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="19" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generic_dictionary_1a930e061852836b6997d0975b2271865d" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; TKey, int &gt;</type>
+        <definition>Dictionary&lt;TKey, int&gt; GenericDictionary&lt; TKey, TValue &gt;.indexByKey</definition>
+        <argsstring></argsstring>
+        <name>indexByKey</name>
+        <initializer>= new Dictionary&lt;TKey, int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="21" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generic_dictionary_1a53b9be0eccc39107efb9a14667eafda2" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; TKey, TValue &gt;</type>
+        <definition>Dictionary&lt;TKey, TValue&gt; GenericDictionary&lt; TKey, TValue &gt;.dict</definition>
+        <argsstring></argsstring>
+        <name>dict</name>
+        <initializer>= new Dictionary&lt;TKey, TValue&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="23" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generic_dictionary_1a13d2eafffb27974d2f85546170e4fa93" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GenericDictionary&lt; TKey, TValue &gt;.keyCollision</definition>
+        <argsstring></argsstring>
+        <name>keyCollision</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="27" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_generic_dictionary_1a3366552e2cdd8858f2d18478a6bb6f25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TValue</type>
+        <definition>TValue GenericDictionary&lt; TKey, TValue &gt;.this[TKey key]</definition>
+        <argsstring></argsstring>
+        <name>this[TKey key]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="70" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="71" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_generic_dictionary_1a679f48bd2ee64873186e97c78b642213" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; TKey &gt;</type>
+        <definition>ICollection&lt;TKey&gt; GenericDictionary&lt; TKey, TValue &gt;.Keys</definition>
+        <argsstring></argsstring>
+        <name>Keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="90" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_generic_dictionary_1af906857dbe6c25c750b6dc7fb1aedca0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; TValue &gt;</type>
+        <definition>ICollection&lt;TValue&gt; GenericDictionary&lt; TKey, TValue &gt;.Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="91" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_generic_dictionary_1a26ee931c47c12e0f13ee6bbb27264fe8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int GenericDictionary&lt; TKey, TValue &gt;.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="128" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_generic_dictionary_1aa3fd065828bdb39d64be67280a056d96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool GenericDictionary&lt; TKey, TValue &gt;.IsReadOnly</definition>
+        <argsstring></argsstring>
+        <name>IsReadOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="129" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="129" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_generic_dictionary_1afa7d7ea0b03cb741f5972cdb9dad9820" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericDictionary&lt; TKey, TValue &gt;.OnBeforeSerialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnBeforeSerialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="45" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1aa7e3c7674d72aa09908d823828bfe9a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericDictionary&lt; TKey, TValue &gt;.OnAfterDeserialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnAfterDeserialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="48" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="48" bodyend="67"/>
+        <references refid="class_generic_dictionary_1a467b6e4d31cedc2b38b39a0229bc27f3">GenericDictionary&lt; TKey, TValue &gt;.ContainsKey</references>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1a3131a602b17fa42446948df937e584f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericDictionary&lt; TKey, TValue &gt;.Add</definition>
+        <argsstring>(TKey key, TValue value)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>TKey</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>TValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="93" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="93" bodyend="98"/>
+        <referencedby refid="class_generic_dictionary_1a5518c081100f250284866a97ffeaae83" compoundref="_generic_dictionary_8cs" startline="131" endline="134">GenericDictionary&lt; TKey, TValue &gt;.Add</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1a467b6e4d31cedc2b38b39a0229bc27f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GenericDictionary&lt; TKey, TValue &gt;.ContainsKey</definition>
+        <argsstring>(TKey key)</argsstring>
+        <name>ContainsKey</name>
+        <param>
+          <type>TKey</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="100" column="17"/>
+        <referencedby refid="class_generic_dictionary_1aa7e3c7674d72aa09908d823828bfe9a0" compoundref="_generic_dictionary_8cs" startline="48" endline="67">GenericDictionary&lt; TKey, TValue &gt;.OnAfterDeserialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1acb60c1c04eaf193894e672a903d4d7c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GenericDictionary&lt; TKey, TValue &gt;.Remove</definition>
+        <argsstring>(TKey key)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>TKey</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="102" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="102" bodyend="116"/>
+        <referencedby refid="class_generic_dictionary_1a329fdd017e33a42057b50469a9720ba9" compoundref="_generic_dictionary_8cs" startline="172" endline="184">GenericDictionary&lt; TKey, TValue &gt;.Remove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1abcf475aa029c54b4d76528e3f18c959a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GenericDictionary&lt; TKey, TValue &gt;.TryGetValue</definition>
+        <argsstring>(TKey key, out TValue value)</argsstring>
+        <name>TryGetValue</name>
+        <param>
+          <type>TKey</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>out TValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="125" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1a5518c081100f250284866a97ffeaae83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericDictionary&lt; TKey, TValue &gt;.Add</definition>
+        <argsstring>(KeyValuePair&lt; TKey, TValue &gt; pair)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>KeyValuePair&lt; TKey, TValue &gt;</type>
+          <declname>pair</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="131" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="131" bodyend="134"/>
+        <references refid="class_generic_dictionary_1a3131a602b17fa42446948df937e584f7" compoundref="_generic_dictionary_8cs" startline="93" endline="98">GenericDictionary&lt; TKey, TValue &gt;.Add</references>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1a5db3892fe9887beb04bbe276ef87e8a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericDictionary&lt; TKey, TValue &gt;.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="136" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="136" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1a7ef41939aa49dc6c0c18a64dca398839" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GenericDictionary&lt; TKey, TValue &gt;.Contains</definition>
+        <argsstring>(KeyValuePair&lt; TKey, TValue &gt; pair)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>KeyValuePair&lt; TKey, TValue &gt;</type>
+          <declname>pair</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="143" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="143" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1aebb652620a964cc219be4bd9f9a92378" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericDictionary&lt; TKey, TValue &gt;.CopyTo</definition>
+        <argsstring>(KeyValuePair&lt; TKey, TValue &gt;[] array, int arrayIndex)</argsstring>
+        <name>CopyTo</name>
+        <param>
+          <type>KeyValuePair&lt; TKey, TValue &gt;[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arrayIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="156" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="156" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1a329fdd017e33a42057b50469a9720ba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GenericDictionary&lt; TKey, TValue &gt;.Remove</definition>
+        <argsstring>(KeyValuePair&lt; TKey, TValue &gt; pair)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>KeyValuePair&lt; TKey, TValue &gt;</type>
+          <declname>pair</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="172" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="172" bodyend="184"/>
+        <references refid="class_generic_dictionary_1acb60c1c04eaf193894e672a903d4d7c9" compoundref="_generic_dictionary_8cs" startline="102" endline="116">GenericDictionary&lt; TKey, TValue &gt;.Remove</references>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1abbc58e30b43342a6debd5de40b2245c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IEnumerator&lt; KeyValuePair&lt; TKey, TValue &gt; &gt;</type>
+        <definition>IEnumerator&lt; KeyValuePair&lt; TKey, TValue &gt; &gt; GenericDictionary&lt; TKey, TValue &gt;.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="187" column="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_generic_dictionary_1a140201c62ae255941ee34f853ac02b53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericDictionary&lt; TKey, TValue &gt;.UpdateIndexes</definition>
+        <argsstring>(int removedIndex)</argsstring>
+        <name>UpdateIndexes</name>
+        <param>
+          <type>int</type>
+          <declname>removedIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="118" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_dictionary_1ae5cff93ede7c6224d9242e8182715456" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. GenericDictionary&lt; TKey, TValue &gt;.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="188" column="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Generic Serializable Dictionary for Unity 2020.1. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Simply declare your key/value types and you&apos;re good to go - zero boilerplate. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GenericDictionary&lt; TKey, TValue &gt;</label>
+        <link refid="class_generic_dictionary"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDictionary&lt; TKey, TValue &gt;</label>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GenericDictionary&lt; TKey, TValue &gt;</label>
+        <link refid="class_generic_dictionary"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDictionary&lt; TKey, TValue &gt;</label>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="15" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="16" bodyend="189"/>
+    <listofallmembers>
+      <member refid="class_generic_dictionary_1a3131a602b17fa42446948df937e584f7" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Add</name></member>
+      <member refid="class_generic_dictionary_1a5518c081100f250284866a97ffeaae83" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Add</name></member>
+      <member refid="class_generic_dictionary_1a5db3892fe9887beb04bbe276ef87e8a6" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Clear</name></member>
+      <member refid="class_generic_dictionary_1a7ef41939aa49dc6c0c18a64dca398839" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Contains</name></member>
+      <member refid="class_generic_dictionary_1a467b6e4d31cedc2b38b39a0229bc27f3" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>ContainsKey</name></member>
+      <member refid="class_generic_dictionary_1aebb652620a964cc219be4bd9f9a92378" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>CopyTo</name></member>
+      <member refid="class_generic_dictionary_1a26ee931c47c12e0f13ee6bbb27264fe8" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Count</name></member>
+      <member refid="class_generic_dictionary_1a53b9be0eccc39107efb9a14667eafda2" prot="private" virt="non-virtual"><scope>GenericDictionary</scope><name>dict</name></member>
+      <member refid="class_generic_dictionary_1abbc58e30b43342a6debd5de40b2245c8" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>GetEnumerator</name></member>
+      <member refid="class_generic_dictionary_1ae5cff93ede7c6224d9242e8182715456" prot="private" virt="non-virtual"><scope>GenericDictionary</scope><name>GetEnumerator</name></member>
+      <member refid="class_generic_dictionary_1a930e061852836b6997d0975b2271865d" prot="private" virt="non-virtual"><scope>GenericDictionary</scope><name>indexByKey</name></member>
+      <member refid="class_generic_dictionary_1aa3fd065828bdb39d64be67280a056d96" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>IsReadOnly</name></member>
+      <member refid="class_generic_dictionary_1a13d2eafffb27974d2f85546170e4fa93" prot="private" virt="non-virtual"><scope>GenericDictionary</scope><name>keyCollision</name></member>
+      <member refid="class_generic_dictionary_1a679f48bd2ee64873186e97c78b642213" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Keys</name></member>
+      <member refid="class_generic_dictionary_1ac700d9ae6be60a28ef00464f68652790" prot="private" virt="non-virtual"><scope>GenericDictionary</scope><name>list</name></member>
+      <member refid="class_generic_dictionary_1aa7e3c7674d72aa09908d823828bfe9a0" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>OnAfterDeserialize</name></member>
+      <member refid="class_generic_dictionary_1afa7d7ea0b03cb741f5972cdb9dad9820" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>OnBeforeSerialize</name></member>
+      <member refid="class_generic_dictionary_1acb60c1c04eaf193894e672a903d4d7c9" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Remove</name></member>
+      <member refid="class_generic_dictionary_1a329fdd017e33a42057b50469a9720ba9" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Remove</name></member>
+      <member refid="class_generic_dictionary_1a3366552e2cdd8858f2d18478a6bb6f25" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>this[TKey key]</name></member>
+      <member refid="class_generic_dictionary_1abcf475aa029c54b4d76528e3f18c959a" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>TryGetValue</name></member>
+      <member refid="class_generic_dictionary_1a140201c62ae255941ee34f853ac02b53" prot="private" virt="non-virtual"><scope>GenericDictionary</scope><name>UpdateIndexes</name></member>
+      <member refid="class_generic_dictionary_1af906857dbe6c25c750b6dc7fb1aedca0" prot="public" virt="non-virtual"><scope>GenericDictionary</scope><name>Values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

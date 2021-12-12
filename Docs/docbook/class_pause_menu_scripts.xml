@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_pause_menu_scripts" xml:lang="en-US">
+<title>PauseMenuScripts Class Reference</title>
+<indexterm><primary>PauseMenuScripts</primary></indexterm>
+Inheritance diagram for PauseMenuScripts:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_pause_menu_scripts__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for PauseMenuScripts:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_pause_menu_scripts__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_pause_menu_scripts_1a46715ef9658e56718ea159f440911fbc">DisablePause</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_pause_menu_scripts_1a123f46be08ea3e51275b40ac1d9f41f0">OpenPauseMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1">ClosePauseMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_pause_menu_scripts_1a07fd80a064d058fbbca8c8916149deb3">QuitGame</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_pause_menu_scripts_1a202540804f9696b458816b5a9a263659">OnInput</link> (InputAction.CallbackContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_pause_menu_scripts_1a407c45c634ad60a9a78bf08f3e2425a3">pauseMenu</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_pause_menu_scripts_1a28260699a68d28bcf0a30edc5bc216ce">isPaused</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_pause_menu_scripts_1a8763daf7b293cbcbbb56a4c8b19c26c6">isPauseMenuOn</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_character">Character</link> <link linkend="_class_pause_menu_scripts_1a3db868d5ce70b2e1be38be887978da25">character</link></para>
+</listitem>
+            <listitem><para>UnityEvent <link linkend="_class_pause_menu_scripts_1a5ff15c5db9d5829b6c2580107c5c372d">onUnPause</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1"/><section>
+    <title>ClosePauseMenu()</title>
+<indexterm><primary>ClosePauseMenu</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>ClosePauseMenu</secondary></indexterm>
+<para><computeroutput>void PauseMenuScripts.ClosePauseMenu ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_pause_menu_scripts_a183cd092b62d33d8f66b6d088ae785f1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_pause_menu_scripts_1a46715ef9658e56718ea159f440911fbc"/><section>
+    <title>DisablePause()</title>
+<indexterm><primary>DisablePause</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>DisablePause</secondary></indexterm>
+<para><computeroutput>void PauseMenuScripts.DisablePause ( )</computeroutput></para></section>
+<anchor xml:id="_class_pause_menu_scripts_1a202540804f9696b458816b5a9a263659"/><section>
+    <title>OnInput()</title>
+<indexterm><primary>OnInput</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>OnInput</secondary></indexterm>
+<para><computeroutput>void PauseMenuScripts.OnInput (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_pause_menu_scripts_1a123f46be08ea3e51275b40ac1d9f41f0"/><section>
+    <title>OpenPauseMenu()</title>
+<indexterm><primary>OpenPauseMenu</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>OpenPauseMenu</secondary></indexterm>
+<para><computeroutput>void PauseMenuScripts.OpenPauseMenu ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_pause_menu_scripts_a123f46be08ea3e51275b40ac1d9f41f0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_pause_menu_scripts_1a07fd80a064d058fbbca8c8916149deb3"/><section>
+    <title>QuitGame()</title>
+<indexterm><primary>QuitGame</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>QuitGame</secondary></indexterm>
+<para><computeroutput>void PauseMenuScripts.QuitGame ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_pause_menu_scripts_a07fd80a064d058fbbca8c8916149deb3_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_pause_menu_scripts_1a3db868d5ce70b2e1be38be887978da25"/><section>
+    <title>character</title>
+<indexterm><primary>character</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>character</secondary></indexterm>
+<para><computeroutput><link linkend="_class_character">Character</link> PauseMenuScripts.character</computeroutput></para></section>
+<anchor xml:id="_class_pause_menu_scripts_1a28260699a68d28bcf0a30edc5bc216ce"/><section>
+    <title>isPaused</title>
+<indexterm><primary>isPaused</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>isPaused</secondary></indexterm>
+<para><computeroutput>bool PauseMenuScripts.isPaused</computeroutput></para></section>
+<anchor xml:id="_class_pause_menu_scripts_1a8763daf7b293cbcbbb56a4c8b19c26c6"/><section>
+    <title>isPauseMenuOn</title>
+<indexterm><primary>isPauseMenuOn</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>isPauseMenuOn</secondary></indexterm>
+<para><computeroutput>bool PauseMenuScripts.isPauseMenuOn</computeroutput></para></section>
+<anchor xml:id="_class_pause_menu_scripts_1a5ff15c5db9d5829b6c2580107c5c372d"/><section>
+    <title>onUnPause</title>
+<indexterm><primary>onUnPause</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>onUnPause</secondary></indexterm>
+<para><computeroutput>UnityEvent PauseMenuScripts.onUnPause</computeroutput></para></section>
+<anchor xml:id="_class_pause_menu_scripts_1a407c45c634ad60a9a78bf08f3e2425a3"/><section>
+    <title>pauseMenu</title>
+<indexterm><primary>pauseMenu</primary><secondary>PauseMenuScripts</secondary></indexterm>
+<indexterm><primary>PauseMenuScripts</primary><secondary>pauseMenu</secondary></indexterm>
+<para><computeroutput>GameObject PauseMenuScripts.pauseMenu</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/<link linkend="__pause_menu_scripts_8cs">PauseMenuScripts.cs</link></section>
+</section>

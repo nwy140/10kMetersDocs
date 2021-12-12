@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_weapon" xml:lang="en-US">
+<title>Weapon Class Reference</title>
+<indexterm><primary>Weapon</primary></indexterm>
+Inheritance diagram for Weapon:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_weapon__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Weapon:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_weapon__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_weapon_1a5c81263243b28047f939212f29bb8bcb">GetAttackRate</link> ()</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_weapon_1a7ebf6aad2e3f7413c6726b0dc8937f56">GetAttackDamage</link> ()</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_weapon_1ab3cfe59fd638a383ed59a5383b2b2b35">GetAttackSpeed</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_player_bullet">PlayerBullet</link> <link linkend="_class_weapon_1a08c3723436ab6650f63c26a2407d1d00">GetPlayerBullet</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_weapon_1a7ebf6aad2e3f7413c6726b0dc8937f56"/><section>
+    <title>GetAttackDamage()</title>
+<indexterm><primary>GetAttackDamage</primary><secondary>Weapon</secondary></indexterm>
+<indexterm><primary>Weapon</primary><secondary>GetAttackDamage</secondary></indexterm>
+<para><computeroutput>float Weapon.GetAttackDamage ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_weapon_a7ebf6aad2e3f7413c6726b0dc8937f56_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_weapon_1a5c81263243b28047f939212f29bb8bcb"/><section>
+    <title>GetAttackRate()</title>
+<indexterm><primary>GetAttackRate</primary><secondary>Weapon</secondary></indexterm>
+<indexterm><primary>Weapon</primary><secondary>GetAttackRate</secondary></indexterm>
+<para><computeroutput>float Weapon.GetAttackRate ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_weapon_a5c81263243b28047f939212f29bb8bcb_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_weapon_1ab3cfe59fd638a383ed59a5383b2b2b35"/><section>
+    <title>GetAttackSpeed()</title>
+<indexterm><primary>GetAttackSpeed</primary><secondary>Weapon</secondary></indexterm>
+<indexterm><primary>Weapon</primary><secondary>GetAttackSpeed</secondary></indexterm>
+<para><computeroutput>float Weapon.GetAttackSpeed ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_weapon_ab3cfe59fd638a383ed59a5383b2b2b35_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_weapon_1a08c3723436ab6650f63c26a2407d1d00"/><section>
+    <title>GetPlayerBullet()</title>
+<indexterm><primary>GetPlayerBullet</primary><secondary>Weapon</secondary></indexterm>
+<indexterm><primary>Weapon</primary><secondary>GetPlayerBullet</secondary></indexterm>
+<para><computeroutput><link linkend="_class_player_bullet">PlayerBullet</link> Weapon.GetPlayerBullet ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Weapon/<link linkend="__weapon_8cs">Weapon.cs</link></section>
+</section>

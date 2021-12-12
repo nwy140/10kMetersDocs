@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_character" kind="class" language="C#" prot="public">
+    <compoundname>Character</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_character_1aee8b9925c3e1c50c6afae316255e3b52" prot="public" static="no" mutable="no">
+        <type><ref refid="classstorage" kindref="compound">storage</ref></type>
+        <definition>storage Character.Storage</definition>
+        <argsstring></argsstring>
+        <name>Storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="8" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_character_1acbe29d969c692ce4da3f086eafe781e2" compoundref="_character_8cs" startline="96" endline="111">BeginDiscard</referencedby>
+        <referencedby refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" compoundref="_item_save_manager_8cs" startline="11" endline="42">ItemSaveManager.LoadInventory</referencedby>
+        <referencedby refid="class_item_save_manager_1a18f7b0abfe4a6c06d05de9f3fbe96bc9" compoundref="_item_save_manager_8cs" startline="44" endline="47">ItemSaveManager.SaveInventory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a3007737cf19f2565a37ff613d94ab155" prot="public" static="no" mutable="no">
+        <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref></type>
+        <definition>itemSlots Character.itemToDelete</definition>
+        <argsstring></argsstring>
+        <name>itemToDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="26" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_character_1acbe29d969c692ce4da3f086eafe781e2" compoundref="_character_8cs" startline="96" endline="111">BeginDiscard</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_character_1adfbb0d437dfe24d6fcafaf357fe34c77" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_tool_tip" kindref="compound">ItemToolTip</ref></type>
+        <definition>ItemToolTip Character.itemToolTip</definition>
+        <argsstring></argsstring>
+        <name>itemToolTip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1adedac161f979ce8709cf723536c20ff7" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image Character.draggableItem</definition>
+        <argsstring></argsstring>
+        <name>draggableItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="12" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1aec7f6ed78e4c87b87410a3f3a70752de" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_save_manager" kindref="compound">ItemSaveManager</ref></type>
+        <definition>ItemSaveManager Character.itemSaveManager</definition>
+        <argsstring></argsstring>
+        <name>itemSaveManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="13" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a11dc39a4436b99955319f47839420d6e" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref>[]</type>
+        <definition>itemSlots [] Character.totalItemSlots</definition>
+        <argsstring></argsstring>
+        <name>totalItemSlots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="15" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a6c3de0d6adc30f122c04c2f172a22bf8" prot="private" static="no" mutable="no">
+        <type>Image[]</type>
+        <definition>Image [] Character.totalSlotBorders</definition>
+        <argsstring></argsstring>
+        <name>totalSlotBorders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="16" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1ac5762f9581b1b6226244c877140d65a3" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite Character.unselectedSprite</definition>
+        <argsstring></argsstring>
+        <name>unselectedSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="17" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a28f5b85ee9263135c0cdd3b61fe7a206" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite Character.selectSprite</definition>
+        <argsstring></argsstring>
+        <name>selectSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="18" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a697e0e2b7eadebbadb0f37122b2b8b93" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Character.iniPos</definition>
+        <argsstring></argsstring>
+        <name>iniPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="21" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a7bb44259d48405fe4e5eb0f1c63692cb" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Character.lastPos</definition>
+        <argsstring></argsstring>
+        <name>lastPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="22" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a4786b08872880e646df7e743880b5b4d" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref></type>
+        <definition>itemSlots Character.draggedSlot</definition>
+        <argsstring></argsstring>
+        <name>draggedSlot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="24" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_character_1a4b94b509f20b3916112479cdfdcbcd01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="28" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="28" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a587772b76e841aa94046f62520f616d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="54" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a87e2710609c8e54a8cdd27763106c98c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="63" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a8f13e9361a3c06e5118e5d4e0b264d83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.AddToDiscard</definition>
+        <argsstring>(itemSlots itemSlot)</argsstring>
+        <name>AddToDiscard</name>
+        <param>
+          <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref></type>
+          <declname>itemSlot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="81" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="81" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a48f0476cdacb561c6f3e1ff19aa9497a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.ShowToolTip</definition>
+        <argsstring>(itemSlots itemSlot)</argsstring>
+        <name>ShowToolTip</name>
+        <param>
+          <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref></type>
+          <declname>itemSlot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="115" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="115" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ae370385265d0d5f789422aff9c791495" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.HideToolTip</definition>
+        <argsstring>(itemSlots itemSlot)</argsstring>
+        <name>HideToolTip</name>
+        <param>
+          <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref></type>
+          <declname>itemSlot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="124" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="124" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_character_1a20befaddd8906f32beca7057a0bd0530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.Open</definition>
+        <argsstring>()</argsstring>
+        <name>Open</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="71" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a0660844ea548f4a4dba135cbb004815f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="76" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1acbe29d969c692ce4da3f086eafe781e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character.BeginDiscard</definition>
+        <argsstring>()</argsstring>
+        <name>BeginDiscard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="96" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="96" bodyend="111"/>
+        <references refid="class_item_container_1a9fa954c3d26b1ee1844a73aa4e7f65eb" compoundref="_item_container_8cs" startline="86" endline="98">ItemContainer.discardItem</references>
+        <references refid="class_character_1a3007737cf19f2565a37ff613d94ab155" compoundref="_character_8cs" startline="26">itemToDelete</references>
+        <references refid="class_character_1aee8b9925c3e1c50c6afae316255e3b52" compoundref="_character_8cs" startline="8">Storage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Character</label>
+        <link refid="class_character"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Character</label>
+        <link refid="class_character"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+Storage</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+itemToDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="11">
+        <label>IDragHandler</label>
+      </node>
+      <node id="12">
+        <label>IDropHandler</label>
+      </node>
+      <node id="10">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="6">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="7">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="8">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="4">
+        <label>ItemContainer</label>
+        <link refid="class_item_container"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="14">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="13">
+        <label>item</label>
+        <link refid="classitem"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>itemSlots</label>
+        <link refid="classitem_slots"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+_item</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>storage</label>
+        <link refid="classstorage"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Character.cs" bodystart="7" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_character_1a8f13e9361a3c06e5118e5d4e0b264d83" prot="private" virt="non-virtual"><scope>Character</scope><name>AddToDiscard</name></member>
+      <member refid="class_character_1a4b94b509f20b3916112479cdfdcbcd01" prot="private" virt="non-virtual"><scope>Character</scope><name>Awake</name></member>
+      <member refid="class_character_1acbe29d969c692ce4da3f086eafe781e2" prot="public" virt="non-virtual"><scope>Character</scope><name>BeginDiscard</name></member>
+      <member refid="class_character_1a0660844ea548f4a4dba135cbb004815f" prot="public" virt="non-virtual"><scope>Character</scope><name>Close</name></member>
+      <member refid="class_character_1adedac161f979ce8709cf723536c20ff7" prot="private" virt="non-virtual"><scope>Character</scope><name>draggableItem</name></member>
+      <member refid="class_character_1a4786b08872880e646df7e743880b5b4d" prot="private" virt="non-virtual"><scope>Character</scope><name>draggedSlot</name></member>
+      <member refid="class_character_1ae370385265d0d5f789422aff9c791495" prot="private" virt="non-virtual"><scope>Character</scope><name>HideToolTip</name></member>
+      <member refid="class_character_1a697e0e2b7eadebbadb0f37122b2b8b93" prot="private" virt="non-virtual"><scope>Character</scope><name>iniPos</name></member>
+      <member refid="class_character_1aec7f6ed78e4c87b87410a3f3a70752de" prot="private" virt="non-virtual"><scope>Character</scope><name>itemSaveManager</name></member>
+      <member refid="class_character_1a3007737cf19f2565a37ff613d94ab155" prot="public" virt="non-virtual"><scope>Character</scope><name>itemToDelete</name></member>
+      <member refid="class_character_1adfbb0d437dfe24d6fcafaf357fe34c77" prot="private" virt="non-virtual"><scope>Character</scope><name>itemToolTip</name></member>
+      <member refid="class_character_1a7bb44259d48405fe4e5eb0f1c63692cb" prot="private" virt="non-virtual"><scope>Character</scope><name>lastPos</name></member>
+      <member refid="class_character_1a87e2710609c8e54a8cdd27763106c98c" prot="private" virt="non-virtual"><scope>Character</scope><name>OnValidate</name></member>
+      <member refid="class_character_1a20befaddd8906f32beca7057a0bd0530" prot="public" virt="non-virtual"><scope>Character</scope><name>Open</name></member>
+      <member refid="class_character_1a28f5b85ee9263135c0cdd3b61fe7a206" prot="private" virt="non-virtual"><scope>Character</scope><name>selectSprite</name></member>
+      <member refid="class_character_1a48f0476cdacb561c6f3e1ff19aa9497a" prot="private" virt="non-virtual"><scope>Character</scope><name>ShowToolTip</name></member>
+      <member refid="class_character_1a587772b76e841aa94046f62520f616d2" prot="private" virt="non-virtual"><scope>Character</scope><name>Start</name></member>
+      <member refid="class_character_1aee8b9925c3e1c50c6afae316255e3b52" prot="public" virt="non-virtual"><scope>Character</scope><name>Storage</name></member>
+      <member refid="class_character_1a11dc39a4436b99955319f47839420d6e" prot="private" virt="non-virtual"><scope>Character</scope><name>totalItemSlots</name></member>
+      <member refid="class_character_1a6c3de0d6adc30f122c04c2f172a22bf8" prot="private" virt="non-virtual"><scope>Character</scope><name>totalSlotBorders</name></member>
+      <member refid="class_character_1ac5762f9581b1b6226244c877140d65a3" prot="private" virt="non-virtual"><scope>Character</scope><name>unselectedSprite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

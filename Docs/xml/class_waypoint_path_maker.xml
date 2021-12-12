@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_waypoint_path_maker" kind="class" language="C#" prot="public">
+    <compoundname>WaypointPathMaker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_waypoint_path_maker_1a2da8e89db2e214a872dfdd4577337a22" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaypointPathMaker.loop</definition>
+        <argsstring></argsstring>
+        <name>loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="10" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_waypoint_path_maker_1a7ac30e1596a44a42b69ef90d86b583b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Transform[]</type>
+        <definition>Transform [] WaypointPathMaker.waypoints</definition>
+        <argsstring></argsstring>
+        <name>waypoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="11" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="12" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_waypoint_path_maker_1ac9a9c03f6f40a5ba43e4235c907bdd41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaypointPathMaker.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="25" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_waypoint_path_maker_1a3ca42f7e83cda6b6191c0da8cbcdb2a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaypointPathMaker.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="31" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_waypoint_path_maker_1aab7efee2cd87d95cf2df11d8f4b40444" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaypointPathMaker.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="36" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_waypoint_path_maker_1a482b56521293d7e927f28f3176ec849c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaypointPathMaker.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="42" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_waypoint_path_maker_1a739a35ae7b32cf42989d267c9ddef216" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaypointPathMaker.DrawSpheres</definition>
+        <argsstring>(float r)</argsstring>
+        <name>DrawSpheres</name>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="49" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="49" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_waypoint_path_maker_1a5e04ec3e7e425583a0a53960b611d89f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaypointPathMaker.DrawLines</definition>
+        <argsstring>()</argsstring>
+        <name>DrawLines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="58" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="58" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>WaypointPathMaker</label>
+        <link refid="class_waypoint_path_maker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>WaypointPathMaker</label>
+        <link refid="class_waypoint_path_maker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/WaypointPathMaker.cs" bodystart="9" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_waypoint_path_maker_1a5e04ec3e7e425583a0a53960b611d89f" prot="private" virt="non-virtual"><scope>WaypointPathMaker</scope><name>DrawLines</name></member>
+      <member refid="class_waypoint_path_maker_1a739a35ae7b32cf42989d267c9ddef216" prot="private" virt="non-virtual"><scope>WaypointPathMaker</scope><name>DrawSpheres</name></member>
+      <member refid="class_waypoint_path_maker_1a2da8e89db2e214a872dfdd4577337a22" prot="public" virt="non-virtual"><scope>WaypointPathMaker</scope><name>loop</name></member>
+      <member refid="class_waypoint_path_maker_1aab7efee2cd87d95cf2df11d8f4b40444" prot="private" virt="non-virtual"><scope>WaypointPathMaker</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_waypoint_path_maker_1a482b56521293d7e927f28f3176ec849c" prot="private" virt="non-virtual"><scope>WaypointPathMaker</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_waypoint_path_maker_1ac9a9c03f6f40a5ba43e4235c907bdd41" prot="private" virt="non-virtual"><scope>WaypointPathMaker</scope><name>Start</name></member>
+      <member refid="class_waypoint_path_maker_1a3ca42f7e83cda6b6191c0da8cbcdb2a0" prot="private" virt="non-virtual"><scope>WaypointPathMaker</scope><name>Update</name></member>
+      <member refid="class_waypoint_path_maker_1a7ac30e1596a44a42b69ef90d86b583b9" prot="public" virt="non-virtual"><scope>WaypointPathMaker</scope><name>waypoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

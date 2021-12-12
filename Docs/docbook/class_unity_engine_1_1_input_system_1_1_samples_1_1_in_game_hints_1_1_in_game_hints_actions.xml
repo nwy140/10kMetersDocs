@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions Class Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary></indexterm>
+Inheritance diagram for UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions">GameplayActions</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_i_gameplay_actions">IGameplayActions</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ab3ff5e896bb0280ec96b342dd52719a3">InGameHintsActions</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aebe0b5b35d2afa93d90226f7a0961f50">Dispose</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a90fb662f512bcaba4045899c8783ebe5">Contains</link> (InputAction action)</para>
+</listitem>
+            <listitem><para>IEnumerator&lt; InputAction &gt; <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a8219cc2ade9d0c690f144375a53ada6e">GetEnumerator</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aa524aa06348f93778712c3c1b958698c">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1acdc019614fa56f7c9f22fa59948a0080">Disable</link> ()</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4df29d2c4b78d831bd9bcebe69e6733a">FindAction</link> (string actionNameOrId, bool throwIfNotFound=false)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a223b0357ee8ff17768fc7cb8c3e662d7">FindBinding</link> (InputBinding <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae90ad4f003c0301054974040f72101ef">bindingMask</link>, out InputAction action)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputActionAsset <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469">asset</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputBinding? <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae90ad4f003c0301054974040f72101ef">bindingMask</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ReadOnlyArray&lt; InputDevice &gt;? <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1afeee8a383a99149c131bc5aa6715c532">devices</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ReadOnlyArray&lt; InputControlScheme &gt; <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4321da04d626e81ce71a7e2e352c5ca3">controlSchemes</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>IEnumerable&lt; InputBinding &gt; <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae01fc07ec2733c86a6e9696967ecb6fd">bindings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions">GameplayActions</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a194fbfeca720147b05db26e8a894a414">Gameplay</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputControlScheme <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a7063fe5331acc689241aa04c92d91120">GamepadScheme</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputControlScheme <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a947a721dc6099e15b8244d34ef52780e">KeyboardMouseScheme</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ab3ff5e896bb0280ec96b342dd52719a3"/><section>
+    <title>InGameHintsActions()</title>
+<indexterm><primary>InGameHintsActions</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>InGameHintsActions</secondary></indexterm>
+<para><computeroutput>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.InGameHintsActions ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a90fb662f512bcaba4045899c8783ebe5"/><section>
+    <title>Contains()</title>
+<indexterm><primary>Contains</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>Contains</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Contains (InputAction action)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1acdc019614fa56f7c9f22fa59948a0080"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Disable ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aebe0b5b35d2afa93d90226f7a0961f50"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Dispose ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aa524aa06348f93778712c3c1b958698c"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Enable ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4df29d2c4b78d831bd9bcebe69e6733a"/><section>
+    <title>FindAction()</title>
+<indexterm><primary>FindAction</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>FindAction</secondary></indexterm>
+<para><computeroutput>InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.FindAction (string actionNameOrId, bool throwIfNotFound = <computeroutput>false</computeroutput>
+)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a223b0357ee8ff17768fc7cb8c3e662d7"/><section>
+    <title>FindBinding()</title>
+<indexterm><primary>FindBinding</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>FindBinding</secondary></indexterm>
+<para><computeroutput>int UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.FindBinding (InputBinding bindingMask, out InputAction action)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a8219cc2ade9d0c690f144375a53ada6e"/><section>
+    <title>GetEnumerator()</title>
+<indexterm><primary>GetEnumerator</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>GetEnumerator</secondary></indexterm>
+<para><computeroutput>IEnumerator&lt; InputAction &gt; UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GetEnumerator ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469"/><section>
+    <title>asset</title>
+<indexterm><primary>asset</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>asset</secondary></indexterm>
+<para><computeroutput>InputActionAsset UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae90ad4f003c0301054974040f72101ef"/><section>
+    <title>bindingMask</title>
+<indexterm><primary>bindingMask</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>bindingMask</secondary></indexterm>
+<para><computeroutput>InputBinding? UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.bindingMask<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae01fc07ec2733c86a6e9696967ecb6fd"/><section>
+    <title>bindings</title>
+<indexterm><primary>bindings</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>bindings</secondary></indexterm>
+<para><computeroutput>IEnumerable&lt;InputBinding&gt; UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.bindings<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4321da04d626e81ce71a7e2e352c5ca3"/><section>
+    <title>controlSchemes</title>
+<indexterm><primary>controlSchemes</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>controlSchemes</secondary></indexterm>
+<para><computeroutput>ReadOnlyArray&lt;InputControlScheme&gt; UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.controlSchemes<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1afeee8a383a99149c131bc5aa6715c532"/><section>
+    <title>devices</title>
+<indexterm><primary>devices</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>devices</secondary></indexterm>
+<para><computeroutput>ReadOnlyArray&lt;InputDevice&gt;? UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.devices<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a7063fe5331acc689241aa04c92d91120"/><section>
+    <title>GamepadScheme</title>
+<indexterm><primary>GamepadScheme</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>GamepadScheme</secondary></indexterm>
+<para><computeroutput>InputControlScheme UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GamepadScheme<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a194fbfeca720147b05db26e8a894a414"/><section>
+    <title>Gameplay</title>
+<indexterm><primary>Gameplay</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>Gameplay</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions">GameplayActions</link> UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Gameplay<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a947a721dc6099e15b8244d34ef52780e"/><section>
+    <title>KeyboardMouseScheme</title>
+<indexterm><primary>KeyboardMouseScheme</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</primary><secondary>KeyboardMouseScheme</secondary></indexterm>
+<para><computeroutput>InputControlScheme UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.KeyboardMouseScheme<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/<link linkend="__in_game_hints_actions_8cs">InGameHintsActions.cs</link></section>
+</section>

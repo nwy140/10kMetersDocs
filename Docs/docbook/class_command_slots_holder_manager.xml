@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_slots_holder_manager" xml:lang="en-US">
+<title>CommandSlotsHolderManager Class Reference</title>
+<indexterm><primary>CommandSlotsHolderManager</primary></indexterm>
+Inheritance diagram for CommandSlotsHolderManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_slots_holder_manager__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CommandSlotsHolderManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_slots_holder_manager__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_command_slot_holder">CommandSlotHolder</link> <link linkend="_class_command_slots_holder_manager_1a583efb3620ae910082140830bc86597a">FindCommandSlotByName</link> (string commandName)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_class_command_slot_holder">CommandSlotHolder</link> &gt; <link linkend="_class_command_slots_holder_manager_1a6569bc08c5d75fbcc7622d3ef987a080">commandSlotsInChild</link></para>
+</listitem>
+            <listitem><para>List&lt; string &gt; <link linkend="_class_command_slots_holder_manager_1a94a87bb937eaa12a7591f086e6550ef5">commandSlotsNames</link> = new List&lt;string&gt;()</para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_command_slots_holder_manager_1abe72bf3b8a840ec698f298610edbf4b1">commandOwnerRootObj</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_command_slots_holder_manager_1a6553805081aeb27e5f02dc77cceb1c50">PlayerNumber</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>virtual <link linkend="_class_command_queue_helper">CommandQueueHelper</link> <link linkend="_class_command_slots_holder_manager_1a3dfb9db562a267b5b446d343e4122970">commandHelper</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_slots_holder_manager_1a583efb3620ae910082140830bc86597a"/><section>
+    <title>FindCommandSlotByName()</title>
+<indexterm><primary>FindCommandSlotByName</primary><secondary>CommandSlotsHolderManager</secondary></indexterm>
+<indexterm><primary>CommandSlotsHolderManager</primary><secondary>FindCommandSlotByName</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_slot_holder">CommandSlotHolder</link> CommandSlotsHolderManager.FindCommandSlotByName (string commandName)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_slots_holder_manager_1abe72bf3b8a840ec698f298610edbf4b1"/><section>
+    <title>commandOwnerRootObj</title>
+<indexterm><primary>commandOwnerRootObj</primary><secondary>CommandSlotsHolderManager</secondary></indexterm>
+<indexterm><primary>CommandSlotsHolderManager</primary><secondary>commandOwnerRootObj</secondary></indexterm>
+<para><computeroutput>GameObject CommandSlotsHolderManager.commandOwnerRootObj</computeroutput></para></section>
+<anchor xml:id="_class_command_slots_holder_manager_1a6569bc08c5d75fbcc7622d3ef987a080"/><section>
+    <title>commandSlotsInChild</title>
+<indexterm><primary>commandSlotsInChild</primary><secondary>CommandSlotsHolderManager</secondary></indexterm>
+<indexterm><primary>CommandSlotsHolderManager</primary><secondary>commandSlotsInChild</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_class_command_slot_holder">CommandSlotHolder</link>&gt; CommandSlotsHolderManager.commandSlotsInChild</computeroutput></para></section>
+<anchor xml:id="_class_command_slots_holder_manager_1a94a87bb937eaa12a7591f086e6550ef5"/><section>
+    <title>commandSlotsNames</title>
+<indexterm><primary>commandSlotsNames</primary><secondary>CommandSlotsHolderManager</secondary></indexterm>
+<indexterm><primary>CommandSlotsHolderManager</primary><secondary>commandSlotsNames</secondary></indexterm>
+<para><computeroutput>List&lt;string&gt; CommandSlotsHolderManager.commandSlotsNames = new List&lt;string&gt;()</computeroutput></para></section>
+<anchor xml:id="_class_command_slots_holder_manager_1a6553805081aeb27e5f02dc77cceb1c50"/><section>
+    <title>PlayerNumber</title>
+<indexterm><primary>PlayerNumber</primary><secondary>CommandSlotsHolderManager</secondary></indexterm>
+<indexterm><primary>CommandSlotsHolderManager</primary><secondary>PlayerNumber</secondary></indexterm>
+<para><computeroutput>int CommandSlotsHolderManager.PlayerNumber</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_command_slots_holder_manager_1a3dfb9db562a267b5b446d343e4122970"/><section>
+    <title>commandHelper</title>
+<indexterm><primary>commandHelper</primary><secondary>CommandSlotsHolderManager</secondary></indexterm>
+<indexterm><primary>CommandSlotsHolderManager</primary><secondary>commandHelper</secondary></indexterm>
+<para><computeroutput>virtual <link linkend="_class_command_queue_helper">CommandQueueHelper</link> CommandSlotsHolderManager.commandHelper<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/<link linkend="__command_slots_holder_manager_8cs">CommandSlotsHolderManager.cs</link></section>
+</section>

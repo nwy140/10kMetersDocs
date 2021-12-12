@@ -1,0 +1,63 @@
+\hypertarget{_command_base_8cs}{}\doxysection{C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.4/\+My\+Scripts/\+\_\+\+Utils/\+Command\+Pattern/\+Command/\+SOScripts/\+Command\+Base.cs File Reference}
+\label{_command_base_8cs}\index{C:/\_SSDSPEEDUP/2021/clone/gps1\_manadesigner/GPS1-\/Manadesigner/Assets/\_UtilsV0.4/MyScripts/\_Utils/CommandPattern/Command/SOScripts/CommandBase.cs@{C:/\_SSDSPEEDUP/2021/clone/gps1\_manadesigner/GPS1-\/Manadesigner/Assets/\_UtilsV0.4/MyScripts/\_Utils/CommandPattern/Command/SOScripts/CommandBase.cs}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_command_base}{Command\+Base}}
+\item 
+struct \mbox{\hyperlink{struct_command_base_1_1_info}{Command\+Base.\+Info}}
+\item 
+struct \mbox{\hyperlink{struct_command_base_1_1_instance_info_runtime}{Command\+Base.\+Instance\+Info\+Runtime}}
+\item 
+struct \mbox{\hyperlink{struct_command_base_1_1_cooldown_info}{Command\+Base.\+Cooldown\+Info}}
+\item 
+class \mbox{\hyperlink{class_command_base_1_1_execution_info}{Command\+Base.\+Execution\+Info}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955}{Exec\+Status}} \{ \newline
+\mbox{\hyperlink{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a6adf97f83acf6453d4a6a4b1070f3754}{None}}
+, \mbox{\hyperlink{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a90cbe7038951ec2bdb42ba8d4b5c4ac3}{Exec\+Press}}
+, \mbox{\hyperlink{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a2bee2361239a6112b8ce5bff5dab6b23}{Exec\+Down}}
+, \mbox{\hyperlink{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a4bc90201d25949140d67f41f52b671b4}{Exec\+Down\+Charging}}
+, \newline
+\mbox{\hyperlink{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955ad7784e3b8ecc60ab08923a3c289f2a5f}{Exec\+Release}}
+, \mbox{\hyperlink{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a4cb28f6de2d9427aa2f8a9cc52782412}{Execd}}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955}\label{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955}} 
+\index{CommandBase.cs@{CommandBase.cs}!ExecStatus@{ExecStatus}}
+\index{ExecStatus@{ExecStatus}!CommandBase.cs@{CommandBase.cs}}
+\doxysubsubsection{\texorpdfstring{ExecStatus}{ExecStatus}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955}{Exec\+Status}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!CommandBase.cs@{CommandBase.cs}}\index{CommandBase.cs@{CommandBase.cs}!None@{None}}}\mbox{\Hypertarget{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a6adf97f83acf6453d4a6a4b1070f3754}\label{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a6adf97f83acf6453d4a6a4b1070f3754}} 
+None&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ExecPress@{ExecPress}!CommandBase.cs@{CommandBase.cs}}\index{CommandBase.cs@{CommandBase.cs}!ExecPress@{ExecPress}}}\mbox{\Hypertarget{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a90cbe7038951ec2bdb42ba8d4b5c4ac3}\label{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a90cbe7038951ec2bdb42ba8d4b5c4ac3}} 
+Exec\+Press&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ExecDown@{ExecDown}!CommandBase.cs@{CommandBase.cs}}\index{CommandBase.cs@{CommandBase.cs}!ExecDown@{ExecDown}}}\mbox{\Hypertarget{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a2bee2361239a6112b8ce5bff5dab6b23}\label{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a2bee2361239a6112b8ce5bff5dab6b23}} 
+Exec\+Down&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ExecDownCharging@{ExecDownCharging}!CommandBase.cs@{CommandBase.cs}}\index{CommandBase.cs@{CommandBase.cs}!ExecDownCharging@{ExecDownCharging}}}\mbox{\Hypertarget{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a4bc90201d25949140d67f41f52b671b4}\label{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a4bc90201d25949140d67f41f52b671b4}} 
+Exec\+Down\+Charging&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ExecRelease@{ExecRelease}!CommandBase.cs@{CommandBase.cs}}\index{CommandBase.cs@{CommandBase.cs}!ExecRelease@{ExecRelease}}}\mbox{\Hypertarget{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955ad7784e3b8ecc60ab08923a3c289f2a5f}\label{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955ad7784e3b8ecc60ab08923a3c289f2a5f}} 
+Exec\+Release&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Execd@{Execd}!CommandBase.cs@{CommandBase.cs}}\index{CommandBase.cs@{CommandBase.cs}!Execd@{Execd}}}\mbox{\Hypertarget{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a4cb28f6de2d9427aa2f8a9cc52782412}\label{_command_base_8cs_ae04a6d49e63b40ab4de2eecb14bc4955a4cb28f6de2d9427aa2f8a9cc52782412}} 
+Execd&\\
+\hline
+
+\end{DoxyEnumFields}

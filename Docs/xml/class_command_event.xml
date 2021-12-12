@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_event" kind="class" language="C#" prot="public">
+    <compoundname>CommandEvent</compoundname>
+    <basecompoundref refid="class_game_event" prot="public" virt="non-virtual">GameEvent</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_event_1a7eac92ba222ebe5e043972be457f0279" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CommandEvent.instigatorObj</definition>
+        <argsstring></argsstring>
+        <name>instigatorObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEvent.cs" line="10" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEvent.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_command_event_1ae91059b18bc99831c62057d274a67e1c" compoundref="_command_event_8cs" startline="11" endline="15">Raise</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_event_1ae91059b18bc99831c62057d274a67e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandEvent.Raise</definition>
+        <argsstring>(GameObject instigatorObjRef)</argsstring>
+        <name>Raise</name>
+        <param>
+          <type>GameObject</type>
+          <declname>instigatorObjRef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEvent.cs" line="11" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEvent.cs" bodystart="11" bodyend="15"/>
+        <references refid="class_command_event_1a7eac92ba222ebe5e043972be457f0279" compoundref="_command_event_8cs" startline="10">instigatorObj</references>
+        <references refid="class_game_event_1a2c24a40f0d0cdc9ee848beb6d590ba14" compoundref="_game_event_8cs" startline="16" endline="20">GameEvent.Raise</references>
+        <referencedby refid="class_command_base_1ae0f9aff4793563e3681b052196c93c61" compoundref="_command_base_8cs" startline="215" endline="221">CommandBase.Execd</referencedby>
+        <referencedby refid="class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577" compoundref="_command_base_8cs" startline="191" endline="197">CommandBase.ExecDown</referencedby>
+        <referencedby refid="class_command_base_1abce04e951d2ff38afc8110a7e230e0ad" compoundref="_command_base_8cs" startline="199" endline="205">CommandBase.ExecDownCharging</referencedby>
+        <referencedby refid="class_command_base_1a2555099b8b8f7345919865ca0daa4bdb" compoundref="_command_base_8cs" startline="183" endline="190">CommandBase.ExecPress</referencedby>
+        <referencedby refid="class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298" compoundref="_command_base_8cs" startline="207" endline="213">CommandBase.ExecRelease</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEvent.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/CommandEvent.cs" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_command_event_1a7eac92ba222ebe5e043972be457f0279" prot="public" virt="non-virtual"><scope>CommandEvent</scope><name>instigatorObj</name></member>
+      <member refid="class_command_event_1ae91059b18bc99831c62057d274a67e1c" prot="public" virt="virtual"><scope>CommandEvent</scope><name>Raise</name></member>
+      <member refid="class_game_event_1a2c24a40f0d0cdc9ee848beb6d590ba14" prot="public" virt="virtual" ambiguityscope="GameEvent."><scope>CommandEvent</scope><name>Raise</name></member>
+      <member refid="class_game_event_1a0518267051728a4ade5e19db0b21cc19" prot="public" virt="virtual"><scope>CommandEvent</scope><name>RegisterListener</name></member>
+      <member refid="class_game_event_1a535914a2d43d3095e99db102563f5a45" prot="public" virt="virtual"><scope>CommandEvent</scope><name>UnregisterListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

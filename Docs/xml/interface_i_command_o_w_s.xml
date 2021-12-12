@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_i_command_o_w_s" kind="interface" language="C#" prot="public">
+    <compoundname>ICommandOWS</compoundname>
+    <derivedcompoundref refid="class_move" prot="public" virt="non-virtual">Move</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_command_o_w_s_1adcd8f91e3914e3e1fa342868527f5942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICommandOWS.Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <reimplementedby refid="class_move_1a53763bbbd1effc869af65c035bec59ab">Execute</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/Interfaces/ICommandOWS.cs" line="4" column="10"/>
+        <referencedby refid="class_character_move_undo_1aa25ee1998425dab636d56172c79c7a39" compoundref="_character_move_undo_8cs" startline="25" endline="31">CharacterMoveUndo.AddCommand</referencedby>
+        <referencedby refid="class_command_handler_1aaced5d8a9f662d1b76cefbd1e078543d" compoundref="_command_handler_8cs" startline="14" endline="22">CommandHandler.AddCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_command_o_w_s_1a80206dee715e58a0e9d1d32715215f8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICommandOWS.Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <reimplementedby refid="class_move_1afdff2fb08f6cf41b01f9d523b203c44e">Undo</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/Interfaces/ICommandOWS.cs" line="5" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICommandOWS</label>
+        <link refid="interface_i_command_o_w_s"/>
+      </node>
+      <node id="2">
+        <label>Move</label>
+        <link refid="class_move"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICommandOWS</label>
+        <link refid="interface_i_command_o_w_s"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/Interfaces/ICommandOWS.cs" line="2" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/Interfaces/ICommandOWS.cs" bodystart="3" bodyend="6"/>
+    <listofallmembers>
+      <member refid="interface_i_command_o_w_s_1adcd8f91e3914e3e1fa342868527f5942" prot="public" virt="non-virtual"><scope>ICommandOWS</scope><name>Execute</name></member>
+      <member refid="interface_i_command_o_w_s_1a80206dee715e58a0e9d1d32715215f8f" prot="public" virt="non-virtual"><scope>ICommandOWS</scope><name>Undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

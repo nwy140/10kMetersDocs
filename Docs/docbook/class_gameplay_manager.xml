@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_gameplay_manager" xml:lang="en-US">
+<title>GameplayManager Class Reference</title>
+<indexterm><primary>GameplayManager</primary></indexterm>
+Inheritance diagram for GameplayManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_gameplay_manager__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for GameplayManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_gameplay_manager__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3">GameplayState</link> { 
+<link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3aa444257b19ebdad5dfdf78059b8362c2">GAME_RUNNING</link>
+, <link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3ac284700dc9572f6575a2a6cce186ab6f">GAME_PAUSE</link>
+, <link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a53a6cdbb3faacc18a96f53787c0f3e05">GAME_GAMEOVER</link>
+, <link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a2ceec8ee42cb4076cd6831200c0dd895">GAME_GAMEWIN</link>
+, 
+<link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a4b86ad41aa8cb5c61aaf1fa814898978">GAME_ENDCLOSE</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_gameplay_manager_1a6080c8c0fe36406953ebc3e3d13a7134">ToggleUIByIndex</link> (int index)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_gameplay_manager_1a8fa41cf7382504e9ba6a3a1e574b9ab4">setGameplayTimeScale</link> (float timeScaleVal)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_gameplay_manager_1a7dcb2fe82a368839b77b162f52e227cb">cheatIncreaseTimeScale</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_gameplay_manager_1a13fc649366c9856364afa79e18c3f911">cheatDecreaseTimeScale</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3">GameplayState</link> <link linkend="_class_gameplay_manager_1ae0a38b9f8c7c4899dc9f37656f65af60">CurrGameplayState</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_gameplay_manager_1ad43d362c2f28f6ddea36d0a84ea10807">GameplayTimeScale</link> = 1</para>
+</listitem>
+            <listitem><para>List&lt; GameObject &gt; <link linkend="_class_gameplay_manager_1acca3296a7830253209508f37a8756fb2">UIObjs</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_gameplay_manager_1a4b9c5c627b3de91d0df5467ce25ee72c">currUIObj</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_gameplay_manager">GameplayManager</link> <link linkend="_class_gameplay_manager_1a4e5bbf33d5f4054ec063aebe34b5d21c">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3"/><section>
+    <title>GameplayState</title>
+<indexterm><primary>GameplayState</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>GameplayState</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3">GameplayManager.GameplayState</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>GAME_RUNNING</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>GAME_RUNNING</secondary></indexterm>
+<anchor xml:id="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3aa444257b19ebdad5dfdf78059b8362c2"/>GAME_RUNNING</entry><entry></entry></row><row><entry><indexterm><primary>GAME_PAUSE</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>GAME_PAUSE</secondary></indexterm>
+<anchor xml:id="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3ac284700dc9572f6575a2a6cce186ab6f"/>GAME_PAUSE</entry><entry></entry></row><row><entry><indexterm><primary>GAME_GAMEOVER</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>GAME_GAMEOVER</secondary></indexterm>
+<anchor xml:id="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a53a6cdbb3faacc18a96f53787c0f3e05"/>GAME_GAMEOVER</entry><entry></entry></row><row><entry><indexterm><primary>GAME_GAMEWIN</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>GAME_GAMEWIN</secondary></indexterm>
+<anchor xml:id="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a2ceec8ee42cb4076cd6831200c0dd895"/>GAME_GAMEWIN</entry><entry></entry></row><row><entry><indexterm><primary>GAME_ENDCLOSE</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>GAME_ENDCLOSE</secondary></indexterm>
+<anchor xml:id="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a4b86ad41aa8cb5c61aaf1fa814898978"/>GAME_ENDCLOSE</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_gameplay_manager_1a13fc649366c9856364afa79e18c3f911"/><section>
+    <title>cheatDecreaseTimeScale()</title>
+<indexterm><primary>cheatDecreaseTimeScale</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>cheatDecreaseTimeScale</secondary></indexterm>
+<para><computeroutput>void GameplayManager.cheatDecreaseTimeScale ( )</computeroutput></para></section>
+<anchor xml:id="_class_gameplay_manager_1a7dcb2fe82a368839b77b162f52e227cb"/><section>
+    <title>cheatIncreaseTimeScale()</title>
+<indexterm><primary>cheatIncreaseTimeScale</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>cheatIncreaseTimeScale</secondary></indexterm>
+<para><computeroutput>void GameplayManager.cheatIncreaseTimeScale ( )</computeroutput></para></section>
+<anchor xml:id="_class_gameplay_manager_1a8fa41cf7382504e9ba6a3a1e574b9ab4"/><section>
+    <title>setGameplayTimeScale()</title>
+<indexterm><primary>setGameplayTimeScale</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>setGameplayTimeScale</secondary></indexterm>
+<para><computeroutput>void GameplayManager.setGameplayTimeScale (float timeScaleVal)</computeroutput></para></section>
+<anchor xml:id="_class_gameplay_manager_1a6080c8c0fe36406953ebc3e3d13a7134"/><section>
+    <title>ToggleUIByIndex()</title>
+<indexterm><primary>ToggleUIByIndex</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>ToggleUIByIndex</secondary></indexterm>
+<para><computeroutput>void GameplayManager.ToggleUIByIndex (int index)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_gameplay_manager_1ae0a38b9f8c7c4899dc9f37656f65af60"/><section>
+    <title>CurrGameplayState</title>
+<indexterm><primary>CurrGameplayState</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>CurrGameplayState</secondary></indexterm>
+<para><computeroutput><link linkend="_class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3">GameplayState</link> GameplayManager.CurrGameplayState</computeroutput></para></section>
+<anchor xml:id="_class_gameplay_manager_1a4b9c5c627b3de91d0df5467ce25ee72c"/><section>
+    <title>currUIObj</title>
+<indexterm><primary>currUIObj</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>currUIObj</secondary></indexterm>
+<para><computeroutput>GameObject GameplayManager.currUIObj</computeroutput></para></section>
+<anchor xml:id="_class_gameplay_manager_1ad43d362c2f28f6ddea36d0a84ea10807"/><section>
+    <title>GameplayTimeScale</title>
+<indexterm><primary>GameplayTimeScale</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>GameplayTimeScale</secondary></indexterm>
+<para><computeroutput>float GameplayManager.GameplayTimeScale = 1</computeroutput></para></section>
+<anchor xml:id="_class_gameplay_manager_1a4e5bbf33d5f4054ec063aebe34b5d21c"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_gameplay_manager">GameplayManager</link> GameplayManager.instance<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_gameplay_manager_1acca3296a7830253209508f37a8756fb2"/><section>
+    <title>UIObjs</title>
+<indexterm><primary>UIObjs</primary><secondary>GameplayManager</secondary></indexterm>
+<indexterm><primary>GameplayManager</primary><secondary>UIObjs</secondary></indexterm>
+<para><computeroutput>List&lt;GameObject&gt; GameplayManager.UIObjs</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/<link linkend="__gameplay_manager_8cs">GameplayManager.cs</link></section>
+</section>

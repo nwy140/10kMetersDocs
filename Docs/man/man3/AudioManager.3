@@ -1,0 +1,140 @@
+.TH "AudioManager" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AudioManager
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBResetVolumeSettingsToDefault\fP ()"
+.br
+.ti -1c
+.RI "void \fBLoadVolumeSettingsPlayerPrefs\fP ()"
+.br
+.ti -1c
+.RI "void \fBSaveVolumeSettingsPlayerPrefs\fP ()"
+.br
+.ti -1c
+.RI "void \fBPlaySFX\fP (string sfxName)"
+.br
+.ti -1c
+.RI "void \fBPlayBGM\fP (string bgmName)"
+.br
+.ti -1c
+.RI "void \fBStopBGM\fP (string name)"
+.br
+.ti -1c
+.RI "void \fBPlayBGMFadeTransition\fP (string name)"
+.br
+.ti -1c
+.RI "void \fBStopBGMFadeOutTransition\fP (string name)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "float \fBdefaultSFXMasterVolume\fP = 0\&.75f"
+.br
+.ti -1c
+.RI "float \fBdefaultBGMMasterVolume\fP = 0\&.8f"
+.br
+.ti -1c
+.RI "float \fBdefaultOverallVolume\fP = 0\&.3f"
+.br
+.ti -1c
+.RI "bool \fBisVolumeSettingSaved\fP"
+.br
+.ti -1c
+.RI "bool \fBisApplicationRunInBackground\fP = true"
+.br
+.ti -1c
+.RI "float \fBSFXMasterVolume\fP = 1f"
+.br
+.ti -1c
+.RI "float \fBBGMMasterVolume\fP = 1f"
+.br
+.ti -1c
+.RI "float \fBoverallVolume\fP = 1f"
+.br
+.ti -1c
+.RI "\fBSound\fP \fBcurrSFX\fP"
+.br
+.ti -1c
+.RI "\fBSound\fP \fBcurrBGM\fP"
+.br
+.ti -1c
+.RI "GameObject \fBmultiAudioSourceObj\fP"
+.br
+.ti -1c
+.RI "List< \fBSound\fP > \fBsoundsSFX\fP"
+.br
+.ti -1c
+.RI "List< \fBSound\fP > \fBsoundsBGM\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fBAudioManager\fP \fBinstance\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void AudioManager\&.LoadVolumeSettingsPlayerPrefs ()"
+
+.SS "void AudioManager\&.PlayBGM (string bgmName)"
+
+.SS "void AudioManager\&.PlayBGMFadeTransition (string name)"
+
+.SS "void AudioManager\&.PlaySFX (string sfxName)"
+
+.SS "void AudioManager\&.ResetVolumeSettingsToDefault ()"
+
+.SS "void AudioManager\&.SaveVolumeSettingsPlayerPrefs ()"
+
+.SS "void AudioManager\&.StopBGM (string name)"
+
+.SS "void AudioManager\&.StopBGMFadeOutTransition (string name)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "float AudioManager\&.BGMMasterVolume = 1f"
+
+.SS "\fBSound\fP AudioManager\&.currBGM"
+
+.SS "\fBSound\fP AudioManager\&.currSFX"
+
+.SS "float AudioManager\&.defaultBGMMasterVolume = 0\&.8f"
+
+.SS "float AudioManager\&.defaultOverallVolume = 0\&.3f"
+
+.SS "float AudioManager\&.defaultSFXMasterVolume = 0\&.75f"
+
+.SS "\fBAudioManager\fP AudioManager\&.instance\fC [static]\fP"
+
+.SS "bool AudioManager\&.isApplicationRunInBackground = true"
+
+.SS "bool AudioManager\&.isVolumeSettingSaved"
+
+.SS "GameObject AudioManager\&.multiAudioSourceObj"
+
+.SS "float AudioManager\&.overallVolume = 1f"
+
+.SS "float AudioManager\&.SFXMasterVolume = 1f"
+
+.SS "List<\fBSound\fP> AudioManager\&.soundsBGM"
+
+.SS "List<\fBSound\fP> AudioManager\&.soundsSFX"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

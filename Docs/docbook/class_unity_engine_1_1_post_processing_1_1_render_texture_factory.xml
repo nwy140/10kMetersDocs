@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.RenderTextureFactory Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.RenderTextureFactory</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.RenderTextureFactory:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_render_texture_factory__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.RenderTextureFactory:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_render_texture_factory__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a856ac633e2065c6ed7cf78d8d99c9a10">RenderTextureFactory</link> ()</para>
+</listitem>
+            <listitem><para>RenderTexture <link linkend="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a66f2ee62b9248b0d50c8c4792b893cbd">Get</link> (RenderTexture baseRenderTexture)</para>
+</listitem>
+            <listitem><para>RenderTexture <link linkend="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1aaf1c6deb2c4bdc1cc30f9c22243f5ab8">Get</link> (int width, int height, int depthBuffer=0, RenderTextureFormat format=RenderTextureFormat.ARGBHalf, RenderTextureReadWrite rw=RenderTextureReadWrite.Default, FilterMode filterMode=FilterMode.Bilinear, TextureWrapMode wrapMode=TextureWrapMode.Clamp, string name=&quot;FactoryTempTexture&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a056c901a6186ae99274acbbd099ee76a">Release</link> (RenderTexture rt)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a6f5d4a6beda0674159c229f8b3a9a116">ReleaseAll</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1aff8e64c17598aa2633a075e3975b0efc">Dispose</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a856ac633e2065c6ed7cf78d8d99c9a10"/><section>
+    <title>RenderTextureFactory()</title>
+<indexterm><primary>RenderTextureFactory</primary><secondary>UnityEngine.PostProcessing.RenderTextureFactory</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.RenderTextureFactory</primary><secondary>RenderTextureFactory</secondary></indexterm>
+<para><computeroutput>UnityEngine.PostProcessing.RenderTextureFactory.RenderTextureFactory ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1aff8e64c17598aa2633a075e3975b0efc"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>UnityEngine.PostProcessing.RenderTextureFactory</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.RenderTextureFactory</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.RenderTextureFactory.Dispose ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_aff8e64c17598aa2633a075e3975b0efc_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1aaf1c6deb2c4bdc1cc30f9c22243f5ab8"/><section>
+    <title>Get()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Get</primary><secondary>UnityEngine.PostProcessing.RenderTextureFactory</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.RenderTextureFactory</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>RenderTexture UnityEngine.PostProcessing.RenderTextureFactory.Get (int width, int height, int depthBuffer = <computeroutput>0</computeroutput>
+, RenderTextureFormat format = <computeroutput>RenderTextureFormat.ARGBHalf</computeroutput>
+, RenderTextureReadWrite rw = <computeroutput>RenderTextureReadWrite.Default</computeroutput>
+, FilterMode filterMode = <computeroutput>FilterMode.Bilinear</computeroutput>
+, TextureWrapMode wrapMode = <computeroutput>TextureWrapMode.Clamp</computeroutput>
+, string name = <computeroutput>&quot;FactoryTempTexture&quot;</computeroutput>
+)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a66f2ee62b9248b0d50c8c4792b893cbd"/><section>
+    <title>Get()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Get</primary><secondary>UnityEngine.PostProcessing.RenderTextureFactory</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.RenderTextureFactory</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>RenderTexture UnityEngine.PostProcessing.RenderTextureFactory.Get (RenderTexture baseRenderTexture)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_a66f2ee62b9248b0d50c8c4792b893cbd_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_a66f2ee62b9248b0d50c8c4792b893cbd_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a056c901a6186ae99274acbbd099ee76a"/><section>
+    <title>Release()</title>
+<indexterm><primary>Release</primary><secondary>UnityEngine.PostProcessing.RenderTextureFactory</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.RenderTextureFactory</primary><secondary>Release</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.RenderTextureFactory.Release (RenderTexture rt)</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a6f5d4a6beda0674159c229f8b3a9a116"/><section>
+    <title>ReleaseAll()</title>
+<indexterm><primary>ReleaseAll</primary><secondary>UnityEngine.PostProcessing.RenderTextureFactory</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.RenderTextureFactory</primary><secondary>ReleaseAll</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.RenderTextureFactory.ReleaseAll ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_a6f5d4a6beda0674159c229f8b3a9a116_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Utils/<link linkend="__render_texture_factory_8cs">RenderTextureFactory.cs</link></section>
+</section>

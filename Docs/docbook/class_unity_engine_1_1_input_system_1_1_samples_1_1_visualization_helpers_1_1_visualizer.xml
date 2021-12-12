@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer Class Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</primary></indexterm>
+Inheritance diagram for UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>abstract void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1ac226269829c48806e6365065befd204a">OnDraw</link> (Rect rect)</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1aa4595a8dcdf9b1bafc07a66e2b3cf528">AddSample</link> (object value, double time)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1aa4595a8dcdf9b1bafc07a66e2b3cf528"/><section>
+    <title>AddSample()</title>
+<indexterm><primary>AddSample</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</primary><secondary>AddSample</secondary></indexterm>
+<para><computeroutput>abstract void UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer.AddSample (object value, double time)<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1aa241faf4ea3fa22cca2232d21a9d550b">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</link>, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer_1a4923130fba9c8d5f1df85488286a01c9">UnityEngine.InputSystem.Samples.VisualizationHelpers.ScalarVisualizer&lt; TValue &gt;</link>, and <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a0e3e80a4d324b8577cbf6bf485e2413f">UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1ac226269829c48806e6365065befd204a"/><section>
+    <title>OnDraw()</title>
+<indexterm><primary>OnDraw</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</primary><secondary>OnDraw</secondary></indexterm>
+<para><computeroutput>abstract void UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer.OnDraw (Rect rect)<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer_1ad1ba7e8439695f2f45da5288146df372">UnityEngine.InputSystem.Samples.VisualizationHelpers.ScalarVisualizer&lt; TValue &gt;</link>, and <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1afbccf89713fb498a8d84f7b885b9fa25">UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/<link linkend="__visualization_helpers_8cs">VisualizationHelpers.cs</link></section>
+</section>

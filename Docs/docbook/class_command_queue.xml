@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_queue" xml:lang="en-US">
+<title>CommandQueue Class Reference</title>
+<indexterm><primary>CommandQueue</primary></indexterm>
+Collaboration diagram for CommandQueue:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_command_queue_1a7c17899beea609e834c8ebc947024c73">OnUpdate</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_1a2332b95d6a6d25ec9ac49ef6d4bc2d36">DisplayLogText</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_1a49bdb3f6c6ba3fe06175aeec03b5cdc3">Enqueue</link> (<link linkend="_class_command_base">CommandBase</link> command)</para>
+</listitem>
+            <listitem><para><link linkend="_class_command_base">CommandBase</link> <link linkend="_class_command_queue_1ac6faf8163ad0427d049f3c6051d8cdb7">Dequeue</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_1a5cabe5bc15b329d1a055f96c85487536">OnQueueModified</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_command_base">CommandBase</link> <link linkend="_class_command_queue_1a3e75a40a7905a7cffeb55130f49bfcdd">TryExecuteCommand</link> (<link linkend="_class_command_base">CommandBase</link> command, bool willInstanteACloneSO=false)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_queue_1ac4bf2295a1f39ed4827b7381691c7912">UndoLastCommand</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_1a450a8cae5d83f56c51b8d3a0be567e36">Remove</link> (<link linkend="_class_command_base">CommandBase</link> c)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_1a285befddbc2fdc8862cdec31a1463198">RemoveAt</link> (int index)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_command_queue_1a7433b6aefa8697a01e1f4bee913af70a">Contains</link> (string commandName)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_1aa593a4ba6e81bdc7bdf831c16564b69f">Clear</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt; string &gt; <link linkend="_class_command_queue_1ae254395b75d332c79a0b55f17f062b7f">_commandNamesHistory</link> = new <link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;string&gt;()</para>
+</listitem>
+            <listitem><para><link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt; float &gt; <link linkend="_class_command_queue_1a37d6f9bd9dcc782f0e454797ffa1af95">_commandTimeStamps</link> = new <link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;float&gt;()</para>
+</listitem>
+            <listitem><para><link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt; <link linkend="_class_command_base">CommandBase</link> &gt; <link linkend="_class_command_queue_1aeb320924717bd033db344c2b2d95b19a">_commandHistory</link> = new <link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;<link linkend="_class_command_base">CommandBase</link>&gt;()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_command_queue_1a12f0dbfa7f5767c0a80317e461b6ed08">maxCount</link> = 30</para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_command_queue_1a57377653199a51e3e17930ecef0af777">LogText</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_command_queue_1a51daa38d294e2e46520b681a173b9aa8">Count</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_queue_1aa593a4ba6e81bdc7bdf831c16564b69f"/><section>
+    <title>Clear()</title>
+<indexterm><primary>Clear</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>Clear</secondary></indexterm>
+<para><computeroutput>void CommandQueue.Clear ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_aa593a4ba6e81bdc7bdf831c16564b69f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1a7433b6aefa8697a01e1f4bee913af70a"/><section>
+    <title>Contains()</title>
+<indexterm><primary>Contains</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>Contains</secondary></indexterm>
+<para><computeroutput>bool CommandQueue.Contains (string commandName)</computeroutput></para></section>
+<anchor xml:id="_class_command_queue_1ac6faf8163ad0427d049f3c6051d8cdb7"/><section>
+    <title>Dequeue()</title>
+<indexterm><primary>Dequeue</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>Dequeue</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_base">CommandBase</link> CommandQueue.Dequeue ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_ac6faf8163ad0427d049f3c6051d8cdb7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_ac6faf8163ad0427d049f3c6051d8cdb7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1a2332b95d6a6d25ec9ac49ef6d4bc2d36"/><section>
+    <title>DisplayLogText()</title>
+<indexterm><primary>DisplayLogText</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>DisplayLogText</secondary></indexterm>
+<para><computeroutput>void CommandQueue.DisplayLogText ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a2332b95d6a6d25ec9ac49ef6d4bc2d36_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1a49bdb3f6c6ba3fe06175aeec03b5cdc3"/><section>
+    <title>Enqueue()</title>
+<indexterm><primary>Enqueue</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>Enqueue</secondary></indexterm>
+<para><computeroutput>void CommandQueue.Enqueue (<link linkend="_class_command_base">CommandBase</link> command)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a49bdb3f6c6ba3fe06175aeec03b5cdc3_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a49bdb3f6c6ba3fe06175aeec03b5cdc3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1a5cabe5bc15b329d1a055f96c85487536"/><section>
+    <title>OnQueueModified()</title>
+<indexterm><primary>OnQueueModified</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>OnQueueModified</secondary></indexterm>
+<para><computeroutput>void CommandQueue.OnQueueModified ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a5cabe5bc15b329d1a055f96c85487536_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1a7c17899beea609e834c8ebc947024c73"/><section>
+    <title>OnUpdate()</title>
+<indexterm><primary>OnUpdate</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>OnUpdate</secondary></indexterm>
+<para><computeroutput>void CommandQueue.OnUpdate ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a7c17899beea609e834c8ebc947024c73_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1a450a8cae5d83f56c51b8d3a0be567e36"/><section>
+    <title>Remove()</title>
+<indexterm><primary>Remove</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>Remove</secondary></indexterm>
+<para><computeroutput>void CommandQueue.Remove (<link linkend="_class_command_base">CommandBase</link> c)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a450a8cae5d83f56c51b8d3a0be567e36_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1a285befddbc2fdc8862cdec31a1463198"/><section>
+    <title>RemoveAt()</title>
+<indexterm><primary>RemoveAt</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>RemoveAt</secondary></indexterm>
+<para><computeroutput>void CommandQueue.RemoveAt (int index)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a285befddbc2fdc8862cdec31a1463198_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a285befddbc2fdc8862cdec31a1463198_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1a3e75a40a7905a7cffeb55130f49bfcdd"/><section>
+    <title>TryExecuteCommand()</title>
+<indexterm><primary>TryExecuteCommand</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>TryExecuteCommand</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_base">CommandBase</link> CommandQueue.TryExecuteCommand (<link linkend="_class_command_base">CommandBase</link> command, bool willInstanteACloneSO = <computeroutput>false</computeroutput>
+)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_a3e75a40a7905a7cffeb55130f49bfcdd_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_1ac4bf2295a1f39ed4827b7381691c7912"/><section>
+    <title>UndoLastCommand()</title>
+<indexterm><primary>UndoLastCommand</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>UndoLastCommand</secondary></indexterm>
+<para><computeroutput>virtual void CommandQueue.UndoLastCommand ( )<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_ac4bf2295a1f39ed4827b7381691c7912_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_queue_1aeb320924717bd033db344c2b2d95b19a"/><section>
+    <title>_commandHistory</title>
+<indexterm><primary>_commandHistory</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>_commandHistory</secondary></indexterm>
+<para><computeroutput><link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;<link linkend="_class_command_base">CommandBase</link>&gt; CommandQueue._commandHistory = new <link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;<link linkend="_class_command_base">CommandBase</link>&gt;()</computeroutput></para></section>
+<anchor xml:id="_class_command_queue_1ae254395b75d332c79a0b55f17f062b7f"/><section>
+    <title>_commandNamesHistory</title>
+<indexterm><primary>_commandNamesHistory</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>_commandNamesHistory</secondary></indexterm>
+<para><computeroutput><link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;string&gt; CommandQueue._commandNamesHistory = new <link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;string&gt;()</computeroutput></para></section>
+<anchor xml:id="_class_command_queue_1a37d6f9bd9dcc782f0e454797ffa1af95"/><section>
+    <title>_commandTimeStamps</title>
+<indexterm><primary>_commandTimeStamps</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>_commandTimeStamps</secondary></indexterm>
+<para><computeroutput><link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;float&gt; CommandQueue._commandTimeStamps = new <link linkend="_class_serializable_queue_list">SerializableQueueList</link>&lt;float&gt;()</computeroutput></para></section>
+<anchor xml:id="_class_command_queue_1a57377653199a51e3e17930ecef0af777"/><section>
+    <title>LogText</title>
+<indexterm><primary>LogText</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>LogText</secondary></indexterm>
+<para><computeroutput>Text CommandQueue.LogText</computeroutput></para></section>
+<anchor xml:id="_class_command_queue_1a12f0dbfa7f5767c0a80317e461b6ed08"/><section>
+    <title>maxCount</title>
+<indexterm><primary>maxCount</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>maxCount</secondary></indexterm>
+<para><computeroutput>int CommandQueue.maxCount = 30</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_command_queue_1a51daa38d294e2e46520b681a173b9aa8"/><section>
+    <title>Count</title>
+<indexterm><primary>Count</primary><secondary>CommandQueue</secondary></indexterm>
+<indexterm><primary>CommandQueue</primary><secondary>Count</secondary></indexterm>
+<para><computeroutput>int CommandQueue.Count<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/<link linkend="__command_queue_8cs">CommandQueue.cs</link></section>
+</section>

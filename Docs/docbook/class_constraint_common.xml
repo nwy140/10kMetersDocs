@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_constraint_common" xml:lang="en-US">
+<title>ConstraintCommon Class Reference</title>
+<indexterm><primary>ConstraintCommon</primary></indexterm>
+Collaboration diagram for ConstraintCommon:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_constraint_common__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_constraint_common_1ab1162e9a13ab600cc1c251e55dc3176b">ResetCSrcToSingleTargetParent</link> (ParentConstraint parentConstraint, Transform targetTrans)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_constraint_common_1ab6419532bacd5d2075fb4d885281fbbe">SetFirstCSourceSnapTargetParent</link> (ParentConstraint parentConstraint, Transform targetTrans)</para>
+</listitem>
+            <listitem><para>static ConstraintSource <link linkend="_class_constraint_common_1ad8219bf64219a336899debcd2700b67a">NewCSourceParent</link> (Transform srcTransform, float weight)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_constraint_common_1ad8219bf64219a336899debcd2700b67a"/><section>
+    <title>NewCSourceParent()</title>
+<indexterm><primary>NewCSourceParent</primary><secondary>ConstraintCommon</secondary></indexterm>
+<indexterm><primary>ConstraintCommon</primary><secondary>NewCSourceParent</secondary></indexterm>
+<para><computeroutput>static ConstraintSource ConstraintCommon.NewCSourceParent (Transform srcTransform, float weight)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_constraint_common_1ab1162e9a13ab600cc1c251e55dc3176b"/><section>
+    <title>ResetCSrcToSingleTargetParent()</title>
+<indexterm><primary>ResetCSrcToSingleTargetParent</primary><secondary>ConstraintCommon</secondary></indexterm>
+<indexterm><primary>ConstraintCommon</primary><secondary>ResetCSrcToSingleTargetParent</secondary></indexterm>
+<para><computeroutput>static void ConstraintCommon.ResetCSrcToSingleTargetParent (ParentConstraint parentConstraint, Transform targetTrans)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_constraint_common_1ab6419532bacd5d2075fb4d885281fbbe"/><section>
+    <title>SetFirstCSourceSnapTargetParent()</title>
+<indexterm><primary>SetFirstCSourceSnapTargetParent</primary><secondary>ConstraintCommon</secondary></indexterm>
+<indexterm><primary>ConstraintCommon</primary><secondary>SetFirstCSourceSnapTargetParent</secondary></indexterm>
+<para><computeroutput>static void ConstraintCommon.SetFirstCSourceSnapTargetParent (ParentConstraint parentConstraint, Transform targetTrans)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/<link linkend="__constraint_common_8cs">ConstraintCommon.cs</link></section>
+</section>

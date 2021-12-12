@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_tank_shooting" kind="class" language="C#" prot="public">
+    <compoundname>TankShooting</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tank_shooting_1afbdc9693b332517975e952436c04b6a0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TankShooting.m_PlayerNumber</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerNumber</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="8" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1ab574880baae316f960a2711a3f357001" prot="public" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody TankShooting.m_Shell</definition>
+        <argsstring></argsstring>
+        <name>m_Shell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="9" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1a11258331a4d05472ffc508152f8e10e0" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform TankShooting.m_FireTransform</definition>
+        <argsstring></argsstring>
+        <name>m_FireTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="10" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1abe2f4a5066ad055f925980a193ad555b" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider TankShooting.m_AimSlider</definition>
+        <argsstring></argsstring>
+        <name>m_AimSlider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="11" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1a7d8d764d8c953938735573157284ac6a" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource TankShooting.m_ShootingAudio</definition>
+        <argsstring></argsstring>
+        <name>m_ShootingAudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="12" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1a838c9caaffcc15ecb0e19d5ca26590b5" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip TankShooting.m_ChargingClip</definition>
+        <argsstring></argsstring>
+        <name>m_ChargingClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="13" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1a32f4525a7cb238b5684e8bcf3dca24fb" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip TankShooting.m_FireClip</definition>
+        <argsstring></argsstring>
+        <name>m_FireClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="14" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1ae01a2b150c6391d6f9bdf626ee7e273b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankShooting.m_MinLaunchForce</definition>
+        <argsstring></argsstring>
+        <name>m_MinLaunchForce</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1aec0f5624d699ed4a0c7f8b54a88fc1c7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankShooting.m_MaxLaunchForce</definition>
+        <argsstring></argsstring>
+        <name>m_MaxLaunchForce</name>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="16" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1af8d76f24ef06557eacf3d80cae349dee" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankShooting.m_MaxChargeTime</definition>
+        <argsstring></argsstring>
+        <name>m_MaxChargeTime</name>
+        <initializer>= 0.75f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="17" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1ab32c36d7827faa11ad42910898eaf363" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TankShooting.m_Fired</definition>
+        <argsstring></argsstring>
+        <name>m_Fired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="21" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1ad716d12ee849c5d34ca9401e4d79e037" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TankShooting.m_FireButtonPressedThisFrame</definition>
+        <argsstring></argsstring>
+        <name>m_FireButtonPressedThisFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="22" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1a8ee5e55d4e957381ed46080f5e799f71" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TankShooting.m_FireButtonReleasedThisFrame</definition>
+        <argsstring></argsstring>
+        <name>m_FireButtonReleasedThisFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="23" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1ae863aaaacd90047d060e56d2524932e9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TankShooting.m_FireButtonDown</definition>
+        <argsstring></argsstring>
+        <name>m_FireButtonDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="24" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tank_shooting_1a970af35d6de9a2208b0124b27103989c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankShooting.m_CurrentLaunchForce</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentLaunchForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="19" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_shooting_1a7c363cce8f09392e4b9c06329b4906e9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankShooting.m_ChargeSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_ChargeSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="20" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tank_shooting_1af7ab6bb48d04a2cb972c5a7bbfa92fe8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankShooting.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="27" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_shooting_1a1c93aee6e3c83bf0222b9fddc885a712" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankShooting.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="34" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_shooting_1a7ea0ef20c810a94db1bf59f1352b3073" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankShooting.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="40" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="40" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_shooting_1aa7b56b75281467583fa05b1e97168a10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankShooting.Fire</definition>
+        <argsstring>()</argsstring>
+        <name>Fire</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="82" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="82" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_shooting_1a29f229a2c9f9d684058ec9e179294262" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankShooting.OnFire</definition>
+        <argsstring>(InputValue value)</argsstring>
+        <name>OnFire</name>
+        <param>
+          <type>InputValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="109" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="109" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TankShooting</label>
+        <link refid="class_tank_shooting"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TankShooting</label>
+        <link refid="class_tank_shooting"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankShooting.cs" bodystart="7" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_tank_shooting_1aa7b56b75281467583fa05b1e97168a10" prot="private" virt="non-virtual"><scope>TankShooting</scope><name>Fire</name></member>
+      <member refid="class_tank_shooting_1abe2f4a5066ad055f925980a193ad555b" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_AimSlider</name></member>
+      <member refid="class_tank_shooting_1a7c363cce8f09392e4b9c06329b4906e9" prot="private" virt="non-virtual"><scope>TankShooting</scope><name>m_ChargeSpeed</name></member>
+      <member refid="class_tank_shooting_1a838c9caaffcc15ecb0e19d5ca26590b5" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_ChargingClip</name></member>
+      <member refid="class_tank_shooting_1a970af35d6de9a2208b0124b27103989c" prot="private" virt="non-virtual"><scope>TankShooting</scope><name>m_CurrentLaunchForce</name></member>
+      <member refid="class_tank_shooting_1ae863aaaacd90047d060e56d2524932e9" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_FireButtonDown</name></member>
+      <member refid="class_tank_shooting_1ad716d12ee849c5d34ca9401e4d79e037" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_FireButtonPressedThisFrame</name></member>
+      <member refid="class_tank_shooting_1a8ee5e55d4e957381ed46080f5e799f71" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_FireButtonReleasedThisFrame</name></member>
+      <member refid="class_tank_shooting_1a32f4525a7cb238b5684e8bcf3dca24fb" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_FireClip</name></member>
+      <member refid="class_tank_shooting_1ab32c36d7827faa11ad42910898eaf363" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_Fired</name></member>
+      <member refid="class_tank_shooting_1a11258331a4d05472ffc508152f8e10e0" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_FireTransform</name></member>
+      <member refid="class_tank_shooting_1af8d76f24ef06557eacf3d80cae349dee" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_MaxChargeTime</name></member>
+      <member refid="class_tank_shooting_1aec0f5624d699ed4a0c7f8b54a88fc1c7" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_MaxLaunchForce</name></member>
+      <member refid="class_tank_shooting_1ae01a2b150c6391d6f9bdf626ee7e273b" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_MinLaunchForce</name></member>
+      <member refid="class_tank_shooting_1afbdc9693b332517975e952436c04b6a0" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_PlayerNumber</name></member>
+      <member refid="class_tank_shooting_1ab574880baae316f960a2711a3f357001" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_Shell</name></member>
+      <member refid="class_tank_shooting_1a7d8d764d8c953938735573157284ac6a" prot="public" virt="non-virtual"><scope>TankShooting</scope><name>m_ShootingAudio</name></member>
+      <member refid="class_tank_shooting_1af7ab6bb48d04a2cb972c5a7bbfa92fe8" prot="private" virt="non-virtual"><scope>TankShooting</scope><name>OnEnable</name></member>
+      <member refid="class_tank_shooting_1a29f229a2c9f9d684058ec9e179294262" prot="private" virt="non-virtual"><scope>TankShooting</scope><name>OnFire</name></member>
+      <member refid="class_tank_shooting_1a1c93aee6e3c83bf0222b9fddc885a712" prot="private" virt="non-virtual"><scope>TankShooting</scope><name>Start</name></member>
+      <member refid="class_tank_shooting_1a7ea0ef20c810a94db1bf59f1352b3073" prot="private" virt="non-virtual"><scope>TankShooting</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

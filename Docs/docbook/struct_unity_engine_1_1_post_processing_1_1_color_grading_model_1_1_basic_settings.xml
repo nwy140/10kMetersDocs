@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.ColorGradingModel.BasicSettings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a9cb393ec494625e51bce4c9233662f1b">postExposure</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1ab15fdf0aa1ecbfa719238b11ba145e6d">temperature</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1ad08e54fbd8fca3ee7dbf1acb2f466584">tint</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a54c3256a16904c25bd61eb6644221305">hueShift</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a1d5874758e0fe2b3f796e787f5a3453f">saturation</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a44e673c94a8f43d2f832cec5d3adbf7b">contrast</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings">BasicSettings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a3c6d62a952263436102ea72c64701adc">defaultSettings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a44e673c94a8f43d2f832cec5d3adbf7b"/><section>
+    <title>contrast</title>
+<indexterm><primary>contrast</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</primary><secondary>contrast</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.BasicSettings.contrast</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a54c3256a16904c25bd61eb6644221305"/><section>
+    <title>hueShift</title>
+<indexterm><primary>hueShift</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</primary><secondary>hueShift</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.BasicSettings.hueShift</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a9cb393ec494625e51bce4c9233662f1b"/><section>
+    <title>postExposure</title>
+<indexterm><primary>postExposure</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</primary><secondary>postExposure</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.BasicSettings.postExposure</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a1d5874758e0fe2b3f796e787f5a3453f"/><section>
+    <title>saturation</title>
+<indexterm><primary>saturation</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</primary><secondary>saturation</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.BasicSettings.saturation</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1ab15fdf0aa1ecbfa719238b11ba145e6d"/><section>
+    <title>temperature</title>
+<indexterm><primary>temperature</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</primary><secondary>temperature</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.BasicSettings.temperature</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1ad08e54fbd8fca3ee7dbf1acb2f466584"/><section>
+    <title>tint</title>
+<indexterm><primary>tint</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</primary><secondary>tint</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.BasicSettings.tint</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings_1a3c6d62a952263436102ea72c64701adc"/><section>
+    <title>defaultSettings</title>
+<indexterm><primary>defaultSettings</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.BasicSettings</primary><secondary>defaultSettings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings">BasicSettings</link> UnityEngine.PostProcessing.ColorGradingModel.BasicSettings.defaultSettings<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__color_grading_model_8cs">ColorGradingModel.cs</link></section>
+</section>

@@ -1,0 +1,73 @@
+.TH "CommandEventListener" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CommandEventListener
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBGameEventListener\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnEventRaised\fP ()"
+.br
+.ti -1c
+.RI "void \fBInitTypeB\fP ()"
+.br
+.ti -1c
+.RI "void \fBInitTypeA\fP ()"
+.br
+.ti -1c
+.RI "void \fBInit\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBcommandName\fP"
+.br
+.ti -1c
+.RI "GameObject \fBinstigatorObj\fP"
+.br
+.ti -1c
+.RI "\fBCommandBase\fP \fBmatchingCommand\fP"
+.br
+.ti -1c
+.RI "\fBCommandAccessorRefsBase\fP \fBaccessorRefs\fP"
+.br
+.ti -1c
+.RI "bool \fBisCalled\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void CommandEventListener\&.Init ()"
+
+.SS "void CommandEventListener\&.InitTypeA ()"
+
+.SS "void CommandEventListener\&.InitTypeB ()"
+
+.SS "override void CommandEventListener\&.OnEventRaised ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBGameEventListener\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBCommandAccessorRefsBase\fP CommandEventListener\&.accessorRefs"
+
+.SS "string CommandEventListener\&.commandName"
+
+.SS "GameObject CommandEventListener\&.instigatorObj"
+
+.SS "bool CommandEventListener\&.isCalled"
+
+.SS "\fBCommandBase\fP CommandEventListener\&.matchingCommand"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

@@ -1,0 +1,144 @@
+\hypertarget{class_player_attack}{}\doxysection{Player\+Attack Class Reference}
+\label{class_player_attack}\index{PlayerAttack@{PlayerAttack}}
+
+
+Inheritance diagram for Player\+Attack\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_player_attack__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Player\+Attack\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_player_attack__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_player_attack_a9903eb855cd21bf6e83ac4173eb431f1}{Rotate\+Turret\+To\+Mouse\+Pos}} ()
+\item 
+void \mbox{\hyperlink{class_player_attack_a1b0d72ce915f4a931ba9af1dd0ecee7c}{Attack\+Behaviour3}} ()
+\item 
+void \mbox{\hyperlink{class_player_attack_ace7fcd2b94d1dcb98c182e2942d9ac0f}{Simulate\+Shoot}} ()
+\item 
+void \mbox{\hyperlink{class_player_attack_a1a476dbd27cb999a19cb4b9d232fa63e}{On\+Input}} (Input\+Action.\+Callback\+Context context)
+\item 
+void \mbox{\hyperlink{class_player_attack_a62227787e3b1b332c1bdd7dd26752995}{On\+Simulate\+Input}} (bool Is\+Pressed\+This\+Frame, float axis)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Transform \mbox{\hyperlink{class_player_attack_a75a7eb591949c398ffb3d72974ca8503}{spawn\+Socket}}
+\item 
+float \mbox{\hyperlink{class_player_attack_a56b59f30fb9dabdfb0e10dd906aebb39}{spawn\+Base\+Force\+Multiplier}} = 100f
+\item 
+Transform \mbox{\hyperlink{class_player_attack_a6bafb5f3654430e6693fa6e753a78341}{turret}}
+\item 
+float \mbox{\hyperlink{class_player_attack_a5907060de32257991245f13277159aad}{turret\+Lerp\+Rot\+Speed}} = 5f
+\item 
+float \mbox{\hyperlink{class_player_attack_aa713d486272d440d288c1186c32cff51}{turret\+Rot\+ZOffset}} = 90
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_attack_a1b0d72ce915f4a931ba9af1dd0ecee7c}\label{class_player_attack_a1b0d72ce915f4a931ba9af1dd0ecee7c}} 
+\index{PlayerAttack@{PlayerAttack}!AttackBehaviour3@{AttackBehaviour3}}
+\index{AttackBehaviour3@{AttackBehaviour3}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{AttackBehaviour3()}{AttackBehaviour3()}}
+{\footnotesize\ttfamily void Player\+Attack.\+Attack\+Behaviour3 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_attack_a1a476dbd27cb999a19cb4b9d232fa63e}\label{class_player_attack_a1a476dbd27cb999a19cb4b9d232fa63e}} 
+\index{PlayerAttack@{PlayerAttack}!OnInput@{OnInput}}
+\index{OnInput@{OnInput}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{OnInput()}{OnInput()}}
+{\footnotesize\ttfamily void Player\+Attack.\+On\+Input (\begin{DoxyParamCaption}\item[{Input\+Action.\+Callback\+Context}]{context }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_attack_a1a476dbd27cb999a19cb4b9d232fa63e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_attack_a62227787e3b1b332c1bdd7dd26752995}\label{class_player_attack_a62227787e3b1b332c1bdd7dd26752995}} 
+\index{PlayerAttack@{PlayerAttack}!OnSimulateInput@{OnSimulateInput}}
+\index{OnSimulateInput@{OnSimulateInput}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{OnSimulateInput()}{OnSimulateInput()}}
+{\footnotesize\ttfamily void Player\+Attack.\+On\+Simulate\+Input (\begin{DoxyParamCaption}\item[{bool}]{Is\+Pressed\+This\+Frame,  }\item[{float}]{axis }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_attack_a9903eb855cd21bf6e83ac4173eb431f1}\label{class_player_attack_a9903eb855cd21bf6e83ac4173eb431f1}} 
+\index{PlayerAttack@{PlayerAttack}!RotateTurretToMousePos@{RotateTurretToMousePos}}
+\index{RotateTurretToMousePos@{RotateTurretToMousePos}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{RotateTurretToMousePos()}{RotateTurretToMousePos()}}
+{\footnotesize\ttfamily void Player\+Attack.\+Rotate\+Turret\+To\+Mouse\+Pos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_attack_ace7fcd2b94d1dcb98c182e2942d9ac0f}\label{class_player_attack_ace7fcd2b94d1dcb98c182e2942d9ac0f}} 
+\index{PlayerAttack@{PlayerAttack}!SimulateShoot@{SimulateShoot}}
+\index{SimulateShoot@{SimulateShoot}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{SimulateShoot()}{SimulateShoot()}}
+{\footnotesize\ttfamily void Player\+Attack.\+Simulate\+Shoot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_attack_ace7fcd2b94d1dcb98c182e2942d9ac0f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_attack_ace7fcd2b94d1dcb98c182e2942d9ac0f_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_player_attack_a56b59f30fb9dabdfb0e10dd906aebb39}\label{class_player_attack_a56b59f30fb9dabdfb0e10dd906aebb39}} 
+\index{PlayerAttack@{PlayerAttack}!spawnBaseForceMultiplier@{spawnBaseForceMultiplier}}
+\index{spawnBaseForceMultiplier@{spawnBaseForceMultiplier}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{spawnBaseForceMultiplier}{spawnBaseForceMultiplier}}
+{\footnotesize\ttfamily float Player\+Attack.\+spawn\+Base\+Force\+Multiplier = 100f}
+
+\mbox{\Hypertarget{class_player_attack_a75a7eb591949c398ffb3d72974ca8503}\label{class_player_attack_a75a7eb591949c398ffb3d72974ca8503}} 
+\index{PlayerAttack@{PlayerAttack}!spawnSocket@{spawnSocket}}
+\index{spawnSocket@{spawnSocket}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{spawnSocket}{spawnSocket}}
+{\footnotesize\ttfamily Transform Player\+Attack.\+spawn\+Socket}
+
+\mbox{\Hypertarget{class_player_attack_a6bafb5f3654430e6693fa6e753a78341}\label{class_player_attack_a6bafb5f3654430e6693fa6e753a78341}} 
+\index{PlayerAttack@{PlayerAttack}!turret@{turret}}
+\index{turret@{turret}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{turret}{turret}}
+{\footnotesize\ttfamily Transform Player\+Attack.\+turret}
+
+\mbox{\Hypertarget{class_player_attack_a5907060de32257991245f13277159aad}\label{class_player_attack_a5907060de32257991245f13277159aad}} 
+\index{PlayerAttack@{PlayerAttack}!turretLerpRotSpeed@{turretLerpRotSpeed}}
+\index{turretLerpRotSpeed@{turretLerpRotSpeed}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{turretLerpRotSpeed}{turretLerpRotSpeed}}
+{\footnotesize\ttfamily float Player\+Attack.\+turret\+Lerp\+Rot\+Speed = 5f}
+
+\mbox{\Hypertarget{class_player_attack_aa713d486272d440d288c1186c32cff51}\label{class_player_attack_aa713d486272d440d288c1186c32cff51}} 
+\index{PlayerAttack@{PlayerAttack}!turretRotZOffset@{turretRotZOffset}}
+\index{turretRotZOffset@{turretRotZOffset}!PlayerAttack@{PlayerAttack}}
+\doxysubsubsection{\texorpdfstring{turretRotZOffset}{turretRotZOffset}}
+{\footnotesize\ttfamily float Player\+Attack.\+turret\+Rot\+ZOffset = 90}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Scripts/\mbox{\hyperlink{_player_attack_8cs}{Player\+Attack.\+cs}}\end{DoxyCompactItemize}

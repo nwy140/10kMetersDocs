@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_fish_material" kind="class" language="C#" prot="public">
+    <compoundname>FishMaterial</compoundname>
+    <basecompoundref refid="class_resource" prot="public" virt="non-virtual">Resource</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FishMaterial</label>
+        <link refid="class_fish_material"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Resource</label>
+        <link refid="class_resource"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FishMaterial</label>
+        <link refid="class_fish_material"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Resource</label>
+        <link refid="class_resource"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+itemType</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="4">
+        <label>item</label>
+        <link refid="classitem"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Resource/FishMaterial.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Resource/FishMaterial.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_resource_1adba089b2f60bb9e1605da1dfbc02c49c" prot="public" virt="non-virtual"><scope>FishMaterial</scope><name>GetItemType</name></member>
+      <member refid="class_resource_1a62a89c6b7193a3f2878286e956ecba2d" prot="public" virt="non-virtual"><scope>FishMaterial</scope><name>itemType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

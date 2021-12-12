@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_vector3_common" kind="class" language="C#" prot="public">
+    <compoundname>Vector3Common</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_vector3_common_1a4e2a21e11e47739f4de531292a77b825" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Vector3Common.GetForwardSpeed</definition>
+        <argsstring>(Vector3 velocity)</argsstring>
+        <name>GetForwardSpeed</name>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="10" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a469de5cf9b2d074787e26e1f05bead03" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Vector3Common.GetAbsForwardSpeed</definition>
+        <argsstring>(Vector3 velocity)</argsstring>
+        <name>GetAbsForwardSpeed</name>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="14" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a4e671017854b9333f6bd298abf72babe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.GetDirectionFrom2Pos</definition>
+        <argsstring>(Vector3 origin, Vector3 target)</argsstring>
+        <name>GetDirectionFrom2Pos</name>
+        <param>
+          <type>Vector3</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="19" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1aab7cedbe3ffd4f00e9f6eedea85dbcea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Vector3Common.isZero</definition>
+        <argsstring>(this float value)</argsstring>
+        <name>isZero</name>
+        <param>
+          <type>this float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Checks whether value is near to zero within a tolerance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="35" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a9f05833b0afe1852e264238d14b0689b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.onlyX</definition>
+        <argsstring>(this Vector3 vector3)</argsstring>
+        <name>onlyX</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of given vector with only X component of the vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="45" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1aec7ad5fb210b1015690ef866ab8ac49f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.onlyY</definition>
+        <argsstring>(this Vector3 vector3)</argsstring>
+        <name>onlyY</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of given vector with only Y component of the vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="56" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a9d686118153a9411dbbbc7aa56298336" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.onlyZ</definition>
+        <argsstring>(this Vector3 vector3)</argsstring>
+        <name>onlyZ</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of given vector with only Z component of the vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="67" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a56aa736013b21d1827b8c4d8491ea649" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.onlyXZ</definition>
+        <argsstring>(this Vector3 vector3)</argsstring>
+        <name>onlyXZ</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of given vector with only X and Z components of the vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="78" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="78" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1ad0cf729267363638e1861ba27eefa728" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Vector3Common.isZero</definition>
+        <argsstring>(this Vector3 vector3)</argsstring>
+        <name>isZero</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <briefdescription>
+<para>Checks whether vector is near to zero within a tolerance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="88" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a41eb189d5951354bbbf5c130f1a610a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Vector3Common.isExceeding</definition>
+        <argsstring>(this Vector3 vector3, float magnitude)</argsstring>
+        <name>isExceeding</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>magnitude</declname>
+        </param>
+        <briefdescription>
+<para>Checks whether vector is exceeding the magnitude within a small error tolerance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="96" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a3f7eec5630d8e19ea25bcbc4d64a4e85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.normalized</definition>
+        <argsstring>(this Vector3 vector3, out float magnitude)</argsstring>
+        <name>normalized</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>magnitude</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of given vector with a magnitude of 1, and outs its magnitude before normalization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the vector is too small to be normalized a zero vector will be returned. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="111" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="111" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a47c6c5d702504855073fa5881d9e934f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.clamped</definition>
+        <argsstring>(this Vector3 vector3, out float magnitude)</argsstring>
+        <name>clamped</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>magnitude</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of given vector with its magnitude clamped to 0 and 1, and outs its magnitude before clamp. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="126" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1a46a133a33c331be5924dfeda2decda26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.clampedTo</definition>
+        <argsstring>(this Vector3 vector3, float maxLength)</argsstring>
+        <name>clampedTo</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxLength</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of given vector with its magnitude clamped to maxLength. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="136" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="136" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector3_common_1aa8c0106b73d61288fb28d45a0c403d53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Vector3Common.relativeTo</definition>
+        <argsstring>(this Vector3 vector3, Transform target, bool onlyLateral=true)</argsstring>
+        <name>relativeTo</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyLateral</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Transform a given vector to be relative to target transform. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Eg: Use to perform movement relative to camera&apos;s view direction. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="148" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="148" bodyend="164"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Vector3Common</label>
+        <link refid="class_vector3_common"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" line="4" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Vector3Common.cs" bodystart="5" bodyend="167"/>
+    <listofallmembers>
+      <member refid="class_vector3_common_1a47c6c5d702504855073fa5881d9e934f" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>clamped</name></member>
+      <member refid="class_vector3_common_1a46a133a33c331be5924dfeda2decda26" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>clampedTo</name></member>
+      <member refid="class_vector3_common_1a469de5cf9b2d074787e26e1f05bead03" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>GetAbsForwardSpeed</name></member>
+      <member refid="class_vector3_common_1a4e671017854b9333f6bd298abf72babe" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>GetDirectionFrom2Pos</name></member>
+      <member refid="class_vector3_common_1a4e2a21e11e47739f4de531292a77b825" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>GetForwardSpeed</name></member>
+      <member refid="class_vector3_common_1a41eb189d5951354bbbf5c130f1a610a7" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>isExceeding</name></member>
+      <member refid="class_vector3_common_1aab7cedbe3ffd4f00e9f6eedea85dbcea" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>isZero</name></member>
+      <member refid="class_vector3_common_1ad0cf729267363638e1861ba27eefa728" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>isZero</name></member>
+      <member refid="class_vector3_common_1a3f7eec5630d8e19ea25bcbc4d64a4e85" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>normalized</name></member>
+      <member refid="class_vector3_common_1a9f05833b0afe1852e264238d14b0689b" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>onlyX</name></member>
+      <member refid="class_vector3_common_1a56aa736013b21d1827b8c4d8491ea649" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>onlyXZ</name></member>
+      <member refid="class_vector3_common_1aec7ad5fb210b1015690ef866ab8ac49f" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>onlyY</name></member>
+      <member refid="class_vector3_common_1a9d686118153a9411dbbbc7aa56298336" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>onlyZ</name></member>
+      <member refid="class_vector3_common_1aa8c0106b73d61288fb28d45a0c403d53" prot="public" virt="non-virtual"><scope>Vector3Common</scope><name>relativeTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

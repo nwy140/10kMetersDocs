@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt; Class Template Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</primary></indexterm>
+Inheritance diagram for UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1aa241faf4ea3fa22cca2232d21a9d550b">AddSample</link> (object value, double time)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">RingBuffer</link>&lt; TValue &gt; <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20b92ea14426fc5627156e7b03c7cc37">samples</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">RingBuffer</link>&lt; GUIContent &gt; <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20aeb2b6e3eecdddd211da1b1c6c1663">samplesText</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a0372961daa481fa8c00c502a61407eb5">ValueVisualizer</link> (int numSamples=10)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a0372961daa481fa8c00c502a61407eb5"/><section>
+    <title>ValueVisualizer()</title>
+<indexterm><primary>ValueVisualizer</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</primary><secondary>ValueVisualizer</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer</link>&lt; TValue &gt;.<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer">ValueVisualizer</link> (int numSamples = <computeroutput>10</computeroutput>
+)<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1aa241faf4ea3fa22cca2232d21a9d550b"/><section>
+    <title>AddSample()</title>
+<indexterm><primary>AddSample</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</primary><secondary>AddSample</secondary></indexterm>
+<para><computeroutput>override void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer</link>&lt; TValue &gt;.AddSample (object value, double time)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1aa4595a8dcdf9b1bafc07a66e2b3cf528">UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</link>.</para>
+<para>
+Reimplemented in <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer_1a4923130fba9c8d5f1df85488286a01c9">UnityEngine.InputSystem.Samples.VisualizationHelpers.ScalarVisualizer&lt; TValue &gt;</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20b92ea14426fc5627156e7b03c7cc37"/><section>
+    <title>samples</title>
+<indexterm><primary>samples</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</primary><secondary>samples</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">RingBuffer</link>&lt;TValue&gt; <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer</link>&lt; TValue &gt;.samples</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20aeb2b6e3eecdddd211da1b1c6c1663"/><section>
+    <title>samplesText</title>
+<indexterm><primary>samplesText</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</primary><secondary>samplesText</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">RingBuffer</link>&lt;GUIContent&gt; <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer</link>&lt; TValue &gt;.samplesText</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/<link linkend="__visualization_helpers_8cs">VisualizationHelpers.cs</link></section>
+</section>

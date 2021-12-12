@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_item_save_manager" kind="class" language="C#" prot="public">
+    <compoundname>ItemSaveManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_item_save_manager_1a5e0ac1df66e17eb226cdcb40f5940d4f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_database" kindref="compound">ItemDatabase</ref></type>
+        <definition>ItemDatabase ItemSaveManager.itemDatabase</definition>
+        <argsstring></argsstring>
+        <name>itemDatabase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" line="6" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_item_save_manager_1a80c2aadf76d27d72b6a2c473eb9af569" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string ItemSaveManager.InventoryFileName</definition>
+        <argsstring></argsstring>
+        <name>InventoryFileName</name>
+        <initializer>= &quot;Inventory&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" line="8" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemSaveManager.LoadInventory</definition>
+        <argsstring>(Character character)</argsstring>
+        <name>LoadInventory</name>
+        <param>
+          <type><ref refid="class_character" kindref="compound">Character</ref></type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" line="11" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" bodystart="11" bodyend="42"/>
+        <references refid="class_item_slot_save_data_1aba284207511c46bdd91c95d9a4665729" compoundref="_item_save_data_8cs" startline="7">ItemSlotSaveData.Amount</references>
+        <references refid="classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9" compoundref="item_slots_8cs" startline="48" endline="62">itemSlots.Amount</references>
+        <references refid="class_item_container_1ab50b820cf41946e71e0b4d680bf8117f" compoundref="_item_container_8cs" startline="146" endline="157">ItemContainer.Clear</references>
+        <references refid="class_item_database_1a3f54a7d4ab8716e32f52dc9a311539de" compoundref="_item_database_8cs" startline="26" endline="31">ItemDatabase.GetItemCopy</references>
+        <references refid="classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d" compoundref="item_slots_8cs" startline="27" endline="43">itemSlots.Item</references>
+        <references refid="class_item_slot_save_data_1a1f4b87d49415ca71b7c5fcc970c75a77" compoundref="_item_save_data_8cs" startline="6">ItemSlotSaveData.ItemID</references>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemContainer.ItemSlots</references>
+        <references refid="class_item_save_i_o_1a584e09dfc868e3d40155b84a0788aeeb" compoundref="_item_save_i_o_8cs" startline="17" endline="27">ItemSaveIO.LoadItems</references>
+        <references refid="class_item_container_save_data_1a5d73376fb40b72e6810e5dfe86fb6eba" compoundref="_item_save_data_8cs" startline="19">ItemContainerSaveData.SavedSlots</references>
+        <references refid="class_character_1aee8b9925c3e1c50c6afae316255e3b52" compoundref="_character_8cs" startline="8">Character.Storage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_save_manager_1a18f7b0abfe4a6c06d05de9f3fbe96bc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemSaveManager.SaveInventory</definition>
+        <argsstring>(Character character)</argsstring>
+        <name>SaveInventory</name>
+        <param>
+          <type><ref refid="class_character" kindref="compound">Character</ref></type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" line="44" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" bodystart="44" bodyend="47"/>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemContainer.ItemSlots</references>
+        <references refid="class_character_1aee8b9925c3e1c50c6afae316255e3b52" compoundref="_character_8cs" startline="8">Character.Storage</references>
+        <referencedby refid="class_outpost_choices_1a1a2974f7449ec5444e11d43d537c49cc" compoundref="_outpost_choices_8cs" startline="75" endline="100">OutpostChoices.ReturnSea</referencedby>
+        <referencedby refid="class_scene_transitions_to_outpost_1a10e00fecf2254738eddd19d815366f9d" compoundref="_scene_transitions_to_outpost_8cs" startline="32" endline="37">SceneTransitionsToOutpost.Save</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_item_save_manager_1a85a94537b21b3d905291a2b3915f903f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemSaveManager.SaveItems</definition>
+        <argsstring>(IList&lt; itemSlots &gt; itemSlots, string fileName)</argsstring>
+        <name>SaveItems</name>
+        <param>
+          <type>IList&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+          <declname>itemSlots</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" line="49" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" bodystart="49" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ItemSaveManager</label>
+        <link refid="class_item_save_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ItemSaveManager</label>
+        <link refid="class_item_save_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" line="4" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveManager.cs" bodystart="5" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_item_save_manager_1a80c2aadf76d27d72b6a2c473eb9af569" prot="private" virt="non-virtual"><scope>ItemSaveManager</scope><name>InventoryFileName</name></member>
+      <member refid="class_item_save_manager_1a5e0ac1df66e17eb226cdcb40f5940d4f" prot="private" virt="non-virtual"><scope>ItemSaveManager</scope><name>itemDatabase</name></member>
+      <member refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" prot="public" virt="non-virtual"><scope>ItemSaveManager</scope><name>LoadInventory</name></member>
+      <member refid="class_item_save_manager_1a18f7b0abfe4a6c06d05de9f3fbe96bc9" prot="public" virt="non-virtual"><scope>ItemSaveManager</scope><name>SaveInventory</name></member>
+      <member refid="class_item_save_manager_1a85a94537b21b3d905291a2b3915f903f" prot="private" virt="non-virtual"><scope>ItemSaveManager</scope><name>SaveItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

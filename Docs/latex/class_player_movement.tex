@@ -1,0 +1,184 @@
+\hypertarget{class_player_movement}{}\doxysection{Player\+Movement Class Reference}
+\label{class_player_movement}\index{PlayerMovement@{PlayerMovement}}
+
+
+Inheritance diagram for Player\+Movement\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_player_movement__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Player\+Movement\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_player_movement__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_player_movement_a69aaa28d0715d1d2a86845ee7c0077ed}{Command\+\_\+\+Interact}} ()
+\item 
+void \mbox{\hyperlink{class_player_movement_a92ce439184636d99c1cb7dda74beb4ab}{On\+Input\+Move\+Horizontal\+Axis}} (Input\+Action.\+Callback\+Context context)
+\item 
+void \mbox{\hyperlink{class_player_movement_aa7d28c0e71a4df33aad6c669463fc59f}{On\+Input\+Move\+Vertical\+Axis}} (Input\+Action.\+Callback\+Context context)
+\item 
+void \mbox{\hyperlink{class_player_movement_ac973865c47e9c1aa0b1467b185f10ee6}{On\+Input\+Command\+Slot3}} (Input\+Action.\+Callback\+Context context)
+\item 
+bool \mbox{\hyperlink{class_player_movement_a337ddf0c30749248244531818e379772}{Is\+Invincible}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_player_movement_aa9f88d44857be0a79c0d0bcfda6f4ebe}{dash\+Speed}} = 100f
+\item 
+float \mbox{\hyperlink{class_player_movement_a9e4bb6226fd5641ee508685a55c30770}{time\+To\+Stop\+Dash}} = 1f
+\item 
+float \mbox{\hyperlink{class_player_movement_a0e172433cfda8eadc46e269a08dd33c3}{cooldown}} = 5f
+\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_player_movement_a0aadb65ae80c732909b9791e7b6d9780}{all\+Enemy}}
+\item 
+bool \mbox{\hyperlink{class_player_movement_ae5fdc35dd514312a12047e2901d83a57}{cooldown\+Flag}}
+\item 
+bool \mbox{\hyperlink{class_player_movement_a844018e259f01e42a3c2c59fcb4e6189}{is\+Dashing}}
+\item 
+bool \mbox{\hyperlink{class_player_movement_ad464fcd0f0c5a8daba6b3faa7e1c4d78}{is\+Invincible}} = false
+\item 
+float \mbox{\hyperlink{class_player_movement_a538bffdda95c5f258c14edc78100af8b}{move\+Horizontal\+Axis}}
+\item 
+float \mbox{\hyperlink{class_player_movement_a7ab0ebadfbe2fe4205e94f8d73097e73}{move\+Vertical\+Axis}}
+\item 
+Animator \mbox{\hyperlink{class_player_movement_af5745cc3cb8f3f0cf6d2beac4316d4a5}{anim}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_movement_a69aaa28d0715d1d2a86845ee7c0077ed}\label{class_player_movement_a69aaa28d0715d1d2a86845ee7c0077ed}} 
+\index{PlayerMovement@{PlayerMovement}!Command\_Interact@{Command\_Interact}}
+\index{Command\_Interact@{Command\_Interact}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{Command\_Interact()}{Command\_Interact()}}
+{\footnotesize\ttfamily void Player\+Movement.\+Command\+\_\+\+Interact (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_item_container_aaaa93fedc164672528fee56061686ee0}{storage.\+Is\+Full()}} \&\&Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_movement_a69aaa28d0715d1d2a86845ee7c0077ed_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_movement_a337ddf0c30749248244531818e379772}\label{class_player_movement_a337ddf0c30749248244531818e379772}} 
+\index{PlayerMovement@{PlayerMovement}!IsInvincible@{IsInvincible}}
+\index{IsInvincible@{IsInvincible}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{IsInvincible()}{IsInvincible()}}
+{\footnotesize\ttfamily bool Player\+Movement.\+Is\+Invincible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_movement_a337ddf0c30749248244531818e379772_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_movement_a337ddf0c30749248244531818e379772_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_movement_ac973865c47e9c1aa0b1467b185f10ee6}\label{class_player_movement_ac973865c47e9c1aa0b1467b185f10ee6}} 
+\index{PlayerMovement@{PlayerMovement}!OnInputCommandSlot3@{OnInputCommandSlot3}}
+\index{OnInputCommandSlot3@{OnInputCommandSlot3}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{OnInputCommandSlot3()}{OnInputCommandSlot3()}}
+{\footnotesize\ttfamily void Player\+Movement.\+On\+Input\+Command\+Slot3 (\begin{DoxyParamCaption}\item[{Input\+Action.\+Callback\+Context}]{context }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_movement_a92ce439184636d99c1cb7dda74beb4ab}\label{class_player_movement_a92ce439184636d99c1cb7dda74beb4ab}} 
+\index{PlayerMovement@{PlayerMovement}!OnInputMoveHorizontalAxis@{OnInputMoveHorizontalAxis}}
+\index{OnInputMoveHorizontalAxis@{OnInputMoveHorizontalAxis}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{OnInputMoveHorizontalAxis()}{OnInputMoveHorizontalAxis()}}
+{\footnotesize\ttfamily void Player\+Movement.\+On\+Input\+Move\+Horizontal\+Axis (\begin{DoxyParamCaption}\item[{Input\+Action.\+Callback\+Context}]{context }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_movement_aa7d28c0e71a4df33aad6c669463fc59f}\label{class_player_movement_aa7d28c0e71a4df33aad6c669463fc59f}} 
+\index{PlayerMovement@{PlayerMovement}!OnInputMoveVerticalAxis@{OnInputMoveVerticalAxis}}
+\index{OnInputMoveVerticalAxis@{OnInputMoveVerticalAxis}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{OnInputMoveVerticalAxis()}{OnInputMoveVerticalAxis()}}
+{\footnotesize\ttfamily void Player\+Movement.\+On\+Input\+Move\+Vertical\+Axis (\begin{DoxyParamCaption}\item[{Input\+Action.\+Callback\+Context}]{context }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_player_movement_a0aadb65ae80c732909b9791e7b6d9780}\label{class_player_movement_a0aadb65ae80c732909b9791e7b6d9780}} 
+\index{PlayerMovement@{PlayerMovement}!allEnemy@{allEnemy}}
+\index{allEnemy@{allEnemy}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{allEnemy}{allEnemy}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Player\+Movement.\+all\+Enemy}
+
+\mbox{\Hypertarget{class_player_movement_af5745cc3cb8f3f0cf6d2beac4316d4a5}\label{class_player_movement_af5745cc3cb8f3f0cf6d2beac4316d4a5}} 
+\index{PlayerMovement@{PlayerMovement}!anim@{anim}}
+\index{anim@{anim}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{anim}{anim}}
+{\footnotesize\ttfamily Animator Player\+Movement.\+anim}
+
+\mbox{\Hypertarget{class_player_movement_a0e172433cfda8eadc46e269a08dd33c3}\label{class_player_movement_a0e172433cfda8eadc46e269a08dd33c3}} 
+\index{PlayerMovement@{PlayerMovement}!cooldown@{cooldown}}
+\index{cooldown@{cooldown}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{cooldown}{cooldown}}
+{\footnotesize\ttfamily float Player\+Movement.\+cooldown = 5f}
+
+\mbox{\Hypertarget{class_player_movement_ae5fdc35dd514312a12047e2901d83a57}\label{class_player_movement_ae5fdc35dd514312a12047e2901d83a57}} 
+\index{PlayerMovement@{PlayerMovement}!cooldownFlag@{cooldownFlag}}
+\index{cooldownFlag@{cooldownFlag}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{cooldownFlag}{cooldownFlag}}
+{\footnotesize\ttfamily bool Player\+Movement.\+cooldown\+Flag}
+
+\mbox{\Hypertarget{class_player_movement_aa9f88d44857be0a79c0d0bcfda6f4ebe}\label{class_player_movement_aa9f88d44857be0a79c0d0bcfda6f4ebe}} 
+\index{PlayerMovement@{PlayerMovement}!dashSpeed@{dashSpeed}}
+\index{dashSpeed@{dashSpeed}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{dashSpeed}{dashSpeed}}
+{\footnotesize\ttfamily float Player\+Movement.\+dash\+Speed = 100f}
+
+\mbox{\Hypertarget{class_player_movement_a844018e259f01e42a3c2c59fcb4e6189}\label{class_player_movement_a844018e259f01e42a3c2c59fcb4e6189}} 
+\index{PlayerMovement@{PlayerMovement}!isDashing@{isDashing}}
+\index{isDashing@{isDashing}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{isDashing}{isDashing}}
+{\footnotesize\ttfamily bool Player\+Movement.\+is\+Dashing}
+
+\mbox{\Hypertarget{class_player_movement_ad464fcd0f0c5a8daba6b3faa7e1c4d78}\label{class_player_movement_ad464fcd0f0c5a8daba6b3faa7e1c4d78}} 
+\index{PlayerMovement@{PlayerMovement}!isInvincible@{isInvincible}}
+\index{isInvincible@{isInvincible}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{isInvincible}{isInvincible}}
+{\footnotesize\ttfamily bool Player\+Movement.\+is\+Invincible = false}
+
+\mbox{\Hypertarget{class_player_movement_a538bffdda95c5f258c14edc78100af8b}\label{class_player_movement_a538bffdda95c5f258c14edc78100af8b}} 
+\index{PlayerMovement@{PlayerMovement}!moveHorizontalAxis@{moveHorizontalAxis}}
+\index{moveHorizontalAxis@{moveHorizontalAxis}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{moveHorizontalAxis}{moveHorizontalAxis}}
+{\footnotesize\ttfamily float Player\+Movement.\+move\+Horizontal\+Axis}
+
+\mbox{\Hypertarget{class_player_movement_a7ab0ebadfbe2fe4205e94f8d73097e73}\label{class_player_movement_a7ab0ebadfbe2fe4205e94f8d73097e73}} 
+\index{PlayerMovement@{PlayerMovement}!moveVerticalAxis@{moveVerticalAxis}}
+\index{moveVerticalAxis@{moveVerticalAxis}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{moveVerticalAxis}{moveVerticalAxis}}
+{\footnotesize\ttfamily float Player\+Movement.\+move\+Vertical\+Axis}
+
+\mbox{\Hypertarget{class_player_movement_a9e4bb6226fd5641ee508685a55c30770}\label{class_player_movement_a9e4bb6226fd5641ee508685a55c30770}} 
+\index{PlayerMovement@{PlayerMovement}!timeToStopDash@{timeToStopDash}}
+\index{timeToStopDash@{timeToStopDash}!PlayerMovement@{PlayerMovement}}
+\doxysubsubsection{\texorpdfstring{timeToStopDash}{timeToStopDash}}
+{\footnotesize\ttfamily float Player\+Movement.\+time\+To\+Stop\+Dash = 1f}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Scripts/\mbox{\hyperlink{_player_movement_8cs}{Player\+Movement.\+cs}}\end{DoxyCompactItemize}

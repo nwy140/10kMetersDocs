@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_dithering_component_1_1_uniforms" kind="class" language="C#" prot="private">
+    <compoundname>UnityEngine::PostProcessing::DitheringComponent::Uniforms</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_dithering_component_1_1_uniforms_1a51a5adfea5b92414baa74e3667dca813" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.DitheringComponent.Uniforms._DitheringTex</definition>
+        <argsstring></argsstring>
+        <name>_DitheringTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_DitheringTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/DitheringComponent.cs" line="7" column="42" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/DitheringComponent.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_dithering_component_1_1_uniforms_1a8fa1cd23476a662276e613d64a435d8e" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.DitheringComponent.Uniforms._DitheringCoords</definition>
+        <argsstring></argsstring>
+        <name>_DitheringCoords</name>
+        <initializer>= Shader.PropertyToID(&quot;_DitheringCoords&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/DitheringComponent.cs" line="8" column="42" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/DitheringComponent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.DitheringComponent.Uniforms</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/DitheringComponent.cs" line="5" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/DitheringComponent.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_dithering_component_1_1_uniforms_1a8fa1cd23476a662276e613d64a435d8e" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::DitheringComponent::Uniforms</scope><name>_DitheringCoords</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_dithering_component_1_1_uniforms_1a51a5adfea5b92414baa74e3667dca813" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::DitheringComponent::Uniforms</scope><name>_DitheringTex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

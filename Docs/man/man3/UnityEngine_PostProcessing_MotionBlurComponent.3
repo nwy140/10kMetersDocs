@@ -1,0 +1,92 @@
+.TH "UnityEngine.PostProcessing.MotionBlurComponent" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.PostProcessing.MotionBlurComponent
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUnityEngine\&.PostProcessing\&.PostProcessingComponentCommandBuffer< MotionBlurModel >\fP\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBFrameBlendingFilter\fP"
+.br
+.ti -1c
+.RI "class \fBReconstructionFilter\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override string \fBGetName\fP ()"
+.br
+.ti -1c
+.RI "void \fBResetHistory\fP ()"
+.br
+.ti -1c
+.RI "override DepthTextureMode \fBGetCameraFlags\fP ()"
+.br
+.ti -1c
+.RI "override CameraEvent \fBGetCameraEvent\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "override void \fBPopulateCommandBuffer\fP (CommandBuffer cb)"
+.br
+.ti -1c
+.RI "override void \fBOnDisable\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBReconstructionFilter\fP \fBreconstructionFilter\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBFrameBlendingFilter\fP \fBframeBlendingFilter\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "override bool \fBactive\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "override CameraEvent UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.GetCameraEvent ()\fC [virtual]\fP"
+
+.PP
+Implements \fBUnityEngine\&.PostProcessing\&.PostProcessingComponentCommandBuffer< MotionBlurModel >\fP\&.
+.SS "override DepthTextureMode UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.GetCameraFlags ()"
+
+.SS "override string UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.GetName ()\fC [virtual]\fP"
+
+.PP
+Implements \fBUnityEngine\&.PostProcessing\&.PostProcessingComponentCommandBuffer< MotionBlurModel >\fP\&.
+.SS "override void UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.OnDisable ()"
+
+.SS "override void UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.OnEnable ()"
+
+.SS "override void UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.PopulateCommandBuffer (CommandBuffer cb)\fC [virtual]\fP"
+
+.PP
+Implements \fBUnityEngine\&.PostProcessing\&.PostProcessingComponentCommandBuffer< MotionBlurModel >\fP\&.
+.SS "void UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.ResetHistory ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "override bool UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.active\fC [get]\fP"
+
+.SS "\fBFrameBlendingFilter\fP UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.frameBlendingFilter\fC [get]\fP"
+
+.SS "\fBReconstructionFilter\fP UnityEngine\&.PostProcessing\&.MotionBlurComponent\&.reconstructionFilter\fC [get]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

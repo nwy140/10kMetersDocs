@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_command_accessor_refs_base_8cs" kind="file" language="C#">
+    <compoundname>CommandAccessorRefsBase.cs</compoundname>
+    <innerclass refid="class_command_accessor_refs_base" prot="public">CommandAccessorRefsBase</innerclass>
+    <innerclass refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events" prot="public">CommandAccessorRefsBase::CommandSlotUnityEvents</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>.Events;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>Create<sp/>your<sp/>own<sp/>Monobehavior<sp/>Components<sp/>for<sp/>the<sp/>Command<sp/>Abilities<sp/>Scriptable<sp/>Object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Make<sp/>a<sp/>class<sp/>that<sp/>derives<sp/>from<sp/>this<sp/>script,<sp/>override<sp/>the<sp/>methods<sp/>you<sp/>need<sp/>and<sp/>put<sp/>your<sp/>logic<sp/>there</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Or<sp/>you<sp/>could<sp/>create<sp/>a<sp/>class<sp/>that<sp/>derives<sp/>from<sp/>my<sp/>scriptable<sp/>object&apos;s<sp/>Command<sp/>class<sp/>instead.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_command_accessor_refs_base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_command_accessor_refs_base" kindref="compound">CommandAccessorRefsBase</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="class_command_accessor_refs_base_1acda5694ace3ec7a71a45a571757bb0cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[HideInInspector]<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_command_slot_holder" kindref="compound">CommandSlotHolder</ref><sp/><ref refid="class_command_accessor_refs_base_1acda5694ace3ec7a71a45a571757bb0cf" kindref="member">commandSlotHolder</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Awake()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_command_accessor_refs_base_1acda5694ace3ec7a71a45a571757bb0cf" kindref="member">commandSlotHolder</ref><sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>GetComponent&lt;CommandSlotHolder&gt;()<sp/>!=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_command_accessor_refs_base_1acda5694ace3ec7a71a45a571757bb0cf" kindref="member">commandSlotHolder</ref><sp/>=<sp/>GetComponent&lt;CommandSlotHolder&gt;();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#region<sp/><sp/>Execution<sp/>Method<sp/>Invoked<sp/>from<sp/>Scriptable<sp/>Object<sp/>UnityAction<sp/>~<sp/>See<sp/>Input<sp/>Command<sp/>SO<sp/><sp/><sp/><sp/>[System.Serializable]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Make<sp/>a<sp/>child<sp/>class<sp/>of<sp/>this<sp/>script<sp/>and<sp/>name<sp/>it<sp/>based<sp/>on<sp/>your<sp/>desired<sp/>command,&quot;</highlight><highlight class="normal"><sp/>+</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\nOverride<sp/>its<sp/>methods<sp/>and<sp/>put<sp/>your<sp/>logic<sp/>and<sp/>refs<sp/>there<sp/>for<sp/>your<sp/>desired<sp/>command&quot;</highlight><highlight class="normal"><sp/>+</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\nCall<sp/>anything<sp/>else<sp/>via<sp/>the<sp/>Unity<sp/>Events<sp/>below\n&quot;</highlight><highlight class="normal">+</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\nOr<sp/>you<sp/>could<sp/>create<sp/>a<sp/>class<sp/>that<sp/>derives<sp/>from<sp/>\nmy<sp/>scriptable<sp/>object&apos;s<sp/>Command<sp/>class<sp/>instead,and<sp/>put<sp/>your<sp/>logic<sp/>there<sp/>instead.\n&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events" kindref="compound">CommandSlotUnityEvents</ref><sp/><ref refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" kindref="member">commandSlotUnityEvents</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>[System.Serializable]</highlight></codeline>
+<codeline lineno="29" refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events" kindref="compound">CommandSlotUnityEvents</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1ad29cc65c2d4714c5a68d2655088abaf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>UnityEvent<sp/><ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1ad29cc65c2d4714c5a68d2655088abaf4" kindref="member">ExecPressUnityEvent</ref>;</highlight></codeline>
+<codeline lineno="32" refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1aa88e39564e297be4553b8c1673bb89fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>UnityEvent<sp/><ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1aa88e39564e297be4553b8c1673bb89fd" kindref="member">ExecDownUnityEvent</ref>;</highlight></codeline>
+<codeline lineno="33" refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1a273959d0948de8a6b61a6b5136f4f513" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>UnityEvent<sp/><ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1a273959d0948de8a6b61a6b5136f4f513" kindref="member">ExecDownChargingUnityEvent</ref>;</highlight></codeline>
+<codeline lineno="34" refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1abb67df8418fdc126b65e890519774765" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>UnityEvent<sp/><ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1abb67df8418fdc126b65e890519774765" kindref="member">ExecReleaseUnityEvent</ref>;</highlight></codeline>
+<codeline lineno="35" refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1a6450936e4b44cefb48eff478c10cda66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>UnityEvent<sp/><ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1a6450936e4b44cefb48eff478c10cda66" kindref="member">ExecdUnityEvent</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37" refid="class_command_accessor_refs_base_1ad55d19fe8fa95bf27cc400411dc1a3ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_command_accessor_refs_base_1ad55d19fe8fa95bf27cc400411dc1a3ae" kindref="member">ExecPress</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" kindref="member">commandSlotUnityEvents</ref>.<ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1ad29cc65c2d4714c5a68d2655088abaf4" kindref="member">ExecPressUnityEvent</ref>.Invoke();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41" refid="class_command_accessor_refs_base_1a9e1b6afd3c246328cc9c4ecfb50252a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_command_accessor_refs_base_1a9e1b6afd3c246328cc9c4ecfb50252a8" kindref="member">ExecDown</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" kindref="member">commandSlotUnityEvents</ref>.<ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1aa88e39564e297be4553b8c1673bb89fd" kindref="member">ExecDownUnityEvent</ref>.Invoke();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_command_accessor_refs_base_1a2efe5f53b05a309413caa0f80d280d3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_command_accessor_refs_base_1a2efe5f53b05a309413caa0f80d280d3b" kindref="member">ExecDownCharging</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" kindref="member">commandSlotUnityEvents</ref>.<ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1a273959d0948de8a6b61a6b5136f4f513" kindref="member">ExecDownChargingUnityEvent</ref>.Invoke();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_command_accessor_refs_base_1ab5b0d3cdf05705e67d07935ac88e03dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_command_accessor_refs_base_1ab5b0d3cdf05705e67d07935ac88e03dd" kindref="member">ExecRelease</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" kindref="member">commandSlotUnityEvents</ref>.<ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1abb67df8418fdc126b65e890519774765" kindref="member">ExecReleaseUnityEvent</ref>.Invoke();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="class_command_accessor_refs_base_1ae90967129d8c187c04b9cff8615dc68c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_command_accessor_refs_base_1ae90967129d8c187c04b9cff8615dc68c" kindref="member">Execd</ref>()</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" kindref="member">commandSlotUnityEvents</ref>.<ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1a6450936e4b44cefb48eff478c10cda66" kindref="member">ExecdUnityEvent</ref>.Invoke();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endregion<sp/><sp/>Execution<sp/>Method<sp/>Invoked<sp/>from<sp/>Scriptable<sp/>Object<sp/>UnityAction<sp/>~<sp/>See<sp/>Input<sp/>Command<sp/>SO<sp/><sp/><sp/><sp/>[System.Serializable]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Unused</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">//private<sp/>void<sp/>OnEnable()</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">//{</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.instanceInfo._isEnabled<sp/>=<sp/>true;</highlight></codeline>
+<codeline lineno="74"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecPressHolderEvent<sp/>+=<sp/>ExecPress;</highlight></codeline>
+<codeline lineno="75"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecDownHolderEvent<sp/>+=<sp/>ExecDown;</highlight></codeline>
+<codeline lineno="76"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecDownChargingHolderEvent<sp/>+=<sp/>ExecDownCharging;</highlight></codeline>
+<codeline lineno="77"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecReleaseHolderEvent<sp/>+=<sp/>ExecRelease;</highlight></codeline>
+<codeline lineno="78"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecdHolderEvent<sp/>+=<sp/>Execd;</highlight></codeline>
+<codeline lineno="79"><highlight class="comment">//}</highlight></codeline>
+<codeline lineno="80"><highlight class="comment">//private<sp/>void<sp/>OnDisable()</highlight></codeline>
+<codeline lineno="81"><highlight class="comment">//{</highlight></codeline>
+<codeline lineno="82"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.instanceInfo._isEnabled<sp/>=<sp/>false;</highlight></codeline>
+<codeline lineno="83"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecPressHolderEvent<sp/>-=<sp/>ExecPress;</highlight></codeline>
+<codeline lineno="84"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecDownHolderEvent<sp/>-=<sp/>ExecDown;</highlight></codeline>
+<codeline lineno="85"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecDownChargingHolderEvent<sp/>-=<sp/>ExecDownCharging;</highlight></codeline>
+<codeline lineno="86"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecReleaseHolderEvent<sp/>-=<sp/>ExecRelease;</highlight></codeline>
+<codeline lineno="87"><highlight class="comment">//<sp/><sp/><sp/><sp/>commandSlotHolder.commandInstanceInSlot.execInfo.ExecdHolderEvent<sp/>-=<sp/>Execd;</highlight></codeline>
+<codeline lineno="88"><highlight class="comment">//}</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"></highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs"/>
+  </compounddef>
+</doxygen>

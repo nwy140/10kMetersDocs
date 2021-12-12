@@ -1,0 +1,274 @@
+\hypertarget{class_audio_manager}{}\doxysection{Audio\+Manager Class Reference}
+\label{class_audio_manager}\index{AudioManager@{AudioManager}}
+
+
+Inheritance diagram for Audio\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{class_audio_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audio\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_audio_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_audio_manager_a09774d2457c33607be8260e7b54ae2d1}{Reset\+Volume\+Settings\+To\+Default}} ()
+\item 
+void \mbox{\hyperlink{class_audio_manager_aa51b69611551c60195b629367c607e3a}{Load\+Volume\+Settings\+Player\+Prefs}} ()
+\item 
+void \mbox{\hyperlink{class_audio_manager_ac91c4c3f15b69879556efac5c44434d2}{Save\+Volume\+Settings\+Player\+Prefs}} ()
+\item 
+void \mbox{\hyperlink{class_audio_manager_a857cbe52aa78360c54f9a2414deb51e7}{Play\+SFX}} (string sfx\+Name)
+\item 
+void \mbox{\hyperlink{class_audio_manager_a54a5ef330c9fe89420a86337c785a2a8}{Play\+BGM}} (string bgm\+Name)
+\item 
+void \mbox{\hyperlink{class_audio_manager_acd438e15c4afe675fe47d3f77fee4e4f}{Stop\+BGM}} (string name)
+\item 
+void \mbox{\hyperlink{class_audio_manager_a96b105320ad573f7e2371f70dd3688ae}{Play\+BGMFade\+Transition}} (string name)
+\item 
+void \mbox{\hyperlink{class_audio_manager_ab55ae7d62d8473122b8969709e60e2a0}{Stop\+BGMFade\+Out\+Transition}} (string name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_audio_manager_a7ed105228fa977c04c4e036644806a30}{default\+SFXMaster\+Volume}} = 0.\+75f
+\item 
+float \mbox{\hyperlink{class_audio_manager_a089d4e33fb32ca3918cd19fa03c50570}{default\+BGMMaster\+Volume}} = 0.\+8f
+\item 
+float \mbox{\hyperlink{class_audio_manager_a2f377e4c17fcc04e4342bfbe323a3555}{default\+Overall\+Volume}} = 0.\+3f
+\item 
+bool \mbox{\hyperlink{class_audio_manager_adc61667569155015f40995bc072fe579}{is\+Volume\+Setting\+Saved}}
+\item 
+bool \mbox{\hyperlink{class_audio_manager_aa991e389ccf5fb16eba490b6142bfa46}{is\+Application\+Run\+In\+Background}} = true
+\item 
+float \mbox{\hyperlink{class_audio_manager_aa8d0c09ddf7bbed454f76c499dc11b06}{SFXMaster\+Volume}} = 1f
+\item 
+float \mbox{\hyperlink{class_audio_manager_a3c8f103cfc152c9da6dcf9cf601caf76}{BGMMaster\+Volume}} = 1f
+\item 
+float \mbox{\hyperlink{class_audio_manager_a30ee500ed936234fed201fbaa68c3f2b}{overall\+Volume}} = 1f
+\item 
+\mbox{\hyperlink{class_sound}{Sound}} \mbox{\hyperlink{class_audio_manager_a47ecbaf236ea543101bea3585bb8e930}{curr\+SFX}}
+\item 
+\mbox{\hyperlink{class_sound}{Sound}} \mbox{\hyperlink{class_audio_manager_adc6aae05cee1b51de7ded43313c7a8aa}{curr\+BGM}}
+\item 
+Game\+Object \mbox{\hyperlink{class_audio_manager_a59b00472bf64329ce7b8df10c5b7f6f9}{multi\+Audio\+Source\+Obj}}
+\item 
+List$<$ \mbox{\hyperlink{class_sound}{Sound}} $>$ \mbox{\hyperlink{class_audio_manager_a9c02e7ce083c96b3282795eaacf1405a}{sounds\+SFX}}
+\item 
+List$<$ \mbox{\hyperlink{class_sound}{Sound}} $>$ \mbox{\hyperlink{class_audio_manager_adcc47be5d0c98b9f97cc91f13fec1bb2}{sounds\+BGM}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_audio_manager}{Audio\+Manager}} \mbox{\hyperlink{class_audio_manager_a22b1b1a94ee423ccb2b142b4f5a70ad4}{instance}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_audio_manager_aa51b69611551c60195b629367c607e3a}\label{class_audio_manager_aa51b69611551c60195b629367c607e3a}} 
+\index{AudioManager@{AudioManager}!LoadVolumeSettingsPlayerPrefs@{LoadVolumeSettingsPlayerPrefs}}
+\index{LoadVolumeSettingsPlayerPrefs@{LoadVolumeSettingsPlayerPrefs}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{LoadVolumeSettingsPlayerPrefs()}{LoadVolumeSettingsPlayerPrefs()}}
+{\footnotesize\ttfamily void Audio\+Manager.\+Load\+Volume\+Settings\+Player\+Prefs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_audio_manager_a54a5ef330c9fe89420a86337c785a2a8}\label{class_audio_manager_a54a5ef330c9fe89420a86337c785a2a8}} 
+\index{AudioManager@{AudioManager}!PlayBGM@{PlayBGM}}
+\index{PlayBGM@{PlayBGM}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{PlayBGM()}{PlayBGM()}}
+{\footnotesize\ttfamily void Audio\+Manager.\+Play\+BGM (\begin{DoxyParamCaption}\item[{string}]{bgm\+Name }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_manager_a54a5ef330c9fe89420a86337c785a2a8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_manager_a96b105320ad573f7e2371f70dd3688ae}\label{class_audio_manager_a96b105320ad573f7e2371f70dd3688ae}} 
+\index{AudioManager@{AudioManager}!PlayBGMFadeTransition@{PlayBGMFadeTransition}}
+\index{PlayBGMFadeTransition@{PlayBGMFadeTransition}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{PlayBGMFadeTransition()}{PlayBGMFadeTransition()}}
+{\footnotesize\ttfamily void Audio\+Manager.\+Play\+BGMFade\+Transition (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_manager_a96b105320ad573f7e2371f70dd3688ae_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_manager_a857cbe52aa78360c54f9a2414deb51e7}\label{class_audio_manager_a857cbe52aa78360c54f9a2414deb51e7}} 
+\index{AudioManager@{AudioManager}!PlaySFX@{PlaySFX}}
+\index{PlaySFX@{PlaySFX}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{PlaySFX()}{PlaySFX()}}
+{\footnotesize\ttfamily void Audio\+Manager.\+Play\+SFX (\begin{DoxyParamCaption}\item[{string}]{sfx\+Name }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_manager_a857cbe52aa78360c54f9a2414deb51e7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_manager_a09774d2457c33607be8260e7b54ae2d1}\label{class_audio_manager_a09774d2457c33607be8260e7b54ae2d1}} 
+\index{AudioManager@{AudioManager}!ResetVolumeSettingsToDefault@{ResetVolumeSettingsToDefault}}
+\index{ResetVolumeSettingsToDefault@{ResetVolumeSettingsToDefault}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{ResetVolumeSettingsToDefault()}{ResetVolumeSettingsToDefault()}}
+{\footnotesize\ttfamily void Audio\+Manager.\+Reset\+Volume\+Settings\+To\+Default (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_manager_a09774d2457c33607be8260e7b54ae2d1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_manager_ac91c4c3f15b69879556efac5c44434d2}\label{class_audio_manager_ac91c4c3f15b69879556efac5c44434d2}} 
+\index{AudioManager@{AudioManager}!SaveVolumeSettingsPlayerPrefs@{SaveVolumeSettingsPlayerPrefs}}
+\index{SaveVolumeSettingsPlayerPrefs@{SaveVolumeSettingsPlayerPrefs}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{SaveVolumeSettingsPlayerPrefs()}{SaveVolumeSettingsPlayerPrefs()}}
+{\footnotesize\ttfamily void Audio\+Manager.\+Save\+Volume\+Settings\+Player\+Prefs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_manager_ac91c4c3f15b69879556efac5c44434d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_manager_acd438e15c4afe675fe47d3f77fee4e4f}\label{class_audio_manager_acd438e15c4afe675fe47d3f77fee4e4f}} 
+\index{AudioManager@{AudioManager}!StopBGM@{StopBGM}}
+\index{StopBGM@{StopBGM}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{StopBGM()}{StopBGM()}}
+{\footnotesize\ttfamily void Audio\+Manager.\+Stop\+BGM (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_audio_manager_ab55ae7d62d8473122b8969709e60e2a0}\label{class_audio_manager_ab55ae7d62d8473122b8969709e60e2a0}} 
+\index{AudioManager@{AudioManager}!StopBGMFadeOutTransition@{StopBGMFadeOutTransition}}
+\index{StopBGMFadeOutTransition@{StopBGMFadeOutTransition}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{StopBGMFadeOutTransition()}{StopBGMFadeOutTransition()}}
+{\footnotesize\ttfamily void Audio\+Manager.\+Stop\+BGMFade\+Out\+Transition (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_manager_ab55ae7d62d8473122b8969709e60e2a0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_manager_ab55ae7d62d8473122b8969709e60e2a0_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_audio_manager_a3c8f103cfc152c9da6dcf9cf601caf76}\label{class_audio_manager_a3c8f103cfc152c9da6dcf9cf601caf76}} 
+\index{AudioManager@{AudioManager}!BGMMasterVolume@{BGMMasterVolume}}
+\index{BGMMasterVolume@{BGMMasterVolume}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{BGMMasterVolume}{BGMMasterVolume}}
+{\footnotesize\ttfamily float Audio\+Manager.\+BGMMaster\+Volume = 1f}
+
+\mbox{\Hypertarget{class_audio_manager_adc6aae05cee1b51de7ded43313c7a8aa}\label{class_audio_manager_adc6aae05cee1b51de7ded43313c7a8aa}} 
+\index{AudioManager@{AudioManager}!currBGM@{currBGM}}
+\index{currBGM@{currBGM}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{currBGM}{currBGM}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sound}{Sound}} Audio\+Manager.\+curr\+BGM}
+
+\mbox{\Hypertarget{class_audio_manager_a47ecbaf236ea543101bea3585bb8e930}\label{class_audio_manager_a47ecbaf236ea543101bea3585bb8e930}} 
+\index{AudioManager@{AudioManager}!currSFX@{currSFX}}
+\index{currSFX@{currSFX}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{currSFX}{currSFX}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sound}{Sound}} Audio\+Manager.\+curr\+SFX}
+
+\mbox{\Hypertarget{class_audio_manager_a089d4e33fb32ca3918cd19fa03c50570}\label{class_audio_manager_a089d4e33fb32ca3918cd19fa03c50570}} 
+\index{AudioManager@{AudioManager}!defaultBGMMasterVolume@{defaultBGMMasterVolume}}
+\index{defaultBGMMasterVolume@{defaultBGMMasterVolume}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{defaultBGMMasterVolume}{defaultBGMMasterVolume}}
+{\footnotesize\ttfamily float Audio\+Manager.\+default\+BGMMaster\+Volume = 0.\+8f}
+
+\mbox{\Hypertarget{class_audio_manager_a2f377e4c17fcc04e4342bfbe323a3555}\label{class_audio_manager_a2f377e4c17fcc04e4342bfbe323a3555}} 
+\index{AudioManager@{AudioManager}!defaultOverallVolume@{defaultOverallVolume}}
+\index{defaultOverallVolume@{defaultOverallVolume}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{defaultOverallVolume}{defaultOverallVolume}}
+{\footnotesize\ttfamily float Audio\+Manager.\+default\+Overall\+Volume = 0.\+3f}
+
+\mbox{\Hypertarget{class_audio_manager_a7ed105228fa977c04c4e036644806a30}\label{class_audio_manager_a7ed105228fa977c04c4e036644806a30}} 
+\index{AudioManager@{AudioManager}!defaultSFXMasterVolume@{defaultSFXMasterVolume}}
+\index{defaultSFXMasterVolume@{defaultSFXMasterVolume}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{defaultSFXMasterVolume}{defaultSFXMasterVolume}}
+{\footnotesize\ttfamily float Audio\+Manager.\+default\+SFXMaster\+Volume = 0.\+75f}
+
+\mbox{\Hypertarget{class_audio_manager_a22b1b1a94ee423ccb2b142b4f5a70ad4}\label{class_audio_manager_a22b1b1a94ee423ccb2b142b4f5a70ad4}} 
+\index{AudioManager@{AudioManager}!instance@{instance}}
+\index{instance@{instance}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{instance}{instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_audio_manager}{Audio\+Manager}} Audio\+Manager.\+instance\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_audio_manager_aa991e389ccf5fb16eba490b6142bfa46}\label{class_audio_manager_aa991e389ccf5fb16eba490b6142bfa46}} 
+\index{AudioManager@{AudioManager}!isApplicationRunInBackground@{isApplicationRunInBackground}}
+\index{isApplicationRunInBackground@{isApplicationRunInBackground}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{isApplicationRunInBackground}{isApplicationRunInBackground}}
+{\footnotesize\ttfamily bool Audio\+Manager.\+is\+Application\+Run\+In\+Background = true}
+
+\mbox{\Hypertarget{class_audio_manager_adc61667569155015f40995bc072fe579}\label{class_audio_manager_adc61667569155015f40995bc072fe579}} 
+\index{AudioManager@{AudioManager}!isVolumeSettingSaved@{isVolumeSettingSaved}}
+\index{isVolumeSettingSaved@{isVolumeSettingSaved}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{isVolumeSettingSaved}{isVolumeSettingSaved}}
+{\footnotesize\ttfamily bool Audio\+Manager.\+is\+Volume\+Setting\+Saved}
+
+\mbox{\Hypertarget{class_audio_manager_a59b00472bf64329ce7b8df10c5b7f6f9}\label{class_audio_manager_a59b00472bf64329ce7b8df10c5b7f6f9}} 
+\index{AudioManager@{AudioManager}!multiAudioSourceObj@{multiAudioSourceObj}}
+\index{multiAudioSourceObj@{multiAudioSourceObj}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{multiAudioSourceObj}{multiAudioSourceObj}}
+{\footnotesize\ttfamily Game\+Object Audio\+Manager.\+multi\+Audio\+Source\+Obj}
+
+\mbox{\Hypertarget{class_audio_manager_a30ee500ed936234fed201fbaa68c3f2b}\label{class_audio_manager_a30ee500ed936234fed201fbaa68c3f2b}} 
+\index{AudioManager@{AudioManager}!overallVolume@{overallVolume}}
+\index{overallVolume@{overallVolume}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{overallVolume}{overallVolume}}
+{\footnotesize\ttfamily float Audio\+Manager.\+overall\+Volume = 1f}
+
+\mbox{\Hypertarget{class_audio_manager_aa8d0c09ddf7bbed454f76c499dc11b06}\label{class_audio_manager_aa8d0c09ddf7bbed454f76c499dc11b06}} 
+\index{AudioManager@{AudioManager}!SFXMasterVolume@{SFXMasterVolume}}
+\index{SFXMasterVolume@{SFXMasterVolume}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{SFXMasterVolume}{SFXMasterVolume}}
+{\footnotesize\ttfamily float Audio\+Manager.\+SFXMaster\+Volume = 1f}
+
+\mbox{\Hypertarget{class_audio_manager_adcc47be5d0c98b9f97cc91f13fec1bb2}\label{class_audio_manager_adcc47be5d0c98b9f97cc91f13fec1bb2}} 
+\index{AudioManager@{AudioManager}!soundsBGM@{soundsBGM}}
+\index{soundsBGM@{soundsBGM}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{soundsBGM}{soundsBGM}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_sound}{Sound}}$>$ Audio\+Manager.\+sounds\+BGM}
+
+\mbox{\Hypertarget{class_audio_manager_a9c02e7ce083c96b3282795eaacf1405a}\label{class_audio_manager_a9c02e7ce083c96b3282795eaacf1405a}} 
+\index{AudioManager@{AudioManager}!soundsSFX@{soundsSFX}}
+\index{soundsSFX@{soundsSFX}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{soundsSFX}{soundsSFX}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_sound}{Sound}}$>$ Audio\+Manager.\+sounds\+SFX}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+\_\+\+Common\+V0.\+2/\+Singletons/\mbox{\hyperlink{_audio_manager_8cs}{Audio\+Manager.\+cs}}\end{DoxyCompactItemize}

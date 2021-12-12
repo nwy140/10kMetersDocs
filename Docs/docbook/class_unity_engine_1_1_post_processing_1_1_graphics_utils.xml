@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.GraphicsUtils Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.GraphicsUtils:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_graphics_utils__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1ac4809219f9502267065e855e62dd64de">Blit</link> (Material material, int pass)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a87526dc05f6c55d88a1bb47c614b250d">ClearAndBlit</link> (Texture source, RenderTexture destination, Material material, int pass, bool clearColor=true, bool clearDepth=false)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a33ab867d673af33b801d7e6edafaa8e7">Destroy</link> (<link linkend="_namespace_unity_engine_1_1_post_processing_1a4d6b4edb7079fca849178803e29c49bb">UnityObject</link> obj)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a05480dd987f0e42c01bae89f26bad4b8">Dispose</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a4c516ec56416acd3d25bd56ac5b050e6">isLinearColorSpace</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1aa52e38bfebfc8b51a2d8c33de57c9a75">supportsDX11</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>static Texture2D <link linkend="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1ac3517dcff552180f8d10dab50463518c">whiteTexture</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>static Mesh <link linkend="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1abd61c3a628477b875d7e73af470ef03b">quad</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1ac4809219f9502267065e855e62dd64de"/><section>
+    <title>Blit()</title>
+<indexterm><primary>Blit</primary><secondary>UnityEngine.PostProcessing.GraphicsUtils</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary><secondary>Blit</secondary></indexterm>
+<para><computeroutput>static void UnityEngine.PostProcessing.GraphicsUtils.Blit (Material material, int pass)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_graphics_utils_ac4809219f9502267065e855e62dd64de_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a87526dc05f6c55d88a1bb47c614b250d"/><section>
+    <title>ClearAndBlit()</title>
+<indexterm><primary>ClearAndBlit</primary><secondary>UnityEngine.PostProcessing.GraphicsUtils</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary><secondary>ClearAndBlit</secondary></indexterm>
+<para><computeroutput>static void UnityEngine.PostProcessing.GraphicsUtils.ClearAndBlit (Texture source, RenderTexture destination, Material material, int pass, bool clearColor = <computeroutput>true</computeroutput>
+, bool clearDepth = <computeroutput>false</computeroutput>
+)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a33ab867d673af33b801d7e6edafaa8e7"/><section>
+    <title>Destroy()</title>
+<indexterm><primary>Destroy</primary><secondary>UnityEngine.PostProcessing.GraphicsUtils</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary><secondary>Destroy</secondary></indexterm>
+<para><computeroutput>static void UnityEngine.PostProcessing.GraphicsUtils.Destroy (<link linkend="_namespace_unity_engine_1_1_post_processing_1a4d6b4edb7079fca849178803e29c49bb">UnityObject</link> obj)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_graphics_utils_a33ab867d673af33b801d7e6edafaa8e7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a05480dd987f0e42c01bae89f26bad4b8"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>UnityEngine.PostProcessing.GraphicsUtils</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>static void UnityEngine.PostProcessing.GraphicsUtils.Dispose ( )<computeroutput>[static]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_graphics_utils_a05480dd987f0e42c01bae89f26bad4b8_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a4c516ec56416acd3d25bd56ac5b050e6"/><section>
+    <title>isLinearColorSpace</title>
+<indexterm><primary>isLinearColorSpace</primary><secondary>UnityEngine.PostProcessing.GraphicsUtils</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary><secondary>isLinearColorSpace</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.GraphicsUtils.isLinearColorSpace<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1abd61c3a628477b875d7e73af470ef03b"/><section>
+    <title>quad</title>
+<indexterm><primary>quad</primary><secondary>UnityEngine.PostProcessing.GraphicsUtils</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary><secondary>quad</secondary></indexterm>
+<para><computeroutput>Mesh UnityEngine.PostProcessing.GraphicsUtils.quad<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1aa52e38bfebfc8b51a2d8c33de57c9a75"/><section>
+    <title>supportsDX11</title>
+<indexterm><primary>supportsDX11</primary><secondary>UnityEngine.PostProcessing.GraphicsUtils</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary><secondary>supportsDX11</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.GraphicsUtils.supportsDX11<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_graphics_utils_1ac3517dcff552180f8d10dab50463518c"/><section>
+    <title>whiteTexture</title>
+<indexterm><primary>whiteTexture</primary><secondary>UnityEngine.PostProcessing.GraphicsUtils</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.GraphicsUtils</primary><secondary>whiteTexture</secondary></indexterm>
+<para><computeroutput>Texture2D UnityEngine.PostProcessing.GraphicsUtils.whiteTexture<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Utils/<link linkend="__graphics_utils_8cs">GraphicsUtils.cs</link></section>
+</section>

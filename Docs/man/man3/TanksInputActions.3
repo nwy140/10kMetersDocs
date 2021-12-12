@@ -1,0 +1,129 @@
+.TH "TanksInputActions" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TanksInputActions
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits IInputActionCollection2, and IDisposable\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "interface \fBIPlayerActions\fP"
+.br
+.ti -1c
+.RI "interface \fBIUIActions\fP"
+.br
+.ti -1c
+.RI "struct \fBPlayerActions\fP"
+.br
+.ti -1c
+.RI "struct \fBUIActions\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTanksInputActions\fP ()"
+.br
+.ti -1c
+.RI "void \fBDispose\fP ()"
+.br
+.ti -1c
+.RI "bool \fBContains\fP (InputAction action)"
+.br
+.ti -1c
+.RI "IEnumerator< InputAction > \fBGetEnumerator\fP ()"
+.br
+.ti -1c
+.RI "void \fBEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBDisable\fP ()"
+.br
+.ti -1c
+.RI "InputAction \fBFindAction\fP (string actionNameOrId, bool throwIfNotFound=false)"
+.br
+.ti -1c
+.RI "int \fBFindBinding\fP (InputBinding \fBbindingMask\fP, out InputAction action)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "InputActionAsset \fBasset\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputBinding? \fBbindingMask\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "ReadOnlyArray< InputDevice >? \fBdevices\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "ReadOnlyArray< InputControlScheme > \fBcontrolSchemes\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "IEnumerable< InputBinding > \fBbindings\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBPlayerActions\fP \fBPlayer\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBUIActions\fP \fBUI\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputControlScheme \fBKeyboardMouseScheme\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputControlScheme \fBGamepadScheme\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "TanksInputActions\&.TanksInputActions ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "bool TanksInputActions\&.Contains (InputAction action)"
+
+.SS "void TanksInputActions\&.Disable ()"
+
+.SS "void TanksInputActions\&.Dispose ()"
+
+.SS "void TanksInputActions\&.Enable ()"
+
+.SS "InputAction TanksInputActions\&.FindAction (string actionNameOrId, bool throwIfNotFound = \fCfalse\fP)"
+
+.SS "int TanksInputActions\&.FindBinding (InputBinding bindingMask, out InputAction action)"
+
+.SS "IEnumerator< InputAction > TanksInputActions\&.GetEnumerator ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "InputActionAsset TanksInputActions\&.asset\fC [get]\fP"
+
+.SS "InputBinding? TanksInputActions\&.bindingMask\fC [get]\fP, \fC [set]\fP"
+
+.SS "IEnumerable<InputBinding> TanksInputActions\&.bindings\fC [get]\fP"
+
+.SS "ReadOnlyArray<InputControlScheme> TanksInputActions\&.controlSchemes\fC [get]\fP"
+
+.SS "ReadOnlyArray<InputDevice>? TanksInputActions\&.devices\fC [get]\fP, \fC [set]\fP"
+
+.SS "InputControlScheme TanksInputActions\&.GamepadScheme\fC [get]\fP"
+
+.SS "InputControlScheme TanksInputActions\&.KeyboardMouseScheme\fC [get]\fP"
+
+.SS "\fBPlayerActions\fP TanksInputActions\&.Player\fC [get]\fP"
+
+.SS "\fBUIActions\fP TanksInputActions\&.UI\fC [get]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

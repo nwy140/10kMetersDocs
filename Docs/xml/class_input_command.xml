@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_input_command" kind="class" language="C#" prot="public">
+    <compoundname>InputCommand</compoundname>
+    <basecompoundref refid="class_command_base" prot="public" virt="non-virtual">CommandBase</basecompoundref>
+    <derivedcompoundref refid="class_ability_command" prot="public" virt="non-virtual">AbilityCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_enable_disable_game_object_command" prot="public" virt="non-virtual">EnableDisableGameObjectCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_set_material_color_command" prot="public" virt="non-virtual">SetMaterialColorCommand</derivedcompoundref>
+    <innerclass refid="struct_input_command_1_1_exec_extra_info" prot="public">InputCommand::ExecExtraInfo</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_input_command_1abe94f0184191eb65faabf23b8330de64" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_input_command_1_1_exec_extra_info" kindref="compound">ExecExtraInfo</ref></type>
+        <definition>ExecExtraInfo InputCommand.execExtraInfo</definition>
+        <argsstring></argsstring>
+        <name>execExtraInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="11" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_command_queue_helper_1a1d27bd76d4426d4967b69d2d434ccc10" compoundref="_command_queue_helper_8cs" startline="235" endline="251">CommandQueueHelper.ExecCommand_HoldRelease</referencedby>
+        <referencedby refid="class_command_queue_helper_1a2e67f0f4796efc3768308214d9c51516" compoundref="_command_queue_helper_8cs" startline="225" endline="234">CommandQueueHelper.ExecCommand_Press</referencedby>
+        <referencedby refid="class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18" compoundref="_command_queue_helper_8cs" startline="202" endline="210">CommandQueueHelper.ExecCommand_SimulateInputSystem</referencedby>
+        <referencedby refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" compoundref="_input_command_8cs" startline="158" endline="168">ExecDown</referencedby>
+        <referencedby refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0" compoundref="_input_command_8cs" startline="170" endline="181">ExecDownCharging</referencedby>
+        <referencedby refid="class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73" compoundref="_input_command_8cs" startline="152" endline="157">ExecPress</referencedby>
+        <referencedby refid="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993" compoundref="_input_command_8cs" startline="182" endline="208">ExecRelease</referencedby>
+        <referencedby refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">SetExecInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_command_1a650667185330f536d9d30006d0f24fb1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InputCommand.isExecChargedStyle</definition>
+        <argsstring></argsstring>
+        <name>isExecChargedStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="40" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" compoundref="_input_command_8cs" startline="158" endline="168">ExecDown</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_command_1a367ec9a14bb8adf2a0e6c8d08d69e293" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InputCommand.isFullChargeAutoRelease</definition>
+        <argsstring></argsstring>
+        <name>isFullChargeAutoRelease</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="41" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_command_1a7a80fa14702ddfb758a102a049e4b646" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider InputCommand.m_AimSlider</definition>
+        <argsstring></argsstring>
+        <name>m_AimSlider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="43" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0" compoundref="_input_command_8cs" startline="170" endline="181">ExecDownCharging</referencedby>
+        <referencedby refid="class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5" compoundref="_input_command_8cs" startline="50" endline="62">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_command_1a66f6ff264504a60e916f48ebcf505314" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InputCommand.m_MinLaunchForce</definition>
+        <argsstring></argsstring>
+        <name>m_MinLaunchForce</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="44" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993" compoundref="_input_command_8cs" startline="182" endline="208">ExecRelease</referencedby>
+        <referencedby refid="class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5" compoundref="_input_command_8cs" startline="50" endline="62">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_command_1a83a0c47291eecef5303b9b2eab9b3f49" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InputCommand.m_MaxLaunchForce</definition>
+        <argsstring></argsstring>
+        <name>m_MaxLaunchForce</name>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="45" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5" compoundref="_input_command_8cs" startline="50" endline="62">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_command_1aa625570f0ab58850e7c4a7dc11252f70" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InputCommand.m_MaxChargeTime</definition>
+        <argsstring></argsstring>
+        <name>m_MaxChargeTime</name>
+        <initializer>= 0.75f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="46" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5" compoundref="_input_command_8cs" startline="50" endline="62">OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_input_command_1a5726a22982323d840cb2af8246c1e33d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InputCommand.m_CurrentLaunchForce</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentLaunchForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="48" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_command_1abc436b116219b8a816f759e410eed23e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InputCommand.m_ChargeSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_ChargeSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="49" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_input_command_1a43dcf98e0801e194dd8030212cc3e145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputCommand.SetExecExtraInfoByExecExtraInfo</definition>
+        <argsstring>(ExecExtraInfo ex2)</argsstring>
+        <name>SetExecExtraInfoByExecExtraInfo</name>
+        <param>
+          <type><ref refid="struct_input_command_1_1_exec_extra_info" kindref="compound">ExecExtraInfo</ref></type>
+          <declname>ex2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="28" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="28" bodyend="38"/>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a099fdd72e86df4bb6617532c5ccf5a2b" compoundref="_input_command_8cs" startline="21">InputCommand.ExecExtraInfo.m_ExecButtonDown</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a7c6ce14977d6711ffd2dc6846e330361" compoundref="_input_command_8cs" startline="19">InputCommand.ExecExtraInfo.m_ExecButtonPressedThisFrame</references>
+        <references refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">SetExecInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InputCommand.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_command_base_1a715925776f1d5f4cb3c75d60043455bd">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="50" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="50" bodyend="62"/>
+        <references refid="class_input_command_1a7a80fa14702ddfb758a102a049e4b646" compoundref="_input_command_8cs" startline="43">m_AimSlider</references>
+        <references refid="class_input_command_1aa625570f0ab58850e7c4a7dc11252f70" compoundref="_input_command_8cs" startline="46">m_MaxChargeTime</references>
+        <references refid="class_input_command_1a83a0c47291eecef5303b9b2eab9b3f49" compoundref="_input_command_8cs" startline="45">m_MaxLaunchForce</references>
+        <references refid="class_input_command_1a66f6ff264504a60e916f48ebcf505314" compoundref="_input_command_8cs" startline="44">m_MinLaunchForce</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputCommand.SetExecInfo</definition>
+        <argsstring>(bool IsPress)</argsstring>
+        <name>SetExecInfo</name>
+        <param>
+          <type>bool</type>
+          <declname>IsPress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="121" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="121" bodyend="142"/>
+        <references refid="struct_command_base_1_1_cooldown_info_1a744e22238d30ea394f82cb8f0b0cccd4" compoundref="_command_base_8cs" startline="56">CommandBase.CooldownInfo.castState</references>
+        <references refid="class_command_base_1a00855c89a1d7f998d84163304d5568fd" compoundref="_command_base_8cs" startline="47">CommandBase.cooldownInfo</references>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">execExtraInfo</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a099fdd72e86df4bb6617532c5ccf5a2b" compoundref="_input_command_8cs" startline="21">InputCommand.ExecExtraInfo.m_ExecButtonDown</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a7c6ce14977d6711ffd2dc6846e330361" compoundref="_input_command_8cs" startline="19">InputCommand.ExecExtraInfo.m_ExecButtonPressedThisFrame</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a0a4f96901ea73ba2894016c65cfb1821" compoundref="_input_command_8cs" startline="20">InputCommand.ExecExtraInfo.m_ExecButtonReleasedThisFrame</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a9fed7424137c6ec41f3d27e6e4317d1c" compoundref="_input_command_8cs" startline="18">InputCommand.ExecExtraInfo.m_Execd</references>
+        <referencedby refid="class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18" compoundref="_command_queue_helper_8cs" startline="202" endline="210">CommandQueueHelper.ExecCommand_SimulateInputSystem</referencedby>
+        <referencedby refid="class_input_command_1a97a167a50735820e585e0f6c9b926ede" compoundref="_input_command_8cs" startline="247" endline="260">OnInput</referencedby>
+        <referencedby refid="class_input_command_1a43dcf98e0801e194dd8030212cc3e145" compoundref="_input_command_8cs" startline="28" endline="38">SetExecExtraInfoByExecExtraInfo</referencedby>
+        <referencedby refid="class_input_command_1a32ba692a92ce5fd84c67ab3d320965ad" compoundref="_input_command_8cs" startline="143" endline="149">TryExecCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a32ba692a92ce5fd84c67ab3d320965ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InputCommand.TryExecCommand</definition>
+        <argsstring>()</argsstring>
+        <name>TryExecCommand</name>
+        <reimplements refid="class_command_base_1a405d08e553ab58bb187c762a91fe20d8">TryExecCommand</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="143" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="143" bodyend="149"/>
+        <references refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">SetExecInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InputCommand.ExecPress</definition>
+        <argsstring>()</argsstring>
+        <name>ExecPress</name>
+        <reimplements refid="class_command_base_1a2555099b8b8f7345919865ca0daa4bdb">ExecPress</reimplements>
+        <reimplementedby refid="class_enable_disable_game_object_command_1a90b52b05f06141aa37a6861111b4cb0a">ExecPress</reimplementedby>
+        <reimplementedby refid="class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7">ExecPress</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="152" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="152" bodyend="157"/>
+        <references refid="struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5" compoundref="_command_base_8cs" startline="24">CommandBase.Info._DebugLog</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">execExtraInfo</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">CommandBase.execInfo</references>
+        <references refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" compoundref="_command_base_8cs" startline="17">CommandBase.info</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7" compoundref="_input_command_8cs" startline="24">InputCommand.ExecExtraInfo.m_Axis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InputCommand.ExecDown</definition>
+        <argsstring>()</argsstring>
+        <name>ExecDown</name>
+        <reimplements refid="class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577">ExecDown</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="158" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="158" bodyend="168"/>
+        <references refid="struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5" compoundref="_command_base_8cs" startline="24">CommandBase.Info._DebugLog</references>
+        <references refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" compoundref="_command_base_8cs" startline="114" endline="114">CommandBase.aName</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0" compoundref="_input_command_8cs" startline="170" endline="181">ExecDownCharging</references>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">execExtraInfo</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">CommandBase.execInfo</references>
+        <references refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" compoundref="_command_base_8cs" startline="17">CommandBase.info</references>
+        <references refid="class_input_command_1a650667185330f536d9d30006d0f24fb1" compoundref="_input_command_8cs" startline="40">isExecChargedStyle</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7" compoundref="_input_command_8cs" startline="24">InputCommand.ExecExtraInfo.m_Axis</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a9fed7424137c6ec41f3d27e6e4317d1c" compoundref="_input_command_8cs" startline="18">InputCommand.ExecExtraInfo.m_Execd</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1ac4054b550c7ee70288847ea070f68af0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InputCommand.ExecDownCharging</definition>
+        <argsstring>()</argsstring>
+        <name>ExecDownCharging</name>
+        <reimplements refid="class_command_base_1abce04e951d2ff38afc8110a7e230e0ad">ExecDownCharging</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="170" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="170" bodyend="181"/>
+        <references refid="struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5" compoundref="_command_base_8cs" startline="24">CommandBase.Info._DebugLog</references>
+        <references refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" compoundref="_command_base_8cs" startline="114" endline="114">CommandBase.aName</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">execExtraInfo</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">CommandBase.execInfo</references>
+        <references refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" compoundref="_command_base_8cs" startline="17">CommandBase.info</references>
+        <references refid="class_input_command_1a7a80fa14702ddfb758a102a049e4b646" compoundref="_input_command_8cs" startline="43">m_AimSlider</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7" compoundref="_input_command_8cs" startline="24">InputCommand.ExecExtraInfo.m_Axis</references>
+        <referencedby refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" compoundref="_input_command_8cs" startline="158" endline="168">ExecDown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InputCommand.ExecRelease</definition>
+        <argsstring>()</argsstring>
+        <name>ExecRelease</name>
+        <reimplements refid="class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298">ExecRelease</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="182" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="182" bodyend="208"/>
+        <references refid="struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5" compoundref="_command_base_8cs" startline="24">CommandBase.Info._DebugLog</references>
+        <references refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" compoundref="_command_base_8cs" startline="114" endline="114">CommandBase.aName</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" compoundref="_input_command_8cs" startline="11">execExtraInfo</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">CommandBase.execInfo</references>
+        <references refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" compoundref="_command_base_8cs" startline="17">CommandBase.info</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7" compoundref="_input_command_8cs" startline="24">InputCommand.ExecExtraInfo.m_Axis</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a099fdd72e86df4bb6617532c5ccf5a2b" compoundref="_input_command_8cs" startline="21">InputCommand.ExecExtraInfo.m_ExecButtonDown</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a7c6ce14977d6711ffd2dc6846e330361" compoundref="_input_command_8cs" startline="19">InputCommand.ExecExtraInfo.m_ExecButtonPressedThisFrame</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a0a4f96901ea73ba2894016c65cfb1821" compoundref="_input_command_8cs" startline="20">InputCommand.ExecExtraInfo.m_ExecButtonReleasedThisFrame</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1a9fed7424137c6ec41f3d27e6e4317d1c" compoundref="_input_command_8cs" startline="18">InputCommand.ExecExtraInfo.m_Execd</references>
+        <references refid="class_input_command_1a66f6ff264504a60e916f48ebcf505314" compoundref="_input_command_8cs" startline="44">m_MinLaunchForce</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a30f8aedff59388b5293975b3cbfba443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InputCommand.Execd</definition>
+        <argsstring>()</argsstring>
+        <name>Execd</name>
+        <reimplements refid="class_command_base_1ae0f9aff4793563e3681b052196c93c61">Execd</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="209" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a64de2217fb20e650e8e04e1c80deaef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InputCommand.OnExternalUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnExternalUpdate</name>
+        <reimplements refid="class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0">OnExternalUpdate</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="217" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="217" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a97a167a50735820e585e0f6c9b926ede" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputCommand.OnInput</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnInput</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="247" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="247" bodyend="260"/>
+        <references refid="struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5" compoundref="_command_base_8cs" startline="24">CommandBase.Info._DebugLog</references>
+        <references refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" compoundref="_command_base_8cs" startline="17">CommandBase.info</references>
+        <references refid="struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7" compoundref="_input_command_8cs" startline="24">InputCommand.ExecExtraInfo.m_Axis</references>
+        <references refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">SetExecInfo</references>
+        <referencedby refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_input_command_1a83a32db6da3e61a90b0a44232beaa266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputCommand.OnInput</definition>
+        <argsstring>(InputValue value)</argsstring>
+        <name>OnInput</name>
+        <param>
+          <type>InputValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="268" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="268" bodyend="277"/>
+        <references refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">SetExecInfo</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_input_command_1a2559b978dd04697d98c14855c5f26b70" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputCommand.HandleInputSystem</definition>
+        <argsstring>()</argsstring>
+        <name>HandleInputSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="63" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="63" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>AbilityCommand</label>
+        <link refid="class_ability_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>EnableDisableGameObjectCommand</label>
+        <link refid="class_enable_disable_game_object_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="1">
+        <label>InputCommand</label>
+        <link refid="class_input_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="7">
+        <label>SetMaterialColorCommand</label>
+        <link refid="class_set_material_color_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>CommandAccessorRefsBase</label>
+        <link refid="class_command_accessor_refs_base"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+commandSlotHolder</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+commandSlotUnityEvents</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CommandAccessorRefsBase.CommandSlotUnityEvents</label>
+        <link refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events"/>
+      </node>
+      <node id="2">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+info</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+instanceInfo</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+cooldownInfo</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+execInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>CommandBase.CooldownInfo</label>
+        <link refid="struct_command_base_1_1_cooldown_info"/>
+      </node>
+      <node id="12">
+        <label>CommandBase.ExecutionInfo</label>
+        <link refid="class_command_base_1_1_execution_info"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+ExecDownChargingEvent</edgelabel>
+          <edgelabel>+ExecDownEvent</edgelabel>
+          <edgelabel>+ExecPressEvent</edgelabel>
+          <edgelabel>+ExecReleaseEvent</edgelabel>
+          <edgelabel>+ExecdEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CommandBase.Info</label>
+        <link refid="struct_command_base_1_1_info"/>
+      </node>
+      <node id="6">
+        <label>CommandBase.InstanceInfoRuntime</label>
+        <link refid="struct_command_base_1_1_instance_info_runtime"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+commandAccessorRefsComp</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+prevPrimaryCommand</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CommandSlotHolder</label>
+        <link refid="class_command_slot_holder"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+commandInstanceInSlot</edgelabel>
+          <edgelabel>+commandInstanceSOAsset</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+accessorComp</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="1">
+        <label>InputCommand</label>
+        <link refid="class_input_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+execExtraInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>InputCommand.ExecExtraInfo</label>
+        <link refid="struct_input_command_1_1_exec_extra_info"/>
+      </node>
+      <node id="8">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/InputCommand.cs" bodystart="9" bodyend="279"/>
+    <listofallmembers>
+      <member refid="class_command_base_1a99b32aa77f30f6b42ee58778183e5db5" prot="public" virt="virtual"><scope>InputCommand</scope><name>Activate</name></member>
+      <member refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>aName</name></member>
+      <member refid="class_command_base_1a566ca9e15250f13d927bf52c81951923" prot="public" virt="virtual"><scope>InputCommand</scope><name>Awake</name></member>
+      <member refid="class_command_base_1adcc42ebe79b3532b8a45b8be75958497" prot="public" virt="virtual"><scope>InputCommand</scope><name>BeginCooldown</name></member>
+      <member refid="class_command_base_1a1daf934f29ab2fed7aa0469e7794f01b" prot="public" virt="virtual"><scope>InputCommand</scope><name>CalculateElapsedTime</name></member>
+      <member refid="class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>CastState</name></member>
+      <member refid="class_command_base_1a00855c89a1d7f998d84163304d5568fd" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>cooldownInfo</name></member>
+      <member refid="class_command_base_1a4dcfa4d779498beebcace4649f911d2d" prot="public" virt="virtual"><scope>InputCommand</scope><name>CreateNewInstanceOfSelf</name></member>
+      <member refid="class_command_base_1aeaa20a07ff3ae4982db4f91d09ee21af" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>ElapsedTime</name></member>
+      <member refid="class_command_base_1ae4422d145540bf12661a8078c6066ab4" prot="public" virt="virtual"><scope>InputCommand</scope><name>EndCooldown</name></member>
+      <member refid="class_input_command_1a30f8aedff59388b5293975b3cbfba443" prot="public" virt="virtual"><scope>InputCommand</scope><name>Execd</name></member>
+      <member refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" prot="public" virt="virtual"><scope>InputCommand</scope><name>ExecDown</name></member>
+      <member refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0" prot="public" virt="virtual"><scope>InputCommand</scope><name>ExecDownCharging</name></member>
+      <member refid="class_input_command_1abe94f0184191eb65faabf23b8330de64" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>execExtraInfo</name></member>
+      <member refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>execInfo</name></member>
+      <member refid="class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73" prot="public" virt="virtual"><scope>InputCommand</scope><name>ExecPress</name></member>
+      <member refid="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993" prot="public" virt="virtual"><scope>InputCommand</scope><name>ExecRelease</name></member>
+      <member refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>HandleCooldown</name></member>
+      <member refid="class_input_command_1a2559b978dd04697d98c14855c5f26b70" prot="private" virt="non-virtual"><scope>InputCommand</scope><name>HandleInputSystem</name></member>
+      <member refid="class_command_base_1a9da58b3b0bfbd61fec118c863dff71df" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>id</name></member>
+      <member refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>info</name></member>
+      <member refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" prot="public" virt="virtual"><scope>InputCommand</scope><name>Init</name></member>
+      <member refid="class_command_base_1ad212a686f171b8d585283c12f85ec943" prot="public" virt="virtual"><scope>InputCommand</scope><name>InitGameObj</name></member>
+      <member refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>instanceInfo</name></member>
+      <member refid="class_input_command_1a650667185330f536d9d30006d0f24fb1" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>isExecChargedStyle</name></member>
+      <member refid="class_input_command_1a367ec9a14bb8adf2a0e6c8d08d69e293" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>isFullChargeAutoRelease</name></member>
+      <member refid="class_input_command_1a7a80fa14702ddfb758a102a049e4b646" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>m_AimSlider</name></member>
+      <member refid="class_input_command_1abc436b116219b8a816f759e410eed23e" prot="private" virt="non-virtual"><scope>InputCommand</scope><name>m_ChargeSpeed</name></member>
+      <member refid="class_input_command_1a5726a22982323d840cb2af8246c1e33d" prot="private" virt="non-virtual"><scope>InputCommand</scope><name>m_CurrentLaunchForce</name></member>
+      <member refid="class_input_command_1aa625570f0ab58850e7c4a7dc11252f70" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>m_MaxChargeTime</name></member>
+      <member refid="class_input_command_1a83a0c47291eecef5303b9b2eab9b3f49" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>m_MaxLaunchForce</name></member>
+      <member refid="class_input_command_1a66f6ff264504a60e916f48ebcf505314" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>m_MinLaunchForce</name></member>
+      <member refid="class_command_base_1af947c78d3d9a637f7a424a679c3b8f52" prot="public" virt="virtual"><scope>InputCommand</scope><name>OnDestroy</name></member>
+      <member refid="class_command_base_1a6bf6020fca1d369cd58792b3d99fedd5" prot="public" virt="virtual"><scope>InputCommand</scope><name>OnDisable</name></member>
+      <member refid="class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5" prot="public" virt="virtual"><scope>InputCommand</scope><name>OnEnable</name></member>
+      <member refid="class_input_command_1a64de2217fb20e650e8e04e1c80deaef8" prot="public" virt="virtual"><scope>InputCommand</scope><name>OnExternalUpdate</name></member>
+      <member refid="class_input_command_1a97a167a50735820e585e0f6c9b926ede" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>OnInput</name></member>
+      <member refid="class_input_command_1a83a32db6da3e61a90b0a44232beaa266" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>OnInput</name></member>
+      <member refid="class_input_command_1a43dcf98e0801e194dd8030212cc3e145" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>SetExecExtraInfoByExecExtraInfo</name></member>
+      <member refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>SetExecInfo</name></member>
+      <member refid="class_command_base_1a7e86bdf437ded67513c61d554b2ed79b" prot="public" virt="virtual"><scope>InputCommand</scope><name>StayCooldown</name></member>
+      <member refid="class_command_base_1a6593ea3d53501bd90c83e2bc7bb5f81c" prot="public" virt="non-virtual"><scope>InputCommand</scope><name>TimeStamp</name></member>
+      <member refid="class_input_command_1a32ba692a92ce5fd84c67ab3d320965ad" prot="public" virt="virtual"><scope>InputCommand</scope><name>TryExecCommand</name></member>
+      <member refid="class_command_base_1aaa3fd572c9dfd1314889b530955d9871" prot="public" virt="virtual"><scope>InputCommand</scope><name>Undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

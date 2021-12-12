@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_examples_1_1_command_1_1_light_increase_intensity" xml:lang="en-US">
+<title>Examples.Command.LightIncreaseIntensity Class Reference</title>
+<indexterm><primary>Examples.Command.LightIncreaseIntensity</primary></indexterm>
+Inheritance diagram for Examples.Command.LightIncreaseIntensity:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_examples_1_1_command_1_1_light_increase_intensity__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Examples.Command.LightIncreaseIntensity:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_examples_1_1_command_1_1_light_increase_intensity__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_examples_1_1_command_1_1_light_increase_intensity_1a4c8e5485a9daf784e7eae7c86d07eaf6">LightIncreaseIntensity</link> (Light light)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_examples_1_1_command_1_1_light_increase_intensity_1aa0a650c3aa168d2171d4d6f7d903c22e">TryExecCommand</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_examples_1_1_command_1_1_light_increase_intensity_1a32edf0602ad9d7555ed17be6c88cb305">Undo</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_examples_1_1_command_1_1_light_increase_intensity_1a4c8e5485a9daf784e7eae7c86d07eaf6"/><section>
+    <title>LightIncreaseIntensity()</title>
+<indexterm><primary>LightIncreaseIntensity</primary><secondary>Examples.Command.LightIncreaseIntensity</secondary></indexterm>
+<indexterm><primary>Examples.Command.LightIncreaseIntensity</primary><secondary>LightIncreaseIntensity</secondary></indexterm>
+<para><computeroutput>Examples.Command.LightIncreaseIntensity.LightIncreaseIntensity (Light light)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_examples_1_1_command_1_1_light_increase_intensity_1aa0a650c3aa168d2171d4d6f7d903c22e"/><section>
+    <title>TryExecCommand()</title>
+<indexterm><primary>TryExecCommand</primary><secondary>Examples.Command.LightIncreaseIntensity</secondary></indexterm>
+<indexterm><primary>Examples.Command.LightIncreaseIntensity</primary><secondary>TryExecCommand</secondary></indexterm>
+<para><computeroutput>void Examples.Command.LightIncreaseIntensity.TryExecCommand ( )</computeroutput></para><para>
+Implements <link linkend="_interface_i_command_1a7fc0d324014976db246abbd800a4cc7b">ICommand</link>.</para>
+</section>
+<anchor xml:id="_class_examples_1_1_command_1_1_light_increase_intensity_1a32edf0602ad9d7555ed17be6c88cb305"/><section>
+    <title>Undo()</title>
+<indexterm><primary>Undo</primary><secondary>Examples.Command.LightIncreaseIntensity</secondary></indexterm>
+<indexterm><primary>Examples.Command.LightIncreaseIntensity</primary><secondary>Undo</secondary></indexterm>
+<para><computeroutput>void Examples.Command.LightIncreaseIntensity.Undo ( )</computeroutput></para><para>
+Implements <link linkend="_interface_i_command_1aaee389e6fbefdb121ccd719f1447a05e">ICommand</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/<link linkend="__light_increase_intensity_8cs">LightIncreaseIntensity.cs</link></section>
+</section>

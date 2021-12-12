@@ -1,0 +1,93 @@
+.TH "UnityEngine.InputSystem.Samples.InputActionVisualizer" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.InputSystem.Samples.InputActionVisualizer \- A component for debugging purposes that adds an on-screen display which shows activity on an input action over time (\fBInputActionVisualizer\&.Visualization\&.Interaction\fP) or an action's current value (\fBInputActionVisualizer\&.Visualization\&.Value\fP)\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUnityEngine\&.InputSystem\&.Samples\&.InputVisualizer\fP\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBVisualization\fP { \fBNone\fP, \fBValue\fP, \fBInteraction\fP }"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBFixedUpdate\fP ()"
+.br
+.ti -1c
+.RI "void \fBUpdate\fP ()"
+.br
+.ti -1c
+.RI "new void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "new void \fBOnDisable\fP ()"
+.br
+.ti -1c
+.RI "new void \fBOnGUI\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "InputAction \fBaction\fP\fC [get]\fP"
+.br
+.RI "The action that is being visualized\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+A component for debugging purposes that adds an on-screen display which shows activity on an input action over time (\fBInputActionVisualizer\&.Visualization\&.Interaction\fP) or an action's current value (\fBInputActionVisualizer\&.Visualization\&.Value\fP)\&. 
+
+
+.PP
+\fBSee also\fP
+.RS 4
+\fBInputControlVisualizer\fP
+.PP
+.RE
+.PP
+
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBUnityEngine\&.InputSystem\&.Samples\&.InputActionVisualizer\&.Visualization\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fIValue \fP\fP
+.TP
+\fB\fIInteraction \fP\fP
+.SH "Member Function Documentation"
+.PP 
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.InputActionVisualizer\&.FixedUpdate ()\fC [protected]\fP"
+
+.SS "new void UnityEngine\&.InputSystem\&.Samples\&.InputActionVisualizer\&.OnDisable ()\fC [protected]\fP"
+
+.SS "new void UnityEngine\&.InputSystem\&.Samples\&.InputActionVisualizer\&.OnEnable ()\fC [protected]\fP"
+
+.SS "new void UnityEngine\&.InputSystem\&.Samples\&.InputActionVisualizer\&.OnGUI ()\fC [protected]\fP"
+
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.InputActionVisualizer\&.Update ()\fC [protected]\fP"
+
+.SH "Property Documentation"
+.PP 
+.SS "InputAction UnityEngine\&.InputSystem\&.Samples\&.InputActionVisualizer\&.action\fC [get]\fP"
+
+.PP
+The action that is being visualized\&. May be null\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IInputActionCollection2</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions" prot="public">UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions::GameplayActions</innerclass>
+    <innerclass refid="interface_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_i_gameplay_actions" prot="public">UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions::IGameplayActions</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputActionAsset</type>
+        <definition>InputActionAsset UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</definition>
+        <argsstring></argsstring>
+        <name>asset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="22" column="33" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="22" bodyend="22"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a90fb662f512bcaba4045899c8783ebe5" compoundref="_in_game_hints_actions_8cs" startline="294" endline="297">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Contains</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1acdc019614fa56f7c9f22fa59948a0080" compoundref="_in_game_hints_actions_8cs" startline="314" endline="317">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Disable</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aebe0b5b35d2afa93d90226f7a0961f50" compoundref="_in_game_hints_actions_8cs" startline="275" endline="278">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Dispose</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aa524aa06348f93778712c3c1b958698c" compoundref="_in_game_hints_actions_8cs" startline="309" endline="312">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Enable</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4df29d2c4b78d831bd9bcebe69e6733a" compoundref="_in_game_hints_actions_8cs" startline="320" endline="323">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.FindAction</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a223b0357ee8ff17768fc7cb8c3e662d7" compoundref="_in_game_hints_actions_8cs" startline="324" endline="327">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.FindBinding</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a8219cc2ade9d0c690f144375a53ada6e" compoundref="_in_game_hints_actions_8cs" startline="299" endline="302">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GetEnumerator</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ab3ff5e896bb0280ec96b342dd52719a3" compoundref="_in_game_hints_actions_8cs" startline="23" endline="273">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.InGameHintsActions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae90ad4f003c0301054974040f72101ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputBinding?</type>
+        <definition>InputBinding? UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.bindingMask</definition>
+        <argsstring></argsstring>
+        <name>bindingMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="280" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="281" bodyend="284"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a223b0357ee8ff17768fc7cb8c3e662d7" compoundref="_in_game_hints_actions_8cs" startline="324" endline="327">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.FindBinding</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1afeee8a383a99149c131bc5aa6715c532" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputDevice &gt;?</type>
+        <definition>ReadOnlyArray&lt;InputDevice&gt;? UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="286" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="287" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4321da04d626e81ce71a7e2e352c5ca3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputControlScheme &gt;</type>
+        <definition>ReadOnlyArray&lt;InputControlScheme&gt; UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.controlSchemes</definition>
+        <argsstring></argsstring>
+        <name>controlSchemes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="292" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae01fc07ec2733c86a6e9696967ecb6fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; InputBinding &gt;</type>
+        <definition>IEnumerable&lt;InputBinding&gt; UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.bindings</definition>
+        <argsstring></argsstring>
+        <name>bindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="318" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a194fbfeca720147b05db26e8a894a414" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions" kindref="compound">GameplayActions</ref></type>
+        <definition>GameplayActions UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Gameplay</definition>
+        <argsstring></argsstring>
+        <name>Gameplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="392" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a7063fe5331acc689241aa04c92d91120" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GamepadScheme</definition>
+        <argsstring></argsstring>
+        <name>GamepadScheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="394" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="395" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a947a721dc6099e15b8244d34ef52780e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.KeyboardMouseScheme</definition>
+        <argsstring></argsstring>
+        <name>KeyboardMouseScheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="403" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="404" bodyend="410"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a53d211493f47e58a3cb455900c76a6ca" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_Gameplay</definition>
+        <argsstring></argsstring>
+        <name>m_Gameplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="330" column="41" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4d6b4b2d82f2fca4d89779784ba85a50" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_i_gameplay_actions" kindref="compound">IGameplayActions</ref></type>
+        <definition>IGameplayActions UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_GameplayActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_GameplayActionsCallbackInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="331" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a1be18e9e811187c5ba2c9dece57322a7" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_Gameplay_Move</definition>
+        <argsstring></argsstring>
+        <name>m_Gameplay_Move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="332" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aabbce4b77f10013ab6d605a0ba1756c9" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_Gameplay_Look</definition>
+        <argsstring></argsstring>
+        <name>m_Gameplay_Look</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="333" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a7322b0205a97b8474c0d563ecf7affd6" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_Gameplay_PickUp</definition>
+        <argsstring></argsstring>
+        <name>m_Gameplay_PickUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="334" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a5e7fa51949fc98f5976a0888fc69e0a6" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_Gameplay_Drop</definition>
+        <argsstring></argsstring>
+        <name>m_Gameplay_Drop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="335" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ac301161decc101d34ee06d24a63fc977" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_Gameplay_Throw</definition>
+        <argsstring></argsstring>
+        <name>m_Gameplay_Throw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="336" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a5e5ff08a7daed3c366625e94c2b81af6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_GamepadSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_GamepadSchemeIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="393" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="393" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a570a7ab240af5289f70c9fba3509ba5a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.m_KeyboardMouseSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_KeyboardMouseSchemeIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="402" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ab3ff5e896bb0280ec96b342dd52719a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.InGameHintsActions</definition>
+        <argsstring>()</argsstring>
+        <name>InGameHintsActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="23" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="23" bodyend="273"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" compoundref="_in_game_hints_actions_8cs" startline="22" endline="22">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aebe0b5b35d2afa93d90226f7a0961f50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="275" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="275" bodyend="278"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" compoundref="_in_game_hints_actions_8cs" startline="22" endline="22">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a90fb662f512bcaba4045899c8783ebe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Contains</definition>
+        <argsstring>(InputAction action)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="294" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="294" bodyend="297"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" compoundref="_in_game_hints_actions_8cs" startline="22" endline="22">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a8219cc2ade9d0c690f144375a53ada6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; InputAction &gt;</type>
+        <definition>IEnumerator&lt; InputAction &gt; UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="299" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="299" bodyend="302"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" compoundref="_in_game_hints_actions_8cs" startline="22" endline="22">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aa524aa06348f93778712c3c1b958698c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="309" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="309" bodyend="312"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" compoundref="_in_game_hints_actions_8cs" startline="22" endline="22">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1acdc019614fa56f7c9f22fa59948a0080" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="314" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="314" bodyend="317"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" compoundref="_in_game_hints_actions_8cs" startline="22" endline="22">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4df29d2c4b78d831bd9bcebe69e6733a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>InputAction</type>
+        <definition>InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.FindAction</definition>
+        <argsstring>(string actionNameOrId, bool throwIfNotFound=false)</argsstring>
+        <name>FindAction</name>
+        <param>
+          <type>string</type>
+          <declname>actionNameOrId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwIfNotFound</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="320" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="320" bodyend="323"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" compoundref="_in_game_hints_actions_8cs" startline="22" endline="22">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a223b0357ee8ff17768fc7cb8c3e662d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.FindBinding</definition>
+        <argsstring>(InputBinding bindingMask, out InputAction action)</argsstring>
+        <name>FindBinding</name>
+        <param>
+          <type>InputBinding</type>
+          <declname>bindingMask</declname>
+        </param>
+        <param>
+          <type>out InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="324" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="324" bodyend="327"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" compoundref="_in_game_hints_actions_8cs" startline="22" endline="22">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.asset</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae90ad4f003c0301054974040f72101ef" compoundref="_in_game_hints_actions_8cs" startline="281" endline="284">UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.bindingMask</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4e6aebc0179f9a6dc5dceabb29c37e10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="304" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="304" bodyend="307"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" line="20" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/InGameHintsActions.cs" bodystart="21" bodyend="419"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1abb9bf6c39606b7394e889a2602d2c469" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>asset</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae90ad4f003c0301054974040f72101ef" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>bindingMask</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ae01fc07ec2733c86a6e9696967ecb6fd" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>bindings</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a90fb662f512bcaba4045899c8783ebe5" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>Contains</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4321da04d626e81ce71a7e2e352c5ca3" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>controlSchemes</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1afeee8a383a99149c131bc5aa6715c532" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>devices</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1acdc019614fa56f7c9f22fa59948a0080" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>Disable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aebe0b5b35d2afa93d90226f7a0961f50" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>Dispose</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aa524aa06348f93778712c3c1b958698c" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>Enable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4df29d2c4b78d831bd9bcebe69e6733a" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>FindAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a223b0357ee8ff17768fc7cb8c3e662d7" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>FindBinding</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a7063fe5331acc689241aa04c92d91120" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>GamepadScheme</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a194fbfeca720147b05db26e8a894a414" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>Gameplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a8219cc2ade9d0c690f144375a53ada6e" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>GetEnumerator</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4e6aebc0179f9a6dc5dceabb29c37e10" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>GetEnumerator</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ab3ff5e896bb0280ec96b342dd52719a3" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>InGameHintsActions</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a947a721dc6099e15b8244d34ef52780e" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>KeyboardMouseScheme</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a5e5ff08a7daed3c366625e94c2b81af6" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_GamepadSchemeIndex</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a53d211493f47e58a3cb455900c76a6ca" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_Gameplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a5e7fa51949fc98f5976a0888fc69e0a6" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_Gameplay_Drop</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1aabbce4b77f10013ab6d605a0ba1756c9" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_Gameplay_Look</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a1be18e9e811187c5ba2c9dece57322a7" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_Gameplay_Move</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a7322b0205a97b8474c0d563ecf7affd6" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_Gameplay_PickUp</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1ac301161decc101d34ee06d24a63fc977" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_Gameplay_Throw</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a4d6b4b2d82f2fca4d89779784ba85a50" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_GameplayActionsCallbackInterface</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1a570a7ab240af5289f70c9fba3509ba5a" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InGameHints::InGameHintsActions</scope><name>m_KeyboardMouseSchemeIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

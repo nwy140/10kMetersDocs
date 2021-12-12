@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_patrol_by_waypoints" kind="class" language="C#" prot="public">
+    <compoundname>PatrolByWaypoints</compoundname>
+    <basecompoundref refid="class_f_s_m_base_state" prot="public" virt="non-virtual">FSMBaseState</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_patrol_by_waypoints_1a4dc67f6dc6d00e68af25ef6332dbbd3a" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent PatrolByWaypoints.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="212" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_patrol_by_waypoints_1a034cba82242831414187a5fe177da05c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PatrolByWaypoints.waypointIndex</definition>
+        <argsstring></argsstring>
+        <name>waypointIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="213" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="213" bodyend="-1"/>
+        <referencedby refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PerformStateBehaviour</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_patrol_by_waypoints_1a3bde554a11e0e047be9a0d21ad573985" prot="public" static="no" mutable="no">
+        <type><ref refid="class_waypoint_path" kindref="compound">WaypointPath</ref></type>
+        <definition>WaypointPath PatrolByWaypoints.waypointComp</definition>
+        <argsstring></argsstring>
+        <name>waypointComp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="214" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="214" bodyend="-1"/>
+        <referencedby refid="class_patrol_by_waypoints_1aa713531703de93523f69a78c14a4270d" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="222" endline="226">PatrolByWaypoints</referencedby>
+        <referencedby refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PerformStateBehaviour</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_patrol_by_waypoints_1a4e772bf82fdf52bf23c3ba64e6e4c12c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PatrolByWaypoints.hasSetDestination</definition>
+        <argsstring></argsstring>
+        <name>hasSetDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="217" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="217" bodyend="-1"/>
+        <referencedby refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PerformStateBehaviour</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_patrol_by_waypoints_1a96d9e4914af864793d885575f7e3244e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PatrolByWaypoints.etaNextWaypoint</definition>
+        <argsstring></argsstring>
+        <name>etaNextWaypoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="218" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="218" bodyend="-1"/>
+        <referencedby refid="class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="243" endline="251">OnStayState</referencedby>
+        <referencedby refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PerformStateBehaviour</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_patrol_by_waypoints_1a8c075da08c0103d43074d22fbbaaf0c4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PatrolByWaypoints.timeBetweenWaypointsMin</definition>
+        <argsstring></argsstring>
+        <name>timeBetweenWaypointsMin</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="219" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="219" bodyend="-1"/>
+        <referencedby refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PerformStateBehaviour</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_patrol_by_waypoints_1a33ba374905cc50c105e99ffed45c1c06" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PatrolByWaypoints.timeBetweenWaypointsMax</definition>
+        <argsstring></argsstring>
+        <name>timeBetweenWaypointsMax</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="220" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="220" bodyend="-1"/>
+        <referencedby refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PerformStateBehaviour</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_patrol_by_waypoints_1ad495e6cb52eba111e2bd30d1ba290640" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PatrolByWaypoints.isInvertWaypointsIteration</definition>
+        <argsstring></argsstring>
+        <name>isInvertWaypointsIteration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="221" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="221" bodyend="-1"/>
+        <referencedby refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PerformStateBehaviour</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_patrol_by_waypoints_1aa713531703de93523f69a78c14a4270d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PatrolByWaypoints.PatrolByWaypoints</definition>
+        <argsstring>(FSMSystemBase system)</argsstring>
+        <name>PatrolByWaypoints</name>
+        <param>
+          <type><ref refid="class_f_s_m_system_base" kindref="compound">FSMSystemBase</ref></type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="222" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="222" bodyend="226"/>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">FSMBaseState._system</references>
+        <references refid="class_patrol_by_waypoints_1a3bde554a11e0e047be9a0d21ad573985" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="214">waypointComp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_patrol_by_waypoints_1adcba748e4f330067dcf038b057021e16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool PatrolByWaypoints.OnEnterState</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnterState</name>
+        <reimplements refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">OnEnterState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="227" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="227" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_patrol_by_waypoints_1ae55e0e2a1f0370f8757383aa93c81a34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool PatrolByWaypoints.OnExitState</definition>
+        <argsstring>()</argsstring>
+        <name>OnExitState</name>
+        <reimplements refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">OnExitState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="234" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="234" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_patrol_by_waypoints_1a9fef0c96e7781b44b02302ef8090fdd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void PatrolByWaypoints.OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <reimplements refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e">OnUpdate</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="238" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="238" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void PatrolByWaypoints.OnStayState</definition>
+        <argsstring>()</argsstring>
+        <name>OnStayState</name>
+        <reimplements refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c">OnStayState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="243" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="243" bodyend="251"/>
+        <references refid="class_patrol_by_waypoints_1a96d9e4914af864793d885575f7e3244e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="218">etaNextWaypoint</references>
+        <references refid="class_a_i_nav_agent_common_1a00638ab5f76a1d3950872cf9c2c11f13" compoundref="_a_i_nav_agent_common_8cs" startline="17" endline="33">AINavAgentCommon.HasAgentReachedDestination</references>
+        <references refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PerformStateBehaviour</references>
+      </memberdef>
+      <memberdef kind="function" id="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PatrolByWaypoints.PerformStateBehaviour</definition>
+        <argsstring>()</argsstring>
+        <name>PerformStateBehaviour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="252" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="252" bodyend="277"/>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">FSMBaseState._system</references>
+        <references refid="class_patrol_by_waypoints_1a96d9e4914af864793d885575f7e3244e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="218">etaNextWaypoint</references>
+        <references refid="class_patrol_by_waypoints_1a4e772bf82fdf52bf23c3ba64e6e4c12c" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="217">hasSetDestination</references>
+        <references refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" compoundref="_f_s_m_system_base_8cs" startline="15">FSMSystemBase.isDebugLog</references>
+        <references refid="class_patrol_by_waypoints_1ad495e6cb52eba111e2bd30d1ba290640" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="221">isInvertWaypointsIteration</references>
+        <references refid="class_patrol_by_waypoints_1a33ba374905cc50c105e99ffed45c1c06" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="220">timeBetweenWaypointsMax</references>
+        <references refid="class_patrol_by_waypoints_1a8c075da08c0103d43074d22fbbaaf0c4" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="219">timeBetweenWaypointsMin</references>
+        <references refid="class_patrol_by_waypoints_1a3bde554a11e0e047be9a0d21ad573985" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="214">waypointComp</references>
+        <references refid="class_patrol_by_waypoints_1a034cba82242831414187a5fe177da05c" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="213">waypointIndex</references>
+        <references refid="class_waypoint_path_1a319bdf6e0722d1bdf169ee062b55de85" compoundref="_waypoint_path_8cs" startline="10" endline="20">WaypointPath.waypoints</references>
+        <referencedby refid="class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="243" endline="251">OnStayState</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PatrolByWaypoints</label>
+        <link refid="class_patrol_by_waypoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>#_system</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FSMSystemBase</label>
+        <link refid="class_f_s_m_system_base"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+_curState</edgelabel>
+          <edgelabel>+_prevState</edgelabel>
+          <edgelabel>+_startingState</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PatrolByWaypoints</label>
+        <link refid="class_patrol_by_waypoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+waypointComp</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="6">
+        <label>WaypointPath</label>
+        <link refid="class_waypoint_path"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="210" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="211" bodyend="278"/>
+    <listofallmembers>
+      <member refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>_ExecutionState</name></member>
+      <member refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" prot="protected" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>_system</name></member>
+      <member refid="class_patrol_by_waypoints_1a4dc67f6dc6d00e68af25ef6332dbbd3a" prot="private" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>agent</name></member>
+      <member refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>aName</name></member>
+      <member refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>ElapsedTime</name></member>
+      <member refid="class_patrol_by_waypoints_1a96d9e4914af864793d885575f7e3244e" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>etaNextWaypoint</name></member>
+      <member refid="class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>ExecutionState</name></member>
+      <member refid="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>FSMBaseState</name></member>
+      <member refid="class_patrol_by_waypoints_1a4e772bf82fdf52bf23c3ba64e6e4c12c" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>hasSetDestination</name></member>
+      <member refid="class_patrol_by_waypoints_1ad495e6cb52eba111e2bd30d1ba290640" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>isInvertWaypointsIteration</name></member>
+      <member refid="class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>OnDisable</name></member>
+      <member refid="class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>OnEnable</name></member>
+      <member refid="class_patrol_by_waypoints_1adcba748e4f330067dcf038b057021e16" prot="public" virt="virtual"><scope>PatrolByWaypoints</scope><name>OnEnterState</name></member>
+      <member refid="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>OnEnterTimeStamp</name></member>
+      <member refid="class_patrol_by_waypoints_1ae55e0e2a1f0370f8757383aa93c81a34" prot="public" virt="virtual"><scope>PatrolByWaypoints</scope><name>OnExitState</name></member>
+      <member refid="class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6" prot="public" virt="virtual"><scope>PatrolByWaypoints</scope><name>OnStayState</name></member>
+      <member refid="class_patrol_by_waypoints_1a9fef0c96e7781b44b02302ef8090fdd9" prot="public" virt="virtual"><scope>PatrolByWaypoints</scope><name>OnUpdate</name></member>
+      <member refid="class_patrol_by_waypoints_1aa713531703de93523f69a78c14a4270d" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>PatrolByWaypoints</name></member>
+      <member refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>PerformStateBehaviour</name></member>
+      <member refid="class_patrol_by_waypoints_1a33ba374905cc50c105e99ffed45c1c06" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>timeBetweenWaypointsMax</name></member>
+      <member refid="class_patrol_by_waypoints_1a8c075da08c0103d43074d22fbbaaf0c4" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>timeBetweenWaypointsMin</name></member>
+      <member refid="class_patrol_by_waypoints_1a3bde554a11e0e047be9a0d21ad573985" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>waypointComp</name></member>
+      <member refid="class_patrol_by_waypoints_1a034cba82242831414187a5fe177da05c" prot="public" virt="non-virtual"><scope>PatrolByWaypoints</scope><name>waypointIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

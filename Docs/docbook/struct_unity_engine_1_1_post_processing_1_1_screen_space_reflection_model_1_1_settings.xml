@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings">ReflectionSettings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1af5e50a060b8a92557f3b27f0ecbcf1f0">reflection</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_intensity_settings">IntensitySettings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a379bc477aa7fa436d6838f6919017b2a">intensity</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_screen_edge_mask">ScreenEdgeMask</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a3cb099eb427c211492d905039c26d337">screenEdgeMask</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings">Settings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a911d8f7c6b2e2dddaea49dc9ae8db8b0">defaultSettings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a379bc477aa7fa436d6838f6919017b2a"/><section>
+    <title>intensity</title>
+<indexterm><primary>intensity</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</primary><secondary>intensity</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_intensity_settings">IntensitySettings</link> UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings.intensity</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1af5e50a060b8a92557f3b27f0ecbcf1f0"/><section>
+    <title>reflection</title>
+<indexterm><primary>reflection</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</primary><secondary>reflection</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_reflection_settings">ReflectionSettings</link> UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings.reflection</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a3cb099eb427c211492d905039c26d337"/><section>
+    <title>screenEdgeMask</title>
+<indexterm><primary>screenEdgeMask</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</primary><secondary>screenEdgeMask</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_screen_edge_mask">ScreenEdgeMask</link> UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings.screenEdgeMask</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings_1a911d8f7c6b2e2dddaea49dc9ae8db8b0"/><section>
+    <title>defaultSettings</title>
+<indexterm><primary>defaultSettings</primary><secondary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings</primary><secondary>defaultSettings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1_1_settings">Settings</link> UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings.defaultSettings<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__screen_space_reflection_model_8cs">ScreenSpaceReflectionModel.cs</link></section>
+</section>

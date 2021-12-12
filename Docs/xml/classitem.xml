@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classitem" kind="class" language="C#" prot="public">
+    <compoundname>item</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classitem_1aebcf097b51c87ee70cc776f604c22065" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string item.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="8" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classitem_1a68ea20b19325b04375505bf6a450f285" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string item.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="9" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="9" bodyend="9"/>
+        <referencedby refid="class_item_container_1af6d25e8fc0187dca050a37f6b3d6767b" compoundref="_item_container_8cs" startline="55" endline="68">ItemContainer.addItem</referencedby>
+        <referencedby refid="class_item_container_1a5628acd2a1298ad30086abcfb0b2f445" compoundref="_item_container_8cs" startline="42" endline="53">ItemContainer.CheckIfSlotIsEmpty</referencedby>
+        <referencedby refid="class_item_database_1afd57da1d69c42a09188d104923cad3fb" compoundref="_item_database_8cs" startline="13" endline="24">ItemDatabase.GetItemReference</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classitem_1ab64de2044f6e7c7efa363dc8439fd246" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string item.resourceName</definition>
+        <argsstring></argsstring>
+        <name>resourceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="10" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_item_tool_tip_1a1251e2543d050c16d7cc1eb23a5354bd" compoundref="_item_tool_tip_8cs" startline="10" endline="17">ItemToolTip.ShowToolTip</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_1adbf0705f885c021ee3271a501fbacf04" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite item.Icon</definition>
+        <argsstring></argsstring>
+        <name>Icon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="11" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_1ae692420cbb3ee47e3f2ae369d72386cb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string item.itemDescription</definition>
+        <argsstring></argsstring>
+        <name>itemDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="12" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_item_tool_tip_1a1251e2543d050c16d7cc1eb23a5354bd" compoundref="_item_tool_tip_8cs" startline="10" endline="17">ItemToolTip.ShowToolTip</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classitem_1a9538609f2181dbb017574b44ef64d5d2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int item.maxStack</definition>
+        <argsstring></argsstring>
+        <name>maxStack</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="14" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_item_container_1af6d25e8fc0187dca050a37f6b3d6767b" compoundref="_item_container_8cs" startline="55" endline="68">ItemContainer.addItem</referencedby>
+        <referencedby refid="class_item_container_1a5628acd2a1298ad30086abcfb0b2f445" compoundref="_item_container_8cs" startline="42" endline="53">ItemContainer.CheckIfSlotIsEmpty</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classitem_1aa919c4aacef8cc62556ab0606d96af33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classitem" kindref="compound">item</ref></type>
+        <definition>virtual item item.getCopy</definition>
+        <argsstring>()</argsstring>
+        <name>getCopy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="16" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="16" bodyend="19"/>
+        <referencedby refid="class_item_database_1a3f54a7d4ab8716e32f52dc9a311539de" compoundref="_item_database_8cs" startline="26" endline="31">ItemDatabase.GetItemCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classitem_1ae2da994e1192842d39e400e303b49275" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void item.Destroy</definition>
+        <argsstring>()</argsstring>
+        <name>Destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="21" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>item</label>
+        <link refid="classitem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>item</label>
+        <link refid="classitem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/item.cs" bodystart="7" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classitem_1ae2da994e1192842d39e400e303b49275" prot="public" virt="virtual"><scope>item</scope><name>Destroy</name></member>
+      <member refid="classitem_1aa919c4aacef8cc62556ab0606d96af33" prot="public" virt="virtual"><scope>item</scope><name>getCopy</name></member>
+      <member refid="classitem_1adbf0705f885c021ee3271a501fbacf04" prot="public" virt="non-virtual"><scope>item</scope><name>Icon</name></member>
+      <member refid="classitem_1aebcf097b51c87ee70cc776f604c22065" prot="private" virt="non-virtual"><scope>item</scope><name>id</name></member>
+      <member refid="classitem_1a68ea20b19325b04375505bf6a450f285" prot="public" virt="non-virtual"><scope>item</scope><name>ID</name></member>
+      <member refid="classitem_1ae692420cbb3ee47e3f2ae369d72386cb" prot="public" virt="non-virtual"><scope>item</scope><name>itemDescription</name></member>
+      <member refid="classitem_1a9538609f2181dbb017574b44ef64d5d2" prot="public" virt="non-virtual"><scope>item</scope><name>maxStack</name></member>
+      <member refid="classitem_1ab64de2044f6e7c7efa363dc8439fd246" prot="public" virt="non-virtual"><scope>item</scope><name>resourceName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+.TH "Chase" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Chase
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFSMBaseState\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBChase\fP (\fBFSMSystemBase\fP system)"
+.br
+.ti -1c
+.RI "override bool \fBOnEnterState\fP ()"
+.br
+.ti -1c
+.RI "override bool \fBOnExitState\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnStayState\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBhasSetDestination\fP"
+.br
+.ti -1c
+.RI "Transform \fBtarget\fP"
+.br
+.ti -1c
+.RI "float \fBnewSpeed\fP = 30f"
+.br
+.ti -1c
+.RI "float \fBnewAgularSpeed\fP = 500f"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Chase\&.Chase (\fBFSMSystemBase\fP system)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override bool Chase\&.OnEnterState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMBaseState\fP\&.
+.SS "override bool Chase\&.OnExitState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMBaseState\fP\&.
+.SS "override void Chase\&.OnStayState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMBaseState\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "bool Chase\&.hasSetDestination"
+
+.SS "float Chase\&.newAgularSpeed = 500f"
+
+.SS "float Chase\&.newSpeed = 30f"
+
+.SS "Transform Chase\&.target"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

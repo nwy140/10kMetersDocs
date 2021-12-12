@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_event_listener" xml:lang="en-US">
+<title>GameEventListener Class Reference</title>
+<indexterm><primary>GameEventListener</primary></indexterm>
+Inheritance diagram for GameEventListener:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_event_listener__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for GameEventListener:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_event_listener__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_game_event_listener_1a53d01e4391a42df3c2369e7b978b71e3">OnEventRaised</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_game_event">GameEvent</link> <link linkend="_class_game_event_listener_1a1eddb6859899c538bfb7fda1a6afb5f0">Event</link></para>
+</listitem>
+            <listitem><para>UnityEvent <link linkend="_class_game_event_listener_1afa9d6933ed7daa06a2a4e9b42d614200">Response</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_event_listener_1a53d01e4391a42df3c2369e7b978b71e3"/><section>
+    <title>OnEventRaised()</title>
+<indexterm><primary>OnEventRaised</primary><secondary>GameEventListener</secondary></indexterm>
+<indexterm><primary>GameEventListener</primary><secondary>OnEventRaised</secondary></indexterm>
+<para><computeroutput>virtual void GameEventListener.OnEventRaised ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769">CommandEventListener</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_game_event_listener_1a1eddb6859899c538bfb7fda1a6afb5f0"/><section>
+    <title>Event</title>
+<indexterm><primary>Event</primary><secondary>GameEventListener</secondary></indexterm>
+<indexterm><primary>GameEventListener</primary><secondary>Event</secondary></indexterm>
+<para><computeroutput><link linkend="_class_game_event">GameEvent</link> GameEventListener.Event</computeroutput></para></section>
+<anchor xml:id="_class_game_event_listener_1afa9d6933ed7daa06a2a4e9b42d614200"/><section>
+    <title>Response</title>
+<indexterm><primary>Response</primary><secondary>GameEventListener</secondary></indexterm>
+<indexterm><primary>GameEventListener</primary><secondary>Response</secondary></indexterm>
+<para><computeroutput>UnityEvent GameEventListener.Response</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/<link linkend="__game_event_listener_8cs">GameEventListener.cs</link></section>
+</section>

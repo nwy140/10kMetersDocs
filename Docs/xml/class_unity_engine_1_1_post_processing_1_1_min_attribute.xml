@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_min_attribute" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::MinAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyAttribute</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_min_attribute_1abb5d80c69026f677751e55a30bfc2e84" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float UnityEngine.PostProcessing.MinAttribute.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Attributes/MinAttribute.cs" line="5" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Attributes/MinAttribute.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_min_attribute_1ad7f32ba10ec48ba5d4b9eb31e43d1f5a" compoundref="_min_attribute_8cs" startline="7" endline="10">UnityEngine.PostProcessing.MinAttribute.MinAttribute</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_min_attribute_1ad7f32ba10ec48ba5d4b9eb31e43d1f5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.PostProcessing.MinAttribute.MinAttribute</definition>
+        <argsstring>(float min)</argsstring>
+        <name>MinAttribute</name>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Attributes/MinAttribute.cs" line="7" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Attributes/MinAttribute.cs" bodystart="7" bodyend="10"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_min_attribute_1abb5d80c69026f677751e55a30bfc2e84" compoundref="_min_attribute_8cs" startline="5">UnityEngine.PostProcessing.MinAttribute.min</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PropertyAttribute</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.MinAttribute</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_min_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PropertyAttribute</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.MinAttribute</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_min_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Attributes/MinAttribute.cs" line="3" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Attributes/MinAttribute.cs" bodystart="4" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_min_attribute_1abb5d80c69026f677751e55a30bfc2e84" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MinAttribute</scope><name>min</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_min_attribute_1ad7f32ba10ec48ba5d4b9eb31e43d1f5a" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MinAttribute</scope><name>MinAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

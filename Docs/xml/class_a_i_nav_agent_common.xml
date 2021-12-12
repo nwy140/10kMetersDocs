@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_a_i_nav_agent_common" kind="class" language="C#" prot="public">
+    <compoundname>AINavAgentCommon</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_a_i_nav_agent_common_1ae19e88601652b2e60a6eac9aac4ca042" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 AINavAgentCommon.RandomPosition</definition>
+        <argsstring>(Vector3 origin, float radius)</argsstring>
+        <name>RandomPosition</name>
+        <param>
+          <type>Vector3</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/AINavAgentCommon.cs" line="8" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/AINavAgentCommon.cs" bodystart="8" bodyend="15"/>
+        <referencedby refid="class_patrol_by_random_pos_1a6277984521445fecbb7a99c4b8b207ec" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="202" endline="208">PatrolByRandomPos.PerformStateBehaviour</referencedby>
+        <referencedby refid="class_nav_agent_test_auto_set_random_destination_1addfb43a4c7a45c050520170a598b8563" compoundref="_nav_agent_test_auto_set_random_destination_8cs" startline="16" endline="30">NavAgentTestAutoSetRandomDestination.SetNewDestination</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_i_nav_agent_common_1a00638ab5f76a1d3950872cf9c2c11f13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AINavAgentCommon.HasAgentReachedDestination</definition>
+        <argsstring>(NavMeshAgent mNavMeshAgent)</argsstring>
+        <name>HasAgentReachedDestination</name>
+        <param>
+          <type>NavMeshAgent</type>
+          <declname>mNavMeshAgent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/AINavAgentCommon.cs" line="17" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/AINavAgentCommon.cs" bodystart="17" bodyend="33"/>
+        <referencedby refid="class_patrol_by_random_pos_1a079eb0d6a5439a0e77e9d30e86b0eb7c" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="193" endline="201">PatrolByRandomPos.OnStayState</referencedby>
+        <referencedby refid="class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="243" endline="251">PatrolByWaypoints.OnStayState</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AINavAgentCommon</label>
+        <link refid="class_a_i_nav_agent_common"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/AINavAgentCommon.cs" line="6" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/AINavAgentCommon.cs" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_a_i_nav_agent_common_1a00638ab5f76a1d3950872cf9c2c11f13" prot="public" virt="non-virtual"><scope>AINavAgentCommon</scope><name>HasAgentReachedDestination</name></member>
+      <member refid="class_a_i_nav_agent_common_1ae19e88601652b2e60a6eac9aac4ca042" prot="public" virt="non-virtual"><scope>AINavAgentCommon</scope><name>RandomPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

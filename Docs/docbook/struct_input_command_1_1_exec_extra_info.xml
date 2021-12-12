@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_input_command_1_1_exec_extra_info" xml:lang="en-US">
+<title>InputCommand.ExecExtraInfo Struct Reference</title>
+<indexterm><primary>InputCommand.ExecExtraInfo</primary></indexterm>
+Collaboration diagram for InputCommand.ExecExtraInfo:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_input_command_1_1_exec_extra_info__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_struct_input_command_1_1_exec_extra_info_1af6ed536c1397442e335fce4fa916b9bc">m_PlayerNumber</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_input_command_1_1_exec_extra_info_1a9fed7424137c6ec41f3d27e6e4317d1c">m_Execd</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_input_command_1_1_exec_extra_info_1a7c6ce14977d6711ffd2dc6846e330361">m_ExecButtonPressedThisFrame</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_input_command_1_1_exec_extra_info_1a0a4f96901ea73ba2894016c65cfb1821">m_ExecButtonReleasedThisFrame</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_input_command_1_1_exec_extra_info_1a099fdd72e86df4bb6617532c5ccf5a2b">m_ExecButtonDown</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7">m_Axis</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_input_command_1_1_exec_extra_info_1af9898063c38766c822dc67678e3f93e7"/><section>
+    <title>m_Axis</title>
+<indexterm><primary>m_Axis</primary><secondary>InputCommand.ExecExtraInfo</secondary></indexterm>
+<indexterm><primary>InputCommand.ExecExtraInfo</primary><secondary>m_Axis</secondary></indexterm>
+<para><computeroutput>float InputCommand.ExecExtraInfo.m_Axis</computeroutput></para></section>
+<anchor xml:id="_struct_input_command_1_1_exec_extra_info_1a099fdd72e86df4bb6617532c5ccf5a2b"/><section>
+    <title>m_ExecButtonDown</title>
+<indexterm><primary>m_ExecButtonDown</primary><secondary>InputCommand.ExecExtraInfo</secondary></indexterm>
+<indexterm><primary>InputCommand.ExecExtraInfo</primary><secondary>m_ExecButtonDown</secondary></indexterm>
+<para><computeroutput>bool InputCommand.ExecExtraInfo.m_ExecButtonDown</computeroutput></para></section>
+<anchor xml:id="_struct_input_command_1_1_exec_extra_info_1a7c6ce14977d6711ffd2dc6846e330361"/><section>
+    <title>m_ExecButtonPressedThisFrame</title>
+<indexterm><primary>m_ExecButtonPressedThisFrame</primary><secondary>InputCommand.ExecExtraInfo</secondary></indexterm>
+<indexterm><primary>InputCommand.ExecExtraInfo</primary><secondary>m_ExecButtonPressedThisFrame</secondary></indexterm>
+<para><computeroutput>bool InputCommand.ExecExtraInfo.m_ExecButtonPressedThisFrame</computeroutput></para></section>
+<anchor xml:id="_struct_input_command_1_1_exec_extra_info_1a0a4f96901ea73ba2894016c65cfb1821"/><section>
+    <title>m_ExecButtonReleasedThisFrame</title>
+<indexterm><primary>m_ExecButtonReleasedThisFrame</primary><secondary>InputCommand.ExecExtraInfo</secondary></indexterm>
+<indexterm><primary>InputCommand.ExecExtraInfo</primary><secondary>m_ExecButtonReleasedThisFrame</secondary></indexterm>
+<para><computeroutput>bool InputCommand.ExecExtraInfo.m_ExecButtonReleasedThisFrame</computeroutput></para></section>
+<anchor xml:id="_struct_input_command_1_1_exec_extra_info_1a9fed7424137c6ec41f3d27e6e4317d1c"/><section>
+    <title>m_Execd</title>
+<indexterm><primary>m_Execd</primary><secondary>InputCommand.ExecExtraInfo</secondary></indexterm>
+<indexterm><primary>InputCommand.ExecExtraInfo</primary><secondary>m_Execd</secondary></indexterm>
+<para><computeroutput>bool InputCommand.ExecExtraInfo.m_Execd</computeroutput></para></section>
+<anchor xml:id="_struct_input_command_1_1_exec_extra_info_1af6ed536c1397442e335fce4fa916b9bc"/><section>
+    <title>m_PlayerNumber</title>
+<indexterm><primary>m_PlayerNumber</primary><secondary>InputCommand.ExecExtraInfo</secondary></indexterm>
+<indexterm><primary>InputCommand.ExecExtraInfo</primary><secondary>m_PlayerNumber</secondary></indexterm>
+<para><computeroutput>int InputCommand.ExecExtraInfo.m_PlayerNumber</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/<link linkend="__input_command_8cs">InputCommand.cs</link></section>
+</section>

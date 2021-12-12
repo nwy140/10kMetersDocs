@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_custom_device" kind="class" language="C#" prot="public">
+    <compoundname>CustomDevice</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">InputDevice</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IInputUpdateCallbackReceiver</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_custom_device_1a753cb7ee984c2a1e720f11b37c9377a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>ButtonControl</type>
+        <definition>ButtonControl CustomDevice.firstButton</definition>
+        <argsstring></argsstring>
+        <name>firstButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="180" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="180" bodyend="180"/>
+        <referencedby refid="class_custom_device_1aeeb415864d2144c23a79eb20a304ac7c" compoundref="_custom_device_8cs" startline="187" endline="195">FinishSetup</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_custom_device_1aa49c8a93fe4e40dca0814d8867d21a47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>ButtonControl</type>
+        <definition>ButtonControl CustomDevice.secondButton</definition>
+        <argsstring></argsstring>
+        <name>secondButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="181" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="181" bodyend="181"/>
+        <referencedby refid="class_custom_device_1aeeb415864d2144c23a79eb20a304ac7c" compoundref="_custom_device_8cs" startline="187" endline="195">FinishSetup</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_custom_device_1a2257fbe5cfbe72b30de0000b5b4ea977" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>ButtonControl</type>
+        <definition>ButtonControl CustomDevice.thirdButton</definition>
+        <argsstring></argsstring>
+        <name>thirdButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="182" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="182" bodyend="182"/>
+        <referencedby refid="class_custom_device_1aeeb415864d2144c23a79eb20a304ac7c" compoundref="_custom_device_8cs" startline="187" endline="195">FinishSetup</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_custom_device_1aa80dcd2f4cda6dd5873e60f17d8fa7b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>StickControl</type>
+        <definition>StickControl CustomDevice.stick</definition>
+        <argsstring></argsstring>
+        <name>stick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="183" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="183" bodyend="183"/>
+        <referencedby refid="class_custom_device_1aeeb415864d2144c23a79eb20a304ac7c" compoundref="_custom_device_8cs" startline="187" endline="195">FinishSetup</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_custom_device_1ae1b49d794eb6da41858f1b7f623ee6d6" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_custom_device" kindref="compound">CustomDevice</ref></type>
+        <definition>CustomDevice CustomDevice.current</definition>
+        <argsstring></argsstring>
+        <name>current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="200" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="200" bodyend="200"/>
+        <referencedby refid="class_custom_device_1af7b575df41b7afd718c6b8557c006243" compoundref="_custom_device_8cs" startline="201" endline="205">MakeCurrent</referencedby>
+        <referencedby refid="class_custom_device_1a9b0bedafc96ee73592531bc5762e6e26" compoundref="_custom_device_8cs" startline="209" endline="214">OnRemoved</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_custom_device_1a31e37ae7cfbcf066976434bff9ac7c7c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CustomDevice.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="158" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="158" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_custom_device_1aeeb415864d2144c23a79eb20a304ac7c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CustomDevice.FinishSetup</definition>
+        <argsstring>()</argsstring>
+        <name>FinishSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="187" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="187" bodyend="195"/>
+        <references refid="class_custom_device_1a753cb7ee984c2a1e720f11b37c9377a5" compoundref="_custom_device_8cs" startline="180" endline="180">firstButton</references>
+        <references refid="class_custom_device_1aa49c8a93fe4e40dca0814d8867d21a47" compoundref="_custom_device_8cs" startline="181" endline="181">secondButton</references>
+        <references refid="class_custom_device_1aa80dcd2f4cda6dd5873e60f17d8fa7b9" compoundref="_custom_device_8cs" startline="183" endline="183">stick</references>
+        <references refid="class_custom_device_1a2257fbe5cfbe72b30de0000b5b4ea977" compoundref="_custom_device_8cs" startline="182" endline="182">thirdButton</references>
+      </memberdef>
+      <memberdef kind="function" id="class_custom_device_1a9b0bedafc96ee73592531bc5762e6e26" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CustomDevice.OnRemoved</definition>
+        <argsstring>()</argsstring>
+        <name>OnRemoved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="209" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="209" bodyend="214"/>
+        <references refid="class_custom_device_1ae1b49d794eb6da41858f1b7f623ee6d6" compoundref="_custom_device_8cs" startline="200" endline="200">current</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_custom_device_1af7b575df41b7afd718c6b8557c006243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CustomDevice.MakeCurrent</definition>
+        <argsstring>()</argsstring>
+        <name>MakeCurrent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="201" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="201" bodyend="205"/>
+        <references refid="class_custom_device_1ae1b49d794eb6da41858f1b7f623ee6d6" compoundref="_custom_device_8cs" startline="200" endline="200">current</references>
+      </memberdef>
+      <memberdef kind="function" id="class_custom_device_1a0d3e7e4061fb57df82bd3282daa5400c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CustomDevice.OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="298" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="298" bodyend="351"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CustomDevice</label>
+        <link refid="class_custom_device"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IInputUpdateCallbackReceiver</label>
+      </node>
+      <node id="2">
+        <label>InputDevice</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CustomDevice</label>
+        <link refid="class_custom_device"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IInputUpdateCallbackReceiver</label>
+      </node>
+      <node id="2">
+        <label>InputDevice</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" line="142" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/CustomDevice.cs" bodystart="143" bodyend="352"/>
+    <listofallmembers>
+      <member refid="class_custom_device_1ae1b49d794eb6da41858f1b7f623ee6d6" prot="public" virt="non-virtual"><scope>CustomDevice</scope><name>current</name></member>
+      <member refid="class_custom_device_1aeeb415864d2144c23a79eb20a304ac7c" prot="protected" virt="non-virtual"><scope>CustomDevice</scope><name>FinishSetup</name></member>
+      <member refid="class_custom_device_1a753cb7ee984c2a1e720f11b37c9377a5" prot="public" virt="non-virtual"><scope>CustomDevice</scope><name>firstButton</name></member>
+      <member refid="class_custom_device_1a31e37ae7cfbcf066976434bff9ac7c7c" prot="private" virt="non-virtual"><scope>CustomDevice</scope><name>Initialize</name></member>
+      <member refid="class_custom_device_1af7b575df41b7afd718c6b8557c006243" prot="public" virt="non-virtual"><scope>CustomDevice</scope><name>MakeCurrent</name></member>
+      <member refid="class_custom_device_1a9b0bedafc96ee73592531bc5762e6e26" prot="protected" virt="non-virtual"><scope>CustomDevice</scope><name>OnRemoved</name></member>
+      <member refid="class_custom_device_1a0d3e7e4061fb57df82bd3282daa5400c" prot="public" virt="non-virtual"><scope>CustomDevice</scope><name>OnUpdate</name></member>
+      <member refid="class_custom_device_1aa49c8a93fe4e40dca0814d8867d21a47" prot="public" virt="non-virtual"><scope>CustomDevice</scope><name>secondButton</name></member>
+      <member refid="class_custom_device_1aa80dcd2f4cda6dd5873e60f17d8fa7b9" prot="public" virt="non-virtual"><scope>CustomDevice</scope><name>stick</name></member>
+      <member refid="class_custom_device_1a2257fbe5cfbe72b30de0000b5b4ea977" prot="public" virt="non-virtual"><scope>CustomDevice</scope><name>thirdButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

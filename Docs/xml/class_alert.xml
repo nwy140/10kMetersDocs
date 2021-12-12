@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_alert" kind="class" language="C#" prot="public">
+    <compoundname>Alert</compoundname>
+    <basecompoundref refid="class_f_s_m_base_state" prot="public" virt="non-virtual">FSMBaseState</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alert_1add42baa70f4315a34bbabfda056f1c4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alert.Alert</definition>
+        <argsstring>(FSMSystemBase system)</argsstring>
+        <name>Alert</name>
+        <param>
+          <type><ref refid="class_f_s_m_system_base" kindref="compound">FSMSystemBase</ref></type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="33" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alert_1a4c74d0a6408ab55791ad5925867de6ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Alert.OnEnterState</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnterState</name>
+        <reimplements refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">OnEnterState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="36" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="36" bodyend="43"/>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">FSMBaseState._system</references>
+      </memberdef>
+      <memberdef kind="function" id="class_alert_1a5074dc24717dd36b9c760590c39fb68b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Alert.OnExitState</definition>
+        <argsstring>()</argsstring>
+        <name>OnExitState</name>
+        <reimplements refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">OnExitState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="49" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_alert_1a5443f79a47c34071506ef2da22c02acb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Alert.OnEnterState_Couroutine</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnterState_Couroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="44" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Alert</label>
+        <link refid="class_alert"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Alert</label>
+        <link refid="class_alert"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>#_system</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FSMSystemBase</label>
+        <link refid="class_f_s_m_system_base"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+_curState</edgelabel>
+          <edgelabel>+_prevState</edgelabel>
+          <edgelabel>+_startingState</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" line="31" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAIStatesTypeA.cs" bodystart="32" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" prot="public" virt="non-virtual"><scope>Alert</scope><name>_ExecutionState</name></member>
+      <member refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" prot="protected" virt="non-virtual"><scope>Alert</scope><name>_system</name></member>
+      <member refid="class_alert_1add42baa70f4315a34bbabfda056f1c4f" prot="public" virt="non-virtual"><scope>Alert</scope><name>Alert</name></member>
+      <member refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" prot="public" virt="non-virtual"><scope>Alert</scope><name>aName</name></member>
+      <member refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" prot="public" virt="non-virtual"><scope>Alert</scope><name>ElapsedTime</name></member>
+      <member refid="class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b" prot="public" virt="non-virtual"><scope>Alert</scope><name>ExecutionState</name></member>
+      <member refid="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" prot="public" virt="non-virtual"><scope>Alert</scope><name>FSMBaseState</name></member>
+      <member refid="class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8" prot="public" virt="non-virtual"><scope>Alert</scope><name>OnDisable</name></member>
+      <member refid="class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce" prot="public" virt="non-virtual"><scope>Alert</scope><name>OnEnable</name></member>
+      <member refid="class_alert_1a4c74d0a6408ab55791ad5925867de6ef" prot="public" virt="virtual"><scope>Alert</scope><name>OnEnterState</name></member>
+      <member refid="class_alert_1a5443f79a47c34071506ef2da22c02acb" prot="private" virt="non-virtual"><scope>Alert</scope><name>OnEnterState_Couroutine</name></member>
+      <member refid="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" prot="public" virt="non-virtual"><scope>Alert</scope><name>OnEnterTimeStamp</name></member>
+      <member refid="class_alert_1a5074dc24717dd36b9c760590c39fb68b" prot="public" virt="virtual"><scope>Alert</scope><name>OnExitState</name></member>
+      <member refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" prot="public" virt="virtual"><scope>Alert</scope><name>OnStayState</name></member>
+      <member refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" prot="public" virt="virtual"><scope>Alert</scope><name>OnUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

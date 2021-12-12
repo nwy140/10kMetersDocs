@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__e_command_enums_8cs" xml:lang="en-US">
+<title>C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/ECommandEnums.cs File Reference</title>
+<indexterm><primary>C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/ECommandEnums.cs</primary></indexterm>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005">CommandCastStatus</link> { <link linkend="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005a5b9cca31b21c9c04c3d6f9ecbcc3ffc8">Cooldown</link>
+, <link linkend="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005a4d3d769b812b6faa6b76e1a8abaece2d">Active</link>
+, <link linkend="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005ae7d31fc0602fb2ede144d18cdffd816b">Ready</link>
+ }</para>
+</listitem>
+            <listitem><para>enum <link linkend="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5">ReadStyle</link> { <link linkend="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5a73cf2f244bc0cb0d205b99c04fa13978">Tap</link>
+, <link linkend="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5abcd8db575b47c838e5d551e3973db4ac">Hold</link>
+, <link linkend="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5ab8e7b465df7c5979dc731d06e84ce2cf">Release</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005"/><section>
+    <title>CommandCastStatus</title>
+<indexterm><primary>CommandCastStatus</primary><secondary>ECommandEnums.cs</secondary></indexterm>
+<indexterm><primary>ECommandEnums.cs</primary><secondary>CommandCastStatus</secondary></indexterm>
+<para><computeroutput>enum <link linkend="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005">CommandCastStatus</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Cooldown</primary><secondary>ECommandEnums.cs</secondary></indexterm>
+<indexterm><primary>ECommandEnums.cs</primary><secondary>Cooldown</secondary></indexterm>
+<anchor xml:id="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005a5b9cca31b21c9c04c3d6f9ecbcc3ffc8"/>Cooldown</entry><entry></entry></row><row><entry><indexterm><primary>Active</primary><secondary>ECommandEnums.cs</secondary></indexterm>
+<indexterm><primary>ECommandEnums.cs</primary><secondary>Active</secondary></indexterm>
+<anchor xml:id="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005a4d3d769b812b6faa6b76e1a8abaece2d"/>Active</entry><entry></entry></row><row><entry><indexterm><primary>Ready</primary><secondary>ECommandEnums.cs</secondary></indexterm>
+<indexterm><primary>ECommandEnums.cs</primary><secondary>Ready</secondary></indexterm>
+<anchor xml:id="__e_command_enums_8cs_1a28192fad0dc276fe15ba781719cb8005ae7d31fc0602fb2ede144d18cdffd816b"/>Ready</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+<anchor xml:id="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5"/><section>
+    <title>ReadStyle</title>
+<indexterm><primary>ReadStyle</primary><secondary>ECommandEnums.cs</secondary></indexterm>
+<indexterm><primary>ECommandEnums.cs</primary><secondary>ReadStyle</secondary></indexterm>
+<para><computeroutput>enum <link linkend="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5">ReadStyle</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Tap</primary><secondary>ECommandEnums.cs</secondary></indexterm>
+<indexterm><primary>ECommandEnums.cs</primary><secondary>Tap</secondary></indexterm>
+<anchor xml:id="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5a73cf2f244bc0cb0d205b99c04fa13978"/>Tap</entry><entry></entry></row><row><entry><indexterm><primary>Hold</primary><secondary>ECommandEnums.cs</secondary></indexterm>
+<indexterm><primary>ECommandEnums.cs</primary><secondary>Hold</secondary></indexterm>
+<anchor xml:id="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5abcd8db575b47c838e5d551e3973db4ac"/>Hold</entry><entry></entry></row><row><entry><indexterm><primary>Release</primary><secondary>ECommandEnums.cs</secondary></indexterm>
+<indexterm><primary>ECommandEnums.cs</primary><secondary>Release</secondary></indexterm>
+<anchor xml:id="__e_command_enums_8cs_1af0388fe75f69fa3e821bdb737b43cdc5ab8e7b465df7c5979dc731d06e84ce2cf"/>Release</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

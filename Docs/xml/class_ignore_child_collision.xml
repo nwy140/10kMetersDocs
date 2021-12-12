@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_ignore_child_collision" kind="class" language="C#" prot="public">
+    <compoundname>IgnoreChildCollision</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ignore_child_collision_1a75800698eac485697d404651bdc7f979" prot="private" static="no" mutable="no">
+        <type>Collider2D[]</type>
+        <definition>Collider2D [] IgnoreChildCollision.childrenColliders</definition>
+        <argsstring></argsstring>
+        <name>childrenColliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/IgnoreChildCollision.cs" line="7" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/IgnoreChildCollision.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ignore_child_collision_1a88abc148c382ce3ddad445479e956e19" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IgnoreChildCollision.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/IgnoreChildCollision.cs" line="9" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/IgnoreChildCollision.cs" bodystart="9" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IgnoreChildCollision</label>
+        <link refid="class_ignore_child_collision"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IgnoreChildCollision</label>
+        <link refid="class_ignore_child_collision"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/IgnoreChildCollision.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/IgnoreChildCollision.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_ignore_child_collision_1a75800698eac485697d404651bdc7f979" prot="private" virt="non-virtual"><scope>IgnoreChildCollision</scope><name>childrenColliders</name></member>
+      <member refid="class_ignore_child_collision_1a88abc148c382ce3ddad445479e956e19" prot="private" virt="non-virtual"><scope>IgnoreChildCollision</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_upgrades" kind="class" language="C#" prot="public">
+    <compoundname>PlayerUpgrades</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="class_hull" prot="public" virt="non-virtual">Hull</derivedcompoundref>
+    <derivedcompoundref refid="class_inventory" prot="public" virt="non-virtual">Inventory</derivedcompoundref>
+    <derivedcompoundref refid="class_oxygen_tank" prot="public" virt="non-virtual">OxygenTank</derivedcompoundref>
+    <derivedcompoundref refid="class_self_repair" prot="public" virt="non-virtual">SelfRepair</derivedcompoundref>
+    <derivedcompoundref refid="class_turbine" prot="public" virt="non-virtual">Turbine</derivedcompoundref>
+    <derivedcompoundref refid="class_weapon" prot="public" virt="non-virtual">Weapon</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_upgrades_1a29639066ba2ccc0f1b798e2dee9116fb" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem" kindref="compound">item</ref>[]</type>
+        <definition>item [] PlayerUpgrades.fishMaterialTypeRequirement</definition>
+        <argsstring></argsstring>
+        <name>fishMaterialTypeRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="7" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_upgrades_1ab85e8bba4e336c3740e36297e85b9379" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem" kindref="compound">item</ref>[]</type>
+        <definition>item [] PlayerUpgrades.rawMaterialTypeRequirement</definition>
+        <argsstring></argsstring>
+        <name>rawMaterialTypeRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="8" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_upgrades_1a93a07c6645ca95006a711e3553abf781" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] PlayerUpgrades.fishMaterialAmountRequirement</definition>
+        <argsstring></argsstring>
+        <name>fishMaterialAmountRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="9" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_upgrades_1af20f4b7ab4464be6103e21eb845d47a2" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] PlayerUpgrades.rawMaterialAmountRequirement</definition>
+        <argsstring></argsstring>
+        <name>rawMaterialAmountRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="10" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_player_upgrades_1a5362fd69bdd7e457fbebc5a427ed30ce" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerUpgrades.isUniqueFeatureUsed</definition>
+        <argsstring></argsstring>
+        <name>isUniqueFeatureUsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="12" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_player_upgrades_1a69f6c2f7ce04aa2445f6cd6c130807c5" compoundref="_player_upgrades_8cs" startline="36" endline="39">IsUniqueFeatureUsed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_upgrades_1ae9eb4584c3af767f5948d6ec5fc243e8" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerUpgrades.isLowTierUpgrade</definition>
+        <argsstring></argsstring>
+        <name>isLowTierUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="13" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_player_upgrades_1a22e5dc654af417e4cd9ccaf347373a53" compoundref="_player_upgrades_8cs" startline="41" endline="44">IsLowTierUpgrade</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_upgrades_1aca8c0ea9036e67a009629ccca22689b6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlayerUpgrades.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="15" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_upgrade_database_1adede880575c59d007315ee4c1f10e857" compoundref="_upgrade_database_8cs" startline="12" endline="22">UpgradeDatabase.GetUpgradeReference</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_upgrades_1a6bb164625c5847a6af36709571ec851f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classitem" kindref="compound">item</ref>[]</type>
+        <definition>item[] PlayerUpgrades.GetFishMaterialTypeRequirement</definition>
+        <argsstring>()</argsstring>
+        <name>GetFishMaterialTypeRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="17" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="17" bodyend="20"/>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">RequirementChecker.CheckRequirement</referencedby>
+        <referencedby refid="class_player_skills_1ace8108a48b4b8efa6774e1d571b9221b" compoundref="_player_skills_8cs" startline="137" endline="156">PlayerSkills.SetRequirements</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_upgrades_1a5bc2766abbc8c3a46300fe0ec7501514" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classitem" kindref="compound">item</ref>[]</type>
+        <definition>item[] PlayerUpgrades.GetRawMaterialTypeRequirement</definition>
+        <argsstring>()</argsstring>
+        <name>GetRawMaterialTypeRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="21" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="21" bodyend="24"/>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">RequirementChecker.CheckRequirement</referencedby>
+        <referencedby refid="class_player_skills_1ace8108a48b4b8efa6774e1d571b9221b" compoundref="_player_skills_8cs" startline="137" endline="156">PlayerSkills.SetRequirements</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_upgrades_1aafbbe9499b027d5b1670ef1d31aab7a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[]</type>
+        <definition>int[] PlayerUpgrades.GetFishMaterialAmountRequirement</definition>
+        <argsstring>()</argsstring>
+        <name>GetFishMaterialAmountRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="26" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="26" bodyend="29"/>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">RequirementChecker.CheckRequirement</referencedby>
+        <referencedby refid="class_player_skills_1ace8108a48b4b8efa6774e1d571b9221b" compoundref="_player_skills_8cs" startline="137" endline="156">PlayerSkills.SetRequirements</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_upgrades_1a90101816a84d5531335b6f1ca159376f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[]</type>
+        <definition>int[] PlayerUpgrades.GetRawMaterialAmountRequirement</definition>
+        <argsstring>()</argsstring>
+        <name>GetRawMaterialAmountRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="31" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="31" bodyend="34"/>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">RequirementChecker.CheckRequirement</referencedby>
+        <referencedby refid="class_player_skills_1ace8108a48b4b8efa6774e1d571b9221b" compoundref="_player_skills_8cs" startline="137" endline="156">PlayerSkills.SetRequirements</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_upgrades_1a69f6c2f7ce04aa2445f6cd6c130807c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerUpgrades.IsUniqueFeatureUsed</definition>
+        <argsstring>()</argsstring>
+        <name>IsUniqueFeatureUsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="36" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="36" bodyend="39"/>
+        <references refid="class_player_upgrades_1a5362fd69bdd7e457fbebc5a427ed30ce" compoundref="_player_upgrades_8cs" startline="12">isUniqueFeatureUsed</references>
+        <referencedby refid="class_player_movement_1a337ddf0c30749248244531818e379772" compoundref="_player_movement_8cs" startline="343" endline="350">PlayerMovement.IsInvincible</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_upgrades_1a22e5dc654af417e4cd9ccaf347373a53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerUpgrades.IsLowTierUpgrade</definition>
+        <argsstring>()</argsstring>
+        <name>IsLowTierUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="41" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="41" bodyend="44"/>
+        <references refid="class_player_upgrades_1ae9eb4584c3af767f5948d6ec5fc243e8" compoundref="_player_upgrades_8cs" startline="13">isLowTierUpgrade</references>
+        <referencedby refid="class_player_movement_1a337ddf0c30749248244531818e379772" compoundref="_player_movement_8cs" startline="343" endline="350">PlayerMovement.IsInvincible</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_upgrades_1a60236534be903afb7996373f5ae6d3c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref></type>
+        <definition>virtual PlayerUpgrades PlayerUpgrades.GetCopy</definition>
+        <argsstring>()</argsstring>
+        <name>GetCopy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="46" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="46" bodyend="49"/>
+        <referencedby refid="class_upgrade_database_1a94511ed08cae935308783b95bc17a491" compoundref="_upgrade_database_8cs" startline="24" endline="29">UpgradeDatabase.GetUpgradeCopy</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Hull</label>
+        <link refid="class_hull"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Inventory</label>
+        <link refid="class_inventory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>OxygenTank</label>
+        <link refid="class_oxygen_tank"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="6">
+        <label>SelfRepair</label>
+        <link refid="class_self_repair"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Turbine</label>
+        <link refid="class_turbine"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/PlayerUpgrades.cs" bodystart="6" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_player_upgrades_1a93a07c6645ca95006a711e3553abf781" prot="private" virt="non-virtual"><scope>PlayerUpgrades</scope><name>fishMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a29639066ba2ccc0f1b798e2dee9116fb" prot="private" virt="non-virtual"><scope>PlayerUpgrades</scope><name>fishMaterialTypeRequirement</name></member>
+      <member refid="class_player_upgrades_1a60236534be903afb7996373f5ae6d3c6" prot="public" virt="virtual"><scope>PlayerUpgrades</scope><name>GetCopy</name></member>
+      <member refid="class_player_upgrades_1aafbbe9499b027d5b1670ef1d31aab7a4" prot="public" virt="non-virtual"><scope>PlayerUpgrades</scope><name>GetFishMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a6bb164625c5847a6af36709571ec851f" prot="public" virt="non-virtual"><scope>PlayerUpgrades</scope><name>GetFishMaterialTypeRequirement</name></member>
+      <member refid="class_player_upgrades_1a90101816a84d5531335b6f1ca159376f" prot="public" virt="non-virtual"><scope>PlayerUpgrades</scope><name>GetRawMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a5bc2766abbc8c3a46300fe0ec7501514" prot="public" virt="non-virtual"><scope>PlayerUpgrades</scope><name>GetRawMaterialTypeRequirement</name></member>
+      <member refid="class_player_upgrades_1aca8c0ea9036e67a009629ccca22689b6" prot="public" virt="non-virtual"><scope>PlayerUpgrades</scope><name>ID</name></member>
+      <member refid="class_player_upgrades_1ae9eb4584c3af767f5948d6ec5fc243e8" prot="protected" virt="non-virtual"><scope>PlayerUpgrades</scope><name>isLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a22e5dc654af417e4cd9ccaf347373a53" prot="public" virt="non-virtual"><scope>PlayerUpgrades</scope><name>IsLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a5362fd69bdd7e457fbebc5a427ed30ce" prot="protected" virt="non-virtual"><scope>PlayerUpgrades</scope><name>isUniqueFeatureUsed</name></member>
+      <member refid="class_player_upgrades_1a69f6c2f7ce04aa2445f6cd6c130807c5" prot="public" virt="non-virtual"><scope>PlayerUpgrades</scope><name>IsUniqueFeatureUsed</name></member>
+      <member refid="class_player_upgrades_1af20f4b7ab4464be6103e21eb845d47a2" prot="private" virt="non-virtual"><scope>PlayerUpgrades</scope><name>rawMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1ab85e8bba4e336c3740e36297e85b9379" prot="private" virt="non-virtual"><scope>PlayerUpgrades</scope><name>rawMaterialTypeRequirement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

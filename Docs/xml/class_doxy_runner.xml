@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_doxy_runner" kind="class" language="C#" prot="public">
+    <compoundname>DoxyRunner</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_doxy_runner_1a351a03f03f482a3fac5de95e5400f0bd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_doxy_thread_safe_output" kindref="compound">DoxyThreadSafeOutput</ref></type>
+        <definition>DoxyThreadSafeOutput DoxyRunner.SafeOutput</definition>
+        <argsstring></argsstring>
+        <name>SafeOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="456" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxy_runner_1a942dbce786f3f791a235da931b5313e1" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; DoxyRunner.DoxyLog</definition>
+        <argsstring></argsstring>
+        <name>DoxyLog</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="458" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_doxy_runner_1ac1401822d6b3dea5626b786a94aa98d5" prot="public" static="no" mutable="no">
+        <type>Action&lt; int &gt;</type>
+        <definition>Action&lt;int&gt; DoxyRunner.onCompleteCallBack</definition>
+        <argsstring></argsstring>
+        <name>onCompleteCallBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="457" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="457" bodyend="-1"/>
+        <referencedby refid="class_doxy_runner_1aed7742f6732027e7427393d727898eba" compoundref="_doxygen_window_8cs" startline="463" endline="471">DoxyRunner</referencedby>
+        <referencedby refid="class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6" compoundref="_doxygen_window_8cs" startline="479" endline="486">RunThreadedDoxy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxy_runner_1a9661f03da50c7783e9bc99e2a92f14e6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxyRunner.EXE</definition>
+        <argsstring></argsstring>
+        <name>EXE</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="459" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="459" bodyend="-1"/>
+        <referencedby refid="class_doxy_runner_1aed7742f6732027e7427393d727898eba" compoundref="_doxygen_window_8cs" startline="463" endline="471">DoxyRunner</referencedby>
+        <referencedby refid="class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6" compoundref="_doxygen_window_8cs" startline="479" endline="486">RunThreadedDoxy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxy_runner_1a015e8e8211c24140065dfc92f5fba71b" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] DoxyRunner.Args</definition>
+        <argsstring></argsstring>
+        <name>Args</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="460" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="460" bodyend="-1"/>
+        <referencedby refid="class_doxy_runner_1aed7742f6732027e7427393d727898eba" compoundref="_doxygen_window_8cs" startline="463" endline="471">DoxyRunner</referencedby>
+        <referencedby refid="class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6" compoundref="_doxygen_window_8cs" startline="479" endline="486">RunThreadedDoxy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_doxy_runner_1a6589351599a93fd0e43d5aaf0fe07231" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string DoxyRunner.WorkingFolder</definition>
+        <argsstring></argsstring>
+        <name>WorkingFolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="461" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_doxy_runner_1aed7742f6732027e7427393d727898eba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DoxyRunner.DoxyRunner</definition>
+        <argsstring>(string exepath, string[] args, DoxyThreadSafeOutput safeoutput, Action&lt; int &gt; callback)</argsstring>
+        <name>DoxyRunner</name>
+        <param>
+          <type>string</type>
+          <declname>exepath</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type><ref refid="class_doxy_thread_safe_output" kindref="compound">DoxyThreadSafeOutput</ref></type>
+          <declname>safeoutput</declname>
+        </param>
+        <param>
+          <type>Action&lt; int &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="463" column="8" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="463" bodyend="471"/>
+        <references refid="class_doxy_runner_1a015e8e8211c24140065dfc92f5fba71b" compoundref="_doxygen_window_8cs" startline="460">Args</references>
+        <references refid="class_doxy_runner_1a9661f03da50c7783e9bc99e2a92f14e6" compoundref="_doxygen_window_8cs" startline="459">EXE</references>
+        <references refid="class_doxy_runner_1ac1401822d6b3dea5626b786a94aa98d5" compoundref="_doxygen_window_8cs" startline="457">onCompleteCallBack</references>
+      </memberdef>
+      <memberdef kind="function" id="class_doxy_runner_1a4474ed980f895f97ac3517fe85834259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxyRunner.updateOuputString</definition>
+        <argsstring>(string output)</argsstring>
+        <name>updateOuputString</name>
+        <param>
+          <type>string</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="473" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="473" bodyend="477"/>
+        <references refid="class_doxy_thread_safe_output_1ab2083e9efa17a35c72d3c2c784ef6800" compoundref="_doxygen_window_8cs" startline="718" endline="729">DoxyThreadSafeOutput.WriteLine</references>
+        <referencedby refid="class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6" compoundref="_doxygen_window_8cs" startline="479" endline="486">RunThreadedDoxy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoxyRunner.RunThreadedDoxy</definition>
+        <argsstring>()</argsstring>
+        <name>RunThreadedDoxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="479" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="479" bodyend="486"/>
+        <references refid="class_doxy_runner_1a015e8e8211c24140065dfc92f5fba71b" compoundref="_doxygen_window_8cs" startline="460">Args</references>
+        <references refid="class_doxy_runner_1a9661f03da50c7783e9bc99e2a92f14e6" compoundref="_doxygen_window_8cs" startline="459">EXE</references>
+        <references refid="class_doxy_runner_1ac1401822d6b3dea5626b786a94aa98d5" compoundref="_doxygen_window_8cs" startline="457">onCompleteCallBack</references>
+        <references refid="class_doxy_runner_1a7458975df0c43d397051f225d6def184" compoundref="_doxygen_window_8cs" startline="499" endline="538">Run</references>
+        <references refid="class_doxy_thread_safe_output_1a97e2149569e2bb5e749851daa2781423" compoundref="_doxygen_window_8cs" startline="640" endline="651">DoxyThreadSafeOutput.SetFinished</references>
+        <references refid="class_doxy_runner_1a4474ed980f895f97ac3517fe85834259" compoundref="_doxygen_window_8cs" startline="473" endline="477">updateOuputString</references>
+        <references refid="class_doxy_thread_safe_output_1aa831eccd758e59c835fd3486c39a4a8c" compoundref="_doxygen_window_8cs" startline="705" endline="716">DoxyThreadSafeOutput.WriteFullLog</references>
+        <referencedby refid="class_doxygen_window_1a63924417d5b5b7a71570ec9a9ef1ca5e" compoundref="_doxygen_window_8cs" startline="432" endline="446">DoxygenWindow.RunDoxygen</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_doxy_runner_1a7458975df0c43d397051f225d6def184" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DoxyRunner.Run</definition>
+        <argsstring>(Action&lt; string &gt; output, TextReader input, string exe, params string[] args)</argsstring>
+        <name>Run</name>
+        <param>
+          <type>Action&lt; string &gt;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>TextReader</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>exe</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Runs the specified executable with the provided arguments and returns the process&apos; exit code. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Recieves the output of either std/err or std/out</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provides the line-by-line input that will be written to std/in, null for empty</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exe</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The executable to run, may be unqualified or contain environment variables</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of unescaped arguments to provide to the executable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns process&apos; exit code after the program exits</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.IO.FileNotFoundException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Raised when the exe was not found</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Raised when one of the arguments is null</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Raised if an argument contains &apos;\0&apos;, &apos;\r&apos;, or &apos;<linebreak/>
+&apos; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="499" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="499" bodyend="538"/>
+        <references refid="class_doxy_runner_1a9e1ad0bb37f42899aeac2e2fb59cb769" compoundref="_doxygen_window_8cs" startline="548" endline="585">EscapeArguments</references>
+        <references refid="class_doxy_runner_1a0923bf6769c3b99b4fb8e9ce67877a94" compoundref="_doxygen_window_8cs" startline="595" endline="612">FindExePath</references>
+        <referencedby refid="class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6" compoundref="_doxygen_window_8cs" startline="479" endline="486">RunThreadedDoxy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_doxy_runner_1a9e1ad0bb37f42899aeac2e2fb59cb769" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DoxyRunner.EscapeArguments</definition>
+        <argsstring>(params string[] args)</argsstring>
+        <name>EscapeArguments</name>
+        <param>
+          <type>params string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Quotes all arguments that contain whitespace, or begin with a quote and returns a single argument string for use with Process.Start(). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of strings for arguments, may not contain null, &apos;\0&apos;, &apos;\r&apos;, or &apos;<linebreak/>
+&apos;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The combined list of escaped/quoted strings</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Raised when one of the arguments is null</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Raised if an argument contains &apos;\0&apos;, &apos;\r&apos;, or &apos;<linebreak/>
+&apos;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="548" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="548" bodyend="585"/>
+        <referencedby refid="class_doxy_runner_1a7458975df0c43d397051f225d6def184" compoundref="_doxygen_window_8cs" startline="499" endline="538">Run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_doxy_runner_1a0923bf6769c3b99b4fb8e9ce67877a94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DoxyRunner.FindExePath</definition>
+        <argsstring>(string exe)</argsstring>
+        <name>FindExePath</name>
+        <param>
+          <type>string</type>
+          <declname>exe</declname>
+        </param>
+        <briefdescription>
+<para>Expands environment variables and, if unqualified, locates the exe in the working directory or the evironment&apos;s path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exe</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the executable file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The fully-qualified path to the file</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.IO.FileNotFoundException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Raised when the exe was not found</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="595" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="595" bodyend="612"/>
+        <referencedby refid="class_doxy_runner_1a7458975df0c43d397051f225d6def184" compoundref="_doxygen_window_8cs" startline="499" endline="538">Run</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class spawns and runs Doxygen in a separate thread, and could serve as an example of how to create plugins for unity that call a command line application and then get the data back into Unity safely. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+ </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>DoxyRunner</label>
+        <link refid="class_doxy_runner"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="454" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="455" bodyend="613"/>
+    <listofallmembers>
+      <member refid="class_doxy_runner_1a015e8e8211c24140065dfc92f5fba71b" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>Args</name></member>
+      <member refid="class_doxy_runner_1a942dbce786f3f791a235da931b5313e1" prot="private" virt="non-virtual"><scope>DoxyRunner</scope><name>DoxyLog</name></member>
+      <member refid="class_doxy_runner_1aed7742f6732027e7427393d727898eba" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>DoxyRunner</name></member>
+      <member refid="class_doxy_runner_1a9e1ad0bb37f42899aeac2e2fb59cb769" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>EscapeArguments</name></member>
+      <member refid="class_doxy_runner_1a9661f03da50c7783e9bc99e2a92f14e6" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>EXE</name></member>
+      <member refid="class_doxy_runner_1a0923bf6769c3b99b4fb8e9ce67877a94" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>FindExePath</name></member>
+      <member refid="class_doxy_runner_1ac1401822d6b3dea5626b786a94aa98d5" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>onCompleteCallBack</name></member>
+      <member refid="class_doxy_runner_1a7458975df0c43d397051f225d6def184" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>Run</name></member>
+      <member refid="class_doxy_runner_1a0a838402bf7b6661d4a1959c1b57aeb6" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>RunThreadedDoxy</name></member>
+      <member refid="class_doxy_runner_1a351a03f03f482a3fac5de95e5400f0bd" prot="private" virt="non-virtual"><scope>DoxyRunner</scope><name>SafeOutput</name></member>
+      <member refid="class_doxy_runner_1a4474ed980f895f97ac3517fe85834259" prot="public" virt="non-virtual"><scope>DoxyRunner</scope><name>updateOuputString</name></member>
+      <member refid="class_doxy_runner_1a6589351599a93fd0e43d5aaf0fe07231" prot="private" virt="non-virtual"><scope>DoxyRunner</scope><name>WorkingFolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

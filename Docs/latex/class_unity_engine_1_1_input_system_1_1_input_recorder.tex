@@ -1,0 +1,505 @@
+\hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder}{}\doxysection{Unity\+Engine.\+Input\+System.\+Input\+Recorder Class Reference}
+\label{class_unity_engine_1_1_input_system_1_1_input_recorder}\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+
+
+A wrapper component around Input\+Event\+Trace that provides an easy interface for recording input from a Game\+Object.  
+
+
+
+
+Inheritance diagram for Unity\+Engine.\+Input\+System.\+Input\+Recorder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_unity_engine_1_1_input_system_1_1_input_recorder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Unity\+Engine.\+Input\+System.\+Input\+Recorder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_unity_engine_1_1_input_system_1_1_input_recorder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_1_1_change_event}{Change\+Event}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3}{Change}} \{ \newline
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a6adf97f83acf6453d4a6a4b1070f3754}{None}}
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3ac18aa2fe1eb13832f6ef0a967e8ed2fa}{Event\+Captured}}
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3add976227177359cbdc2c5a569f8eb0f8}{Event\+Played}}
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a25f8d499c643591b30aa8152b2ac7497}{Capture\+Started}}
+, \newline
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a8efa2bba5117e56781bee170040ac595}{Capture\+Stopped}}
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a0197af9a31ee9a8ca22ac49c544897d6}{Replay\+Started}}
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a919adac6ce580eba4384e4da7cfd1c42}{Replay\+Stopped}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a9455c855eede37598d802cce55e9bb2d}{Start\+Capture}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_ac16d188234d2bc6a4903d19a06de07c5}{Stop\+Capture}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a0e8d20b45d477821fa142e44bdc327a5}{Start\+Replay}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_afbed62e175e7da3b94855921e9595577}{Stop\+Replay}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a2b9cafe2cb3100c9007a408b3194d343}{Pause\+Replay}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a9b958c59e9e1d597a554a6dea7d95155}{Clear\+Capture}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a6be6d39b51efa1cbe70edd1650ca2f31}{Load\+Capture\+From\+File}} (string file\+Name)
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_ae1e595336c5054c10c50f235c6a21daf}{Save\+Capture\+To\+File}} (string file\+Name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a82280c322d1960063d2f48dae3f443cb}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_ade706e2ce09b8f50ae83e90379080176}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a4ad82b21310d01f87355316da25c4e34}{On\+Destroy}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_ac01a021b1b8869ca6a872597bbe58f1b}{capture\+Is\+Running}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Whether a capture is currently in progress. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_aaa7bc60df73f6ced3ef4b3aa45a14752}{replay\+Is\+Running}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Whether a replay is currently being run by the component. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_ab951a223a553a78b0e1189d7c2a1faaa}{start\+Recording\+When\+Enabled}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em If true, input recording is started immediately when the component is enabled. \end{DoxyCompactList}\item 
+long \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a22fc70e5c89d6a39b061679fe20ed599}{event\+Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Total number of events captured. \end{DoxyCompactList}\item 
+long \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_ac7c509ae5d43cc46827fd5708a464d5b}{total\+Event\+Size\+In\+Bytes}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Total size of captured events. \end{DoxyCompactList}\item 
+long \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_af12621ea7c2bd060c2494280be2b2c2f}{allocated\+Size\+In\+Bytes}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Total size of capture memory currently allocated. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a2ba2b7c25d096bd758437294674b33a2}{record\+Frames}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Whether to record frame marker events when capturing input. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_aa9c396a6401e9ae7fae6a3e0d6c0caa5}{record\+State\+Events\+Only}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Whether to record only State\+Events and Delta\+State\+Events. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a0d458aea368305397dac20664eb5000e}{device\+Path}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Path that constrains the devices to record from. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a3d3628007e5a0f8a39871b41cca74116}{record\+Button\+Path}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_ace530c1391e845aad0d6f7dc8af01729}{play\+Button\+Path}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+Input\+Event\+Trace \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_ace561e1cbc4a3146ed9bed3bc3b709b3}{capture}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The underlying event trace that contains the captured input events. \end{DoxyCompactList}\item 
+Input\+Event\+Trace.\+Replay\+Controller \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_abee89d3a1c98ed22bf893d6c72f76a22}{replay}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The replay controller for when a replay is running. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_aad1da83e32e6b9eab9e958b1dd1ce6f0}{replay\+Position}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a167a7b1463ba3d160c2acd59773ba52e}{replay\+On\+New\+Devices}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Whether a replay should create new devices or replay recorded events as is. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a939078e382146cbb178a34c0d397c4ba}{simulate\+Original\+Timing\+On\+Replay}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Whether to attempt to re-\/create the original event timing when replaying events. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_1_1_change_event}{Change\+Event}} \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a4da084956bda36b15f449f192f0fe052}{change\+Event}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A wrapper component around Input\+Event\+Trace that provides an easy interface for recording input from a Game\+Object. 
+
+This component comes with a custom inspector that provides an easy recording and playback interface and also gives feedback about what has been recorded in the trace. The interface also allows saving and loading event traces.
+
+Capturing can either be constrained by a \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a0d458aea368305397dac20664eb5000e}{device\+Path}} or capture all input occuring in the system.
+
+Replay by default will happen frame by frame (see Input\+Event\+Trace.\+Replay\+Controller.\+Play\+All\+Frames\+One\+By\+One). If frame markers are disabled (see \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a2ba2b7c25d096bd758437294674b33a2}{record\+Frames}}), all events are queued right away in the first frame and replay completes immediately.
+
+Other than frame-\/by-\/frame, replay can be made to happen in a way that tries to simulate the original input timing. To do so, enable \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a939078e382146cbb178a34c0d397c4ba}{simulate\+Original\+Timing\+On\+Replay}}. This will make use of Input\+Event\+Trace.\+Replay\+Controller.\+Play\+All\+Events\+According\+To\+Timestamps 
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!Change@{Change}}
+\index{Change@{Change}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{Change}{Change}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3}{Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Change}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!None@{None}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a6adf97f83acf6453d4a6a4b1070f3754}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a6adf97f83acf6453d4a6a4b1070f3754}} 
+None&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EventCaptured@{EventCaptured}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!EventCaptured@{EventCaptured}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3ac18aa2fe1eb13832f6ef0a967e8ed2fa}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3ac18aa2fe1eb13832f6ef0a967e8ed2fa}} 
+Event\+Captured&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EventPlayed@{EventPlayed}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!EventPlayed@{EventPlayed}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3add976227177359cbdc2c5a569f8eb0f8}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3add976227177359cbdc2c5a569f8eb0f8}} 
+Event\+Played&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CaptureStarted@{CaptureStarted}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!CaptureStarted@{CaptureStarted}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a25f8d499c643591b30aa8152b2ac7497}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a25f8d499c643591b30aa8152b2ac7497}} 
+Capture\+Started&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CaptureStopped@{CaptureStopped}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!CaptureStopped@{CaptureStopped}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a8efa2bba5117e56781bee170040ac595}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a8efa2bba5117e56781bee170040ac595}} 
+Capture\+Stopped&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ReplayStarted@{ReplayStarted}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!ReplayStarted@{ReplayStarted}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a0197af9a31ee9a8ca22ac49c544897d6}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a0197af9a31ee9a8ca22ac49c544897d6}} 
+Replay\+Started&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ReplayStopped@{ReplayStopped}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!ReplayStopped@{ReplayStopped}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a919adac6ce580eba4384e4da7cfd1c42}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a981a04fb32c4cf91099ddc317706c1f3a919adac6ce580eba4384e4da7cfd1c42}} 
+Replay\+Stopped&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a9b958c59e9e1d597a554a6dea7d95155}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a9b958c59e9e1d597a554a6dea7d95155}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!ClearCapture@{ClearCapture}}
+\index{ClearCapture@{ClearCapture}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{ClearCapture()}{ClearCapture()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Clear\+Capture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a6be6d39b51efa1cbe70edd1650ca2f31}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a6be6d39b51efa1cbe70edd1650ca2f31}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!LoadCaptureFromFile@{LoadCaptureFromFile}}
+\index{LoadCaptureFromFile@{LoadCaptureFromFile}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{LoadCaptureFromFile()}{LoadCaptureFromFile()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Load\+Capture\+From\+File (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a4ad82b21310d01f87355316da25c4e34}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a4ad82b21310d01f87355316da25c4e34}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_ade706e2ce09b8f50ae83e90379080176}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_ade706e2ce09b8f50ae83e90379080176}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_input_recorder_ade706e2ce09b8f50ae83e90379080176_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a82280c322d1960063d2f48dae3f443cb}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a82280c322d1960063d2f48dae3f443cb}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_input_recorder_a82280c322d1960063d2f48dae3f443cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a2b9cafe2cb3100c9007a408b3194d343}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a2b9cafe2cb3100c9007a408b3194d343}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!PauseReplay@{PauseReplay}}
+\index{PauseReplay@{PauseReplay}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{PauseReplay()}{PauseReplay()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Pause\+Replay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_ae1e595336c5054c10c50f235c6a21daf}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_ae1e595336c5054c10c50f235c6a21daf}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!SaveCaptureToFile@{SaveCaptureToFile}}
+\index{SaveCaptureToFile@{SaveCaptureToFile}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{SaveCaptureToFile()}{SaveCaptureToFile()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Save\+Capture\+To\+File (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a9455c855eede37598d802cce55e9bb2d}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a9455c855eede37598d802cce55e9bb2d}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!StartCapture@{StartCapture}}
+\index{StartCapture@{StartCapture}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{StartCapture()}{StartCapture()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Start\+Capture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_input_recorder_a9455c855eede37598d802cce55e9bb2d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a0e8d20b45d477821fa142e44bdc327a5}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a0e8d20b45d477821fa142e44bdc327a5}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!StartReplay@{StartReplay}}
+\index{StartReplay@{StartReplay}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{StartReplay()}{StartReplay()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Start\+Replay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_input_recorder_a0e8d20b45d477821fa142e44bdc327a5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_ac16d188234d2bc6a4903d19a06de07c5}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_ac16d188234d2bc6a4903d19a06de07c5}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!StopCapture@{StopCapture}}
+\index{StopCapture@{StopCapture}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{StopCapture()}{StopCapture()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Stop\+Capture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_input_recorder_ac16d188234d2bc6a4903d19a06de07c5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_afbed62e175e7da3b94855921e9595577}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_afbed62e175e7da3b94855921e9595577}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!StopReplay@{StopReplay}}
+\index{StopReplay@{StopReplay}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{StopReplay()}{StopReplay()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+Stop\+Replay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_input_recorder_afbed62e175e7da3b94855921e9595577_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_af12621ea7c2bd060c2494280be2b2c2f}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_af12621ea7c2bd060c2494280be2b2c2f}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!allocatedSizeInBytes@{allocatedSizeInBytes}}
+\index{allocatedSizeInBytes@{allocatedSizeInBytes}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{allocatedSizeInBytes}{allocatedSizeInBytes}}
+{\footnotesize\ttfamily long Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+allocated\+Size\+In\+Bytes\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Total size of capture memory currently allocated. 
+
+Size of memory allocated for capture.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_ace561e1cbc4a3146ed9bed3bc3b709b3}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_ace561e1cbc4a3146ed9bed3bc3b709b3}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!capture@{capture}}
+\index{capture@{capture}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{capture}{capture}}
+{\footnotesize\ttfamily Input\+Event\+Trace Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+capture\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The underlying event trace that contains the captured input events. 
+
+Underlying event trace.
+
+This will be null if no capture is currently associated with the recorder. \mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_ac01a021b1b8869ca6a872597bbe58f1b}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_ac01a021b1b8869ca6a872597bbe58f1b}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!captureIsRunning@{captureIsRunning}}
+\index{captureIsRunning@{captureIsRunning}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{captureIsRunning}{captureIsRunning}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+capture\+Is\+Running\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Whether a capture is currently in progress. 
+
+True if a capture is in progress.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a4da084956bda36b15f449f192f0fe052}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a4da084956bda36b15f449f192f0fe052}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!changeEvent@{changeEvent}}
+\index{changeEvent@{changeEvent}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{changeEvent}{changeEvent}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_1_1_change_event}{Change\+Event}} Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+change\+Event\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a0d458aea368305397dac20664eb5000e}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a0d458aea368305397dac20664eb5000e}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!devicePath@{devicePath}}
+\index{devicePath@{devicePath}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{devicePath}{devicePath}}
+{\footnotesize\ttfamily string Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+device\+Path\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Path that constrains the devices to record from. 
+
+Input control path to match devices or null/empty.
+
+By default, this is not set. Meaning that input will be recorded from all devices. By setting this property to a path, only events for devices that match the given path (as dictated by Input\+Control\+Path.\+Matches) will be recorded from.
+
+By setting this property to the exact path of a device at runtime, recording can be restricted to just that device. 
+
+\begin{DoxySeeAlso}{See also}
+Input\+Control\+Path, Input\+Control\+Path.\+Matches
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a22fc70e5c89d6a39b061679fe20ed599}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a22fc70e5c89d6a39b061679fe20ed599}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!eventCount@{eventCount}}
+\index{eventCount@{eventCount}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{eventCount}{eventCount}}
+{\footnotesize\ttfamily long Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+event\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Total number of events captured. 
+
+Number of captured events.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_ace530c1391e845aad0d6f7dc8af01729}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_ace530c1391e845aad0d6f7dc8af01729}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!playButtonPath@{playButtonPath}}
+\index{playButtonPath@{playButtonPath}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{playButtonPath}{playButtonPath}}
+{\footnotesize\ttfamily string Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+play\+Button\+Path\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a3d3628007e5a0f8a39871b41cca74116}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a3d3628007e5a0f8a39871b41cca74116}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!recordButtonPath@{recordButtonPath}}
+\index{recordButtonPath@{recordButtonPath}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{recordButtonPath}{recordButtonPath}}
+{\footnotesize\ttfamily string Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+record\+Button\+Path\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a2ba2b7c25d096bd758437294674b33a2}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a2ba2b7c25d096bd758437294674b33a2}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!recordFrames@{recordFrames}}
+\index{recordFrames@{recordFrames}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{recordFrames}{recordFrames}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+record\+Frames\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Whether to record frame marker events when capturing input. 
+
+Enabled by default. 
+
+True if frame marker events will be recorded.
+
+\begin{DoxySeeAlso}{See also}
+Input\+Event\+Trace.\+record\+Frame\+Markers
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_aa9c396a6401e9ae7fae6a3e0d6c0caa5}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_aa9c396a6401e9ae7fae6a3e0d6c0caa5}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!recordStateEventsOnly@{recordStateEventsOnly}}
+\index{recordStateEventsOnly@{recordStateEventsOnly}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{recordStateEventsOnly}{recordStateEventsOnly}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+record\+State\+Events\+Only\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Whether to record only State\+Events and Delta\+State\+Events. 
+
+Disabled by default. 
+
+True if anything but state events should be ignored.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_abee89d3a1c98ed22bf893d6c72f76a22}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_abee89d3a1c98ed22bf893d6c72f76a22}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!replay@{replay}}
+\index{replay@{replay}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{replay}{replay}}
+{\footnotesize\ttfamily Input\+Event\+Trace.\+Replay\+Controller Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+replay\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The replay controller for when a replay is running. 
+
+Replay controller for the event trace while replay is running.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_aaa7bc60df73f6ced3ef4b3aa45a14752}{replay\+Is\+Running}}, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a0e8d20b45d477821fa142e44bdc327a5}{Start\+Replay}}
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_aaa7bc60df73f6ced3ef4b3aa45a14752}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_aaa7bc60df73f6ced3ef4b3aa45a14752}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!replayIsRunning@{replayIsRunning}}
+\index{replayIsRunning@{replayIsRunning}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{replayIsRunning}{replayIsRunning}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+replay\+Is\+Running\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Whether a replay is currently being run by the component. 
+
+True if replay is running.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_abee89d3a1c98ed22bf893d6c72f76a22}{replay}}, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a0e8d20b45d477821fa142e44bdc327a5}{Start\+Replay}}, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_afbed62e175e7da3b94855921e9595577}{Stop\+Replay}}
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a167a7b1463ba3d160c2acd59773ba52e}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a167a7b1463ba3d160c2acd59773ba52e}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!replayOnNewDevices@{replayOnNewDevices}}
+\index{replayOnNewDevices@{replayOnNewDevices}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{replayOnNewDevices}{replayOnNewDevices}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+replay\+On\+New\+Devices\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Whether a replay should create new devices or replay recorded events as is. 
+
+Disabled by default. 
+
+True if replay should temporary create new devices.
+
+\begin{DoxySeeAlso}{See also}
+Input\+Event\+Trace.\+Replay\+Controller.\+With\+All\+Devices\+Mapped\+To\+New\+Instances
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_aad1da83e32e6b9eab9e958b1dd1ce6f0}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_aad1da83e32e6b9eab9e958b1dd1ce6f0}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!replayPosition@{replayPosition}}
+\index{replayPosition@{replayPosition}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{replayPosition}{replayPosition}}
+{\footnotesize\ttfamily int Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+replay\+Position\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_a939078e382146cbb178a34c0d397c4ba}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_a939078e382146cbb178a34c0d397c4ba}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!simulateOriginalTimingOnReplay@{simulateOriginalTimingOnReplay}}
+\index{simulateOriginalTimingOnReplay@{simulateOriginalTimingOnReplay}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{simulateOriginalTimingOnReplay}{simulateOriginalTimingOnReplay}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+simulate\+Original\+Timing\+On\+Replay\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Whether to attempt to re-\/create the original event timing when replaying events. 
+
+Disabled by default. 
+
+If true, events are queued based on their timestamp rather than based on their recorded frames (if any).
+
+\begin{DoxySeeAlso}{See also}
+Input\+Event\+Trace.\+Replay\+Controller.\+Play\+All\+Events\+According\+To\+Timestamps
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_ab951a223a553a78b0e1189d7c2a1faaa}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_ab951a223a553a78b0e1189d7c2a1faaa}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!startRecordingWhenEnabled@{startRecordingWhenEnabled}}
+\index{startRecordingWhenEnabled@{startRecordingWhenEnabled}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{startRecordingWhenEnabled}{startRecordingWhenEnabled}}
+{\footnotesize\ttfamily bool Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+start\+Recording\+When\+Enabled\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+If true, input recording is started immediately when the component is enabled. 
+
+Disabled by default. Call \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a9455c855eede37598d802cce55e9bb2d}{Start\+Capture}} to manually start capturing. 
+
+True if component will start recording automatically in \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a82280c322d1960063d2f48dae3f443cb}{On\+Enable}}.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_input_recorder_a9455c855eede37598d802cce55e9bb2d}{Start\+Capture}}
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_input_recorder_ac7c509ae5d43cc46827fd5708a464d5b}\label{class_unity_engine_1_1_input_system_1_1_input_recorder_ac7c509ae5d43cc46827fd5708a464d5b}} 
+\index{UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}!totalEventSizeInBytes@{totalEventSizeInBytes}}
+\index{totalEventSizeInBytes@{totalEventSizeInBytes}!UnityEngine.InputSystem.InputRecorder@{UnityEngine.InputSystem.InputRecorder}}
+\doxysubsubsection{\texorpdfstring{totalEventSizeInBytes}{totalEventSizeInBytes}}
+{\footnotesize\ttfamily long Unity\+Engine.\+Input\+System.\+Input\+Recorder.\+total\+Event\+Size\+In\+Bytes\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Total size of captured events. 
+
+Size of captured events in bytes.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Samples/\+Input System/1.\+0.\+2/\+Input Recorder/\mbox{\hyperlink{_input_recorder_8cs}{Input\+Recorder.\+cs}}\end{DoxyCompactItemize}

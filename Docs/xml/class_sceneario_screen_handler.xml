@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_sceneario_screen_handler" kind="class" language="C#" prot="public">
+    <compoundname>ScenearioScreenHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sceneario_screen_handler_1abda7c1f65ff5729945ca2e50d398d249" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ScenearioScreenHandler.gameOverScreen</definition>
+        <argsstring></argsstring>
+        <name>gameOverScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" line="10" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sceneario_screen_handler_1a8a6644fcce4d54fec3fb8fbd52a0fef0" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ScenearioScreenHandler.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" line="13" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_sceneario_screen_handler_1aef5786cb02a3ccba0e0814bcc0129df1" compoundref="_sceneario_screen_handler_8cs" startline="58" endline="70">AttemptWin</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sceneario_screen_handler_1a0e641ae131fbfb21c18513cf590b055d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenearioScreenHandler.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sceneario_screen_handler_1aa63d159bb507a1d5ee4ffa4fa68080a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenearioScreenHandler.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" line="20" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" bodystart="20" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sceneario_screen_handler_1aef5786cb02a3ccba0e0814bcc0129df1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenearioScreenHandler.AttemptWin</definition>
+        <argsstring>()</argsstring>
+        <name>AttemptWin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" line="58" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" bodystart="58" bodyend="70"/>
+        <references refid="class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e" compoundref="_day_counter_8cs" startline="9">DayCounter.days</references>
+        <references refid="class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31" compoundref="_day_counter_8cs" startline="8">DayCounter.instance</references>
+        <references refid="class_sceneario_screen_handler_1a8a6644fcce4d54fec3fb8fbd52a0fef0" compoundref="_sceneario_screen_handler_8cs" startline="13">player</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenearioScreenHandler</label>
+        <link refid="class_sceneario_screen_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenearioScreenHandler</label>
+        <link refid="class_sceneario_screen_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/ScenearioScreenHandler.cs" bodystart="9" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_sceneario_screen_handler_1aef5786cb02a3ccba0e0814bcc0129df1" prot="public" virt="non-virtual"><scope>ScenearioScreenHandler</scope><name>AttemptWin</name></member>
+      <member refid="class_sceneario_screen_handler_1a0e641ae131fbfb21c18513cf590b055d" prot="private" virt="non-virtual"><scope>ScenearioScreenHandler</scope><name>Awake</name></member>
+      <member refid="class_sceneario_screen_handler_1abda7c1f65ff5729945ca2e50d398d249" prot="public" virt="non-virtual"><scope>ScenearioScreenHandler</scope><name>gameOverScreen</name></member>
+      <member refid="class_sceneario_screen_handler_1a8a6644fcce4d54fec3fb8fbd52a0fef0" prot="public" virt="non-virtual"><scope>ScenearioScreenHandler</scope><name>player</name></member>
+      <member refid="class_sceneario_screen_handler_1aa63d159bb507a1d5ee4ffa4fa68080a5" prot="private" virt="non-virtual"><scope>ScenearioScreenHandler</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

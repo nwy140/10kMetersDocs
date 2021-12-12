@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_generic_dictionary_1_1_key_value_pair" kind="struct" language="C#" prot="private">
+    <compoundname>GenericDictionary::KeyValuePair</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_generic_dictionary_1_1_key_value_pair_1a680a9a78090af6a2cdf1388e3ba4d12d" prot="public" static="no" mutable="no">
+        <type>TKey</type>
+        <definition>TKey GenericDictionary&lt; TKey, TValue &gt;.KeyValuePair.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="34" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_generic_dictionary_1_1_key_value_pair_1ad33bbaf58d72c40e91aa9218affba27d" prot="public" static="no" mutable="no">
+        <type>TValue</type>
+        <definition>TValue GenericDictionary&lt; TKey, TValue &gt;.KeyValuePair.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="35" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_generic_dictionary_1_1_key_value_pair_1a694889d29b52712e30d9238c58d6186d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GenericDictionary&lt; TKey, TValue &gt;.KeyValuePair.KeyValuePair</definition>
+        <argsstring>(TKey Key, TValue Value)</argsstring>
+        <name>KeyValuePair</name>
+        <param>
+          <type>TKey</type>
+          <declname>Key</declname>
+        </param>
+        <param>
+          <type>TValue</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="37" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>GenericDictionary&lt; TKey, TValue &gt;.KeyValuePair</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" line="32" column="5" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/SerializableDataStructures/GenericDictionary.cs" bodystart="33" bodyend="42"/>
+    <listofallmembers>
+      <member refid="struct_generic_dictionary_1_1_key_value_pair_1a680a9a78090af6a2cdf1388e3ba4d12d" prot="public" virt="non-virtual"><scope>GenericDictionary::KeyValuePair</scope><name>Key</name></member>
+      <member refid="struct_generic_dictionary_1_1_key_value_pair_1a694889d29b52712e30d9238c58d6186d" prot="public" virt="non-virtual"><scope>GenericDictionary::KeyValuePair</scope><name>KeyValuePair</name></member>
+      <member refid="struct_generic_dictionary_1_1_key_value_pair_1ad33bbaf58d72c40e91aa9218affba27d" prot="public" virt="non-virtual"><scope>GenericDictionary::KeyValuePair</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

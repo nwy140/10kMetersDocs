@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_character_move_undo" xml:lang="en-US">
+<title>CharacterMoveUndo Class Reference</title>
+<indexterm><primary>CharacterMoveUndo</primary></indexterm>
+Inheritance diagram for CharacterMoveUndo:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_undo__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CharacterMoveUndo:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_undo__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_character_move_undo_1aa25ee1998425dab636d56172c79c7a39">AddCommand</link> (<link linkend="_interface_i_command_o_w_s">ICommandOWS</link> command)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_character_move_undo_1a162d60fc2bf1d834244fd46164abda74">UndoCommand</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_character_move_undo_1a1852153869d857ed772f31c782ca6501">UpdateLine</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_character_move_undo_1a926c2e4cf544a7c2ab9ad910a594d6a4">index</link> = 0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_character_move_undo_1aa25ee1998425dab636d56172c79c7a39"/><section>
+    <title>AddCommand()</title>
+<indexterm><primary>AddCommand</primary><secondary>CharacterMoveUndo</secondary></indexterm>
+<indexterm><primary>CharacterMoveUndo</primary><secondary>AddCommand</secondary></indexterm>
+<para><computeroutput>void CharacterMoveUndo.AddCommand (<link linkend="_interface_i_command_o_w_s">ICommandOWS</link> command)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_undo_aa25ee1998425dab636d56172c79c7a39_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_character_move_undo_1a162d60fc2bf1d834244fd46164abda74"/><section>
+    <title>UndoCommand()</title>
+<indexterm><primary>UndoCommand</primary><secondary>CharacterMoveUndo</secondary></indexterm>
+<indexterm><primary>CharacterMoveUndo</primary><secondary>UndoCommand</secondary></indexterm>
+<para><computeroutput>void CharacterMoveUndo.UndoCommand ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_undo_a162d60fc2bf1d834244fd46164abda74_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_character_move_undo_1a1852153869d857ed772f31c782ca6501"/><section>
+    <title>UpdateLine()</title>
+<indexterm><primary>UpdateLine</primary><secondary>CharacterMoveUndo</secondary></indexterm>
+<indexterm><primary>CharacterMoveUndo</primary><secondary>UpdateLine</secondary></indexterm>
+<para><computeroutput>void CharacterMoveUndo.UpdateLine ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_undo_a1852153869d857ed772f31c782ca6501_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_move_undo_a1852153869d857ed772f31c782ca6501_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_character_move_undo_1a926c2e4cf544a7c2ab9ad910a594d6a4"/><section>
+    <title>index</title>
+<indexterm><primary>index</primary><secondary>CharacterMoveUndo</secondary></indexterm>
+<indexterm><primary>CharacterMoveUndo</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>int CharacterMoveUndo.index = 0</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/<link linkend="__character_move_undo_8cs">CharacterMoveUndo.cs</link></section>
+</section>

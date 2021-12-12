@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_transform_common" xml:lang="en-US">
+<title>TransformCommon Class Reference</title>
+<indexterm><primary>TransformCommon</primary></indexterm>
+Collaboration diagram for TransformCommon:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_transform_common__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static Quaternion <link linkend="_class_transform_common_1a1471f36d15ab51b462663c8361714762">RotateTowards</link> (Transform selfTransform, Transform targetTransform, float rotSpeed=1f)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_transform_common_1a1471f36d15ab51b462663c8361714762"/><section>
+    <title>RotateTowards()</title>
+<indexterm><primary>RotateTowards</primary><secondary>TransformCommon</secondary></indexterm>
+<indexterm><primary>TransformCommon</primary><secondary>RotateTowards</secondary></indexterm>
+<para><computeroutput>static Quaternion TransformCommon.RotateTowards (Transform selfTransform, Transform targetTransform, float rotSpeed = <computeroutput>1f</computeroutput>
+)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/<link linkend="__transform_common_8cs">TransformCommon.cs</link></section>
+</section>

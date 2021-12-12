@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_transform_auto_relative" kind="class" language="C#" prot="public">
+    <compoundname>TransformAutoRelative</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_transform_auto_relative_1a63bcda34711e2edf5f183c02d5845ccd" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform TransformAutoRelative.relativeObj</definition>
+        <argsstring></argsstring>
+        <name>relativeObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" line="9" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transform_auto_relative_1ae95a0ed04250f3dcc09c16ff149de532" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TransformAutoRelative.isSnapPosToObj</definition>
+        <argsstring></argsstring>
+        <name>isSnapPosToObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" line="11" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transform_auto_relative_1ae6f39623740d8eaf75b3e1cb52c6d594" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TransformAutoRelative.isRelativePos</definition>
+        <argsstring></argsstring>
+        <name>isRelativePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" line="14" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transform_auto_relative_1a5241376061f50c568306a84ca2eae9ea" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TransformAutoRelative.isRelativeRot</definition>
+        <argsstring></argsstring>
+        <name>isRelativeRot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" line="15" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transform_auto_relative_1a12eab594c61e8f44485ec6b8ab25d5ca" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TransformAutoRelative.isRelativeScale</definition>
+        <argsstring></argsstring>
+        <name>isRelativeScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" line="16" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_transform_auto_relative_1a4e73c80a8c9d3203cbc3f2df3df5f767" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransformAutoRelative.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" bodystart="18" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransformAutoRelative</label>
+        <link refid="class_transform_auto_relative"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransformAutoRelative</label>
+        <link refid="class_transform_auto_relative"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_transform_auto_relative_1ae6f39623740d8eaf75b3e1cb52c6d594" prot="public" virt="non-virtual"><scope>TransformAutoRelative</scope><name>isRelativePos</name></member>
+      <member refid="class_transform_auto_relative_1a5241376061f50c568306a84ca2eae9ea" prot="public" virt="non-virtual"><scope>TransformAutoRelative</scope><name>isRelativeRot</name></member>
+      <member refid="class_transform_auto_relative_1a12eab594c61e8f44485ec6b8ab25d5ca" prot="public" virt="non-virtual"><scope>TransformAutoRelative</scope><name>isRelativeScale</name></member>
+      <member refid="class_transform_auto_relative_1ae95a0ed04250f3dcc09c16ff149de532" prot="public" virt="non-virtual"><scope>TransformAutoRelative</scope><name>isSnapPosToObj</name></member>
+      <member refid="class_transform_auto_relative_1a63bcda34711e2edf5f183c02d5845ccd" prot="public" virt="non-virtual"><scope>TransformAutoRelative</scope><name>relativeObj</name></member>
+      <member refid="class_transform_auto_relative_1a4e73c80a8c9d3203cbc3f2df3df5f767" prot="private" virt="non-virtual"><scope>TransformAutoRelative</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

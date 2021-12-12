@@ -1,0 +1,576 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_tanks_input_actions" kind="class" language="C#" prot="public">
+    <compoundname>TanksInputActions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IInputActionCollection2</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <innerclass refid="interface_tanks_input_actions_1_1_i_player_actions" prot="public">TanksInputActions::IPlayerActions</innerclass>
+    <innerclass refid="interface_tanks_input_actions_1_1_i_u_i_actions" prot="public">TanksInputActions::IUIActions</innerclass>
+    <innerclass refid="struct_tanks_input_actions_1_1_player_actions" prot="public">TanksInputActions::PlayerActions</innerclass>
+    <innerclass refid="struct_tanks_input_actions_1_1_u_i_actions" prot="public">TanksInputActions::UIActions</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputActionAsset</type>
+        <definition>InputActionAsset TanksInputActions.asset</definition>
+        <argsstring></argsstring>
+        <name>asset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="20" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="20" bodyend="20"/>
+        <referencedby refid="class_tanks_input_actions_1af1ba0c3016036cb10110cca5f91fb3cf" compoundref="_tanks_input_actions_8cs" startline="341" endline="344">Contains</referencedby>
+        <referencedby refid="class_tanks_input_actions_1a4acb986f03e0e7b94f6549ddd704156f" compoundref="_tanks_input_actions_8cs" startline="361" endline="364">Disable</referencedby>
+        <referencedby refid="class_tanks_input_actions_1a5598ddb2cc4bde0ee5c53347ec9dd4e6" compoundref="_tanks_input_actions_8cs" startline="322" endline="325">Dispose</referencedby>
+        <referencedby refid="class_tanks_input_actions_1a830d8fc67fddd09d2ffe6ec259e287b7" compoundref="_tanks_input_actions_8cs" startline="356" endline="359">Enable</referencedby>
+        <referencedby refid="class_tanks_input_actions_1a59fa78676bf512e8903cfcd0cc6cca36" compoundref="_tanks_input_actions_8cs" startline="367" endline="370">FindAction</referencedby>
+        <referencedby refid="class_tanks_input_actions_1a96af46b7b615c0a058f03bc3d81d7ee0" compoundref="_tanks_input_actions_8cs" startline="371" endline="374">FindBinding</referencedby>
+        <referencedby refid="class_tanks_input_actions_1a1c23145639429484ce4c97180fad1500" compoundref="_tanks_input_actions_8cs" startline="346" endline="349">GetEnumerator</referencedby>
+        <referencedby refid="class_tanks_input_actions_1ab7b41b41c7912479737f2283d61094d1" compoundref="_tanks_input_actions_8cs" startline="21" endline="320">TanksInputActions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_tanks_input_actions_1ad55b6b5c0171da591e7df3ecae50b63e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputBinding?</type>
+        <definition>InputBinding? TanksInputActions.bindingMask</definition>
+        <argsstring></argsstring>
+        <name>bindingMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="327" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="328" bodyend="331"/>
+        <referencedby refid="class_tanks_input_actions_1a96af46b7b615c0a058f03bc3d81d7ee0" compoundref="_tanks_input_actions_8cs" startline="371" endline="374">FindBinding</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_tanks_input_actions_1aa4ca4c642c5c1332a9d7f7f9836b5d52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputDevice &gt;?</type>
+        <definition>ReadOnlyArray&lt;InputDevice&gt;? TanksInputActions.devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="333" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="334" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tanks_input_actions_1a0d0afdb74e12f2c6cb1a42a13e7fd2d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputControlScheme &gt;</type>
+        <definition>ReadOnlyArray&lt;InputControlScheme&gt; TanksInputActions.controlSchemes</definition>
+        <argsstring></argsstring>
+        <name>controlSchemes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="339" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tanks_input_actions_1a8d9fa45ddf7e4832ca4d992ad968de05" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; InputBinding &gt;</type>
+        <definition>IEnumerable&lt;InputBinding&gt; TanksInputActions.bindings</definition>
+        <argsstring></argsstring>
+        <name>bindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="365" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tanks_input_actions_1a0f3430a6f786f09d35d866c1f2d4009e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_tanks_input_actions_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+        <definition>PlayerActions TanksInputActions.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="439" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tanks_input_actions_1aa914dc0ea3abeac9d7c8e6e63c79d0d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_tanks_input_actions_1_1_u_i_actions" kindref="compound">UIActions</ref></type>
+        <definition>UIActions TanksInputActions.UI</definition>
+        <argsstring></argsstring>
+        <name>UI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="504" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tanks_input_actions_1afb112abef85f183225073f604065390c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme TanksInputActions.KeyboardMouseScheme</definition>
+        <argsstring></argsstring>
+        <name>KeyboardMouseScheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="506" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="507" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tanks_input_actions_1a849c30ab8dbfb2fbe432025e19146d18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme TanksInputActions.GamepadScheme</definition>
+        <argsstring></argsstring>
+        <name>GamepadScheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="515" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="516" bodyend="522"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tanks_input_actions_1a9dd45580b71162347868b7ad69c1b15d" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap TanksInputActions.m_Player</definition>
+        <argsstring></argsstring>
+        <name>m_Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="377" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a12cd5beb97e89334007973f1e0fa53b6" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_tanks_input_actions_1_1_i_player_actions" kindref="compound">IPlayerActions</ref></type>
+        <definition>IPlayerActions TanksInputActions.m_PlayerActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerActionsCallbackInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="378" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a0b2807e06f00835b2c736344252696e1" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_Player_Gas</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Gas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="379" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a8e937b9eff8936a2321e536e63f830aa" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_Player_Brake</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Brake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="380" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1ad7589c54727c3efe8453944a702e1230" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_Player_Turret</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Turret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="381" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1ab78c78b2a7aa0a4afffdf912efcc1c5d" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_Player_Fire</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Fire</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="382" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a2993cda2952a4a1daf68b4575990fb81" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_Player_Pause</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="383" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1ae53c4620e5b7e3d09f7ab44e0a257082" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap TanksInputActions.m_UI</definition>
+        <argsstring></argsstring>
+        <name>m_UI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="442" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a61c5b99d2285c34fd750cacfdf752394" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_tanks_input_actions_1_1_i_u_i_actions" kindref="compound">IUIActions</ref></type>
+        <definition>IUIActions TanksInputActions.m_UIActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_UIActionsCallbackInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="443" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a7b0ecc9ec714950ec251150208eb5550" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_UI_Navigate</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Navigate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="444" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a78de3574777d20cb071be0a285bb1dc5" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_UI_Submit</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Submit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="445" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a7ab1ae4767e4c3c7efcd5f849befdbad" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_UI_Cancel</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Cancel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="446" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a5b66854a1d8c4408f6e1415860276b19" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_UI_Point</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="447" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a03b5b032979fc69f554a87f9df4db150" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction TanksInputActions.m_UI_Click</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Click</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="448" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a3851676c379e90c956b578d9d27ba53d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TanksInputActions.m_KeyboardMouseSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_KeyboardMouseSchemeIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="505" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tanks_input_actions_1a312fb695fdd0fd6ba0eb90b616fc7625" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TanksInputActions.m_GamepadSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_GamepadSchemeIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="514" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="514" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tanks_input_actions_1ab7b41b41c7912479737f2283d61094d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TanksInputActions.TanksInputActions</definition>
+        <argsstring>()</argsstring>
+        <name>TanksInputActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="21" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="21" bodyend="320"/>
+        <references refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" compoundref="_tanks_input_actions_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tanks_input_actions_1a5598ddb2cc4bde0ee5c53347ec9dd4e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="322" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="322" bodyend="325"/>
+        <references refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" compoundref="_tanks_input_actions_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tanks_input_actions_1af1ba0c3016036cb10110cca5f91fb3cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TanksInputActions.Contains</definition>
+        <argsstring>(InputAction action)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="341" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="341" bodyend="344"/>
+        <references refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" compoundref="_tanks_input_actions_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tanks_input_actions_1a1c23145639429484ce4c97180fad1500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; InputAction &gt;</type>
+        <definition>IEnumerator&lt; InputAction &gt; TanksInputActions.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="346" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="346" bodyend="349"/>
+        <references refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" compoundref="_tanks_input_actions_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tanks_input_actions_1a830d8fc67fddd09d2ffe6ec259e287b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="356" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="356" bodyend="359"/>
+        <references refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" compoundref="_tanks_input_actions_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tanks_input_actions_1a4acb986f03e0e7b94f6549ddd704156f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="361" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="361" bodyend="364"/>
+        <references refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" compoundref="_tanks_input_actions_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tanks_input_actions_1a59fa78676bf512e8903cfcd0cc6cca36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>InputAction</type>
+        <definition>InputAction TanksInputActions.FindAction</definition>
+        <argsstring>(string actionNameOrId, bool throwIfNotFound=false)</argsstring>
+        <name>FindAction</name>
+        <param>
+          <type>string</type>
+          <declname>actionNameOrId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwIfNotFound</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="367" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="367" bodyend="370"/>
+        <references refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" compoundref="_tanks_input_actions_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tanks_input_actions_1a96af46b7b615c0a058f03bc3d81d7ee0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TanksInputActions.FindBinding</definition>
+        <argsstring>(InputBinding bindingMask, out InputAction action)</argsstring>
+        <name>FindBinding</name>
+        <param>
+          <type>InputBinding</type>
+          <declname>bindingMask</declname>
+        </param>
+        <param>
+          <type>out InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="371" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="371" bodyend="374"/>
+        <references refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" compoundref="_tanks_input_actions_8cs" startline="20" endline="20">asset</references>
+        <references refid="class_tanks_input_actions_1ad55b6b5c0171da591e7df3ecae50b63e" compoundref="_tanks_input_actions_8cs" startline="328" endline="331">bindingMask</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tanks_input_actions_1af18d6685c1fbc75a3a70f2c23a1c4629" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. TanksInputActions.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="351" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="351" bodyend="354"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>TanksInputActions</label>
+        <link refid="class_tanks_input_actions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>TanksInputActions</label>
+        <link refid="class_tanks_input_actions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="18" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="19" bodyend="539"/>
+    <listofallmembers>
+      <member refid="class_tanks_input_actions_1a72d970e11009ad04378a3bf6a03e00ce" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>asset</name></member>
+      <member refid="class_tanks_input_actions_1ad55b6b5c0171da591e7df3ecae50b63e" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>bindingMask</name></member>
+      <member refid="class_tanks_input_actions_1a8d9fa45ddf7e4832ca4d992ad968de05" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>bindings</name></member>
+      <member refid="class_tanks_input_actions_1af1ba0c3016036cb10110cca5f91fb3cf" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>Contains</name></member>
+      <member refid="class_tanks_input_actions_1a0d0afdb74e12f2c6cb1a42a13e7fd2d1" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>controlSchemes</name></member>
+      <member refid="class_tanks_input_actions_1aa4ca4c642c5c1332a9d7f7f9836b5d52" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>devices</name></member>
+      <member refid="class_tanks_input_actions_1a4acb986f03e0e7b94f6549ddd704156f" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>Disable</name></member>
+      <member refid="class_tanks_input_actions_1a5598ddb2cc4bde0ee5c53347ec9dd4e6" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>Dispose</name></member>
+      <member refid="class_tanks_input_actions_1a830d8fc67fddd09d2ffe6ec259e287b7" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>Enable</name></member>
+      <member refid="class_tanks_input_actions_1a59fa78676bf512e8903cfcd0cc6cca36" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>FindAction</name></member>
+      <member refid="class_tanks_input_actions_1a96af46b7b615c0a058f03bc3d81d7ee0" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>FindBinding</name></member>
+      <member refid="class_tanks_input_actions_1a849c30ab8dbfb2fbe432025e19146d18" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>GamepadScheme</name></member>
+      <member refid="class_tanks_input_actions_1a1c23145639429484ce4c97180fad1500" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>GetEnumerator</name></member>
+      <member refid="class_tanks_input_actions_1af18d6685c1fbc75a3a70f2c23a1c4629" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>GetEnumerator</name></member>
+      <member refid="class_tanks_input_actions_1afb112abef85f183225073f604065390c" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>KeyboardMouseScheme</name></member>
+      <member refid="class_tanks_input_actions_1a312fb695fdd0fd6ba0eb90b616fc7625" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_GamepadSchemeIndex</name></member>
+      <member refid="class_tanks_input_actions_1a3851676c379e90c956b578d9d27ba53d" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_KeyboardMouseSchemeIndex</name></member>
+      <member refid="class_tanks_input_actions_1a9dd45580b71162347868b7ad69c1b15d" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_Player</name></member>
+      <member refid="class_tanks_input_actions_1a8e937b9eff8936a2321e536e63f830aa" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_Player_Brake</name></member>
+      <member refid="class_tanks_input_actions_1ab78c78b2a7aa0a4afffdf912efcc1c5d" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_Player_Fire</name></member>
+      <member refid="class_tanks_input_actions_1a0b2807e06f00835b2c736344252696e1" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_Player_Gas</name></member>
+      <member refid="class_tanks_input_actions_1a2993cda2952a4a1daf68b4575990fb81" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_Player_Pause</name></member>
+      <member refid="class_tanks_input_actions_1ad7589c54727c3efe8453944a702e1230" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_Player_Turret</name></member>
+      <member refid="class_tanks_input_actions_1a12cd5beb97e89334007973f1e0fa53b6" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_PlayerActionsCallbackInterface</name></member>
+      <member refid="class_tanks_input_actions_1ae53c4620e5b7e3d09f7ab44e0a257082" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_UI</name></member>
+      <member refid="class_tanks_input_actions_1a7ab1ae4767e4c3c7efcd5f849befdbad" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_UI_Cancel</name></member>
+      <member refid="class_tanks_input_actions_1a03b5b032979fc69f554a87f9df4db150" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_UI_Click</name></member>
+      <member refid="class_tanks_input_actions_1a7b0ecc9ec714950ec251150208eb5550" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_UI_Navigate</name></member>
+      <member refid="class_tanks_input_actions_1a5b66854a1d8c4408f6e1415860276b19" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_UI_Point</name></member>
+      <member refid="class_tanks_input_actions_1a78de3574777d20cb071be0a285bb1dc5" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_UI_Submit</name></member>
+      <member refid="class_tanks_input_actions_1a61c5b99d2285c34fd750cacfdf752394" prot="private" virt="non-virtual"><scope>TanksInputActions</scope><name>m_UIActionsCallbackInterface</name></member>
+      <member refid="class_tanks_input_actions_1a0f3430a6f786f09d35d866c1f2d4009e" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>Player</name></member>
+      <member refid="class_tanks_input_actions_1ab7b41b41c7912479737f2283d61094d1" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>TanksInputActions</name></member>
+      <member refid="class_tanks_input_actions_1aa914dc0ea3abeac9d7c8e6e63c79d0d6" prot="public" virt="non-virtual"><scope>TanksInputActions</scope><name>UI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

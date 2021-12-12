@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_upgrade_save_manager" xml:lang="en-US">
+<title>UpgradeSaveManager Class Reference</title>
+<indexterm><primary>UpgradeSaveManager</primary></indexterm>
+Inheritance diagram for UpgradeSaveManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_save_manager__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UpgradeSaveManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_save_manager__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c">LoadUpgrade</link> (<link linkend="_class_upgrade_holder">UpgradeHolder</link> upgradeHolder)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d">SaveUpgrade</link> (<link linkend="_class_upgrade_holder">UpgradeHolder</link> upgradeHolder)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c"/><section>
+    <title>LoadUpgrade()</title>
+<indexterm><primary>LoadUpgrade</primary><secondary>UpgradeSaveManager</secondary></indexterm>
+<indexterm><primary>UpgradeSaveManager</primary><secondary>LoadUpgrade</secondary></indexterm>
+<para><computeroutput>void UpgradeSaveManager.LoadUpgrade (<link linkend="_class_upgrade_holder">UpgradeHolder</link> upgradeHolder)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_save_manager_aa7c5b2581895757dcf27eadfed99cc8c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d"/><section>
+    <title>SaveUpgrade()</title>
+<indexterm><primary>SaveUpgrade</primary><secondary>UpgradeSaveManager</secondary></indexterm>
+<indexterm><primary>UpgradeSaveManager</primary><secondary>SaveUpgrade</secondary></indexterm>
+<para><computeroutput>void UpgradeSaveManager.SaveUpgrade (<link linkend="_class_upgrade_holder">UpgradeHolder</link> upgradeHolder)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_save_manager_a077e945b730bb45444117f7fe27b3a6d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/<link linkend="__upgrade_save_manager_8cs">UpgradeSaveManager.cs</link></section>
+</section>

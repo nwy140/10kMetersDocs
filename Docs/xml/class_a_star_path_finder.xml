@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_a_star_path_finder" kind="class" language="C#" prot="public">
+    <compoundname>AStarPathFinder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_star_path_finder_1a85cf0fdb9ab00952ee40376cefaaf29a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_maze" kindref="compound">Maze</ref></type>
+        <definition>Maze AStarPathFinder.maze</definition>
+        <argsstring></argsstring>
+        <name>maze</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="47" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a10e0a764090f17178b53da3097314fd0" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AStarPathFinder.closedColor</definition>
+        <argsstring></argsstring>
+        <name>closedColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="48" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1afcce20a89bad0c797edcd77d5ce99bc0" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AStarPathFinder.openColor</definition>
+        <argsstring></argsstring>
+        <name>openColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="49" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1afaf9ebe0ca11b533b3cd49708bba5d94" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject AStarPathFinder.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="54" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a60a0d9af95ee63c61d005fea4be26757" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject AStarPathFinder.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="55" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a2c50f7f6f1e15c6e156c25be3b9ff02a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject AStarPathFinder.pathP</definition>
+        <argsstring></argsstring>
+        <name>pathP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="56" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1affa8be7819bff64ef4e88c830a1f6cac" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject AStarPathFinder.enemy</definition>
+        <argsstring></argsstring>
+        <name>enemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="66" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1ad3d76187b66f24846858f7da50bb7fb6" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject AStarPathFinder.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="67" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_star_path_finder_1a9976b9d098d20d80b013aaaefcb89609" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_path_marker" kindref="compound">PathMarker</ref> &gt;</type>
+        <definition>List&lt;PathMarker&gt; AStarPathFinder.open</definition>
+        <argsstring></argsstring>
+        <name>open</name>
+        <initializer>= new List&lt;<ref refid="class_path_marker" kindref="compound">PathMarker</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="51" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a868bda129436087d6df4bb2dcaefd45e" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_path_marker" kindref="compound">PathMarker</ref> &gt;</type>
+        <definition>List&lt;PathMarker&gt; AStarPathFinder.closed</definition>
+        <argsstring></argsstring>
+        <name>closed</name>
+        <initializer>= new List&lt;<ref refid="class_path_marker" kindref="compound">PathMarker</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="52" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a467f4fbd00235a4bc3a1772806258e46" prot="private" static="no" mutable="no">
+        <type><ref refid="class_path_marker" kindref="compound">PathMarker</ref></type>
+        <definition>PathMarker AStarPathFinder.goalNode</definition>
+        <argsstring></argsstring>
+        <name>goalNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="58" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a509398da9ab4792d2983409eabcf205a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_path_marker" kindref="compound">PathMarker</ref></type>
+        <definition>PathMarker AStarPathFinder.startNode</definition>
+        <argsstring></argsstring>
+        <name>startNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="59" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a7d9e839bf989d8eba0cb09fcb1a038a5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_path_marker" kindref="compound">PathMarker</ref></type>
+        <definition>PathMarker AStarPathFinder.lastPos</definition>
+        <argsstring></argsstring>
+        <name>lastPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="61" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1aaaf4cb061d6686937b8dc7856c8e8593" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AStarPathFinder.done</definition>
+        <argsstring></argsstring>
+        <name>done</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="62" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a89c1d3d68ae57b3827e52f26bf34b17d" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_path_marker" kindref="compound">PathMarker</ref> &gt;</type>
+        <definition>List&lt;PathMarker&gt; AStarPathFinder.chosenPath</definition>
+        <argsstring></argsstring>
+        <name>chosenPath</name>
+        <initializer>= new List&lt;<ref refid="class_path_marker" kindref="compound">PathMarker</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="65" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a271c1c9aba8d839a120417e78498c115" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AStarPathFinder.pathMarkerIndex</definition>
+        <argsstring></argsstring>
+        <name>pathMarkerIndex</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="68" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a06ce15450bf34e9188cde4e49a2c6e58" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AStarPathFinder.startMoving</definition>
+        <argsstring></argsstring>
+        <name>startMoving</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="69" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_star_path_finder_1a012bf25b80e1295ff3b6200b8eaa321d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AStarPathFinder.isPathCalculated</definition>
+        <argsstring></argsstring>
+        <name>isPathCalculated</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="71" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_star_path_finder_1aafd4bf07a60552473da2e250ebde316e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AStarPathFinder.RemoveAllMarkers</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveAllMarkers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="73" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="73" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_star_path_finder_1ada42de5bb76340f3b7f22046499490ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AStarPathFinder.BeginSearch</definition>
+        <argsstring>()</argsstring>
+        <name>BeginSearch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="82" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="82" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_star_path_finder_1a500695aeb90909aa2c77dfc6cb705f4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AStarPathFinder.Search</definition>
+        <argsstring>(PathMarker thisNode)</argsstring>
+        <name>Search</name>
+        <param>
+          <type><ref refid="class_path_marker" kindref="compound">PathMarker</ref></type>
+          <declname>thisNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>maze.scale</para>
+<para>maze.scale</para>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="112" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="112" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_star_path_finder_1a25243b29174b65d32b7df29b8fef75bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AStarPathFinder.UpdateMarker</definition>
+        <argsstring>(MapLocation pos, float g, float h, float f, PathMarker prt)</argsstring>
+        <name>UpdateMarker</name>
+        <param>
+          <type><ref refid="class_map_location" kindref="compound">MapLocation</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_path_marker" kindref="compound">PathMarker</ref></type>
+          <declname>prt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="165" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="165" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_star_path_finder_1ae7f65c0cf6e9bff9f9f478b6d2d98c4c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AStarPathFinder.IsClosed</definition>
+        <argsstring>(MapLocation marker)</argsstring>
+        <name>IsClosed</name>
+        <param>
+          <type><ref refid="class_map_location" kindref="compound">MapLocation</ref></type>
+          <declname>marker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="181" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="181" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_star_path_finder_1af1c2c31381b2f629dfbe7ecf97e0c517" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AStarPathFinder.GetPath</definition>
+        <argsstring>()</argsstring>
+        <name>GetPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>maze.scale</para>
+<para>maze.scale</para>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="191" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="191" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_star_path_finder_1aa327752f9797a61867303b51e4e8a89d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AStarPathFinder.MoveEnemyAlongPath</definition>
+        <argsstring>()</argsstring>
+        <name>MoveEnemyAlongPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="209" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="209" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_star_path_finder_1a23cf5c431a02a029712c2b22b2cd75e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AStarPathFinder.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="228" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="228" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AStarPathFinder</label>
+        <link refid="class_a_star_path_finder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AStarPathFinder</label>
+        <link refid="class_a_star_path_finder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+maze</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Maze</label>
+        <link refid="class_maze"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" line="45" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/AStarPathFinder.cs" bodystart="46" bodyend="239"/>
+    <listofallmembers>
+      <member refid="class_a_star_path_finder_1ada42de5bb76340f3b7f22046499490ec" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>BeginSearch</name></member>
+      <member refid="class_a_star_path_finder_1a89c1d3d68ae57b3827e52f26bf34b17d" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>chosenPath</name></member>
+      <member refid="class_a_star_path_finder_1a868bda129436087d6df4bb2dcaefd45e" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>closed</name></member>
+      <member refid="class_a_star_path_finder_1a10e0a764090f17178b53da3097314fd0" prot="public" virt="non-virtual"><scope>AStarPathFinder</scope><name>closedColor</name></member>
+      <member refid="class_a_star_path_finder_1aaaf4cb061d6686937b8dc7856c8e8593" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>done</name></member>
+      <member refid="class_a_star_path_finder_1a60a0d9af95ee63c61d005fea4be26757" prot="public" virt="non-virtual"><scope>AStarPathFinder</scope><name>end</name></member>
+      <member refid="class_a_star_path_finder_1affa8be7819bff64ef4e88c830a1f6cac" prot="public" virt="non-virtual"><scope>AStarPathFinder</scope><name>enemy</name></member>
+      <member refid="class_a_star_path_finder_1af1c2c31381b2f629dfbe7ecf97e0c517" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>GetPath</name></member>
+      <member refid="class_a_star_path_finder_1a467f4fbd00235a4bc3a1772806258e46" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>goalNode</name></member>
+      <member refid="class_a_star_path_finder_1ae7f65c0cf6e9bff9f9f478b6d2d98c4c" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>IsClosed</name></member>
+      <member refid="class_a_star_path_finder_1a012bf25b80e1295ff3b6200b8eaa321d" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>isPathCalculated</name></member>
+      <member refid="class_a_star_path_finder_1a7d9e839bf989d8eba0cb09fcb1a038a5" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>lastPos</name></member>
+      <member refid="class_a_star_path_finder_1a85cf0fdb9ab00952ee40376cefaaf29a" prot="public" virt="non-virtual"><scope>AStarPathFinder</scope><name>maze</name></member>
+      <member refid="class_a_star_path_finder_1aa327752f9797a61867303b51e4e8a89d" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>MoveEnemyAlongPath</name></member>
+      <member refid="class_a_star_path_finder_1a9976b9d098d20d80b013aaaefcb89609" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>open</name></member>
+      <member refid="class_a_star_path_finder_1afcce20a89bad0c797edcd77d5ce99bc0" prot="public" virt="non-virtual"><scope>AStarPathFinder</scope><name>openColor</name></member>
+      <member refid="class_a_star_path_finder_1a271c1c9aba8d839a120417e78498c115" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>pathMarkerIndex</name></member>
+      <member refid="class_a_star_path_finder_1a2c50f7f6f1e15c6e156c25be3b9ff02a" prot="public" virt="non-virtual"><scope>AStarPathFinder</scope><name>pathP</name></member>
+      <member refid="class_a_star_path_finder_1ad3d76187b66f24846858f7da50bb7fb6" prot="public" virt="non-virtual"><scope>AStarPathFinder</scope><name>player</name></member>
+      <member refid="class_a_star_path_finder_1aafd4bf07a60552473da2e250ebde316e" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>RemoveAllMarkers</name></member>
+      <member refid="class_a_star_path_finder_1a500695aeb90909aa2c77dfc6cb705f4e" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>Search</name></member>
+      <member refid="class_a_star_path_finder_1afaf9ebe0ca11b533b3cd49708bba5d94" prot="public" virt="non-virtual"><scope>AStarPathFinder</scope><name>start</name></member>
+      <member refid="class_a_star_path_finder_1a06ce15450bf34e9188cde4e49a2c6e58" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>startMoving</name></member>
+      <member refid="class_a_star_path_finder_1a509398da9ab4792d2983409eabcf205a" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>startNode</name></member>
+      <member refid="class_a_star_path_finder_1a23cf5c431a02a029712c2b22b2cd75e8" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>Update</name></member>
+      <member refid="class_a_star_path_finder_1a25243b29174b65d32b7df29b8fef75bd" prot="private" virt="non-virtual"><scope>AStarPathFinder</scope><name>UpdateMarker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

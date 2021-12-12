@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_item_database" xml:lang="en-US">
+<title>ItemDatabase Class Reference</title>
+<indexterm><primary>ItemDatabase</primary></indexterm>
+Inheritance diagram for ItemDatabase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_database__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for ItemDatabase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_database__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classitem">item</link> <link linkend="_class_item_database_1afd57da1d69c42a09188d104923cad3fb">GetItemReference</link> (string itemID)</para>
+</listitem>
+            <listitem><para><link linkend="_classitem">item</link> <link linkend="_class_item_database_1a3f54a7d4ab8716e32f52dc9a311539de">GetItemCopy</link> (string itemID)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_item_database_1a3f54a7d4ab8716e32f52dc9a311539de"/><section>
+    <title>GetItemCopy()</title>
+<indexterm><primary>GetItemCopy</primary><secondary>ItemDatabase</secondary></indexterm>
+<indexterm><primary>ItemDatabase</primary><secondary>GetItemCopy</secondary></indexterm>
+<para><computeroutput><link linkend="_classitem">item</link> ItemDatabase.GetItemCopy (string itemID)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_database_a3f54a7d4ab8716e32f52dc9a311539de_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_database_a3f54a7d4ab8716e32f52dc9a311539de_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_item_database_1afd57da1d69c42a09188d104923cad3fb"/><section>
+    <title>GetItemReference()</title>
+<indexterm><primary>GetItemReference</primary><secondary>ItemDatabase</secondary></indexterm>
+<indexterm><primary>ItemDatabase</primary><secondary>GetItemReference</secondary></indexterm>
+<para><computeroutput><link linkend="_classitem">item</link> ItemDatabase.GetItemReference (string itemID)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_database_afd57da1d69c42a09188d104923cad3fb_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/<link linkend="__item_database_8cs">ItemDatabase.cs</link></section>
+</section>

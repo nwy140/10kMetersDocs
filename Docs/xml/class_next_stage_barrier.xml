@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_next_stage_barrier" kind="class" language="C#" prot="public">
+    <compoundname>NextStageBarrier</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_next_stage_barrier_1a3b9217464d6b23985b1785273a5d911a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NextStageBarrier.pressureStrenghtRequirement</definition>
+        <argsstring></argsstring>
+        <name>pressureStrenghtRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/NextStageBarrier.cs" line="7" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/NextStageBarrier.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_next_stage_barrier_1a0bad022c48842d650a2c226b5f40cb3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NextStageBarrier.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/NextStageBarrier.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/NextStageBarrier.cs" bodystart="9" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NextStageBarrier</label>
+        <link refid="class_next_stage_barrier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NextStageBarrier</label>
+        <link refid="class_next_stage_barrier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/NextStageBarrier.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/NextStageBarrier.cs" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_next_stage_barrier_1a3b9217464d6b23985b1785273a5d911a" prot="private" virt="non-virtual"><scope>NextStageBarrier</scope><name>pressureStrenghtRequirement</name></member>
+      <member refid="class_next_stage_barrier_1a0bad022c48842d650a2c226b5f40cb3c" prot="private" virt="non-virtual"><scope>NextStageBarrier</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

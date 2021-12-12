@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_random_enemy" xml:lang="en-US">
+<title>RandomEnemy Class Reference</title>
+<indexterm><primary>RandomEnemy</primary></indexterm>
+Inheritance diagram for RandomEnemy:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_random_enemy__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for RandomEnemy:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_random_enemy__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580">spawnEnemy</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Collider2D[] <link linkend="_class_random_enemy_1a807d4ed6fed19607a573bf099c47a494">colliders</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_random_enemy_1a83c200cc7a11b92394749d430e23ab4b">radius</link></para>
+</listitem>
+            <listitem><para>Vector2 <link linkend="_class_random_enemy_1a5702daf21bb2129286d0bdb061b6e145">pos</link> = new Vector2(0,0)</para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_random_enemy_1ac1d4d08b5b013b6ffebee5aa20239907">quad</link></para>
+</listitem>
+            <listitem><para>List&lt; GameObject &gt; <link linkend="_class_random_enemy_1aa6c71de7ab6223df30bb754bb27100fc">enemyPool</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_random_enemy_1a3f400699c5770fd670e44dfb99d90d81">numberToSpawn</link></para>
+</listitem>
+            <listitem><para>LayerMask <link linkend="_class_random_enemy_1a7bf6f261c66ddd01e0618f369c5b57c7">mask</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_random_enemy_1a0e1b9eb5591461d6d81f11c92f3d010b">spawnRad</link> = 5</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_random_enemy_1aac7b32540284728a180ddc71d5cdd426">spawnCollisionCheckRadius</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_random_enemy_1a4dbe7b45e06744756ccc12fd0e88e580"/><section>
+    <title>spawnEnemy()</title>
+<indexterm><primary>spawnEnemy</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>spawnEnemy</secondary></indexterm>
+<para><computeroutput>void RandomEnemy.spawnEnemy ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_random_enemy_1a807d4ed6fed19607a573bf099c47a494"/><section>
+    <title>colliders</title>
+<indexterm><primary>colliders</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>colliders</secondary></indexterm>
+<para><computeroutput>Collider2D [] RandomEnemy.colliders</computeroutput></para></section>
+<anchor xml:id="_class_random_enemy_1aa6c71de7ab6223df30bb754bb27100fc"/><section>
+    <title>enemyPool</title>
+<indexterm><primary>enemyPool</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>enemyPool</secondary></indexterm>
+<para><computeroutput>List&lt;GameObject&gt; RandomEnemy.enemyPool</computeroutput></para></section>
+<anchor xml:id="_class_random_enemy_1a7bf6f261c66ddd01e0618f369c5b57c7"/><section>
+    <title>mask</title>
+<indexterm><primary>mask</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>mask</secondary></indexterm>
+<para><computeroutput>LayerMask RandomEnemy.mask</computeroutput></para></section>
+<anchor xml:id="_class_random_enemy_1a3f400699c5770fd670e44dfb99d90d81"/><section>
+    <title>numberToSpawn</title>
+<indexterm><primary>numberToSpawn</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>numberToSpawn</secondary></indexterm>
+<para><computeroutput>int RandomEnemy.numberToSpawn</computeroutput></para></section>
+<anchor xml:id="_class_random_enemy_1a5702daf21bb2129286d0bdb061b6e145"/><section>
+    <title>pos</title>
+<indexterm><primary>pos</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>pos</secondary></indexterm>
+<para><computeroutput>Vector2 RandomEnemy.pos = new Vector2(0,0)</computeroutput></para></section>
+<anchor xml:id="_class_random_enemy_1ac1d4d08b5b013b6ffebee5aa20239907"/><section>
+    <title>quad</title>
+<indexterm><primary>quad</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>quad</secondary></indexterm>
+<para><computeroutput>GameObject RandomEnemy.quad</computeroutput></para></section>
+<anchor xml:id="_class_random_enemy_1a83c200cc7a11b92394749d430e23ab4b"/><section>
+    <title>radius</title>
+<indexterm><primary>radius</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>radius</secondary></indexterm>
+<para><computeroutput>float RandomEnemy.radius</computeroutput></para></section>
+<anchor xml:id="_class_random_enemy_1aac7b32540284728a180ddc71d5cdd426"/><section>
+    <title>spawnCollisionCheckRadius</title>
+<indexterm><primary>spawnCollisionCheckRadius</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>spawnCollisionCheckRadius</secondary></indexterm>
+<para><computeroutput>float RandomEnemy.spawnCollisionCheckRadius</computeroutput></para></section>
+<anchor xml:id="_class_random_enemy_1a0e1b9eb5591461d6d81f11c92f3d010b"/><section>
+    <title>spawnRad</title>
+<indexterm><primary>spawnRad</primary><secondary>RandomEnemy</secondary></indexterm>
+<indexterm><primary>RandomEnemy</primary><secondary>spawnRad</secondary></indexterm>
+<para><computeroutput>float RandomEnemy.spawnRad = 5</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/<link linkend="__random_enemy_8cs">RandomEnemy.cs</link></section>
+</section>

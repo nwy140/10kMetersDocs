@@ -1,0 +1,99 @@
+.TH "GameplayManager" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GameplayManager
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBGameplayState\fP { \fBGAME_RUNNING\fP, \fBGAME_PAUSE\fP, \fBGAME_GAMEOVER\fP, \fBGAME_GAMEWIN\fP, \fBGAME_ENDCLOSE\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBToggleUIByIndex\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBsetGameplayTimeScale\fP (float timeScaleVal)"
+.br
+.ti -1c
+.RI "void \fBcheatIncreaseTimeScale\fP ()"
+.br
+.ti -1c
+.RI "void \fBcheatDecreaseTimeScale\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBGameplayState\fP \fBCurrGameplayState\fP"
+.br
+.ti -1c
+.RI "float \fBGameplayTimeScale\fP = 1"
+.br
+.ti -1c
+.RI "List< GameObject > \fBUIObjs\fP"
+.br
+.ti -1c
+.RI "GameObject \fBcurrUIObj\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fBGameplayManager\fP \fBinstance\fP"
+.br
+.in -1c
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBGameplayManager\&.GameplayState\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIGAME_RUNNING \fP\fP
+.TP
+\fB\fIGAME_PAUSE \fP\fP
+.TP
+\fB\fIGAME_GAMEOVER \fP\fP
+.TP
+\fB\fIGAME_GAMEWIN \fP\fP
+.TP
+\fB\fIGAME_ENDCLOSE \fP\fP
+.SH "Member Function Documentation"
+.PP 
+.SS "void GameplayManager\&.cheatDecreaseTimeScale ()"
+
+.SS "void GameplayManager\&.cheatIncreaseTimeScale ()"
+
+.SS "void GameplayManager\&.setGameplayTimeScale (float timeScaleVal)"
+
+.SS "void GameplayManager\&.ToggleUIByIndex (int index)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBGameplayState\fP GameplayManager\&.CurrGameplayState"
+
+.SS "GameObject GameplayManager\&.currUIObj"
+
+.SS "float GameplayManager\&.GameplayTimeScale = 1"
+
+.SS "\fBGameplayManager\fP GameplayManager\&.instance\fC [static]\fP"
+
+.SS "List<GameObject> GameplayManager\&.UIObjs"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

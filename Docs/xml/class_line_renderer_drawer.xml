@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_line_renderer_drawer" kind="class" language="C#" prot="public">
+    <compoundname>LineRendererDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_line_renderer_drawer_1a340cbb002f61f95a0843e5792113db43" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform LineRendererDrawer.origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="25" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_line_renderer_drawer_1ad00ce6c5117f6b92a9fbeecf7e37c302" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform LineRendererDrawer.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="27" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_line_renderer_drawer_1a3d8676b2e6512a491f3126742f3632f0" compoundref="_line_renderer_drawer_8cs" startline="74" endline="77">ResetTarget</referencedby>
+        <referencedby refid="class_line_renderer_drawer_1aba4ee14f8f64de8789f37576a7491474" compoundref="_line_renderer_drawer_8cs" startline="69" endline="72">SetTarget</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_line_renderer_drawer_1accf701f44ab5d58c7216b73df588fda5" prot="public" static="no" mutable="no">
+        <type>LineRenderer</type>
+        <definition>LineRenderer LineRendererDrawer.line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="34" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_line_renderer_drawer_1a1ca3edf456579d487f7ed490a5015fb2" compoundref="_line_renderer_drawer_8cs" startline="91" endline="103">SetLineTargetChildObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_line_renderer_drawer_1a3027d532b6ed23ab95c7ad5f0915e272" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform LineRendererDrawer.defaultTarget</definition>
+        <argsstring></argsstring>
+        <name>defaultTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="29" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_line_renderer_drawer_1ad0e7a11bd80a35d7b25260af73adc37b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LineRendererDrawer.targetIsChild</definition>
+        <argsstring></argsstring>
+        <name>targetIsChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="31" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_line_renderer_drawer_1a22f70b7ac9facab123a42ec63bb554e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineRendererDrawer.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="38" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="38" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_renderer_drawer_1a79e5061ce5e2f0801e9c91f8f3292b38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineRendererDrawer.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="53" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_renderer_drawer_1a8f882820adf8bbcf4206df2cbec98e5b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineRendererDrawer.SetLinePoints</definition>
+        <argsstring>(Vector3 startPoint, Vector3 endPoint)</argsstring>
+        <name>SetLinePoints</name>
+        <param>
+          <type>Vector3</type>
+          <declname>startPoint</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>endPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="60" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="60" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_line_renderer_drawer_1aba4ee14f8f64de8789f37576a7491474" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineRendererDrawer.SetTarget</definition>
+        <argsstring>(Transform newTarget)</argsstring>
+        <name>SetTarget</name>
+        <param>
+          <type>Transform</type>
+          <declname>newTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="69" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="69" bodyend="72"/>
+        <references refid="class_line_renderer_drawer_1ad00ce6c5117f6b92a9fbeecf7e37c302" compoundref="_line_renderer_drawer_8cs" startline="27">target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_line_renderer_drawer_1a3d8676b2e6512a491f3126742f3632f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineRendererDrawer.ResetTarget</definition>
+        <argsstring>()</argsstring>
+        <name>ResetTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="74" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="74" bodyend="77"/>
+        <references refid="class_line_renderer_drawer_1ad00ce6c5117f6b92a9fbeecf7e37c302" compoundref="_line_renderer_drawer_8cs" startline="27">target</references>
+        <referencedby refid="class_line_renderer_drawer_1a1ca3edf456579d487f7ed490a5015fb2" compoundref="_line_renderer_drawer_8cs" startline="91" endline="103">SetLineTargetChildObject</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_line_renderer_drawer_1a1ca3edf456579d487f7ed490a5015fb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineRendererDrawer.SetLineTargetChildObject</definition>
+        <argsstring>()</argsstring>
+        <name>SetLineTargetChildObject</name>
+        <briefdescription>
+<para>This function will attach line Renderer to any child objects of this object Explanation: </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Whenever there is more than 0 child attached to this object</para>
+</listitem><listitem><para>Set first child object as endpoint Usage:</para>
+</listitem><listitem></listitem></itemizedlist>
+</para>
+<para>Integration:<itemizedlist>
+<listitem><para>Call this function to make line renderer set its endpoint as targetChildObject </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="91" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="91" bodyend="103"/>
+        <references refid="class_line_renderer_drawer_1accf701f44ab5d58c7216b73df588fda5" compoundref="_line_renderer_drawer_8cs" startline="34">line</references>
+        <references refid="class_line_renderer_drawer_1a3d8676b2e6512a491f3126742f3632f0" compoundref="_line_renderer_drawer_8cs" startline="74" endline="77">ResetTarget</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class gets a line renderer in this object, and then set its end points based on its target. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Explanation:</para>
+<para>Usage: Integration:<itemizedlist>
+<listitem><para>Attach this class script to an Obj with LineRenderer attached to it.</para>
+</listitem><listitem><para>Line Renderer will automatically set its endPoint as the target that is passed in this script</para>
+</listitem><listitem><para>You can swap the target endPoint by calling the setTarget function</para>
+</listitem><listitem><para>You can reset the target to the initial default target by calling the ResetTarget function</para>
+</listitem><listitem><para>You can make the LineRenderer target any child obj under this Obj by calling the SetLineTargetChildObject function Implement Later: </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LineRendererDrawer</label>
+        <link refid="class_line_renderer_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LineRendererDrawer</label>
+        <link refid="class_line_renderer_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" line="21" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/LineRendererDrawer.cs" bodystart="22" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_line_renderer_drawer_1a22f70b7ac9facab123a42ec63bb554e0" prot="private" virt="non-virtual"><scope>LineRendererDrawer</scope><name>Awake</name></member>
+      <member refid="class_line_renderer_drawer_1a3027d532b6ed23ab95c7ad5f0915e272" prot="private" virt="non-virtual"><scope>LineRendererDrawer</scope><name>defaultTarget</name></member>
+      <member refid="class_line_renderer_drawer_1accf701f44ab5d58c7216b73df588fda5" prot="public" virt="non-virtual"><scope>LineRendererDrawer</scope><name>line</name></member>
+      <member refid="class_line_renderer_drawer_1a340cbb002f61f95a0843e5792113db43" prot="public" virt="non-virtual"><scope>LineRendererDrawer</scope><name>origin</name></member>
+      <member refid="class_line_renderer_drawer_1a3d8676b2e6512a491f3126742f3632f0" prot="public" virt="non-virtual"><scope>LineRendererDrawer</scope><name>ResetTarget</name></member>
+      <member refid="class_line_renderer_drawer_1a8f882820adf8bbcf4206df2cbec98e5b" prot="private" virt="non-virtual"><scope>LineRendererDrawer</scope><name>SetLinePoints</name></member>
+      <member refid="class_line_renderer_drawer_1a1ca3edf456579d487f7ed490a5015fb2" prot="public" virt="non-virtual"><scope>LineRendererDrawer</scope><name>SetLineTargetChildObject</name></member>
+      <member refid="class_line_renderer_drawer_1aba4ee14f8f64de8789f37576a7491474" prot="public" virt="non-virtual"><scope>LineRendererDrawer</scope><name>SetTarget</name></member>
+      <member refid="class_line_renderer_drawer_1ad00ce6c5117f6b92a9fbeecf7e37c302" prot="public" virt="non-virtual"><scope>LineRendererDrawer</scope><name>target</name></member>
+      <member refid="class_line_renderer_drawer_1ad0e7a11bd80a35d7b25260af73adc37b" prot="private" virt="non-virtual"><scope>LineRendererDrawer</scope><name>targetIsChild</name></member>
+      <member refid="class_line_renderer_drawer_1a79e5061ce5e2f0801e9c91f8f3292b38" prot="private" virt="non-virtual"><scope>LineRendererDrawer</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

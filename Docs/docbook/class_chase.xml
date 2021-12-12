@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_chase" xml:lang="en-US">
+<title>Chase Class Reference</title>
+<indexterm><primary>Chase</primary></indexterm>
+Inheritance diagram for Chase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_chase__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Chase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_chase__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_chase_1ae83ef24db35726136b86857301f9d6ff">Chase</link> (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_chase_1a391d61b7b55208fbf6093eb013db4aa0">OnEnterState</link> ()</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_chase_1ad693e8310c8bd50502f914fa9593aa02">OnExitState</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_chase_1a8ca474ca24a2c28b07c6b17535a38548">OnStayState</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_chase_1a9a18b74618e717985bb1b8ae629ce92f">hasSetDestination</link></para>
+</listitem>
+            <listitem><para>Transform <link linkend="_class_chase_1a4554f6bbac08992b606aeea964328e43">target</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_chase_1af7ceeae7ebbb209cd13f32730a3ec21d">newSpeed</link> = 30f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_chase_1a5fd43e35858a698ca4003c324cc72ece">newAgularSpeed</link> = 500f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_chase_1ae83ef24db35726136b86857301f9d6ff"/><section>
+    <title>Chase()</title>
+<indexterm><primary>Chase</primary><secondary>Chase</secondary></indexterm>
+<indexterm><primary>Chase</primary><secondary>Chase</secondary></indexterm>
+<para><computeroutput>Chase.Chase (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_chase_1a391d61b7b55208fbf6093eb013db4aa0"/><section>
+    <title>OnEnterState()</title>
+<indexterm><primary>OnEnterState</primary><secondary>Chase</secondary></indexterm>
+<indexterm><primary>Chase</primary><secondary>OnEnterState</secondary></indexterm>
+<para><computeroutput>override bool Chase.OnEnterState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_chase_1ad693e8310c8bd50502f914fa9593aa02"/><section>
+    <title>OnExitState()</title>
+<indexterm><primary>OnExitState</primary><secondary>Chase</secondary></indexterm>
+<indexterm><primary>Chase</primary><secondary>OnExitState</secondary></indexterm>
+<para><computeroutput>override bool Chase.OnExitState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_chase_1a8ca474ca24a2c28b07c6b17535a38548"/><section>
+    <title>OnStayState()</title>
+<indexterm><primary>OnStayState</primary><secondary>Chase</secondary></indexterm>
+<indexterm><primary>Chase</primary><secondary>OnStayState</secondary></indexterm>
+<para><computeroutput>override void Chase.OnStayState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c">FSMBaseState</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_chase_1a9a18b74618e717985bb1b8ae629ce92f"/><section>
+    <title>hasSetDestination</title>
+<indexterm><primary>hasSetDestination</primary><secondary>Chase</secondary></indexterm>
+<indexterm><primary>Chase</primary><secondary>hasSetDestination</secondary></indexterm>
+<para><computeroutput>bool Chase.hasSetDestination</computeroutput></para></section>
+<anchor xml:id="_class_chase_1a5fd43e35858a698ca4003c324cc72ece"/><section>
+    <title>newAgularSpeed</title>
+<indexterm><primary>newAgularSpeed</primary><secondary>Chase</secondary></indexterm>
+<indexterm><primary>Chase</primary><secondary>newAgularSpeed</secondary></indexterm>
+<para><computeroutput>float Chase.newAgularSpeed = 500f</computeroutput></para></section>
+<anchor xml:id="_class_chase_1af7ceeae7ebbb209cd13f32730a3ec21d"/><section>
+    <title>newSpeed</title>
+<indexterm><primary>newSpeed</primary><secondary>Chase</secondary></indexterm>
+<indexterm><primary>Chase</primary><secondary>newSpeed</secondary></indexterm>
+<para><computeroutput>float Chase.newSpeed = 30f</computeroutput></para></section>
+<anchor xml:id="_class_chase_1a4554f6bbac08992b606aeea964328e43"/><section>
+    <title>target</title>
+<indexterm><primary>target</primary><secondary>Chase</secondary></indexterm>
+<indexterm><primary>Chase</primary><secondary>target</secondary></indexterm>
+<para><computeroutput>Transform Chase.target</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/<link linkend="__n_p_c_a_i_states_type_a_8cs">NPCAIStatesTypeA.cs</link></section>
+</section>

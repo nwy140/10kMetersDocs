@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tank_movement" xml:lang="en-US">
+<title>TankMovement Class Reference</title>
+<indexterm><primary>TankMovement</primary></indexterm>
+Inheritance diagram for TankMovement:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tank_movement__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for TankMovement:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tank_movement__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_tank_movement_1a092fd2b162c27d963991f423b24bf714">m_PlayerNumber</link> = 1</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_tank_movement_1a946b8dddff1ced5a2bc6e2c81734c9a9">m_Speed</link> = 12f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_tank_movement_1a3d4a37dc23ba03bcd56c6272213e81e1">m_TurnSpeed</link> = 180f</para>
+</listitem>
+            <listitem><para>AudioSource <link linkend="_class_tank_movement_1adeb10deeb3d19a4e09a373009472d30d">m_MovementAudio</link></para>
+</listitem>
+            <listitem><para>AudioClip <link linkend="_class_tank_movement_1afd7b9063830e3f36586d8f65ce9e9864">m_EngineIdling</link></para>
+</listitem>
+            <listitem><para>AudioClip <link linkend="_class_tank_movement_1a1f8950f3ace7c6eb9db3245e56a3e242">m_EngineDriving</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_tank_movement_1ac40fed4b4da6dfb71113b1fe0061c251">m_PitchRange</link> = 0.2f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_tank_movement_1a1f8950f3ace7c6eb9db3245e56a3e242"/><section>
+    <title>m_EngineDriving</title>
+<indexterm><primary>m_EngineDriving</primary><secondary>TankMovement</secondary></indexterm>
+<indexterm><primary>TankMovement</primary><secondary>m_EngineDriving</secondary></indexterm>
+<para><computeroutput>AudioClip TankMovement.m_EngineDriving</computeroutput></para></section>
+<anchor xml:id="_class_tank_movement_1afd7b9063830e3f36586d8f65ce9e9864"/><section>
+    <title>m_EngineIdling</title>
+<indexterm><primary>m_EngineIdling</primary><secondary>TankMovement</secondary></indexterm>
+<indexterm><primary>TankMovement</primary><secondary>m_EngineIdling</secondary></indexterm>
+<para><computeroutput>AudioClip TankMovement.m_EngineIdling</computeroutput></para></section>
+<anchor xml:id="_class_tank_movement_1adeb10deeb3d19a4e09a373009472d30d"/><section>
+    <title>m_MovementAudio</title>
+<indexterm><primary>m_MovementAudio</primary><secondary>TankMovement</secondary></indexterm>
+<indexterm><primary>TankMovement</primary><secondary>m_MovementAudio</secondary></indexterm>
+<para><computeroutput>AudioSource TankMovement.m_MovementAudio</computeroutput></para></section>
+<anchor xml:id="_class_tank_movement_1ac40fed4b4da6dfb71113b1fe0061c251"/><section>
+    <title>m_PitchRange</title>
+<indexterm><primary>m_PitchRange</primary><secondary>TankMovement</secondary></indexterm>
+<indexterm><primary>TankMovement</primary><secondary>m_PitchRange</secondary></indexterm>
+<para><computeroutput>float TankMovement.m_PitchRange = 0.2f</computeroutput></para></section>
+<anchor xml:id="_class_tank_movement_1a092fd2b162c27d963991f423b24bf714"/><section>
+    <title>m_PlayerNumber</title>
+<indexterm><primary>m_PlayerNumber</primary><secondary>TankMovement</secondary></indexterm>
+<indexterm><primary>TankMovement</primary><secondary>m_PlayerNumber</secondary></indexterm>
+<para><computeroutput>int TankMovement.m_PlayerNumber = 1</computeroutput></para></section>
+<anchor xml:id="_class_tank_movement_1a946b8dddff1ced5a2bc6e2c81734c9a9"/><section>
+    <title>m_Speed</title>
+<indexterm><primary>m_Speed</primary><secondary>TankMovement</secondary></indexterm>
+<indexterm><primary>TankMovement</primary><secondary>m_Speed</secondary></indexterm>
+<para><computeroutput>float TankMovement.m_Speed = 12f</computeroutput></para></section>
+<anchor xml:id="_class_tank_movement_1a3d4a37dc23ba03bcd56c6272213e81e1"/><section>
+    <title>m_TurnSpeed</title>
+<indexterm><primary>m_TurnSpeed</primary><secondary>TankMovement</secondary></indexterm>
+<indexterm><primary>TankMovement</primary><secondary>m_TurnSpeed</secondary></indexterm>
+<para><computeroutput>float TankMovement.m_TurnSpeed = 180f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/<link linkend="__tank_movement_8cs">TankMovement.cs</link></section>
+</section>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_confirm_popup" kind="class" language="C#" prot="public">
+    <compoundname>ConfirmPopup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_confirm_popup_1a59cbc8a5bd6672bf3024b28962ee3c6f" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ConfirmPopup.Panel</definition>
+        <argsstring></argsstring>
+        <name>Panel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" line="8" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_confirm_popup_1a84c09fbe13193ed9b0c99e1cdcb1b4e8" compoundref="_confirm_popup_8cs" startline="31" endline="35">Cancel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_confirm_popup_1a732e9f16429a45b6203bff67fb40eec9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pause_menu_scripts" kindref="compound">PauseMenuScripts</ref></type>
+        <definition>PauseMenuScripts ConfirmPopup.pauseMenuScripts</definition>
+        <argsstring></argsstring>
+        <name>pauseMenuScripts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" line="9" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_confirm_popup_1abf33fe2ff58eb7f702c22ce755b88f5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfirmPopup.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" line="11" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_confirm_popup_1afc4993b9ad67ce29712cac907e675f77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfirmPopup.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" line="16" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_confirm_popup_1ad10b579ee571edaafd5e924fd39dfcd3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfirmPopup.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D player)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" bodystart="21" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_confirm_popup_1a84c09fbe13193ed9b0c99e1cdcb1b4e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfirmPopup.Cancel</definition>
+        <argsstring>()</argsstring>
+        <name>Cancel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" line="31" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" bodystart="31" bodyend="35"/>
+        <references refid="class_confirm_popup_1a59cbc8a5bd6672bf3024b28962ee3c6f" compoundref="_confirm_popup_8cs" startline="8">Panel</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ConfirmPopup</label>
+        <link refid="class_confirm_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ConfirmPopup</label>
+        <link refid="class_confirm_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/To Outpost/ConfirmPopup.cs" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_confirm_popup_1abf33fe2ff58eb7f702c22ce755b88f5a" prot="private" virt="non-virtual"><scope>ConfirmPopup</scope><name>Awake</name></member>
+      <member refid="class_confirm_popup_1a84c09fbe13193ed9b0c99e1cdcb1b4e8" prot="public" virt="non-virtual"><scope>ConfirmPopup</scope><name>Cancel</name></member>
+      <member refid="class_confirm_popup_1ad10b579ee571edaafd5e924fd39dfcd3" prot="private" virt="non-virtual"><scope>ConfirmPopup</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_confirm_popup_1a59cbc8a5bd6672bf3024b28962ee3c6f" prot="public" virt="non-virtual"><scope>ConfirmPopup</scope><name>Panel</name></member>
+      <member refid="class_confirm_popup_1a732e9f16429a45b6203bff67fb40eec9" prot="private" virt="non-virtual"><scope>ConfirmPopup</scope><name>pauseMenuScripts</name></member>
+      <member refid="class_confirm_popup_1afc4993b9ad67ce29712cac907e675f77" prot="private" virt="non-virtual"><scope>ConfirmPopup</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_health" xml:lang="en-US">
+<title>PlayerHealth Class Reference</title>
+<indexterm><primary>PlayerHealth</primary></indexterm>
+Inheritance diagram for PlayerHealth:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_health__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for PlayerHealth:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_health__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_hull">Hull</link> <link linkend="_class_player_health_1ac06e6ad78d71568910876f41dbd49a53">GetHull</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_health_1a324a55040b4b1215d6bc61cc79564da5">GetDamage</link> (float damage)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_health_1a9dc4716640dbd9ba5c7c5b364c2f191d">KillPlayer</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_health_1a5774cd790e17617df86640ac053a4ee6">DeletePersistentPathDirAndPlayerPrefs</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_health_1a6d0f1e94e466fbe355056e100fb405b2">OnInputSecondaryCommandSlot4</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_health_1a30587080b83854f50e5590acee678717">saveHealth</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_player_health_1a4ef834dbdf3b58dbf9e6bf4ec3997f67">health</link></para>
+</listitem>
+            <listitem><para>UnityEvent <link linkend="_class_player_health_1aabbb7d4285a20fa81fb79abc8439ddd8">OnHPDeplete</link></para>
+</listitem>
+            <listitem><para>UnityEvent <link linkend="_class_player_health_1ab704caa5f30e8cebc3a0a69c7c96800c">OnKO</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_health_1a5774cd790e17617df86640ac053a4ee6"/><section>
+    <title>DeletePersistentPathDirAndPlayerPrefs()</title>
+<indexterm><primary>DeletePersistentPathDirAndPlayerPrefs</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>DeletePersistentPathDirAndPlayerPrefs</secondary></indexterm>
+<para><computeroutput>void PlayerHealth.DeletePersistentPathDirAndPlayerPrefs ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_health_a5774cd790e17617df86640ac053a4ee6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_health_a5774cd790e17617df86640ac053a4ee6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_health_1a324a55040b4b1215d6bc61cc79564da5"/><section>
+    <title>GetDamage()</title>
+<indexterm><primary>GetDamage</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>GetDamage</secondary></indexterm>
+<para><computeroutput>void PlayerHealth.GetDamage (float damage)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_health_a324a55040b4b1215d6bc61cc79564da5_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_health_1ac06e6ad78d71568910876f41dbd49a53"/><section>
+    <title>GetHull()</title>
+<indexterm><primary>GetHull</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>GetHull</secondary></indexterm>
+<para><computeroutput><link linkend="_class_hull">Hull</link> PlayerHealth.GetHull ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_health_1a9dc4716640dbd9ba5c7c5b364c2f191d"/><section>
+    <title>KillPlayer()</title>
+<indexterm><primary>KillPlayer</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>KillPlayer</secondary></indexterm>
+<para><computeroutput>void PlayerHealth.KillPlayer ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_health_a9dc4716640dbd9ba5c7c5b364c2f191d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_health_1a6d0f1e94e466fbe355056e100fb405b2"/><section>
+    <title>OnInputSecondaryCommandSlot4()</title>
+<indexterm><primary>OnInputSecondaryCommandSlot4</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>OnInputSecondaryCommandSlot4</secondary></indexterm>
+<para><computeroutput>void PlayerHealth.OnInputSecondaryCommandSlot4 (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_player_health_1a30587080b83854f50e5590acee678717"/><section>
+    <title>saveHealth()</title>
+<indexterm><primary>saveHealth</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>saveHealth</secondary></indexterm>
+<para><computeroutput>void PlayerHealth.saveHealth ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_health_a30587080b83854f50e5590acee678717_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_player_health_1a4ef834dbdf3b58dbf9e6bf4ec3997f67"/><section>
+    <title>health</title>
+<indexterm><primary>health</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>health</secondary></indexterm>
+<para><computeroutput>float PlayerHealth.health</computeroutput></para></section>
+<anchor xml:id="_class_player_health_1aabbb7d4285a20fa81fb79abc8439ddd8"/><section>
+    <title>OnHPDeplete</title>
+<indexterm><primary>OnHPDeplete</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>OnHPDeplete</secondary></indexterm>
+<para><computeroutput>UnityEvent PlayerHealth.OnHPDeplete</computeroutput></para></section>
+<anchor xml:id="_class_player_health_1ab704caa5f30e8cebc3a0a69c7c96800c"/><section>
+    <title>OnKO</title>
+<indexterm><primary>OnKO</primary><secondary>PlayerHealth</secondary></indexterm>
+<indexterm><primary>PlayerHealth</primary><secondary>OnKO</secondary></indexterm>
+<para><computeroutput>UnityEvent PlayerHealth.OnKO</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/<link linkend="__player_health_8cs">PlayerHealth.cs</link></section>
+</section>

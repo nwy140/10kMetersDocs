@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_command_base_1_1_cooldown_info" xml:lang="en-US">
+<title>CommandBase.CooldownInfo Struct Reference</title>
+<indexterm><primary>CommandBase.CooldownInfo</primary></indexterm>
+Collaboration diagram for CommandBase.CooldownInfo:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_command_base_1_1_cooldown_info__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_struct_command_base_1_1_cooldown_info_1aa46014d164da650caa0e60cf2e996a44">cooldownTime</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_command_base_1_1_cooldown_info_1a91f07d2e668261920468b08553e93caf">curCoolDownTimeElapsed</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b">CastState</link> <link linkend="_struct_command_base_1_1_cooldown_info_1a744e22238d30ea394f82cb8f0b0cccd4">castState</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_command_base_1_1_cooldown_info_1aace98c3d25895e6cf0fc315803778f28">isCastingNow</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_command_base_1_1_cooldown_info_1a744e22238d30ea394f82cb8f0b0cccd4"/><section>
+    <title>castState</title>
+<indexterm><primary>castState</primary><secondary>CommandBase.CooldownInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.CooldownInfo</primary><secondary>castState</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b">CastState</link> CommandBase.CooldownInfo.castState</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_cooldown_info_1aa46014d164da650caa0e60cf2e996a44"/><section>
+    <title>cooldownTime</title>
+<indexterm><primary>cooldownTime</primary><secondary>CommandBase.CooldownInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.CooldownInfo</primary><secondary>cooldownTime</secondary></indexterm>
+<para><computeroutput>float CommandBase.CooldownInfo.cooldownTime</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_cooldown_info_1a91f07d2e668261920468b08553e93caf"/><section>
+    <title>curCoolDownTimeElapsed</title>
+<indexterm><primary>curCoolDownTimeElapsed</primary><secondary>CommandBase.CooldownInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.CooldownInfo</primary><secondary>curCoolDownTimeElapsed</secondary></indexterm>
+<para><computeroutput>float CommandBase.CooldownInfo.curCoolDownTimeElapsed</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_cooldown_info_1aace98c3d25895e6cf0fc315803778f28"/><section>
+    <title>isCastingNow</title>
+<indexterm><primary>isCastingNow</primary><secondary>CommandBase.CooldownInfo</secondary></indexterm>
+<indexterm><primary>CommandBase.CooldownInfo</primary><secondary>isCastingNow</secondary></indexterm>
+<para><computeroutput>bool CommandBase.CooldownInfo.isCastingNow</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/<link linkend="__command_base_8cs">CommandBase.cs</link></section>
+</section>

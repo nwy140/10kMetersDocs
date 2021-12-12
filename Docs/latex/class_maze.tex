@@ -1,0 +1,122 @@
+\hypertarget{class_maze}{}\doxysection{Maze Class Reference}
+\label{class_maze}\index{Maze@{Maze}}
+
+
+Inheritance diagram for Maze\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{class_maze__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Maze\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{class_maze__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_maze_a7fc3f2f27713b1fb94405ff2c705564e}{Generate}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_map_location}{Map\+Location}} $>$ \mbox{\hyperlink{class_maze_a5086353e3f09ad19dcd79e9bfc532a9f}{directions}}
+\item 
+int \mbox{\hyperlink{class_maze_a35f4a1539a2bc2afc30a4b7800496a8e}{x\+Min}}
+\item 
+int \mbox{\hyperlink{class_maze_a26d36b2c138a0b58204773bac35f4f21}{y\+Min}}
+\item 
+int \mbox{\hyperlink{class_maze_a794d25d03be2e52a2f40190dfb60c37b}{x\+Max}}
+\item 
+int \mbox{\hyperlink{class_maze_a74d4a2aed7e4d47408e4ebcd4b587cc4}{y\+Max}}
+\item 
+byte\mbox{[},\mbox{]} \mbox{\hyperlink{class_maze_a10150f0d6609031d2cf8b6daa399b092}{map}}
+\item 
+int \mbox{\hyperlink{class_maze_a21a5192a75690e8fff87dd5b49d64d28}{scale}} = 6
+\item 
+Game\+Object \mbox{\hyperlink{class_maze_af316f9462faa5e378fd0431f80b8e658}{tile\+Marker\+Prefab}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_maze_a7fc3f2f27713b1fb94405ff2c705564e}\label{class_maze_a7fc3f2f27713b1fb94405ff2c705564e}} 
+\index{Maze@{Maze}!Generate@{Generate}}
+\index{Generate@{Generate}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{Generate()}{Generate()}}
+{\footnotesize\ttfamily virtual void Maze.\+Generate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_maze_a5086353e3f09ad19dcd79e9bfc532a9f}\label{class_maze_a5086353e3f09ad19dcd79e9bfc532a9f}} 
+\index{Maze@{Maze}!directions@{directions}}
+\index{directions@{directions}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{directions}{directions}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_map_location}{Map\+Location}}$>$ Maze.\+directions}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \textcolor{keyword}{new} List<MapLocation>()}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        \textcolor{keyword}{new} \mbox{\hyperlink{class_map_location}{MapLocation}}(1,0),}
+\DoxyCodeLine{        \textcolor{keyword}{new} \mbox{\hyperlink{class_map_location}{MapLocation}}(0,1),}
+\DoxyCodeLine{        \textcolor{keyword}{new} \mbox{\hyperlink{class_map_location}{MapLocation}}(-\/1,0),}
+\DoxyCodeLine{        \textcolor{keyword}{new} \mbox{\hyperlink{class_map_location}{MapLocation}}(0,-\/1)}
+\DoxyCodeLine{    \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_maze_a10150f0d6609031d2cf8b6daa399b092}\label{class_maze_a10150f0d6609031d2cf8b6daa399b092}} 
+\index{Maze@{Maze}!map@{map}}
+\index{map@{map}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{map}{map}}
+{\footnotesize\ttfamily byte \mbox{[},\mbox{]} Maze.\+map}
+
+\mbox{\Hypertarget{class_maze_a21a5192a75690e8fff87dd5b49d64d28}\label{class_maze_a21a5192a75690e8fff87dd5b49d64d28}} 
+\index{Maze@{Maze}!scale@{scale}}
+\index{scale@{scale}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{scale}{scale}}
+{\footnotesize\ttfamily int Maze.\+scale = 6}
+
+\mbox{\Hypertarget{class_maze_af316f9462faa5e378fd0431f80b8e658}\label{class_maze_af316f9462faa5e378fd0431f80b8e658}} 
+\index{Maze@{Maze}!tileMarkerPrefab@{tileMarkerPrefab}}
+\index{tileMarkerPrefab@{tileMarkerPrefab}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{tileMarkerPrefab}{tileMarkerPrefab}}
+{\footnotesize\ttfamily Game\+Object Maze.\+tile\+Marker\+Prefab}
+
+\mbox{\Hypertarget{class_maze_a794d25d03be2e52a2f40190dfb60c37b}\label{class_maze_a794d25d03be2e52a2f40190dfb60c37b}} 
+\index{Maze@{Maze}!xMax@{xMax}}
+\index{xMax@{xMax}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{xMax}{xMax}}
+{\footnotesize\ttfamily int Maze.\+x\+Max}
+
+\mbox{\Hypertarget{class_maze_a35f4a1539a2bc2afc30a4b7800496a8e}\label{class_maze_a35f4a1539a2bc2afc30a4b7800496a8e}} 
+\index{Maze@{Maze}!xMin@{xMin}}
+\index{xMin@{xMin}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{xMin}{xMin}}
+{\footnotesize\ttfamily int Maze.\+x\+Min}
+
+\mbox{\Hypertarget{class_maze_a74d4a2aed7e4d47408e4ebcd4b587cc4}\label{class_maze_a74d4a2aed7e4d47408e4ebcd4b587cc4}} 
+\index{Maze@{Maze}!yMax@{yMax}}
+\index{yMax@{yMax}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{yMax}{yMax}}
+{\footnotesize\ttfamily int Maze.\+y\+Max}
+
+\mbox{\Hypertarget{class_maze_a26d36b2c138a0b58204773bac35f4f21}\label{class_maze_a26d36b2c138a0b58204773bac35f4f21}} 
+\index{Maze@{Maze}!yMin@{yMin}}
+\index{yMin@{yMin}!Maze@{Maze}}
+\doxysubsubsection{\texorpdfstring{yMin}{yMin}}
+{\footnotesize\ttfamily int Maze.\+y\+Min}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Scripts/\+Arif\textquotesingle{}s Test Scripts/\mbox{\hyperlink{_maze_8cs}{Maze.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_a_star_path_finder" xml:lang="en-US">
+<title>AStarPathFinder Class Reference</title>
+<indexterm><primary>AStarPathFinder</primary></indexterm>
+Inheritance diagram for AStarPathFinder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_a_star_path_finder__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for AStarPathFinder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_a_star_path_finder__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_maze">Maze</link> <link linkend="_class_a_star_path_finder_1a85cf0fdb9ab00952ee40376cefaaf29a">maze</link></para>
+</listitem>
+            <listitem><para>Color <link linkend="_class_a_star_path_finder_1a10e0a764090f17178b53da3097314fd0">closedColor</link></para>
+</listitem>
+            <listitem><para>Color <link linkend="_class_a_star_path_finder_1afcce20a89bad0c797edcd77d5ce99bc0">openColor</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_a_star_path_finder_1afaf9ebe0ca11b533b3cd49708bba5d94">start</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_a_star_path_finder_1a60a0d9af95ee63c61d005fea4be26757">end</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_a_star_path_finder_1a2c50f7f6f1e15c6e156c25be3b9ff02a">pathP</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_a_star_path_finder_1affa8be7819bff64ef4e88c830a1f6cac">enemy</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_a_star_path_finder_1ad3d76187b66f24846858f7da50bb7fb6">player</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_a_star_path_finder_1a10e0a764090f17178b53da3097314fd0"/><section>
+    <title>closedColor</title>
+<indexterm><primary>closedColor</primary><secondary>AStarPathFinder</secondary></indexterm>
+<indexterm><primary>AStarPathFinder</primary><secondary>closedColor</secondary></indexterm>
+<para><computeroutput>Color AStarPathFinder.closedColor</computeroutput></para></section>
+<anchor xml:id="_class_a_star_path_finder_1a60a0d9af95ee63c61d005fea4be26757"/><section>
+    <title>end</title>
+<indexterm><primary>end</primary><secondary>AStarPathFinder</secondary></indexterm>
+<indexterm><primary>AStarPathFinder</primary><secondary>end</secondary></indexterm>
+<para><computeroutput>GameObject AStarPathFinder.end</computeroutput></para></section>
+<anchor xml:id="_class_a_star_path_finder_1affa8be7819bff64ef4e88c830a1f6cac"/><section>
+    <title>enemy</title>
+<indexterm><primary>enemy</primary><secondary>AStarPathFinder</secondary></indexterm>
+<indexterm><primary>AStarPathFinder</primary><secondary>enemy</secondary></indexterm>
+<para><computeroutput>GameObject AStarPathFinder.enemy</computeroutput></para></section>
+<anchor xml:id="_class_a_star_path_finder_1a85cf0fdb9ab00952ee40376cefaaf29a"/><section>
+    <title>maze</title>
+<indexterm><primary>maze</primary><secondary>AStarPathFinder</secondary></indexterm>
+<indexterm><primary>AStarPathFinder</primary><secondary>maze</secondary></indexterm>
+<para><computeroutput><link linkend="_class_maze">Maze</link> AStarPathFinder.maze</computeroutput></para></section>
+<anchor xml:id="_class_a_star_path_finder_1afcce20a89bad0c797edcd77d5ce99bc0"/><section>
+    <title>openColor</title>
+<indexterm><primary>openColor</primary><secondary>AStarPathFinder</secondary></indexterm>
+<indexterm><primary>AStarPathFinder</primary><secondary>openColor</secondary></indexterm>
+<para><computeroutput>Color AStarPathFinder.openColor</computeroutput></para></section>
+<anchor xml:id="_class_a_star_path_finder_1a2c50f7f6f1e15c6e156c25be3b9ff02a"/><section>
+    <title>pathP</title>
+<indexterm><primary>pathP</primary><secondary>AStarPathFinder</secondary></indexterm>
+<indexterm><primary>AStarPathFinder</primary><secondary>pathP</secondary></indexterm>
+<para><computeroutput>GameObject AStarPathFinder.pathP</computeroutput></para></section>
+<anchor xml:id="_class_a_star_path_finder_1ad3d76187b66f24846858f7da50bb7fb6"/><section>
+    <title>player</title>
+<indexterm><primary>player</primary><secondary>AStarPathFinder</secondary></indexterm>
+<indexterm><primary>AStarPathFinder</primary><secondary>player</secondary></indexterm>
+<para><computeroutput>GameObject AStarPathFinder.player</computeroutput></para></section>
+<anchor xml:id="_class_a_star_path_finder_1afaf9ebe0ca11b533b3cd49708bba5d94"/><section>
+    <title>start</title>
+<indexterm><primary>start</primary><secondary>AStarPathFinder</secondary></indexterm>
+<indexterm><primary>AStarPathFinder</primary><secondary>start</secondary></indexterm>
+<para><computeroutput>GameObject AStarPathFinder.start</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/<link linkend="__a_star_path_finder_8cs">AStarPathFinder.cs</link></section>
+</section>

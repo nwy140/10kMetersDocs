@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player" kind="class" language="C#" prot="public">
+    <compoundname>Player</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_player_attack" prot="public" virt="non-virtual">PlayerAttack</derivedcompoundref>
+    <derivedcompoundref refid="class_player_health" prot="public" virt="non-virtual">PlayerHealth</derivedcompoundref>
+    <derivedcompoundref refid="class_player_movement" prot="public" virt="non-virtual">PlayerMovement</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_player_1aea53f64a37269e7378929cf92feba188" prot="protected" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer Player.sprite</definition>
+        <argsstring></argsstring>
+        <name>sprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" line="5" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_player_health_1a9dc4716640dbd9ba5c7c5b364c2f191d" compoundref="_player_health_8cs" startline="187" endline="198">PlayerHealth.KillPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1af093347214c362c15ea71eec0394207a" prot="protected" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D Player.playerRigidbody2D</definition>
+        <argsstring></argsstring>
+        <name>playerRigidbody2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" line="6" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1ac546e5988a6e13cafc7a2b4820351ee2" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Player.isDead</definition>
+        <argsstring></argsstring>
+        <name>isDead</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" line="7" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_player_health_1a9dc4716640dbd9ba5c7c5b364c2f191d" compoundref="_player_health_8cs" startline="187" endline="198">PlayerHealth.KillPlayer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_1aaddfa9f3b558df64f5d1d09e2b906901" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" line="9" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PlayerAttack</label>
+        <link refid="class_player_attack"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>PlayerHealth</label>
+        <link refid="class_player_health"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>PlayerMovement</label>
+        <link refid="class_player_movement"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" line="3" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Player Script/Player.cs" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_player_1aaddfa9f3b558df64f5d1d09e2b906901" prot="private" virt="non-virtual"><scope>Player</scope><name>Awake</name></member>
+      <member refid="class_player_1ac546e5988a6e13cafc7a2b4820351ee2" prot="protected" virt="non-virtual"><scope>Player</scope><name>isDead</name></member>
+      <member refid="class_player_1af093347214c362c15ea71eec0394207a" prot="protected" virt="non-virtual"><scope>Player</scope><name>playerRigidbody2D</name></member>
+      <member refid="class_player_1aea53f64a37269e7378929cf92feba188" prot="protected" virt="non-virtual"><scope>Player</scope><name>sprite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

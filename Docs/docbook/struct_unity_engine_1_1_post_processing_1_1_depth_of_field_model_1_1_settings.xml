@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.DepthOfFieldModel.Settings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.DepthOfFieldModel.Settings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a81ed4e266c78d0bade7ae024e3ece21e">focusDistance</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1ac0099260ac0710e648c4e76d68cc3e63">aperture</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a87d4eb5712129989a12d26ab4d16332c">focalLength</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1af262106b3f1b15e0dff20faf3a9fee4e">useCameraFov</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a8b92e9c86b4ffe225306853f8bfd4015">KernelSize</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a24cf78bbe8ab7b8bb2e231da4e4791d5">kernelSize</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings">Settings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a33cabc314b2e0327ed8a4927d61d4feb">defaultSettings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1ac0099260ac0710e648c4e76d68cc3e63"/><section>
+    <title>aperture</title>
+<indexterm><primary>aperture</primary><secondary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</primary><secondary>aperture</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.DepthOfFieldModel.Settings.aperture</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a87d4eb5712129989a12d26ab4d16332c"/><section>
+    <title>focalLength</title>
+<indexterm><primary>focalLength</primary><secondary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</primary><secondary>focalLength</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.DepthOfFieldModel.Settings.focalLength</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a81ed4e266c78d0bade7ae024e3ece21e"/><section>
+    <title>focusDistance</title>
+<indexterm><primary>focusDistance</primary><secondary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</primary><secondary>focusDistance</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.DepthOfFieldModel.Settings.focusDistance</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a24cf78bbe8ab7b8bb2e231da4e4791d5"/><section>
+    <title>kernelSize</title>
+<indexterm><primary>kernelSize</primary><secondary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</primary><secondary>kernelSize</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a8b92e9c86b4ffe225306853f8bfd4015">KernelSize</link> UnityEngine.PostProcessing.DepthOfFieldModel.Settings.kernelSize</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1af262106b3f1b15e0dff20faf3a9fee4e"/><section>
+    <title>useCameraFov</title>
+<indexterm><primary>useCameraFov</primary><secondary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</primary><secondary>useCameraFov</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.DepthOfFieldModel.Settings.useCameraFov</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a33cabc314b2e0327ed8a4927d61d4feb"/><section>
+    <title>defaultSettings</title>
+<indexterm><primary>defaultSettings</primary><secondary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.DepthOfFieldModel.Settings</primary><secondary>defaultSettings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings">Settings</link> UnityEngine.PostProcessing.DepthOfFieldModel.Settings.defaultSettings<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__depth_of_field_model_8cs">DepthOfFieldModel.cs</link></section>
+</section>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_animation_event_helper" xml:lang="en-US">
+<title>AnimationEventHelper Class Reference</title>
+<indexterm><primary>AnimationEventHelper</primary></indexterm>
+Inheritance diagram for AnimationEventHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_animation_event_helper__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for AnimationEventHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_animation_event_helper__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_animation_event_helper_1a88f9fecf0d90601e924e5e76e74c8447">SetBool</link> (bool value)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_animation_event_helper_1adee24feb5aaf52a2a73a0b6aa7521503">TurnBoolOnOff</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_animation_event_helper_1a9ef8e2593a4adbea0ed6758e0a90fb56">TurnBoolOnOffByName</link> (string name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_animation_event_helper_1a06d808fe463ac7bda40da3d9f37f200f">SetBoolName</link> (string newBoolname)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_animation_event_helper_1a8c05ac33bfa360037c6a54ccae4eccd8">SetAnimatorIsEnabled</link> (bool isEnabled)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Animator <link linkend="_class_animation_event_helper_1aaac19dcf4a57b2cde48497f4d68efd8e">animator</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_class_animation_event_helper_1ac8842b158e1699fa89ce7a909828236f">boolName</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_animation_event_helper_1a8c05ac33bfa360037c6a54ccae4eccd8"/><section>
+    <title>SetAnimatorIsEnabled()</title>
+<indexterm><primary>SetAnimatorIsEnabled</primary><secondary>AnimationEventHelper</secondary></indexterm>
+<indexterm><primary>AnimationEventHelper</primary><secondary>SetAnimatorIsEnabled</secondary></indexterm>
+<para><computeroutput>void AnimationEventHelper.SetAnimatorIsEnabled (bool isEnabled)</computeroutput></para></section>
+<anchor xml:id="_class_animation_event_helper_1a88f9fecf0d90601e924e5e76e74c8447"/><section>
+    <title>SetBool()</title>
+<indexterm><primary>SetBool</primary><secondary>AnimationEventHelper</secondary></indexterm>
+<indexterm><primary>AnimationEventHelper</primary><secondary>SetBool</secondary></indexterm>
+<para><computeroutput>void AnimationEventHelper.SetBool (bool value)</computeroutput></para></section>
+<anchor xml:id="_class_animation_event_helper_1a06d808fe463ac7bda40da3d9f37f200f"/><section>
+    <title>SetBoolName()</title>
+<indexterm><primary>SetBoolName</primary><secondary>AnimationEventHelper</secondary></indexterm>
+<indexterm><primary>AnimationEventHelper</primary><secondary>SetBoolName</secondary></indexterm>
+<para><computeroutput>void AnimationEventHelper.SetBoolName (string newBoolname)</computeroutput></para></section>
+<anchor xml:id="_class_animation_event_helper_1adee24feb5aaf52a2a73a0b6aa7521503"/><section>
+    <title>TurnBoolOnOff()</title>
+<indexterm><primary>TurnBoolOnOff</primary><secondary>AnimationEventHelper</secondary></indexterm>
+<indexterm><primary>AnimationEventHelper</primary><secondary>TurnBoolOnOff</secondary></indexterm>
+<para><computeroutput>void AnimationEventHelper.TurnBoolOnOff ( )</computeroutput></para></section>
+<anchor xml:id="_class_animation_event_helper_1a9ef8e2593a4adbea0ed6758e0a90fb56"/><section>
+    <title>TurnBoolOnOffByName()</title>
+<indexterm><primary>TurnBoolOnOffByName</primary><secondary>AnimationEventHelper</secondary></indexterm>
+<indexterm><primary>AnimationEventHelper</primary><secondary>TurnBoolOnOffByName</secondary></indexterm>
+<para><computeroutput>void AnimationEventHelper.TurnBoolOnOffByName (string name)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_animation_event_helper_1aaac19dcf4a57b2cde48497f4d68efd8e"/><section>
+    <title>animator</title>
+<indexterm><primary>animator</primary><secondary>AnimationEventHelper</secondary></indexterm>
+<indexterm><primary>AnimationEventHelper</primary><secondary>animator</secondary></indexterm>
+<para><computeroutput>Animator AnimationEventHelper.animator</computeroutput></para></section>
+<anchor xml:id="_class_animation_event_helper_1ac8842b158e1699fa89ce7a909828236f"/><section>
+    <title>boolName</title>
+<indexterm><primary>boolName</primary><secondary>AnimationEventHelper</secondary></indexterm>
+<indexterm><primary>AnimationEventHelper</primary><secondary>boolName</secondary></indexterm>
+<para><computeroutput>string AnimationEventHelper.boolName</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/<link linkend="__animation_event_helper_8cs">AnimationEventHelper.cs</link></section>
+</section>

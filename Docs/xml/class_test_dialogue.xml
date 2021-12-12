@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_test_dialogue" kind="class" language="C#" prot="public">
+    <compoundname>TestDialogue</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_test_dialogue_1ab61050e6c9cedcbbded2cffd346bab9f" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_test_dialogue" kindref="compound">TestDialogue</ref></type>
+        <definition>TestDialogue TestDialogue.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="7" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">OutpostChoices.EnablePanels</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_dialogue_1ac3f9cc5e3328c2f09e334033ab951de4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TestDialogue.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="8" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">OutpostChoices.EnablePanels</referencedby>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">StartUpdating</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_dialogue_1a8fbbeba9e99c552ea779b94b0dae4a7f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TestDialogue.noticeToAllTechs</definition>
+        <argsstring></argsstring>
+        <name>noticeToAllTechs</name>
+        <initializer>= &quot;Leave the last element in every dialogue boxes empty or there&apos;ll be an <ref refid="class_test_dialogue_1ac3f9cc5e3328c2f09e334033ab951de4" kindref="member">index</ref> boundary error.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="144" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_dialogue_1af56cd9ad00c8c60610b449f5478ae665" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] TestDialogue.dayOne</definition>
+        <argsstring></argsstring>
+        <name>dayOne</name>
+        <initializer>= new string[]
+    {
+        &quot;As you enter the room you were in the day before, you see Liam pacing around frantically. :You&quot;,
+        &quot;There you are, finally! :Liam&quot;,
+        &quot;He doesn’t seem to be very happy. :You&quot;,
+        &quot;You’re not late, are you? You ask Liam.&quot;,
+        &quot;No, no, it’s-- ugh. :Liam&quot;,
+        &quot;It’s clear that he’s stressed out of his mind, restless feet walking back and forth, restless fingers clicking on his pen. :You&quot;,
+        &quot;The USSR. We’ve just received intel they’re inbound to the bottom in 14 days. 14 days! That’s barely enough time to do anything. I was expecting soon, but- :Liam&quot;,
+        &quot;The panic in his voice is thick, so unlike what you’ve seen of him yesterday. :You&quot;,
+        &quot;You try reassuring him that you’ll do your best, and this calms him, somewhat.&quot;,
+        &quot;Okay. Okay. :Liam&quot;,
+        &quot;Liam takes a deep breath and gathers his composure. Then, he stares straight into your eyes, deathly serious. :You&quot;,
+        &quot;If you’re really the Navy’s top diver, then you better start now if we’re going to stand a chance. :Liam&quot;,
+        &quot;You tell him that you’ve got this and hurriedly get changed into your gear. :You&quot;,
+        &quot;Liam clasps a firm grip onto your shoulder, and nudges you towards the submarine docking station.&quot;,
+        &quot;We’re counting on you. :Liam&quot;,
+        &quot; &quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="146" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="146" bodyend="-1"/>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">StartUpdating</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_dialogue_1ad0f186457c45f5477ec897cf1ac2ac1b" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] TestDialogue.dayTwo</definition>
+        <argsstring></argsstring>
+        <name>dayTwo</name>
+        <initializer>= new string[]
+    {
+        &quot;Well, not much to update, really. The USSR is making steady progress. :Liam&quot;,
+        &quot;With the current projections and the speed they’re going, they’ll reach there in 2 weeks, as we’ve speculated.&quot;,
+        &quot;Maybe even less.&quot;,
+        &quot;Liam lets out an exhausted sigh. The news has taken a toll on him. :You&quot;,
+        &quot;There’s no point worrying about this, in any case. We’ll do what we have to do. :Liam&quot;,
+        &quot;He’s extremely bad at hiding his worry, even with his arms folded. A lone finger taps against his arm in apprehensive energy. :You&quot;,
+        &quot;Just keep at it with what you’re doing, and we’ll be fine. :Liam&quot;,
+        &quot;Liam looks at you, a subtle expression of concern mingled with a hint of hope. :You&quot;,
+        &quot; &quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="166" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="166" bodyend="-1"/>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">StartUpdating</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_dialogue_1a2bb8e329bf2bfec8c0faad4bc00e8290" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] TestDialogue.dayFive</definition>
+        <argsstring></argsstring>
+        <name>dayFive</name>
+        <initializer>= new string[]
+    {
+        &quot;Oh, hmm. Things have been… hectic around here. :Liam&quot;,
+        &quot;Liam looks tired, as if he hasn’t had a good night’s sleep lately. :You&quot;,
+        &quot;Research has been coming along well at least. Good progress. We’re catching up with them. :Liam&quot;,
+        &quot;A long breath of relief escapes from him. :You&quot;,
+        &quot;Liam takes out his clipboard and looks through a few papers.&quot;,
+        &quot;They’re almost at the end of the Continental Region. :Liam&quot;,
+        &quot; &quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="179" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="179" bodyend="-1"/>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">StartUpdating</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_dialogue_1a341714c7c7afb47cca684607cc52ae2b" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] TestDialogue.dayFourteen</definition>
+        <argsstring></argsstring>
+        <name>dayFourteen</name>
+        <initializer>= new string[]
+    {
+        &quot;Well, it’s the final day. :Liam McCoy&quot;,
+        &quot;Liam’s voice is stoic despite the exhaustion weighing him down. :&quot;,
+        &quot;He takes out his clipboard, but he doesn’t even look at it to know what to say next.&quot;,
+        &quot;It’s approximately 20 hours before they reach the bottom. Maybe even less. :Liam McCoy&quot;,
+        &quot;His eyes stare intensely into yours. : &quot;,
+        &quot;It’s now or never. This is your last shot. :Liam McCoy&quot;,
+        &quot;Liam claps a hand on your shoulder, firmly. : &quot;,
+        &quot;Go out there and prove that you’re really the Navy’s finest. : Liam McCoy&quot;,
+        &quot; &quot;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="190" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="190" bodyend="-1"/>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">StartUpdating</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_test_dialogue_1ab77db640c8692b10ae49ea0a014bf0a6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_dialogue_system" kindref="compound">DialogueSystem</ref></type>
+        <definition>DialogueSystem TestDialogue.dialogue</definition>
+        <argsstring></argsstring>
+        <name>dialogue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="9" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_dialogue_1ad66b37c38f35624ca6c4da5c8f170be9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestDialogue.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="11" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_dialogue_1aeb931ebdf26ca35d9f86686f2d60047f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestDialogue.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="16" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_dialogue_1a81a147c2262a8df24bc9b428972cfaa3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestDialogue.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="21" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="21" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_dialogue_1a8c3f7764afec838a9a542c40324b64de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestDialogue.Talk</definition>
+        <argsstring>(string s)</argsstring>
+        <name>Talk</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="131" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="131" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestDialogue.StartUpdating</definition>
+        <argsstring>()</argsstring>
+        <name>StartUpdating</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="29" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="29" bodyend="129"/>
+        <references refid="class_test_dialogue_1a2bb8e329bf2bfec8c0faad4bc00e8290" compoundref="_test_dialogue_8cs" startline="179">dayFive</references>
+        <references refid="class_test_dialogue_1a341714c7c7afb47cca684607cc52ae2b" compoundref="_test_dialogue_8cs" startline="190">dayFourteen</references>
+        <references refid="class_test_dialogue_1af56cd9ad00c8c60610b449f5478ae665" compoundref="_test_dialogue_8cs" startline="146">dayOne</references>
+        <references refid="class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e" compoundref="_day_counter_8cs" startline="9">DayCounter.days</references>
+        <references refid="class_test_dialogue_1ad0f186457c45f5477ec897cf1ac2ac1b" compoundref="_test_dialogue_8cs" startline="166">dayTwo</references>
+        <references refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">OutpostChoices.EnablePanels</references>
+        <references refid="class_test_dialogue_1ac3f9cc5e3328c2f09e334033ab951de4" compoundref="_test_dialogue_8cs" startline="8">index</references>
+        <references refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" compoundref="_audio_manager_8cs" startline="12">AudioManager.instance</references>
+        <references refid="class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31" compoundref="_day_counter_8cs" startline="8">DayCounter.instance</references>
+        <references refid="class_outpost_choices_1af1407b416247318d9835c5182b0967d0" compoundref="_outpost_choices_8cs" startline="11">OutpostChoices.instance</references>
+        <references refid="class_dialogue_system_1acdfd56be503d1565053a617235c82631" compoundref="_dialogue_system_8cs" startline="10" endline="10">DialogueSystem.isTalking</references>
+        <references refid="class_dialogue_system_1aea726a74d79b041e89df8a8c89cc4e4b" compoundref="_dialogue_system_8cs" startline="11">DialogueSystem.isWaitingForUserInput</references>
+        <references refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" compoundref="_audio_manager_8cs" startline="155" endline="185">AudioManager.PlaySFX</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TestDialogue</label>
+        <link refid="class_test_dialogue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TestDialogue</label>
+        <link refid="class_test_dialogue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/TestDialogue.cs" bodystart="6" bodyend="202"/>
+    <listofallmembers>
+      <member refid="class_test_dialogue_1aeb931ebdf26ca35d9f86686f2d60047f" prot="private" virt="non-virtual"><scope>TestDialogue</scope><name>Awake</name></member>
+      <member refid="class_test_dialogue_1a2bb8e329bf2bfec8c0faad4bc00e8290" prot="public" virt="non-virtual"><scope>TestDialogue</scope><name>dayFive</name></member>
+      <member refid="class_test_dialogue_1a341714c7c7afb47cca684607cc52ae2b" prot="public" virt="non-virtual"><scope>TestDialogue</scope><name>dayFourteen</name></member>
+      <member refid="class_test_dialogue_1af56cd9ad00c8c60610b449f5478ae665" prot="public" virt="non-virtual"><scope>TestDialogue</scope><name>dayOne</name></member>
+      <member refid="class_test_dialogue_1ad0f186457c45f5477ec897cf1ac2ac1b" prot="public" virt="non-virtual"><scope>TestDialogue</scope><name>dayTwo</name></member>
+      <member refid="class_test_dialogue_1ab77db640c8692b10ae49ea0a014bf0a6" prot="private" virt="non-virtual"><scope>TestDialogue</scope><name>dialogue</name></member>
+      <member refid="class_test_dialogue_1ac3f9cc5e3328c2f09e334033ab951de4" prot="public" virt="non-virtual"><scope>TestDialogue</scope><name>index</name></member>
+      <member refid="class_test_dialogue_1ab61050e6c9cedcbbded2cffd346bab9f" prot="public" virt="non-virtual"><scope>TestDialogue</scope><name>instance</name></member>
+      <member refid="class_test_dialogue_1a8fbbeba9e99c552ea779b94b0dae4a7f" prot="public" virt="non-virtual"><scope>TestDialogue</scope><name>noticeToAllTechs</name></member>
+      <member refid="class_test_dialogue_1ad66b37c38f35624ca6c4da5c8f170be9" prot="private" virt="non-virtual"><scope>TestDialogue</scope><name>Start</name></member>
+      <member refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" prot="public" virt="non-virtual"><scope>TestDialogue</scope><name>StartUpdating</name></member>
+      <member refid="class_test_dialogue_1a8c3f7764afec838a9a542c40324b64de" prot="private" virt="non-virtual"><scope>TestDialogue</scope><name>Talk</name></member>
+      <member refid="class_test_dialogue_1a81a147c2262a8df24bc9b428972cfaa3" prot="private" virt="non-virtual"><scope>TestDialogue</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

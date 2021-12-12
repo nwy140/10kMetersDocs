@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_bullet" xml:lang="en-US">
+<title>PlayerBullet Class Reference</title>
+<indexterm><primary>PlayerBullet</primary></indexterm>
+Inheritance diagram for PlayerBullet:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_bullet__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for PlayerBullet:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_bullet__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed">OnHitBox</link> (GameObject other)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_player_bullet_properties">PlayerBulletProperties</link> <link linkend="_class_player_bullet_1a013f5c2f733d7fbf3293d1ed88bae512">PlayerBulletProperties</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_player_bullet_1ab8df5c791812259f63b39abd9e60ac06">Start</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_player_bullet_1a23079475c0d4d05a2c4818e8a26a0b79">BulletDamage</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_bullet_1a75177f576180e59f7092684d57bd80c7">BulletSpeed</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed"/><section>
+    <title>OnHitBox()</title>
+<indexterm><primary>OnHitBox</primary><secondary>PlayerBullet</secondary></indexterm>
+<indexterm><primary>PlayerBullet</primary><secondary>OnHitBox</secondary></indexterm>
+<para><computeroutput>void PlayerBullet.OnHitBox (GameObject other)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_bullet_abfce8acc1beca3930f5695fafdda41ed_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_bullet_1ab8df5c791812259f63b39abd9e60ac06"/><section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>PlayerBullet</secondary></indexterm>
+<indexterm><primary>PlayerBullet</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>void PlayerBullet.Start ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_player_bullet_1a013f5c2f733d7fbf3293d1ed88bae512"/><section>
+    <title>PlayerBulletProperties</title>
+<indexterm><primary>PlayerBulletProperties</primary><secondary>PlayerBullet</secondary></indexterm>
+<indexterm><primary>PlayerBullet</primary><secondary>PlayerBulletProperties</secondary></indexterm>
+<para><computeroutput><link linkend="_class_player_bullet_properties">PlayerBulletProperties</link> PlayerBullet.PlayerBulletProperties</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_player_bullet_1a23079475c0d4d05a2c4818e8a26a0b79"/><section>
+    <title>BulletDamage</title>
+<indexterm><primary>BulletDamage</primary><secondary>PlayerBullet</secondary></indexterm>
+<indexterm><primary>PlayerBullet</primary><secondary>BulletDamage</secondary></indexterm>
+<para><computeroutput>float PlayerBullet.BulletDamage<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_player_bullet_1a75177f576180e59f7092684d57bd80c7"/><section>
+    <title>BulletSpeed</title>
+<indexterm><primary>BulletSpeed</primary><secondary>PlayerBullet</secondary></indexterm>
+<indexterm><primary>PlayerBullet</primary><secondary>BulletSpeed</secondary></indexterm>
+<para><computeroutput>float PlayerBullet.BulletSpeed<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/<link linkend="__player_bullet_8cs">PlayerBullet.cs</link></section>
+</section>

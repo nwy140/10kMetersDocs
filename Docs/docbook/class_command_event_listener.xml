@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_event_listener" xml:lang="en-US">
+<title>CommandEventListener Class Reference</title>
+<indexterm><primary>CommandEventListener</primary></indexterm>
+Inheritance diagram for CommandEventListener:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event_listener__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CommandEventListener:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event_listener__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769">OnEventRaised</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53">InitTypeB</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_event_listener_1a4065b4d2405ee97c4fbfa689bb4b5634">InitTypeA</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5">Init</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_command_event_listener_1a3ebe6a3d1136fbe9b153e9bebdf0b21c">commandName</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_command_event_listener_1a43a811700afdf4934eaacf37b74ec132">instigatorObj</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_base">CommandBase</link> <link linkend="_class_command_event_listener_1a97ff577d1e5b6893d896c9b3de67db87">matchingCommand</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_accessor_refs_base">CommandAccessorRefsBase</link> <link linkend="_class_command_event_listener_1add99b84c2646976e6ffbe3fbf76f4aa9">accessorRefs</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_command_event_listener_1a5567df6c89f1ba72556f49bb6d55c624">isCalled</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5"/><section>
+    <title>Init()</title>
+<indexterm><primary>Init</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>Init</secondary></indexterm>
+<para><computeroutput>void CommandEventListener.Init ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event_listener_a30b08e0348f88eb169fc4b31cd504ad5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_event_listener_1a4065b4d2405ee97c4fbfa689bb4b5634"/><section>
+    <title>InitTypeA()</title>
+<indexterm><primary>InitTypeA</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>InitTypeA</secondary></indexterm>
+<para><computeroutput>void CommandEventListener.InitTypeA ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event_listener_a4065b4d2405ee97c4fbfa689bb4b5634_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53"/><section>
+    <title>InitTypeB()</title>
+<indexterm><primary>InitTypeB</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>InitTypeB</secondary></indexterm>
+<para><computeroutput>void CommandEventListener.InitTypeB ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event_listener_ad4936d41f182680df9f6b5405d2d1d53_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769"/><section>
+    <title>OnEventRaised()</title>
+<indexterm><primary>OnEventRaised</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>OnEventRaised</secondary></indexterm>
+<para><computeroutput>override void CommandEventListener.OnEventRaised ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_game_event_listener_1a53d01e4391a42df3c2369e7b978b71e3">GameEventListener</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_event_listener_1add99b84c2646976e6ffbe3fbf76f4aa9"/><section>
+    <title>accessorRefs</title>
+<indexterm><primary>accessorRefs</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>accessorRefs</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_accessor_refs_base">CommandAccessorRefsBase</link> CommandEventListener.accessorRefs</computeroutput></para></section>
+<anchor xml:id="_class_command_event_listener_1a3ebe6a3d1136fbe9b153e9bebdf0b21c"/><section>
+    <title>commandName</title>
+<indexterm><primary>commandName</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>commandName</secondary></indexterm>
+<para><computeroutput>string CommandEventListener.commandName</computeroutput></para></section>
+<anchor xml:id="_class_command_event_listener_1a43a811700afdf4934eaacf37b74ec132"/><section>
+    <title>instigatorObj</title>
+<indexterm><primary>instigatorObj</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>instigatorObj</secondary></indexterm>
+<para><computeroutput>GameObject CommandEventListener.instigatorObj</computeroutput></para></section>
+<anchor xml:id="_class_command_event_listener_1a5567df6c89f1ba72556f49bb6d55c624"/><section>
+    <title>isCalled</title>
+<indexterm><primary>isCalled</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>isCalled</secondary></indexterm>
+<para><computeroutput>bool CommandEventListener.isCalled</computeroutput></para></section>
+<anchor xml:id="_class_command_event_listener_1a97ff577d1e5b6893d896c9b3de67db87"/><section>
+    <title>matchingCommand</title>
+<indexterm><primary>matchingCommand</primary><secondary>CommandEventListener</secondary></indexterm>
+<indexterm><primary>CommandEventListener</primary><secondary>matchingCommand</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_base">CommandBase</link> CommandEventListener.matchingCommand</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/<link linkend="__command_event_listener_8cs">CommandEventListener.cs</link></section>
+</section>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_oxygen_tank" xml:lang="en-US">
+<title>OxygenTank Class Reference</title>
+<indexterm><primary>OxygenTank</primary></indexterm>
+Inheritance diagram for OxygenTank:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_oxygen_tank__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for OxygenTank:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_oxygen_tank__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_oxygen_tank_1a417e3453b99c7ef61adb24d984e6c033">GetOxygenSupplyAmount</link> ()</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_oxygen_tank_1a4f6040c3c0613bc39eb54e74c1efae53">GetDefaultOxygenDepletionRate</link> ()</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_oxygen_tank_1ac26a34061c77989b40a991e4f74f9947">GetOxygenDepletionRate</link> (int stage)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_oxygen_tank_1a4f6040c3c0613bc39eb54e74c1efae53"/><section>
+    <title>GetDefaultOxygenDepletionRate()</title>
+<indexterm><primary>GetDefaultOxygenDepletionRate</primary><secondary>OxygenTank</secondary></indexterm>
+<indexterm><primary>OxygenTank</primary><secondary>GetDefaultOxygenDepletionRate</secondary></indexterm>
+<para><computeroutput>float OxygenTank.GetDefaultOxygenDepletionRate ( )</computeroutput></para></section>
+<anchor xml:id="_class_oxygen_tank_1ac26a34061c77989b40a991e4f74f9947"/><section>
+    <title>GetOxygenDepletionRate()</title>
+<indexterm><primary>GetOxygenDepletionRate</primary><secondary>OxygenTank</secondary></indexterm>
+<indexterm><primary>OxygenTank</primary><secondary>GetOxygenDepletionRate</secondary></indexterm>
+<para><computeroutput>float OxygenTank.GetOxygenDepletionRate (int stage)</computeroutput></para></section>
+<anchor xml:id="_class_oxygen_tank_1a417e3453b99c7ef61adb24d984e6c033"/><section>
+    <title>GetOxygenSupplyAmount()</title>
+<indexterm><primary>GetOxygenSupplyAmount</primary><secondary>OxygenTank</secondary></indexterm>
+<indexterm><primary>OxygenTank</primary><secondary>GetOxygenSupplyAmount</secondary></indexterm>
+<para><computeroutput>float OxygenTank.GetOxygenSupplyAmount ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Oxygen Tank/<link linkend="__oxygen_tank_8cs">OxygenTank.cs</link></section>
+</section>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ColorGradingModel Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.ColorGradingModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_model__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.ColorGradingModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_model__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_basic_settings">BasicSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_channel_mixer_settings">ChannelMixerSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings">ColorWheelsSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_curves_settings">CurvesSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_linear_wheels_settings">LinearWheelsSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_log_wheels_settings">LogWheelsSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_settings">Settings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings">TonemappingSettings</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6">Tonemapper</link> { <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6a6adf97f83acf6453d4a6a4b1070f3754">None</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6a01ec90d9624dce53f3f3492882841fe6">ACES</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6ae9bb5320b3890b6747c91b5a71ae5a01">Neutral</link>
+ }</para>
+</listitem>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a57da7f62b07b7109f15758571a852586">ColorWheelMode</link> { <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a57da7f62b07b7109f15758571a852586a32a843da6ea40ab3b17a3421ccdf671b">Linear</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a57da7f62b07b7109f15758571a852586ace0be71e33226e4c1db2bcea5959f16b">Log</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a64a6bc1783ee8f2f66e4eb6c13385eed">Reset</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a2cdf5183a4882e9ae3439b22fe935f12">OnValidate</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_settings">Settings</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a340b78e970e8cc5c66abbd4957d88b9c">settings</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a05a2c8285ca219e5846080bec932b988">isDirty</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>RenderTexture <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1ab93b4bd2bb81196e8751efa337f451f3">bakedLut</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a57da7f62b07b7109f15758571a852586"/><section>
+    <title>ColorWheelMode</title>
+<indexterm><primary>ColorWheelMode</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>ColorWheelMode</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a57da7f62b07b7109f15758571a852586">UnityEngine.PostProcessing.ColorGradingModel.ColorWheelMode</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Linear</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>Linear</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a57da7f62b07b7109f15758571a852586a32a843da6ea40ab3b17a3421ccdf671b"/>Linear</entry><entry></entry></row><row><entry><indexterm><primary>Log</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>Log</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a57da7f62b07b7109f15758571a852586ace0be71e33226e4c1db2bcea5959f16b"/>Log</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6"/><section>
+    <title>Tonemapper</title>
+<indexterm><primary>Tonemapper</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>Tonemapper</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6">UnityEngine.PostProcessing.ColorGradingModel.Tonemapper</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>None</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>None</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6a6adf97f83acf6453d4a6a4b1070f3754"/>None</entry><entry></entry></row><row><entry><indexterm><primary>ACES</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>ACES</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6a01ec90d9624dce53f3f3492882841fe6"/>ACES</entry><entry>
+<para>ACES Filmic reference tonemapper. </para>
+</entry></row><row><entry><indexterm><primary>Neutral</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>Neutral</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6ae9bb5320b3890b6747c91b5a71ae5a01"/>Neutral</entry><entry>
+<para>Neutral tonemapper (based off John Hable&apos;s &amp; Jim Hejl&apos;s work). </para>
+</entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a2cdf5183a4882e9ae3439b22fe935f12"/><section>
+    <title>OnValidate()</title>
+<indexterm><primary>OnValidate</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>OnValidate</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.ColorGradingModel.OnValidate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768">UnityEngine.PostProcessing.PostProcessingModel</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_model_a2cdf5183a4882e9ae3439b22fe935f12_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a64a6bc1783ee8f2f66e4eb6c13385eed"/><section>
+    <title>Reset()</title>
+<indexterm><primary>Reset</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>Reset</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.ColorGradingModel.Reset ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">UnityEngine.PostProcessing.PostProcessingModel</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_model_a64a6bc1783ee8f2f66e4eb6c13385eed_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1ab93b4bd2bb81196e8751efa337f451f3"/><section>
+    <title>bakedLut</title>
+<indexterm><primary>bakedLut</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>bakedLut</secondary></indexterm>
+<para><computeroutput>RenderTexture UnityEngine.PostProcessing.ColorGradingModel.bakedLut<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a05a2c8285ca219e5846080bec932b988"/><section>
+    <title>isDirty</title>
+<indexterm><primary>isDirty</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>isDirty</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.ColorGradingModel.isDirty<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a340b78e970e8cc5c66abbd4957d88b9c"/><section>
+    <title>settings</title>
+<indexterm><primary>settings</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel</primary><secondary>settings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_settings">Settings</link> UnityEngine.PostProcessing.ColorGradingModel.settings<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__color_grading_model_8cs">ColorGradingModel.cs</link></section>
+</section>

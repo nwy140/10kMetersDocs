@@ -1,0 +1,76 @@
+.TH "CommandSlotHolder" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CommandSlotHolder
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnInput\fP (InputAction\&.CallbackContext context)"
+.br
+.ti -1c
+.RI "void \fBOnSimulateInput\fP (bool IsPressedThisFrame, float axis)"
+.br
+.ti -1c
+.RI "void \fBOnSimulateInputPress1Frame\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnSimulateInput\fP (bool IsPressedThisFrame)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBInputCommand\fP \fBcommandInstanceSOAsset\fP"
+.br
+.ti -1c
+.RI "\fBInputCommand\fP \fBcommandInstanceInSlot\fP"
+.br
+.ti -1c
+.RI "GameObject \fBcommandOwnerRootObj\fP"
+.br
+.ti -1c
+.RI "GameObject \fBcommandTargetObj\fP"
+.br
+.ti -1c
+.RI "\fBCommandAccessorRefsBase\fP \fBaccessorComp\fP"
+.br
+.ti -1c
+.RI "bool \fBisChainCommand\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void CommandSlotHolder\&.OnInput (InputAction\&.CallbackContext context)"
+
+.SS "void CommandSlotHolder\&.OnSimulateInput (bool IsPressedThisFrame)"
+
+.SS "void CommandSlotHolder\&.OnSimulateInput (bool IsPressedThisFrame, float axis)"
+
+.SS "void CommandSlotHolder\&.OnSimulateInputPress1Frame ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBCommandAccessorRefsBase\fP CommandSlotHolder\&.accessorComp"
+
+.SS "\fBInputCommand\fP CommandSlotHolder\&.commandInstanceInSlot"
+
+.SS "\fBInputCommand\fP CommandSlotHolder\&.commandInstanceSOAsset"
+
+.SS "GameObject CommandSlotHolder\&.commandOwnerRootObj"
+
+.SS "GameObject CommandSlotHolder\&.commandTargetObj"
+
+.SS "bool CommandSlotHolder\&.isChainCommand"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

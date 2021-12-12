@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI Class Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary></indexterm>
+<para>
+
+<para>A reusable component with a self-contained <link linkend="_namespace_unity_engine_1_1_input_system_1_1_u_i">UI</link> for rebinding a single action. </para>
+ 
+</para>
+Inheritance diagram for UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1_1_interactive_rebind_event">InteractiveRebindEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1_1_update_binding_u_i_event">UpdateBindingUIEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a33057a964bce859ac46c56def9524a97">ResolveActionAndBinding</link> (out InputAction action, out int bindingIndex)</para>
+
+<para>Return the action and binding index for the binding that is targeted by the component according to </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a0681ad6c26dacab63775584f5ab7df54">UpdateBindingDisplay</link> ()</para>
+
+<para>Trigger a refresh of the currently displayed binding. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a2329c72d08ccf672d70be9dd72726bb9">ResetToDefault</link> ()</para>
+
+<para>Remove currently applied binding overrides. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a2285105c31e12a1ce08204a0c811701b">StartInteractiveRebind</link> ()</para>
+
+<para>Initiate an interactive rebind that lets the player actuate a control to choose a new binding for the action. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a4a745018b88ad4db0190d8a8ee04f676">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a0253f6e240b032c85cc0ea03c4a649e1">OnDisable</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputActionReference <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae90864fc06cce34f0db41708061b88ba">actionReference</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Reference to the action that is to be rebound. </para>
+</listitem>
+            <listitem><para>string <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a6e585ec5e771b7c847250eca26611928">bindingId</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>ID (in string form) of the binding that is to be rebound on the action. </para>
+</listitem>
+            <listitem><para>InputBinding.DisplayStringOptions <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a710f9325807abadf49dd7b84fba03b9b">displayStringOptions</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a5ae7e653711a91a44289c28546f6415a">actionLabel</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Text component that receives the name of the action. </para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1af99bbe5517e6384d92fee9a67491ff9d">bindingText</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Text component that receives the display string of the binding. </para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ad3065a9061318d22634169e85992e31e">rebindPrompt</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Optional text component that receives a text prompt when waiting for a control to be actuated. </para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ad543e6e7dc24049bf4d5cbf0b99945e9">rebindOverlay</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Optional <link linkend="_namespace_unity_engine_1_1_input_system_1_1_u_i">UI</link> that is activated when an interactive rebind is started and deactivated when the rebind is finished. </para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1_1_update_binding_u_i_event">UpdateBindingUIEvent</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae6f650d471a43cb2f5087df933289a39">updateBindingUIEvent</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Event that is triggered every time the <link linkend="_namespace_unity_engine_1_1_input_system_1_1_u_i">UI</link> updates to reflect the current binding. </para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1_1_interactive_rebind_event">InteractiveRebindEvent</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a39b023fab8c0a97dfda1439d29161747">startRebindEvent</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Event that is triggered when an interactive rebind is started on the action. </para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1_1_interactive_rebind_event">InteractiveRebindEvent</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a9d25b248f8c7ef2fd80db416143f32ca">stopRebindEvent</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Event that is triggered when an interactive rebind has been completed or canceled. </para>
+</listitem>
+            <listitem><para>InputActionRebindingExtensions.RebindingOperation <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a60b83463e86b60a2ede120510b8faa72">ongoingRebind</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>When an interactive rebind is in progress, this is the rebind operation controller. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A reusable component with a self-contained <link linkend="_namespace_unity_engine_1_1_input_system_1_1_u_i">UI</link> for rebinding a single action. </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a0253f6e240b032c85cc0ea03c4a649e1"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a4a745018b88ad4db0190d8a8ee04f676"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a2329c72d08ccf672d70be9dd72726bb9"/><section>
+    <title>ResetToDefault()</title>
+<indexterm><primary>ResetToDefault</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>ResetToDefault</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault ( )</computeroutput></para><para>
+
+<para>Remove currently applied binding overrides. </para>
+</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_a2329c72d08ccf672d70be9dd72726bb9_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a33057a964bce859ac46c56def9524a97"/><section>
+    <title>ResolveActionAndBinding()</title>
+<indexterm><primary>ResolveActionAndBinding</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>ResolveActionAndBinding</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding (out InputAction action, out int bindingIndex)</computeroutput></para><para>
+
+<para>Return the action and binding index for the binding that is targeted by the component according to </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>action</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>bindingIndex</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_a33057a964bce859ac46c56def9524a97_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a2285105c31e12a1ce08204a0c811701b"/><section>
+    <title>StartInteractiveRebind()</title>
+<indexterm><primary>StartInteractiveRebind</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>StartInteractiveRebind</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind ( )</computeroutput></para><para>
+
+<para>Initiate an interactive rebind that lets the player actuate a control to choose a new binding for the action. </para>
+</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_a2285105c31e12a1ce08204a0c811701b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a0681ad6c26dacab63775584f5ab7df54"/><section>
+    <title>UpdateBindingDisplay()</title>
+<indexterm><primary>UpdateBindingDisplay</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>UpdateBindingDisplay</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay ( )</computeroutput></para><para>
+
+<para>Trigger a refresh of the currently displayed binding. </para>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_a0681ad6c26dacab63775584f5ab7df54_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a5ae7e653711a91a44289c28546f6415a"/><section>
+    <title>actionLabel</title>
+<indexterm><primary>actionLabel</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>actionLabel</secondary></indexterm>
+<para><computeroutput>Text UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Text component that receives the name of the action. </para>
+</para>
+
+<para>Optional. </para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae90864fc06cce34f0db41708061b88ba"/><section>
+    <title>actionReference</title>
+<indexterm><primary>actionReference</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>actionReference</secondary></indexterm>
+<para><computeroutput>InputActionReference UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Reference to the action that is to be rebound. </para>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a6e585ec5e771b7c847250eca26611928"/><section>
+    <title>bindingId</title>
+<indexterm><primary>bindingId</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>bindingId</secondary></indexterm>
+<para><computeroutput>string UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>ID (in string form) of the binding that is to be rebound on the action. </para>
+</para>
+
+<para><formalpara><title>See also</title>
+
+<para>InputBinding.id</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1af99bbe5517e6384d92fee9a67491ff9d"/><section>
+    <title>bindingText</title>
+<indexterm><primary>bindingText</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>bindingText</secondary></indexterm>
+<para><computeroutput>Text UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Text component that receives the display string of the binding. </para>
+</para>
+
+<para>Can be <computeroutput>null</computeroutput> in which case the component entirely relies on <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae6f650d471a43cb2f5087df933289a39">updateBindingUIEvent</link>. </para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a710f9325807abadf49dd7b84fba03b9b"/><section>
+    <title>displayStringOptions</title>
+<indexterm><primary>displayStringOptions</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>displayStringOptions</secondary></indexterm>
+<para><computeroutput>InputBinding.DisplayStringOptions UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a60b83463e86b60a2ede120510b8faa72"/><section>
+    <title>ongoingRebind</title>
+<indexterm><primary>ongoingRebind</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>ongoingRebind</secondary></indexterm>
+<para><computeroutput>InputActionRebindingExtensions.RebindingOperation UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>When an interactive rebind is in progress, this is the rebind operation controller. </para>
+</para>
+
+<para>Otherwise, it is <computeroutput>null</computeroutput>. </para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ad543e6e7dc24049bf4d5cbf0b99945e9"/><section>
+    <title>rebindOverlay</title>
+<indexterm><primary>rebindOverlay</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>rebindOverlay</secondary></indexterm>
+<para><computeroutput>GameObject UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Optional <link linkend="_namespace_unity_engine_1_1_input_system_1_1_u_i">UI</link> that is activated when an interactive rebind is started and deactivated when the rebind is finished. </para>
+</para>
+
+<para>This is normally used to display an overlay over the current <link linkend="_namespace_unity_engine_1_1_input_system_1_1_u_i">UI</link> while the system is waiting for a control to be actuated. </para>
+
+<para>If neither <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ad3065a9061318d22634169e85992e31e">rebindPrompt</link> nor <computeroutput>rebindOverlay</computeroutput> is set, the component will temporarily replaced the <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1af99bbe5517e6384d92fee9a67491ff9d">bindingText</link> (if not <computeroutput>null</computeroutput>) with <computeroutput>&quot;Waiting...&quot;</computeroutput>. </para>
+
+<para><formalpara><title>See also</title>
+
+<para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a39b023fab8c0a97dfda1439d29161747">startRebindEvent</link>, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ad3065a9061318d22634169e85992e31e">rebindPrompt</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ad3065a9061318d22634169e85992e31e"/><section>
+    <title>rebindPrompt</title>
+<indexterm><primary>rebindPrompt</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>rebindPrompt</secondary></indexterm>
+<para><computeroutput>Text UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Optional text component that receives a text prompt when waiting for a control to be actuated. </para>
+</para>
+
+<para><formalpara><title>See also</title>
+
+<para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a39b023fab8c0a97dfda1439d29161747">startRebindEvent</link>, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ad543e6e7dc24049bf4d5cbf0b99945e9">rebindOverlay</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a39b023fab8c0a97dfda1439d29161747"/><section>
+    <title>startRebindEvent</title>
+<indexterm><primary>startRebindEvent</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>startRebindEvent</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1_1_interactive_rebind_event">InteractiveRebindEvent</link> UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Event that is triggered when an interactive rebind is started on the action. </para>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1a9d25b248f8c7ef2fd80db416143f32ca"/><section>
+    <title>stopRebindEvent</title>
+<indexterm><primary>stopRebindEvent</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>stopRebindEvent</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1_1_interactive_rebind_event">InteractiveRebindEvent</link> UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Event that is triggered when an interactive rebind has been completed or canceled. </para>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1ae6f650d471a43cb2f5087df933289a39"/><section>
+    <title>updateBindingUIEvent</title>
+<indexterm><primary>updateBindingUIEvent</primary><secondary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI</primary><secondary>updateBindingUIEvent</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_1_1_update_binding_u_i_event">UpdateBindingUIEvent</link> UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Event that is triggered every time the <link linkend="_namespace_unity_engine_1_1_input_system_1_1_u_i">UI</link> updates to reflect the current binding. </para>
+</para>
+
+<para>This can be used to tie custom visualizations to bindings. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/UnityRegistryIntegration/InputSystem/Rebinding UI/_Modified/<link linkend="__rebind_action_u_i_8cs">RebindActionUI.cs</link></section>
+</section>

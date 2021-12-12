@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_rigid_body2_d_auto_add_relative_force_up" kind="class" language="C#" prot="public">
+    <compoundname>RigidBody2DAutoAddRelativeForceUp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rigid_body2_d_auto_add_relative_force_up_1acd536c272a69db706b71d5c07d228f2d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidBody2DAutoAddRelativeForceUp.MoveAcelSpeed</definition>
+        <argsstring></argsstring>
+        <name>MoveAcelSpeed</name>
+        <initializer>= 2.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_rigid_body2_d_auto_add_relative_force_up_1a6d820a1943177cd61f5f97cbbbd97c30" compoundref="_rigid_body2_d_auto_add_relative_force_up_8cs" startline="29" endline="33">Move</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigid_body2_d_auto_add_relative_force_up_1adb1c44f7f9b920b67cbf65624a5ee58a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidBody2DAutoAddRelativeForceUp.maxMoveAcelSpeed</definition>
+        <argsstring></argsstring>
+        <name>maxMoveAcelSpeed</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_rigid_body2_d_auto_add_relative_force_up_1a6d820a1943177cd61f5f97cbbbd97c30" compoundref="_rigid_body2_d_auto_add_relative_force_up_8cs" startline="29" endline="33">Move</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigid_body2_d_auto_add_relative_force_up_1a604a2d714fa8889f7ba99ece52f0ebf5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidBody2DAutoAddRelativeForceUp.curAcelSpeed</definition>
+        <argsstring></argsstring>
+        <name>curAcelSpeed</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_rigid_body2_d_auto_add_relative_force_up_1a6d820a1943177cd61f5f97cbbbd97c30" compoundref="_rigid_body2_d_auto_add_relative_force_up_8cs" startline="29" endline="33">Move</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigid_body2_d_auto_add_relative_force_up_1a541948c660e68d0541128c96bbd16796" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidBody2DAutoAddRelativeForceUp.SprintAcelSpeed</definition>
+        <argsstring></argsstring>
+        <name>SprintAcelSpeed</name>
+        <initializer>= 5.335f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="13" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigid_body2_d_auto_add_relative_force_up_1a7bb6138458318788dfef83d3d2efbd55" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidBody2DAutoAddRelativeForceUp.maxSprintAcelSpeed</definition>
+        <argsstring></argsstring>
+        <name>maxSprintAcelSpeed</name>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigid_body2_d_auto_add_relative_force_up_1a8fc6c34e32ca4aad62d0b0ad461bb890" prot="public" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D RigidBody2DAutoAddRelativeForceUp._rigidbody2D</definition>
+        <argsstring></argsstring>
+        <name>_rigidbody2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="20" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_rigid_body2_d_auto_add_relative_force_up_1a6d820a1943177cd61f5f97cbbbd97c30" compoundref="_rigid_body2_d_auto_add_relative_force_up_8cs" startline="29" endline="33">Move</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rigid_body2_d_auto_add_relative_force_up_1a58eeee81447342464d63d5e9a36bd7d7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RigidBody2DAutoAddRelativeForceUp.hasRigidbody2D</definition>
+        <argsstring></argsstring>
+        <name>hasRigidbody2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="19" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rigid_body2_d_auto_add_relative_force_up_1ac24b50617b72f7f31d57b985b76e79b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RigidBody2DAutoAddRelativeForceUp.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rigid_body2_d_auto_add_relative_force_up_1a73213a1f76c55bc906b96df4bbada7f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RigidBody2DAutoAddRelativeForceUp.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="25" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rigid_body2_d_auto_add_relative_force_up_1a6d820a1943177cd61f5f97cbbbd97c30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RigidBody2DAutoAddRelativeForceUp.Move</definition>
+        <argsstring>()</argsstring>
+        <name>Move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="29" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="29" bodyend="33"/>
+        <references refid="class_rigid_body2_d_auto_add_relative_force_up_1a8fc6c34e32ca4aad62d0b0ad461bb890" compoundref="_rigid_body2_d_auto_add_relative_force_up_8cs" startline="20">_rigidbody2D</references>
+        <references refid="class_rigid_body2_d_auto_add_relative_force_up_1a604a2d714fa8889f7ba99ece52f0ebf5" compoundref="_rigid_body2_d_auto_add_relative_force_up_8cs" startline="11">curAcelSpeed</references>
+        <references refid="class_rigid_body2_d_auto_add_relative_force_up_1adb1c44f7f9b920b67cbf65624a5ee58a" compoundref="_rigid_body2_d_auto_add_relative_force_up_8cs" startline="10">maxMoveAcelSpeed</references>
+        <references refid="class_rigid_body2_d_auto_add_relative_force_up_1acd536c272a69db706b71d5c07d228f2d" compoundref="_rigid_body2_d_auto_add_relative_force_up_8cs" startline="9">MoveAcelSpeed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RigidBody2DAutoAddRelativeForceUp</label>
+        <link refid="class_rigid_body2_d_auto_add_relative_force_up"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RigidBody2DAutoAddRelativeForceUp</label>
+        <link refid="class_rigid_body2_d_auto_add_relative_force_up"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/RigidBody2DAutoAddRelativeForceUp.cs" bodystart="6" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1a8fc6c34e32ca4aad62d0b0ad461bb890" prot="public" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>_rigidbody2D</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1ac24b50617b72f7f31d57b985b76e79b5" prot="private" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>Awake</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1a604a2d714fa8889f7ba99ece52f0ebf5" prot="public" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>curAcelSpeed</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1a73213a1f76c55bc906b96df4bbada7f5" prot="private" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>FixedUpdate</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1a58eeee81447342464d63d5e9a36bd7d7" prot="private" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>hasRigidbody2D</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1adb1c44f7f9b920b67cbf65624a5ee58a" prot="public" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>maxMoveAcelSpeed</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1a7bb6138458318788dfef83d3d2efbd55" prot="public" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>maxSprintAcelSpeed</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1a6d820a1943177cd61f5f97cbbbd97c30" prot="public" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>Move</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1acd536c272a69db706b71d5c07d228f2d" prot="public" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>MoveAcelSpeed</name></member>
+      <member refid="class_rigid_body2_d_auto_add_relative_force_up_1a541948c660e68d0541128c96bbd16796" prot="public" virt="non-virtual"><scope>RigidBody2DAutoAddRelativeForceUp</scope><name>SprintAcelSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

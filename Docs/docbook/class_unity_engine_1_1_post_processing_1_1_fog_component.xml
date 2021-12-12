@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_fog_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.FogComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.FogComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.FogComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_fog_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.FogComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_fog_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override string <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_component_1acf525749b7d7e54b04a111681b386628">GetName</link> ()</para>
+</listitem>
+            <listitem><para>override DepthTextureMode <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_component_1a91738868bb041aaecca8adcf75c148c3">GetCameraFlags</link> ()</para>
+</listitem>
+            <listitem><para>override CameraEvent <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_component_1a6b9fae58f8772759a33c8050ea443195">GetCameraEvent</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_component_1a069c63fdf3cc8cc505508db2671948ac">PopulateCommandBuffer</link> (CommandBuffer cb)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_component_1aea59b9db2bd9686b92d88154abc4de3c">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_fog_component_1a6b9fae58f8772759a33c8050ea443195"/><section>
+    <title>GetCameraEvent()</title>
+<indexterm><primary>GetCameraEvent</primary><secondary>UnityEngine.PostProcessing.FogComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.FogComponent</primary><secondary>GetCameraEvent</secondary></indexterm>
+<para><computeroutput>override CameraEvent UnityEngine.PostProcessing.FogComponent.GetCameraEvent ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; FogModel &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_fog_component_1a91738868bb041aaecca8adcf75c148c3"/><section>
+    <title>GetCameraFlags()</title>
+<indexterm><primary>GetCameraFlags</primary><secondary>UnityEngine.PostProcessing.FogComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.FogComponent</primary><secondary>GetCameraFlags</secondary></indexterm>
+<para><computeroutput>override DepthTextureMode UnityEngine.PostProcessing.FogComponent.GetCameraFlags ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_fog_component_1acf525749b7d7e54b04a111681b386628"/><section>
+    <title>GetName()</title>
+<indexterm><primary>GetName</primary><secondary>UnityEngine.PostProcessing.FogComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.FogComponent</primary><secondary>GetName</secondary></indexterm>
+<para><computeroutput>override string UnityEngine.PostProcessing.FogComponent.GetName ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; FogModel &gt;</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_fog_component_1a069c63fdf3cc8cc505508db2671948ac"/><section>
+    <title>PopulateCommandBuffer()</title>
+<indexterm><primary>PopulateCommandBuffer</primary><secondary>UnityEngine.PostProcessing.FogComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.FogComponent</primary><secondary>PopulateCommandBuffer</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.FogComponent.PopulateCommandBuffer (CommandBuffer cb)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; FogModel &gt;</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_fog_component_1aea59b9db2bd9686b92d88154abc4de3c"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.FogComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.FogComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.FogComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__fog_component_8cs">FogComponent.cs</link></section>
+</section>

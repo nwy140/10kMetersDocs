@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_set_param_state_data" kind="class" language="C#" prot="public">
+    <compoundname>SetParamStateData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SetParamStateData.paramName</definition>
+        <argsstring></argsstring>
+        <name>paramName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="122" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="122" bodyend="-1"/>
+        <referencedby refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" compoundref="_param_state_behavior_8cs" startline="130" endline="148">SetAnimatorParamDatas</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" prot="public" static="no" mutable="no">
+        <type><ref refid="_param_state_behavior_8cs_1a62a399485dc13db695c7d64f980a0bc3" kindref="member">EAnimParamType</ref></type>
+        <definition>EAnimParamType SetParamStateData.animParamType</definition>
+        <argsstring></argsstring>
+        <name>animParamType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="124" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="124" bodyend="-1"/>
+        <referencedby refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" compoundref="_param_state_behavior_8cs" startline="130" endline="148">SetAnimatorParamDatas</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SetParamStateData.setDefaultState</definition>
+        <argsstring></argsstring>
+        <name>setDefaultState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="125" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="125" bodyend="-1"/>
+        <referencedby refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" compoundref="_param_state_behavior_8cs" startline="130" endline="148">SetAnimatorParamDatas</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SetParamStateData.ifIsIntParamType_NewInt</definition>
+        <argsstring></argsstring>
+        <name>ifIsIntParamType_NewInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="126" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="126" bodyend="-1"/>
+        <referencedby refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" compoundref="_param_state_behavior_8cs" startline="130" endline="148">SetAnimatorParamDatas</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_set_param_state_data_1a94faf9ca1ba11fe881829773347a7122" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SetParamStateData.ifIsFloatParamType_NewFloat</definition>
+        <argsstring></argsstring>
+        <name>ifIsFloatParamType_NewFloat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="127" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetParamStateData.SetAnimatorParamDatas</definition>
+        <argsstring>(SetParamStateData data, Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</argsstring>
+        <name>SetAnimatorParamDatas</name>
+        <param>
+          <type><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>AnimatorStateInfo</type>
+          <declname>stateInfo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="130" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="130" bodyend="148"/>
+        <references refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" compoundref="_param_state_behavior_8cs" startline="124">animParamType</references>
+        <references refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" compoundref="_param_state_behavior_8cs" startline="126">ifIsIntParamType_NewInt</references>
+        <references refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" compoundref="_param_state_behavior_8cs" startline="122">paramName</references>
+        <references refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" compoundref="_param_state_behavior_8cs" startline="125">setDefaultState</references>
+        <referencedby refid="class_param_state_behavior_1adc462b35fbeb8cbbf12342ea3b24bc27" compoundref="_param_state_behavior_8cs" startline="15" endline="28">ParamStateBehavior.OnStateEnter</referencedby>
+        <referencedby refid="class_timed_param_state_behavior_1a17f3d621193c677eb10199a96a0fef21" compoundref="_timed_param_state_behavior_8cs" startline="16" endline="22">TimedParamStateBehavior.OnStateEnter</referencedby>
+        <referencedby refid="class_timed_param_state_behavior_1a72a1b5b9d0a234efc96b4f85e37b3e8d" compoundref="_timed_param_state_behavior_8cs" startline="43" endline="50">TimedParamStateBehavior.OnStateExit</referencedby>
+        <referencedby refid="class_timed_param_state_behavior_1a5104771534ba2df328c50ac2a3dec512" compoundref="_timed_param_state_behavior_8cs" startline="25" endline="36">TimedParamStateBehavior.OnStateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_set_param_state_data_1ad75765809dc58c06ed9fd139ced3e869" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetParamStateData.SetAnimatorParamDatas</definition>
+        <argsstring>(SetParamStateData data, Animator animator)</argsstring>
+        <name>SetAnimatorParamDatas</name>
+        <param>
+          <type><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="149" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="149" bodyend="167"/>
+        <references refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" compoundref="_param_state_behavior_8cs" startline="124">animParamType</references>
+        <references refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" compoundref="_param_state_behavior_8cs" startline="126">ifIsIntParamType_NewInt</references>
+        <references refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" compoundref="_param_state_behavior_8cs" startline="122">paramName</references>
+        <references refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" compoundref="_param_state_behavior_8cs" startline="125">setDefaultState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_set_param_state_data_1a1051dfd01b8176506b74ba4796ee30e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetParamStateData.SetAnimatorParamDatas</definition>
+        <argsstring>(SetParamStateData data, Animator animator, bool isInvertBOOL, AnimatorStateInfo stateInfo, int layerIndex)</argsstring>
+        <name>SetAnimatorParamDatas</name>
+        <param>
+          <type><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isInvertBOOL</declname>
+        </param>
+        <param>
+          <type>AnimatorStateInfo</type>
+          <declname>stateInfo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="168" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="168" bodyend="193"/>
+        <references refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" compoundref="_param_state_behavior_8cs" startline="124">animParamType</references>
+        <references refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" compoundref="_param_state_behavior_8cs" startline="126">ifIsIntParamType_NewInt</references>
+        <references refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" compoundref="_param_state_behavior_8cs" startline="122">paramName</references>
+        <references refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" compoundref="_param_state_behavior_8cs" startline="125">setDefaultState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_set_param_state_data_1a3f1a5038b46154e2e49d8a6fcbcf4bcc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetParamStateData.SetAnimatorParamDatas</definition>
+        <argsstring>(SetParamStateData data, Animator animator, bool isInvertBOOL)</argsstring>
+        <name>SetAnimatorParamDatas</name>
+        <param>
+          <type><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isInvertBOOL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="194" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="194" bodyend="219"/>
+        <references refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" compoundref="_param_state_behavior_8cs" startline="124">animParamType</references>
+        <references refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" compoundref="_param_state_behavior_8cs" startline="126">ifIsIntParamType_NewInt</references>
+        <references refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" compoundref="_param_state_behavior_8cs" startline="122">paramName</references>
+        <references refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" compoundref="_param_state_behavior_8cs" startline="125">setDefaultState</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>SetParamStateData</label>
+        <link refid="class_set_param_state_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" line="120" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/ParamStateBehavior.cs" bodystart="121" bodyend="221"/>
+    <listofallmembers>
+      <member refid="class_set_param_state_data_1a69b38ef488045033d854752ea7e72f5f" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>animParamType</name></member>
+      <member refid="class_set_param_state_data_1a94faf9ca1ba11fe881829773347a7122" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>ifIsFloatParamType_NewFloat</name></member>
+      <member refid="class_set_param_state_data_1a82809146516ec37c3a7fdfcb7b9b40ce" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>ifIsIntParamType_NewInt</name></member>
+      <member refid="class_set_param_state_data_1a5235aeb1028f5df41ec0cb53338503f2" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>paramName</name></member>
+      <member refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>SetAnimatorParamDatas</name></member>
+      <member refid="class_set_param_state_data_1ad75765809dc58c06ed9fd139ced3e869" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>SetAnimatorParamDatas</name></member>
+      <member refid="class_set_param_state_data_1a1051dfd01b8176506b74ba4796ee30e5" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>SetAnimatorParamDatas</name></member>
+      <member refid="class_set_param_state_data_1a3f1a5038b46154e2e49d8a6fcbcf4bcc" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>SetAnimatorParamDatas</name></member>
+      <member refid="class_set_param_state_data_1a447cb06b87fd75588bc413ae8c51d23a" prot="public" virt="non-virtual"><scope>SetParamStateData</scope><name>setDefaultState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

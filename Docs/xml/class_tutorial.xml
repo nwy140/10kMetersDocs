@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_tutorial" kind="class" language="C#" prot="public">
+    <compoundname>Tutorial</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_button_tuto" prot="public" virt="non-virtual">ButtonTuto</derivedcompoundref>
+    <derivedcompoundref refid="class_close_button_tuto" prot="public" virt="non-virtual">CloseButtonTuto</derivedcompoundref>
+    <derivedcompoundref refid="class_continue_next_tuto" prot="public" virt="non-virtual">ContinueNextTuto</derivedcompoundref>
+    <derivedcompoundref refid="class_hold_key_input_tuto" prot="public" virt="non-virtual">HoldKeyInputTuto</derivedcompoundref>
+    <derivedcompoundref refid="class_key_input_tuto" prot="public" virt="non-virtual">KeyInputTuto</derivedcompoundref>
+    <derivedcompoundref refid="class_trigger_transition_tuto" prot="public" virt="non-virtual">TriggerTransitionTuto</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tutorial_1a8da14339e8bfd87f9742211d7cb0ecf0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Tutorial.sequence</definition>
+        <argsstring></argsstring>
+        <name>sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" line="7" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_tuto_manager_1ae773fafaeead301c063af296469f89f9" compoundref="_tuto_manager_8cs" startline="72" endline="75">TutoManager.EndTuto</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tutorial_1a036275897b288b4669e0f5f247fbe7a6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Tutorial.tutoDialogue</definition>
+        <argsstring></argsstring>
+        <name>tutoDialogue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" line="9" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_tuto_manager_1a95d6e222c69b0a9f94491fb9d434b25c" compoundref="_tuto_manager_8cs" startline="54" endline="65">TutoManager.NextTutorial</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tutorial_1a14081b78fa6a06b35ba8df8563200e0a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tutorial.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tutorial_1a0075438f79f2add2c1c2fd196608833f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Tutorial.CheckIfHappening</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfHappening</name>
+        <reimplementedby refid="class_button_tuto_1a51f553ccbf8b237dd852963f6ca37288">CheckIfHappening</reimplementedby>
+        <reimplementedby refid="class_close_button_tuto_1a1325e5e5b7d122185d8fb73481428786">CheckIfHappening</reimplementedby>
+        <reimplementedby refid="class_continue_next_tuto_1aee6450d21b9525c8c8ab31bf010d074e">CheckIfHappening</reimplementedby>
+        <reimplementedby refid="class_hold_key_input_tuto_1a7ae7d28cd5f71c2256ef58ee25260ccc">CheckIfHappening</reimplementedby>
+        <reimplementedby refid="class_key_input_tuto_1a51477a341cf69aae67524f75d2577b6f">CheckIfHappening</reimplementedby>
+        <reimplementedby refid="class_trigger_transition_tuto_1a7126819f5705df9e51831d45b62ef3d8">CheckIfHappening</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" line="17" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ButtonTuto</label>
+        <link refid="class_button_tuto"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CloseButtonTuto</label>
+        <link refid="class_close_button_tuto"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ContinueNextTuto</label>
+        <link refid="class_continue_next_tuto"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>HoldKeyInputTuto</label>
+        <link refid="class_hold_key_input_tuto"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>KeyInputTuto</label>
+        <link refid="class_key_input_tuto"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="8">
+        <label>TriggerTransitionTuto</label>
+        <link refid="class_trigger_transition_tuto"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Tutorial</label>
+        <link refid="class_tutorial"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Tutorial</label>
+        <link refid="class_tutorial"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Tutorial.cs" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_tutorial_1a14081b78fa6a06b35ba8df8563200e0a" prot="private" virt="non-virtual"><scope>Tutorial</scope><name>Awake</name></member>
+      <member refid="class_tutorial_1a0075438f79f2add2c1c2fd196608833f" prot="public" virt="virtual"><scope>Tutorial</scope><name>CheckIfHappening</name></member>
+      <member refid="class_tutorial_1a8da14339e8bfd87f9742211d7cb0ecf0" prot="public" virt="non-virtual"><scope>Tutorial</scope><name>sequence</name></member>
+      <member refid="class_tutorial_1a036275897b288b4669e0f5f247fbe7a6" prot="public" virt="non-virtual"><scope>Tutorial</scope><name>tutoDialogue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

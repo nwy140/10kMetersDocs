@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_scroll_rect_common" xml:lang="en-US">
+<title>ScrollRectCommon Class Reference</title>
+<indexterm><primary>ScrollRectCommon</primary></indexterm>
+Collaboration diagram for ScrollRectCommon:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_scroll_rect_common__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_scroll_rect_common_1afe333585a026f2e26e8da904bb0c68a2">ScrollRectSnapAnchorPosTo</link> (ScrollRect scrollRect, RectTransform contentPanel, RectTransform target)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_scroll_rect_common_1aadccc4c49fe2c46c5b36474876b75881">ScrollRectSnapAnchorPosTo</link> (ScrollRect scrollRect, RectTransform contentPanel, RectTransform target, Vector2 offsetPos)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_scroll_rect_common_1afe333585a026f2e26e8da904bb0c68a2"/><section>
+    <title>ScrollRectSnapAnchorPosTo()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>ScrollRectSnapAnchorPosTo</primary><secondary>ScrollRectCommon</secondary></indexterm>
+<indexterm><primary>ScrollRectCommon</primary><secondary>ScrollRectSnapAnchorPosTo</secondary></indexterm>
+<para><computeroutput>static void ScrollRectCommon.ScrollRectSnapAnchorPosTo (ScrollRect scrollRect, RectTransform contentPanel, RectTransform target)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_scroll_rect_common_1aadccc4c49fe2c46c5b36474876b75881"/><section>
+    <title>ScrollRectSnapAnchorPosTo()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>ScrollRectSnapAnchorPosTo</primary><secondary>ScrollRectCommon</secondary></indexterm>
+<indexterm><primary>ScrollRectCommon</primary><secondary>ScrollRectSnapAnchorPosTo</secondary></indexterm>
+<para><computeroutput>static void ScrollRectCommon.ScrollRectSnapAnchorPosTo (ScrollRect scrollRect, RectTransform contentPanel, RectTransform target, Vector2 offsetPos)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/<link linkend="__scroll_rect_common_8cs">ScrollRectCommon.cs</link></section>
+</section>

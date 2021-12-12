@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings" kind="struct" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ChromaticAberrationModel::Settings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings_1aff651d22c776d0cb82929551f0b33005" prot="public" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.PostProcessing.ChromaticAberrationModel.Settings.spectralTexture</definition>
+        <argsstring></argsstring>
+        <name>spectralTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" line="12" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings_1ac7c815ce4c835bb54ff58e507af198bc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.ChromaticAberrationModel.Settings.intensity</definition>
+        <argsstring></argsstring>
+        <name>intensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" line="15" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings_1aed16f622438648f1fa48c1fddb602013" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.ChromaticAberrationModel.Settings.defaultSettings</definition>
+        <argsstring></argsstring>
+        <name>defaultSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" line="17" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" bodystart="18" bodyend="27"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1a10912d80b3a86b38f88a0bfee52ff948" compoundref="_chromatic_aberration_model_8cs" startline="38" endline="41">UnityEngine.PostProcessing.ChromaticAberrationModel.Reset</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel.Settings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" line="9" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings_1aed16f622438648f1fa48c1fddb602013" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ChromaticAberrationModel::Settings</scope><name>defaultSettings</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings_1ac7c815ce4c835bb54ff58e507af198bc" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ChromaticAberrationModel::Settings</scope><name>intensity</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1_1_settings_1aff651d22c776d0cb82929551f0b33005" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ChromaticAberrationModel::Settings</scope><name>spectralTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_bin_command_with_cooldown" kind="class" language="C#" prot="public">
+    <compoundname>BinCommandWithCooldown</compoundname>
+    <basecompoundref refid="class_command_base" prot="public" virt="non-virtual">CommandBase</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BinCommandWithCooldown</label>
+        <link refid="class_bin_command_with_cooldown"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BinCommandWithCooldown</label>
+        <link refid="class_bin_command_with_cooldown"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CommandAccessorRefsBase</label>
+        <link refid="class_command_accessor_refs_base"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+commandSlotHolder</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+commandSlotUnityEvents</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>CommandAccessorRefsBase.CommandSlotUnityEvents</label>
+        <link refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events"/>
+      </node>
+      <node id="2">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+info</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+instanceInfo</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+cooldownInfo</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+execInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>CommandBase.CooldownInfo</label>
+        <link refid="struct_command_base_1_1_cooldown_info"/>
+      </node>
+      <node id="14">
+        <label>CommandBase.ExecutionInfo</label>
+        <link refid="class_command_base_1_1_execution_info"/>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+ExecDownChargingEvent</edgelabel>
+          <edgelabel>+ExecDownEvent</edgelabel>
+          <edgelabel>+ExecPressEvent</edgelabel>
+          <edgelabel>+ExecReleaseEvent</edgelabel>
+          <edgelabel>+ExecdEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CommandBase.Info</label>
+        <link refid="struct_command_base_1_1_info"/>
+      </node>
+      <node id="6">
+        <label>CommandBase.InstanceInfoRuntime</label>
+        <link refid="struct_command_base_1_1_instance_info_runtime"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+commandAccessorRefsComp</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+prevPrimaryCommand</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CommandSlotHolder</label>
+        <link refid="class_command_slot_holder"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+commandInstanceInSlot</edgelabel>
+          <edgelabel>+commandInstanceSOAsset</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+accessorComp</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="10">
+        <label>InputCommand</label>
+        <link refid="class_input_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+execExtraInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>InputCommand.ExecExtraInfo</label>
+        <link refid="struct_input_command_1_1_exec_extra_info"/>
+      </node>
+      <node id="8">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CustomScriptableObjectBase/BinCommandWithCooldown.cs" line="4" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CustomScriptableObjectBase/BinCommandWithCooldown.cs" bodystart="5" bodyend="7"/>
+    <listofallmembers>
+      <member refid="class_command_base_1a99b32aa77f30f6b42ee58778183e5db5" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>Activate</name></member>
+      <member refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>aName</name></member>
+      <member refid="class_command_base_1a566ca9e15250f13d927bf52c81951923" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>Awake</name></member>
+      <member refid="class_command_base_1adcc42ebe79b3532b8a45b8be75958497" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>BeginCooldown</name></member>
+      <member refid="class_command_base_1a1daf934f29ab2fed7aa0469e7794f01b" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>CalculateElapsedTime</name></member>
+      <member refid="class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>CastState</name></member>
+      <member refid="class_command_base_1a00855c89a1d7f998d84163304d5568fd" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>cooldownInfo</name></member>
+      <member refid="class_command_base_1a4dcfa4d779498beebcace4649f911d2d" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>CreateNewInstanceOfSelf</name></member>
+      <member refid="class_command_base_1aeaa20a07ff3ae4982db4f91d09ee21af" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>ElapsedTime</name></member>
+      <member refid="class_command_base_1ae4422d145540bf12661a8078c6066ab4" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>EndCooldown</name></member>
+      <member refid="class_command_base_1ae0f9aff4793563e3681b052196c93c61" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>Execd</name></member>
+      <member refid="class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>ExecDown</name></member>
+      <member refid="class_command_base_1abce04e951d2ff38afc8110a7e230e0ad" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>ExecDownCharging</name></member>
+      <member refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>execInfo</name></member>
+      <member refid="class_command_base_1a2555099b8b8f7345919865ca0daa4bdb" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>ExecPress</name></member>
+      <member refid="class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>ExecRelease</name></member>
+      <member refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>HandleCooldown</name></member>
+      <member refid="class_command_base_1a9da58b3b0bfbd61fec118c863dff71df" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>id</name></member>
+      <member refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>info</name></member>
+      <member refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>Init</name></member>
+      <member refid="class_command_base_1ad212a686f171b8d585283c12f85ec943" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>InitGameObj</name></member>
+      <member refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>instanceInfo</name></member>
+      <member refid="class_command_base_1af947c78d3d9a637f7a424a679c3b8f52" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>OnDestroy</name></member>
+      <member refid="class_command_base_1a6bf6020fca1d369cd58792b3d99fedd5" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>OnDisable</name></member>
+      <member refid="class_command_base_1a715925776f1d5f4cb3c75d60043455bd" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>OnEnable</name></member>
+      <member refid="class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>OnExternalUpdate</name></member>
+      <member refid="class_command_base_1a7e86bdf437ded67513c61d554b2ed79b" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>StayCooldown</name></member>
+      <member refid="class_command_base_1a6593ea3d53501bd90c83e2bc7bb5f81c" prot="public" virt="non-virtual"><scope>BinCommandWithCooldown</scope><name>TimeStamp</name></member>
+      <member refid="class_command_base_1a405d08e553ab58bb187c762a91fe20d8" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>TryExecCommand</name></member>
+      <member refid="class_command_base_1aaa3fd572c9dfd1314889b530955d9871" prot="public" virt="virtual"><scope>BinCommandWithCooldown</scope><name>Undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

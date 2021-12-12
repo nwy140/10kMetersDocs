@@ -1,0 +1,192 @@
+.TH "UnityEngine.PostProcessing" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.PostProcessing
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBAmbientOcclusionComponent\fP"
+.br
+.ti -1c
+.RI "class \fBAmbientOcclusionModel\fP"
+.br
+.ti -1c
+.RI "class \fBAntialiasingModel\fP"
+.br
+.ti -1c
+.RI "class \fBBloomComponent\fP"
+.br
+.ti -1c
+.RI "class \fBBloomModel\fP"
+.br
+.ti -1c
+.RI "class \fBBuiltinDebugViewsComponent\fP"
+.br
+.ti -1c
+.RI "class \fBBuiltinDebugViewsModel\fP"
+.br
+.ti -1c
+.RI "class \fBChromaticAberrationComponent\fP"
+.br
+.ti -1c
+.RI "class \fBChromaticAberrationModel\fP"
+.br
+.ti -1c
+.RI "class \fBColorGradingComponent\fP"
+.br
+.ti -1c
+.RI "class \fBColorGradingCurve\fP"
+.br
+.ti -1c
+.RI "class \fBColorGradingModel\fP"
+.br
+.ti -1c
+.RI "class \fBDepthOfFieldComponent\fP"
+.br
+.ti -1c
+.RI "class \fBDepthOfFieldModel\fP"
+.br
+.ti -1c
+.RI "class \fBDitheringComponent\fP"
+.br
+.ti -1c
+.RI "class \fBDitheringModel\fP"
+.br
+.ti -1c
+.RI "class \fBEyeAdaptationComponent\fP"
+.br
+.ti -1c
+.RI "class \fBEyeAdaptationModel\fP"
+.br
+.ti -1c
+.RI "class \fBFogComponent\fP"
+.br
+.ti -1c
+.RI "class \fBFogModel\fP"
+.br
+.ti -1c
+.RI "class \fBFxaaComponent\fP"
+.br
+.ti -1c
+.RI "class \fBGetSetAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBGrainComponent\fP"
+.br
+.ti -1c
+.RI "class \fBGrainModel\fP"
+.br
+.ti -1c
+.RI "class \fBGraphicsUtils\fP"
+.br
+.ti -1c
+.RI "class \fBMaterialFactory\fP"
+.br
+.ti -1c
+.RI "class \fBMinAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBMotionBlurComponent\fP"
+.br
+.ti -1c
+.RI "class \fBMotionBlurModel\fP"
+.br
+.ti -1c
+.RI "class \fBPostProcessingBehaviour\fP"
+.br
+.ti -1c
+.RI "class \fBPostProcessingComponent\fP"
+.br
+.ti -1c
+.RI "class \fBPostProcessingComponentBase\fP"
+.br
+.ti -1c
+.RI "class \fBPostProcessingComponentCommandBuffer\fP"
+.br
+.ti -1c
+.RI "class \fBPostProcessingComponentRenderTexture\fP"
+.br
+.ti -1c
+.RI "class \fBPostProcessingContext\fP"
+.br
+.ti -1c
+.RI "class \fBPostProcessingModel\fP"
+.br
+.ti -1c
+.RI "class \fBPostProcessingProfile\fP"
+.br
+.ti -1c
+.RI "class \fBRenderTextureFactory\fP"
+.br
+.ti -1c
+.RI "class \fBScreenSpaceReflectionComponent\fP"
+.br
+.ti -1c
+.RI "class \fBScreenSpaceReflectionModel\fP"
+.br
+.ti -1c
+.RI "class \fBTaaComponent\fP"
+.br
+.ti -1c
+.RI "class \fBTrackballAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBTrackballGroupAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBUserLutComponent\fP"
+.br
+.ti -1c
+.RI "class \fBUserLutModel\fP"
+.br
+.ti -1c
+.RI "class \fBVignetteComponent\fP"
+.br
+.ti -1c
+.RI "class \fBVignetteModel\fP"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "using \fBDebugMode\fP = \fBBuiltinDebugViewsModel\&.Mode\fP"
+.br
+.ti -1c
+.RI "using \fBMode\fP = \fBBuiltinDebugViewsModel\&.Mode\fP"
+.br
+.ti -1c
+.RI "using \fBSettings\fP = \fBMotionBlurModel\&.Settings\fP"
+.br
+.ti -1c
+.RI "using \fBSSRResolution\fP = \fBScreenSpaceReflectionModel\&.SSRResolution\fP"
+.br
+.ti -1c
+.RI "using \fBSSRReflectionBlendType\fP = \fBScreenSpaceReflectionModel\&.SSRReflectionBlendType\fP"
+.br
+.ti -1c
+.RI "using \fBUnityObject\fP = \fBObject\fP"
+.br
+.in -1c
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef \fBBuiltinDebugViewsModel\fP \fBMode\fP \fBUnityEngine\&.PostProcessing\&.DebugMode\fP"
+
+.SS "using \fBUnityEngine\&.PostProcessing\&.Mode\fP = typedef \fBBuiltinDebugViewsModel\&.Mode\fP"
+
+.SS "using \fBUnityEngine\&.PostProcessing\&.Settings\fP = typedef \fBMotionBlurModel\&.Settings\fP"
+
+.SS "using \fBUnityEngine\&.PostProcessing\&.SSRReflectionBlendType\fP = typedef \fBScreenSpaceReflectionModel\&.SSRReflectionBlendType\fP"
+
+.SS "using \fBUnityEngine\&.PostProcessing\&.SSRResolution\fP = typedef \fBScreenSpaceReflectionModel\&.SSRResolution\fP"
+
+.SS "typedef \fBObject\fP \fBUnityEngine\&.PostProcessing\&.UnityObject\fP"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

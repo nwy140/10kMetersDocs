@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_obj_spawn_helper" xml:lang="en-US">
+<title>GameObjSpawnHelper Class Reference</title>
+<indexterm><primary>GameObjSpawnHelper</primary></indexterm>
+Inheritance diagram for GameObjSpawnHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_obj_spawn_helper__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for GameObjSpawnHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_obj_spawn_helper__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_game_obj_spawn_helper_1a1e5ea6884e5a1a48726f29d8694dee06">Update</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_obj_spawn_helper_1abcc9d74bca42452baba12808fbdf5043">SpawnAllObjs</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6">SpawnRandomObj</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; GameObject &gt; <link linkend="_class_game_obj_spawn_helper_1af7f8641a22201364237dc420ea7ad9f9">objsToSpawn</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_game_obj_spawn_helper_1ac9afb0469e1b8843db330e87a36be6d9">isUseThisObjPos</link> = true</para>
+</listitem>
+            <listitem><para>Vector3 <link linkend="_class_game_obj_spawn_helper_1ad1d4baca87c38f910d6805f981bf0e71">spawnPos</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_game_obj_spawn_helper_1a9896ce456972d1450e9d5c94dc506477">isUseThisObjRotEuler</link> = true</para>
+</listitem>
+            <listitem><para>Vector3 <link linkend="_class_game_obj_spawn_helper_1a1a5909d140d96ecf1ad3d21527ad0ed3">spawnRotEuler</link></para>
+</listitem>
+            <listitem><para>List&lt; GameObject &gt; <link linkend="_class_game_obj_spawn_helper_1aad6471399297ae7e199f4dc302081325">spawnedObjs</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_game_obj_spawn_helper_1aebd87c3a941b0d520449b5059ae7a21a">spawnedObjsMaxCount</link> = 3</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_obj_spawn_helper_1abcc9d74bca42452baba12808fbdf5043"/><section>
+    <title>SpawnAllObjs()</title>
+<indexterm><primary>SpawnAllObjs</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>SpawnAllObjs</secondary></indexterm>
+<para><computeroutput>void GameObjSpawnHelper.SpawnAllObjs ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_obj_spawn_helper_1a3b1800a986636477677518176fd56bd6"/><section>
+    <title>SpawnRandomObj()</title>
+<indexterm><primary>SpawnRandomObj</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>SpawnRandomObj</secondary></indexterm>
+<para><computeroutput>void GameObjSpawnHelper.SpawnRandomObj ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_obj_spawn_helper_1a1e5ea6884e5a1a48726f29d8694dee06"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void GameObjSpawnHelper.Update ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_game_obj_spawn_helper_1ac9afb0469e1b8843db330e87a36be6d9"/><section>
+    <title>isUseThisObjPos</title>
+<indexterm><primary>isUseThisObjPos</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>isUseThisObjPos</secondary></indexterm>
+<para><computeroutput>bool GameObjSpawnHelper.isUseThisObjPos = true</computeroutput></para></section>
+<anchor xml:id="_class_game_obj_spawn_helper_1a9896ce456972d1450e9d5c94dc506477"/><section>
+    <title>isUseThisObjRotEuler</title>
+<indexterm><primary>isUseThisObjRotEuler</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>isUseThisObjRotEuler</secondary></indexterm>
+<para><computeroutput>bool GameObjSpawnHelper.isUseThisObjRotEuler = true</computeroutput></para></section>
+<anchor xml:id="_class_game_obj_spawn_helper_1af7f8641a22201364237dc420ea7ad9f9"/><section>
+    <title>objsToSpawn</title>
+<indexterm><primary>objsToSpawn</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>objsToSpawn</secondary></indexterm>
+<para><computeroutput>List&lt;GameObject&gt; GameObjSpawnHelper.objsToSpawn</computeroutput></para></section>
+<anchor xml:id="_class_game_obj_spawn_helper_1aad6471399297ae7e199f4dc302081325"/><section>
+    <title>spawnedObjs</title>
+<indexterm><primary>spawnedObjs</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>spawnedObjs</secondary></indexterm>
+<para><computeroutput>List&lt;GameObject&gt; GameObjSpawnHelper.spawnedObjs</computeroutput></para></section>
+<anchor xml:id="_class_game_obj_spawn_helper_1aebd87c3a941b0d520449b5059ae7a21a"/><section>
+    <title>spawnedObjsMaxCount</title>
+<indexterm><primary>spawnedObjsMaxCount</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>spawnedObjsMaxCount</secondary></indexterm>
+<para><computeroutput>int GameObjSpawnHelper.spawnedObjsMaxCount = 3</computeroutput></para></section>
+<anchor xml:id="_class_game_obj_spawn_helper_1ad1d4baca87c38f910d6805f981bf0e71"/><section>
+    <title>spawnPos</title>
+<indexterm><primary>spawnPos</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>spawnPos</secondary></indexterm>
+<para><computeroutput>Vector3 GameObjSpawnHelper.spawnPos</computeroutput></para></section>
+<anchor xml:id="_class_game_obj_spawn_helper_1a1a5909d140d96ecf1ad3d21527ad0ed3"/><section>
+    <title>spawnRotEuler</title>
+<indexterm><primary>spawnRotEuler</primary><secondary>GameObjSpawnHelper</secondary></indexterm>
+<indexterm><primary>GameObjSpawnHelper</primary><secondary>spawnRotEuler</secondary></indexterm>
+<para><computeroutput>Vector3 GameObjSpawnHelper.spawnRotEuler</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/CommonEdit/<link linkend="__game_obj_spawn_helper_8cs">GameObjSpawnHelper.cs</link></section>
+</section>

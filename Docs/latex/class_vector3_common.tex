@@ -1,0 +1,179 @@
+\hypertarget{class_vector3_common}{}\doxysection{Vector3\+Common Class Reference}
+\label{class_vector3_common}\index{Vector3Common@{Vector3Common}}
+
+
+Collaboration diagram for Vector3\+Common\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{class_vector3_common__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static float \mbox{\hyperlink{class_vector3_common_a4e2a21e11e47739f4de531292a77b825}{Get\+Forward\+Speed}} (Vector3 velocity)
+\item 
+static float \mbox{\hyperlink{class_vector3_common_a469de5cf9b2d074787e26e1f05bead03}{Get\+Abs\+Forward\+Speed}} (Vector3 velocity)
+\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_a4e671017854b9333f6bd298abf72babe}{Get\+Direction\+From2\+Pos}} (Vector3 origin, Vector3 target)
+\item 
+static bool \mbox{\hyperlink{class_vector3_common_aab7cedbe3ffd4f00e9f6eedea85dbcea}{is\+Zero}} (this float value)
+\begin{DoxyCompactList}\small\item\em Checks whether value is near to zero within a tolerance. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_a9f05833b0afe1852e264238d14b0689b}{onlyX}} (this Vector3 vector3)
+\begin{DoxyCompactList}\small\item\em Returns a copy of given vector with only X component of the vector. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_aec7ad5fb210b1015690ef866ab8ac49f}{onlyY}} (this Vector3 vector3)
+\begin{DoxyCompactList}\small\item\em Returns a copy of given vector with only Y component of the vector. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_a9d686118153a9411dbbbc7aa56298336}{onlyZ}} (this Vector3 vector3)
+\begin{DoxyCompactList}\small\item\em Returns a copy of given vector with only Z component of the vector. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_a56aa736013b21d1827b8c4d8491ea649}{only\+XZ}} (this Vector3 vector3)
+\begin{DoxyCompactList}\small\item\em Returns a copy of given vector with only X and Z components of the vector. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_vector3_common_ad0cf729267363638e1861ba27eefa728}{is\+Zero}} (this Vector3 vector3)
+\begin{DoxyCompactList}\small\item\em Checks whether vector is near to zero within a tolerance. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_vector3_common_a41eb189d5951354bbbf5c130f1a610a7}{is\+Exceeding}} (this Vector3 vector3, float magnitude)
+\begin{DoxyCompactList}\small\item\em Checks whether vector is exceeding the magnitude within a small error tolerance. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_a3f7eec5630d8e19ea25bcbc4d64a4e85}{normalized}} (this Vector3 vector3, out float magnitude)
+\begin{DoxyCompactList}\small\item\em Returns a copy of given vector with a magnitude of 1, and outs its magnitude before normalization. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_a47c6c5d702504855073fa5881d9e934f}{clamped}} (this Vector3 vector3, out float magnitude)
+\begin{DoxyCompactList}\small\item\em Returns a copy of given vector with its magnitude clamped to 0 and 1, and outs its magnitude before clamp. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_a46a133a33c331be5924dfeda2decda26}{clamped\+To}} (this Vector3 vector3, float max\+Length)
+\begin{DoxyCompactList}\small\item\em Returns a copy of given vector with its magnitude clamped to max\+Length. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_vector3_common_aa8c0106b73d61288fb28d45a0c403d53}{relative\+To}} (this Vector3 vector3, Transform target, bool only\+Lateral=true)
+\begin{DoxyCompactList}\small\item\em Transform a given vector to be relative to target transform. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_vector3_common_a47c6c5d702504855073fa5881d9e934f}\label{class_vector3_common_a47c6c5d702504855073fa5881d9e934f}} 
+\index{Vector3Common@{Vector3Common}!clamped@{clamped}}
+\index{clamped@{clamped}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{clamped()}{clamped()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+clamped (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3,  }\item[{out float}]{magnitude }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a copy of given vector with its magnitude clamped to 0 and 1, and outs its magnitude before clamp. 
+
+\mbox{\Hypertarget{class_vector3_common_a46a133a33c331be5924dfeda2decda26}\label{class_vector3_common_a46a133a33c331be5924dfeda2decda26}} 
+\index{Vector3Common@{Vector3Common}!clampedTo@{clampedTo}}
+\index{clampedTo@{clampedTo}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{clampedTo()}{clampedTo()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+clamped\+To (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3,  }\item[{float}]{max\+Length }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a copy of given vector with its magnitude clamped to max\+Length. 
+
+\mbox{\Hypertarget{class_vector3_common_a469de5cf9b2d074787e26e1f05bead03}\label{class_vector3_common_a469de5cf9b2d074787e26e1f05bead03}} 
+\index{Vector3Common@{Vector3Common}!GetAbsForwardSpeed@{GetAbsForwardSpeed}}
+\index{GetAbsForwardSpeed@{GetAbsForwardSpeed}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{GetAbsForwardSpeed()}{GetAbsForwardSpeed()}}
+{\footnotesize\ttfamily static float Vector3\+Common.\+Get\+Abs\+Forward\+Speed (\begin{DoxyParamCaption}\item[{Vector3}]{velocity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_vector3_common_a4e671017854b9333f6bd298abf72babe}\label{class_vector3_common_a4e671017854b9333f6bd298abf72babe}} 
+\index{Vector3Common@{Vector3Common}!GetDirectionFrom2Pos@{GetDirectionFrom2Pos}}
+\index{GetDirectionFrom2Pos@{GetDirectionFrom2Pos}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{GetDirectionFrom2Pos()}{GetDirectionFrom2Pos()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+Get\+Direction\+From2\+Pos (\begin{DoxyParamCaption}\item[{Vector3}]{origin,  }\item[{Vector3}]{target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_vector3_common_a4e2a21e11e47739f4de531292a77b825}\label{class_vector3_common_a4e2a21e11e47739f4de531292a77b825}} 
+\index{Vector3Common@{Vector3Common}!GetForwardSpeed@{GetForwardSpeed}}
+\index{GetForwardSpeed@{GetForwardSpeed}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{GetForwardSpeed()}{GetForwardSpeed()}}
+{\footnotesize\ttfamily static float Vector3\+Common.\+Get\+Forward\+Speed (\begin{DoxyParamCaption}\item[{Vector3}]{velocity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_vector3_common_a41eb189d5951354bbbf5c130f1a610a7}\label{class_vector3_common_a41eb189d5951354bbbf5c130f1a610a7}} 
+\index{Vector3Common@{Vector3Common}!isExceeding@{isExceeding}}
+\index{isExceeding@{isExceeding}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{isExceeding()}{isExceeding()}}
+{\footnotesize\ttfamily static bool Vector3\+Common.\+is\+Exceeding (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3,  }\item[{float}]{magnitude }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Checks whether vector is exceeding the magnitude within a small error tolerance. 
+
+\mbox{\Hypertarget{class_vector3_common_aab7cedbe3ffd4f00e9f6eedea85dbcea}\label{class_vector3_common_aab7cedbe3ffd4f00e9f6eedea85dbcea}} 
+\index{Vector3Common@{Vector3Common}!isZero@{isZero}}
+\index{isZero@{isZero}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{isZero()}{isZero()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static bool Vector3\+Common.\+is\+Zero (\begin{DoxyParamCaption}\item[{this float}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Checks whether value is near to zero within a tolerance. 
+
+\mbox{\Hypertarget{class_vector3_common_ad0cf729267363638e1861ba27eefa728}\label{class_vector3_common_ad0cf729267363638e1861ba27eefa728}} 
+\index{Vector3Common@{Vector3Common}!isZero@{isZero}}
+\index{isZero@{isZero}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{isZero()}{isZero()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static bool Vector3\+Common.\+is\+Zero (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Checks whether vector is near to zero within a tolerance. 
+
+\mbox{\Hypertarget{class_vector3_common_a3f7eec5630d8e19ea25bcbc4d64a4e85}\label{class_vector3_common_a3f7eec5630d8e19ea25bcbc4d64a4e85}} 
+\index{Vector3Common@{Vector3Common}!normalized@{normalized}}
+\index{normalized@{normalized}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{normalized()}{normalized()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+normalized (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3,  }\item[{out float}]{magnitude }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a copy of given vector with a magnitude of 1, and outs its magnitude before normalization. 
+
+If the vector is too small to be normalized a zero vector will be returned. \mbox{\Hypertarget{class_vector3_common_a9f05833b0afe1852e264238d14b0689b}\label{class_vector3_common_a9f05833b0afe1852e264238d14b0689b}} 
+\index{Vector3Common@{Vector3Common}!onlyX@{onlyX}}
+\index{onlyX@{onlyX}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{onlyX()}{onlyX()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+onlyX (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a copy of given vector with only X component of the vector. 
+
+\mbox{\Hypertarget{class_vector3_common_a56aa736013b21d1827b8c4d8491ea649}\label{class_vector3_common_a56aa736013b21d1827b8c4d8491ea649}} 
+\index{Vector3Common@{Vector3Common}!onlyXZ@{onlyXZ}}
+\index{onlyXZ@{onlyXZ}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{onlyXZ()}{onlyXZ()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+only\+XZ (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a copy of given vector with only X and Z components of the vector. 
+
+\mbox{\Hypertarget{class_vector3_common_aec7ad5fb210b1015690ef866ab8ac49f}\label{class_vector3_common_aec7ad5fb210b1015690ef866ab8ac49f}} 
+\index{Vector3Common@{Vector3Common}!onlyY@{onlyY}}
+\index{onlyY@{onlyY}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{onlyY()}{onlyY()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+onlyY (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a copy of given vector with only Y component of the vector. 
+
+\mbox{\Hypertarget{class_vector3_common_a9d686118153a9411dbbbc7aa56298336}\label{class_vector3_common_a9d686118153a9411dbbbc7aa56298336}} 
+\index{Vector3Common@{Vector3Common}!onlyZ@{onlyZ}}
+\index{onlyZ@{onlyZ}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{onlyZ()}{onlyZ()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+onlyZ (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a copy of given vector with only Z component of the vector. 
+
+\mbox{\Hypertarget{class_vector3_common_aa8c0106b73d61288fb28d45a0c403d53}\label{class_vector3_common_aa8c0106b73d61288fb28d45a0c403d53}} 
+\index{Vector3Common@{Vector3Common}!relativeTo@{relativeTo}}
+\index{relativeTo@{relativeTo}!Vector3Common@{Vector3Common}}
+\doxysubsubsection{\texorpdfstring{relativeTo()}{relativeTo()}}
+{\footnotesize\ttfamily static Vector3 Vector3\+Common.\+relative\+To (\begin{DoxyParamCaption}\item[{this Vector3}]{vector3,  }\item[{Transform}]{target,  }\item[{bool}]{only\+Lateral = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Transform a given vector to be relative to target transform. 
+
+Eg\+: Use to perform movement relative to camera\textquotesingle{}s view direction. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+\_\+\+Common\+V0.\+2/\+Calculation/\mbox{\hyperlink{_vector3_common_8cs}{Vector3\+Common.\+cs}}\end{DoxyCompactItemize}

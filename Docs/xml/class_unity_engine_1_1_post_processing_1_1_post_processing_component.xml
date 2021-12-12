@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_post_processing_component" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::PostProcessingComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentBase</basecompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>T</type>
+        <definition>T UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;.model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingComponent.cs" line="28" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingComponent.cs" bodystart="28" bodyend="28"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1ac946ffb514e0ebb0141e87777459ffc9" compoundref="_post_processing_component_8cs" startline="36" endline="39">UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;.GetModel</referencedby>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a982348916489395b61300b2ed37784a3" compoundref="_post_processing_component_8cs" startline="30" endline="34">UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;.Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a982348916489395b61300b2ed37784a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;.Init</definition>
+        <argsstring>(PostProcessingContext pcontext, T pmodel)</argsstring>
+        <name>Init</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context" kindref="compound">PostProcessingContext</ref></type>
+          <declname>pcontext</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>pmodel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingComponent.cs" line="30" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingComponent.cs" bodystart="30" bodyend="34"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" compoundref="_post_processing_component_8cs" startline="7">UnityEngine.PostProcessing.PostProcessingComponentBase.context</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a7af78d4436d104b01373d1bf0f7bcedf" compoundref="_post_processing_component_8cs" startline="28" endline="28">UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;.model</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" kindref="compound">PostProcessingModel</ref></type>
+        <definition>override PostProcessingModel UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;.GetModel</definition>
+        <argsstring>()</argsstring>
+        <name>GetModel</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a83558500b9f9bf231f57bffee50062ea">GetModel</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingComponent.cs" line="36" column="45" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingComponent.cs" bodystart="36" bodyend="39"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a7af78d4436d104b01373d1bf0f7bcedf" compoundref="_post_processing_component_8cs" startline="28" endline="28">UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;.model</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+context</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+profile</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>+materialFactory</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>+renderTextureFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+debugViews</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+fog</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+antialiasing</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+bloom</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>+colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>+userLut</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>+chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>+grain</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>+vignette</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>+dithering</edgelabel>
+        </childnode>
+      </node>
+      <node id="24">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingComponent.cs" line="25" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingComponent.cs" bodystart="27" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2ede55be3b7f31c1628341f5d0fe7b77" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponent</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

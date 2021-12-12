@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.EyeAdaptationModel.Settings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.EyeAdaptationModel.Settings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a5c5b3f78ea3dbd8f92838bfce4b55ddb">lowPercent</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a8d8a8ead5347bf7fc71694e16e07426f">highPercent</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1ae879c206fd2942ff813f2a2eb3919943">minLuminance</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a66a092db35ea701685512dde96353ad0">maxLuminance</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a839a21d11c4bdc81b2895307f3aafbc0">keyValue</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1aecc9d7b4230c0c1ceb8754771559c44d">dynamicKeyValue</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1ab9307d267c9dc71faf8705f539a5d30b">EyeAdaptationType</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a9dc6f8242b612ecfeaf1bb854e49a9f3">adaptationType</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a16ecb91ebe339a0b0775a67a4eb04c61">speedUp</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1acf5028b7150072c3b3907e9b7cf0a878">speedDown</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a9320d074e46d0714a75171f40e1c554d">logMin</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1ab1e84b7f5403c844e026677ce5e1c6ea">logMax</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings">Settings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1af84171d648e86938b92e10bf39a35ad1">defaultSettings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a9dc6f8242b612ecfeaf1bb854e49a9f3"/><section>
+    <title>adaptationType</title>
+<indexterm><primary>adaptationType</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>adaptationType</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1ab9307d267c9dc71faf8705f539a5d30b">EyeAdaptationType</link> UnityEngine.PostProcessing.EyeAdaptationModel.Settings.adaptationType</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1aecc9d7b4230c0c1ceb8754771559c44d"/><section>
+    <title>dynamicKeyValue</title>
+<indexterm><primary>dynamicKeyValue</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>dynamicKeyValue</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.EyeAdaptationModel.Settings.dynamicKeyValue</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a8d8a8ead5347bf7fc71694e16e07426f"/><section>
+    <title>highPercent</title>
+<indexterm><primary>highPercent</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>highPercent</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.EyeAdaptationModel.Settings.highPercent</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a839a21d11c4bdc81b2895307f3aafbc0"/><section>
+    <title>keyValue</title>
+<indexterm><primary>keyValue</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>keyValue</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.EyeAdaptationModel.Settings.keyValue</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1ab1e84b7f5403c844e026677ce5e1c6ea"/><section>
+    <title>logMax</title>
+<indexterm><primary>logMax</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>logMax</secondary></indexterm>
+<para><computeroutput>int UnityEngine.PostProcessing.EyeAdaptationModel.Settings.logMax</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a9320d074e46d0714a75171f40e1c554d"/><section>
+    <title>logMin</title>
+<indexterm><primary>logMin</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>logMin</secondary></indexterm>
+<para><computeroutput>int UnityEngine.PostProcessing.EyeAdaptationModel.Settings.logMin</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a5c5b3f78ea3dbd8f92838bfce4b55ddb"/><section>
+    <title>lowPercent</title>
+<indexterm><primary>lowPercent</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>lowPercent</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.EyeAdaptationModel.Settings.lowPercent</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a66a092db35ea701685512dde96353ad0"/><section>
+    <title>maxLuminance</title>
+<indexterm><primary>maxLuminance</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>maxLuminance</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.EyeAdaptationModel.Settings.maxLuminance</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1ae879c206fd2942ff813f2a2eb3919943"/><section>
+    <title>minLuminance</title>
+<indexterm><primary>minLuminance</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>minLuminance</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.EyeAdaptationModel.Settings.minLuminance</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1acf5028b7150072c3b3907e9b7cf0a878"/><section>
+    <title>speedDown</title>
+<indexterm><primary>speedDown</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>speedDown</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.EyeAdaptationModel.Settings.speedDown</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1a16ecb91ebe339a0b0775a67a4eb04c61"/><section>
+    <title>speedUp</title>
+<indexterm><primary>speedUp</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>speedUp</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.EyeAdaptationModel.Settings.speedUp</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings_1af84171d648e86938b92e10bf39a35ad1"/><section>
+    <title>defaultSettings</title>
+<indexterm><primary>defaultSettings</primary><secondary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.EyeAdaptationModel.Settings</primary><secondary>defaultSettings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1_1_settings">Settings</link> UnityEngine.PostProcessing.EyeAdaptationModel.Settings.defaultSettings<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__eye_adaptation_model_8cs">EyeAdaptationModel.cs</link></section>
+</section>

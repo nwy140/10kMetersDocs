@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_input_handler_old___new_input_system" kind="class" language="C#" prot="public">
+    <compoundname>InputHandlerOld_NewInputSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_input_handler_old___new_input_system_1a23512fdef672ea191fabaf4044d37d56" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_command_base" kindref="compound">CommandBase</ref> &gt;</type>
+        <definition>List&lt;CommandBase&gt; InputHandlerOld_NewInputSystem.inputCommands</definition>
+        <argsstring></argsstring>
+        <name>inputCommands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="8" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</referencedby>
+        <referencedby refid="class_command_event_listener_1a4065b4d2405ee97c4fbfa689bb4b5634" compoundref="_command_event_listener_8cs" startline="77" endline="84">CommandEventListener.InitTypeA</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_handler_old___new_input_system_1a07d786c476e99f6f183229aa549489f9" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject InputHandlerOld_NewInputSystem.instigatorObj</definition>
+        <argsstring></argsstring>
+        <name>instigatorObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="12" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_input_handler_old___new_input_system_1a8a072c026ebd5749f406f24c95e9b260" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; InputHandlerOld_NewInputSystem.inputCommandsNames</definition>
+        <argsstring></argsstring>
+        <name>inputCommandsNames</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="9" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_handler_old___new_input_system_1a5ae41e2232986f9505c9385cc92e10f3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_command_queue_helper" kindref="compound">CommandQueueHelper</ref></type>
+        <definition>CommandQueueHelper InputHandlerOld_NewInputSystem._commandQueueHelper</definition>
+        <argsstring></argsstring>
+        <name>_commandQueueHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="14" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_input_handler_old___new_input_system_1aebeb2ee3af9b65b236f3d47e5f536f44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_command_queue_helper" kindref="compound">CommandQueueHelper</ref></type>
+        <definition>virtual CommandQueueHelper InputHandlerOld_NewInputSystem.commandQueueHelper</definition>
+        <argsstring></argsstring>
+        <name>commandQueueHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="15" column="39" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a836e1f63f650ac65e21cfb4c3380a8ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="16" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="16" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a2e26c9a32c7f2bb3fd1877efe87b7541" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="38" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="38" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_command_base" kindref="compound">CommandBase</ref></type>
+        <definition>CommandBase InputHandlerOld_NewInputSystem.GetCommandByNameInCommandList</definition>
+        <argsstring>(string commandName)</argsstring>
+        <name>GetCommandByNameInCommandList</name>
+        <param>
+          <type>string</type>
+          <declname>commandName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="33" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="33" bodyend="36"/>
+        <references refid="class_input_handler_old___new_input_system_1a23512fdef672ea191fabaf4044d37d56" compoundref="_input_handler_old___new_input_system_8cs" startline="8">inputCommands</references>
+        <referencedby refid="class_input_handler_old___new_input_system_1a7adc47f6db40463d2066077ebec4c657" compoundref="_input_handler_old___new_input_system_8cs" startline="53" endline="56">OnCommandSlot0</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1ab6ad3213c002c6cdbd2a6a896e300937" compoundref="_input_handler_old___new_input_system_8cs" startline="58" endline="61">OnCommandSlot1</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a6afe578657da7e744235c32a0a6fb0e2" compoundref="_input_handler_old___new_input_system_8cs" startline="63" endline="66">OnCommandSlot2</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1aa20124dbb8fd5409f9445573b2bd2bb9" compoundref="_input_handler_old___new_input_system_8cs" startline="68" endline="71">OnCommandSlot3</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1afcea36df39ea7b70ed71dbd96952df94" compoundref="_input_handler_old___new_input_system_8cs" startline="109" endline="113">OnDPadAxisHorizontal</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a11483632ae392566a5a092d634420edd" compoundref="_input_handler_old___new_input_system_8cs" startline="115" endline="119">OnDPadAxisVertical</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a081f6ee2cfadf295150650520efcdd64" compoundref="_input_handler_old___new_input_system_8cs" startline="121" endline="125">OnLeftStickAxisHorizontal</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a79a0e816d234ab0ff1c0b5eefa63224d" compoundref="_input_handler_old___new_input_system_8cs" startline="127" endline="131">OnLeftStickAxisVertical</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1ab7d02993af78f31286e78096a3625074" compoundref="_input_handler_old___new_input_system_8cs" startline="73" endline="76">OnSecondaryCommandSlot4</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1aac53b963b9f80b3bdafde79b23803f05" compoundref="_input_handler_old___new_input_system_8cs" startline="78" endline="81">OnSecondaryCommandSlot5</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1ab1f3e03243d92511facd972a0e55ceea" compoundref="_input_handler_old___new_input_system_8cs" startline="97" endline="102">OnSelect</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a87747fee6f8c1e612fddb7538e17b392" compoundref="_input_handler_old___new_input_system_8cs" startline="103" endline="106">OnStart</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1afa5ab3bc20b29f3bd011b322c46ebf98" compoundref="_input_handler_old___new_input_system_8cs" startline="84" endline="88">OnTertiaryCommandSlotAxis6</referencedby>
+        <referencedby refid="class_input_handler_old___new_input_system_1a4c5e9f8f4b92bdc944016637c743f7ad" compoundref="_input_handler_old___new_input_system_8cs" startline="90" endline="94">OnTertiaryCommandSlotAxis7</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a7adc47f6db40463d2066077ebec4c657" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnCommandSlot0</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnCommandSlot0</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="53" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="53" bodyend="56"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1ab6ad3213c002c6cdbd2a6a896e300937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnCommandSlot1</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnCommandSlot1</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="58" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="58" bodyend="61"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a6afe578657da7e744235c32a0a6fb0e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnCommandSlot2</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnCommandSlot2</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="63" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="63" bodyend="66"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1aa20124dbb8fd5409f9445573b2bd2bb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnCommandSlot3</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnCommandSlot3</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="68" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="68" bodyend="71"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1ab7d02993af78f31286e78096a3625074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnSecondaryCommandSlot4</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnSecondaryCommandSlot4</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="73" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="73" bodyend="76"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1aac53b963b9f80b3bdafde79b23803f05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnSecondaryCommandSlot5</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnSecondaryCommandSlot5</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="78" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="78" bodyend="81"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1afa5ab3bc20b29f3bd011b322c46ebf98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnTertiaryCommandSlotAxis6</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnTertiaryCommandSlotAxis6</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="84" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="84" bodyend="88"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a4c5e9f8f4b92bdc944016637c743f7ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnTertiaryCommandSlotAxis7</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnTertiaryCommandSlotAxis7</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="90" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="90" bodyend="94"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1ab1f3e03243d92511facd972a0e55ceea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnSelect</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnSelect</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="97" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="97" bodyend="102"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a87747fee6f8c1e612fddb7538e17b392" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnStart</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnStart</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="103" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="103" bodyend="106"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1afcea36df39ea7b70ed71dbd96952df94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnDPadAxisHorizontal</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnDPadAxisHorizontal</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="109" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="109" bodyend="113"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a11483632ae392566a5a092d634420edd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnDPadAxisVertical</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnDPadAxisVertical</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="115" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="115" bodyend="119"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a081f6ee2cfadf295150650520efcdd64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnLeftStickAxisHorizontal</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnLeftStickAxisHorizontal</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="121" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="121" bodyend="125"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a79a0e816d234ab0ff1c0b5eefa63224d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnLeftStickAxisVertical</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnLeftStickAxisVertical</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="127" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="127" bodyend="131"/>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+        <references refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" compoundref="_input_handler_old___new_input_system_8cs" startline="33" endline="36">GetCommandByNameInCommandList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a304527fe1b0dee0d7b835eb2f9078e13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnRightStickAxisHorizontal</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnRightStickAxisHorizontal</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="133" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_handler_old___new_input_system_1a3ccf35ac6e58442450956ca51715056e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandlerOld_NewInputSystem.OnRightStickAxisVertical</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnRightStickAxisVertical</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="138" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="138" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InputHandlerOld_NewInputSystem</label>
+        <link refid="class_input_handler_old___new_input_system"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InputHandlerOld_NewInputSystem</label>
+        <link refid="class_input_handler_old___new_input_system"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/InputHandlerOld_NewInputSystem.cs" bodystart="7" bodyend="163"/>
+    <listofallmembers>
+      <member refid="class_input_handler_old___new_input_system_1a5ae41e2232986f9505c9385cc92e10f3" prot="private" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>_commandQueueHelper</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a836e1f63f650ac65e21cfb4c3380a8ea" prot="private" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>Awake</name></member>
+      <member refid="class_input_handler_old___new_input_system_1aebeb2ee3af9b65b236f3d47e5f536f44" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>commandQueueHelper</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>GetCommandByNameInCommandList</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a23512fdef672ea191fabaf4044d37d56" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>inputCommands</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a8a072c026ebd5749f406f24c95e9b260" prot="private" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>inputCommandsNames</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a07d786c476e99f6f183229aa549489f9" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>instigatorObj</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a7adc47f6db40463d2066077ebec4c657" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnCommandSlot0</name></member>
+      <member refid="class_input_handler_old___new_input_system_1ab6ad3213c002c6cdbd2a6a896e300937" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnCommandSlot1</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a6afe578657da7e744235c32a0a6fb0e2" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnCommandSlot2</name></member>
+      <member refid="class_input_handler_old___new_input_system_1aa20124dbb8fd5409f9445573b2bd2bb9" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnCommandSlot3</name></member>
+      <member refid="class_input_handler_old___new_input_system_1afcea36df39ea7b70ed71dbd96952df94" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnDPadAxisHorizontal</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a11483632ae392566a5a092d634420edd" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnDPadAxisVertical</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a081f6ee2cfadf295150650520efcdd64" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnLeftStickAxisHorizontal</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a79a0e816d234ab0ff1c0b5eefa63224d" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnLeftStickAxisVertical</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a304527fe1b0dee0d7b835eb2f9078e13" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnRightStickAxisHorizontal</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a3ccf35ac6e58442450956ca51715056e" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnRightStickAxisVertical</name></member>
+      <member refid="class_input_handler_old___new_input_system_1ab7d02993af78f31286e78096a3625074" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnSecondaryCommandSlot4</name></member>
+      <member refid="class_input_handler_old___new_input_system_1aac53b963b9f80b3bdafde79b23803f05" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnSecondaryCommandSlot5</name></member>
+      <member refid="class_input_handler_old___new_input_system_1ab1f3e03243d92511facd972a0e55ceea" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnSelect</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a87747fee6f8c1e612fddb7538e17b392" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnStart</name></member>
+      <member refid="class_input_handler_old___new_input_system_1afa5ab3bc20b29f3bd011b322c46ebf98" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnTertiaryCommandSlotAxis6</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a4c5e9f8f4b92bdc944016637c743f7ad" prot="public" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>OnTertiaryCommandSlotAxis7</name></member>
+      <member refid="class_input_handler_old___new_input_system_1a2e26c9a32c7f2bb3fd1877efe87b7541" prot="private" virt="non-virtual"><scope>InputHandlerOld_NewInputSystem</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

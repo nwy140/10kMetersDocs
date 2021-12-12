@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_audio_manager" xml:lang="en-US">
+<title>AudioManager Class Reference</title>
+<indexterm><primary>AudioManager</primary></indexterm>
+Inheritance diagram for AudioManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for AudioManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1">ResetVolumeSettingsToDefault</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_audio_manager_1aa51b69611551c60195b629367c607e3a">LoadVolumeSettingsPlayerPrefs</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2">SaveVolumeSettingsPlayerPrefs</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7">PlaySFX</link> (string sfxName)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8">PlayBGM</link> (string bgmName)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_audio_manager_1acd438e15c4afe675fe47d3f77fee4e4f">StopBGM</link> (string name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae">PlayBGMFadeTransition</link> (string name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_audio_manager_1ab55ae7d62d8473122b8969709e60e2a0">StopBGMFadeOutTransition</link> (string name)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_audio_manager_1a7ed105228fa977c04c4e036644806a30">defaultSFXMasterVolume</link> = 0.75f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_audio_manager_1a089d4e33fb32ca3918cd19fa03c50570">defaultBGMMasterVolume</link> = 0.8f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_audio_manager_1a2f377e4c17fcc04e4342bfbe323a3555">defaultOverallVolume</link> = 0.3f</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_audio_manager_1adc61667569155015f40995bc072fe579">isVolumeSettingSaved</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_audio_manager_1aa991e389ccf5fb16eba490b6142bfa46">isApplicationRunInBackground</link> = true</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_audio_manager_1aa8d0c09ddf7bbed454f76c499dc11b06">SFXMasterVolume</link> = 1f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_audio_manager_1a3c8f103cfc152c9da6dcf9cf601caf76">BGMMasterVolume</link> = 1f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_audio_manager_1a30ee500ed936234fed201fbaa68c3f2b">overallVolume</link> = 1f</para>
+</listitem>
+            <listitem><para><link linkend="_class_sound">Sound</link> <link linkend="_class_audio_manager_1a47ecbaf236ea543101bea3585bb8e930">currSFX</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_sound">Sound</link> <link linkend="_class_audio_manager_1adc6aae05cee1b51de7ded43313c7a8aa">currBGM</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_audio_manager_1a59b00472bf64329ce7b8df10c5b7f6f9">multiAudioSourceObj</link></para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_sound">Sound</link> &gt; <link linkend="_class_audio_manager_1a9c02e7ce083c96b3282795eaacf1405a">soundsSFX</link></para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_sound">Sound</link> &gt; <link linkend="_class_audio_manager_1adcc47be5d0c98b9f97cc91f13fec1bb2">soundsBGM</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_audio_manager">AudioManager</link> <link linkend="_class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_audio_manager_1aa51b69611551c60195b629367c607e3a"/><section>
+    <title>LoadVolumeSettingsPlayerPrefs()</title>
+<indexterm><primary>LoadVolumeSettingsPlayerPrefs</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>LoadVolumeSettingsPlayerPrefs</secondary></indexterm>
+<para><computeroutput>void AudioManager.LoadVolumeSettingsPlayerPrefs ( )</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8"/><section>
+    <title>PlayBGM()</title>
+<indexterm><primary>PlayBGM</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>PlayBGM</secondary></indexterm>
+<para><computeroutput>void AudioManager.PlayBGM (string bgmName)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager_a54a5ef330c9fe89420a86337c785a2a8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae"/><section>
+    <title>PlayBGMFadeTransition()</title>
+<indexterm><primary>PlayBGMFadeTransition</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>PlayBGMFadeTransition</secondary></indexterm>
+<para><computeroutput>void AudioManager.PlayBGMFadeTransition (string name)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager_a96b105320ad573f7e2371f70dd3688ae_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7"/><section>
+    <title>PlaySFX()</title>
+<indexterm><primary>PlaySFX</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>PlaySFX</secondary></indexterm>
+<para><computeroutput>void AudioManager.PlaySFX (string sfxName)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager_a857cbe52aa78360c54f9a2414deb51e7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1"/><section>
+    <title>ResetVolumeSettingsToDefault()</title>
+<indexterm><primary>ResetVolumeSettingsToDefault</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>ResetVolumeSettingsToDefault</secondary></indexterm>
+<para><computeroutput>void AudioManager.ResetVolumeSettingsToDefault ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager_a09774d2457c33607be8260e7b54ae2d1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2"/><section>
+    <title>SaveVolumeSettingsPlayerPrefs()</title>
+<indexterm><primary>SaveVolumeSettingsPlayerPrefs</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>SaveVolumeSettingsPlayerPrefs</secondary></indexterm>
+<para><computeroutput>void AudioManager.SaveVolumeSettingsPlayerPrefs ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager_ac91c4c3f15b69879556efac5c44434d2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_audio_manager_1acd438e15c4afe675fe47d3f77fee4e4f"/><section>
+    <title>StopBGM()</title>
+<indexterm><primary>StopBGM</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>StopBGM</secondary></indexterm>
+<para><computeroutput>void AudioManager.StopBGM (string name)</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1ab55ae7d62d8473122b8969709e60e2a0"/><section>
+    <title>StopBGMFadeOutTransition()</title>
+<indexterm><primary>StopBGMFadeOutTransition</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>StopBGMFadeOutTransition</secondary></indexterm>
+<para><computeroutput>void AudioManager.StopBGMFadeOutTransition (string name)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager_ab55ae7d62d8473122b8969709e60e2a0_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_audio_manager_ab55ae7d62d8473122b8969709e60e2a0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_audio_manager_1a3c8f103cfc152c9da6dcf9cf601caf76"/><section>
+    <title>BGMMasterVolume</title>
+<indexterm><primary>BGMMasterVolume</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>BGMMasterVolume</secondary></indexterm>
+<para><computeroutput>float AudioManager.BGMMasterVolume = 1f</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1adc6aae05cee1b51de7ded43313c7a8aa"/><section>
+    <title>currBGM</title>
+<indexterm><primary>currBGM</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>currBGM</secondary></indexterm>
+<para><computeroutput><link linkend="_class_sound">Sound</link> AudioManager.currBGM</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a47ecbaf236ea543101bea3585bb8e930"/><section>
+    <title>currSFX</title>
+<indexterm><primary>currSFX</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>currSFX</secondary></indexterm>
+<para><computeroutput><link linkend="_class_sound">Sound</link> AudioManager.currSFX</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a089d4e33fb32ca3918cd19fa03c50570"/><section>
+    <title>defaultBGMMasterVolume</title>
+<indexterm><primary>defaultBGMMasterVolume</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>defaultBGMMasterVolume</secondary></indexterm>
+<para><computeroutput>float AudioManager.defaultBGMMasterVolume = 0.8f</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a2f377e4c17fcc04e4342bfbe323a3555"/><section>
+    <title>defaultOverallVolume</title>
+<indexterm><primary>defaultOverallVolume</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>defaultOverallVolume</secondary></indexterm>
+<para><computeroutput>float AudioManager.defaultOverallVolume = 0.3f</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a7ed105228fa977c04c4e036644806a30"/><section>
+    <title>defaultSFXMasterVolume</title>
+<indexterm><primary>defaultSFXMasterVolume</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>defaultSFXMasterVolume</secondary></indexterm>
+<para><computeroutput>float AudioManager.defaultSFXMasterVolume = 0.75f</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_audio_manager">AudioManager</link> AudioManager.instance<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1aa991e389ccf5fb16eba490b6142bfa46"/><section>
+    <title>isApplicationRunInBackground</title>
+<indexterm><primary>isApplicationRunInBackground</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>isApplicationRunInBackground</secondary></indexterm>
+<para><computeroutput>bool AudioManager.isApplicationRunInBackground = true</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1adc61667569155015f40995bc072fe579"/><section>
+    <title>isVolumeSettingSaved</title>
+<indexterm><primary>isVolumeSettingSaved</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>isVolumeSettingSaved</secondary></indexterm>
+<para><computeroutput>bool AudioManager.isVolumeSettingSaved</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a59b00472bf64329ce7b8df10c5b7f6f9"/><section>
+    <title>multiAudioSourceObj</title>
+<indexterm><primary>multiAudioSourceObj</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>multiAudioSourceObj</secondary></indexterm>
+<para><computeroutput>GameObject AudioManager.multiAudioSourceObj</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a30ee500ed936234fed201fbaa68c3f2b"/><section>
+    <title>overallVolume</title>
+<indexterm><primary>overallVolume</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>overallVolume</secondary></indexterm>
+<para><computeroutput>float AudioManager.overallVolume = 1f</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1aa8d0c09ddf7bbed454f76c499dc11b06"/><section>
+    <title>SFXMasterVolume</title>
+<indexterm><primary>SFXMasterVolume</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>SFXMasterVolume</secondary></indexterm>
+<para><computeroutput>float AudioManager.SFXMasterVolume = 1f</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1adcc47be5d0c98b9f97cc91f13fec1bb2"/><section>
+    <title>soundsBGM</title>
+<indexterm><primary>soundsBGM</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>soundsBGM</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_class_sound">Sound</link>&gt; AudioManager.soundsBGM</computeroutput></para></section>
+<anchor xml:id="_class_audio_manager_1a9c02e7ce083c96b3282795eaacf1405a"/><section>
+    <title>soundsSFX</title>
+<indexterm><primary>soundsSFX</primary><secondary>AudioManager</secondary></indexterm>
+<indexterm><primary>AudioManager</primary><secondary>soundsSFX</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_class_sound">Sound</link>&gt; AudioManager.soundsSFX</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/<link linkend="__audio_manager_8cs">AudioManager.cs</link></section>
+</section>

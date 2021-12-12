@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_collision_by_tag_event" xml:lang="en-US">
+<title>CollisionByTagEvent Class Reference</title>
+<indexterm><primary>CollisionByTagEvent</primary></indexterm>
+Inheritance diagram for CollisionByTagEvent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_collision_by_tag_event__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CollisionByTagEvent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_collision_by_tag_event__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_collision_by_tag_event_1ace37b1de2a660606a71be6297751dd1e">OnHitbox</link> (GameObject other)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; string &gt; <link linkend="_class_collision_by_tag_event_1a569638adbde8c39dd52435b7fcc2895e">allowedTags</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_collision_by_tag_event_1aba4ff11f809ab2f8ed8a30a7f3b11124">filterByAllowedTags</link> = true</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_collision_by_tag_event_1a54ebe9dcc24e3fbda4cfb810c53b4ef7">isCallOnCollisionEnter2D</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_collision_by_tag_event_1a3b16e2ac6b5d842808e304beb3bfde0f">isCallOnTriggerEnter2D</link></para>
+</listitem>
+            <listitem><para>List&lt; string &gt; <link linkend="_class_collision_by_tag_event_1ad9bca4c1ce84dca974677a8f4b5181d2">disallowedTags</link></para>
+</listitem>
+            <listitem><para>List&lt; string &gt; <link linkend="_class_collision_by_tag_event_1a515bb90492078d40624ad83cc6ceabe2">ignorePhysicsForTargetTags</link></para>
+</listitem>
+            <listitem><para>List&lt; Collider2D &gt; <link linkend="_class_collision_by_tag_event_1ae9f4390ea960a89e0be3ad89be342b69">ignoreTargetCols</link> = new List&lt;Collider2D&gt;()</para>
+</listitem>
+            <listitem><para>UnityEvent <link linkend="_class_collision_by_tag_event_1aab3516fe7d96923f01fe259d41835771">OnHitBox_Event</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_collision_by_tag_event_1ace37b1de2a660606a71be6297751dd1e"/><section>
+    <title>OnHitbox()</title>
+<indexterm><primary>OnHitbox</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>OnHitbox</secondary></indexterm>
+<para><computeroutput>void CollisionByTagEvent.OnHitbox (GameObject other)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_collision_by_tag_event_1a569638adbde8c39dd52435b7fcc2895e"/><section>
+    <title>allowedTags</title>
+<indexterm><primary>allowedTags</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>allowedTags</secondary></indexterm>
+<para><computeroutput>List&lt;string&gt; CollisionByTagEvent.allowedTags</computeroutput></para></section>
+<anchor xml:id="_class_collision_by_tag_event_1ad9bca4c1ce84dca974677a8f4b5181d2"/><section>
+    <title>disallowedTags</title>
+<indexterm><primary>disallowedTags</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>disallowedTags</secondary></indexterm>
+<para><computeroutput>List&lt;string&gt; CollisionByTagEvent.disallowedTags</computeroutput></para></section>
+<anchor xml:id="_class_collision_by_tag_event_1aba4ff11f809ab2f8ed8a30a7f3b11124"/><section>
+    <title>filterByAllowedTags</title>
+<indexterm><primary>filterByAllowedTags</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>filterByAllowedTags</secondary></indexterm>
+<para><computeroutput>bool CollisionByTagEvent.filterByAllowedTags = true</computeroutput></para></section>
+<anchor xml:id="_class_collision_by_tag_event_1a515bb90492078d40624ad83cc6ceabe2"/><section>
+    <title>ignorePhysicsForTargetTags</title>
+<indexterm><primary>ignorePhysicsForTargetTags</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>ignorePhysicsForTargetTags</secondary></indexterm>
+<para><computeroutput>List&lt;string&gt; CollisionByTagEvent.ignorePhysicsForTargetTags</computeroutput></para></section>
+<anchor xml:id="_class_collision_by_tag_event_1ae9f4390ea960a89e0be3ad89be342b69"/><section>
+    <title>ignoreTargetCols</title>
+<indexterm><primary>ignoreTargetCols</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>ignoreTargetCols</secondary></indexterm>
+<para><computeroutput>List&lt;Collider2D&gt; CollisionByTagEvent.ignoreTargetCols = new List&lt;Collider2D&gt;()</computeroutput></para></section>
+<anchor xml:id="_class_collision_by_tag_event_1a54ebe9dcc24e3fbda4cfb810c53b4ef7"/><section>
+    <title>isCallOnCollisionEnter2D</title>
+<indexterm><primary>isCallOnCollisionEnter2D</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>isCallOnCollisionEnter2D</secondary></indexterm>
+<para><computeroutput>bool CollisionByTagEvent.isCallOnCollisionEnter2D</computeroutput></para></section>
+<anchor xml:id="_class_collision_by_tag_event_1a3b16e2ac6b5d842808e304beb3bfde0f"/><section>
+    <title>isCallOnTriggerEnter2D</title>
+<indexterm><primary>isCallOnTriggerEnter2D</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>isCallOnTriggerEnter2D</secondary></indexterm>
+<para><computeroutput>bool CollisionByTagEvent.isCallOnTriggerEnter2D</computeroutput></para></section>
+<anchor xml:id="_class_collision_by_tag_event_1aab3516fe7d96923f01fe259d41835771"/><section>
+    <title>OnHitBox_Event</title>
+<indexterm><primary>OnHitBox_Event</primary><secondary>CollisionByTagEvent</secondary></indexterm>
+<indexterm><primary>CollisionByTagEvent</primary><secondary>OnHitBox_Event</secondary></indexterm>
+<para><computeroutput>UnityEvent CollisionByTagEvent.OnHitBox_Event</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/<link linkend="__collision_by_tag_event_8cs">CollisionByTagEvent.cs</link></section>
+</section>

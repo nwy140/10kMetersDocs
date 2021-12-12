@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_nav_agent_test_auto_set_mouse_destination" kind="class" language="C#" prot="public">
+    <compoundname>NavAgentTestAutoSetMouseDestination</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_nav_agent_test_auto_set_mouse_destination_1a29d893d4eb92151c848a5ac9153da5d2" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent NavAgentTestAutoSetMouseDestination.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/NavAgentTestAutoSetMouseDestination.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/NavAgentTestAutoSetMouseDestination.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_nav_agent_test_auto_set_mouse_destination_1a4d050472b83629879000237898c39b58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NavAgentTestAutoSetMouseDestination.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/NavAgentTestAutoSetMouseDestination.cs" line="11" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/NavAgentTestAutoSetMouseDestination.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_nav_agent_test_auto_set_mouse_destination_1a66b8d6777e22f25addac87adf5c9046c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NavAgentTestAutoSetMouseDestination.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/NavAgentTestAutoSetMouseDestination.cs" line="16" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/NavAgentTestAutoSetMouseDestination.cs" bodystart="16" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NavAgentTestAutoSetMouseDestination</label>
+        <link refid="class_nav_agent_test_auto_set_mouse_destination"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NavAgentTestAutoSetMouseDestination</label>
+        <link refid="class_nav_agent_test_auto_set_mouse_destination"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/NavAgentTestAutoSetMouseDestination.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/AINav/NavAgentTestAutoSetMouseDestination.cs" bodystart="8" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_nav_agent_test_auto_set_mouse_destination_1a29d893d4eb92151c848a5ac9153da5d2" prot="private" virt="non-virtual"><scope>NavAgentTestAutoSetMouseDestination</scope><name>agent</name></member>
+      <member refid="class_nav_agent_test_auto_set_mouse_destination_1a4d050472b83629879000237898c39b58" prot="private" virt="non-virtual"><scope>NavAgentTestAutoSetMouseDestination</scope><name>Start</name></member>
+      <member refid="class_nav_agent_test_auto_set_mouse_destination_1a66b8d6777e22f25addac87adf5c9046c" prot="private" virt="non-virtual"><scope>NavAgentTestAutoSetMouseDestination</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

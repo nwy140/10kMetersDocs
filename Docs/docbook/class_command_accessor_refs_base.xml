@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_accessor_refs_base" xml:lang="en-US">
+<title>CommandAccessorRefsBase Class Reference</title>
+<indexterm><primary>CommandAccessorRefsBase</primary></indexterm>
+Inheritance diagram for CommandAccessorRefsBase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_accessor_refs_base__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CommandAccessorRefsBase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_accessor_refs_base__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_command_accessor_refs_base_1_1_command_slot_unity_events">CommandSlotUnityEvents</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_command_accessor_refs_base_1ad55d19fe8fa95bf27cc400411dc1a3ae">ExecPress</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_accessor_refs_base_1a9e1b6afd3c246328cc9c4ecfb50252a8">ExecDown</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_accessor_refs_base_1a2efe5f53b05a309413caa0f80d280d3b">ExecDownCharging</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_accessor_refs_base_1ab5b0d3cdf05705e67d07935ac88e03dd">ExecRelease</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_accessor_refs_base_1ae90967129d8c187c04b9cff8615dc68c">Execd</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_command_slot_holder">CommandSlotHolder</link> <link linkend="_class_command_accessor_refs_base_1acda5694ace3ec7a71a45a571757bb0cf">commandSlotHolder</link></para>
+</listitem>
+            <listitem><para><link linkend="_struct_command_accessor_refs_base_1_1_command_slot_unity_events">CommandSlotUnityEvents</link> <link linkend="_class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327">commandSlotUnityEvents</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_accessor_refs_base_1ae90967129d8c187c04b9cff8615dc68c"/><section>
+    <title>Execd()</title>
+<indexterm><primary>Execd</primary><secondary>CommandAccessorRefsBase</secondary></indexterm>
+<indexterm><primary>CommandAccessorRefsBase</primary><secondary>Execd</secondary></indexterm>
+<para><computeroutput>virtual void CommandAccessorRefsBase.Execd ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_accessor_refs_base_1a9e1b6afd3c246328cc9c4ecfb50252a8"/><section>
+    <title>ExecDown()</title>
+<indexterm><primary>ExecDown</primary><secondary>CommandAccessorRefsBase</secondary></indexterm>
+<indexterm><primary>CommandAccessorRefsBase</primary><secondary>ExecDown</secondary></indexterm>
+<para><computeroutput>virtual void CommandAccessorRefsBase.ExecDown ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_accessor_refs_base_1a2efe5f53b05a309413caa0f80d280d3b"/><section>
+    <title>ExecDownCharging()</title>
+<indexterm><primary>ExecDownCharging</primary><secondary>CommandAccessorRefsBase</secondary></indexterm>
+<indexterm><primary>CommandAccessorRefsBase</primary><secondary>ExecDownCharging</secondary></indexterm>
+<para><computeroutput>virtual void CommandAccessorRefsBase.ExecDownCharging ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_accessor_refs_base_1ad55d19fe8fa95bf27cc400411dc1a3ae"/><section>
+    <title>ExecPress()</title>
+<indexterm><primary>ExecPress</primary><secondary>CommandAccessorRefsBase</secondary></indexterm>
+<indexterm><primary>CommandAccessorRefsBase</primary><secondary>ExecPress</secondary></indexterm>
+<para><computeroutput>virtual void CommandAccessorRefsBase.ExecPress ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_command_accessor_refs_base_1ab5b0d3cdf05705e67d07935ac88e03dd"/><section>
+    <title>ExecRelease()</title>
+<indexterm><primary>ExecRelease</primary><secondary>CommandAccessorRefsBase</secondary></indexterm>
+<indexterm><primary>CommandAccessorRefsBase</primary><secondary>ExecRelease</secondary></indexterm>
+<para><computeroutput>virtual void CommandAccessorRefsBase.ExecRelease ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_accessor_refs_base_1acda5694ace3ec7a71a45a571757bb0cf"/><section>
+    <title>commandSlotHolder</title>
+<indexterm><primary>commandSlotHolder</primary><secondary>CommandAccessorRefsBase</secondary></indexterm>
+<indexterm><primary>CommandAccessorRefsBase</primary><secondary>commandSlotHolder</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_slot_holder">CommandSlotHolder</link> CommandAccessorRefsBase.commandSlotHolder</computeroutput></para></section>
+<anchor xml:id="_class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327"/><section>
+    <title>commandSlotUnityEvents</title>
+<indexterm><primary>commandSlotUnityEvents</primary><secondary>CommandAccessorRefsBase</secondary></indexterm>
+<indexterm><primary>CommandAccessorRefsBase</primary><secondary>commandSlotUnityEvents</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_command_accessor_refs_base_1_1_command_slot_unity_events">CommandSlotUnityEvents</link> CommandAccessorRefsBase.commandSlotUnityEvents</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/<link linkend="__command_accessor_refs_base_8cs">CommandAccessorRefsBase.cs</link></section>
+</section>

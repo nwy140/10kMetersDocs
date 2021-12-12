@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>abstract CameraEvent <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</link> ()</para>
+</listitem>
+            <listitem><para>abstract string <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</link> ()</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</link> (CommandBuffer cb)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5"/><section>
+    <title>GetCameraEvent()</title>
+<indexterm><primary>GetCameraEvent</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</primary><secondary>GetCameraEvent</secondary></indexterm>
+<para><computeroutput>abstract CameraEvent <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer</link>&lt; T &gt;.GetCameraEvent ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a40c2e1160a63cb63a910d9e232515001">UnityEngine.PostProcessing.AmbientOcclusionComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a6f11761eaeb91f54400f5b9a3f5864b2">UnityEngine.PostProcessing.BuiltinDebugViewsComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_component_1a6b9fae58f8772759a33c8050ea443195">UnityEngine.PostProcessing.FogComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ad3a58d6a79a3e0205cbf63b2312cd68a">UnityEngine.PostProcessing.MotionBlurComponent</link>, and <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a696726c8892304b37695a69c900b2b97">UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12"/><section>
+    <title>GetName()</title>
+<indexterm><primary>GetName</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</primary><secondary>GetName</secondary></indexterm>
+<para><computeroutput>abstract string <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer</link>&lt; T &gt;.GetName ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a912e17f44f887c19511e31cb4211551c">UnityEngine.PostProcessing.AmbientOcclusionComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a18f07a927f8d2aee8f5e7bf045b87714">UnityEngine.PostProcessing.BuiltinDebugViewsComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_component_1acf525749b7d7e54b04a111681b386628">UnityEngine.PostProcessing.FogComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a9ffec424dc428506c72254c3b7d5ce19">UnityEngine.PostProcessing.MotionBlurComponent</link>, and <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1ad4da13965c3b67798e594134f70505e3">UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c"/><section>
+    <title>PopulateCommandBuffer()</title>
+<indexterm><primary>PopulateCommandBuffer</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</primary><secondary>PopulateCommandBuffer</secondary></indexterm>
+<para><computeroutput>abstract void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer</link>&lt; T &gt;.PopulateCommandBuffer (CommandBuffer cb)<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5f64f7638a6a441cf4bdaeb54dbf1601">UnityEngine.PostProcessing.AmbientOcclusionComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component_1a5eb24d5ee1ad5360967bfd5bc2c8485b">UnityEngine.PostProcessing.BuiltinDebugViewsComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_component_1a069c63fdf3cc8cc505508db2671948ac">UnityEngine.PostProcessing.FogComponent</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934">UnityEngine.PostProcessing.MotionBlurComponent</link>, and <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a816b26c983d2e6b8723a049dafa72544">UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/<link linkend="__post_processing_component_8cs">PostProcessingComponent.cs</link></section>
+</section>

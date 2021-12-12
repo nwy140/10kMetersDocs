@@ -1,0 +1,77 @@
+.TH "PlayerAttack" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PlayerAttack
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBPlayer\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBRotateTurretToMousePos\fP ()"
+.br
+.ti -1c
+.RI "void \fBAttackBehaviour3\fP ()"
+.br
+.ti -1c
+.RI "void \fBSimulateShoot\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnInput\fP (InputAction\&.CallbackContext context)"
+.br
+.ti -1c
+.RI "void \fBOnSimulateInput\fP (bool IsPressedThisFrame, float axis)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Transform \fBspawnSocket\fP"
+.br
+.ti -1c
+.RI "float \fBspawnBaseForceMultiplier\fP = 100f"
+.br
+.ti -1c
+.RI "Transform \fBturret\fP"
+.br
+.ti -1c
+.RI "float \fBturretLerpRotSpeed\fP = 5f"
+.br
+.ti -1c
+.RI "float \fBturretRotZOffset\fP = 90"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Member Function Documentation"
+.PP 
+.SS "void PlayerAttack\&.AttackBehaviour3 ()"
+
+.SS "void PlayerAttack\&.OnInput (InputAction\&.CallbackContext context)"
+
+.SS "void PlayerAttack\&.OnSimulateInput (bool IsPressedThisFrame, float axis)"
+
+.SS "void PlayerAttack\&.RotateTurretToMousePos ()"
+
+.SS "void PlayerAttack\&.SimulateShoot ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "float PlayerAttack\&.spawnBaseForceMultiplier = 100f"
+
+.SS "Transform PlayerAttack\&.spawnSocket"
+
+.SS "Transform PlayerAttack\&.turret"
+
+.SS "float PlayerAttack\&.turretLerpRotSpeed = 5f"
+
+.SS "float PlayerAttack\&.turretRotZOffset = 90"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

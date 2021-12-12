@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_maze" kind="class" language="C#" prot="public">
+    <compoundname>Maze</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_maze_1a5086353e3f09ad19dcd79e9bfc532a9f" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_map_location" kindref="compound">MapLocation</ref> &gt;</type>
+        <definition>List&lt;MapLocation&gt; Maze.directions</definition>
+        <argsstring></argsstring>
+        <name>directions</name>
+        <initializer>= new List&lt;<ref refid="class_map_location" kindref="compound">MapLocation</ref>&gt;()
+    {
+        new <ref refid="class_map_location" kindref="compound">MapLocation</ref>(1,0),
+        new <ref refid="class_map_location" kindref="compound">MapLocation</ref>(0,1),
+        new <ref refid="class_map_location" kindref="compound">MapLocation</ref>(-1,0),
+        new <ref refid="class_map_location" kindref="compound">MapLocation</ref>(0,-1)
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="45" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1a35f4a1539a2bc2afc30a4b7800496a8e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Maze.xMin</definition>
+        <argsstring></argsstring>
+        <name>xMin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="53" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_maze_1a7fc3f2f27713b1fb94405ff2c705564e" compoundref="_maze_8cs" startline="101" endline="119">Generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1a26d36b2c138a0b58204773bac35f4f21" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Maze.yMin</definition>
+        <argsstring></argsstring>
+        <name>yMin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="54" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_maze_1a7fc3f2f27713b1fb94405ff2c705564e" compoundref="_maze_8cs" startline="101" endline="119">Generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1a794d25d03be2e52a2f40190dfb60c37b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Maze.xMax</definition>
+        <argsstring></argsstring>
+        <name>xMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="55" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_maze_1a7fc3f2f27713b1fb94405ff2c705564e" compoundref="_maze_8cs" startline="101" endline="119">Generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1a74d4a2aed7e4d47408e4ebcd4b587cc4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Maze.yMax</definition>
+        <argsstring></argsstring>
+        <name>yMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="56" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_maze_1a7fc3f2f27713b1fb94405ff2c705564e" compoundref="_maze_8cs" startline="101" endline="119">Generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1a10150f0d6609031d2cf8b6daa399b092" prot="public" static="no" mutable="no">
+        <type>byte[,]</type>
+        <definition>byte [,] Maze.map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="57" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_maze_1a7fc3f2f27713b1fb94405ff2c705564e" compoundref="_maze_8cs" startline="101" endline="119">Generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1a21a5192a75690e8fff87dd5b49d64d28" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Maze.scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="58" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1af316f9462faa5e378fd0431f80b8e658" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Maze.tileMarkerPrefab</definition>
+        <argsstring></argsstring>
+        <name>tileMarkerPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="59" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_maze_1a36f5d2cb3bb166565656c6ef93b160ab" prot="private" static="no" mutable="no">
+        <type>Tilemap</type>
+        <definition>Tilemap Maze.tilemap</definition>
+        <argsstring></argsstring>
+        <name>tilemap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="61" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1a1100a8e0f60dfa7806069a64643826fa" prot="private" static="no" mutable="no">
+        <type>Vector3Int</type>
+        <definition>Vector3Int Maze.tilePosition</definition>
+        <argsstring></argsstring>
+        <name>tilePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="62" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_maze_1a3572c582fc32862a8c3497ba002837dd" prot="private" static="no" mutable="no">
+        <type>Vector3Int</type>
+        <definition>Vector3Int Maze.coordinate</definition>
+        <argsstring></argsstring>
+        <name>coordinate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="63" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_maze_1aab1962afb68787a3e594409d595dcf7d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Maze.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="65" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_maze_1a4ef6f871c880cee2b0f2c589811c664a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Maze.InitializeMap</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="71" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="71" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_maze_1a7fc3f2f27713b1fb94405ff2c705564e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Maze.Generate</definition>
+        <argsstring>()</argsstring>
+        <name>Generate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="101" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="101" bodyend="119"/>
+        <references refid="class_maze_1a10150f0d6609031d2cf8b6daa399b092" compoundref="_maze_8cs" startline="57">map</references>
+        <references refid="class_maze_1a794d25d03be2e52a2f40190dfb60c37b" compoundref="_maze_8cs" startline="55">xMax</references>
+        <references refid="class_maze_1a35f4a1539a2bc2afc30a4b7800496a8e" compoundref="_maze_8cs" startline="53">xMin</references>
+        <references refid="class_maze_1a74d4a2aed7e4d47408e4ebcd4b587cc4" compoundref="_maze_8cs" startline="56">yMax</references>
+        <references refid="class_maze_1a26d36b2c138a0b58204773bac35f4f21" compoundref="_maze_8cs" startline="54">yMin</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Maze</label>
+        <link refid="class_maze"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Maze</label>
+        <link refid="class_maze"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="43" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="44" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_maze_1a3572c582fc32862a8c3497ba002837dd" prot="private" virt="non-virtual"><scope>Maze</scope><name>coordinate</name></member>
+      <member refid="class_maze_1a5086353e3f09ad19dcd79e9bfc532a9f" prot="public" virt="non-virtual"><scope>Maze</scope><name>directions</name></member>
+      <member refid="class_maze_1a7fc3f2f27713b1fb94405ff2c705564e" prot="public" virt="virtual"><scope>Maze</scope><name>Generate</name></member>
+      <member refid="class_maze_1a4ef6f871c880cee2b0f2c589811c664a" prot="private" virt="non-virtual"><scope>Maze</scope><name>InitializeMap</name></member>
+      <member refid="class_maze_1a10150f0d6609031d2cf8b6daa399b092" prot="public" virt="non-virtual"><scope>Maze</scope><name>map</name></member>
+      <member refid="class_maze_1a21a5192a75690e8fff87dd5b49d64d28" prot="public" virt="non-virtual"><scope>Maze</scope><name>scale</name></member>
+      <member refid="class_maze_1aab1962afb68787a3e594409d595dcf7d" prot="private" virt="non-virtual"><scope>Maze</scope><name>Start</name></member>
+      <member refid="class_maze_1a36f5d2cb3bb166565656c6ef93b160ab" prot="private" virt="non-virtual"><scope>Maze</scope><name>tilemap</name></member>
+      <member refid="class_maze_1af316f9462faa5e378fd0431f80b8e658" prot="public" virt="non-virtual"><scope>Maze</scope><name>tileMarkerPrefab</name></member>
+      <member refid="class_maze_1a1100a8e0f60dfa7806069a64643826fa" prot="private" virt="non-virtual"><scope>Maze</scope><name>tilePosition</name></member>
+      <member refid="class_maze_1a794d25d03be2e52a2f40190dfb60c37b" prot="public" virt="non-virtual"><scope>Maze</scope><name>xMax</name></member>
+      <member refid="class_maze_1a35f4a1539a2bc2afc30a4b7800496a8e" prot="public" virt="non-virtual"><scope>Maze</scope><name>xMin</name></member>
+      <member refid="class_maze_1a74d4a2aed7e4d47408e4ebcd4b587cc4" prot="public" virt="non-virtual"><scope>Maze</scope><name>yMax</name></member>
+      <member refid="class_maze_1a26d36b2c138a0b58204773bac35f4f21" prot="public" virt="non-virtual"><scope>Maze</scope><name>yMin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

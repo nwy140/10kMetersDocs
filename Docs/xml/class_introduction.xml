@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_introduction" kind="class" language="C#" prot="public">
+    <compoundname>Introduction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_introduction_1ad6cdacef1ccc2acd5d61744500e92894" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_introduction" kindref="compound">Introduction</ref></type>
+        <definition>Introduction Introduction.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="7" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_introduction_1a2a66d4eb05f1675099a9543c0b0ded78" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Introduction.introPanel</definition>
+        <argsstring></argsstring>
+        <name>introPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="10" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_introduction_1ae27a989cc1bd487b4c5d30e481338d28" compoundref="_introduction_8cs" startline="106" endline="111">EndBrief</referencedby>
+        <referencedby refid="class_introduction_1a9242ffe53b5baf5d588344da0caede02" compoundref="_introduction_8cs" startline="99" endline="104">ExplainAgain</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_introduction_1aa8b3dce1c40abda3ed00e2478f32c743" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Introduction.choicePanel</definition>
+        <argsstring></argsstring>
+        <name>choicePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="11" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_introduction_1ae27a989cc1bd487b4c5d30e481338d28" compoundref="_introduction_8cs" startline="106" endline="111">EndBrief</referencedby>
+        <referencedby refid="class_introduction_1a9242ffe53b5baf5d588344da0caede02" compoundref="_introduction_8cs" startline="99" endline="104">ExplainAgain</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_introduction_1a3890be21b498b06fae2f23a99ff4501a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Introduction.scientistTalk</definition>
+        <argsstring></argsstring>
+        <name>scientistTalk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="14" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_introduction_1a564655aef3c325062ecf924bb6332173" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Introduction.scientistIdle</definition>
+        <argsstring></argsstring>
+        <name>scientistIdle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="15" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_introduction_1a6946aca073c1605513deda4308572737" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Introduction.glasses</definition>
+        <argsstring></argsstring>
+        <name>glasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="16" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_introduction_1a03281e70be2e078c4a759d64d40c356a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Introduction.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="20" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_introduction_1af786a72d16bb814ae1a99468cf56c2a6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Introduction.askAgain</definition>
+        <argsstring></argsstring>
+        <name>askAgain</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="21" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_introduction_1a9242ffe53b5baf5d588344da0caede02" compoundref="_introduction_8cs" startline="99" endline="104">ExplainAgain</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_introduction_1ac4f350884ea2f39ebf4c68acf37e4233" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Introduction.hasUnderstand</definition>
+        <argsstring></argsstring>
+        <name>hasUnderstand</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="22" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_introduction_1ae27a989cc1bd487b4c5d30e481338d28" compoundref="_introduction_8cs" startline="106" endline="111">EndBrief</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_introduction_1abb8b071b7b5efdb2cc1b3a0936dc0e47" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] Introduction.intro</definition>
+        <argsstring></argsstring>
+        <name>intro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="115" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_introduction_1aa3a99454158c84c282dc31837f3eb5c4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_dialogue_system" kindref="compound">DialogueSystem</ref></type>
+        <definition>DialogueSystem Introduction.dialogue</definition>
+        <argsstring></argsstring>
+        <name>dialogue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="24" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_introduction_1a67f6487065a0655b941cc141842d4a05" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Introduction.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="26" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_introduction_1a614d16eec528f4f855bedd8b10fe48f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Introduction.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="32" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_introduction_1a2236cb75473793b9b95206caeb5b3aca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Introduction.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="37" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="37" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_introduction_1af103a6c4026149ef26feac6f621cc45d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Introduction.Talk</definition>
+        <argsstring>(string s)</argsstring>
+        <name>Talk</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="90" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="90" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_introduction_1a9242ffe53b5baf5d588344da0caede02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Introduction.ExplainAgain</definition>
+        <argsstring>()</argsstring>
+        <name>ExplainAgain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="99" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="99" bodyend="104"/>
+        <references refid="class_introduction_1af786a72d16bb814ae1a99468cf56c2a6" compoundref="_introduction_8cs" startline="21">askAgain</references>
+        <references refid="class_introduction_1aa8b3dce1c40abda3ed00e2478f32c743" compoundref="_introduction_8cs" startline="11">choicePanel</references>
+        <references refid="class_introduction_1a2a66d4eb05f1675099a9543c0b0ded78" compoundref="_introduction_8cs" startline="10">introPanel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_introduction_1ae27a989cc1bd487b4c5d30e481338d28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Introduction.EndBrief</definition>
+        <argsstring>()</argsstring>
+        <name>EndBrief</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="106" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="106" bodyend="111"/>
+        <references refid="class_introduction_1aa8b3dce1c40abda3ed00e2478f32c743" compoundref="_introduction_8cs" startline="11">choicePanel</references>
+        <references refid="class_introduction_1ac4f350884ea2f39ebf4c68acf37e4233" compoundref="_introduction_8cs" startline="22">hasUnderstand</references>
+        <references refid="class_introduction_1a2a66d4eb05f1675099a9543c0b0ded78" compoundref="_introduction_8cs" startline="10">introPanel</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Introduction</label>
+        <link refid="class_introduction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Introduction</label>
+        <link refid="class_introduction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/Introduction.cs" bodystart="6" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_introduction_1af786a72d16bb814ae1a99468cf56c2a6" prot="public" virt="non-virtual"><scope>Introduction</scope><name>askAgain</name></member>
+      <member refid="class_introduction_1a614d16eec528f4f855bedd8b10fe48f8" prot="private" virt="non-virtual"><scope>Introduction</scope><name>Awake</name></member>
+      <member refid="class_introduction_1aa8b3dce1c40abda3ed00e2478f32c743" prot="public" virt="non-virtual"><scope>Introduction</scope><name>choicePanel</name></member>
+      <member refid="class_introduction_1aa3a99454158c84c282dc31837f3eb5c4" prot="private" virt="non-virtual"><scope>Introduction</scope><name>dialogue</name></member>
+      <member refid="class_introduction_1ae27a989cc1bd487b4c5d30e481338d28" prot="public" virt="non-virtual"><scope>Introduction</scope><name>EndBrief</name></member>
+      <member refid="class_introduction_1a9242ffe53b5baf5d588344da0caede02" prot="public" virt="non-virtual"><scope>Introduction</scope><name>ExplainAgain</name></member>
+      <member refid="class_introduction_1a6946aca073c1605513deda4308572737" prot="public" virt="non-virtual"><scope>Introduction</scope><name>glasses</name></member>
+      <member refid="class_introduction_1ac4f350884ea2f39ebf4c68acf37e4233" prot="public" virt="non-virtual"><scope>Introduction</scope><name>hasUnderstand</name></member>
+      <member refid="class_introduction_1a03281e70be2e078c4a759d64d40c356a" prot="public" virt="non-virtual"><scope>Introduction</scope><name>index</name></member>
+      <member refid="class_introduction_1ad6cdacef1ccc2acd5d61744500e92894" prot="public" virt="non-virtual"><scope>Introduction</scope><name>instance</name></member>
+      <member refid="class_introduction_1abb8b071b7b5efdb2cc1b3a0936dc0e47" prot="public" virt="non-virtual"><scope>Introduction</scope><name>intro</name></member>
+      <member refid="class_introduction_1a2a66d4eb05f1675099a9543c0b0ded78" prot="public" virt="non-virtual"><scope>Introduction</scope><name>introPanel</name></member>
+      <member refid="class_introduction_1a564655aef3c325062ecf924bb6332173" prot="public" virt="non-virtual"><scope>Introduction</scope><name>scientistIdle</name></member>
+      <member refid="class_introduction_1a3890be21b498b06fae2f23a99ff4501a" prot="public" virt="non-virtual"><scope>Introduction</scope><name>scientistTalk</name></member>
+      <member refid="class_introduction_1a67f6487065a0655b941cc141842d4a05" prot="private" virt="non-virtual"><scope>Introduction</scope><name>Start</name></member>
+      <member refid="class_introduction_1af103a6c4026149ef26feac6f621cc45d" prot="private" virt="non-virtual"><scope>Introduction</scope><name>Talk</name></member>
+      <member refid="class_introduction_1a2236cb75473793b9b95206caeb5b3aca" prot="private" virt="non-virtual"><scope>Introduction</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

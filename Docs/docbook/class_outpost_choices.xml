@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_outpost_choices" xml:lang="en-US">
+<title>OutpostChoices Class Reference</title>
+<indexterm><primary>OutpostChoices</primary></indexterm>
+Inheritance diagram for OutpostChoices:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_outpost_choices__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for OutpostChoices:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_outpost_choices__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf">TalkWithScientist</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd">EnablePanels</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_outpost_choices_1a1a2974f7449ec5444e11d43d537c49cc">ReturnSea</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_outpost_choices_1a9ffecc5f8e73e9f5415553baa4310058">defaultPanel</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_outpost_choices_1ab9590e64ac7d0c70de1e734f51a8d7de">newsPanel</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_outpost_choices_1a3f200d6ef105d35123a3a9d8c237e44c">scientistIdleAnim</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_outpost_choices_1ab7be177ae22a8f496e0c158c570e2909">scientistTalkAnim</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_outpost_choices_1ac1f7795e000ab5029b4ffc8308052738">coverPanel</link></para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_outpost_choices_1a4ca6c9291feea7e668016f7220bd460d">nameText</link></para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_outpost_choices_1ab421015f5146da5f722e48a2f54b5a1a">textBox</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_outpost_choices_1ac5af426c095db3b693770a0676602163">isActive</link> = false</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_outpost_choices">OutpostChoices</link> <link linkend="_class_outpost_choices_1af1407b416247318d9835c5182b0967d0">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd"/><section>
+    <title>EnablePanels()</title>
+<indexterm><primary>EnablePanels</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>EnablePanels</secondary></indexterm>
+<para><computeroutput>void OutpostChoices.EnablePanels ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_outpost_choices_aab31f5f04995bcaeb14d4678e4cf76bd_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_outpost_choices_1a1a2974f7449ec5444e11d43d537c49cc"/><section>
+    <title>ReturnSea()</title>
+<indexterm><primary>ReturnSea</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>ReturnSea</secondary></indexterm>
+<para><computeroutput>void OutpostChoices.ReturnSea ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_outpost_choices_a1a2974f7449ec5444e11d43d537c49cc_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf"/><section>
+    <title>TalkWithScientist()</title>
+<indexterm><primary>TalkWithScientist</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>TalkWithScientist</secondary></indexterm>
+<para><computeroutput>void OutpostChoices.TalkWithScientist ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_outpost_choices_1ac1f7795e000ab5029b4ffc8308052738"/><section>
+    <title>coverPanel</title>
+<indexterm><primary>coverPanel</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>coverPanel</secondary></indexterm>
+<para><computeroutput>GameObject OutpostChoices.coverPanel</computeroutput></para></section>
+<anchor xml:id="_class_outpost_choices_1a9ffecc5f8e73e9f5415553baa4310058"/><section>
+    <title>defaultPanel</title>
+<indexterm><primary>defaultPanel</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>defaultPanel</secondary></indexterm>
+<para><computeroutput>GameObject OutpostChoices.defaultPanel</computeroutput></para></section>
+<anchor xml:id="_class_outpost_choices_1af1407b416247318d9835c5182b0967d0"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_outpost_choices">OutpostChoices</link> OutpostChoices.instance<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_outpost_choices_1ac5af426c095db3b693770a0676602163"/><section>
+    <title>isActive</title>
+<indexterm><primary>isActive</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>isActive</secondary></indexterm>
+<para><computeroutput>bool OutpostChoices.isActive = false</computeroutput></para></section>
+<anchor xml:id="_class_outpost_choices_1a4ca6c9291feea7e668016f7220bd460d"/><section>
+    <title>nameText</title>
+<indexterm><primary>nameText</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>nameText</secondary></indexterm>
+<para><computeroutput>Text OutpostChoices.nameText</computeroutput></para></section>
+<anchor xml:id="_class_outpost_choices_1ab9590e64ac7d0c70de1e734f51a8d7de"/><section>
+    <title>newsPanel</title>
+<indexterm><primary>newsPanel</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>newsPanel</secondary></indexterm>
+<para><computeroutput>GameObject OutpostChoices.newsPanel</computeroutput></para></section>
+<anchor xml:id="_class_outpost_choices_1a3f200d6ef105d35123a3a9d8c237e44c"/><section>
+    <title>scientistIdleAnim</title>
+<indexterm><primary>scientistIdleAnim</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>scientistIdleAnim</secondary></indexterm>
+<para><computeroutput>GameObject OutpostChoices.scientistIdleAnim</computeroutput></para></section>
+<anchor xml:id="_class_outpost_choices_1ab7be177ae22a8f496e0c158c570e2909"/><section>
+    <title>scientistTalkAnim</title>
+<indexterm><primary>scientistTalkAnim</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>scientistTalkAnim</secondary></indexterm>
+<para><computeroutput>GameObject OutpostChoices.scientistTalkAnim</computeroutput></para></section>
+<anchor xml:id="_class_outpost_choices_1ab421015f5146da5f722e48a2f54b5a1a"/><section>
+    <title>textBox</title>
+<indexterm><primary>textBox</primary><secondary>OutpostChoices</secondary></indexterm>
+<indexterm><primary>OutpostChoices</primary><secondary>textBox</secondary></indexterm>
+<para><computeroutput>Text OutpostChoices.textBox</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/<link linkend="__outpost_choices_8cs">OutpostChoices.cs</link></section>
+</section>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_file_read_write" xml:lang="en-US">
+<title>FileReadWrite Class Reference</title>
+<indexterm><primary>FileReadWrite</primary></indexterm>
+Collaboration diagram for FileReadWrite:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_file_read_write__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_file_read_write_1a9afc555c8289f59f71449f568b047be1">WriteToBinaryFile&lt; T &gt;</link> (string filePath, T objectToWrite)</para>
+</listitem>
+            <listitem><para>static T <link linkend="_class_file_read_write_1a0356decbcc891e9aa85054e223e5198f">ReadFromBinaryFile&lt; T &gt;</link> (string filePath)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_file_read_write_1a0356decbcc891e9aa85054e223e5198f"/><section>
+    <title>ReadFromBinaryFile&lt; T &gt;()</title>
+<indexterm><primary>ReadFromBinaryFile&lt; T &gt;</primary><secondary>FileReadWrite</secondary></indexterm>
+<indexterm><primary>FileReadWrite</primary><secondary>ReadFromBinaryFile&lt; T &gt;</secondary></indexterm>
+<para><computeroutput>static T FileReadWrite.ReadFromBinaryFile&lt; T &gt; (string filePath)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_file_read_write_1a9afc555c8289f59f71449f568b047be1"/><section>
+    <title>WriteToBinaryFile&lt; T &gt;()</title>
+<indexterm><primary>WriteToBinaryFile&lt; T &gt;</primary><secondary>FileReadWrite</secondary></indexterm>
+<indexterm><primary>FileReadWrite</primary><secondary>WriteToBinaryFile&lt; T &gt;</secondary></indexterm>
+<para><computeroutput>static void FileReadWrite.WriteToBinaryFile&lt; T &gt; (string filePath, T objectToWrite)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/<link linkend="__file_read_write_8cs">FileReadWrite.cs</link></section>
+</section>

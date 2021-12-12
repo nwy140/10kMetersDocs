@@ -1,0 +1,702 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_health" kind="class" language="C#" prot="public">
+    <compoundname>PlayerHealth</compoundname>
+    <basecompoundref refid="class_player" prot="public" virt="non-virtual">Player</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_health_1a347eaadbfbea2abf121150945ce7eea6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+        <definition>UpgradeHolder PlayerHealth.upgradeHolder</definition>
+        <argsstring></argsstring>
+        <name>upgradeHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="12" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a6c9b7fc727c089a27a805641103c0bf0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_movement" kindref="compound">PlayerMovement</ref></type>
+        <definition>PlayerMovement PlayerHealth.playerMovement</definition>
+        <argsstring></argsstring>
+        <name>playerMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="15" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a5e49c35243d52f9b96558a1d4e528d97" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hull" kindref="compound">Hull</ref></type>
+        <definition>Hull PlayerHealth.currentHullUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentHullUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="18" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1af7284b9f26a4db123e139b55653dd696" prot="private" static="no" mutable="no">
+        <type><ref refid="class_self_repair" kindref="compound">SelfRepair</ref></type>
+        <definition>SelfRepair PlayerHealth.currentSelfRepairUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentSelfRepairUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="20" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1ac469bf3bfb1848d9356f4e4a49814635" prot="private" static="no" mutable="no">
+        <type><ref refid="class_oxygen_tank" kindref="compound">OxygenTank</ref></type>
+        <definition>OxygenTank PlayerHealth.currentOxygenTankUpgrade</definition>
+        <argsstring></argsstring>
+        <name>currentOxygenTankUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="21" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1ad19046643890792cbfaaefd28459922f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.healthDepletionAmount</definition>
+        <argsstring></argsstring>
+        <name>healthDepletionAmount</name>
+        <initializer>= 0.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="26" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a0b121625f4fd23c529a6d4caf14dc540" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.healthDepletionRate</definition>
+        <argsstring></argsstring>
+        <name>healthDepletionRate</name>
+        <initializer>= 3.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="27" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1aeca0156fd16cae9f0cf86d77c16a023b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerHealth.loseScreen</definition>
+        <argsstring></argsstring>
+        <name>loseScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="28" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1aab3c5c323e536a836d5d829ffc284cc0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.healthDepletionTime</definition>
+        <argsstring></argsstring>
+        <name>healthDepletionTime</name>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="29" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a4b5325033f1234df854bed45f59b6113" prot="private" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider PlayerHealth.healthBar</definition>
+        <argsstring></argsstring>
+        <name>healthBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="30" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a8df3161751874fb7c3840338d9f362cc" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerHealth.healthChargeGroup</definition>
+        <argsstring></argsstring>
+        <name>healthChargeGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="31" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a078ed4358890a0cd3d3d53eeb7156bbb" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerHealth.healthCharge</definition>
+        <argsstring></argsstring>
+        <name>healthCharge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="32" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a13ac1e5dee81cef413f73b45ea4f460a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerHealth.availableHealthKits</definition>
+        <argsstring></argsstring>
+        <name>availableHealthKits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="34" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1ae28e1be72b9339e26b9916ff845f57d9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.oxygenDepletionAmount</definition>
+        <argsstring></argsstring>
+        <name>oxygenDepletionAmount</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="39" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a64b4b739e22efd2cc21c8290e0647d96" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.oxygenDepletionRate</definition>
+        <argsstring></argsstring>
+        <name>oxygenDepletionRate</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="40" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a3dfc7f9510e425dc94aaa13da1dbb257" prot="private" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider PlayerHealth.oxygenSupplyBar</definition>
+        <argsstring></argsstring>
+        <name>oxygenSupplyBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="41" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a9d8397ea3a1728a67817bf76fb72d556" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pressure_stage_checker" kindref="compound">PressureStageChecker</ref></type>
+        <definition>PressureStageChecker PlayerHealth.pressureStageChecker</definition>
+        <argsstring></argsstring>
+        <name>pressureStageChecker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="42" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a9b097b5b713c492c797d88bd96c396e1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.pressureStrength</definition>
+        <argsstring></argsstring>
+        <name>pressureStrength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="43" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a539154f09903641276fc99a9c29b4771" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.selfRepairTime</definition>
+        <argsstring></argsstring>
+        <name>selfRepairTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="44" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1aa6ef12e2e4dd2abd022251e4c2b0af62" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.oxygenSupply</definition>
+        <argsstring></argsstring>
+        <name>oxygenSupply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="45" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a7bc7214f8cf6ce8a050ff4efa8b3cf08" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.oxygenDepletionTime</definition>
+        <argsstring></argsstring>
+        <name>oxygenDepletionTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="46" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1af2b43cf73e307cd87039529283b945a8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerHealth.isOxygenTankEmpty</definition>
+        <argsstring></argsstring>
+        <name>isOxygenTankEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="47" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1a57549e33b77d27578b343484e512d4e1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerHealth.playOnce</definition>
+        <argsstring></argsstring>
+        <name>playOnce</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="48" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_health_1a4ef834dbdf3b58dbf9e6bf4ec3997f67" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerHealth.health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="33" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_player_health_1a30587080b83854f50e5590acee678717" compoundref="_player_health_8cs" startline="350" endline="362">saveHealth</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1aabbb7d4285a20fa81fb79abc8439ddd8" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent PlayerHealth.OnHPDeplete</definition>
+        <argsstring></argsstring>
+        <name>OnHPDeplete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="315" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="315" bodyend="-1"/>
+        <referencedby refid="class_player_health_1a324a55040b4b1215d6bc61cc79564da5" compoundref="_player_health_8cs" startline="176" endline="185">GetDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_health_1ab704caa5f30e8cebc3a0a69c7c96800c" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent PlayerHealth.OnKO</definition>
+        <argsstring></argsstring>
+        <name>OnKO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="341" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="341" bodyend="-1"/>
+        <referencedby refid="class_player_health_1a9dc4716640dbd9ba5c7c5b364c2f191d" compoundref="_player_health_8cs" startline="187" endline="198">KillPlayer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_health_1a5de7909cbaba3f4da83878ed56e995d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="50" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a2dc105641d870f4a48bf90a5d0dec87c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="55" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="55" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a6651c76ce51525f4fd40f56d6502ceeb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PlayerHealth.DelayHealthDepletion</definition>
+        <argsstring>()</argsstring>
+        <name>DelayHealthDepletion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="153" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="153" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a3c49fdd702b2cf0fca654ef6e502f311" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="159" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="159" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a2b480461a5f836b7a1fe8ba81bd79193" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="199" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a21134f0fe67ad8f18be4efcd5c029799" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="203" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1af71517899e344cf5ff9767d272b644b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PlayerHealth.EnableLoseScreen</definition>
+        <argsstring>()</argsstring>
+        <name>EnableLoseScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="214" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="214" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1af80a1c68de7b88321f5089b19a5e6d07" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.HealCommand</definition>
+        <argsstring>()</argsstring>
+        <name>HealCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="220" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="220" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a09581b6e07ac08727dad56244afe350e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.HealthAndOxygenBehavior</definition>
+        <argsstring>()</argsstring>
+        <name>HealthAndOxygenBehavior</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="240" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="240" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1aaab3ab06517a3eb03284760047e869cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.SetPlayOnce</definition>
+        <argsstring>()</argsstring>
+        <name>SetPlayOnce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="317" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="317" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a38d072c43af16b52dab398e46553f3c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.HealthDeplete</definition>
+        <argsstring>()</argsstring>
+        <name>HealthDeplete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="322" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="322" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a46065dde446b5f9ebf5d090cbf23348a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.TankFall</definition>
+        <argsstring>()</argsstring>
+        <name>TankFall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="337" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="337" bodyend="340"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_health_1ac06e6ad78d71568910876f41dbd49a53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_hull" kindref="compound">Hull</ref></type>
+        <definition>Hull PlayerHealth.GetHull</definition>
+        <argsstring>()</argsstring>
+        <name>GetHull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="171" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a324a55040b4b1215d6bc61cc79564da5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.GetDamage</definition>
+        <argsstring>(float damage)</argsstring>
+        <name>GetDamage</name>
+        <param>
+          <type>float</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="176" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="176" bodyend="185"/>
+        <references refid="class_player_movement_1a337ddf0c30749248244531818e379772" compoundref="_player_movement_8cs" startline="343" endline="350">PlayerMovement.IsInvincible</references>
+        <references refid="class_player_health_1aabbb7d4285a20fa81fb79abc8439ddd8" compoundref="_player_health_8cs" startline="315">OnHPDeplete</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a9dc4716640dbd9ba5c7c5b364c2f191d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.KillPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>KillPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="187" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="187" bodyend="198"/>
+        <references refid="class_player_health_1a5774cd790e17617df86640ac053a4ee6" compoundref="_player_health_8cs" startline="207" endline="213">DeletePersistentPathDirAndPlayerPrefs</references>
+        <references refid="class_player_1ac546e5988a6e13cafc7a2b4820351ee2" compoundref="_player_8cs" startline="7">Player.isDead</references>
+        <references refid="class_player_health_1ab704caa5f30e8cebc3a0a69c7c96800c" compoundref="_player_health_8cs" startline="341">OnKO</references>
+        <references refid="class_player_1aea53f64a37269e7378929cf92feba188" compoundref="_player_8cs" startline="5">Player.sprite</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a5774cd790e17617df86640ac053a4ee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.DeletePersistentPathDirAndPlayerPrefs</definition>
+        <argsstring>()</argsstring>
+        <name>DeletePersistentPathDirAndPlayerPrefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="207" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="207" bodyend="213"/>
+        <references refid="class_player_health_1a30587080b83854f50e5590acee678717" compoundref="_player_health_8cs" startline="350" endline="362">saveHealth</references>
+        <referencedby refid="class_player_health_1a9dc4716640dbd9ba5c7c5b364c2f191d" compoundref="_player_health_8cs" startline="187" endline="198">KillPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a6d0f1e94e466fbe355056e100fb405b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.OnInputSecondaryCommandSlot4</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnInputSecondaryCommandSlot4</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="342" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="342" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_health_1a30587080b83854f50e5590acee678717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHealth.saveHealth</definition>
+        <argsstring>()</argsstring>
+        <name>saveHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="350" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="350" bodyend="362"/>
+        <references refid="class_player_health_1a4ef834dbdf3b58dbf9e6bf4ec3997f67" compoundref="_player_health_8cs" startline="33">health</references>
+        <referencedby refid="class_player_health_1a5774cd790e17617df86640ac053a4ee6" compoundref="_player_health_8cs" startline="207" endline="213">DeletePersistentPathDirAndPlayerPrefs</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PlayerHealth</label>
+        <link refid="class_player_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PlayerHealth</label>
+        <link refid="class_player_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" line="10" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/PlayerHealth.cs" bodystart="11" bodyend="364"/>
+    <listofallmembers>
+      <member refid="class_player_health_1a13ac1e5dee81cef413f73b45ea4f460a" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>availableHealthKits</name></member>
+      <member refid="class_player_health_1a5de7909cbaba3f4da83878ed56e995d0" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>Awake</name></member>
+      <member refid="class_player_health_1a5e49c35243d52f9b96558a1d4e528d97" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>currentHullUpgrade</name></member>
+      <member refid="class_player_health_1ac469bf3bfb1848d9356f4e4a49814635" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>currentOxygenTankUpgrade</name></member>
+      <member refid="class_player_health_1af7284b9f26a4db123e139b55653dd696" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>currentSelfRepairUpgrade</name></member>
+      <member refid="class_player_health_1a6651c76ce51525f4fd40f56d6502ceeb" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>DelayHealthDepletion</name></member>
+      <member refid="class_player_health_1a5774cd790e17617df86640ac053a4ee6" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>DeletePersistentPathDirAndPlayerPrefs</name></member>
+      <member refid="class_player_health_1af71517899e344cf5ff9767d272b644b6" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>EnableLoseScreen</name></member>
+      <member refid="class_player_health_1a324a55040b4b1215d6bc61cc79564da5" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>GetDamage</name></member>
+      <member refid="class_player_health_1ac06e6ad78d71568910876f41dbd49a53" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>GetHull</name></member>
+      <member refid="class_player_health_1af80a1c68de7b88321f5089b19a5e6d07" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>HealCommand</name></member>
+      <member refid="class_player_health_1a4ef834dbdf3b58dbf9e6bf4ec3997f67" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>health</name></member>
+      <member refid="class_player_health_1a09581b6e07ac08727dad56244afe350e" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>HealthAndOxygenBehavior</name></member>
+      <member refid="class_player_health_1a4b5325033f1234df854bed45f59b6113" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>healthBar</name></member>
+      <member refid="class_player_health_1a078ed4358890a0cd3d3d53eeb7156bbb" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>healthCharge</name></member>
+      <member refid="class_player_health_1a8df3161751874fb7c3840338d9f362cc" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>healthChargeGroup</name></member>
+      <member refid="class_player_health_1a38d072c43af16b52dab398e46553f3c0" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>HealthDeplete</name></member>
+      <member refid="class_player_health_1ad19046643890792cbfaaefd28459922f" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>healthDepletionAmount</name></member>
+      <member refid="class_player_health_1a0b121625f4fd23c529a6d4caf14dc540" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>healthDepletionRate</name></member>
+      <member refid="class_player_health_1aab3c5c323e536a836d5d829ffc284cc0" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>healthDepletionTime</name></member>
+      <member refid="class_player_1ac546e5988a6e13cafc7a2b4820351ee2" prot="protected" virt="non-virtual"><scope>PlayerHealth</scope><name>isDead</name></member>
+      <member refid="class_player_health_1af2b43cf73e307cd87039529283b945a8" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>isOxygenTankEmpty</name></member>
+      <member refid="class_player_health_1a9dc4716640dbd9ba5c7c5b364c2f191d" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>KillPlayer</name></member>
+      <member refid="class_player_health_1aeca0156fd16cae9f0cf86d77c16a023b" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>loseScreen</name></member>
+      <member refid="class_player_health_1a21134f0fe67ad8f18be4efcd5c029799" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>OnDestroy</name></member>
+      <member refid="class_player_health_1a2b480461a5f836b7a1fe8ba81bd79193" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>OnDisable</name></member>
+      <member refid="class_player_health_1aabbb7d4285a20fa81fb79abc8439ddd8" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>OnHPDeplete</name></member>
+      <member refid="class_player_health_1a6d0f1e94e466fbe355056e100fb405b2" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>OnInputSecondaryCommandSlot4</name></member>
+      <member refid="class_player_health_1ab704caa5f30e8cebc3a0a69c7c96800c" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>OnKO</name></member>
+      <member refid="class_player_health_1ae28e1be72b9339e26b9916ff845f57d9" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>oxygenDepletionAmount</name></member>
+      <member refid="class_player_health_1a64b4b739e22efd2cc21c8290e0647d96" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>oxygenDepletionRate</name></member>
+      <member refid="class_player_health_1a7bc7214f8cf6ce8a050ff4efa8b3cf08" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>oxygenDepletionTime</name></member>
+      <member refid="class_player_health_1aa6ef12e2e4dd2abd022251e4c2b0af62" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>oxygenSupply</name></member>
+      <member refid="class_player_health_1a3dfc7f9510e425dc94aaa13da1dbb257" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>oxygenSupplyBar</name></member>
+      <member refid="class_player_health_1a6c9b7fc727c089a27a805641103c0bf0" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>playerMovement</name></member>
+      <member refid="class_player_1af093347214c362c15ea71eec0394207a" prot="protected" virt="non-virtual"><scope>PlayerHealth</scope><name>playerRigidbody2D</name></member>
+      <member refid="class_player_health_1a57549e33b77d27578b343484e512d4e1" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>playOnce</name></member>
+      <member refid="class_player_health_1a9d8397ea3a1728a67817bf76fb72d556" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>pressureStageChecker</name></member>
+      <member refid="class_player_health_1a9b097b5b713c492c797d88bd96c396e1" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>pressureStrength</name></member>
+      <member refid="class_player_health_1a30587080b83854f50e5590acee678717" prot="public" virt="non-virtual"><scope>PlayerHealth</scope><name>saveHealth</name></member>
+      <member refid="class_player_health_1a539154f09903641276fc99a9c29b4771" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>selfRepairTime</name></member>
+      <member refid="class_player_health_1aaab3ab06517a3eb03284760047e869cd" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>SetPlayOnce</name></member>
+      <member refid="class_player_1aea53f64a37269e7378929cf92feba188" prot="protected" virt="non-virtual"><scope>PlayerHealth</scope><name>sprite</name></member>
+      <member refid="class_player_health_1a2dc105641d870f4a48bf90a5d0dec87c" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>Start</name></member>
+      <member refid="class_player_health_1a46065dde446b5f9ebf5d090cbf23348a" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>TankFall</name></member>
+      <member refid="class_player_health_1a3c49fdd702b2cf0fca654ef6e502f311" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>Update</name></member>
+      <member refid="class_player_health_1a347eaadbfbea2abf121150945ce7eea6" prot="private" virt="non-virtual"><scope>PlayerHealth</scope><name>upgradeHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

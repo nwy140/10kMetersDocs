@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_pause_menu_scripts" kind="class" language="C#" prot="public">
+    <compoundname>PauseMenuScripts</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pause_menu_scripts_1a407c45c634ad60a9a78bf08f3e2425a3" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PauseMenuScripts.pauseMenu</definition>
+        <argsstring></argsstring>
+        <name>pauseMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="10" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_scripts_1a46715ef9658e56718ea159f440911fbc" compoundref="_pause_menu_scripts_8cs" startline="78" endline="81">DisablePause</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_scripts_1a28260699a68d28bcf0a30edc5bc216ce" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseMenuScripts.isPaused</definition>
+        <argsstring></argsstring>
+        <name>isPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="11" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1" compoundref="_pause_menu_scripts_8cs" startline="92" endline="98">ClosePauseMenu</referencedby>
+        <referencedby refid="class_pause_menu_scripts_1a202540804f9696b458816b5a9a263659" compoundref="_pause_menu_scripts_8cs" startline="107" endline="115">OnInput</referencedby>
+        <referencedby refid="class_pause_menu_scripts_1a123f46be08ea3e51275b40ac1d9f41f0" compoundref="_pause_menu_scripts_8cs" startline="83" endline="88">OpenPauseMenu</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_scripts_1a8763daf7b293cbcbbb56a4c8b19c26c6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseMenuScripts.isPauseMenuOn</definition>
+        <argsstring></argsstring>
+        <name>isPauseMenuOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="12" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1" compoundref="_pause_menu_scripts_8cs" startline="92" endline="98">ClosePauseMenu</referencedby>
+        <referencedby refid="class_pause_menu_scripts_1a202540804f9696b458816b5a9a263659" compoundref="_pause_menu_scripts_8cs" startline="107" endline="115">OnInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_scripts_1a3db868d5ce70b2e1be38be887978da25" prot="public" static="no" mutable="no">
+        <type><ref refid="class_character" kindref="compound">Character</ref></type>
+        <definition>Character PauseMenuScripts.character</definition>
+        <argsstring></argsstring>
+        <name>character</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="13" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_scripts_1a202540804f9696b458816b5a9a263659" compoundref="_pause_menu_scripts_8cs" startline="107" endline="115">OnInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_scripts_1a5ff15c5db9d5829b6c2580107c5c372d" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent PauseMenuScripts.onUnPause</definition>
+        <argsstring></argsstring>
+        <name>onUnPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="90" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="90" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1" compoundref="_pause_menu_scripts_8cs" startline="92" endline="98">ClosePauseMenu</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pause_menu_scripts_1a5ca47e77700b24f84dcd805ba7370049" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuScripts.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="15" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_scripts_1abcee854bb35f436a5aac746c96b8917c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuScripts.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="22" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="22" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pause_menu_scripts_1a46715ef9658e56718ea159f440911fbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuScripts.DisablePause</definition>
+        <argsstring>()</argsstring>
+        <name>DisablePause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="78" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="78" bodyend="81"/>
+        <references refid="class_pause_menu_scripts_1a407c45c634ad60a9a78bf08f3e2425a3" compoundref="_pause_menu_scripts_8cs" startline="10">pauseMenu</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_scripts_1a123f46be08ea3e51275b40ac1d9f41f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuScripts.OpenPauseMenu</definition>
+        <argsstring>()</argsstring>
+        <name>OpenPauseMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="83" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="83" bodyend="88"/>
+        <references refid="class_pause_menu_scripts_1a28260699a68d28bcf0a30edc5bc216ce" compoundref="_pause_menu_scripts_8cs" startline="11">isPaused</references>
+        <referencedby refid="class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a" compoundref="_quick_open_inventory_8cs" startline="38" endline="57">QuickOpenInventory.AttemptOpenInventory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuScripts.ClosePauseMenu</definition>
+        <argsstring>()</argsstring>
+        <name>ClosePauseMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="92" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="92" bodyend="98"/>
+        <references refid="class_pause_menu_scripts_1a28260699a68d28bcf0a30edc5bc216ce" compoundref="_pause_menu_scripts_8cs" startline="11">isPaused</references>
+        <references refid="class_pause_menu_scripts_1a8763daf7b293cbcbbb56a4c8b19c26c6" compoundref="_pause_menu_scripts_8cs" startline="12">isPauseMenuOn</references>
+        <references refid="class_pause_menu_scripts_1a5ff15c5db9d5829b6c2580107c5c372d" compoundref="_pause_menu_scripts_8cs" startline="90">onUnPause</references>
+        <referencedby refid="class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a" compoundref="_quick_open_inventory_8cs" startline="38" endline="57">QuickOpenInventory.AttemptOpenInventory</referencedby>
+        <referencedby refid="class_scene_transitions_to_outpost_1a1ca4ab0cf0ba1b5cee41e05a8f21f75e" compoundref="_scene_transitions_to_outpost_8cs" startline="26" endline="31">SceneTransitionsToOutpost.Confirm</referencedby>
+        <referencedby refid="class_pause_menu_scripts_1a07fd80a064d058fbbca8c8916149deb3" compoundref="_pause_menu_scripts_8cs" startline="100" endline="105">QuitGame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_scripts_1a07fd80a064d058fbbca8c8916149deb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuScripts.QuitGame</definition>
+        <argsstring>()</argsstring>
+        <name>QuitGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="100" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="100" bodyend="105"/>
+        <references refid="class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1" compoundref="_pause_menu_scripts_8cs" startline="92" endline="98">ClosePauseMenu</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_scripts_1a202540804f9696b458816b5a9a263659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenuScripts.OnInput</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnInput</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="107" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="107" bodyend="115"/>
+        <references refid="class_pause_menu_scripts_1a3db868d5ce70b2e1be38be887978da25" compoundref="_pause_menu_scripts_8cs" startline="13">character</references>
+        <references refid="class_pause_menu_scripts_1a28260699a68d28bcf0a30edc5bc216ce" compoundref="_pause_menu_scripts_8cs" startline="11">isPaused</references>
+        <references refid="class_pause_menu_scripts_1a8763daf7b293cbcbbb56a4c8b19c26c6" compoundref="_pause_menu_scripts_8cs" startline="12">isPauseMenuOn</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PauseMenuScripts</label>
+        <link refid="class_pause_menu_scripts"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Character</label>
+        <link refid="class_character"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+Storage</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+itemToDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="12">
+        <label>IDragHandler</label>
+      </node>
+      <node id="13">
+        <label>IDropHandler</label>
+      </node>
+      <node id="11">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="7">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="8">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="9">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="5">
+        <label>ItemContainer</label>
+        <link refid="class_item_container"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PauseMenuScripts</label>
+        <link refid="class_pause_menu_scripts"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+character</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="14">
+        <label>item</label>
+        <link refid="classitem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>itemSlots</label>
+        <link refid="classitem_slots"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+_item</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>storage</label>
+        <link refid="classstorage"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Pause Menu/PauseMenuScripts.cs" bodystart="9" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_pause_menu_scripts_1a5ca47e77700b24f84dcd805ba7370049" prot="private" virt="non-virtual"><scope>PauseMenuScripts</scope><name>Awake</name></member>
+      <member refid="class_pause_menu_scripts_1a3db868d5ce70b2e1be38be887978da25" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>character</name></member>
+      <member refid="class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>ClosePauseMenu</name></member>
+      <member refid="class_pause_menu_scripts_1a46715ef9658e56718ea159f440911fbc" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>DisablePause</name></member>
+      <member refid="class_pause_menu_scripts_1a28260699a68d28bcf0a30edc5bc216ce" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>isPaused</name></member>
+      <member refid="class_pause_menu_scripts_1a8763daf7b293cbcbbb56a4c8b19c26c6" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>isPauseMenuOn</name></member>
+      <member refid="class_pause_menu_scripts_1a202540804f9696b458816b5a9a263659" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>OnInput</name></member>
+      <member refid="class_pause_menu_scripts_1a5ff15c5db9d5829b6c2580107c5c372d" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>onUnPause</name></member>
+      <member refid="class_pause_menu_scripts_1a123f46be08ea3e51275b40ac1d9f41f0" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>OpenPauseMenu</name></member>
+      <member refid="class_pause_menu_scripts_1a407c45c634ad60a9a78bf08f3e2425a3" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>pauseMenu</name></member>
+      <member refid="class_pause_menu_scripts_1a07fd80a064d058fbbca8c8916149deb3" prot="public" virt="non-virtual"><scope>PauseMenuScripts</scope><name>QuitGame</name></member>
+      <member refid="class_pause_menu_scripts_1abcee854bb35f436a5aac746c96b8917c" prot="private" virt="non-virtual"><scope>PauseMenuScripts</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

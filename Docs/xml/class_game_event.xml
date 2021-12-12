@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_game_event" kind="class" language="C#" prot="public">
+    <compoundname>GameEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="class_command_event" prot="public" virt="non-virtual">CommandEvent</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_event_1a7b78c5ecf0ea68302f691e63b992ace3" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_game_event_listener" kindref="compound">GameEventListener</ref> &gt;</type>
+        <definition>readonly List&lt;GameEventListener&gt; GameEvent.eventListeners</definition>
+        <argsstring></argsstring>
+        <name>eventListeners</name>
+        <initializer>=
+        new List&lt;<ref refid="class_game_event_listener" kindref="compound">GameEventListener</ref>&gt;()</initializer>
+        <briefdescription>
+<para>The list of listeners that this event will notify if it is raised. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" line="13" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_event_1a2c24a40f0d0cdc9ee848beb6d590ba14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GameEvent.Raise</definition>
+        <argsstring>()</argsstring>
+        <name>Raise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" line="16" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" bodystart="16" bodyend="20"/>
+        <referencedby refid="class_event_editor_1a483287afe5f9edb844c133d1bd9714d9" compoundref="_event_editor_8cs" startline="8" endline="17">EventEditor.OnInspectorGUI</referencedby>
+        <referencedby refid="class_command_event_1ae91059b18bc99831c62057d274a67e1c" compoundref="_command_event_8cs" startline="11" endline="15">CommandEvent.Raise</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_event_1a0518267051728a4ade5e19db0b21cc19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GameEvent.RegisterListener</definition>
+        <argsstring>(GameEventListener listener)</argsstring>
+        <name>RegisterListener</name>
+        <param>
+          <type><ref refid="class_game_event_listener" kindref="compound">GameEventListener</ref></type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" line="22" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_event_1a535914a2d43d3095e99db102563f5a45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GameEvent.UnregisterListener</definition>
+        <argsstring>(GameEventListener listener)</argsstring>
+        <name>UnregisterListener</name>
+        <param>
+          <type><ref refid="class_game_event_listener" kindref="compound">GameEventListener</ref></type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" line="28" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/GameEvent.cs" bodystart="9" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_game_event_1a7b78c5ecf0ea68302f691e63b992ace3" prot="private" virt="non-virtual"><scope>GameEvent</scope><name>eventListeners</name></member>
+      <member refid="class_game_event_1a2c24a40f0d0cdc9ee848beb6d590ba14" prot="public" virt="virtual"><scope>GameEvent</scope><name>Raise</name></member>
+      <member refid="class_game_event_1a0518267051728a4ade5e19db0b21cc19" prot="public" virt="virtual"><scope>GameEvent</scope><name>RegisterListener</name></member>
+      <member refid="class_game_event_1a535914a2d43d3095e99db102563f5a45" prot="public" virt="virtual"><scope>GameEvent</scope><name>UnregisterListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

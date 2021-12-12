@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_outpost_choices" kind="class" language="C#" prot="public">
+    <compoundname>OutpostChoices</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_outpost_choices_1_1_save_object" prot="private">OutpostChoices::SaveObject</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_outpost_choices_1af1407b416247318d9835c5182b0967d0" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_outpost_choices" kindref="compound">OutpostChoices</ref></type>
+        <definition>OutpostChoices OutpostChoices.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="11" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">TestDialogue.StartUpdating</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_outpost_choices_1a9ffecc5f8e73e9f5415553baa4310058" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OutpostChoices.defaultPanel</definition>
+        <argsstring></argsstring>
+        <name>defaultPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="14" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">EnablePanels</referencedby>
+        <referencedby refid="class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf" compoundref="_outpost_choices_8cs" startline="46" endline="56">TalkWithScientist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1ab9590e64ac7d0c70de1e734f51a8d7de" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OutpostChoices.newsPanel</definition>
+        <argsstring></argsstring>
+        <name>newsPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="15" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">EnablePanels</referencedby>
+        <referencedby refid="class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf" compoundref="_outpost_choices_8cs" startline="46" endline="56">TalkWithScientist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1a3f200d6ef105d35123a3a9d8c237e44c" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OutpostChoices.scientistIdleAnim</definition>
+        <argsstring></argsstring>
+        <name>scientistIdleAnim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="16" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">EnablePanels</referencedby>
+        <referencedby refid="class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf" compoundref="_outpost_choices_8cs" startline="46" endline="56">TalkWithScientist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1ab7be177ae22a8f496e0c158c570e2909" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OutpostChoices.scientistTalkAnim</definition>
+        <argsstring></argsstring>
+        <name>scientistTalkAnim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="17" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">EnablePanels</referencedby>
+        <referencedby refid="class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf" compoundref="_outpost_choices_8cs" startline="46" endline="56">TalkWithScientist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1ac1f7795e000ab5029b4ffc8308052738" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OutpostChoices.coverPanel</definition>
+        <argsstring></argsstring>
+        <name>coverPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="18" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">EnablePanels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1a4ca6c9291feea7e668016f7220bd460d" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text OutpostChoices.nameText</definition>
+        <argsstring></argsstring>
+        <name>nameText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="19" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">EnablePanels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1ab421015f5146da5f722e48a2f54b5a1a" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text OutpostChoices.textBox</definition>
+        <argsstring></argsstring>
+        <name>textBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="19" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">EnablePanels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1ac5af426c095db3b693770a0676602163" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OutpostChoices.isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="20" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">EnablePanels</referencedby>
+        <referencedby refid="class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf" compoundref="_outpost_choices_8cs" startline="46" endline="56">TalkWithScientist</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_outpost_choices_1afb27e62c7314a9edf12446bdf2d28430" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+        <definition>UpgradeHolder OutpostChoices.upgradeHolder</definition>
+        <argsstring></argsstring>
+        <name>upgradeHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="22" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1a21dbe6cb5e5e22955ae9dc5487a5c935" prot="private" static="no" mutable="no">
+        <type><ref refid="classstorage" kindref="compound">storage</ref></type>
+        <definition>storage OutpostChoices.storage</definition>
+        <argsstring></argsstring>
+        <name>storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="23" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1a2643a504248bb56f194c7249ad80196c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_save_manager" kindref="compound">ItemSaveManager</ref></type>
+        <definition>ItemSaveManager OutpostChoices.itemSaveManager</definition>
+        <argsstring></argsstring>
+        <name>itemSaveManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="26" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1a1f1fbcdc07cb4d8d5dd4bc6ee6ab16de" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_save_manager" kindref="compound">UpgradeSaveManager</ref></type>
+        <definition>UpgradeSaveManager OutpostChoices.upgradeSaveManager</definition>
+        <argsstring></argsstring>
+        <name>upgradeSaveManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="27" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_outpost_choices_1a58c140873dde83b77b2099db29cce7a9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_character" kindref="compound">Character</ref></type>
+        <definition>Character OutpostChoices.character</definition>
+        <argsstring></argsstring>
+        <name>character</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="28" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_outpost_choices_1a2a6edf92b7ffdcd7230acc6f18bc620e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OutpostChoices.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="30" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_outpost_choices_1ac07a00c9a0a23855cd37b9152b597abd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OutpostChoices.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="37" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OutpostChoices.TalkWithScientist</definition>
+        <argsstring>()</argsstring>
+        <name>TalkWithScientist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="46" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="46" bodyend="56"/>
+        <references refid="class_outpost_choices_1a9ffecc5f8e73e9f5415553baa4310058" compoundref="_outpost_choices_8cs" startline="14">defaultPanel</references>
+        <references refid="class_outpost_choices_1ac5af426c095db3b693770a0676602163" compoundref="_outpost_choices_8cs" startline="20">isActive</references>
+        <references refid="class_outpost_choices_1ab9590e64ac7d0c70de1e734f51a8d7de" compoundref="_outpost_choices_8cs" startline="15">newsPanel</references>
+        <references refid="class_outpost_choices_1a3f200d6ef105d35123a3a9d8c237e44c" compoundref="_outpost_choices_8cs" startline="16">scientistIdleAnim</references>
+        <references refid="class_outpost_choices_1ab7be177ae22a8f496e0c158c570e2909" compoundref="_outpost_choices_8cs" startline="17">scientistTalkAnim</references>
+      </memberdef>
+      <memberdef kind="function" id="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OutpostChoices.EnablePanels</definition>
+        <argsstring>()</argsstring>
+        <name>EnablePanels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="58" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="58" bodyend="73"/>
+        <references refid="class_outpost_choices_1ac1f7795e000ab5029b4ffc8308052738" compoundref="_outpost_choices_8cs" startline="18">coverPanel</references>
+        <references refid="class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e" compoundref="_day_counter_8cs" startline="9">DayCounter.days</references>
+        <references refid="class_outpost_choices_1a9ffecc5f8e73e9f5415553baa4310058" compoundref="_outpost_choices_8cs" startline="14">defaultPanel</references>
+        <references refid="class_test_dialogue_1ac3f9cc5e3328c2f09e334033ab951de4" compoundref="_test_dialogue_8cs" startline="8">TestDialogue.index</references>
+        <references refid="class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31" compoundref="_day_counter_8cs" startline="8">DayCounter.instance</references>
+        <references refid="class_test_dialogue_1ab61050e6c9cedcbbded2cffd346bab9f" compoundref="_test_dialogue_8cs" startline="7">TestDialogue.instance</references>
+        <references refid="class_outpost_choices_1ac5af426c095db3b693770a0676602163" compoundref="_outpost_choices_8cs" startline="20">isActive</references>
+        <references refid="class_outpost_choices_1a4ca6c9291feea7e668016f7220bd460d" compoundref="_outpost_choices_8cs" startline="19">nameText</references>
+        <references refid="class_outpost_choices_1ab9590e64ac7d0c70de1e734f51a8d7de" compoundref="_outpost_choices_8cs" startline="15">newsPanel</references>
+        <references refid="class_outpost_choices_1a3f200d6ef105d35123a3a9d8c237e44c" compoundref="_outpost_choices_8cs" startline="16">scientistIdleAnim</references>
+        <references refid="class_outpost_choices_1ab7be177ae22a8f496e0c158c570e2909" compoundref="_outpost_choices_8cs" startline="17">scientistTalkAnim</references>
+        <references refid="class_outpost_choices_1ab421015f5146da5f722e48a2f54b5a1a" compoundref="_outpost_choices_8cs" startline="19">textBox</references>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">TestDialogue.StartUpdating</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_outpost_choices_1a1a2974f7449ec5444e11d43d537c49cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OutpostChoices.ReturnSea</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnSea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="75" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="75" bodyend="100"/>
+        <references refid="class_item_save_manager_1a18f7b0abfe4a6c06d05de9f3fbe96bc9" compoundref="_item_save_manager_8cs" startline="44" endline="47">ItemSaveManager.SaveInventory</references>
+        <references refid="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" compoundref="_upgrade_save_manager_8cs" startline="31" endline="34">UpgradeSaveManager.SaveUpgrade</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OutpostChoices</label>
+        <link refid="class_outpost_choices"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OutpostChoices</label>
+        <link refid="class_outpost_choices"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+nameText</edgelabel>
+          <edgelabel>+textBox</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Text</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/OutpostChoices.cs" bodystart="9" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_outpost_choices_1ac07a00c9a0a23855cd37b9152b597abd" prot="private" virt="non-virtual"><scope>OutpostChoices</scope><name>Awake</name></member>
+      <member refid="class_outpost_choices_1a58c140873dde83b77b2099db29cce7a9" prot="private" virt="non-virtual"><scope>OutpostChoices</scope><name>character</name></member>
+      <member refid="class_outpost_choices_1ac1f7795e000ab5029b4ffc8308052738" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>coverPanel</name></member>
+      <member refid="class_outpost_choices_1a9ffecc5f8e73e9f5415553baa4310058" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>defaultPanel</name></member>
+      <member refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>EnablePanels</name></member>
+      <member refid="class_outpost_choices_1af1407b416247318d9835c5182b0967d0" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>instance</name></member>
+      <member refid="class_outpost_choices_1ac5af426c095db3b693770a0676602163" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>isActive</name></member>
+      <member refid="class_outpost_choices_1a2643a504248bb56f194c7249ad80196c" prot="private" virt="non-virtual"><scope>OutpostChoices</scope><name>itemSaveManager</name></member>
+      <member refid="class_outpost_choices_1a4ca6c9291feea7e668016f7220bd460d" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>nameText</name></member>
+      <member refid="class_outpost_choices_1ab9590e64ac7d0c70de1e734f51a8d7de" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>newsPanel</name></member>
+      <member refid="class_outpost_choices_1a1a2974f7449ec5444e11d43d537c49cc" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>ReturnSea</name></member>
+      <member refid="class_outpost_choices_1a3f200d6ef105d35123a3a9d8c237e44c" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>scientistIdleAnim</name></member>
+      <member refid="class_outpost_choices_1ab7be177ae22a8f496e0c158c570e2909" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>scientistTalkAnim</name></member>
+      <member refid="class_outpost_choices_1a2a6edf92b7ffdcd7230acc6f18bc620e" prot="private" virt="non-virtual"><scope>OutpostChoices</scope><name>Start</name></member>
+      <member refid="class_outpost_choices_1a21dbe6cb5e5e22955ae9dc5487a5c935" prot="private" virt="non-virtual"><scope>OutpostChoices</scope><name>storage</name></member>
+      <member refid="class_outpost_choices_1a38e96386712147fde77e9906d3aa3ebf" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>TalkWithScientist</name></member>
+      <member refid="class_outpost_choices_1ab421015f5146da5f722e48a2f54b5a1a" prot="public" virt="non-virtual"><scope>OutpostChoices</scope><name>textBox</name></member>
+      <member refid="class_outpost_choices_1afb27e62c7314a9edf12446bdf2d28430" prot="private" virt="non-virtual"><scope>OutpostChoices</scope><name>upgradeHolder</name></member>
+      <member refid="class_outpost_choices_1a1f1fbcdc07cb4d8d5dd4bc6ee6ab16de" prot="private" virt="non-virtual"><scope>OutpostChoices</scope><name>upgradeSaveManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

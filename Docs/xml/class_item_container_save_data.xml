@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_item_container_save_data" kind="class" language="C#" prot="public">
+    <compoundname>ItemContainerSaveData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_item_container_save_data_1a5d73376fb40b72e6810e5dfe86fb6eba" prot="public" static="no" mutable="no">
+        <type><ref refid="class_item_slot_save_data" kindref="compound">ItemSlotSaveData</ref>[]</type>
+        <definition>ItemSlotSaveData [] ItemContainerSaveData.SavedSlots</definition>
+        <argsstring></argsstring>
+        <name>SavedSlots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveData.cs" line="19" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveData.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_item_container_save_data_1adb0dbfc4cd71a4bc63a389fac3ddade1" compoundref="_item_save_data_8cs" startline="21" endline="24">ItemContainerSaveData</referencedby>
+        <referencedby refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" compoundref="_item_save_manager_8cs" startline="11" endline="42">ItemSaveManager.LoadInventory</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_container_save_data_1adb0dbfc4cd71a4bc63a389fac3ddade1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ItemContainerSaveData.ItemContainerSaveData</definition>
+        <argsstring>(int numItems)</argsstring>
+        <name>ItemContainerSaveData</name>
+        <param>
+          <type>int</type>
+          <declname>numItems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveData.cs" line="21" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveData.cs" bodystart="21" bodyend="24"/>
+        <references refid="class_item_container_save_data_1a5d73376fb40b72e6810e5dfe86fb6eba" compoundref="_item_save_data_8cs" startline="19">SavedSlots</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ItemContainerSaveData</label>
+        <link refid="class_item_container_save_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+SavedSlots</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ItemSlotSaveData</label>
+        <link refid="class_item_slot_save_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveData.cs" line="17" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveData.cs" bodystart="18" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_item_container_save_data_1adb0dbfc4cd71a4bc63a389fac3ddade1" prot="public" virt="non-virtual"><scope>ItemContainerSaveData</scope><name>ItemContainerSaveData</name></member>
+      <member refid="class_item_container_save_data_1a5d73376fb40b72e6810e5dfe86fb6eba" prot="public" virt="non-virtual"><scope>ItemContainerSaveData</scope><name>SavedSlots</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

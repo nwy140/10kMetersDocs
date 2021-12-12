@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_u_i_h_p_slider_color" xml:lang="en-US">
+<title>UIHPSliderColor Class Reference</title>
+<indexterm><primary>UIHPSliderColor</primary></indexterm>
+Inheritance diagram for UIHPSliderColor:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_i_h_p_slider_color__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UIHPSliderColor:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_i_h_p_slider_color__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944">UIColorTransition</link> { <link linkend="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a655d20c1ca69519ca647684edbb2db35">High</link>
+, <link linkend="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a248c951164a35e1e91ff0267c0f666ea">Med</link>
+, <link linkend="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a28d0edd045e05cf5af64e35ae0c4c6ef">Low</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228">SetCurrColorTransitionBySliderValue</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Color <link linkend="_class_u_i_h_p_slider_color_1a3c55716a13fc1645e70f021b12abb8d2">high</link> = Color.green</para>
+</listitem>
+            <listitem><para>Color <link linkend="_class_u_i_h_p_slider_color_1a6219a100ae20896ccdb7d1ef05a0168c">med</link> = Color.yellow</para>
+</listitem>
+            <listitem><para>Color <link linkend="_class_u_i_h_p_slider_color_1af756c059c14885e880be751b5ea9160c">low</link> = new Color(1.0f, 0.64f, 0.0f)</para>
+</listitem>
+            <listitem><para><link linkend="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944">UIColorTransition</link> <link linkend="_class_u_i_h_p_slider_color_1ad5ddef6b1ee622254e77c53c8cc8a08e">currColorTransition</link></para>
+</listitem>
+            <listitem><para>Slider <link linkend="_class_u_i_h_p_slider_color_1abc9ee433bc5a15b8dfa99670ff8035dd">slider</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944"/><section>
+    <title>UIColorTransition</title>
+<indexterm><primary>UIColorTransition</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>UIColorTransition</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944">UIHPSliderColor.UIColorTransition</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>High</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>High</secondary></indexterm>
+<anchor xml:id="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a655d20c1ca69519ca647684edbb2db35"/>High</entry><entry></entry></row><row><entry><indexterm><primary>Med</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>Med</secondary></indexterm>
+<anchor xml:id="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a248c951164a35e1e91ff0267c0f666ea"/>Med</entry><entry></entry></row><row><entry><indexterm><primary>Low</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>Low</secondary></indexterm>
+<anchor xml:id="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a28d0edd045e05cf5af64e35ae0c4c6ef"/>Low</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228"/><section>
+    <title>SetCurrColorTransitionBySliderValue()</title>
+<indexterm><primary>SetCurrColorTransitionBySliderValue</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>SetCurrColorTransitionBySliderValue</secondary></indexterm>
+<para><computeroutput>void UIHPSliderColor.SetCurrColorTransitionBySliderValue ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_u_i_h_p_slider_color_1ad5ddef6b1ee622254e77c53c8cc8a08e"/><section>
+    <title>currColorTransition</title>
+<indexterm><primary>currColorTransition</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>currColorTransition</secondary></indexterm>
+<para><computeroutput><link linkend="_class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944">UIColorTransition</link> UIHPSliderColor.currColorTransition</computeroutput></para></section>
+<anchor xml:id="_class_u_i_h_p_slider_color_1a3c55716a13fc1645e70f021b12abb8d2"/><section>
+    <title>high</title>
+<indexterm><primary>high</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>high</secondary></indexterm>
+<para><computeroutput>Color UIHPSliderColor.high = Color.green</computeroutput></para></section>
+<anchor xml:id="_class_u_i_h_p_slider_color_1af756c059c14885e880be751b5ea9160c"/><section>
+    <title>low</title>
+<indexterm><primary>low</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>low</secondary></indexterm>
+<para><computeroutput>Color UIHPSliderColor.low = new Color(1.0f, 0.64f, 0.0f)</computeroutput></para></section>
+<anchor xml:id="_class_u_i_h_p_slider_color_1a6219a100ae20896ccdb7d1ef05a0168c"/><section>
+    <title>med</title>
+<indexterm><primary>med</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>med</secondary></indexterm>
+<para><computeroutput>Color UIHPSliderColor.med = Color.yellow</computeroutput></para></section>
+<anchor xml:id="_class_u_i_h_p_slider_color_1abc9ee433bc5a15b8dfa99670ff8035dd"/><section>
+    <title>slider</title>
+<indexterm><primary>slider</primary><secondary>UIHPSliderColor</secondary></indexterm>
+<indexterm><primary>UIHPSliderColor</primary><secondary>slider</secondary></indexterm>
+<para><computeroutput>Slider UIHPSliderColor.slider</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/<link linkend="__u_i_h_p_slider_color_8cs">UIHPSliderColor.cs</link></section>
+</section>

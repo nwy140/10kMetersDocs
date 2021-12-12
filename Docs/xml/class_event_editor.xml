@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_event_editor" kind="class" language="C#" prot="public">
+    <compoundname>EventEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_event_editor_1a483287afe5f9edb844c133d1bd9714d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void EventEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/Editor/EventEditor.cs" line="8" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/Editor/EventEditor.cs" bodystart="8" bodyend="17"/>
+        <references refid="class_game_event_1a2c24a40f0d0cdc9ee848beb6d590ba14" compoundref="_game_event_8cs" startline="16" endline="20">GameEvent.Raise</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Editor</label>
+      </node>
+      <node id="1">
+        <label>EventEditor</label>
+        <link refid="class_event_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Editor</label>
+      </node>
+      <node id="1">
+        <label>EventEditor</label>
+        <link refid="class_event_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/Editor/EventEditor.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/Editor/EventEditor.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_event_editor_1a483287afe5f9edb844c133d1bd9714d9" prot="public" virt="non-virtual"><scope>EventEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

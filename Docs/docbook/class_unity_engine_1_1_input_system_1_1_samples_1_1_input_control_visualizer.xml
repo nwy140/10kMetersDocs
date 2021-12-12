@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.InputControlVisualizer Class Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary></indexterm>
+<para>
+
+<para>A component for debugging purposes that adds an on-screen display which shows activity on an input control over time. </para>
+ 
+</para>
+Inheritance diagram for UnityEngine.InputSystem.Samples.InputControlVisualizer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.InputControlVisualizer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3">Mode</link> { 
+<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3a6adf97f83acf6453d4a6a4b1070f3754">None</link> = 0
+, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3a689202409e48743b914713f96d93947c">Value</link> = 1
+, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3a87f9f735a1d36793ceaecd4e47124b63">Events</link> = 4
+, <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3ae023ae58219b6c3e057cdabb092e9f63">MaximumLag</link> = 6
+, 
+<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3a600e754f49b68aa0fc90a9cd64eb7051">Bytes</link> = 7
+ }</para>
+
+<para>Determines which aspect of the control should be visualized. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>new void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1af37e539581a9ffad64ab01b2091886e9">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>new void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1adf7b32caed756276a446092231632dd4">OnDisable</link> ()</para>
+</listitem>
+            <listitem><para>new void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1adfd8dedbea8a4d5225cfc8c1866773ea">OnGUI</link> ()</para>
+</listitem>
+            <listitem><para>new void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1aee67c21105e4318cd3f790e6ed587845">OnValidate</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3">Mode</link> <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a8739e964aed8054ede31b2a4c3e5f45d">visualization</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>What kind of visualization to show. </para>
+</listitem>
+            <listitem><para>string <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a661607b086bd51c1dc1df80d46cff2b2">controlPath</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>Path of the control that is to be visualized. </para>
+</listitem>
+            <listitem><para>int <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a84f6ef2483f229bd0593958696d6226f">controlIndex</link><computeroutput> [getset]</computeroutput>
+</para>
+
+<para>If, at runtime, multiple controls are matching <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a661607b086bd51c1dc1df80d46cff2b2">controlPath</link>, this property determines the index of the control that is retrieved from the possible options. </para>
+</listitem>
+            <listitem><para>InputControl <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1abd7a3240c5aaa8d75bf11a08ea9ea720">control</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>The control resolved from <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a661607b086bd51c1dc1df80d46cff2b2">controlPath</link> at runtime. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A component for debugging purposes that adds an on-screen display which shows activity on an input control over time. </para>
+
+
+
+<para>This component is most useful for debugging input directly on the source device. </para>
+
+<para><formalpara><title>See also</title>
+
+<para><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer">InputActionVisualizer</link></para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3"/><section>
+    <title>Mode</title>
+<indexterm><primary>Mode</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>Mode</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3">UnityEngine.InputSystem.Samples.InputControlVisualizer.Mode</link></computeroutput></para><para>
+
+<para>Determines which aspect of the control should be visualized. </para>
+</para>
+<informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>None</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>None</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3a6adf97f83acf6453d4a6a4b1070f3754"/>None</entry><entry></entry></row><row><entry><indexterm><primary>Value</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>Value</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3a689202409e48743b914713f96d93947c"/>Value</entry><entry></entry></row><row><entry><indexterm><primary>Events</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>Events</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3a87f9f735a1d36793ceaecd4e47124b63"/>Events</entry><entry></entry></row><row><entry><indexterm><primary>MaximumLag</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>MaximumLag</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3ae023ae58219b6c3e057cdabb092e9f63"/>MaximumLag</entry><entry></entry></row><row><entry><indexterm><primary>Bytes</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>Bytes</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3a600e754f49b68aa0fc90a9cd64eb7051"/>Bytes</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1adf7b32caed756276a446092231632dd4"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>new void UnityEngine.InputSystem.Samples.InputControlVisualizer.OnDisable ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1af37e539581a9ffad64ab01b2091886e9"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>new void UnityEngine.InputSystem.Samples.InputControlVisualizer.OnEnable ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1adfd8dedbea8a4d5225cfc8c1866773ea"/><section>
+    <title>OnGUI()</title>
+<indexterm><primary>OnGUI</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>OnGUI</secondary></indexterm>
+<para><computeroutput>new void UnityEngine.InputSystem.Samples.InputControlVisualizer.OnGUI ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1aee67c21105e4318cd3f790e6ed587845"/><section>
+    <title>OnValidate()</title>
+<indexterm><primary>OnValidate</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>OnValidate</secondary></indexterm>
+<para><computeroutput>new void UnityEngine.InputSystem.Samples.InputControlVisualizer.OnValidate ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1abd7a3240c5aaa8d75bf11a08ea9ea720"/><section>
+    <title>control</title>
+<indexterm><primary>control</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>control</secondary></indexterm>
+<para><computeroutput>InputControl UnityEngine.InputSystem.Samples.InputControlVisualizer.control<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>The control resolved from <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a661607b086bd51c1dc1df80d46cff2b2">controlPath</link> at runtime. </para>
+</para>
+
+<para>May be null. </para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a84f6ef2483f229bd0593958696d6226f"/><section>
+    <title>controlIndex</title>
+<indexterm><primary>controlIndex</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>controlIndex</secondary></indexterm>
+<para><computeroutput>int UnityEngine.InputSystem.Samples.InputControlVisualizer.controlIndex<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>If, at runtime, multiple controls are matching <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a661607b086bd51c1dc1df80d46cff2b2">controlPath</link>, this property determines the index of the control that is retrieved from the possible options. </para>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a661607b086bd51c1dc1df80d46cff2b2"/><section>
+    <title>controlPath</title>
+<indexterm><primary>controlPath</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>controlPath</secondary></indexterm>
+<para><computeroutput>string UnityEngine.InputSystem.Samples.InputControlVisualizer.controlPath<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Path of the control that is to be visualized. </para>
+</para>
+
+<para><formalpara><title>See also</title>
+
+<para>InputControlPath, InputControl.path</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1a8739e964aed8054ede31b2a4c3e5f45d"/><section>
+    <title>visualization</title>
+<indexterm><primary>visualization</primary><secondary>UnityEngine.InputSystem.Samples.InputControlVisualizer</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InputControlVisualizer</primary><secondary>visualization</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_1acc2869a7134bc38ee8d18ea7ef1347d3">Mode</link> UnityEngine.InputSystem.Samples.InputControlVisualizer.visualization<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>What kind of visualization to show. </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/<link linkend="__input_control_visualizer_8cs">InputControlVisualizer.cs</link></section>
+</section>

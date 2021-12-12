@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_skills" xml:lang="en-US">
+<title>PlayerSkills Class Reference</title>
+<indexterm><primary>PlayerSkills</primary></indexterm>
+Collaboration diagram for PlayerSkills:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_player_skills_1_1_on_skill_unlocked_event_args">OnSkillUnlockedEventArgs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> { 
+<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a6adf97f83acf6453d4a6a4b1070f3754">None</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a55a5a9e59ca582cd9aad9c8967179cac">LowTierTurbineStage1</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0fb9a6ca88ff4c8fd315923c6b60c154">LowTierTurbineStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ad5eb75ef30cfbc44ed5e2b5d00ec76c8">HighTierTurbineStage1</link>
+, 
+<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aa308350ec8c30b54eda811f9e6240171">HighTierTurbineStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aac0a9d114313313ebd946a500d0b20e0">LowTierWeaponStage1</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0bae2889c6223909c0180b0d3fdc057c">LowTierWeaponStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298af18bfd184431f35ff0e8fc066e8bb725">HighTierWeaponStage1</link>
+, 
+<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ac3a88cf8786fdc3702e51f88b8e7fc48">HighTierWeaponStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a57ecf7a27acb5b19c945a03ba19246bb">LowTierHullStage1</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a1c828f951acaef361286004b686c1b98">LowTierHullStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ab6bd8789a9cfa81403d9b16a604ac935">HighTierHullStage1</link>
+, 
+<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298af73c4f285fd19ecf8e590b689e6dacaa">HighTierHullStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a925a4c4518adfb6b85a8e79b06d0b6c0">LowTierSelfRepairStage1</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a30cf252e5e1a42c27ca180a17114c2a4">LowTierSelfRepairStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a97591b3fb76138b125a69f2232f62a08">HighTierSelfRepairStage1</link>
+, 
+<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a6f8b7dd5340142dabccffca20e0e6805">HighTierSelfRepairStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aba62a5c42d65ffab9f893bf2a0c1bf88">LowTierOxygenTankStage1</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a3d9389e221cd20ce9075f1e4d5e8fc24">LowTierOxygenTankStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0fe937fe394b7d1506c20abeb2d2c6db">HighTierOxygenTankStage1</link>
+, 
+<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aa18b7f28f46902ca8813fa5e16ed6b1b">HighTierOxygenTankStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a1c5627c5ba2d39d4c5edffb185dc6750">LowTierInventoryStage1</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aae797d3ae11f401e1686d35c6a595b7e">LowTierInventoryStage2</link>
+, <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a7fcbca285ad3a082883a7f2069f03605">HighTierInventoryStage1</link>
+, 
+<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a72a92ff42375f5f3a4550508f3295caa">HighTierInventoryStage2</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_player_skills_1a744ba9c950815350b7177d3ff1a825e3">PlayerSkills</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_skills_1a186254dfc7bca209ecdde37fe874e47c">GetCurrentUpgrades</link> (<link linkend="_class_upgrade_holder">UpgradeHolder</link> upgradeHolder)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_skills_1ace8108a48b4b8efa6774e1d571b9221b">SetRequirements</link> (<link linkend="_classstorage">storage</link> inv, <link linkend="_class_player_upgrades">PlayerUpgrades</link> upg)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_player_skills_1a22c2907b0d980b1b21b850eb5f0f8dc8">IsRequirementMet</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_skills_1a13f145ea2840691dac8b1d4889dbb100">RemoveAllUsedResources</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_player_skills_1a79829d8f1292134b26f37be0455a87c8">GetSkillPoints</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_player_skills_1a237e14f6349adfcd6bae46904e8a9016">IsSkillUnlocked</link> (<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> skillType)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_player_skills_1ad60a97fd7052171b0ba45469873b8561">CanUnlock</link> (<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> skillType)</para>
+</listitem>
+            <listitem><para><link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> <link linkend="_class_player_skills_1a13838f81de63d112fd778e6c1ab829a2">GetSkillRequirement</link> (<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> skillType)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_player_skills_1ad624f39b59e0ddafc5bf982a3edf44a4">TryUnlockSkill</link> (<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> skillType)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static Action <link linkend="_class_player_skills_1a56adfcda139b8da8b371bb41587ef464">OnSetRequirementForPopup</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para>EventHandler&lt; <link linkend="_class_player_skills_1_1_on_skill_unlocked_event_args">OnSkillUnlockedEventArgs</link> &gt; <link linkend="_class_player_skills_1a51336b4071dd19a0a3c28a8f0da0d54c">OnSkillUnlocked</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298"/><section>
+    <title>SkillType</title>
+<indexterm><primary>SkillType</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>SkillType</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">PlayerSkills.SkillType</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>None</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>None</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a6adf97f83acf6453d4a6a4b1070f3754"/>None</entry><entry></entry></row><row><entry><indexterm><primary>LowTierTurbineStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierTurbineStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a55a5a9e59ca582cd9aad9c8967179cac"/>LowTierTurbineStage1</entry><entry></entry></row><row><entry><indexterm><primary>LowTierTurbineStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierTurbineStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0fb9a6ca88ff4c8fd315923c6b60c154"/>LowTierTurbineStage2</entry><entry></entry></row><row><entry><indexterm><primary>HighTierTurbineStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierTurbineStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ad5eb75ef30cfbc44ed5e2b5d00ec76c8"/>HighTierTurbineStage1</entry><entry></entry></row><row><entry><indexterm><primary>HighTierTurbineStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierTurbineStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aa308350ec8c30b54eda811f9e6240171"/>HighTierTurbineStage2</entry><entry></entry></row><row><entry><indexterm><primary>LowTierWeaponStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierWeaponStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aac0a9d114313313ebd946a500d0b20e0"/>LowTierWeaponStage1</entry><entry></entry></row><row><entry><indexterm><primary>LowTierWeaponStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierWeaponStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0bae2889c6223909c0180b0d3fdc057c"/>LowTierWeaponStage2</entry><entry></entry></row><row><entry><indexterm><primary>HighTierWeaponStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierWeaponStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298af18bfd184431f35ff0e8fc066e8bb725"/>HighTierWeaponStage1</entry><entry></entry></row><row><entry><indexterm><primary>HighTierWeaponStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierWeaponStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ac3a88cf8786fdc3702e51f88b8e7fc48"/>HighTierWeaponStage2</entry><entry></entry></row><row><entry><indexterm><primary>LowTierHullStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierHullStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a57ecf7a27acb5b19c945a03ba19246bb"/>LowTierHullStage1</entry><entry></entry></row><row><entry><indexterm><primary>LowTierHullStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierHullStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a1c828f951acaef361286004b686c1b98"/>LowTierHullStage2</entry><entry></entry></row><row><entry><indexterm><primary>HighTierHullStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierHullStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ab6bd8789a9cfa81403d9b16a604ac935"/>HighTierHullStage1</entry><entry></entry></row><row><entry><indexterm><primary>HighTierHullStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierHullStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298af73c4f285fd19ecf8e590b689e6dacaa"/>HighTierHullStage2</entry><entry></entry></row><row><entry><indexterm><primary>LowTierSelfRepairStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierSelfRepairStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a925a4c4518adfb6b85a8e79b06d0b6c0"/>LowTierSelfRepairStage1</entry><entry></entry></row><row><entry><indexterm><primary>LowTierSelfRepairStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierSelfRepairStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a30cf252e5e1a42c27ca180a17114c2a4"/>LowTierSelfRepairStage2</entry><entry></entry></row><row><entry><indexterm><primary>HighTierSelfRepairStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierSelfRepairStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a97591b3fb76138b125a69f2232f62a08"/>HighTierSelfRepairStage1</entry><entry></entry></row><row><entry><indexterm><primary>HighTierSelfRepairStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierSelfRepairStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a6f8b7dd5340142dabccffca20e0e6805"/>HighTierSelfRepairStage2</entry><entry></entry></row><row><entry><indexterm><primary>LowTierOxygenTankStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierOxygenTankStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aba62a5c42d65ffab9f893bf2a0c1bf88"/>LowTierOxygenTankStage1</entry><entry></entry></row><row><entry><indexterm><primary>LowTierOxygenTankStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierOxygenTankStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a3d9389e221cd20ce9075f1e4d5e8fc24"/>LowTierOxygenTankStage2</entry><entry></entry></row><row><entry><indexterm><primary>HighTierOxygenTankStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierOxygenTankStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0fe937fe394b7d1506c20abeb2d2c6db"/>HighTierOxygenTankStage1</entry><entry></entry></row><row><entry><indexterm><primary>HighTierOxygenTankStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierOxygenTankStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aa18b7f28f46902ca8813fa5e16ed6b1b"/>HighTierOxygenTankStage2</entry><entry></entry></row><row><entry><indexterm><primary>LowTierInventoryStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierInventoryStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a1c5627c5ba2d39d4c5edffb185dc6750"/>LowTierInventoryStage1</entry><entry></entry></row><row><entry><indexterm><primary>LowTierInventoryStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>LowTierInventoryStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aae797d3ae11f401e1686d35c6a595b7e"/>LowTierInventoryStage2</entry><entry></entry></row><row><entry><indexterm><primary>HighTierInventoryStage1</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierInventoryStage1</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a7fcbca285ad3a082883a7f2069f03605"/>HighTierInventoryStage1</entry><entry></entry></row><row><entry><indexterm><primary>HighTierInventoryStage2</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>HighTierInventoryStage2</secondary></indexterm>
+<anchor xml:id="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a72a92ff42375f5f3a4550508f3295caa"/>HighTierInventoryStage2</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_player_skills_1a744ba9c950815350b7177d3ff1a825e3"/><section>
+    <title>PlayerSkills()</title>
+<indexterm><primary>PlayerSkills</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>PlayerSkills</secondary></indexterm>
+<para><computeroutput>PlayerSkills.PlayerSkills ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_skills_1ad60a97fd7052171b0ba45469873b8561"/><section>
+    <title>CanUnlock()</title>
+<indexterm><primary>CanUnlock</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>CanUnlock</secondary></indexterm>
+<para><computeroutput>bool PlayerSkills.CanUnlock (<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> skillType)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_ad60a97fd7052171b0ba45469873b8561_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_ad60a97fd7052171b0ba45469873b8561_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_skills_1a186254dfc7bca209ecdde37fe874e47c"/><section>
+    <title>GetCurrentUpgrades()</title>
+<indexterm><primary>GetCurrentUpgrades</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>GetCurrentUpgrades</secondary></indexterm>
+<para><computeroutput>void PlayerSkills.GetCurrentUpgrades (<link linkend="_class_upgrade_holder">UpgradeHolder</link> upgradeHolder)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_a186254dfc7bca209ecdde37fe874e47c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_skills_1a79829d8f1292134b26f37be0455a87c8"/><section>
+    <title>GetSkillPoints()</title>
+<indexterm><primary>GetSkillPoints</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>GetSkillPoints</secondary></indexterm>
+<para><computeroutput>int PlayerSkills.GetSkillPoints ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_skills_1a13838f81de63d112fd778e6c1ab829a2"/><section>
+    <title>GetSkillRequirement()</title>
+<indexterm><primary>GetSkillRequirement</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>GetSkillRequirement</secondary></indexterm>
+<para><computeroutput><link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> PlayerSkills.GetSkillRequirement (<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> skillType)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_a13838f81de63d112fd778e6c1ab829a2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_skills_1a22c2907b0d980b1b21b850eb5f0f8dc8"/><section>
+    <title>IsRequirementMet()</title>
+<indexterm><primary>IsRequirementMet</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>IsRequirementMet</secondary></indexterm>
+<para><computeroutput>bool PlayerSkills.IsRequirementMet ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_a22c2907b0d980b1b21b850eb5f0f8dc8_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_a22c2907b0d980b1b21b850eb5f0f8dc8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_skills_1a237e14f6349adfcd6bae46904e8a9016"/><section>
+    <title>IsSkillUnlocked()</title>
+<indexterm><primary>IsSkillUnlocked</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>IsSkillUnlocked</secondary></indexterm>
+<para><computeroutput>bool PlayerSkills.IsSkillUnlocked (<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> skillType)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_a237e14f6349adfcd6bae46904e8a9016_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_skills_1a13f145ea2840691dac8b1d4889dbb100"/><section>
+    <title>RemoveAllUsedResources()</title>
+<indexterm><primary>RemoveAllUsedResources</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>RemoveAllUsedResources</secondary></indexterm>
+<para><computeroutput>void PlayerSkills.RemoveAllUsedResources ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_a13f145ea2840691dac8b1d4889dbb100_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_a13f145ea2840691dac8b1d4889dbb100_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_skills_1ace8108a48b4b8efa6774e1d571b9221b"/><section>
+    <title>SetRequirements()</title>
+<indexterm><primary>SetRequirements</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>SetRequirements</secondary></indexterm>
+<para><computeroutput>void PlayerSkills.SetRequirements (<link linkend="_classstorage">storage</link> inv, <link linkend="_class_player_upgrades">PlayerUpgrades</link> upg)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_ace8108a48b4b8efa6774e1d571b9221b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_skills_1ad624f39b59e0ddafc5bf982a3edf44a4"/><section>
+    <title>TryUnlockSkill()</title>
+<indexterm><primary>TryUnlockSkill</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>TryUnlockSkill</secondary></indexterm>
+<para><computeroutput>bool PlayerSkills.TryUnlockSkill (<link linkend="_class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298">SkillType</link> skillType)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_skills_ad624f39b59e0ddafc5bf982a3edf44a4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_player_skills_1a56adfcda139b8da8b371bb41587ef464"/><section>
+    <title>OnSetRequirementForPopup</title>
+<indexterm><primary>OnSetRequirementForPopup</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>OnSetRequirementForPopup</secondary></indexterm>
+<para><computeroutput>Action PlayerSkills.OnSetRequirementForPopup<computeroutput>[static]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Event Documentation</title>
+<anchor xml:id="_class_player_skills_1a51336b4071dd19a0a3c28a8f0da0d54c"/><section>
+    <title>OnSkillUnlocked</title>
+<indexterm><primary>OnSkillUnlocked</primary><secondary>PlayerSkills</secondary></indexterm>
+<indexterm><primary>PlayerSkills</primary><secondary>OnSkillUnlocked</secondary></indexterm>
+<para><computeroutput>EventHandler&lt;<link linkend="_class_player_skills_1_1_on_skill_unlocked_event_args">OnSkillUnlockedEventArgs</link>&gt; PlayerSkills.OnSkillUnlocked</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/<link linkend="__player_skills_8cs">PlayerSkills.cs</link></section>
+</section>

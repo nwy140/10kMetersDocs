@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_single_ton_on_click_helper_8cs" kind="file" language="C#">
+    <compoundname>SingleTonOnClickHelper.cs</compoundname>
+    <innerclass refid="class_single_ton_on_click_helper" prot="public">SingleTonOnClickHelper</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>.Events;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_single_ton_on_click_helper" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_single_ton_on_click_helper" kindref="compound">SingleTonOnClickHelper</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>A<sp/>Wrapper<sp/>Class<sp/>to<sp/>SingleTon<sp/>Classes<sp/>such<sp/>as<sp/>AudioManager</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_single_ton_on_click_helper_1ab789bcd5bd540a13d80e1f56b1707925" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_single_ton_on_click_helper_1ab789bcd5bd540a13d80e1f56b1707925" kindref="member">AudioManPlaySFX</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" kindref="member">instance</ref>)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" kindref="member">instance</ref>.<ref refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" kindref="member">PlaySFX</ref>(name);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12" refid="class_single_ton_on_click_helper_1ab8783aaa2ef78b7b60988c5c35f639b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_single_ton_on_click_helper_1ab8783aaa2ef78b7b60988c5c35f639b3" kindref="member">AudioManPlayBGM</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" kindref="member">instance</ref>)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" kindref="member">instance</ref>.<ref refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" kindref="member">PlayBGM</ref>(name);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_single_ton_on_click_helper_1a850393aef0c4c3530a81e4b40986b4a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_single_ton_on_click_helper_1a850393aef0c4c3530a81e4b40986b4a2" kindref="member">AudioManResetVolumeSettingsToDefault</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" kindref="member">instance</ref>)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" kindref="member">instance</ref>.<ref refid="class_audio_manager_1a09774d2457c33607be8260e7b54ae2d1" kindref="member">ResetVolumeSettingsToDefault</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23" refid="class_single_ton_on_click_helper_1a956bff8eeb749243905053525bf4b147" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_single_ton_on_click_helper_1a956bff8eeb749243905053525bf4b147" kindref="member">AudioManSaveVolumeSettingsPlayerPrefs</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" kindref="member">instance</ref>)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_audio_manager" kindref="compound">AudioManager</ref>.<ref refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" kindref="member">instance</ref>.<ref refid="class_audio_manager_1ac91c4c3f15b69879556efac5c44434d2" kindref="member">SaveVolumeSettingsPlayerPrefs</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Common<sp/>Onclick<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_single_ton_on_click_helper_1a00a8c9f0dd05698b5f4f91457a05034e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_single_ton_on_click_helper_1a00a8c9f0dd05698b5f4f91457a05034e" kindref="member">CommonTurnOnOffObjVisibility</ref>(GameObject<sp/>obj)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.SetActive(!obj.activeInHierarchy);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Common<sp/>Onclick<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_single_ton_on_click_helper_1a86e4ecf36dec37d71d94dc7fad2a6d8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_single_ton_on_click_helper_1a86e4ecf36dec37d71d94dc7fad2a6d8a" kindref="member">CommonSetSelfVisibilityByObjVisibility</ref>(GameObject<sp/>obj)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gameObject.SetActive(!obj.activeInHierarchy);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Common<sp/>Onclick<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_single_ton_on_click_helper_1ac0278753686d37371dbcd56f741a89ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_single_ton_on_click_helper_1ac0278753686d37371dbcd56f741a89ec" kindref="member">CommonSetSelfVisibilityByObjVisibilityInverted</ref>(GameObject<sp/>obj)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gameObject.SetActive(!!obj.activeInHierarchy);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#region<sp/>Unused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>https://forum.unity.com/threads/how-to-call-animator-setbool-using-unityevent.745361/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Common<sp/>Onclick<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Needs<sp/>a<sp/>AnimatorUnityEventHandler<sp/>component<sp/>attached<sp/>to<sp/>obj<sp/>passed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>void<sp/>CommonTurnOnOffObjAnimatorBoolParameter(AnimationEventHelper<sp/>obj)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//obj.GetComponent&lt;AnimatorUnityEventHandler&gt;().TurnBoolOnOff;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endregion<sp/>Unused</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/SingleTonOnClickHelper.cs"/>
+  </compounddef>
+</doxygen>

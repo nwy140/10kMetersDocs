@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_maze" xml:lang="en-US">
+<title>Maze Class Reference</title>
+<indexterm><primary>Maze</primary></indexterm>
+Inheritance diagram for Maze:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_maze__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Maze:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_maze__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_maze_1a7fc3f2f27713b1fb94405ff2c705564e">Generate</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_class_map_location">MapLocation</link> &gt; <link linkend="_class_maze_1a5086353e3f09ad19dcd79e9bfc532a9f">directions</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_maze_1a35f4a1539a2bc2afc30a4b7800496a8e">xMin</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_maze_1a26d36b2c138a0b58204773bac35f4f21">yMin</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_maze_1a794d25d03be2e52a2f40190dfb60c37b">xMax</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_maze_1a74d4a2aed7e4d47408e4ebcd4b587cc4">yMax</link></para>
+</listitem>
+            <listitem><para>byte[,] <link linkend="_class_maze_1a10150f0d6609031d2cf8b6daa399b092">map</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_maze_1a21a5192a75690e8fff87dd5b49d64d28">scale</link> = 6</para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_maze_1af316f9462faa5e378fd0431f80b8e658">tileMarkerPrefab</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_maze_1a7fc3f2f27713b1fb94405ff2c705564e"/><section>
+    <title>Generate()</title>
+<indexterm><primary>Generate</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>Generate</secondary></indexterm>
+<para><computeroutput>virtual void Maze.Generate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_maze_1a5086353e3f09ad19dcd79e9bfc532a9f"/><section>
+    <title>directions</title>
+<indexterm><primary>directions</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>directions</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_class_map_location">MapLocation</link>&gt; Maze.directions</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;<emphasis role="keyword">new</emphasis>&#32;List&lt;MapLocation&gt;()
+&#32;&#32;&#32;&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_map_location">MapLocation</link>(1,0),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_map_location">MapLocation</link>(0,1),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_map_location">MapLocation</link>(-1,0),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_map_location">MapLocation</link>(0,-1)
+&#32;&#32;&#32;&#32;}
+</programlisting></section>
+<anchor xml:id="_class_maze_1a10150f0d6609031d2cf8b6daa399b092"/><section>
+    <title>map</title>
+<indexterm><primary>map</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>map</secondary></indexterm>
+<para><computeroutput>byte [,] Maze.map</computeroutput></para></section>
+<anchor xml:id="_class_maze_1a21a5192a75690e8fff87dd5b49d64d28"/><section>
+    <title>scale</title>
+<indexterm><primary>scale</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>scale</secondary></indexterm>
+<para><computeroutput>int Maze.scale = 6</computeroutput></para></section>
+<anchor xml:id="_class_maze_1af316f9462faa5e378fd0431f80b8e658"/><section>
+    <title>tileMarkerPrefab</title>
+<indexterm><primary>tileMarkerPrefab</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>tileMarkerPrefab</secondary></indexterm>
+<para><computeroutput>GameObject Maze.tileMarkerPrefab</computeroutput></para></section>
+<anchor xml:id="_class_maze_1a794d25d03be2e52a2f40190dfb60c37b"/><section>
+    <title>xMax</title>
+<indexterm><primary>xMax</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>xMax</secondary></indexterm>
+<para><computeroutput>int Maze.xMax</computeroutput></para></section>
+<anchor xml:id="_class_maze_1a35f4a1539a2bc2afc30a4b7800496a8e"/><section>
+    <title>xMin</title>
+<indexterm><primary>xMin</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>xMin</secondary></indexterm>
+<para><computeroutput>int Maze.xMin</computeroutput></para></section>
+<anchor xml:id="_class_maze_1a74d4a2aed7e4d47408e4ebcd4b587cc4"/><section>
+    <title>yMax</title>
+<indexterm><primary>yMax</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>yMax</secondary></indexterm>
+<para><computeroutput>int Maze.yMax</computeroutput></para></section>
+<anchor xml:id="_class_maze_1a26d36b2c138a0b58204773bac35f4f21"/><section>
+    <title>yMin</title>
+<indexterm><primary>yMin</primary><secondary>Maze</secondary></indexterm>
+<indexterm><primary>Maze</primary><secondary>yMin</secondary></indexterm>
+<para><computeroutput>int Maze.yMin</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/<link linkend="__maze_8cs">Maze.cs</link></section>
+</section>

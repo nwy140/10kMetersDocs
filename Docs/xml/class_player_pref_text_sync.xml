@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_pref_text_sync" kind="class" language="C#" prot="public">
+    <compoundname>PlayerPrefTextSync</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_pref_text_sync_1a5cd5e50b53d118680e9190a0ea54f324" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI PlayerPrefTextSync.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" line="7" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_pref_text_sync_1acfabda32ee79e0add1d108d56bc3abe8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlayerPrefTextSync.playerPrefsFloatName</definition>
+        <argsstring></argsstring>
+        <name>playerPrefsFloatName</name>
+        <initializer>= &quot;Score&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" line="9" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_pref_text_sync_1a2b7ea417038c8083cc5d2b531d567031" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerPrefTextSync.isInt</definition>
+        <argsstring></argsstring>
+        <name>isInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" line="10" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_pref_text_sync_1a3d5c15f9cee22aab10f3b4e9dbe45a78" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerPrefTextSync.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_pref_text_sync_1a9515268ccabf5c11d60126a769b5705d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerPrefTextSync.hasText</definition>
+        <argsstring></argsstring>
+        <name>hasText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" line="8" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_pref_text_sync_1acb1d964bd047a85093fed9d9e802fa5b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerPrefTextSync.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" line="14" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_pref_text_sync_1a73befda06b733c9b3fbe2eb93e703842" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerPrefTextSync.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" line="21" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" bodystart="21" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerPrefTextSync</label>
+        <link refid="class_player_pref_text_sync"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerPrefTextSync</label>
+        <link refid="class_player_pref_text_sync"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/PlayerPrefTextSync.cs" bodystart="6" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_player_pref_text_sync_1a9515268ccabf5c11d60126a769b5705d" prot="private" virt="non-virtual"><scope>PlayerPrefTextSync</scope><name>hasText</name></member>
+      <member refid="class_player_pref_text_sync_1a2b7ea417038c8083cc5d2b531d567031" prot="public" virt="non-virtual"><scope>PlayerPrefTextSync</scope><name>isInt</name></member>
+      <member refid="class_player_pref_text_sync_1a3d5c15f9cee22aab10f3b4e9dbe45a78" prot="public" virt="non-virtual"><scope>PlayerPrefTextSync</scope><name>offset</name></member>
+      <member refid="class_player_pref_text_sync_1acfabda32ee79e0add1d108d56bc3abe8" prot="public" virt="non-virtual"><scope>PlayerPrefTextSync</scope><name>playerPrefsFloatName</name></member>
+      <member refid="class_player_pref_text_sync_1acb1d964bd047a85093fed9d9e802fa5b" prot="private" virt="non-virtual"><scope>PlayerPrefTextSync</scope><name>Start</name></member>
+      <member refid="class_player_pref_text_sync_1a5cd5e50b53d118680e9190a0ea54f324" prot="public" virt="non-virtual"><scope>PlayerPrefTextSync</scope><name>text</name></member>
+      <member refid="class_player_pref_text_sync_1a73befda06b733c9b3fbe2eb93e703842" prot="private" virt="non-virtual"><scope>PlayerPrefTextSync</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

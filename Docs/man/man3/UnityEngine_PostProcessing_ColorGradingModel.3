@@ -1,0 +1,117 @@
+.TH "UnityEngine.PostProcessing.ColorGradingModel" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.PostProcessing.ColorGradingModel
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUnityEngine\&.PostProcessing\&.PostProcessingModel\fP\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBBasicSettings\fP"
+.br
+.ti -1c
+.RI "struct \fBChannelMixerSettings\fP"
+.br
+.ti -1c
+.RI "struct \fBColorWheelsSettings\fP"
+.br
+.ti -1c
+.RI "struct \fBCurvesSettings\fP"
+.br
+.ti -1c
+.RI "struct \fBLinearWheelsSettings\fP"
+.br
+.ti -1c
+.RI "struct \fBLogWheelsSettings\fP"
+.br
+.ti -1c
+.RI "struct \fBSettings\fP"
+.br
+.ti -1c
+.RI "struct \fBTonemappingSettings\fP"
+.br
+.in -1c
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBTonemapper\fP { \fBNone\fP, \fBACES\fP, \fBNeutral\fP }"
+.br
+.ti -1c
+.RI "enum \fBColorWheelMode\fP { \fBLinear\fP, \fBLog\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBReset\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnValidate\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBSettings\fP \fBsettings\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "bool \fBisDirty\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "RenderTexture \fBbakedLut\fP\fC [getset]\fP"
+.br
+.in -1c
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBUnityEngine\&.PostProcessing\&.ColorGradingModel\&.ColorWheelMode\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILinear \fP\fP
+.TP
+\fB\fILog \fP\fP
+.SS "enum \fBUnityEngine\&.PostProcessing\&.ColorGradingModel\&.Tonemapper\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fIACES \fP\fP
+ACES Filmic reference tonemapper\&. 
+.TP
+\fB\fINeutral \fP\fP
+Neutral tonemapper (based off John Hable's & Jim Hejl's work)\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "override void UnityEngine\&.PostProcessing\&.ColorGradingModel\&.OnValidate ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBUnityEngine\&.PostProcessing\&.PostProcessingModel\fP\&.
+.SS "override void UnityEngine\&.PostProcessing\&.ColorGradingModel\&.Reset ()\fC [virtual]\fP"
+
+.PP
+Implements \fBUnityEngine\&.PostProcessing\&.PostProcessingModel\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "RenderTexture UnityEngine\&.PostProcessing\&.ColorGradingModel\&.bakedLut\fC [get]\fP, \fC [set]\fP"
+
+.SS "bool UnityEngine\&.PostProcessing\&.ColorGradingModel\&.isDirty\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBSettings\fP UnityEngine\&.PostProcessing\&.ColorGradingModel\&.settings\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

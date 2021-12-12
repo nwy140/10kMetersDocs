@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_day_counter" kind="class" language="C#" prot="public">
+    <compoundname>DayCounter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_day_counter" kindref="compound">DayCounter</ref></type>
+        <definition>DayCounter DayCounter.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" line="8" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_sceneario_screen_handler_1aef5786cb02a3ccba0e0814bcc0129df1" compoundref="_sceneario_screen_handler_8cs" startline="58" endline="70">ScenearioScreenHandler.AttemptWin</referencedby>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">OutpostChoices.EnablePanels</referencedby>
+        <referencedby refid="class_scene_handler_1af218bba64c59cc22e2d29dcaec206c08" compoundref="_scene_handler_8cs" startline="8" endline="17">SceneHandler.RestartGame</referencedby>
+        <referencedby refid="class_scene_transitions_to_outpost_1a10e00fecf2254738eddd19d815366f9d" compoundref="_scene_transitions_to_outpost_8cs" startline="32" endline="37">SceneTransitionsToOutpost.Save</referencedby>
+        <referencedby refid="class_button_trigger_1a753750ab908a052210e9226b47bda7d5" compoundref="_button_trigger_8cs" startline="19" endline="27">ButtonTrigger.SkipTutorial</referencedby>
+        <referencedby refid="class_button_trigger_1a832fdd645f0175d2779d50f4d877f3bd" compoundref="_button_trigger_8cs" startline="9" endline="17">ButtonTrigger.StartTutorial</referencedby>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">TestDialogue.StartUpdating</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DayCounter.days</definition>
+        <argsstring></argsstring>
+        <name>days</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" line="9" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_sceneario_screen_handler_1aef5786cb02a3ccba0e0814bcc0129df1" compoundref="_sceneario_screen_handler_8cs" startline="58" endline="70">ScenearioScreenHandler.AttemptWin</referencedby>
+        <referencedby refid="class_day_counter_1ac85dfdea3515196a4cfbe406cf8dda21" compoundref="_day_counter_8cs" startline="19" endline="26">CountDays</referencedby>
+        <referencedby refid="class_outpost_choices_1aab31f5f04995bcaeb14d4678e4cf76bd" compoundref="_outpost_choices_8cs" startline="58" endline="73">OutpostChoices.EnablePanels</referencedby>
+        <referencedby refid="class_scene_handler_1af218bba64c59cc22e2d29dcaec206c08" compoundref="_scene_handler_8cs" startline="8" endline="17">SceneHandler.RestartGame</referencedby>
+        <referencedby refid="class_scene_transitions_to_outpost_1a10e00fecf2254738eddd19d815366f9d" compoundref="_scene_transitions_to_outpost_8cs" startline="32" endline="37">SceneTransitionsToOutpost.Save</referencedby>
+        <referencedby refid="class_button_trigger_1a753750ab908a052210e9226b47bda7d5" compoundref="_button_trigger_8cs" startline="19" endline="27">ButtonTrigger.SkipTutorial</referencedby>
+        <referencedby refid="class_button_trigger_1a832fdd645f0175d2779d50f4d877f3bd" compoundref="_button_trigger_8cs" startline="9" endline="17">ButtonTrigger.StartTutorial</referencedby>
+        <referencedby refid="class_test_dialogue_1a3b1d7dc3ff399df72573b6c53bdcfc0f" compoundref="_test_dialogue_8cs" startline="29" endline="129">TestDialogue.StartUpdating</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_day_counter_1a9eb4ff86b839f359df25c0d37962528e" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text DayCounter.dayCounter</definition>
+        <argsstring></argsstring>
+        <name>dayCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" line="10" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_day_counter_1ac85dfdea3515196a4cfbe406cf8dda21" compoundref="_day_counter_8cs" startline="19" endline="26">CountDays</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_day_counter_1aeb4120759acb15900f0c67a494bd6860" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DayCounter.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_day_counter_1ac85dfdea3515196a4cfbe406cf8dda21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DayCounter.CountDays</definition>
+        <argsstring>()</argsstring>
+        <name>CountDays</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" line="19" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" bodystart="19" bodyend="26"/>
+        <references refid="class_day_counter_1a9eb4ff86b839f359df25c0d37962528e" compoundref="_day_counter_8cs" startline="10">dayCounter</references>
+        <references refid="class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e" compoundref="_day_counter_8cs" startline="9">days</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DayCounter</label>
+        <link refid="class_day_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DayCounter</label>
+        <link refid="class_day_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+dayCounter</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>Text</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/DayCounter.cs" bodystart="7" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_day_counter_1aeb4120759acb15900f0c67a494bd6860" prot="private" virt="non-virtual"><scope>DayCounter</scope><name>Awake</name></member>
+      <member refid="class_day_counter_1ac85dfdea3515196a4cfbe406cf8dda21" prot="public" virt="non-virtual"><scope>DayCounter</scope><name>CountDays</name></member>
+      <member refid="class_day_counter_1a9eb4ff86b839f359df25c0d37962528e" prot="public" virt="non-virtual"><scope>DayCounter</scope><name>dayCounter</name></member>
+      <member refid="class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e" prot="public" virt="non-virtual"><scope>DayCounter</scope><name>days</name></member>
+      <member refid="class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31" prot="public" virt="non-virtual"><scope>DayCounter</scope><name>instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

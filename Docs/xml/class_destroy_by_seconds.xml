@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_destroy_by_seconds" kind="class" language="C#" prot="public">
+    <compoundname>DestroyBySeconds</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_destroy_by_seconds_1a8eb0f2f5962d738c1d745eb3f2d0443d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DestroyBySeconds.destroyTimer</definition>
+        <argsstring></argsstring>
+        <name>destroyTimer</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DestroyBySeconds.cs" line="7" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DestroyBySeconds.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_destroy_by_seconds_1a4e3fe78b07d240b6b51e0abb21da2d5f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DestroyBySeconds.isAllowDestroy</definition>
+        <argsstring></argsstring>
+        <name>isAllowDestroy</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DestroyBySeconds.cs" line="8" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DestroyBySeconds.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_destroy_by_seconds_1a0fd48899308902c0d1c61e7c0adbc468" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DestroyBySeconds.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DestroyBySeconds.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DestroyBySeconds.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DestroyBySeconds</label>
+        <link refid="class_destroy_by_seconds"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DestroyBySeconds</label>
+        <link refid="class_destroy_by_seconds"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DestroyBySeconds.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DestroyBySeconds.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_destroy_by_seconds_1a8eb0f2f5962d738c1d745eb3f2d0443d" prot="public" virt="non-virtual"><scope>DestroyBySeconds</scope><name>destroyTimer</name></member>
+      <member refid="class_destroy_by_seconds_1a4e3fe78b07d240b6b51e0abb21da2d5f" prot="public" virt="non-virtual"><scope>DestroyBySeconds</scope><name>isAllowDestroy</name></member>
+      <member refid="class_destroy_by_seconds_1a0fd48899308902c0d1c61e7c0adbc468" prot="private" virt="non-virtual"><scope>DestroyBySeconds</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

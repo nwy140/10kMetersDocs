@@ -1,0 +1,90 @@
+.TH "Stat" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Stat
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBIncrementValue\fP (int incrementVal)"
+.br
+.ti -1c
+.RI "int \fBDecrementValue\fP (int decrementVal)"
+.br
+.ti -1c
+.RI "void \fBOnStatValueModified\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnExternalUpdate\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBmaxValue\fP"
+.br
+.ti -1c
+.RI "int \fBminValue\fP = 0"
+.br
+.ti -1c
+.RI "UnityEvent \fBOnStatValueModifiedEvent\fP"
+.br
+.ti -1c
+.RI "Slider \fBslider\fP"
+.br
+.ti -1c
+.RI "TextMeshProUGUI \fBtext\fP"
+.br
+.ti -1c
+.RI "float \fBhpSliderLerpSpeed\fP = 0\&.95f"
+.br
+.ti -1c
+.RI "bool \fBhasSliderFinishedLerping\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "virtual int \fBcurValue\fP\fC [getset]\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "int Stat\&.DecrementValue (int decrementVal)"
+
+.SS "int Stat\&.IncrementValue (int incrementVal)"
+
+.SS "void Stat\&.OnExternalUpdate ()"
+
+.SS "void Stat\&.OnStatValueModified ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "bool Stat\&.hasSliderFinishedLerping"
+
+.SS "float Stat\&.hpSliderLerpSpeed = 0\&.95f"
+
+.SS "int Stat\&.maxValue"
+
+.SS "int Stat\&.minValue = 0"
+
+.SS "UnityEvent Stat\&.OnStatValueModifiedEvent"
+
+.SS "Slider Stat\&.slider"
+
+.SS "TextMeshProUGUI Stat\&.text"
+
+.SH "Property Documentation"
+.PP 
+.SS "virtual int Stat\&.curValue\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

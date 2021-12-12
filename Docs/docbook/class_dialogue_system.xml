@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_dialogue_system" xml:lang="en-US">
+<title>DialogueSystem Class Reference</title>
+<indexterm><primary>DialogueSystem</primary></indexterm>
+Inheritance diagram for DialogueSystem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_dialogue_system__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for DialogueSystem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_dialogue_system__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_dialogue_system_1_1_d_i_a_l_o_g_u_e___e_l_e_m_e_n_t_s">DIALOGUE_ELEMENTS</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_dialogue_system_1abb61f4a8fededc61a3177b6c77f99133">StartTalking</link> (string speech, string speaker=&quot;&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_dialogue_system_1a1a56c9948fd75a979f90d8d9c5d7f50e">StopTalking</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_dialogue_system_1_1_d_i_a_l_o_g_u_e___e_l_e_m_e_n_t_s">DIALOGUE_ELEMENTS</link> <link linkend="_class_dialogue_system_1a4d936dfa7b63220e1c93677d9c3c166d">dialogueElements</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_dialogue_system_1aea726a74d79b041e89df8a8c89cc4e4b">isWaitingForUserInput</link> = false</para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_dialogue_system_1a864f8dbb9469677d92a857ce18ca4388">pressContinue</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_dialogue_system">DialogueSystem</link> <link linkend="_class_dialogue_system_1a0f51fc22de115c59e439577a8f52eb8c">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_dialogue_system_1acdfd56be503d1565053a617235c82631">isTalking</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_dialogue_system_1abb61f4a8fededc61a3177b6c77f99133"/><section>
+    <title>StartTalking()</title>
+<indexterm><primary>StartTalking</primary><secondary>DialogueSystem</secondary></indexterm>
+<indexterm><primary>DialogueSystem</primary><secondary>StartTalking</secondary></indexterm>
+<para><computeroutput>void DialogueSystem.StartTalking (string speech, string speaker = <computeroutput>&quot;&quot;</computeroutput>
+)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_dialogue_system_abb61f4a8fededc61a3177b6c77f99133_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_dialogue_system_1a1a56c9948fd75a979f90d8d9c5d7f50e"/><section>
+    <title>StopTalking()</title>
+<indexterm><primary>StopTalking</primary><secondary>DialogueSystem</secondary></indexterm>
+<indexterm><primary>DialogueSystem</primary><secondary>StopTalking</secondary></indexterm>
+<para><computeroutput>void DialogueSystem.StopTalking ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_dialogue_system_a1a56c9948fd75a979f90d8d9c5d7f50e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_dialogue_system_1a4d936dfa7b63220e1c93677d9c3c166d"/><section>
+    <title>dialogueElements</title>
+<indexterm><primary>dialogueElements</primary><secondary>DialogueSystem</secondary></indexterm>
+<indexterm><primary>DialogueSystem</primary><secondary>dialogueElements</secondary></indexterm>
+<para><computeroutput><link linkend="_class_dialogue_system_1_1_d_i_a_l_o_g_u_e___e_l_e_m_e_n_t_s">DIALOGUE_ELEMENTS</link> DialogueSystem.dialogueElements</computeroutput></para></section>
+<anchor xml:id="_class_dialogue_system_1a0f51fc22de115c59e439577a8f52eb8c"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>DialogueSystem</secondary></indexterm>
+<indexterm><primary>DialogueSystem</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_dialogue_system">DialogueSystem</link> DialogueSystem.instance<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_dialogue_system_1aea726a74d79b041e89df8a8c89cc4e4b"/><section>
+    <title>isWaitingForUserInput</title>
+<indexterm><primary>isWaitingForUserInput</primary><secondary>DialogueSystem</secondary></indexterm>
+<indexterm><primary>DialogueSystem</primary><secondary>isWaitingForUserInput</secondary></indexterm>
+<para><computeroutput>bool DialogueSystem.isWaitingForUserInput = false</computeroutput></para></section>
+<anchor xml:id="_class_dialogue_system_1a864f8dbb9469677d92a857ce18ca4388"/><section>
+    <title>pressContinue</title>
+<indexterm><primary>pressContinue</primary><secondary>DialogueSystem</secondary></indexterm>
+<indexterm><primary>DialogueSystem</primary><secondary>pressContinue</secondary></indexterm>
+<para><computeroutput>Text DialogueSystem.pressContinue</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_dialogue_system_1acdfd56be503d1565053a617235c82631"/><section>
+    <title>isTalking</title>
+<indexterm><primary>isTalking</primary><secondary>DialogueSystem</secondary></indexterm>
+<indexterm><primary>DialogueSystem</primary><secondary>isTalking</secondary></indexterm>
+<para><computeroutput>bool DialogueSystem.isTalking<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/Dialogues/<link linkend="__dialogue_system_8cs">DialogueSystem.cs</link></section>
+</section>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_audio_fade" kind="class" language="C#" prot="public">
+    <compoundname>AudioFade</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_audio_fade_1a05280991a4b1eea213ca976f6fe77a5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>static IEnumerator AudioFade.FadeOut</definition>
+        <argsstring>(Sound sound, float fadingTime, Func&lt; float, float, float, float &gt; Interpolate)</argsstring>
+        <name>FadeOut</name>
+        <param>
+          <type><ref refid="class_sound" kindref="compound">Sound</ref></type>
+          <declname>sound</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fadingTime</declname>
+        </param>
+        <param>
+          <type>Func&lt; float, float, float, float &gt;</type>
+          <declname>Interpolate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="339" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="339" bodyend="354"/>
+        <references refid="class_sound_1ac6ec734812a52abf31595cab2ba48d8d" compoundref="_sound_8cs" startline="23">Sound.source</references>
+        <referencedby refid="class_audio_manager_1ab55ae7d62d8473122b8969709e60e2a0" compoundref="_audio_manager_8cs" startline="290" endline="299">AudioManager.StopBGMFadeOutTransition</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_fade_1a511cd3d05043fbb6468e3043a45a7024" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>static IEnumerator AudioFade.FadeIn</definition>
+        <argsstring>(Sound sound, float fadingTime, Func&lt; float, float, float, float &gt; Interpolate)</argsstring>
+        <name>FadeIn</name>
+        <param>
+          <type><ref refid="class_sound" kindref="compound">Sound</ref></type>
+          <declname>sound</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fadingTime</declname>
+        </param>
+        <param>
+          <type>Func&lt; float, float, float, float &gt;</type>
+          <declname>Interpolate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="355" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="355" bodyend="377"/>
+        <references refid="class_sound_1ac6ec734812a52abf31595cab2ba48d8d" compoundref="_sound_8cs" startline="23">Sound.source</references>
+        <references refid="class_sound_1a7ab1335f27bd340c389568889823cc00" compoundref="_sound_8cs" startline="15">Sound.volume</references>
+        <referencedby refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" compoundref="_audio_manager_8cs" startline="246" endline="289">AudioManager.PlayBGMFadeTransition</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AudioFade</label>
+        <link refid="class_audio_fade"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" line="337" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/AudioManager.cs" bodystart="338" bodyend="378"/>
+    <listofallmembers>
+      <member refid="class_audio_fade_1a511cd3d05043fbb6468e3043a45a7024" prot="public" virt="non-virtual"><scope>AudioFade</scope><name>FadeIn</name></member>
+      <member refid="class_audio_fade_1a05280991a4b1eea213ca976f6fe77a5a" prot="public" virt="non-virtual"><scope>AudioFade</scope><name>FadeOut</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

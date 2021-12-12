@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_movement" xml:lang="en-US">
+<title>PlayerMovement Class Reference</title>
+<indexterm><primary>PlayerMovement</primary></indexterm>
+Inheritance diagram for PlayerMovement:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_movement__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for PlayerMovement:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_movement__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_player_movement_1a69aaa28d0715d1d2a86845ee7c0077ed">Command_Interact</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_movement_1a92ce439184636d99c1cb7dda74beb4ab">OnInputMoveHorizontalAxis</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_movement_1aa7d28c0e71a4df33aad6c669463fc59f">OnInputMoveVerticalAxis</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_movement_1ac973865c47e9c1aa0b1467b185f10ee6">OnInputCommandSlot3</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_player_movement_1a337ddf0c30749248244531818e379772">IsInvincible</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_player_movement_1aa9f88d44857be0a79c0d0bcfda6f4ebe">dashSpeed</link> = 100f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_movement_1a9e4bb6226fd5641ee508685a55c30770">timeToStopDash</link> = 1f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_movement_1a0e172433cfda8eadc46e269a08dd33c3">cooldown</link> = 5f</para>
+</listitem>
+            <listitem><para>GameObject[] <link linkend="_class_player_movement_1a0aadb65ae80c732909b9791e7b6d9780">allEnemy</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_player_movement_1ae5fdc35dd514312a12047e2901d83a57">cooldownFlag</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_player_movement_1a844018e259f01e42a3c2c59fcb4e6189">isDashing</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_player_movement_1ad464fcd0f0c5a8daba6b3faa7e1c4d78">isInvincible</link> = false</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_movement_1a538bffdda95c5f258c14edc78100af8b">moveHorizontalAxis</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_movement_1a7ab0ebadfbe2fe4205e94f8d73097e73">moveVerticalAxis</link></para>
+</listitem>
+            <listitem><para>Animator <link linkend="_class_player_movement_1af5745cc3cb8f3f0cf6d2beac4316d4a5">anim</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_movement_1a69aaa28d0715d1d2a86845ee7c0077ed"/><section>
+    <title>Command_Interact()</title>
+<indexterm><primary>Command_Interact</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>Command_Interact</secondary></indexterm>
+<para><computeroutput>void PlayerMovement.Command_Interact ( )</computeroutput></para>
+<para><link linkend="_class_item_container_1aaaa93fedc164672528fee56061686ee0">storage.IsFull()</link> &amp;&amp;</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_movement_a69aaa28d0715d1d2a86845ee7c0077ed_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_movement_1a337ddf0c30749248244531818e379772"/><section>
+    <title>IsInvincible()</title>
+<indexterm><primary>IsInvincible</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>IsInvincible</secondary></indexterm>
+<para><computeroutput>bool PlayerMovement.IsInvincible ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_movement_a337ddf0c30749248244531818e379772_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_movement_a337ddf0c30749248244531818e379772_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_movement_1ac973865c47e9c1aa0b1467b185f10ee6"/><section>
+    <title>OnInputCommandSlot3()</title>
+<indexterm><primary>OnInputCommandSlot3</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>OnInputCommandSlot3</secondary></indexterm>
+<para><computeroutput>void PlayerMovement.OnInputCommandSlot3 (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1a92ce439184636d99c1cb7dda74beb4ab"/><section>
+    <title>OnInputMoveHorizontalAxis()</title>
+<indexterm><primary>OnInputMoveHorizontalAxis</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>OnInputMoveHorizontalAxis</secondary></indexterm>
+<para><computeroutput>void PlayerMovement.OnInputMoveHorizontalAxis (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1aa7d28c0e71a4df33aad6c669463fc59f"/><section>
+    <title>OnInputMoveVerticalAxis()</title>
+<indexterm><primary>OnInputMoveVerticalAxis</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>OnInputMoveVerticalAxis</secondary></indexterm>
+<para><computeroutput>void PlayerMovement.OnInputMoveVerticalAxis (InputAction.CallbackContext context)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_player_movement_1a0aadb65ae80c732909b9791e7b6d9780"/><section>
+    <title>allEnemy</title>
+<indexterm><primary>allEnemy</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>allEnemy</secondary></indexterm>
+<para><computeroutput>GameObject [] PlayerMovement.allEnemy</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1af5745cc3cb8f3f0cf6d2beac4316d4a5"/><section>
+    <title>anim</title>
+<indexterm><primary>anim</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>anim</secondary></indexterm>
+<para><computeroutput>Animator PlayerMovement.anim</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1a0e172433cfda8eadc46e269a08dd33c3"/><section>
+    <title>cooldown</title>
+<indexterm><primary>cooldown</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>cooldown</secondary></indexterm>
+<para><computeroutput>float PlayerMovement.cooldown = 5f</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1ae5fdc35dd514312a12047e2901d83a57"/><section>
+    <title>cooldownFlag</title>
+<indexterm><primary>cooldownFlag</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>cooldownFlag</secondary></indexterm>
+<para><computeroutput>bool PlayerMovement.cooldownFlag</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1aa9f88d44857be0a79c0d0bcfda6f4ebe"/><section>
+    <title>dashSpeed</title>
+<indexterm><primary>dashSpeed</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>dashSpeed</secondary></indexterm>
+<para><computeroutput>float PlayerMovement.dashSpeed = 100f</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1a844018e259f01e42a3c2c59fcb4e6189"/><section>
+    <title>isDashing</title>
+<indexterm><primary>isDashing</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>isDashing</secondary></indexterm>
+<para><computeroutput>bool PlayerMovement.isDashing</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1ad464fcd0f0c5a8daba6b3faa7e1c4d78"/><section>
+    <title>isInvincible</title>
+<indexterm><primary>isInvincible</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>isInvincible</secondary></indexterm>
+<para><computeroutput>bool PlayerMovement.isInvincible = false</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1a538bffdda95c5f258c14edc78100af8b"/><section>
+    <title>moveHorizontalAxis</title>
+<indexterm><primary>moveHorizontalAxis</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>moveHorizontalAxis</secondary></indexterm>
+<para><computeroutput>float PlayerMovement.moveHorizontalAxis</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1a7ab0ebadfbe2fe4205e94f8d73097e73"/><section>
+    <title>moveVerticalAxis</title>
+<indexterm><primary>moveVerticalAxis</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>moveVerticalAxis</secondary></indexterm>
+<para><computeroutput>float PlayerMovement.moveVerticalAxis</computeroutput></para></section>
+<anchor xml:id="_class_player_movement_1a9e4bb6226fd5641ee508685a55c30770"/><section>
+    <title>timeToStopDash</title>
+<indexterm><primary>timeToStopDash</primary><secondary>PlayerMovement</secondary></indexterm>
+<indexterm><primary>PlayerMovement</primary><secondary>timeToStopDash</secondary></indexterm>
+<para><computeroutput>float PlayerMovement.timeToStopDash = 1f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/<link linkend="__player_movement_8cs">PlayerMovement.cs</link></section>
+</section>

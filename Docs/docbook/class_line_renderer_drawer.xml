@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_line_renderer_drawer" xml:lang="en-US">
+<title>LineRendererDrawer Class Reference</title>
+<indexterm><primary>LineRendererDrawer</primary></indexterm>
+<para>
+
+<para>This class gets a line renderer in this object, and then set its end points based on its target. </para>
+ 
+</para>
+Inheritance diagram for LineRendererDrawer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_line_renderer_drawer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for LineRendererDrawer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_line_renderer_drawer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_line_renderer_drawer_1aba4ee14f8f64de8789f37576a7491474">SetTarget</link> (Transform newTarget)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_line_renderer_drawer_1a3d8676b2e6512a491f3126742f3632f0">ResetTarget</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_line_renderer_drawer_1a1ca3edf456579d487f7ed490a5015fb2">SetLineTargetChildObject</link> ()</para>
+
+<para>This function will attach line Renderer to any child objects of this object Explanation: </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Transform <link linkend="_class_line_renderer_drawer_1a340cbb002f61f95a0843e5792113db43">origin</link></para>
+</listitem>
+            <listitem><para>Transform <link linkend="_class_line_renderer_drawer_1ad00ce6c5117f6b92a9fbeecf7e37c302">target</link></para>
+</listitem>
+            <listitem><para>LineRenderer <link linkend="_class_line_renderer_drawer_1accf701f44ab5d58c7216b73df588fda5">line</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class gets a line renderer in this object, and then set its end points based on its target. </para>
+
+
+
+<para>Explanation:</para>
+
+<para>Usage: Integration:<itemizedlist>
+<listitem>
+<para>Attach this class script to an Obj with LineRenderer attached to it.</para>
+</listitem><listitem>
+<para>Line Renderer will automatically set its endPoint as the target that is passed in this script</para>
+</listitem><listitem>
+<para>You can swap the target endPoint by calling the setTarget function</para>
+</listitem><listitem>
+<para>You can reset the target to the initial default target by calling the ResetTarget function</para>
+</listitem><listitem>
+<para>You can make the LineRenderer target any child obj under this Obj by calling the SetLineTargetChildObject function Implement Later: </para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_line_renderer_drawer_1a3d8676b2e6512a491f3126742f3632f0"/><section>
+    <title>ResetTarget()</title>
+<indexterm><primary>ResetTarget</primary><secondary>LineRendererDrawer</secondary></indexterm>
+<indexterm><primary>LineRendererDrawer</primary><secondary>ResetTarget</secondary></indexterm>
+<para><computeroutput>void LineRendererDrawer.ResetTarget ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_line_renderer_drawer_a3d8676b2e6512a491f3126742f3632f0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_line_renderer_drawer_1a1ca3edf456579d487f7ed490a5015fb2"/><section>
+    <title>SetLineTargetChildObject()</title>
+<indexterm><primary>SetLineTargetChildObject</primary><secondary>LineRendererDrawer</secondary></indexterm>
+<indexterm><primary>LineRendererDrawer</primary><secondary>SetLineTargetChildObject</secondary></indexterm>
+<para><computeroutput>void LineRendererDrawer.SetLineTargetChildObject ( )</computeroutput></para><para>
+
+<para>This function will attach line Renderer to any child objects of this object Explanation: </para>
+</para>
+
+<para><itemizedlist>
+<listitem>
+<para>Whenever there is more than 0 child attached to this object</para>
+</listitem><listitem>
+<para>Set first child object as endpoint Usage:</para>
+</listitem><listitem></listitem></itemizedlist>
+</para>
+
+<para>Integration:<itemizedlist>
+<listitem>
+<para>Call this function to make line renderer set its endpoint as targetChildObject </para>
+</listitem></itemizedlist>
+</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_line_renderer_drawer_a1ca3edf456579d487f7ed490a5015fb2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_line_renderer_drawer_1aba4ee14f8f64de8789f37576a7491474"/><section>
+    <title>SetTarget()</title>
+<indexterm><primary>SetTarget</primary><secondary>LineRendererDrawer</secondary></indexterm>
+<indexterm><primary>LineRendererDrawer</primary><secondary>SetTarget</secondary></indexterm>
+<para><computeroutput>void LineRendererDrawer.SetTarget (Transform newTarget)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_line_renderer_drawer_1accf701f44ab5d58c7216b73df588fda5"/><section>
+    <title>line</title>
+<indexterm><primary>line</primary><secondary>LineRendererDrawer</secondary></indexterm>
+<indexterm><primary>LineRendererDrawer</primary><secondary>line</secondary></indexterm>
+<para><computeroutput>LineRenderer LineRendererDrawer.line</computeroutput></para></section>
+<anchor xml:id="_class_line_renderer_drawer_1a340cbb002f61f95a0843e5792113db43"/><section>
+    <title>origin</title>
+<indexterm><primary>origin</primary><secondary>LineRendererDrawer</secondary></indexterm>
+<indexterm><primary>LineRendererDrawer</primary><secondary>origin</secondary></indexterm>
+<para><computeroutput>Transform LineRendererDrawer.origin</computeroutput></para></section>
+<anchor xml:id="_class_line_renderer_drawer_1ad00ce6c5117f6b92a9fbeecf7e37c302"/><section>
+    <title>target</title>
+<indexterm><primary>target</primary><secondary>LineRendererDrawer</secondary></indexterm>
+<indexterm><primary>LineRendererDrawer</primary><secondary>target</secondary></indexterm>
+<para><computeroutput>Transform LineRendererDrawer.target</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Helper/<link linkend="__line_renderer_drawer_8cs">LineRendererDrawer.cs</link></section>
+</section>

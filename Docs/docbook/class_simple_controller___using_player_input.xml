@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_simple_controller___using_player_input" xml:lang="en-US">
+<title>SimpleController_UsingPlayerInput Class Reference</title>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary></indexterm>
+Inheritance diagram for SimpleController_UsingPlayerInput:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_simple_controller___using_player_input__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SimpleController_UsingPlayerInput:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_simple_controller___using_player_input__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_simple_controller___using_player_input_1a77cafc9010cd7c69157aaf3b2307afdc">OnMove</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controller___using_player_input_1ad0537343e7b7fde2547d7f96e95afbf8">OnLook</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controller___using_player_input_1a505b525e9f6c345f2e55cad831e0a085">OnFire</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controller___using_player_input_1a0dd190a538fdd609c563acaec798eec0">OnGUI</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controller___using_player_input_1a017c5313571cc714b0d20e8c2ace7424">Update</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_simple_controller___using_player_input_1ad684eb92c5e54c016069bab44c8d1586">moveSpeed</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_simple_controller___using_player_input_1afc54d804e7567b6269e725a0f5a40eb5">rotateSpeed</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_simple_controller___using_player_input_1a1805215629ac855604dad672ef6f7128">burstSpeed</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_simple_controller___using_player_input_1ab72a52abb3c83eed79efc6cf7004a279">projectile</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_simple_controller___using_player_input_1a505b525e9f6c345f2e55cad831e0a085"/><section>
+    <title>OnFire()</title>
+<indexterm><primary>OnFire</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>OnFire</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingPlayerInput.OnFire (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_player_input_1a0dd190a538fdd609c563acaec798eec0"/><section>
+    <title>OnGUI()</title>
+<indexterm><primary>OnGUI</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>OnGUI</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingPlayerInput.OnGUI ( )</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_player_input_1ad0537343e7b7fde2547d7f96e95afbf8"/><section>
+    <title>OnLook()</title>
+<indexterm><primary>OnLook</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>OnLook</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingPlayerInput.OnLook (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_player_input_1a77cafc9010cd7c69157aaf3b2307afdc"/><section>
+    <title>OnMove()</title>
+<indexterm><primary>OnMove</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>OnMove</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingPlayerInput.OnMove (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_player_input_1a017c5313571cc714b0d20e8c2ace7424"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingPlayerInput.Update ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_simple_controller___using_player_input_1a1805215629ac855604dad672ef6f7128"/><section>
+    <title>burstSpeed</title>
+<indexterm><primary>burstSpeed</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>burstSpeed</secondary></indexterm>
+<para><computeroutput>float SimpleController_UsingPlayerInput.burstSpeed</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_player_input_1ad684eb92c5e54c016069bab44c8d1586"/><section>
+    <title>moveSpeed</title>
+<indexterm><primary>moveSpeed</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>moveSpeed</secondary></indexterm>
+<para><computeroutput>float SimpleController_UsingPlayerInput.moveSpeed</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_player_input_1ab72a52abb3c83eed79efc6cf7004a279"/><section>
+    <title>projectile</title>
+<indexterm><primary>projectile</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>projectile</secondary></indexterm>
+<para><computeroutput>GameObject SimpleController_UsingPlayerInput.projectile</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_player_input_1afc54d804e7567b6269e725a0f5a40eb5"/><section>
+    <title>rotateSpeed</title>
+<indexterm><primary>rotateSpeed</primary><secondary>SimpleController_UsingPlayerInput</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingPlayerInput</primary><secondary>rotateSpeed</secondary></indexterm>
+<para><computeroutput>float SimpleController_UsingPlayerInput.rotateSpeed</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/<link linkend="__simple_controller___using_player_input_8cs">SimpleController_UsingPlayerInput.cs</link></section>
+</section>

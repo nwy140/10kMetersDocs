@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_base" kind="class" language="C#" prot="public">
+    <compoundname>CommandBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <basecompoundref refid="interface_i_command" prot="public" virt="non-virtual">ICommand</basecompoundref>
+    <derivedcompoundref refid="class_bin_command_with_cooldown" prot="public" virt="non-virtual">BinCommandWithCooldown</derivedcompoundref>
+    <derivedcompoundref refid="class_input_command" prot="public" virt="non-virtual">InputCommand</derivedcompoundref>
+    <innerclass refid="struct_command_base_1_1_cooldown_info" prot="public">CommandBase::CooldownInfo</innerclass>
+    <innerclass refid="class_command_base_1_1_execution_info" prot="public">CommandBase::ExecutionInfo</innerclass>
+    <innerclass refid="struct_command_base_1_1_info" prot="public">CommandBase::Info</innerclass>
+    <innerclass refid="struct_command_base_1_1_instance_info_runtime" prot="public">CommandBase::InstanceInfoRuntime</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CastState</name>
+        <enumvalue id="class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4bab2fdab230a2c39f3595a947861863cb7" prot="public">
+          <name>ready</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4bac76a5e84e4bdee527e274ea30c680d79" prot="public">
+          <name>active</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4ba59c659396e8d30a10effe3566f8b782d" prot="public">
+          <name>cooldown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="62" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="63" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_command_base_1_1_info" kindref="compound">Info</ref></type>
+        <definition>Info CommandBase.info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="17" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" compoundref="_input_command_8cs" startline="158" endline="168">InputCommand.ExecDown</referencedby>
+        <referencedby refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0" compoundref="_input_command_8cs" startline="170" endline="181">InputCommand.ExecDownCharging</referencedby>
+        <referencedby refid="class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73" compoundref="_input_command_8cs" startline="152" endline="157">InputCommand.ExecPress</referencedby>
+        <referencedby refid="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993" compoundref="_input_command_8cs" startline="182" endline="208">InputCommand.ExecRelease</referencedby>
+        <referencedby refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" compoundref="_command_base_8cs" startline="229" endline="239">Init</referencedby>
+        <referencedby refid="class_input_command_1a97a167a50735820e585e0f6c9b926ede" compoundref="_input_command_8cs" startline="247" endline="260">InputCommand.OnInput</referencedby>
+        <referencedby refid="class_command_queue_1a3e75a40a7905a7cffeb55130f49bfcdd" compoundref="_command_queue_8cs" startline="105" endline="117">CommandQueue.TryExecuteCommand</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_command_base_1_1_instance_info_runtime" kindref="compound">InstanceInfoRuntime</ref></type>
+        <definition>InstanceInfoRuntime CommandBase.instanceInfo</definition>
+        <argsstring></argsstring>
+        <name>instanceInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="27" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_command_base_1a1daf934f29ab2fed7aa0469e7794f01b" compoundref="_command_base_8cs" startline="147" endline="154">CalculateElapsedTime</referencedby>
+        <referencedby refid="class_command_base_1a4dcfa4d779498beebcace4649f911d2d" compoundref="_command_base_8cs" startline="241" endline="253">CreateNewInstanceOfSelf</referencedby>
+        <referencedby refid="class_command_base_1ae0f9aff4793563e3681b052196c93c61" compoundref="_command_base_8cs" startline="215" endline="221">Execd</referencedby>
+        <referencedby refid="class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577" compoundref="_command_base_8cs" startline="191" endline="197">ExecDown</referencedby>
+        <referencedby refid="class_command_base_1abce04e951d2ff38afc8110a7e230e0ad" compoundref="_command_base_8cs" startline="199" endline="205">ExecDownCharging</referencedby>
+        <referencedby refid="class_command_base_1a2555099b8b8f7345919865ca0daa4bdb" compoundref="_command_base_8cs" startline="183" endline="190">ExecPress</referencedby>
+        <referencedby refid="class_enable_disable_game_object_command_1a90b52b05f06141aa37a6861111b4cb0a" compoundref="_enable_disable_game_object_command_8cs" startline="6" endline="11">EnableDisableGameObjectCommand.ExecPress</referencedby>
+        <referencedby refid="class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7" compoundref="_set_material_color_command_8cs" startline="8" endline="16">SetMaterialColorCommand.ExecPress</referencedby>
+        <referencedby refid="class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298" compoundref="_command_base_8cs" startline="207" endline="213">ExecRelease</referencedby>
+        <referencedby refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" compoundref="_command_base_8cs" startline="229" endline="239">Init</referencedby>
+        <referencedby refid="class_command_base_1ad212a686f171b8d585283c12f85ec943" compoundref="_command_base_8cs" startline="225" endline="228">InitGameObj</referencedby>
+        <referencedby refid="class_command_base_1a6bf6020fca1d369cd58792b3d99fedd5" compoundref="_command_base_8cs" startline="273" endline="277">OnDisable</referencedby>
+        <referencedby refid="class_command_base_1a715925776f1d5f4cb3c75d60043455bd" compoundref="_command_base_8cs" startline="265" endline="271">OnEnable</referencedby>
+        <referencedby refid="class_command_event_listener_1ac1e59d6eb63eac12bf9a112eb2cb5769" compoundref="_command_event_listener_8cs" startline="60" endline="67">CommandEventListener.OnEventRaised</referencedby>
+        <referencedby refid="class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0" compoundref="_command_base_8cs" startline="135" endline="145">OnExternalUpdate</referencedby>
+        <referencedby refid="class_command_base_1a405d08e553ab58bb187c762a91fe20d8" compoundref="_command_base_8cs" startline="121" endline="134">TryExecCommand</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_base_1a00855c89a1d7f998d84163304d5568fd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_command_base_1_1_cooldown_info" kindref="compound">CooldownInfo</ref></type>
+        <definition>CooldownInfo CommandBase.cooldownInfo</definition>
+        <argsstring></argsstring>
+        <name>cooldownInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="47" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">HandleCooldown</referencedby>
+        <referencedby refid="class_input_command_1a4470c759214a801d8f73f6f6190f2f76" compoundref="_input_command_8cs" startline="121" endline="142">InputCommand.SetExecInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_base_1a9d160629089439a8d86ff0dfabb79315" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_base_1_1_execution_info" kindref="compound">ExecutionInfo</ref></type>
+        <definition>ExecutionInfo CommandBase.execInfo</definition>
+        <argsstring></argsstring>
+        <name>execInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="157" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="157" bodyend="-1"/>
+        <referencedby refid="class_command_base_1ae0f9aff4793563e3681b052196c93c61" compoundref="_command_base_8cs" startline="215" endline="221">Execd</referencedby>
+        <referencedby refid="class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577" compoundref="_command_base_8cs" startline="191" endline="197">ExecDown</referencedby>
+        <referencedby refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" compoundref="_input_command_8cs" startline="158" endline="168">InputCommand.ExecDown</referencedby>
+        <referencedby refid="class_command_base_1abce04e951d2ff38afc8110a7e230e0ad" compoundref="_command_base_8cs" startline="199" endline="205">ExecDownCharging</referencedby>
+        <referencedby refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0" compoundref="_input_command_8cs" startline="170" endline="181">InputCommand.ExecDownCharging</referencedby>
+        <referencedby refid="class_command_base_1a2555099b8b8f7345919865ca0daa4bdb" compoundref="_command_base_8cs" startline="183" endline="190">ExecPress</referencedby>
+        <referencedby refid="class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73" compoundref="_input_command_8cs" startline="152" endline="157">InputCommand.ExecPress</referencedby>
+        <referencedby refid="class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298" compoundref="_command_base_8cs" startline="207" endline="213">ExecRelease</referencedby>
+        <referencedby refid="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993" compoundref="_input_command_8cs" startline="182" endline="208">InputCommand.ExecRelease</referencedby>
+        <referencedby refid="class_command_event_listener_1a30b08e0348f88eb169fc4b31cd504ad5" compoundref="_command_event_listener_8cs" startline="86" endline="111">CommandEventListener.Init</referencedby>
+        <referencedby refid="class_command_base_1a6bf6020fca1d369cd58792b3d99fedd5" compoundref="_command_base_8cs" startline="273" endline="277">OnDisable</referencedby>
+        <referencedby refid="class_command_base_1a715925776f1d5f4cb3c75d60043455bd" compoundref="_command_base_8cs" startline="265" endline="271">OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_command_base_1aff5582377a9008fb9dd715e06627f345" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>virtual string CommandBase.aName</definition>
+        <argsstring></argsstring>
+        <name>aName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="114" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="114" bodyend="114"/>
+        <referencedby refid="class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1" compoundref="_command_queue_helper_8cs" startline="65" endline="167">CommandQueueHelper.CheckSequence</referencedby>
+        <referencedby refid="class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c" compoundref="_command_manager_old_8cs" startline="95" endline="176">CommandManagerOld.CheckSequence</referencedby>
+        <referencedby refid="class_command_queue_1a49bdb3f6c6ba3fe06175aeec03b5cdc3" compoundref="_command_queue_8cs" startline="75" endline="92">CommandQueue.Enqueue</referencedby>
+        <referencedby refid="class_command_queue_helper_1a1d27bd76d4426d4967b69d2d434ccc10" compoundref="_command_queue_helper_8cs" startline="235" endline="251">CommandQueueHelper.ExecCommand_HoldRelease</referencedby>
+        <referencedby refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" compoundref="_input_command_8cs" startline="158" endline="168">InputCommand.ExecDown</referencedby>
+        <referencedby refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0" compoundref="_input_command_8cs" startline="170" endline="181">InputCommand.ExecDownCharging</referencedby>
+        <referencedby refid="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993" compoundref="_input_command_8cs" startline="182" endline="208">InputCommand.ExecRelease</referencedby>
+        <referencedby refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" compoundref="_command_base_8cs" startline="229" endline="239">Init</referencedby>
+        <referencedby refid="class_command_queue_1a450a8cae5d83f56c51b8d3a0be567e36" compoundref="_command_queue_8cs" startline="135" endline="140">CommandQueue.Remove</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_command_base_1a6593ea3d53501bd90c83e2bc7bb5f81c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>virtual float CommandBase.TimeStamp</definition>
+        <argsstring></argsstring>
+        <name>TimeStamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="115" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="115" bodyend="115"/>
+        <referencedby refid="class_command_queue_1a49bdb3f6c6ba3fe06175aeec03b5cdc3" compoundref="_command_queue_8cs" startline="75" endline="92">CommandQueue.Enqueue</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_command_base_1aeaa20a07ff3ae4982db4f91d09ee21af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>virtual float CommandBase.ElapsedTime</definition>
+        <argsstring></argsstring>
+        <name>ElapsedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="116" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="property" id="class_command_base_1a9da58b3b0bfbd61fec118c863dff71df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>virtual int CommandBase.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="119" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="119" bodyend="119"/>
+        <referencedby refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" compoundref="_command_base_8cs" startline="229" endline="239">Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_base_1a99b32aa77f30f6b42ee58778183e5db5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.Activate</definition>
+        <argsstring>(GameObject ownerRootParentObj=null)</argsstring>
+        <name>Activate</name>
+        <param>
+          <type>GameObject</type>
+          <declname>ownerRootParentObj</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="67" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="67" bodyend="67"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">HandleCooldown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1adcc42ebe79b3532b8a45b8be75958497" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.BeginCooldown</definition>
+        <argsstring>(GameObject ownerRootParentObj=null)</argsstring>
+        <name>BeginCooldown</name>
+        <param>
+          <type>GameObject</type>
+          <declname>ownerRootParentObj</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="68" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="68" bodyend="68"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">HandleCooldown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a7e86bdf437ded67513c61d554b2ed79b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.StayCooldown</definition>
+        <argsstring>(GameObject ownerRootParentObj=null)</argsstring>
+        <name>StayCooldown</name>
+        <param>
+          <type>GameObject</type>
+          <declname>ownerRootParentObj</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="69" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="69" bodyend="69"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">HandleCooldown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1ae4422d145540bf12661a8078c6066ab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.EndCooldown</definition>
+        <argsstring>(GameObject ownerRootParentObj=null)</argsstring>
+        <name>EndCooldown</name>
+        <param>
+          <type>GameObject</type>
+          <declname>ownerRootParentObj</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="70" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="70" bodyend="70"/>
+        <referencedby refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">HandleCooldown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandBase.HandleCooldown</definition>
+        <argsstring>(GameObject ownerRootParentObj)</argsstring>
+        <name>HandleCooldown</name>
+        <param>
+          <type>GameObject</type>
+          <declname>ownerRootParentObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="78" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="78" bodyend="110"/>
+        <references refid="class_command_base_1a99b32aa77f30f6b42ee58778183e5db5" compoundref="_command_base_8cs" startline="67" endline="67">Activate</references>
+        <references refid="class_command_base_1adcc42ebe79b3532b8a45b8be75958497" compoundref="_command_base_8cs" startline="68" endline="68">BeginCooldown</references>
+        <references refid="struct_command_base_1_1_cooldown_info_1a744e22238d30ea394f82cb8f0b0cccd4" compoundref="_command_base_8cs" startline="56">CommandBase.CooldownInfo.castState</references>
+        <references refid="class_command_base_1a00855c89a1d7f998d84163304d5568fd" compoundref="_command_base_8cs" startline="47">cooldownInfo</references>
+        <references refid="struct_command_base_1_1_cooldown_info_1aa46014d164da650caa0e60cf2e996a44" compoundref="_command_base_8cs" startline="52">CommandBase.CooldownInfo.cooldownTime</references>
+        <references refid="struct_command_base_1_1_cooldown_info_1a91f07d2e668261920468b08553e93caf" compoundref="_command_base_8cs" startline="55">CommandBase.CooldownInfo.curCoolDownTimeElapsed</references>
+        <references refid="class_command_base_1ae4422d145540bf12661a8078c6066ab4" compoundref="_command_base_8cs" startline="70" endline="70">EndCooldown</references>
+        <references refid="struct_command_base_1_1_cooldown_info_1aace98c3d25895e6cf0fc315803778f28" compoundref="_command_base_8cs" startline="57">CommandBase.CooldownInfo.isCastingNow</references>
+        <references refid="class_command_base_1a7e86bdf437ded67513c61d554b2ed79b" compoundref="_command_base_8cs" startline="69" endline="69">StayCooldown</references>
+        <referencedby refid="class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0" compoundref="_command_base_8cs" startline="135" endline="145">OnExternalUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a405d08e553ab58bb187c762a91fe20d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.TryExecCommand</definition>
+        <argsstring>()</argsstring>
+        <name>TryExecCommand</name>
+        <reimplements refid="interface_i_command_1a7fc0d324014976db246abbd800a4cc7b">TryExecCommand</reimplements>
+        <reimplementedby refid="class_input_command_1a32ba692a92ce5fd84c67ab3d320965ad">TryExecCommand</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="121" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="121" bodyend="134"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a3c9118c9ff0948d6c6937d6aa9907844" compoundref="_command_base_8cs" startline="32">CommandBase.InstanceInfoRuntime._isEnabled</references>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1abc9563c0017b4cc2ea6c0da7024db137" compoundref="_command_base_8cs" startline="36">CommandBase.InstanceInfoRuntime.ElapsedTime</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a3d11277f1cac450e6fe7593919847d48" compoundref="_command_base_8cs" startline="34">CommandBase.InstanceInfoRuntime.TimeStamp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.OnExternalUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnExternalUpdate</name>
+        <reimplementedby refid="class_input_command_1a64de2217fb20e650e8e04e1c80deaef8">OnExternalUpdate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="135" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="135" bodyend="145"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a3c9118c9ff0948d6c6937d6aa9907844" compoundref="_command_base_8cs" startline="32">CommandBase.InstanceInfoRuntime._isEnabled</references>
+        <references refid="class_command_base_1a1daf934f29ab2fed7aa0469e7794f01b" compoundref="_command_base_8cs" startline="147" endline="154">CalculateElapsedTime</references>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a" compoundref="_command_base_8cs" startline="37">CommandBase.InstanceInfoRuntime.commandOwnerRootObj</references>
+        <references refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" compoundref="_command_base_8cs" startline="78" endline="110">HandleCooldown</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a1daf934f29ab2fed7aa0469e7794f01b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.CalculateElapsedTime</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateElapsedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="147" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="147" bodyend="154"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a3c9118c9ff0948d6c6937d6aa9907844" compoundref="_command_base_8cs" startline="32">CommandBase.InstanceInfoRuntime._isEnabled</references>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1abc9563c0017b4cc2ea6c0da7024db137" compoundref="_command_base_8cs" startline="36">CommandBase.InstanceInfoRuntime.ElapsedTime</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <referencedby refid="class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0" compoundref="_command_base_8cs" startline="135" endline="145">OnExternalUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a2555099b8b8f7345919865ca0daa4bdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.ExecPress</definition>
+        <argsstring>()</argsstring>
+        <name>ExecPress</name>
+        <reimplementedby refid="class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73">ExecPress</reimplementedby>
+        <reimplementedby refid="class_enable_disable_game_object_command_1a90b52b05f06141aa37a6861111b4cb0a">ExecPress</reimplementedby>
+        <reimplementedby refid="class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7">ExecPress</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="183" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="183" bodyend="190"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a" compoundref="_command_base_8cs" startline="37">CommandBase.InstanceInfoRuntime.commandOwnerRootObj</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">execInfo</references>
+        <references refid="class_command_base_1_1_execution_info_1ae30a252f15a5dea952d88df9c4e8ffe6" compoundref="_command_base_8cs" startline="173">CommandBase.ExecutionInfo.ExecPressEvent</references>
+        <references refid="class_command_base_1_1_execution_info_1af07e8d5b8b1440a1f9a87b57087159e3" compoundref="_command_base_8cs" startline="165">CommandBase.ExecutionInfo.ExecPressHolderEvent</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <references refid="class_command_event_1ae91059b18bc99831c62057d274a67e1c" compoundref="_command_event_8cs" startline="11" endline="15">CommandEvent.Raise</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.ExecDown</definition>
+        <argsstring>()</argsstring>
+        <name>ExecDown</name>
+        <reimplementedby refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f">ExecDown</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="191" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="191" bodyend="197"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a" compoundref="_command_base_8cs" startline="37">CommandBase.InstanceInfoRuntime.commandOwnerRootObj</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_command_base_1_1_execution_info_1aac32d55c6522a4bbdbf69faa3150ad1b" compoundref="_command_base_8cs" startline="174">CommandBase.ExecutionInfo.ExecDownEvent</references>
+        <references refid="class_command_base_1_1_execution_info_1a70feff83b673feeb342b55889751cef4" compoundref="_command_base_8cs" startline="166">CommandBase.ExecutionInfo.ExecDownHolderEvent</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">execInfo</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <references refid="class_command_event_1ae91059b18bc99831c62057d274a67e1c" compoundref="_command_event_8cs" startline="11" endline="15">CommandEvent.Raise</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1abce04e951d2ff38afc8110a7e230e0ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.ExecDownCharging</definition>
+        <argsstring>()</argsstring>
+        <name>ExecDownCharging</name>
+        <reimplementedby refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0">ExecDownCharging</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="199" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="199" bodyend="205"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a" compoundref="_command_base_8cs" startline="37">CommandBase.InstanceInfoRuntime.commandOwnerRootObj</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_command_base_1_1_execution_info_1a2017a99e7cb215d2752aa7a39db59c51" compoundref="_command_base_8cs" startline="175">CommandBase.ExecutionInfo.ExecDownChargingEvent</references>
+        <references refid="class_command_base_1_1_execution_info_1a3b106a3181aa5ee55cefd65574b11f85" compoundref="_command_base_8cs" startline="167">CommandBase.ExecutionInfo.ExecDownChargingHolderEvent</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">execInfo</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <references refid="class_command_event_1ae91059b18bc99831c62057d274a67e1c" compoundref="_command_event_8cs" startline="11" endline="15">CommandEvent.Raise</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.ExecRelease</definition>
+        <argsstring>()</argsstring>
+        <name>ExecRelease</name>
+        <reimplementedby refid="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993">ExecRelease</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="207" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="207" bodyend="213"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a" compoundref="_command_base_8cs" startline="37">CommandBase.InstanceInfoRuntime.commandOwnerRootObj</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">execInfo</references>
+        <references refid="class_command_base_1_1_execution_info_1a31354764417cd5a006ba951226c4b981" compoundref="_command_base_8cs" startline="176">CommandBase.ExecutionInfo.ExecReleaseEvent</references>
+        <references refid="class_command_base_1_1_execution_info_1ada469bb98840c6f302ed9da237725701" compoundref="_command_base_8cs" startline="168">CommandBase.ExecutionInfo.ExecReleaseHolderEvent</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <references refid="class_command_event_1ae91059b18bc99831c62057d274a67e1c" compoundref="_command_event_8cs" startline="11" endline="15">CommandEvent.Raise</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1ae0f9aff4793563e3681b052196c93c61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.Execd</definition>
+        <argsstring>()</argsstring>
+        <name>Execd</name>
+        <reimplementedby refid="class_input_command_1a30f8aedff59388b5293975b3cbfba443">Execd</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="215" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="215" bodyend="221"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a" compoundref="_command_base_8cs" startline="37">CommandBase.InstanceInfoRuntime.commandOwnerRootObj</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_command_base_1_1_execution_info_1a16ef0db0e99966a745e1ddef9fd46d1b" compoundref="_command_base_8cs" startline="177">CommandBase.ExecutionInfo.ExecdEvent</references>
+        <references refid="class_command_base_1_1_execution_info_1a51ad838a1830f6c02229e561513e51cd" compoundref="_command_base_8cs" startline="169">CommandBase.ExecutionInfo.ExecdHolderEvent</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">execInfo</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <references refid="class_command_event_1ae91059b18bc99831c62057d274a67e1c" compoundref="_command_event_8cs" startline="11" endline="15">CommandEvent.Raise</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1ad212a686f171b8d585283c12f85ec943" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.InitGameObj</definition>
+        <argsstring>(GameObject ownerRootParentObj)</argsstring>
+        <name>InitGameObj</name>
+        <param>
+          <type>GameObject</type>
+          <declname>ownerRootParentObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="225" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="225" bodyend="228"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a" compoundref="_command_base_8cs" startline="37">CommandBase.InstanceInfoRuntime.commandOwnerRootObj</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="229" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="229" bodyend="239"/>
+        <references refid="struct_command_base_1_1_info_1a3105505479aaffd031fe682605db46f9" compoundref="_command_base_8cs" startline="21">CommandBase.Info._aName</references>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a730bb19b6118ae6d192bce2abe0a9a0f" compoundref="_command_base_8cs" startline="33">CommandBase.InstanceInfoRuntime._id</references>
+        <references refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" compoundref="_command_base_8cs" startline="114" endline="114">aName</references>
+        <references refid="class_command_base_1a9da58b3b0bfbd61fec118c863dff71df" compoundref="_command_base_8cs" startline="119" endline="119">id</references>
+        <references refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" compoundref="_command_base_8cs" startline="17">info</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <referencedby refid="class_command_base_1a715925776f1d5f4cb3c75d60043455bd" compoundref="_command_base_8cs" startline="265" endline="271">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a4dcfa4d779498beebcace4649f911d2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_command_base" kindref="compound">CommandBase</ref></type>
+        <definition>virtual CommandBase CommandBase.CreateNewInstanceOfSelf</definition>
+        <argsstring>(GameObject newInstigatorObjRef=null)</argsstring>
+        <name>CreateNewInstanceOfSelf</name>
+        <param>
+          <type>GameObject</type>
+          <declname>newInstigatorObjRef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="241" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="241" bodyend="253"/>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a5e191bc230b8115b61c0e8baf6ad8309" compoundref="_command_base_8cs" startline="40">CommandBase.InstanceInfoRuntime.isSoInstance</references>
+        <referencedby refid="class_command_queue_1a3e75a40a7905a7cffeb55130f49bfcdd" compoundref="_command_queue_8cs" startline="105" endline="117">CommandQueue.TryExecuteCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a566ca9e15250f13d927bf52c81951923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="263" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="263" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a715925776f1d5f4cb3c75d60043455bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplementedby refid="class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5">OnEnable</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="265" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="265" bodyend="271"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a3c9118c9ff0948d6c6937d6aa9907844" compoundref="_command_base_8cs" startline="32">CommandBase.InstanceInfoRuntime._isEnabled</references>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1ac7c51b522a603d3969c97a77120da22e" compoundref="_command_base_8cs" startline="31">CommandBase.InstanceInfoRuntime._isExecuted</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">execInfo</references>
+        <references refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" compoundref="_command_base_8cs" startline="229" endline="239">Init</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1a6bf6020fca1d369cd58792b3d99fedd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="273" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="273" bodyend="277"/>
+        <references refid="struct_command_base_1_1_instance_info_runtime_1a3c9118c9ff0948d6c6937d6aa9907844" compoundref="_command_base_8cs" startline="32">CommandBase.InstanceInfoRuntime._isEnabled</references>
+        <references refid="class_command_base_1_1_execution_info_1aa222073f8f301e2abe628f5002fd062e" compoundref="_command_base_8cs" startline="162">CommandBase.ExecutionInfo.curExecState</references>
+        <references refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" compoundref="_command_base_8cs" startline="157">execInfo</references>
+        <references refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" compoundref="_command_base_8cs" startline="27">instanceInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1af947c78d3d9a637f7a424a679c3b8f52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="279" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="279" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_base_1aaa3fd572c9dfd1314889b530955d9871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandBase.Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <reimplements refid="interface_i_command_1aaee389e6fbefdb121ccd719f1447a05e">Undo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="287" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="287" bodyend="287"/>
+        <referencedby refid="class_command_queue_1ac4bf2295a1f39ed4827b7381691c7912" compoundref="_command_queue_8cs" startline="119" endline="131">CommandQueue.UndoLastCommand</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>AbilityCommand</label>
+        <link refid="class_ability_command"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>BinCommandWithCooldown</label>
+        <link refid="class_bin_command_with_cooldown"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>EnableDisableGameObjectCommand</label>
+        <link refid="class_enable_disable_game_object_command"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="5">
+        <label>InputCommand</label>
+        <link refid="class_input_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="8">
+        <label>SetMaterialColorCommand</label>
+        <link refid="class_set_material_color_command"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>CommandAccessorRefsBase</label>
+        <link refid="class_command_accessor_refs_base"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+commandSlotHolder</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+commandSlotUnityEvents</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>CommandAccessorRefsBase.CommandSlotUnityEvents</label>
+        <link refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events"/>
+      </node>
+      <node id="1">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+info</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+instanceInfo</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+cooldownInfo</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+execInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>CommandBase.CooldownInfo</label>
+        <link refid="struct_command_base_1_1_cooldown_info"/>
+      </node>
+      <node id="13">
+        <label>CommandBase.ExecutionInfo</label>
+        <link refid="class_command_base_1_1_execution_info"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+ExecDownChargingEvent</edgelabel>
+          <edgelabel>+ExecDownEvent</edgelabel>
+          <edgelabel>+ExecPressEvent</edgelabel>
+          <edgelabel>+ExecReleaseEvent</edgelabel>
+          <edgelabel>+ExecdEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CommandBase.Info</label>
+        <link refid="struct_command_base_1_1_info"/>
+      </node>
+      <node id="5">
+        <label>CommandBase.InstanceInfoRuntime</label>
+        <link refid="struct_command_base_1_1_instance_info_runtime"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+commandAccessorRefsComp</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+prevPrimaryCommand</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CommandSlotHolder</label>
+        <link refid="class_command_slot_holder"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+commandInstanceInSlot</edgelabel>
+          <edgelabel>+commandInstanceSOAsset</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+accessorComp</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="9">
+        <label>InputCommand</label>
+        <link refid="class_input_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+execExtraInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>InputCommand.ExecExtraInfo</label>
+        <link refid="struct_input_command_1_1_exec_extra_info"/>
+      </node>
+      <node id="7">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="14" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="15" bodyend="289"/>
+    <listofallmembers>
+      <member refid="class_command_base_1a99b32aa77f30f6b42ee58778183e5db5" prot="public" virt="virtual"><scope>CommandBase</scope><name>Activate</name></member>
+      <member refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>aName</name></member>
+      <member refid="class_command_base_1a566ca9e15250f13d927bf52c81951923" prot="public" virt="virtual"><scope>CommandBase</scope><name>Awake</name></member>
+      <member refid="class_command_base_1adcc42ebe79b3532b8a45b8be75958497" prot="public" virt="virtual"><scope>CommandBase</scope><name>BeginCooldown</name></member>
+      <member refid="class_command_base_1a1daf934f29ab2fed7aa0469e7794f01b" prot="public" virt="virtual"><scope>CommandBase</scope><name>CalculateElapsedTime</name></member>
+      <member refid="class_command_base_1aa2c3a6c84456af9e0ebb49c7fc0a4d4b" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>CastState</name></member>
+      <member refid="class_command_base_1a00855c89a1d7f998d84163304d5568fd" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>cooldownInfo</name></member>
+      <member refid="class_command_base_1a4dcfa4d779498beebcace4649f911d2d" prot="public" virt="virtual"><scope>CommandBase</scope><name>CreateNewInstanceOfSelf</name></member>
+      <member refid="class_command_base_1aeaa20a07ff3ae4982db4f91d09ee21af" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>ElapsedTime</name></member>
+      <member refid="class_command_base_1ae4422d145540bf12661a8078c6066ab4" prot="public" virt="virtual"><scope>CommandBase</scope><name>EndCooldown</name></member>
+      <member refid="class_command_base_1ae0f9aff4793563e3681b052196c93c61" prot="public" virt="virtual"><scope>CommandBase</scope><name>Execd</name></member>
+      <member refid="class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577" prot="public" virt="virtual"><scope>CommandBase</scope><name>ExecDown</name></member>
+      <member refid="class_command_base_1abce04e951d2ff38afc8110a7e230e0ad" prot="public" virt="virtual"><scope>CommandBase</scope><name>ExecDownCharging</name></member>
+      <member refid="class_command_base_1a9d160629089439a8d86ff0dfabb79315" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>execInfo</name></member>
+      <member refid="class_command_base_1a2555099b8b8f7345919865ca0daa4bdb" prot="public" virt="virtual"><scope>CommandBase</scope><name>ExecPress</name></member>
+      <member refid="class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298" prot="public" virt="virtual"><scope>CommandBase</scope><name>ExecRelease</name></member>
+      <member refid="class_command_base_1af6ee9e1a406a4f1ec172336bb833a8d2" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>HandleCooldown</name></member>
+      <member refid="class_command_base_1a9da58b3b0bfbd61fec118c863dff71df" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>id</name></member>
+      <member refid="class_command_base_1a4fe442f9e369fb2325c89b2a2488acad" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>info</name></member>
+      <member refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" prot="public" virt="virtual"><scope>CommandBase</scope><name>Init</name></member>
+      <member refid="class_command_base_1ad212a686f171b8d585283c12f85ec943" prot="public" virt="virtual"><scope>CommandBase</scope><name>InitGameObj</name></member>
+      <member refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>instanceInfo</name></member>
+      <member refid="class_command_base_1af947c78d3d9a637f7a424a679c3b8f52" prot="public" virt="virtual"><scope>CommandBase</scope><name>OnDestroy</name></member>
+      <member refid="class_command_base_1a6bf6020fca1d369cd58792b3d99fedd5" prot="public" virt="virtual"><scope>CommandBase</scope><name>OnDisable</name></member>
+      <member refid="class_command_base_1a715925776f1d5f4cb3c75d60043455bd" prot="public" virt="virtual"><scope>CommandBase</scope><name>OnEnable</name></member>
+      <member refid="class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0" prot="public" virt="virtual"><scope>CommandBase</scope><name>OnExternalUpdate</name></member>
+      <member refid="class_command_base_1a7e86bdf437ded67513c61d554b2ed79b" prot="public" virt="virtual"><scope>CommandBase</scope><name>StayCooldown</name></member>
+      <member refid="class_command_base_1a6593ea3d53501bd90c83e2bc7bb5f81c" prot="public" virt="non-virtual"><scope>CommandBase</scope><name>TimeStamp</name></member>
+      <member refid="class_command_base_1a405d08e553ab58bb187c762a91fe20d8" prot="public" virt="virtual"><scope>CommandBase</scope><name>TryExecCommand</name></member>
+      <member refid="class_command_base_1aaa3fd572c9dfd1314889b530955d9871" prot="public" virt="virtual"><scope>CommandBase</scope><name>Undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_scroll_rect_common" kind="class" language="C#" prot="public">
+    <compoundname>ScrollRectCommon</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_scroll_rect_common_1afe333585a026f2e26e8da904bb0c68a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ScrollRectCommon.ScrollRectSnapAnchorPosTo</definition>
+        <argsstring>(ScrollRect scrollRect, RectTransform contentPanel, RectTransform target)</argsstring>
+        <name>ScrollRectSnapAnchorPosTo</name>
+        <param>
+          <type>ScrollRect</type>
+          <declname>scrollRect</declname>
+        </param>
+        <param>
+          <type>RectTransform</type>
+          <declname>contentPanel</declname>
+        </param>
+        <param>
+          <type>RectTransform</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/ScrollRectCommon.cs" line="7" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/ScrollRectCommon.cs" bodystart="7" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scroll_rect_common_1aadccc4c49fe2c46c5b36474876b75881" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ScrollRectCommon.ScrollRectSnapAnchorPosTo</definition>
+        <argsstring>(ScrollRect scrollRect, RectTransform contentPanel, RectTransform target, Vector2 offsetPos)</argsstring>
+        <name>ScrollRectSnapAnchorPosTo</name>
+        <param>
+          <type>ScrollRect</type>
+          <declname>scrollRect</declname>
+        </param>
+        <param>
+          <type>RectTransform</type>
+          <declname>contentPanel</declname>
+        </param>
+        <param>
+          <type>RectTransform</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>offsetPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/ScrollRectCommon.cs" line="15" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/ScrollRectCommon.cs" bodystart="15" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ScrollRectCommon</label>
+        <link refid="class_scroll_rect_common"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/ScrollRectCommon.cs" line="5" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/ScrollRectCommon.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_scroll_rect_common_1afe333585a026f2e26e8da904bb0c68a2" prot="public" virt="non-virtual"><scope>ScrollRectCommon</scope><name>ScrollRectSnapAnchorPosTo</name></member>
+      <member refid="class_scroll_rect_common_1aadccc4c49fe2c46c5b36474876b75881" prot="public" virt="non-virtual"><scope>ScrollRectCommon</scope><name>ScrollRectSnapAnchorPosTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

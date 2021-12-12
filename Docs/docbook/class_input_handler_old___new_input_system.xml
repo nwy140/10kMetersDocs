@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_input_handler_old___new_input_system" xml:lang="en-US">
+<title>InputHandlerOld_NewInputSystem Class Reference</title>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary></indexterm>
+Inheritance diagram for InputHandlerOld_NewInputSystem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for InputHandlerOld_NewInputSystem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_command_base">CommandBase</link> <link linkend="_class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522">GetCommandByNameInCommandList</link> (string commandName)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a7adc47f6db40463d2066077ebec4c657">OnCommandSlot0</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1ab6ad3213c002c6cdbd2a6a896e300937">OnCommandSlot1</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a6afe578657da7e744235c32a0a6fb0e2">OnCommandSlot2</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1aa20124dbb8fd5409f9445573b2bd2bb9">OnCommandSlot3</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1ab7d02993af78f31286e78096a3625074">OnSecondaryCommandSlot4</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1aac53b963b9f80b3bdafde79b23803f05">OnSecondaryCommandSlot5</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1afa5ab3bc20b29f3bd011b322c46ebf98">OnTertiaryCommandSlotAxis6</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a4c5e9f8f4b92bdc944016637c743f7ad">OnTertiaryCommandSlotAxis7</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1ab1f3e03243d92511facd972a0e55ceea">OnSelect</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a87747fee6f8c1e612fddb7538e17b392">OnStart</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1afcea36df39ea7b70ed71dbd96952df94">OnDPadAxisHorizontal</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a11483632ae392566a5a092d634420edd">OnDPadAxisVertical</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a081f6ee2cfadf295150650520efcdd64">OnLeftStickAxisHorizontal</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a79a0e816d234ab0ff1c0b5eefa63224d">OnLeftStickAxisVertical</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a304527fe1b0dee0d7b835eb2f9078e13">OnRightStickAxisHorizontal</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_handler_old___new_input_system_1a3ccf35ac6e58442450956ca51715056e">OnRightStickAxisVertical</link> (InputAction.CallbackContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_class_command_base">CommandBase</link> &gt; <link linkend="_class_input_handler_old___new_input_system_1a23512fdef672ea191fabaf4044d37d56">inputCommands</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_input_handler_old___new_input_system_1a07d786c476e99f6f183229aa549489f9">instigatorObj</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>virtual <link linkend="_class_command_queue_helper">CommandQueueHelper</link> <link linkend="_class_input_handler_old___new_input_system_1aebeb2ee3af9b65b236f3d47e5f536f44">commandQueueHelper</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a76b69520cdde0c69ffb1176d3ac8a522"/><section>
+    <title>GetCommandByNameInCommandList()</title>
+<indexterm><primary>GetCommandByNameInCommandList</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>GetCommandByNameInCommandList</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_base">CommandBase</link> InputHandlerOld_NewInputSystem.GetCommandByNameInCommandList (string commandName)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_a76b69520cdde0c69ffb1176d3ac8a522_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a7adc47f6db40463d2066077ebec4c657"/><section>
+    <title>OnCommandSlot0()</title>
+<indexterm><primary>OnCommandSlot0</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnCommandSlot0</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnCommandSlot0 (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_a7adc47f6db40463d2066077ebec4c657_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1ab6ad3213c002c6cdbd2a6a896e300937"/><section>
+    <title>OnCommandSlot1()</title>
+<indexterm><primary>OnCommandSlot1</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnCommandSlot1</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnCommandSlot1 (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_ab6ad3213c002c6cdbd2a6a896e300937_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a6afe578657da7e744235c32a0a6fb0e2"/><section>
+    <title>OnCommandSlot2()</title>
+<indexterm><primary>OnCommandSlot2</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnCommandSlot2</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnCommandSlot2 (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_a6afe578657da7e744235c32a0a6fb0e2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1aa20124dbb8fd5409f9445573b2bd2bb9"/><section>
+    <title>OnCommandSlot3()</title>
+<indexterm><primary>OnCommandSlot3</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnCommandSlot3</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnCommandSlot3 (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_aa20124dbb8fd5409f9445573b2bd2bb9_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1afcea36df39ea7b70ed71dbd96952df94"/><section>
+    <title>OnDPadAxisHorizontal()</title>
+<indexterm><primary>OnDPadAxisHorizontal</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnDPadAxisHorizontal</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnDPadAxisHorizontal (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_afcea36df39ea7b70ed71dbd96952df94_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a11483632ae392566a5a092d634420edd"/><section>
+    <title>OnDPadAxisVertical()</title>
+<indexterm><primary>OnDPadAxisVertical</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnDPadAxisVertical</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnDPadAxisVertical (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_a11483632ae392566a5a092d634420edd_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a081f6ee2cfadf295150650520efcdd64"/><section>
+    <title>OnLeftStickAxisHorizontal()</title>
+<indexterm><primary>OnLeftStickAxisHorizontal</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnLeftStickAxisHorizontal</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnLeftStickAxisHorizontal (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_a081f6ee2cfadf295150650520efcdd64_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a79a0e816d234ab0ff1c0b5eefa63224d"/><section>
+    <title>OnLeftStickAxisVertical()</title>
+<indexterm><primary>OnLeftStickAxisVertical</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnLeftStickAxisVertical</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnLeftStickAxisVertical (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_a79a0e816d234ab0ff1c0b5eefa63224d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a304527fe1b0dee0d7b835eb2f9078e13"/><section>
+    <title>OnRightStickAxisHorizontal()</title>
+<indexterm><primary>OnRightStickAxisHorizontal</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnRightStickAxisHorizontal</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnRightStickAxisHorizontal (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a3ccf35ac6e58442450956ca51715056e"/><section>
+    <title>OnRightStickAxisVertical()</title>
+<indexterm><primary>OnRightStickAxisVertical</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnRightStickAxisVertical</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnRightStickAxisVertical (InputAction.CallbackContext context)</computeroutput></para></section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1ab7d02993af78f31286e78096a3625074"/><section>
+    <title>OnSecondaryCommandSlot4()</title>
+<indexterm><primary>OnSecondaryCommandSlot4</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnSecondaryCommandSlot4</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnSecondaryCommandSlot4 (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_ab7d02993af78f31286e78096a3625074_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1aac53b963b9f80b3bdafde79b23803f05"/><section>
+    <title>OnSecondaryCommandSlot5()</title>
+<indexterm><primary>OnSecondaryCommandSlot5</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnSecondaryCommandSlot5</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnSecondaryCommandSlot5 (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_aac53b963b9f80b3bdafde79b23803f05_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1ab1f3e03243d92511facd972a0e55ceea"/><section>
+    <title>OnSelect()</title>
+<indexterm><primary>OnSelect</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnSelect</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnSelect (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_ab1f3e03243d92511facd972a0e55ceea_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a87747fee6f8c1e612fddb7538e17b392"/><section>
+    <title>OnStart()</title>
+<indexterm><primary>OnStart</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnStart</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnStart (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_a87747fee6f8c1e612fddb7538e17b392_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1afa5ab3bc20b29f3bd011b322c46ebf98"/><section>
+    <title>OnTertiaryCommandSlotAxis6()</title>
+<indexterm><primary>OnTertiaryCommandSlotAxis6</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnTertiaryCommandSlotAxis6</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnTertiaryCommandSlotAxis6 (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_afa5ab3bc20b29f3bd011b322c46ebf98_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a4c5e9f8f4b92bdc944016637c743f7ad"/><section>
+    <title>OnTertiaryCommandSlotAxis7()</title>
+<indexterm><primary>OnTertiaryCommandSlotAxis7</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>OnTertiaryCommandSlotAxis7</secondary></indexterm>
+<para><computeroutput>void InputHandlerOld_NewInputSystem.OnTertiaryCommandSlotAxis7 (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_handler_old___new_input_system_a4c5e9f8f4b92bdc944016637c743f7ad_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a23512fdef672ea191fabaf4044d37d56"/><section>
+    <title>inputCommands</title>
+<indexterm><primary>inputCommands</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>inputCommands</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_class_command_base">CommandBase</link>&gt; InputHandlerOld_NewInputSystem.inputCommands</computeroutput></para></section>
+<anchor xml:id="_class_input_handler_old___new_input_system_1a07d786c476e99f6f183229aa549489f9"/><section>
+    <title>instigatorObj</title>
+<indexterm><primary>instigatorObj</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>instigatorObj</secondary></indexterm>
+<para><computeroutput>GameObject InputHandlerOld_NewInputSystem.instigatorObj</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_input_handler_old___new_input_system_1aebeb2ee3af9b65b236f3d47e5f536f44"/><section>
+    <title>commandQueueHelper</title>
+<indexterm><primary>commandQueueHelper</primary><secondary>InputHandlerOld_NewInputSystem</secondary></indexterm>
+<indexterm><primary>InputHandlerOld_NewInputSystem</primary><secondary>commandQueueHelper</secondary></indexterm>
+<para><computeroutput>virtual <link linkend="_class_command_queue_helper">CommandQueueHelper</link> InputHandlerOld_NewInputSystem.commandQueueHelper<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeA_RefsToAllAvailableCommandInSingleScript/<link linkend="__input_handler_old___new_input_system_8cs">InputHandlerOld_NewInputSystem.cs</link></section>
+</section>

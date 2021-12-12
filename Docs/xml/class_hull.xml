@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_hull" kind="class" language="C#" prot="public">
+    <compoundname>Hull</compoundname>
+    <basecompoundref refid="class_player_upgrades" prot="public" virt="non-virtual">PlayerUpgrades</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hull_1a8a60f72a8d57be39e87a18f0e3960a2e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Hull.health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" line="8" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hull_1a07ed7b70c7ac456d4dcc8d2b78eeb028" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Hull.pressureStrength</definition>
+        <argsstring></argsstring>
+        <name>pressureStrength</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" line="9" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hull_1a3958f11e1185eef2f56df51da634fa3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Hull.GetHealth</definition>
+        <argsstring>()</argsstring>
+        <name>GetHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hull_1a08624565e246fdbbd305c0981e516b04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Hull.GetPressureStrength</definition>
+        <argsstring>()</argsstring>
+        <name>GetPressureStrength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" line="16" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Hull</label>
+        <link refid="class_hull"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Hull</label>
+        <link refid="class_hull"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Hull/Hull.cs" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_player_upgrades_1a60236534be903afb7996373f5ae6d3c6" prot="public" virt="virtual"><scope>Hull</scope><name>GetCopy</name></member>
+      <member refid="class_player_upgrades_1aafbbe9499b027d5b1670ef1d31aab7a4" prot="public" virt="non-virtual"><scope>Hull</scope><name>GetFishMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a6bb164625c5847a6af36709571ec851f" prot="public" virt="non-virtual"><scope>Hull</scope><name>GetFishMaterialTypeRequirement</name></member>
+      <member refid="class_hull_1a3958f11e1185eef2f56df51da634fa3b" prot="public" virt="non-virtual"><scope>Hull</scope><name>GetHealth</name></member>
+      <member refid="class_hull_1a08624565e246fdbbd305c0981e516b04" prot="public" virt="non-virtual"><scope>Hull</scope><name>GetPressureStrength</name></member>
+      <member refid="class_player_upgrades_1a90101816a84d5531335b6f1ca159376f" prot="public" virt="non-virtual"><scope>Hull</scope><name>GetRawMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a5bc2766abbc8c3a46300fe0ec7501514" prot="public" virt="non-virtual"><scope>Hull</scope><name>GetRawMaterialTypeRequirement</name></member>
+      <member refid="class_hull_1a8a60f72a8d57be39e87a18f0e3960a2e" prot="private" virt="non-virtual"><scope>Hull</scope><name>health</name></member>
+      <member refid="class_player_upgrades_1aca8c0ea9036e67a009629ccca22689b6" prot="public" virt="non-virtual"><scope>Hull</scope><name>ID</name></member>
+      <member refid="class_player_upgrades_1ae9eb4584c3af767f5948d6ec5fc243e8" prot="protected" virt="non-virtual"><scope>Hull</scope><name>isLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a22e5dc654af417e4cd9ccaf347373a53" prot="public" virt="non-virtual"><scope>Hull</scope><name>IsLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a5362fd69bdd7e457fbebc5a427ed30ce" prot="protected" virt="non-virtual"><scope>Hull</scope><name>isUniqueFeatureUsed</name></member>
+      <member refid="class_player_upgrades_1a69f6c2f7ce04aa2445f6cd6c130807c5" prot="public" virt="non-virtual"><scope>Hull</scope><name>IsUniqueFeatureUsed</name></member>
+      <member refid="class_hull_1a07ed7b70c7ac456d4dcc8d2b78eeb028" prot="private" virt="non-virtual"><scope>Hull</scope><name>pressureStrength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

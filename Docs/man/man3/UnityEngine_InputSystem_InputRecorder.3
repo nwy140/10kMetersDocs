@@ -1,0 +1,328 @@
+.TH "UnityEngine.InputSystem.InputRecorder" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.InputSystem.InputRecorder \- A wrapper component around InputEventTrace that provides an easy interface for recording input from a GameObject\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBChangeEvent\fP"
+.br
+.in -1c
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBChange\fP { \fBNone\fP, \fBEventCaptured\fP, \fBEventPlayed\fP, \fBCaptureStarted\fP, \fBCaptureStopped\fP, \fBReplayStarted\fP, \fBReplayStopped\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBStartCapture\fP ()"
+.br
+.ti -1c
+.RI "void \fBStopCapture\fP ()"
+.br
+.ti -1c
+.RI "void \fBStartReplay\fP ()"
+.br
+.ti -1c
+.RI "void \fBStopReplay\fP ()"
+.br
+.ti -1c
+.RI "void \fBPauseReplay\fP ()"
+.br
+.ti -1c
+.RI "void \fBClearCapture\fP ()"
+.br
+.ti -1c
+.RI "void \fBLoadCaptureFromFile\fP (string fileName)"
+.br
+.ti -1c
+.RI "void \fBSaveCaptureToFile\fP (string fileName)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnDisable\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnDestroy\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "bool \fBcaptureIsRunning\fP\fC [get]\fP"
+.br
+.RI "Whether a capture is currently in progress\&. "
+.ti -1c
+.RI "bool \fBreplayIsRunning\fP\fC [get]\fP"
+.br
+.RI "Whether a replay is currently being run by the component\&. "
+.ti -1c
+.RI "bool \fBstartRecordingWhenEnabled\fP\fC [getset]\fP"
+.br
+.RI "If true, input recording is started immediately when the component is enabled\&. "
+.ti -1c
+.RI "long \fBeventCount\fP\fC [get]\fP"
+.br
+.RI "Total number of events captured\&. "
+.ti -1c
+.RI "long \fBtotalEventSizeInBytes\fP\fC [get]\fP"
+.br
+.RI "Total size of captured events\&. "
+.ti -1c
+.RI "long \fBallocatedSizeInBytes\fP\fC [get]\fP"
+.br
+.RI "Total size of capture memory currently allocated\&. "
+.ti -1c
+.RI "bool \fBrecordFrames\fP\fC [getset]\fP"
+.br
+.RI "Whether to record frame marker events when capturing input\&. "
+.ti -1c
+.RI "bool \fBrecordStateEventsOnly\fP\fC [getset]\fP"
+.br
+.RI "Whether to record only StateEvents and DeltaStateEvents\&. "
+.ti -1c
+.RI "string \fBdevicePath\fP\fC [getset]\fP"
+.br
+.RI "Path that constrains the devices to record from\&. "
+.ti -1c
+.RI "string \fBrecordButtonPath\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "string \fBplayButtonPath\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "InputEventTrace \fBcapture\fP\fC [get]\fP"
+.br
+.RI "The underlying event trace that contains the captured input events\&. "
+.ti -1c
+.RI "InputEventTrace\&.ReplayController \fBreplay\fP\fC [get]\fP"
+.br
+.RI "The replay controller for when a replay is running\&. "
+.ti -1c
+.RI "int \fBreplayPosition\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "bool \fBreplayOnNewDevices\fP\fC [getset]\fP"
+.br
+.RI "Whether a replay should create new devices or replay recorded events as is\&. "
+.ti -1c
+.RI "bool \fBsimulateOriginalTimingOnReplay\fP\fC [getset]\fP"
+.br
+.RI "Whether to attempt to re-create the original event timing when replaying events\&. "
+.ti -1c
+.RI "\fBChangeEvent\fP \fBchangeEvent\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A wrapper component around InputEventTrace that provides an easy interface for recording input from a GameObject\&. 
+
+This component comes with a custom inspector that provides an easy recording and playback interface and also gives feedback about what has been recorded in the trace\&. The interface also allows saving and loading event traces\&.
+.PP
+Capturing can either be constrained by a \fBdevicePath\fP or capture all input occuring in the system\&.
+.PP
+Replay by default will happen frame by frame (see InputEventTrace\&.ReplayController\&.PlayAllFramesOneByOne)\&. If frame markers are disabled (see \fBrecordFrames\fP), all events are queued right away in the first frame and replay completes immediately\&.
+.PP
+Other than frame-by-frame, replay can be made to happen in a way that tries to simulate the original input timing\&. To do so, enable \fBsimulateOriginalTimingOnReplay\fP\&. This will make use of InputEventTrace\&.ReplayController\&.PlayAllEventsAccordingToTimestamps 
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBUnityEngine\&.InputSystem\&.InputRecorder\&.Change\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fIEventCaptured \fP\fP
+.TP
+\fB\fIEventPlayed \fP\fP
+.TP
+\fB\fICaptureStarted \fP\fP
+.TP
+\fB\fICaptureStopped \fP\fP
+.TP
+\fB\fIReplayStarted \fP\fP
+.TP
+\fB\fIReplayStopped \fP\fP
+.SH "Member Function Documentation"
+.PP 
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.ClearCapture ()"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.LoadCaptureFromFile (string fileName)"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.OnDestroy ()\fC [protected]\fP"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.OnDisable ()\fC [protected]\fP"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.OnEnable ()\fC [protected]\fP"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.PauseReplay ()"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.SaveCaptureToFile (string fileName)"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.StartCapture ()"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.StartReplay ()"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.StopCapture ()"
+
+.SS "void UnityEngine\&.InputSystem\&.InputRecorder\&.StopReplay ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "long UnityEngine\&.InputSystem\&.InputRecorder\&.allocatedSizeInBytes\fC [get]\fP"
+
+.PP
+Total size of capture memory currently allocated\&. Size of memory allocated for capture\&.
+.SS "InputEventTrace UnityEngine\&.InputSystem\&.InputRecorder\&.capture\fC [get]\fP"
+
+.PP
+The underlying event trace that contains the captured input events\&. Underlying event trace\&.
+.PP
+This will be null if no capture is currently associated with the recorder\&. 
+.SS "bool UnityEngine\&.InputSystem\&.InputRecorder\&.captureIsRunning\fC [get]\fP"
+
+.PP
+Whether a capture is currently in progress\&. True if a capture is in progress\&.
+.SS "\fBChangeEvent\fP UnityEngine\&.InputSystem\&.InputRecorder\&.changeEvent\fC [get]\fP"
+
+.SS "string UnityEngine\&.InputSystem\&.InputRecorder\&.devicePath\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Path that constrains the devices to record from\&. Input control path to match devices or null/empty\&.
+.PP
+By default, this is not set\&. Meaning that input will be recorded from all devices\&. By setting this property to a path, only events for devices that match the given path (as dictated by InputControlPath\&.Matches) will be recorded from\&.
+.PP
+By setting this property to the exact path of a device at runtime, recording can be restricted to just that device\&. 
+.PP
+\fBSee also\fP
+.RS 4
+InputControlPath, InputControlPath\&.Matches
+.PP
+.RE
+.PP
+
+.SS "long UnityEngine\&.InputSystem\&.InputRecorder\&.eventCount\fC [get]\fP"
+
+.PP
+Total number of events captured\&. Number of captured events\&.
+.SS "string UnityEngine\&.InputSystem\&.InputRecorder\&.playButtonPath\fC [get]\fP, \fC [set]\fP"
+
+.SS "string UnityEngine\&.InputSystem\&.InputRecorder\&.recordButtonPath\fC [get]\fP, \fC [set]\fP"
+
+.SS "bool UnityEngine\&.InputSystem\&.InputRecorder\&.recordFrames\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Whether to record frame marker events when capturing input\&. Enabled by default\&. 
+.PP
+True if frame marker events will be recorded\&.
+.PP
+\fBSee also\fP
+.RS 4
+InputEventTrace\&.recordFrameMarkers
+.PP
+.RE
+.PP
+
+.SS "bool UnityEngine\&.InputSystem\&.InputRecorder\&.recordStateEventsOnly\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Whether to record only StateEvents and DeltaStateEvents\&. Disabled by default\&. 
+.PP
+True if anything but state events should be ignored\&.
+.SS "InputEventTrace\&.ReplayController UnityEngine\&.InputSystem\&.InputRecorder\&.replay\fC [get]\fP"
+
+.PP
+The replay controller for when a replay is running\&. Replay controller for the event trace while replay is running\&.
+.PP
+\fBSee also\fP
+.RS 4
+\fBreplayIsRunning\fP, \fBStartReplay\fP
+.PP
+.RE
+.PP
+
+.SS "bool UnityEngine\&.InputSystem\&.InputRecorder\&.replayIsRunning\fC [get]\fP"
+
+.PP
+Whether a replay is currently being run by the component\&. True if replay is running\&.
+.PP
+\fBSee also\fP
+.RS 4
+\fBreplay\fP, \fBStartReplay\fP, \fBStopReplay\fP
+.PP
+.RE
+.PP
+
+.SS "bool UnityEngine\&.InputSystem\&.InputRecorder\&.replayOnNewDevices\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Whether a replay should create new devices or replay recorded events as is\&. Disabled by default\&. 
+.PP
+True if replay should temporary create new devices\&.
+.PP
+\fBSee also\fP
+.RS 4
+InputEventTrace\&.ReplayController\&.WithAllDevicesMappedToNewInstances
+.PP
+.RE
+.PP
+
+.SS "int UnityEngine\&.InputSystem\&.InputRecorder\&.replayPosition\fC [get]\fP"
+
+.SS "bool UnityEngine\&.InputSystem\&.InputRecorder\&.simulateOriginalTimingOnReplay\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Whether to attempt to re-create the original event timing when replaying events\&. Disabled by default\&. 
+.PP
+If true, events are queued based on their timestamp rather than based on their recorded frames (if any)\&.
+.PP
+\fBSee also\fP
+.RS 4
+InputEventTrace\&.ReplayController\&.PlayAllEventsAccordingToTimestamps
+.PP
+.RE
+.PP
+
+.SS "bool UnityEngine\&.InputSystem\&.InputRecorder\&.startRecordingWhenEnabled\fC [get]\fP, \fC [set]\fP"
+
+.PP
+If true, input recording is started immediately when the component is enabled\&. Disabled by default\&. Call \fBStartCapture\fP to manually start capturing\&. 
+.PP
+True if component will start recording automatically in \fBOnEnable\fP\&.
+.PP
+\fBSee also\fP
+.RS 4
+\fBStartCapture\fP
+.PP
+.RE
+.PP
+
+.SS "long UnityEngine\&.InputSystem\&.InputRecorder\&.totalEventSizeInBytes\fC [get]\fP"
+
+.PP
+Total size of captured events\&. Size of captured events in bytes\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

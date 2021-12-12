@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_attack" xml:lang="en-US">
+<title>PlayerAttack Class Reference</title>
+<indexterm><primary>PlayerAttack</primary></indexterm>
+Inheritance diagram for PlayerAttack:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_attack__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for PlayerAttack:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_attack__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_player_attack_1a9903eb855cd21bf6e83ac4173eb431f1">RotateTurretToMousePos</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_attack_1a1b0d72ce915f4a931ba9af1dd0ecee7c">AttackBehaviour3</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f">SimulateShoot</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_attack_1a1a476dbd27cb999a19cb4b9d232fa63e">OnInput</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_attack_1a62227787e3b1b332c1bdd7dd26752995">OnSimulateInput</link> (bool IsPressedThisFrame, float axis)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Transform <link linkend="_class_player_attack_1a75a7eb591949c398ffb3d72974ca8503">spawnSocket</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_attack_1a56b59f30fb9dabdfb0e10dd906aebb39">spawnBaseForceMultiplier</link> = 100f</para>
+</listitem>
+            <listitem><para>Transform <link linkend="_class_player_attack_1a6bafb5f3654430e6693fa6e753a78341">turret</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_attack_1a5907060de32257991245f13277159aad">turretLerpRotSpeed</link> = 5f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_player_attack_1aa713d486272d440d288c1186c32cff51">turretRotZOffset</link> = 90</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_attack_1a1b0d72ce915f4a931ba9af1dd0ecee7c"/><section>
+    <title>AttackBehaviour3()</title>
+<indexterm><primary>AttackBehaviour3</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>AttackBehaviour3</secondary></indexterm>
+<para><computeroutput>void PlayerAttack.AttackBehaviour3 ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_attack_1a1a476dbd27cb999a19cb4b9d232fa63e"/><section>
+    <title>OnInput()</title>
+<indexterm><primary>OnInput</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>OnInput</secondary></indexterm>
+<para><computeroutput>void PlayerAttack.OnInput (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_attack_a1a476dbd27cb999a19cb4b9d232fa63e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_player_attack_1a62227787e3b1b332c1bdd7dd26752995"/><section>
+    <title>OnSimulateInput()</title>
+<indexterm><primary>OnSimulateInput</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>OnSimulateInput</secondary></indexterm>
+<para><computeroutput>void PlayerAttack.OnSimulateInput (bool IsPressedThisFrame, float axis)</computeroutput></para></section>
+<anchor xml:id="_class_player_attack_1a9903eb855cd21bf6e83ac4173eb431f1"/><section>
+    <title>RotateTurretToMousePos()</title>
+<indexterm><primary>RotateTurretToMousePos</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>RotateTurretToMousePos</secondary></indexterm>
+<para><computeroutput>void PlayerAttack.RotateTurretToMousePos ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_attack_1ace7fcd2b94d1dcb98c182e2942d9ac0f"/><section>
+    <title>SimulateShoot()</title>
+<indexterm><primary>SimulateShoot</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>SimulateShoot</secondary></indexterm>
+<para><computeroutput>void PlayerAttack.SimulateShoot ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_attack_ace7fcd2b94d1dcb98c182e2942d9ac0f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_attack_ace7fcd2b94d1dcb98c182e2942d9ac0f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_player_attack_1a56b59f30fb9dabdfb0e10dd906aebb39"/><section>
+    <title>spawnBaseForceMultiplier</title>
+<indexterm><primary>spawnBaseForceMultiplier</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>spawnBaseForceMultiplier</secondary></indexterm>
+<para><computeroutput>float PlayerAttack.spawnBaseForceMultiplier = 100f</computeroutput></para></section>
+<anchor xml:id="_class_player_attack_1a75a7eb591949c398ffb3d72974ca8503"/><section>
+    <title>spawnSocket</title>
+<indexterm><primary>spawnSocket</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>spawnSocket</secondary></indexterm>
+<para><computeroutput>Transform PlayerAttack.spawnSocket</computeroutput></para></section>
+<anchor xml:id="_class_player_attack_1a6bafb5f3654430e6693fa6e753a78341"/><section>
+    <title>turret</title>
+<indexterm><primary>turret</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>turret</secondary></indexterm>
+<para><computeroutput>Transform PlayerAttack.turret</computeroutput></para></section>
+<anchor xml:id="_class_player_attack_1a5907060de32257991245f13277159aad"/><section>
+    <title>turretLerpRotSpeed</title>
+<indexterm><primary>turretLerpRotSpeed</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>turretLerpRotSpeed</secondary></indexterm>
+<para><computeroutput>float PlayerAttack.turretLerpRotSpeed = 5f</computeroutput></para></section>
+<anchor xml:id="_class_player_attack_1aa713d486272d440d288c1186c32cff51"/><section>
+    <title>turretRotZOffset</title>
+<indexterm><primary>turretRotZOffset</primary><secondary>PlayerAttack</secondary></indexterm>
+<indexterm><primary>PlayerAttack</primary><secondary>turretRotZOffset</secondary></indexterm>
+<para><computeroutput>float PlayerAttack.turretRotZOffset = 90</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/<link linkend="__player_attack_8cs">PlayerAttack.cs</link></section>
+</section>

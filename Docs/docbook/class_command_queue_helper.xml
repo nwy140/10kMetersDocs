@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_queue_helper" xml:lang="en-US">
+<title>CommandQueueHelper Class Reference</title>
+<indexterm><primary>CommandQueueHelper</primary></indexterm>
+Inheritance diagram for CommandQueueHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CommandQueueHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1">CheckSequence</link> (string entryQueueName, string[] sequence, string[] Sequence_Query, string[] ignoreCategory, int maxDuration, <link linkend="_class_command_base">CommandBase</link> chainCommand)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_command_queue_helper_1aa447c7015171043cf4a7b187675c3de7">CheckSequence</link> (string entryQueueName, <link linkend="_class_chain_command_data">ChainCommandData</link> c)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a">ExecCommand_InputSystem</link> (InputAction.CallbackContext context, <link linkend="_class_input_command">InputCommand</link> curCommand, string queueDictionaryElementName=&quot;Primary&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18">ExecCommand_SimulateInputSystem</link> (bool IsPressedThisFrame, float axis, <link linkend="_class_input_command">InputCommand</link> curCommand, string queueDictionaryElementName=&quot;Primary&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_helper_1ae88a96a74253b03554ead59e02187039">ExecCommand_SimulateInputSystem</link> (bool IsPressedThisFrame, <link linkend="_class_input_command">InputCommand</link> curCommand, string queueDictionaryElementName=&quot;Primary&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_helper_1a2e67f0f4796efc3768308214d9c51516">ExecCommand_Press</link> (<link linkend="_class_input_command">InputCommand</link> curCommand, string queueDictionaryElementName=&quot;Primary&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_queue_helper_1a1d27bd76d4426d4967b69d2d434ccc10">ExecCommand_HoldRelease</link> (<link linkend="_class_input_command">InputCommand</link> curCommand)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_command_queue_helper_1a8d018449d627df408db833e4a3f11171">commandOwnerRootObj</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_generic_dictionary">GenericDictionary</link>&lt; string, <link linkend="_class_command_queue">CommandQueue</link> &gt; <link linkend="_class_command_queue_helper_1a6309f9ec7e7c58b8b8a2920d6a6a05f4">commandQueuesDictionary</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_command_queue_helper_1a13b4dbede98d3e64762c5e1696aaeb01">CurrentTick</link> = 0</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_command_queue_helper_1a9fc850b4fd58f361f9f18f095e959cae">maxDefaultAllowedTimeDifferenceCheck</link> = 2f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_queue_helper_1aa447c7015171043cf4a7b187675c3de7"/><section>
+    <title>CheckSequence()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>CheckSequence</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>CheckSequence</secondary></indexterm>
+<para><computeroutput>bool CommandQueueHelper.CheckSequence (string entryQueueName, <link linkend="_class_chain_command_data">ChainCommandData</link> c)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper_aa447c7015171043cf4a7b187675c3de7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_helper_1a9d8c4132af6ab5211b7402472373c1d1"/><section>
+    <title>CheckSequence()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>CheckSequence</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>CheckSequence</secondary></indexterm>
+<para><computeroutput>bool CommandQueueHelper.CheckSequence (string entryQueueName, string[] sequence, string[] Sequence_Query, string[] ignoreCategory, int maxDuration, <link linkend="_class_command_base">CommandBase</link> chainCommand)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper_a9d8c4132af6ab5211b7402472373c1d1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_helper_1a1d27bd76d4426d4967b69d2d434ccc10"/><section>
+    <title>ExecCommand_HoldRelease()</title>
+<indexterm><primary>ExecCommand_HoldRelease</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>ExecCommand_HoldRelease</secondary></indexterm>
+<para><computeroutput>void CommandQueueHelper.ExecCommand_HoldRelease (<link linkend="_class_input_command">InputCommand</link> curCommand)</computeroutput></para></section>
+<anchor xml:id="_class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a"/><section>
+    <title>ExecCommand_InputSystem()</title>
+<indexterm><primary>ExecCommand_InputSystem</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>ExecCommand_InputSystem</secondary></indexterm>
+<para><computeroutput>void CommandQueueHelper.ExecCommand_InputSystem (InputAction.CallbackContext context, <link linkend="_class_input_command">InputCommand</link> curCommand, string queueDictionaryElementName = <computeroutput>&quot;Primary&quot;</computeroutput>
+)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper_aaf854de6f8905b86b04c690f79ac1f9a_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper_aaf854de6f8905b86b04c690f79ac1f9a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_helper_1a2e67f0f4796efc3768308214d9c51516"/><section>
+    <title>ExecCommand_Press()</title>
+<indexterm><primary>ExecCommand_Press</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>ExecCommand_Press</secondary></indexterm>
+<para><computeroutput>void CommandQueueHelper.ExecCommand_Press (<link linkend="_class_input_command">InputCommand</link> curCommand, string queueDictionaryElementName = <computeroutput>&quot;Primary&quot;</computeroutput>
+)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper_a2e67f0f4796efc3768308214d9c51516_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18"/><section>
+    <title>ExecCommand_SimulateInputSystem()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>ExecCommand_SimulateInputSystem</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>ExecCommand_SimulateInputSystem</secondary></indexterm>
+<para><computeroutput>void CommandQueueHelper.ExecCommand_SimulateInputSystem (bool IsPressedThisFrame, float axis, <link linkend="_class_input_command">InputCommand</link> curCommand, string queueDictionaryElementName = <computeroutput>&quot;Primary&quot;</computeroutput>
+)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper_affd76031933ce9ab22aad506ee3a9a18_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper_affd76031933ce9ab22aad506ee3a9a18_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_queue_helper_1ae88a96a74253b03554ead59e02187039"/><section>
+    <title>ExecCommand_SimulateInputSystem()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>ExecCommand_SimulateInputSystem</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>ExecCommand_SimulateInputSystem</secondary></indexterm>
+<para><computeroutput>void CommandQueueHelper.ExecCommand_SimulateInputSystem (bool IsPressedThisFrame, <link linkend="_class_input_command">InputCommand</link> curCommand, string queueDictionaryElementName = <computeroutput>&quot;Primary&quot;</computeroutput>
+)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_queue_helper_ae88a96a74253b03554ead59e02187039_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_queue_helper_1a8d018449d627df408db833e4a3f11171"/><section>
+    <title>commandOwnerRootObj</title>
+<indexterm><primary>commandOwnerRootObj</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>commandOwnerRootObj</secondary></indexterm>
+<para><computeroutput>GameObject CommandQueueHelper.commandOwnerRootObj</computeroutput></para></section>
+<anchor xml:id="_class_command_queue_helper_1a6309f9ec7e7c58b8b8a2920d6a6a05f4"/><section>
+    <title>commandQueuesDictionary</title>
+<indexterm><primary>commandQueuesDictionary</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>commandQueuesDictionary</secondary></indexterm>
+<para><computeroutput><link linkend="_class_generic_dictionary">GenericDictionary</link>&lt;string, <link linkend="_class_command_queue">CommandQueue</link>&gt; CommandQueueHelper.commandQueuesDictionary</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_generic_dictionary">GenericDictionary&lt;string, CommandQueue&gt;</link>()
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{&#32;<emphasis role="stringliteral">&quot;Primary&quot;</emphasis>,&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_command_queue">CommandQueue</link>()},&#32;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{&#32;<emphasis role="stringliteral">&quot;Secondary&quot;</emphasis>,&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_command_queue">CommandQueue</link>()}&#32;,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{&#32;<emphasis role="stringliteral">&quot;Tertiary&quot;</emphasis>,&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_command_queue">CommandQueue</link>()},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{&#32;<emphasis role="stringliteral">&quot;Axis&quot;</emphasis>,&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_command_queue">CommandQueue</link>()},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{&#32;<emphasis role="stringliteral">&quot;HoldDown&quot;</emphasis>,&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_command_queue">CommandQueue</link>()},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{&#32;<emphasis role="stringliteral">&quot;NegativeEdge&quot;</emphasis>,&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_command_queue">CommandQueue</link>()},&#32;&#32;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{&#32;<emphasis role="stringliteral">&quot;Chain&quot;</emphasis>,&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_command_queue">CommandQueue</link>()},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+</programlisting></section>
+<anchor xml:id="_class_command_queue_helper_1a13b4dbede98d3e64762c5e1696aaeb01"/><section>
+    <title>CurrentTick</title>
+<indexterm><primary>CurrentTick</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>CurrentTick</secondary></indexterm>
+<para><computeroutput>int CommandQueueHelper.CurrentTick = 0</computeroutput></para></section>
+<anchor xml:id="_class_command_queue_helper_1a9fc850b4fd58f361f9f18f095e959cae"/><section>
+    <title>maxDefaultAllowedTimeDifferenceCheck</title>
+<indexterm><primary>maxDefaultAllowedTimeDifferenceCheck</primary><secondary>CommandQueueHelper</secondary></indexterm>
+<indexterm><primary>CommandQueueHelper</primary><secondary>maxDefaultAllowedTimeDifferenceCheck</secondary></indexterm>
+<para><computeroutput>float CommandQueueHelper.maxDefaultAllowedTimeDifferenceCheck = 2f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/<link linkend="__command_queue_helper_8cs">CommandQueueHelper.cs</link></section>
+</section>

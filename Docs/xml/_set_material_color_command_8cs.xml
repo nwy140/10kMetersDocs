@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_set_material_color_command_8cs" kind="file" language="C#">
+    <compoundname>SetMaterialColorCommand.cs</compoundname>
+    <innerclass refid="class_set_material_color_command" prot="public">SetMaterialColorCommand</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">[CreateAssetMenu(menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;SInt_Utils/SetMaterialColorCommand&quot;</highlight><highlight class="normal">,<sp/>order<sp/>=<sp/>1)]</highlight></codeline>
+<codeline lineno="4" refid="class_set_material_color_command" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_set_material_color_command" kindref="compound">SetMaterialColorCommand</ref><sp/>:<sp/><ref refid="class_input_command" kindref="compound">InputCommand</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_set_material_color_command_1aeb93f7f3a1dc07c3b04ab06053f9d449" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Color<sp/><ref refid="class_set_material_color_command_1aeb93f7f3a1dc07c3b04ab06053f9d449" kindref="member">newColor</ref><sp/>=<sp/>Color.white;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7" kindref="member">ExecPress</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.ExecPress();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" kindref="member">instanceInfo</ref>.<ref refid="struct_command_base_1_1_instance_info_runtime_1ade43d87749f149634332ebbc8b122507" kindref="member">commandTargetObj</ref><sp/>!=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" kindref="member">instanceInfo</ref>.<ref refid="struct_command_base_1_1_instance_info_runtime_1ade43d87749f149634332ebbc8b122507" kindref="member">commandTargetObj</ref>.GetComponent&lt;Renderer&gt;().material.color<sp/>=<sp/><ref refid="class_set_material_color_command_1aeb93f7f3a1dc07c3b04ab06053f9d449" kindref="member">newColor</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/Misc/SetMaterialColorCommand.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,128 @@
+\hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper}{}\doxysection{Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper Class Reference}
+\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper}\index{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}}
+
+
+This is an example for how to override the default display behavior of bindings.  
+
+
+
+
+Inheritance diagram for Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons}{Gamepad\+Icons}}
+\item 
+struct \mbox{\hyperlink{struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons}{Key\+Mouse\+Icons}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Sprite \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_ab1a6aa8ecd4eb130345a8fcd827eb242}{icon}}
+\item 
+\mbox{\hyperlink{struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons}{Key\+Mouse\+Icons}} \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a52347484abef80a24e4f27732489ac39}{keyboard\+Mouse}}
+\item 
+\mbox{\hyperlink{struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons}{Gamepad\+Icons}} \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a0295a2d78d8567d3cc87eb3eafda2825}{xbox}}
+\item 
+\mbox{\hyperlink{struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons}{Gamepad\+Icons}} \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a01d54b7ec606114c19036cf7fb0980f8}{ps4}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_abd5fd185d3b63bed4b61c376096ea5e4}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a236904ab3d3e6670733c940f80f0b7a8}{On\+Update\+Binding\+Display}} (\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i}{Rebind\+Action\+UI}} component, string binding\+Display\+String, string device\+Layout\+Name, string control\+Path)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is an example for how to override the default display behavior of bindings. 
+
+The component hooks into \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i_ae6f650d471a43cb2f5087df933289a39}{Rebind\+Action\+UI.\+update\+Binding\+UIEvent}} which is triggered when \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} display of a binding should be refreshed. It then checks whether we have an icon for the current binding and if so, replaces the default text display with an icon. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_abd5fd185d3b63bed4b61c376096ea5e4}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_abd5fd185d3b63bed4b61c376096ea5e4}} 
+\index{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_abd5fd185d3b63bed4b61c376096ea5e4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a236904ab3d3e6670733c940f80f0b7a8}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a236904ab3d3e6670733c940f80f0b7a8}} 
+\index{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}!OnUpdateBindingDisplay@{OnUpdateBindingDisplay}}
+\index{OnUpdateBindingDisplay@{OnUpdateBindingDisplay}!UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}}
+\doxysubsubsection{\texorpdfstring{OnUpdateBindingDisplay()}{OnUpdateBindingDisplay()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper.\+On\+Update\+Binding\+Display (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i}{Rebind\+Action\+UI}}}]{component,  }\item[{string}]{binding\+Display\+String,  }\item[{string}]{device\+Layout\+Name,  }\item[{string}]{control\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a236904ab3d3e6670733c940f80f0b7a8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a236904ab3d3e6670733c940f80f0b7a8_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_ab1a6aa8ecd4eb130345a8fcd827eb242}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_ab1a6aa8ecd4eb130345a8fcd827eb242}} 
+\index{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}!icon@{icon}}
+\index{icon@{icon}!UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}}
+\doxysubsubsection{\texorpdfstring{icon}{icon}}
+{\footnotesize\ttfamily Sprite Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper.\+icon}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a52347484abef80a24e4f27732489ac39}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a52347484abef80a24e4f27732489ac39}} 
+\index{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}!keyboardMouse@{keyboardMouse}}
+\index{keyboardMouse@{keyboardMouse}!UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}}
+\doxysubsubsection{\texorpdfstring{keyboardMouse}{keyboardMouse}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_key_mouse_icons}{Key\+Mouse\+Icons}} Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper.\+keyboard\+Mouse}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a01d54b7ec606114c19036cf7fb0980f8}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a01d54b7ec606114c19036cf7fb0980f8}} 
+\index{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}!ps4@{ps4}}
+\index{ps4@{ps4}!UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}}
+\doxysubsubsection{\texorpdfstring{ps4}{ps4}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons}{Gamepad\+Icons}} Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper.\+ps4}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a0295a2d78d8567d3cc87eb3eafda2825}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_a0295a2d78d8567d3cc87eb3eafda2825}} 
+\index{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}!xbox@{xbox}}
+\index{xbox@{xbox}!UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper@{UnityEngine.InputSystem.Samples.RebindUI.RebindIconsHelper}}
+\doxysubsubsection{\texorpdfstring{xbox}{xbox}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_icons_helper_1_1_gamepad_icons}{Gamepad\+Icons}} Unity\+Engine.\+Input\+System.\+Samples.\+Rebind\+UI.\+Rebind\+Icons\+Helper.\+xbox}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+Unity\+Registry\+Integration/\+Input\+System/\+Rebinding UI/\+\_\+\+Modified/\mbox{\hyperlink{_rebind_icons_helper_8cs}{Rebind\+Icons\+Helper.\+cs}}\end{DoxyCompactItemize}

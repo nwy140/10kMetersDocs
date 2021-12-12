@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::UI::VirtualMouseInput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CursorMode</name>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169a9c947e305c5e18893723b4dd23e26569" prot="public">
+          <name>SoftwareCursor</name>
+          <briefdescription>
+<para>The cursor is represented as a <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> element. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>See <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1af3370c9f5f45a7e0b235539a55d29cea" kindref="member">cursorGraphic</ref>. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521" prot="public">
+          <name>HardwareCursorIfAvailable</name>
+          <briefdescription>
+<para>If a native Mouse device is present, its cursor will be used and driven by the virtual mouse using Mouse.WarpCursorPosition. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>The software cursor referenced by <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1af3370c9f5f45a7e0b235539a55d29cea" kindref="member">cursorGraphic</ref> will be disabled.</para>
+<para>Note that if no native Mouse is present, behavior will fall back to SoftwareCursor. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Determines how the cursor for the virtual mouse is represented. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aaba471e985a805943ba52db802b6c13c" kindref="member">cursorMode</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="576" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="577" bodyend="592"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab7e6b4d09d9fbf392de5cfb95e66071a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform UnityEngine.InputSystem.UI.VirtualMouseInput.cursorTransform</definition>
+        <argsstring></argsstring>
+        <name>cursorTransform</name>
+        <briefdescription>
+<para>Optional transform that will be updated to correspond to the current mouse position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Transform to update with mouse position.</para>
+<para>This is useful for having a <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> object that directly represents the mouse cursor. Simply add both the <computeroutput><ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input" kindref="compound">VirtualMouseInput</ref></computeroutput> component and an <ulink url="https://docs.unity3d.com/Manual/script-Image.html">Image</ulink> component and hook the <ulink url="https://docs.unity3d.com/ScriptReference/RectTransform.html">RectTransform</ulink> component for the <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> object into here. The object as a whole will then follow the generated mouse cursor motion. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="54" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a6f988f3122704289114872f39522630f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float UnityEngine.InputSystem.UI.VirtualMouseInput.cursorSpeed</definition>
+        <argsstring></argsstring>
+        <name>cursorSpeed</name>
+        <briefdescription>
+<para>How many pixels per second the cursor travels in one axis when the respective axis from <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a97b535934a9747f7ea0b116fab9261a5" kindref="member">stickAction</ref> is 1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Mouse speed in pixels per second.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="65" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aaba471e985a805943ba52db802b6c13c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169" kindref="member">CursorMode</ref></type>
+        <definition>CursorMode UnityEngine.InputSystem.UI.VirtualMouseInput.cursorMode</definition>
+        <argsstring></argsstring>
+        <name>cursorMode</name>
+        <briefdescription>
+<para>Determines which cursor representation to use. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If this is set to <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169a9c947e305c5e18893723b4dd23e26569" kindref="member">CursorMode.SoftwareCursor</ref> (the default), then <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1af3370c9f5f45a7e0b235539a55d29cea" kindref="member">cursorGraphic</ref> and <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab7e6b4d09d9fbf392de5cfb95e66071a" kindref="member">cursorTransform</ref> define a software cursor that is made to correspond to the position of <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>. If this is set to <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521" kindref="member">CursorMode.HardwareCursorIfAvailable</ref> and there is a native Mouse device present, the component will take over that mouse device and disable it (so as for it to not also generate position updates). It will then use Mouse.WarpCursorPosition to move the system mouse cursor to correspond to the position of the <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>. In this case, <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1af3370c9f5f45a7e0b235539a55d29cea" kindref="member">cursorGraphic</ref> will be disabled and <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab7e6b4d09d9fbf392de5cfb95e66071a" kindref="member">cursorTransform</ref> will not be updated. </para>
+<para>Whether the system mouse cursor (if present) should be made to correspond with the virtual mouse position.</para>
+<para>Note that regardless of which mode is used for the cursor, mouse input is expected to be picked up from <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>.</para>
+<para>Note that if <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521" kindref="member">CursorMode.HardwareCursorIfAvailable</ref> is used, the software cursor is still used if no native Mouse device is present. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="88" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="89" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1af3370c9f5f45a7e0b235539a55d29cea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Graphic</type>
+        <definition>Graphic UnityEngine.InputSystem.UI.VirtualMouseInput.cursorGraphic</definition>
+        <argsstring></argsstring>
+        <name>cursorGraphic</name>
+        <briefdescription>
+<para>The <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> graphic element that represents the mouse cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Graphic element for the software mouse cursor.</para>
+<para>If <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aaba471e985a805943ba52db802b6c13c" kindref="member">cursorMode</ref> is set to <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521" kindref="member">CursorMode.HardwareCursorIfAvailable</ref>, this graphic will be disabled.</para>
+<para>Also, this <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> component implicitly determines the <computeroutput>Canvas</computeroutput> that defines the screen area for the cursor. The canvas that this graphic is on will be looked up using <computeroutput>GetComponentInParent</computeroutput> and then the <computeroutput>Canvas.pixelRect</computeroutput> of the canvas is used as the bounds for the cursor motion range. </para>
+<para><simplesect kind="see"><para><ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169a9c947e305c5e18893723b4dd23e26569" kindref="member">CursorMode.SoftwareCursor</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="125" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="126" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a854cf6f7aba67a71349a8ca68ac30302" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float UnityEngine.InputSystem.UI.VirtualMouseInput.scrollSpeed</definition>
+        <argsstring></argsstring>
+        <name>scrollSpeed</name>
+        <briefdescription>
+<para>Multiplier for values received from <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a4301db4eb88d512bbeec2deac85ffcbb" kindref="member">scrollWheelAction</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiplier for scroll values.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="139" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Mouse</type>
+        <definition>Mouse UnityEngine.InputSystem.UI.VirtualMouseInput.virtualMouse</definition>
+        <argsstring></argsstring>
+        <name>virtualMouse</name>
+        <briefdescription>
+<para>The virtual mouse device that the component feeds with input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Instance of virtual mouse or <computeroutput>null</computeroutput>.</para>
+<para>This is only initialized after the component has been enabled for the first time. Note that when subsequently disabling the component, the property will continue to return the mouse device but the device will not be added to the system while the component is not enabled. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="154" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a97b535934a9747f7ea0b116fab9261a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.stickAction</definition>
+        <argsstring></argsstring>
+        <name>stickAction</name>
+        <briefdescription>
+<para>The Vector2 stick input that drives the mouse cursor, i.e. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Mouse.position on <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref> and the <ulink url="https://docs.unity3d.com/ScriptReference/RectTransform-anchoredPosition.html">anchoredPosition</ulink> on <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab7e6b4d09d9fbf392de5cfb95e66071a" kindref="member">cursorTransform</ref> (if set). </para>
+<para>Stick input that drives cursor position.</para>
+<para>This should normally be bound to controls such as Gamepad.leftStick and/or Gamepad.rightStick. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="167" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="168" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a45b3667aecf3273cbb8cf077345ea5b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.leftButtonAction</definition>
+        <argsstring></argsstring>
+        <name>leftButtonAction</name>
+        <briefdescription>
+<para>Optional button input that determines when Mouse.leftButton is pressed on <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input for Mouse.leftButton.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="178" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="179" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ae833671e88d8c2a3bb8984fc362bd292" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.rightButtonAction</definition>
+        <argsstring></argsstring>
+        <name>rightButtonAction</name>
+        <briefdescription>
+<para>Optional button input that determines when Mouse.rightButton is pressed on <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input for Mouse.rightButton.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="196" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="197" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad39bfec811ff08f0c824357038eb5b17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.middleButtonAction</definition>
+        <argsstring></argsstring>
+        <name>middleButtonAction</name>
+        <briefdescription>
+<para>Optional button input that determines when Mouse.middleButton is pressed on <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input for Mouse.middleButton.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="214" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="215" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab1c00f346ded23ce0b4a3e92fa164c1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.forwardButtonAction</definition>
+        <argsstring></argsstring>
+        <name>forwardButtonAction</name>
+        <briefdescription>
+<para>Optional button input that determines when Mouse.forwardButton is pressed on <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input for Mouse.forwardButton.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="232" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="233" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a7a947e38440b1c66c4bd4b2ae05d4023" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.backButtonAction</definition>
+        <argsstring></argsstring>
+        <name>backButtonAction</name>
+        <briefdescription>
+<para>Optional button input that determines when Mouse.forwardButton is pressed on <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input for Mouse.forwardButton.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="250" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="251" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a4301db4eb88d512bbeec2deac85ffcbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.scrollWheelAction</definition>
+        <argsstring></argsstring>
+        <name>scrollWheelAction</name>
+        <briefdescription>
+<para>Optional Vector2 value input that determines the value of Mouse.scroll on <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" kindref="member">virtualMouse</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input for Mouse.scroll.</para>
+<para>In case you want to only bind vertical scrolling, simply have a Composites.Vector2Composite with only <computeroutput>Up</computeroutput> and <computeroutput>Down</computeroutput> bound and <computeroutput>Left</computeroutput> and <computeroutput>Right</computeroutput> deleted or bound to nothing. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="272" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="273" bodyend="276"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab2de402564df92df52e3c27b9ce2b035" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169" kindref="member">CursorMode</ref></type>
+        <definition>CursorMode UnityEngine.InputSystem.UI.VirtualMouseInput.m_CursorMode</definition>
+        <argsstring></argsstring>
+        <name>m_CursorMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="471" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aa0f8f15a08dbdcf9963f496ffb7e135d" prot="private" static="no" mutable="no">
+        <type>Graphic</type>
+        <definition>Graphic UnityEngine.InputSystem.UI.VirtualMouseInput.m_CursorGraphic</definition>
+        <argsstring></argsstring>
+        <name>m_CursorGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="472" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aac50902fd6850b88e05f2acaedcb4158" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform UnityEngine.InputSystem.UI.VirtualMouseInput.m_CursorTransform</definition>
+        <argsstring></argsstring>
+        <name>m_CursorTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="473" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a57a24701da8d5671b93c435389bef8f8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.InputSystem.UI.VirtualMouseInput.m_CursorSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_CursorSpeed</name>
+        <initializer>= 400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="476" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a263fd2c140467dd4bd51356ee0a9449e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.InputSystem.UI.VirtualMouseInput.m_ScrollSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_ScrollSpeed</name>
+        <initializer>= 45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="477" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a1843f3e8bc8f7a2557a9dbeafbed8a26" prot="private" static="no" mutable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.m_StickAction</definition>
+        <argsstring></argsstring>
+        <name>m_StickAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="480" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a24b73fb7d66cab20d48f1aeffe4e4022" prot="private" static="no" mutable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.m_LeftButtonAction</definition>
+        <argsstring></argsstring>
+        <name>m_LeftButtonAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="481" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a7c45e1fd2a1978f94a42feba36e371df" prot="private" static="no" mutable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.m_MiddleButtonAction</definition>
+        <argsstring></argsstring>
+        <name>m_MiddleButtonAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="482" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="482" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a79a1f3bb93992f9fabccbf5a70257592" prot="private" static="no" mutable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.m_RightButtonAction</definition>
+        <argsstring></argsstring>
+        <name>m_RightButtonAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="483" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a107bdb13cbf45e2750d638b06e406989" prot="private" static="no" mutable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.m_ForwardButtonAction</definition>
+        <argsstring></argsstring>
+        <name>m_ForwardButtonAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="484" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad9c4dc18517dc869b6428e002f810a04" prot="private" static="no" mutable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.m_BackButtonAction</definition>
+        <argsstring></argsstring>
+        <name>m_BackButtonAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="485" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="485" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a75e73c286fc1f780a76502defccb726d" prot="private" static="no" mutable="no">
+        <type>InputActionProperty</type>
+        <definition>InputActionProperty UnityEngine.InputSystem.UI.VirtualMouseInput.m_ScrollWheelAction</definition>
+        <argsstring></argsstring>
+        <name>m_ScrollWheelAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="486" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad9ffb933f9f6d58ec60a9b2e6e0037a7" prot="private" static="no" mutable="no">
+        <type>Canvas</type>
+        <definition>Canvas UnityEngine.InputSystem.UI.VirtualMouseInput.m_Canvas</definition>
+        <argsstring></argsstring>
+        <name>m_Canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="488" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="488" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a37a1d790d23f88c9e9ad718d66ff9dd5" prot="private" static="no" mutable="no">
+        <type>Mouse</type>
+        <definition>Mouse UnityEngine.InputSystem.UI.VirtualMouseInput.m_VirtualMouse</definition>
+        <argsstring></argsstring>
+        <name>m_VirtualMouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="489" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="489" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a5fdc86cfda303d2b5dc7d2c82830d4ca" prot="private" static="no" mutable="no">
+        <type>Mouse</type>
+        <definition>Mouse UnityEngine.InputSystem.UI.VirtualMouseInput.m_SystemMouse</definition>
+        <argsstring></argsstring>
+        <name>m_SystemMouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="490" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="490" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aad4fedf3998062af993cdcd8fc205c1e" prot="private" static="no" mutable="no">
+        <type>Action</type>
+        <definition>Action UnityEngine.InputSystem.UI.VirtualMouseInput.m_AfterInputUpdateDelegate</definition>
+        <argsstring></argsstring>
+        <name>m_AfterInputUpdateDelegate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="491" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="491" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a743545b5b42324fb8a1c384af09483f8" prot="private" static="no" mutable="no">
+        <type>Action&lt; InputAction.CallbackContext &gt;</type>
+        <definition>Action&lt;InputAction.CallbackContext&gt; UnityEngine.InputSystem.UI.VirtualMouseInput.m_ButtonActionTriggeredDelegate</definition>
+        <argsstring></argsstring>
+        <name>m_ButtonActionTriggeredDelegate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="492" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ada65d5ffd4140bd426217b7b22f8c3c3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double UnityEngine.InputSystem.UI.VirtualMouseInput.m_LastTime</definition>
+        <argsstring></argsstring>
+        <name>m_LastTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="493" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ac4fbcaa025f58a0fd51b212a3e3dc797" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 UnityEngine.InputSystem.UI.VirtualMouseInput.m_LastStickValue</definition>
+        <argsstring></argsstring>
+        <name>m_LastStickValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="494" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="494" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab68c176f775cb42c44695cd30b7783a1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.UI.VirtualMouseInput.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="278" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="278" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab6f8ddbb3b7b9f86618f7aa0cb8ba939" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.UI.VirtualMouseInput.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="322" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="322" bodyend="360"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad9dff32767b4bd1d69eb38c2aaca3de7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.UI.VirtualMouseInput.TryFindCanvas</definition>
+        <argsstring>()</argsstring>
+        <name>TryFindCanvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="362" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="362" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aeebc671ee4af0fb18250b346268a2401" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.UI.VirtualMouseInput.TryEnableHardwareCursor</definition>
+        <argsstring>()</argsstring>
+        <name>TryEnableHardwareCursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="367" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="367" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a926c00966b4b17bb47374407668ce5f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.UI.VirtualMouseInput.UpdateMotion</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateMotion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="398" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="398" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a7bd4cca012439f6d4c905f974ca79dc6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.UI.VirtualMouseInput.OnButtonActionTriggered</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnButtonActionTriggered</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="496" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="496" bodyend="527"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a2bf5ad19b0a8598f99aa4cd04f7b530d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.UI.VirtualMouseInput.OnAfterInputUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnAfterInputUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="567" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="567" bodyend="570"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a7e09ff035a65b99a1f7183d76c9a37f7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.InputSystem.UI.VirtualMouseInput.SetActionCallback</definition>
+        <argsstring>(InputActionProperty field, Action&lt; InputAction.CallbackContext &gt; callback, bool install=true)</argsstring>
+        <name>SetActionCallback</name>
+        <param>
+          <type>InputActionProperty</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>Action&lt; InputAction.CallbackContext &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>install</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="529" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="529" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a45be677292e0072ae699d69214c8b71d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.InputSystem.UI.VirtualMouseInput.SetAction</definition>
+        <argsstring>(ref InputActionProperty field, InputActionProperty value)</argsstring>
+        <name>SetAction</name>
+        <param>
+          <type>ref InputActionProperty</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>InputActionProperty</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="550" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="550" bodyend="565"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A component that creates a virtual Mouse device and drives its input from gamepad-style inputs. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This effectively adds a software mouse cursor. </para>
+<para>This component can be used with UIs that are designed for mouse input, i.e. need to be operated with a cursor. By hooking up the InputActions of this component to gamepad input and directing <ref refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab7e6b4d09d9fbf392de5cfb95e66071a" kindref="member">cursorTransform</ref> to the <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> transform of the cursor, you can use this component to drive an on-screen cursor.</para>
+<para>Note that this component does not actually trigger <ref refid="namespace_unity_engine_1_1_input_system_1_1_u_i" kindref="compound">UI</ref> input itself. Instead, it creates a virtual Mouse device which can then be picked up elsewhere (such as by InputSystemUIInputModule) where mouse/pointer input is expected.</para>
+<para>Also note that if there is a Mouse added by the platform, it is not impacted by this component. More specifically, the system mouse cursor will not be moved or otherwise used by this component. </para>
+<para><simplesect kind="see"><para>Gamepad, Mouse</para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.UI.VirtualMouseInput</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.UI.VirtualMouseInput</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" line="41" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" bodystart="42" bodyend="593"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a7a947e38440b1c66c4bd4b2ae05d4023" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>backButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1af3370c9f5f45a7e0b235539a55d29cea" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>cursorGraphic</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad8109e2f6cbaabc62534268ff82f4169" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>CursorMode</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aaba471e985a805943ba52db802b6c13c" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>cursorMode</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a6f988f3122704289114872f39522630f" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>cursorSpeed</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab7e6b4d09d9fbf392de5cfb95e66071a" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>cursorTransform</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab1c00f346ded23ce0b4a3e92fa164c1d" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>forwardButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a45b3667aecf3273cbb8cf077345ea5b2" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>leftButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aad4fedf3998062af993cdcd8fc205c1e" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_AfterInputUpdateDelegate</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad9c4dc18517dc869b6428e002f810a04" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_BackButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a743545b5b42324fb8a1c384af09483f8" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_ButtonActionTriggeredDelegate</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad9ffb933f9f6d58ec60a9b2e6e0037a7" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_Canvas</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aa0f8f15a08dbdcf9963f496ffb7e135d" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_CursorGraphic</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab2de402564df92df52e3c27b9ce2b035" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_CursorMode</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a57a24701da8d5671b93c435389bef8f8" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_CursorSpeed</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aac50902fd6850b88e05f2acaedcb4158" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_CursorTransform</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a107bdb13cbf45e2750d638b06e406989" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_ForwardButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ac4fbcaa025f58a0fd51b212a3e3dc797" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_LastStickValue</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ada65d5ffd4140bd426217b7b22f8c3c3" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_LastTime</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a24b73fb7d66cab20d48f1aeffe4e4022" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_LeftButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a7c45e1fd2a1978f94a42feba36e371df" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_MiddleButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a79a1f3bb93992f9fabccbf5a70257592" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_RightButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a263fd2c140467dd4bd51356ee0a9449e" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_ScrollSpeed</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a75e73c286fc1f780a76502defccb726d" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_ScrollWheelAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a1843f3e8bc8f7a2557a9dbeafbed8a26" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_StickAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a5fdc86cfda303d2b5dc7d2c82830d4ca" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_SystemMouse</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a37a1d790d23f88c9e9ad718d66ff9dd5" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>m_VirtualMouse</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad39bfec811ff08f0c824357038eb5b17" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>middleButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a2bf5ad19b0a8598f99aa4cd04f7b530d" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>OnAfterInputUpdate</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a7bd4cca012439f6d4c905f974ca79dc6" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>OnButtonActionTriggered</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab6f8ddbb3b7b9f86618f7aa0cb8ba939" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ab68c176f775cb42c44695cd30b7783a1" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ae833671e88d8c2a3bb8984fc362bd292" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>rightButtonAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a854cf6f7aba67a71349a8ca68ac30302" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>scrollSpeed</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a4301db4eb88d512bbeec2deac85ffcbb" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>scrollWheelAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a45be677292e0072ae699d69214c8b71d" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>SetAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a7e09ff035a65b99a1f7183d76c9a37f7" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>SetActionCallback</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a97b535934a9747f7ea0b116fab9261a5" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>stickAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1aeebc671ee4af0fb18250b346268a2401" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>TryEnableHardwareCursor</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1ad9dff32767b4bd1d69eb38c2aaca3de7" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>TryFindCanvas</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a926c00966b4b17bb47374407668ce5f6" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>UpdateMotion</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_1a83490a2cca7d7f7e0347975c5692d8b0" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::UI::VirtualMouseInput</scope><name>virtualMouse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

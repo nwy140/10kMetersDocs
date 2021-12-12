@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_file_read_write" kind="class" language="C#" prot="public">
+    <compoundname>FileReadWrite</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_file_read_write_1a9afc555c8289f59f71449f568b047be1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FileReadWrite.WriteToBinaryFile&lt; T &gt;</definition>
+        <argsstring>(string filePath, T objectToWrite)</argsstring>
+        <name>WriteToBinaryFile&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>objectToWrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/FileReadWrite.cs" line="6" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/FileReadWrite.cs" bodystart="6" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_read_write_1a0356decbcc891e9aa85054e223e5198f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FileReadWrite.ReadFromBinaryFile&lt; T &gt;</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>ReadFromBinaryFile&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/FileReadWrite.cs" line="15" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/FileReadWrite.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FileReadWrite</label>
+        <link refid="class_file_read_write"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/FileReadWrite.cs" line="4" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/FileReadWrite.cs" bodystart="5" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_file_read_write_1a0356decbcc891e9aa85054e223e5198f" prot="public" virt="non-virtual"><scope>FileReadWrite</scope><name>ReadFromBinaryFile&lt; T &gt;</name></member>
+      <member refid="class_file_read_write_1a9afc555c8289f59f71449f568b047be1" prot="public" virt="non-virtual"><scope>FileReadWrite</scope><name>WriteToBinaryFile&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

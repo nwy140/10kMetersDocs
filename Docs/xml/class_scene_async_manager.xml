@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_scene_async_manager" kind="class" language="C#" prot="public">
+    <compoundname>SceneAsyncManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_scene_async_manager_1ab642ccc6bfaacc2305b0ee08bc1fdd9b" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_scene_async_manager" kindref="compound">SceneAsyncManager</ref></type>
+        <definition>SceneAsyncManager SceneAsyncManager.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="17" column="33" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene_async_manager_1afa09a83a28e0b01c80696c6e321cd184" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneAsyncManager.isForceMouseAlwaysVisible</definition>
+        <argsstring></argsstring>
+        <name>isForceMouseAlwaysVisible</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="20" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_scene_async_manager_1aa68c7cebcedcb5eb4cea9192280c08cc" compoundref="_scene_async_manager_8cs" startline="137" endline="144">SetMouseVisibility</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_async_manager_1aae34ce4aac26f4a5fd29cd34d55af70e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneAsyncManager.isNextSceneFullyLoaded</definition>
+        <argsstring></argsstring>
+        <name>isNextSceneFullyLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="21" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_async_manager_1a5b774b51178b00b07e9bc09a65a02a5c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneAsyncManager.isWaitForAsyncFinishLoading</definition>
+        <argsstring></argsstring>
+        <name>isWaitForAsyncFinishLoading</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="24" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scene_async_manager_1aac330c844bf7502f6e1dec6134fc08d4" prot="private" static="no" mutable="no">
+        <type>AsyncOperation</type>
+        <definition>AsyncOperation SceneAsyncManager.asyncLoad</definition>
+        <argsstring></argsstring>
+        <name>asyncLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="22" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scene_async_manager_1a1d933f3e35155f38a6841baba428c706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="25" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1a2a10ca04e4f8a5577ea7c2918612d19d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.LoadScene</definition>
+        <argsstring>(string sceneName)</argsstring>
+        <name>LoadScene</name>
+        <param>
+          <type>string</type>
+          <declname>sceneName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="64" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="64" bodyend="67"/>
+        <referencedby refid="class_scene_async_manager_1a9c3b4bc4f6407e2c24a5262f91806a78" compoundref="_scene_async_manager_8cs" startline="87" endline="93">LoadLevel</referencedby>
+        <referencedby refid="class_scene_async_manager_1afa2d068781f2db455b67030b55e532a3" compoundref="_scene_async_manager_8cs" startline="128" endline="135">LoadLevelByIndex</referencedby>
+        <referencedby refid="class_scene_async_manager_1ae1ee306c5ed35228b5c6be6f2892a9a6" compoundref="_scene_async_manager_8cs" startline="118" endline="122">LoadNextLevel</referencedby>
+        <referencedby refid="class_scene_async_manager_1a7c72d0493017853d5db052bd3b87ccd5" compoundref="_scene_async_manager_8cs" startline="104" endline="110">RestartLevel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1a9c3b4bc4f6407e2c24a5262f91806a78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.LoadLevel</definition>
+        <argsstring>(string Name)</argsstring>
+        <name>LoadLevel</name>
+        <param>
+          <type>string</type>
+          <declname>Name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="87" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="87" bodyend="93"/>
+        <references refid="class_scene_async_manager_1a2a10ca04e4f8a5577ea7c2918612d19d" compoundref="_scene_async_manager_8cs" startline="64" endline="67">LoadScene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1a7c72d0493017853d5db052bd3b87ccd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.RestartLevel</definition>
+        <argsstring>()</argsstring>
+        <name>RestartLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="104" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="104" bodyend="110"/>
+        <references refid="class_scene_async_manager_1a2a10ca04e4f8a5577ea7c2918612d19d" compoundref="_scene_async_manager_8cs" startline="64" endline="67">LoadScene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1aa15711b80942b64ed8fcc752caf4907d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.RequestQuit</definition>
+        <argsstring>()</argsstring>
+        <name>RequestQuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="113" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1ae1ee306c5ed35228b5c6be6f2892a9a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.LoadNextLevel</definition>
+        <argsstring>()</argsstring>
+        <name>LoadNextLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="118" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="118" bodyend="122"/>
+        <references refid="class_scene_async_manager_1a2a10ca04e4f8a5577ea7c2918612d19d" compoundref="_scene_async_manager_8cs" startline="64" endline="67">LoadScene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1af4f2c8a74e5d59c3ba70e26eaf4d1c50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SceneAsyncManager.GetCurrentLevelIndex</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentLevelIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="124" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1afa2d068781f2db455b67030b55e532a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.LoadLevelByIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>LoadLevelByIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="128" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="128" bodyend="135"/>
+        <references refid="class_scene_async_manager_1a2a10ca04e4f8a5577ea7c2918612d19d" compoundref="_scene_async_manager_8cs" startline="64" endline="67">LoadScene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1aa68c7cebcedcb5eb4cea9192280c08cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.SetMouseVisibility</definition>
+        <argsstring>(bool isVisible)</argsstring>
+        <name>SetMouseVisibility</name>
+        <param>
+          <type>bool</type>
+          <declname>isVisible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="137" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="137" bodyend="144"/>
+        <references refid="class_scene_async_manager_1afa09a83a28e0b01c80696c6e321cd184" compoundref="_scene_async_manager_8cs" startline="20">isForceMouseAlwaysVisible</references>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1a231b54e8f95b791c4e5b7878c41c8454" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.PauseLevel</definition>
+        <argsstring>()</argsstring>
+        <name>PauseLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="146" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="146" bodyend="155"/>
+        <references refid="class_gameplay_manager_1ae0a38b9f8c7c4899dc9f37656f65af60" compoundref="_gameplay_manager_8cs" startline="10">GameplayManager.CurrGameplayState</references>
+        <references refid="class_gameplay_manager_1a4e5bbf33d5f4054ec063aebe34b5d21c" compoundref="_gameplay_manager_8cs" startline="8">GameplayManager.instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1ad8f58e32271b5eaad8a5a631afb89de2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.unPauseLevel</definition>
+        <argsstring>()</argsstring>
+        <name>unPauseLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="157" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="157" bodyend="165"/>
+        <references refid="class_gameplay_manager_1ae0a38b9f8c7c4899dc9f37656f65af60" compoundref="_gameplay_manager_8cs" startline="10">GameplayManager.CurrGameplayState</references>
+        <references refid="class_gameplay_manager_1a4e5bbf33d5f4054ec063aebe34b5d21c" compoundref="_gameplay_manager_8cs" startline="8">GameplayManager.instance</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scene_async_manager_1a4e75373f0621ebcd66b43e15fbf9787d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.MakeInstance</definition>
+        <argsstring>()</argsstring>
+        <name>MakeInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="30" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1a1b44ade927ad875317f266c962f5832f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SceneAsyncManager.LoadAsyncScene</definition>
+        <argsstring>(string sceneName)</argsstring>
+        <name>LoadAsyncScene</name>
+        <param>
+          <type>string</type>
+          <declname>sceneName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="39" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="39" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1a68eacf5b1b8757b996c59f976448744c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAsyncManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Load first level by index or second level by index</para>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="69" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="69" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_async_manager_1aa638ec8691dd0d0e993b94f8c1413e02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SceneAsyncManager.GetSceneNameFromIndex</definition>
+        <argsstring>(int BuildIndex)</argsstring>
+        <name>GetSceneNameFromIndex</name>
+        <param>
+          <type>int</type>
+          <declname>BuildIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="96" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="96" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneAsyncManager</label>
+        <link refid="class_scene_async_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneAsyncManager</label>
+        <link refid="class_scene_async_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" line="14" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/SceneAsyncManager.cs" bodystart="15" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_scene_async_manager_1aac330c844bf7502f6e1dec6134fc08d4" prot="private" virt="non-virtual"><scope>SceneAsyncManager</scope><name>asyncLoad</name></member>
+      <member refid="class_scene_async_manager_1a1d933f3e35155f38a6841baba428c706" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>Awake</name></member>
+      <member refid="class_scene_async_manager_1af4f2c8a74e5d59c3ba70e26eaf4d1c50" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>GetCurrentLevelIndex</name></member>
+      <member refid="class_scene_async_manager_1aa638ec8691dd0d0e993b94f8c1413e02" prot="private" virt="non-virtual"><scope>SceneAsyncManager</scope><name>GetSceneNameFromIndex</name></member>
+      <member refid="class_scene_async_manager_1ab642ccc6bfaacc2305b0ee08bc1fdd9b" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>instance</name></member>
+      <member refid="class_scene_async_manager_1afa09a83a28e0b01c80696c6e321cd184" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>isForceMouseAlwaysVisible</name></member>
+      <member refid="class_scene_async_manager_1aae34ce4aac26f4a5fd29cd34d55af70e" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>isNextSceneFullyLoaded</name></member>
+      <member refid="class_scene_async_manager_1a5b774b51178b00b07e9bc09a65a02a5c" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>isWaitForAsyncFinishLoading</name></member>
+      <member refid="class_scene_async_manager_1a1b44ade927ad875317f266c962f5832f" prot="private" virt="non-virtual"><scope>SceneAsyncManager</scope><name>LoadAsyncScene</name></member>
+      <member refid="class_scene_async_manager_1a9c3b4bc4f6407e2c24a5262f91806a78" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>LoadLevel</name></member>
+      <member refid="class_scene_async_manager_1afa2d068781f2db455b67030b55e532a3" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>LoadLevelByIndex</name></member>
+      <member refid="class_scene_async_manager_1ae1ee306c5ed35228b5c6be6f2892a9a6" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>LoadNextLevel</name></member>
+      <member refid="class_scene_async_manager_1a2a10ca04e4f8a5577ea7c2918612d19d" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>LoadScene</name></member>
+      <member refid="class_scene_async_manager_1a4e75373f0621ebcd66b43e15fbf9787d" prot="private" virt="non-virtual"><scope>SceneAsyncManager</scope><name>MakeInstance</name></member>
+      <member refid="class_scene_async_manager_1a231b54e8f95b791c4e5b7878c41c8454" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>PauseLevel</name></member>
+      <member refid="class_scene_async_manager_1aa15711b80942b64ed8fcc752caf4907d" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>RequestQuit</name></member>
+      <member refid="class_scene_async_manager_1a7c72d0493017853d5db052bd3b87ccd5" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>RestartLevel</name></member>
+      <member refid="class_scene_async_manager_1aa68c7cebcedcb5eb4cea9192280c08cc" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>SetMouseVisibility</name></member>
+      <member refid="class_scene_async_manager_1ad8f58e32271b5eaad8a5a631afb89de2" prot="public" virt="non-virtual"><scope>SceneAsyncManager</scope><name>unPauseLevel</name></member>
+      <member refid="class_scene_async_manager_1a68eacf5b1b8757b996c59f976448744c" prot="private" virt="non-virtual"><scope>SceneAsyncManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

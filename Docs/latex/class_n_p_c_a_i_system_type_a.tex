@@ -1,0 +1,215 @@
+\hypertarget{class_n_p_c_a_i_system_type_a}{}\doxysection{NPCAISystem\+TypeA Class Reference}
+\label{class_n_p_c_a_i_system_type_a}\index{NPCAISystemTypeA@{NPCAISystemTypeA}}
+
+
+Inheritance diagram for NPCAISystem\+TypeA\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{class_n_p_c_a_i_system_type_a__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for NPCAISystem\+TypeA\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_n_p_c_a_i_system_type_a__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a86968fc0e0f7a0e0a4981ed791a749f1}{Awake}} ()
+\item 
+override void \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_affde73f519dc478b8d4dc2c93fc1d136}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a34be60ba55fd59a38c93420a77395f96}{Handle\+Enter\+Patrol\+State}} ()
+\item 
+void \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a30682f80178535058a2c8a57203957da}{Try\+Enter\+State\+By\+Name}} (string next\+State\+Name)
+\item 
+\mbox{\hyperlink{class_f_s_m_base_state}{FSMBase\+State}} \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_ace7efa0e967f79e50692b2c44d22cb5b}{Get\+State\+SOInstance\+By\+Name}} (string state\+Name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_n_p_c_a_i_system_type_a_8cs_a197d14e9aca240e57418f08258d24081}{NPCAIType\+AReactin\+Style}} \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_acccedf1008acf03883bb07c628b70f71}{reaction\+Style}} = \mbox{\hyperlink{_n_p_c_a_i_system_type_a_8cs_a197d14e9aca240e57418f08258d24081aeaff692e84900d6b0999355abb0f3e43}{NPCAIType\+AReactin\+Style.\+Chase}}
+\item 
+List$<$ \mbox{\hyperlink{class_f_s_m_base_state}{FSMBase\+State}} $>$ \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a274f78b2efcb0be5c9a2b7c715cd4a75}{possible\+States\+SOInstance}}
+\item 
+List$<$ string $>$ \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a2801ced43f434bdb5f63bf84675433a2}{possible\+States\+Names}}
+\item 
+\mbox{\hyperlink{class_command_slots_holder_manager}{Command\+Slots\+Holder\+Manager}} \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a281f06a167415bd50de695bfd96df510}{command\+Slots\+Holder\+Manager}}
+\item 
+Nav\+Mesh\+Agent \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a6c837ccad35236e92c19a48b1c18d965}{agent}}
+\item 
+\mbox{\hyperlink{class_camera_sight_perception_sensor2_d}{Camera\+Sight\+Perception\+Sensor2D}} \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a3019d46ac9182a9bfedb5b22b2eb0c43}{sensor}}
+\item 
+\mbox{\hyperlink{class_waypoint_path}{Waypoint\+Path}} \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a9f8b200312416836a716a5ec1ca11a1b}{waypoint\+Comp}}
+\item 
+bool \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_ad948b8c39299b5c1251312c3d85e2f74}{is\+Use\+Waypoint}} = true
+\item 
+Rotation\+Constraint \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a9f8b5f0a9be6e498975aee7d06a33167}{rotation\+Constraint}}
+\item 
+Transform \mbox{\hyperlink{class_n_p_c_a_i_system_type_a_a9d56a4587b059bc33ef8232285097e57}{target}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a86968fc0e0f7a0e0a4981ed791a749f1}\label{class_n_p_c_a_i_system_type_a_a86968fc0e0f7a0e0a4981ed791a749f1}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!Awake@{Awake}}
+\index{Awake@{Awake}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily override void NPCAISystem\+Type\+A.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_system_base_ab80678c5526db2e0089a98a440c29a60}{FSMSystem\+Base}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_n_p_c_a_i_system_type_a_a86968fc0e0f7a0e0a4981ed791a749f1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_ace7efa0e967f79e50692b2c44d22cb5b}\label{class_n_p_c_a_i_system_type_a_ace7efa0e967f79e50692b2c44d22cb5b}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!GetStateSOInstanceByName@{GetStateSOInstanceByName}}
+\index{GetStateSOInstanceByName@{GetStateSOInstanceByName}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{GetStateSOInstanceByName()}{GetStateSOInstanceByName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_f_s_m_base_state}{FSMBase\+State}} NPCAISystem\+Type\+A.\+Get\+State\+SOInstance\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{state\+Name }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_n_p_c_a_i_system_type_a_ace7efa0e967f79e50692b2c44d22cb5b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a34be60ba55fd59a38c93420a77395f96}\label{class_n_p_c_a_i_system_type_a_a34be60ba55fd59a38c93420a77395f96}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!HandleEnterPatrolState@{HandleEnterPatrolState}}
+\index{HandleEnterPatrolState@{HandleEnterPatrolState}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{HandleEnterPatrolState()}{HandleEnterPatrolState()}}
+{\footnotesize\ttfamily void NPCAISystem\+Type\+A.\+Handle\+Enter\+Patrol\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_n_p_c_a_i_system_type_a_a34be60ba55fd59a38c93420a77395f96_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_n_p_c_a_i_system_type_a_a34be60ba55fd59a38c93420a77395f96_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a30682f80178535058a2c8a57203957da}\label{class_n_p_c_a_i_system_type_a_a30682f80178535058a2c8a57203957da}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!TryEnterStateByName@{TryEnterStateByName}}
+\index{TryEnterStateByName@{TryEnterStateByName}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{TryEnterStateByName()}{TryEnterStateByName()}}
+{\footnotesize\ttfamily void NPCAISystem\+Type\+A.\+Try\+Enter\+State\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{next\+State\+Name }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_n_p_c_a_i_system_type_a_a30682f80178535058a2c8a57203957da_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_affde73f519dc478b8d4dc2c93fc1d136}\label{class_n_p_c_a_i_system_type_a_affde73f519dc478b8d4dc2c93fc1d136}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!Update@{Update}}
+\index{Update@{Update}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily override void NPCAISystem\+Type\+A.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_system_base_a4da20f26b8e2b553122e84ef9eb70bfc}{FSMSystem\+Base}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_n_p_c_a_i_system_type_a_affde73f519dc478b8d4dc2c93fc1d136_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a6c837ccad35236e92c19a48b1c18d965}\label{class_n_p_c_a_i_system_type_a_a6c837ccad35236e92c19a48b1c18d965}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!agent@{agent}}
+\index{agent@{agent}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{agent}{agent}}
+{\footnotesize\ttfamily Nav\+Mesh\+Agent NPCAISystem\+Type\+A.\+agent}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a281f06a167415bd50de695bfd96df510}\label{class_n_p_c_a_i_system_type_a_a281f06a167415bd50de695bfd96df510}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!commandSlotsHolderManager@{commandSlotsHolderManager}}
+\index{commandSlotsHolderManager@{commandSlotsHolderManager}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{commandSlotsHolderManager}{commandSlotsHolderManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_command_slots_holder_manager}{Command\+Slots\+Holder\+Manager}} NPCAISystem\+Type\+A.\+command\+Slots\+Holder\+Manager}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_ad948b8c39299b5c1251312c3d85e2f74}\label{class_n_p_c_a_i_system_type_a_ad948b8c39299b5c1251312c3d85e2f74}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!isUseWaypoint@{isUseWaypoint}}
+\index{isUseWaypoint@{isUseWaypoint}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{isUseWaypoint}{isUseWaypoint}}
+{\footnotesize\ttfamily bool NPCAISystem\+Type\+A.\+is\+Use\+Waypoint = true}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a2801ced43f434bdb5f63bf84675433a2}\label{class_n_p_c_a_i_system_type_a_a2801ced43f434bdb5f63bf84675433a2}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!possibleStatesNames@{possibleStatesNames}}
+\index{possibleStatesNames@{possibleStatesNames}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{possibleStatesNames}{possibleStatesNames}}
+{\footnotesize\ttfamily List$<$string$>$ NPCAISystem\+Type\+A.\+possible\+States\+Names}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a274f78b2efcb0be5c9a2b7c715cd4a75}\label{class_n_p_c_a_i_system_type_a_a274f78b2efcb0be5c9a2b7c715cd4a75}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!possibleStatesSOInstance@{possibleStatesSOInstance}}
+\index{possibleStatesSOInstance@{possibleStatesSOInstance}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{possibleStatesSOInstance}{possibleStatesSOInstance}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_f_s_m_base_state}{FSMBase\+State}}$>$ NPCAISystem\+Type\+A.\+possible\+States\+SOInstance}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_acccedf1008acf03883bb07c628b70f71}\label{class_n_p_c_a_i_system_type_a_acccedf1008acf03883bb07c628b70f71}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!reactionStyle@{reactionStyle}}
+\index{reactionStyle@{reactionStyle}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{reactionStyle}{reactionStyle}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_n_p_c_a_i_system_type_a_8cs_a197d14e9aca240e57418f08258d24081}{NPCAIType\+AReactin\+Style}} NPCAISystem\+Type\+A.\+reaction\+Style = \mbox{\hyperlink{_n_p_c_a_i_system_type_a_8cs_a197d14e9aca240e57418f08258d24081aeaff692e84900d6b0999355abb0f3e43}{NPCAIType\+AReactin\+Style.\+Chase}}}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a9f8b5f0a9be6e498975aee7d06a33167}\label{class_n_p_c_a_i_system_type_a_a9f8b5f0a9be6e498975aee7d06a33167}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!rotationConstraint@{rotationConstraint}}
+\index{rotationConstraint@{rotationConstraint}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{rotationConstraint}{rotationConstraint}}
+{\footnotesize\ttfamily Rotation\+Constraint NPCAISystem\+Type\+A.\+rotation\+Constraint}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a3019d46ac9182a9bfedb5b22b2eb0c43}\label{class_n_p_c_a_i_system_type_a_a3019d46ac9182a9bfedb5b22b2eb0c43}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!sensor@{sensor}}
+\index{sensor@{sensor}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{sensor}{sensor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_camera_sight_perception_sensor2_d}{Camera\+Sight\+Perception\+Sensor2D}} NPCAISystem\+Type\+A.\+sensor}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a9d56a4587b059bc33ef8232285097e57}\label{class_n_p_c_a_i_system_type_a_a9d56a4587b059bc33ef8232285097e57}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!target@{target}}
+\index{target@{target}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{target}{target}}
+{\footnotesize\ttfamily Transform NPCAISystem\+Type\+A.\+target}
+
+\mbox{\Hypertarget{class_n_p_c_a_i_system_type_a_a9f8b200312416836a716a5ec1ca11a1b}\label{class_n_p_c_a_i_system_type_a_a9f8b200312416836a716a5ec1ca11a1b}} 
+\index{NPCAISystemTypeA@{NPCAISystemTypeA}!waypointComp@{waypointComp}}
+\index{waypointComp@{waypointComp}!NPCAISystemTypeA@{NPCAISystemTypeA}}
+\doxysubsubsection{\texorpdfstring{waypointComp}{waypointComp}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_waypoint_path}{Waypoint\+Path}} NPCAISystem\+Type\+A.\+waypoint\+Comp}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+\_\+\+\_\+\+Experimental/\+AIApproach/\+State\+Pattern/\mbox{\hyperlink{_n_p_c_a_i_system_type_a_8cs}{NPCAISystem\+Type\+A.\+cs}}\end{DoxyCompactItemize}

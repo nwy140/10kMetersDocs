@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ColorGradingComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.ColorGradingComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.ColorGradingComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a6028831311ad34f0f563fa5715c139dc">Prepare</link> (Material uberMaterial)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1abf942f421fab142504cd5be46b804815">OnGUI</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a888398f3d7e4eeb2809dd9f66b185622">OnDisable</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static Vector3 <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a04daf0a2a8a42ead0163935f90d3f1f9">GetLiftValue</link> (Color lift)</para>
+</listitem>
+            <listitem><para>static Vector3 <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a24d6c535749a5f5dc47e98607d4c9816">GetGammaValue</link> (Color gamma)</para>
+</listitem>
+            <listitem><para>static Vector3 <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a49b829055865dc106c6e19cce8aedb00">GetGainValue</link> (Color gain)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896">CalculateLiftGammaGain</link> (Color lift, Color gamma, Color gain, out Vector3 outLift, out Vector3 outGamma, out Vector3 outGain)</para>
+</listitem>
+            <listitem><para>static Vector3 <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ae2018d90179b6aa3f02e04e8884cc2bf">GetSlopeValue</link> (Color slope)</para>
+</listitem>
+            <listitem><para>static Vector3 <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9f7481136a36d81b1eea1faa04250bda">GetPowerValue</link> (Color power)</para>
+</listitem>
+            <listitem><para>static Vector3 <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2819904531cd17c52080489f09b36db6">GetOffsetValue</link> (Color offset)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748">CalculateSlopePowerOffset</link> (Color slope, Color power, Color offset, out Vector3 outSlope, out Vector3 outPower, out Vector3 outOffset)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1acc86c87eda1936a230afa7c7afad7be9">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896"/><section>
+    <title>CalculateLiftGammaGain()</title>
+<indexterm><primary>CalculateLiftGammaGain</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>CalculateLiftGammaGain</secondary></indexterm>
+<para><computeroutput>static void UnityEngine.PostProcessing.ColorGradingComponent.CalculateLiftGammaGain (Color lift, Color gamma, Color gain, out Vector3 outLift, out Vector3 outGamma, out Vector3 outGain)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_a5b5248a23b4acc1ea1b5897d13fb1896_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748"/><section>
+    <title>CalculateSlopePowerOffset()</title>
+<indexterm><primary>CalculateSlopePowerOffset</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>CalculateSlopePowerOffset</secondary></indexterm>
+<para><computeroutput>static void UnityEngine.PostProcessing.ColorGradingComponent.CalculateSlopePowerOffset (Color slope, Color power, Color offset, out Vector3 outSlope, out Vector3 outPower, out Vector3 outOffset)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_a3233c060966fe59cc49a5fc241119748_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a49b829055865dc106c6e19cce8aedb00"/><section>
+    <title>GetGainValue()</title>
+<indexterm><primary>GetGainValue</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>GetGainValue</secondary></indexterm>
+<para><computeroutput>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetGainValue (Color gain)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_a49b829055865dc106c6e19cce8aedb00_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a24d6c535749a5f5dc47e98607d4c9816"/><section>
+    <title>GetGammaValue()</title>
+<indexterm><primary>GetGammaValue</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>GetGammaValue</secondary></indexterm>
+<para><computeroutput>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetGammaValue (Color gamma)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_a24d6c535749a5f5dc47e98607d4c9816_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a04daf0a2a8a42ead0163935f90d3f1f9"/><section>
+    <title>GetLiftValue()</title>
+<indexterm><primary>GetLiftValue</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>GetLiftValue</secondary></indexterm>
+<para><computeroutput>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetLiftValue (Color lift)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_a04daf0a2a8a42ead0163935f90d3f1f9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2819904531cd17c52080489f09b36db6"/><section>
+    <title>GetOffsetValue()</title>
+<indexterm><primary>GetOffsetValue</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>GetOffsetValue</secondary></indexterm>
+<para><computeroutput>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetOffsetValue (Color offset)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_a2819904531cd17c52080489f09b36db6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9f7481136a36d81b1eea1faa04250bda"/><section>
+    <title>GetPowerValue()</title>
+<indexterm><primary>GetPowerValue</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>GetPowerValue</secondary></indexterm>
+<para><computeroutput>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetPowerValue (Color power)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_a9f7481136a36d81b1eea1faa04250bda_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ae2018d90179b6aa3f02e04e8884cc2bf"/><section>
+    <title>GetSlopeValue()</title>
+<indexterm><primary>GetSlopeValue</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>GetSlopeValue</secondary></indexterm>
+<para><computeroutput>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetSlopeValue (Color slope)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_ae2018d90179b6aa3f02e04e8884cc2bf_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a888398f3d7e4eeb2809dd9f66b185622"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.ColorGradingComponent.OnDisable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_color_grading_component_a888398f3d7e4eeb2809dd9f66b185622_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1abf942f421fab142504cd5be46b804815"/><section>
+    <title>OnGUI()</title>
+<indexterm><primary>OnGUI</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>OnGUI</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.ColorGradingComponent.OnGUI ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a6028831311ad34f0f563fa5715c139dc"/><section>
+    <title>Prepare()</title>
+<indexterm><primary>Prepare</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>Prepare</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.ColorGradingComponent.Prepare (Material uberMaterial)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; ColorGradingModel &gt;</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_color_grading_component_1acc86c87eda1936a230afa7c7afad7be9"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.ColorGradingComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.ColorGradingComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__color_grading_component_8cs">ColorGradingComponent.cs</link></section>
+</section>

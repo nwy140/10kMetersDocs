@@ -1,0 +1,111 @@
+\hypertarget{class_command_manager_old}{}\doxysection{Command\+Manager\+Old Class Reference}
+\label{class_command_manager_old}\index{CommandManagerOld@{CommandManagerOld}}
+
+
+Inheritance diagram for Command\+Manager\+Old\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{class_command_manager_old__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Command\+Manager\+Old\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_command_manager_old__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_command_manager_old_a2b39ed29209798f2f01d3a9c4513a04c}{Check\+Sequence}} (string\mbox{[}$\,$\mbox{]} sequence, int max\+Duration, \mbox{\hyperlink{class_command_base}{Command\+Base}} chain\+Command)
+\item 
+bool \mbox{\hyperlink{class_command_manager_old_a9a746b5972db17c5a7749fecadf7fb1c}{Check\+Sequence}} (string\mbox{[}$\,$\mbox{]} sequence, \mbox{\hyperlink{class_command_base}{Command\+Base}} chain\+Command)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_command_queue}{Command\+Queue}} \mbox{\hyperlink{class_command_manager_old_a39271da1cc38e158a168f388d72bd0a5}{command\+Queue\+\_\+\+Basic}} = new \mbox{\hyperlink{class_command_queue}{Command\+Queue}}()
+\item 
+\mbox{\hyperlink{class_command_queue}{Command\+Queue}} \mbox{\hyperlink{class_command_manager_old_a268e3c8e54766b696f86ce9b5b327aae}{command\+Queue\+\_\+\+Negative\+Edge}} = new \mbox{\hyperlink{class_command_queue}{Command\+Queue}}()
+\item 
+\mbox{\hyperlink{class_command_queue}{Command\+Queue}} \mbox{\hyperlink{class_command_manager_old_a470de513223e9210f44f8776a3974e3a}{command\+Queue\+\_\+\+Chain}} = new \mbox{\hyperlink{class_command_queue}{Command\+Queue}}()
+\item 
+int \mbox{\hyperlink{class_command_manager_old_a9f8d1f3b425258ca953311437b819f20}{Current\+Tick}} = 0
+\item 
+float \mbox{\hyperlink{class_command_manager_old_ab6f7310710a3ab945dcaaa750b76509d}{max\+Default\+Allowed\+Time\+Difference\+Check}} = 2f
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_command_manager_old_a9a746b5972db17c5a7749fecadf7fb1c}\label{class_command_manager_old_a9a746b5972db17c5a7749fecadf7fb1c}} 
+\index{CommandManagerOld@{CommandManagerOld}!CheckSequence@{CheckSequence}}
+\index{CheckSequence@{CheckSequence}!CommandManagerOld@{CommandManagerOld}}
+\doxysubsubsection{\texorpdfstring{CheckSequence()}{CheckSequence()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Command\+Manager\+Old.\+Check\+Sequence (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{sequence,  }\item[{\mbox{\hyperlink{class_command_base}{Command\+Base}}}]{chain\+Command }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_manager_old_a9a746b5972db17c5a7749fecadf7fb1c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_manager_old_a2b39ed29209798f2f01d3a9c4513a04c}\label{class_command_manager_old_a2b39ed29209798f2f01d3a9c4513a04c}} 
+\index{CommandManagerOld@{CommandManagerOld}!CheckSequence@{CheckSequence}}
+\index{CheckSequence@{CheckSequence}!CommandManagerOld@{CommandManagerOld}}
+\doxysubsubsection{\texorpdfstring{CheckSequence()}{CheckSequence()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Command\+Manager\+Old.\+Check\+Sequence (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{sequence,  }\item[{int}]{max\+Duration,  }\item[{\mbox{\hyperlink{class_command_base}{Command\+Base}}}]{chain\+Command }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_manager_old_a2b39ed29209798f2f01d3a9c4513a04c_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_command_manager_old_a39271da1cc38e158a168f388d72bd0a5}\label{class_command_manager_old_a39271da1cc38e158a168f388d72bd0a5}} 
+\index{CommandManagerOld@{CommandManagerOld}!commandQueue\_Basic@{commandQueue\_Basic}}
+\index{commandQueue\_Basic@{commandQueue\_Basic}!CommandManagerOld@{CommandManagerOld}}
+\doxysubsubsection{\texorpdfstring{commandQueue\_Basic}{commandQueue\_Basic}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_command_queue}{Command\+Queue}} Command\+Manager\+Old.\+command\+Queue\+\_\+\+Basic = new \mbox{\hyperlink{class_command_queue}{Command\+Queue}}()}
+
+\mbox{\Hypertarget{class_command_manager_old_a470de513223e9210f44f8776a3974e3a}\label{class_command_manager_old_a470de513223e9210f44f8776a3974e3a}} 
+\index{CommandManagerOld@{CommandManagerOld}!commandQueue\_Chain@{commandQueue\_Chain}}
+\index{commandQueue\_Chain@{commandQueue\_Chain}!CommandManagerOld@{CommandManagerOld}}
+\doxysubsubsection{\texorpdfstring{commandQueue\_Chain}{commandQueue\_Chain}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_command_queue}{Command\+Queue}} Command\+Manager\+Old.\+command\+Queue\+\_\+\+Chain = new \mbox{\hyperlink{class_command_queue}{Command\+Queue}}()}
+
+\mbox{\Hypertarget{class_command_manager_old_a268e3c8e54766b696f86ce9b5b327aae}\label{class_command_manager_old_a268e3c8e54766b696f86ce9b5b327aae}} 
+\index{CommandManagerOld@{CommandManagerOld}!commandQueue\_NegativeEdge@{commandQueue\_NegativeEdge}}
+\index{commandQueue\_NegativeEdge@{commandQueue\_NegativeEdge}!CommandManagerOld@{CommandManagerOld}}
+\doxysubsubsection{\texorpdfstring{commandQueue\_NegativeEdge}{commandQueue\_NegativeEdge}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_command_queue}{Command\+Queue}} Command\+Manager\+Old.\+command\+Queue\+\_\+\+Negative\+Edge = new \mbox{\hyperlink{class_command_queue}{Command\+Queue}}()}
+
+\mbox{\Hypertarget{class_command_manager_old_a9f8d1f3b425258ca953311437b819f20}\label{class_command_manager_old_a9f8d1f3b425258ca953311437b819f20}} 
+\index{CommandManagerOld@{CommandManagerOld}!CurrentTick@{CurrentTick}}
+\index{CurrentTick@{CurrentTick}!CommandManagerOld@{CommandManagerOld}}
+\doxysubsubsection{\texorpdfstring{CurrentTick}{CurrentTick}}
+{\footnotesize\ttfamily int Command\+Manager\+Old.\+Current\+Tick = 0}
+
+\mbox{\Hypertarget{class_command_manager_old_ab6f7310710a3ab945dcaaa750b76509d}\label{class_command_manager_old_ab6f7310710a3ab945dcaaa750b76509d}} 
+\index{CommandManagerOld@{CommandManagerOld}!maxDefaultAllowedTimeDifferenceCheck@{maxDefaultAllowedTimeDifferenceCheck}}
+\index{maxDefaultAllowedTimeDifferenceCheck@{maxDefaultAllowedTimeDifferenceCheck}!CommandManagerOld@{CommandManagerOld}}
+\doxysubsubsection{\texorpdfstring{maxDefaultAllowedTimeDifferenceCheck}{maxDefaultAllowedTimeDifferenceCheck}}
+{\footnotesize\ttfamily float Command\+Manager\+Old.\+max\+Default\+Allowed\+Time\+Difference\+Check = 2f}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+Command\+Pattern/\+Command/\+\_\+\+Bin/\mbox{\hyperlink{_command_manager_old_8cs}{Command\+Manager\+Old.\+cs}}\end{DoxyCompactItemize}

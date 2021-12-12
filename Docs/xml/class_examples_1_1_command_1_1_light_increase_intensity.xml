@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_examples_1_1_command_1_1_light_increase_intensity" kind="class" language="C#" prot="public">
+    <compoundname>Examples::Command::LightIncreaseIntensity</compoundname>
+    <basecompoundref refid="interface_i_command" prot="public" virt="non-virtual">ICommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_increase_intensity_1a4cc7f0e2a003a6e7e329300e0f1623a5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Examples.Command.LightIncreaseIntensity._increaseAmount</definition>
+        <argsstring></argsstring>
+        <name>_increaseAmount</name>
+        <initializer>= .1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" line="10" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_examples_1_1_command_1_1_light_increase_intensity_1ab207bf40461d9f93c847d762bb552026" prot="private" static="no" mutable="no">
+        <type>Light</type>
+        <definition>Light Examples.Command.LightIncreaseIntensity._light</definition>
+        <argsstring></argsstring>
+        <name>_light</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" line="11" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_increase_intensity_1a4c8e5485a9daf784e7eae7c86d07eaf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Examples.Command.LightIncreaseIntensity.LightIncreaseIntensity</definition>
+        <argsstring>(Light light)</argsstring>
+        <name>LightIncreaseIntensity</name>
+        <param>
+          <type>Light</type>
+          <declname>light</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" line="13" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_increase_intensity_1aa0a650c3aa168d2171d4d6f7d903c22e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightIncreaseIntensity.TryExecCommand</definition>
+        <argsstring>()</argsstring>
+        <name>TryExecCommand</name>
+        <reimplements refid="interface_i_command_1a7fc0d324014976db246abbd800a4cc7b">TryExecCommand</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" line="18" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_command_1_1_light_increase_intensity_1a32edf0602ad9d7555ed17be6c88cb305" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Examples.Command.LightIncreaseIntensity.Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <reimplements refid="interface_i_command_1aaee389e6fbefdb121ccd719f1447a05e">Undo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" line="24" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Examples.Command.LightIncreaseIntensity</label>
+        <link refid="class_examples_1_1_command_1_1_light_increase_intensity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Examples.Command.LightIncreaseIntensity</label>
+        <link refid="class_examples_1_1_command_1_1_light_increase_intensity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" line="8" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/MyScene/Sample/Example/Scripts/Commands/LightIncreaseIntensity.cs" bodystart="9" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_examples_1_1_command_1_1_light_increase_intensity_1a4cc7f0e2a003a6e7e329300e0f1623a5" prot="private" virt="non-virtual"><scope>Examples::Command::LightIncreaseIntensity</scope><name>_increaseAmount</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_increase_intensity_1ab207bf40461d9f93c847d762bb552026" prot="private" virt="non-virtual"><scope>Examples::Command::LightIncreaseIntensity</scope><name>_light</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_increase_intensity_1a4c8e5485a9daf784e7eae7c86d07eaf6" prot="public" virt="non-virtual"><scope>Examples::Command::LightIncreaseIntensity</scope><name>LightIncreaseIntensity</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_increase_intensity_1aa0a650c3aa168d2171d4d6f7d903c22e" prot="public" virt="non-virtual"><scope>Examples::Command::LightIncreaseIntensity</scope><name>TryExecCommand</name></member>
+      <member refid="class_examples_1_1_command_1_1_light_increase_intensity_1a32edf0602ad9d7555ed17be6c88cb305" prot="public" virt="non-virtual"><scope>Examples::Command::LightIncreaseIntensity</scope><name>Undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_scene_between_stages" kind="class" language="C#" prot="public">
+    <compoundname>SceneBetweenStages</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scene_between_stages_1a8e2898c1e4303aeeaae38e0de308b18a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_save_manager" kindref="compound">UpgradeSaveManager</ref></type>
+        <definition>UpgradeSaveManager SceneBetweenStages.upgradeSaveManager</definition>
+        <argsstring></argsstring>
+        <name>upgradeSaveManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="8" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_between_stages_1a87e13c4f487f53b92cdafdb8208e29f9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_save_manager" kindref="compound">ItemSaveManager</ref></type>
+        <definition>ItemSaveManager SceneBetweenStages.itemSaveManager</definition>
+        <argsstring></argsstring>
+        <name>itemSaveManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="9" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_between_stages_1ada0d19b6d0106fb27984f0303edf06f7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_character" kindref="compound">Character</ref></type>
+        <definition>Character SceneBetweenStages.character</definition>
+        <argsstring></argsstring>
+        <name>character</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="10" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_between_stages_1a1c043fabd4c8e136318a6c9a175ea94d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+        <definition>UpgradeHolder SceneBetweenStages.upgradeHolder</definition>
+        <argsstring></argsstring>
+        <name>upgradeHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="11" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene_between_stages_1a69e04b6d96d069f7c380dcbd13070560" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SceneBetweenStages.nextSceneName</definition>
+        <argsstring></argsstring>
+        <name>nextSceneName</name>
+        <initializer>= &quot;Stage 2 Prototype&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="12" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_between_stages_1afea253fd784039495cb74f3b0ee78a1a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneBetweenStages.isWinScene</definition>
+        <argsstring></argsstring>
+        <name>isWinScene</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="14" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scene_between_stages_1a74da112bc8d6d5da712ca865e1f9c35d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneBetweenStages.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_between_stages_1a2568ab4df369fe91325890dc098b4e30" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneBetweenStages.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D player)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="24" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="24" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneBetweenStages</label>
+        <link refid="class_scene_between_stages"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneBetweenStages</label>
+        <link refid="class_scene_between_stages"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneBetweenStages.cs" bodystart="7" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_scene_between_stages_1a74da112bc8d6d5da712ca865e1f9c35d" prot="private" virt="non-virtual"><scope>SceneBetweenStages</scope><name>Awake</name></member>
+      <member refid="class_scene_between_stages_1ada0d19b6d0106fb27984f0303edf06f7" prot="private" virt="non-virtual"><scope>SceneBetweenStages</scope><name>character</name></member>
+      <member refid="class_scene_between_stages_1afea253fd784039495cb74f3b0ee78a1a" prot="public" virt="non-virtual"><scope>SceneBetweenStages</scope><name>isWinScene</name></member>
+      <member refid="class_scene_between_stages_1a87e13c4f487f53b92cdafdb8208e29f9" prot="private" virt="non-virtual"><scope>SceneBetweenStages</scope><name>itemSaveManager</name></member>
+      <member refid="class_scene_between_stages_1a69e04b6d96d069f7c380dcbd13070560" prot="public" virt="non-virtual"><scope>SceneBetweenStages</scope><name>nextSceneName</name></member>
+      <member refid="class_scene_between_stages_1a2568ab4df369fe91325890dc098b4e30" prot="private" virt="non-virtual"><scope>SceneBetweenStages</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_scene_between_stages_1a1c043fabd4c8e136318a6c9a175ea94d" prot="private" virt="non-virtual"><scope>SceneBetweenStages</scope><name>upgradeHolder</name></member>
+      <member refid="class_scene_between_stages_1a8e2898c1e4303aeeaae38e0de308b18a" prot="private" virt="non-virtual"><scope>SceneBetweenStages</scope><name>upgradeSaveManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

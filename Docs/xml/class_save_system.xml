@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_save_system" kind="class" language="C#" prot="public">
+    <compoundname>SaveSystem</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_save_system_1a8b75e5e46baa8de45ba44318629d0531" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SaveSystem.SavePlayer</definition>
+        <argsstring>(PlayerMovement playerMovement)</argsstring>
+        <name>SavePlayer</name>
+        <param>
+          <type><ref refid="class_player_movement" kindref="compound">PlayerMovement</ref></type>
+          <declname>playerMovement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/SaveSystem.cs" line="7" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/SaveSystem.cs" bodystart="7" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_save_system_1abb561eb8b20c15350c3bf6a66c37bd2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_data" kindref="compound">PlayerData</ref></type>
+        <definition>static PlayerData SaveSystem.LoadPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>LoadPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/SaveSystem.cs" line="19" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/SaveSystem.cs" bodystart="19" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>SaveSystem</label>
+        <link refid="class_save_system"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/SaveSystem.cs" line="5" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/SaveSystem.cs" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_save_system_1abb561eb8b20c15350c3bf6a66c37bd2f" prot="public" virt="non-virtual"><scope>SaveSystem</scope><name>LoadPlayer</name></member>
+      <member refid="class_save_system_1a8b75e5e46baa8de45ba44318629d0531" prot="public" virt="non-virtual"><scope>SaveSystem</scope><name>SavePlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

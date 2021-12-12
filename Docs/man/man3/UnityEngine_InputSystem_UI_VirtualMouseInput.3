@@ -1,0 +1,221 @@
+.TH "UnityEngine.InputSystem.UI.VirtualMouseInput" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.InputSystem.UI.VirtualMouseInput \- A component that creates a virtual Mouse device and drives its input from gamepad-style inputs\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBCursorMode\fP { \fBSoftwareCursor\fP, \fBHardwareCursorIfAvailable\fP }"
+.br
+.RI "Determines how the cursor for the virtual mouse is represented\&. "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnDisable\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "RectTransform \fBcursorTransform\fP\fC [getset]\fP"
+.br
+.RI "Optional transform that will be updated to correspond to the current mouse position\&. "
+.ti -1c
+.RI "float \fBcursorSpeed\fP\fC [getset]\fP"
+.br
+.RI "How many pixels per second the cursor travels in one axis when the respective axis from \fBstickAction\fP is 1\&. "
+.ti -1c
+.RI "\fBCursorMode\fP \fBcursorMode\fP\fC [getset]\fP"
+.br
+.RI "Determines which cursor representation to use\&. "
+.ti -1c
+.RI "Graphic \fBcursorGraphic\fP\fC [getset]\fP"
+.br
+.RI "The \fBUI\fP graphic element that represents the mouse cursor\&. "
+.ti -1c
+.RI "float \fBscrollSpeed\fP\fC [getset]\fP"
+.br
+.RI "Multiplier for values received from \fBscrollWheelAction\fP\&. "
+.ti -1c
+.RI "Mouse \fBvirtualMouse\fP\fC [get]\fP"
+.br
+.RI "The virtual mouse device that the component feeds with input\&. "
+.ti -1c
+.RI "InputActionProperty \fBstickAction\fP\fC [getset]\fP"
+.br
+.RI "The Vector2 stick input that drives the mouse cursor, i\&.e\&. "
+.ti -1c
+.RI "InputActionProperty \fBleftButtonAction\fP\fC [getset]\fP"
+.br
+.RI "Optional button input that determines when Mouse\&.leftButton is pressed on \fBvirtualMouse\fP\&. "
+.ti -1c
+.RI "InputActionProperty \fBrightButtonAction\fP\fC [getset]\fP"
+.br
+.RI "Optional button input that determines when Mouse\&.rightButton is pressed on \fBvirtualMouse\fP\&. "
+.ti -1c
+.RI "InputActionProperty \fBmiddleButtonAction\fP\fC [getset]\fP"
+.br
+.RI "Optional button input that determines when Mouse\&.middleButton is pressed on \fBvirtualMouse\fP\&. "
+.ti -1c
+.RI "InputActionProperty \fBforwardButtonAction\fP\fC [getset]\fP"
+.br
+.RI "Optional button input that determines when Mouse\&.forwardButton is pressed on \fBvirtualMouse\fP\&. "
+.ti -1c
+.RI "InputActionProperty \fBbackButtonAction\fP\fC [getset]\fP"
+.br
+.RI "Optional button input that determines when Mouse\&.forwardButton is pressed on \fBvirtualMouse\fP\&. "
+.ti -1c
+.RI "InputActionProperty \fBscrollWheelAction\fP\fC [getset]\fP"
+.br
+.RI "Optional Vector2 value input that determines the value of Mouse\&.scroll on \fBvirtualMouse\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+A component that creates a virtual Mouse device and drives its input from gamepad-style inputs\&. 
+
+This effectively adds a software mouse cursor\&. 
+.PP
+This component can be used with UIs that are designed for mouse input, i\&.e\&. need to be operated with a cursor\&. By hooking up the InputActions of this component to gamepad input and directing \fBcursorTransform\fP to the \fBUI\fP transform of the cursor, you can use this component to drive an on-screen cursor\&.
+.PP
+Note that this component does not actually trigger \fBUI\fP input itself\&. Instead, it creates a virtual Mouse device which can then be picked up elsewhere (such as by InputSystemUIInputModule) where mouse/pointer input is expected\&.
+.PP
+Also note that if there is a Mouse added by the platform, it is not impacted by this component\&. More specifically, the system mouse cursor will not be moved or otherwise used by this component\&. 
+.PP
+\fBSee also\fP
+.RS 4
+Gamepad, Mouse
+.PP
+.RE
+.PP
+
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBUnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.CursorMode\fP"
+
+.PP
+Determines how the cursor for the virtual mouse is represented\&. 
+.PP
+\fBSee also\fP
+.RS 4
+\fBcursorMode\fP
+.PP
+.RE
+.PP
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fISoftwareCursor \fP\fP
+The cursor is represented as a \fBUI\fP element\&. See \fBcursorGraphic\fP\&. 
+.TP
+\fB\fIHardwareCursorIfAvailable \fP\fP
+If a native Mouse device is present, its cursor will be used and driven by the virtual mouse using Mouse\&.WarpCursorPosition\&. The software cursor referenced by \fBcursorGraphic\fP will be disabled\&.
+.PP
+Note that if no native Mouse is present, behavior will fall back to SoftwareCursor\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.OnDisable ()\fC [protected]\fP"
+
+.SS "void UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.OnEnable ()\fC [protected]\fP"
+
+.SH "Property Documentation"
+.PP 
+.SS "InputActionProperty UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.backButtonAction\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional button input that determines when Mouse\&.forwardButton is pressed on \fBvirtualMouse\fP\&. Input for Mouse\&.forwardButton\&.
+.SS "Graphic UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.cursorGraphic\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The \fBUI\fP graphic element that represents the mouse cursor\&. Graphic element for the software mouse cursor\&.
+.PP
+If \fBcursorMode\fP is set to \fBCursorMode\&.HardwareCursorIfAvailable\fP, this graphic will be disabled\&.
+.PP
+Also, this \fBUI\fP component implicitly determines the \fCCanvas\fP that defines the screen area for the cursor\&. The canvas that this graphic is on will be looked up using \fCGetComponentInParent\fP and then the \fCCanvas\&.pixelRect\fP of the canvas is used as the bounds for the cursor motion range\&. 
+.PP
+\fBSee also\fP
+.RS 4
+\fBCursorMode\&.SoftwareCursor\fP
+.PP
+.RE
+.PP
+
+.SS "\fBCursorMode\fP UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.cursorMode\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Determines which cursor representation to use\&. If this is set to \fBCursorMode\&.SoftwareCursor\fP (the default), then \fBcursorGraphic\fP and \fBcursorTransform\fP define a software cursor that is made to correspond to the position of \fBvirtualMouse\fP\&. If this is set to \fBCursorMode\&.HardwareCursorIfAvailable\fP and there is a native Mouse device present, the component will take over that mouse device and disable it (so as for it to not also generate position updates)\&. It will then use Mouse\&.WarpCursorPosition to move the system mouse cursor to correspond to the position of the \fBvirtualMouse\fP\&. In this case, \fBcursorGraphic\fP will be disabled and \fBcursorTransform\fP will not be updated\&. 
+.PP
+Whether the system mouse cursor (if present) should be made to correspond with the virtual mouse position\&.
+.PP
+Note that regardless of which mode is used for the cursor, mouse input is expected to be picked up from \fBvirtualMouse\fP\&.
+.PP
+Note that if \fBCursorMode\&.HardwareCursorIfAvailable\fP is used, the software cursor is still used if no native Mouse device is present\&. 
+.SS "float UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.cursorSpeed\fC [get]\fP, \fC [set]\fP"
+
+.PP
+How many pixels per second the cursor travels in one axis when the respective axis from \fBstickAction\fP is 1\&. Mouse speed in pixels per second\&.
+.SS "RectTransform UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.cursorTransform\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional transform that will be updated to correspond to the current mouse position\&. Transform to update with mouse position\&.
+.PP
+This is useful for having a \fBUI\fP object that directly represents the mouse cursor\&. Simply add both the \fC\fBVirtualMouseInput\fP\fP component and an \fCImage\fP component and hook the \fCRectTransform\fP component for the \fBUI\fP object into here\&. The object as a whole will then follow the generated mouse cursor motion\&. 
+.SS "InputActionProperty UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.forwardButtonAction\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional button input that determines when Mouse\&.forwardButton is pressed on \fBvirtualMouse\fP\&. Input for Mouse\&.forwardButton\&.
+.SS "InputActionProperty UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.leftButtonAction\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional button input that determines when Mouse\&.leftButton is pressed on \fBvirtualMouse\fP\&. Input for Mouse\&.leftButton\&.
+.SS "InputActionProperty UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.middleButtonAction\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional button input that determines when Mouse\&.middleButton is pressed on \fBvirtualMouse\fP\&. Input for Mouse\&.middleButton\&.
+.SS "InputActionProperty UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.rightButtonAction\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional button input that determines when Mouse\&.rightButton is pressed on \fBvirtualMouse\fP\&. Input for Mouse\&.rightButton\&.
+.SS "float UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.scrollSpeed\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Multiplier for values received from \fBscrollWheelAction\fP\&. Multiplier for scroll values\&.
+.SS "InputActionProperty UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.scrollWheelAction\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional Vector2 value input that determines the value of Mouse\&.scroll on \fBvirtualMouse\fP\&. Input for Mouse\&.scroll\&.
+.PP
+In case you want to only bind vertical scrolling, simply have a Composites\&.Vector2Composite with only \fCUp\fP and \fCDown\fP bound and \fCLeft\fP and \fCRight\fP deleted or bound to nothing\&. 
+.SS "InputActionProperty UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.stickAction\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The Vector2 stick input that drives the mouse cursor, i\&.e\&. Mouse\&.position on \fBvirtualMouse\fP and the \fCanchoredPosition\fP on \fBcursorTransform\fP (if set)\&. 
+.PP
+Stick input that drives cursor position\&.
+.PP
+This should normally be bound to controls such as Gamepad\&.leftStick and/or Gamepad\&.rightStick\&. 
+.SS "Mouse UnityEngine\&.InputSystem\&.UI\&.VirtualMouseInput\&.virtualMouse\fC [get]\fP"
+
+.PP
+The virtual mouse device that the component feeds with input\&. Instance of virtual mouse or \fCnull\fP\&.
+.PP
+This is only initialized after the component has been enabled for the first time\&. Note that when subsequently disabling the component, the property will continue to return the mouse device but the device will not be added to the system while the component is not enabled\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

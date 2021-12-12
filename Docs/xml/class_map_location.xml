@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_map_location" kind="class" language="C#" prot="public">
+    <compoundname>MapLocation</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_map_location_1a2969d54f5ccc5f5abc025867b73f61ef" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MapLocation.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="8" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_map_location_1a102658538d9f5811556c955dae9ee262" compoundref="_maze_8cs" startline="25" endline="35">Equals</referencedby>
+        <referencedby refid="class_map_location_1ac2765a45416cbb269b556b022448f07f" compoundref="_maze_8cs" startline="11" endline="15">MapLocation</referencedby>
+        <referencedby refid="class_map_location_1a81e8a4e6a8379a0f0c80fc0e5f489bc5" compoundref="_maze_8cs" startline="17" endline="20">ToVector</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_location_1a4e7d7c341bdc605b3bcf8785d345bcdc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MapLocation.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="9" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_map_location_1a102658538d9f5811556c955dae9ee262" compoundref="_maze_8cs" startline="25" endline="35">Equals</referencedby>
+        <referencedby refid="class_map_location_1ac2765a45416cbb269b556b022448f07f" compoundref="_maze_8cs" startline="11" endline="15">MapLocation</referencedby>
+        <referencedby refid="class_map_location_1a81e8a4e6a8379a0f0c80fc0e5f489bc5" compoundref="_maze_8cs" startline="17" endline="20">ToVector</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_map_location_1ac2765a45416cbb269b556b022448f07f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MapLocation.MapLocation</definition>
+        <argsstring>(int _x, int _y)</argsstring>
+        <name>MapLocation</name>
+        <param>
+          <type>int</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="11" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="11" bodyend="15"/>
+        <references refid="class_map_location_1a2969d54f5ccc5f5abc025867b73f61ef" compoundref="_maze_8cs" startline="8">x</references>
+        <references refid="class_map_location_1a4e7d7c341bdc605b3bcf8785d345bcdc" compoundref="_maze_8cs" startline="9">y</references>
+        <referencedby refid="class_map_location_1a102658538d9f5811556c955dae9ee262" compoundref="_maze_8cs" startline="25" endline="35">Equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_map_location_1a81e8a4e6a8379a0f0c80fc0e5f489bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 MapLocation.ToVector</definition>
+        <argsstring>()</argsstring>
+        <name>ToVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="17" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_map_location_1a2969d54f5ccc5f5abc025867b73f61ef" compoundref="_maze_8cs" startline="8">x</references>
+        <references refid="class_map_location_1a4e7d7c341bdc605b3bcf8785d345bcdc" compoundref="_maze_8cs" startline="9">y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_map_location_1a102658538d9f5811556c955dae9ee262" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MapLocation.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="25" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="25" bodyend="35"/>
+        <references refid="class_map_location_1a102658538d9f5811556c955dae9ee262" compoundref="_maze_8cs" startline="25" endline="35">Equals</references>
+        <references refid="class_map_location_1ac2765a45416cbb269b556b022448f07f" compoundref="_maze_8cs" startline="11" endline="15">MapLocation</references>
+        <references refid="class_map_location_1a2969d54f5ccc5f5abc025867b73f61ef" compoundref="_maze_8cs" startline="8">x</references>
+        <references refid="class_map_location_1a4e7d7c341bdc605b3bcf8785d345bcdc" compoundref="_maze_8cs" startline="9">y</references>
+        <referencedby refid="class_map_location_1a102658538d9f5811556c955dae9ee262" compoundref="_maze_8cs" startline="25" endline="35">Equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_map_location_1ae237c68b7fd56a6161e4267b578f86b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int MapLocation.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="37" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_map_location_1abec5ec151c421264f3387fc72c4da560" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_map_location" kindref="compound">MapLocation</ref></type>
+        <definition>static MapLocation MapLocation.operator+</definition>
+        <argsstring>(MapLocation a, MapLocation b)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="class_map_location" kindref="compound">MapLocation</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_location" kindref="compound">MapLocation</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="22" column="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MapLocation</label>
+        <link refid="class_map_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Maze.cs" bodystart="7" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_map_location_1a102658538d9f5811556c955dae9ee262" prot="public" virt="non-virtual"><scope>MapLocation</scope><name>Equals</name></member>
+      <member refid="class_map_location_1ae237c68b7fd56a6161e4267b578f86b0" prot="public" virt="non-virtual"><scope>MapLocation</scope><name>GetHashCode</name></member>
+      <member refid="class_map_location_1ac2765a45416cbb269b556b022448f07f" prot="public" virt="non-virtual"><scope>MapLocation</scope><name>MapLocation</name></member>
+      <member refid="class_map_location_1abec5ec151c421264f3387fc72c4da560" prot="public" virt="non-virtual"><scope>MapLocation</scope><name>operator+</name></member>
+      <member refid="class_map_location_1a81e8a4e6a8379a0f0c80fc0e5f489bc5" prot="public" virt="non-virtual"><scope>MapLocation</scope><name>ToVector</name></member>
+      <member refid="class_map_location_1a2969d54f5ccc5f5abc025867b73f61ef" prot="public" virt="non-virtual"><scope>MapLocation</scope><name>x</name></member>
+      <member refid="class_map_location_1a4e7d7c341bdc605b3bcf8785d345bcdc" prot="public" virt="non-virtual"><scope>MapLocation</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_self_repair" kind="class" language="C#" prot="public">
+    <compoundname>SelfRepair</compoundname>
+    <basecompoundref refid="class_player_upgrades" prot="public" virt="non-virtual">PlayerUpgrades</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_self_repair_1ab7840a10de32096fb0887abdbaebb84e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SelfRepair.healthRegenerationAmount</definition>
+        <argsstring></argsstring>
+        <name>healthRegenerationAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="9" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_self_repair_1a17fcb6280fcffb02357e8b017cac870a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SelfRepair.canRegenerate</definition>
+        <argsstring></argsstring>
+        <name>canRegenerate</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="10" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_self_repair_1aa95e5b935eac5c3ea1d61f3a10fea609" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SelfRepair.healthRegenerationRate</definition>
+        <argsstring></argsstring>
+        <name>healthRegenerationRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="15" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_self_repair_1ab4a56bb9ede58942e4ee8b0c31d2b7f9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SelfRepair.availableHealthKits</definition>
+        <argsstring></argsstring>
+        <name>availableHealthKits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="20" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_self_repair_1aa40d213f6e1c3c78a07ec5951e2673b3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SelfRepair.healthReplenishAmount</definition>
+        <argsstring></argsstring>
+        <name>healthReplenishAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="21" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_self_repair_1aa4f074e3c3dd526e0093c2df993eef01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float SelfRepair.GetHealthRegenerationAmount</definition>
+        <argsstring>()</argsstring>
+        <name>GetHealthRegenerationAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_self_repair_1a209c6341ba6ca891e487f0ae163d7815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float SelfRepair.GetHealthRegenerationRate</definition>
+        <argsstring>()</argsstring>
+        <name>GetHealthRegenerationRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="28" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_self_repair_1aa40717b82407a471539f9514ef8d41f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SelfRepair.GetAvailableHealthKits</definition>
+        <argsstring>()</argsstring>
+        <name>GetAvailableHealthKits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="33" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_self_repair_1a09db0bb5ddeed719c2f195a8121d85ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float SelfRepair.GetHealthReplenishPercentage</definition>
+        <argsstring>()</argsstring>
+        <name>GetHealthReplenishPercentage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="38" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>SelfRepair</label>
+        <link refid="class_self_repair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>SelfRepair</label>
+        <link refid="class_self_repair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Upgrades/Self Repair/SelfRepair.cs" bodystart="7" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_self_repair_1ab4a56bb9ede58942e4ee8b0c31d2b7f9" prot="private" virt="non-virtual"><scope>SelfRepair</scope><name>availableHealthKits</name></member>
+      <member refid="class_self_repair_1a17fcb6280fcffb02357e8b017cac870a" prot="private" virt="non-virtual"><scope>SelfRepair</scope><name>canRegenerate</name></member>
+      <member refid="class_self_repair_1aa40717b82407a471539f9514ef8d41f7" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>GetAvailableHealthKits</name></member>
+      <member refid="class_player_upgrades_1a60236534be903afb7996373f5ae6d3c6" prot="public" virt="virtual"><scope>SelfRepair</scope><name>GetCopy</name></member>
+      <member refid="class_player_upgrades_1aafbbe9499b027d5b1670ef1d31aab7a4" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>GetFishMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a6bb164625c5847a6af36709571ec851f" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>GetFishMaterialTypeRequirement</name></member>
+      <member refid="class_self_repair_1aa4f074e3c3dd526e0093c2df993eef01" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>GetHealthRegenerationAmount</name></member>
+      <member refid="class_self_repair_1a209c6341ba6ca891e487f0ae163d7815" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>GetHealthRegenerationRate</name></member>
+      <member refid="class_self_repair_1a09db0bb5ddeed719c2f195a8121d85ca" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>GetHealthReplenishPercentage</name></member>
+      <member refid="class_player_upgrades_1a90101816a84d5531335b6f1ca159376f" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>GetRawMaterialAmountRequirement</name></member>
+      <member refid="class_player_upgrades_1a5bc2766abbc8c3a46300fe0ec7501514" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>GetRawMaterialTypeRequirement</name></member>
+      <member refid="class_self_repair_1ab7840a10de32096fb0887abdbaebb84e" prot="private" virt="non-virtual"><scope>SelfRepair</scope><name>healthRegenerationAmount</name></member>
+      <member refid="class_self_repair_1aa95e5b935eac5c3ea1d61f3a10fea609" prot="private" virt="non-virtual"><scope>SelfRepair</scope><name>healthRegenerationRate</name></member>
+      <member refid="class_self_repair_1aa40d213f6e1c3c78a07ec5951e2673b3" prot="private" virt="non-virtual"><scope>SelfRepair</scope><name>healthReplenishAmount</name></member>
+      <member refid="class_player_upgrades_1aca8c0ea9036e67a009629ccca22689b6" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>ID</name></member>
+      <member refid="class_player_upgrades_1ae9eb4584c3af767f5948d6ec5fc243e8" prot="protected" virt="non-virtual"><scope>SelfRepair</scope><name>isLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a22e5dc654af417e4cd9ccaf347373a53" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>IsLowTierUpgrade</name></member>
+      <member refid="class_player_upgrades_1a5362fd69bdd7e457fbebc5a427ed30ce" prot="protected" virt="non-virtual"><scope>SelfRepair</scope><name>isUniqueFeatureUsed</name></member>
+      <member refid="class_player_upgrades_1a69f6c2f7ce04aa2445f6cd6c130807c5" prot="public" virt="non-virtual"><scope>SelfRepair</scope><name>IsUniqueFeatureUsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

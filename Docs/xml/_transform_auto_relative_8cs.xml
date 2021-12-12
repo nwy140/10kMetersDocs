@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_transform_auto_relative_8cs" kind="file" language="C#">
+    <compoundname>TransformAutoRelative.cs</compoundname>
+    <innerclass refid="class_transform_auto_relative" prot="public">TransformAutoRelative</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Redundant,<sp/>Use<sp/>Unity&apos;s<sp/>own<sp/>Built<sp/>In<sp/>parent<sp/>cosntraint<sp/>instead</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_transform_auto_relative" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_transform_auto_relative" kindref="compound">TransformAutoRelative</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_transform_auto_relative_1a63bcda34711e2edf5f183c02d5845ccd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_transform_auto_relative_1a63bcda34711e2edf5f183c02d5845ccd" kindref="member">relativeObj</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_transform_auto_relative_1ae95a0ed04250f3dcc09c16ff149de532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_transform_auto_relative_1ae95a0ed04250f3dcc09c16ff149de532" kindref="member">isSnapPosToObj</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Fake<sp/>Parent<sp/>Relative<sp/>Transform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_transform_auto_relative_1ae6f39623740d8eaf75b3e1cb52c6d594" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_transform_auto_relative_1ae6f39623740d8eaf75b3e1cb52c6d594" kindref="member">isRelativePos</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_transform_auto_relative_1a5241376061f50c568306a84ca2eae9ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_transform_auto_relative_1a5241376061f50c568306a84ca2eae9ea" kindref="member">isRelativeRot</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_transform_auto_relative_1a12eab594c61e8f44485ec6b8ab25d5ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_transform_auto_relative_1a12eab594c61e8f44485ec6b8ab25d5ca" kindref="member">isRelativeScale</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Update()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_transform_auto_relative_1ae95a0ed04250f3dcc09c16ff149de532" kindref="member">isSnapPosToObj</ref>)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.position<sp/>=<sp/><ref refid="class_transform_auto_relative_1a63bcda34711e2edf5f183c02d5845ccd" kindref="member">relativeObj</ref>.position;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_transform_auto_relative_1ae6f39623740d8eaf75b3e1cb52c6d594" kindref="member">isRelativePos</ref>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.position<sp/>=<sp/>transform.position.relativeTo(<ref refid="class_transform_auto_relative_1a63bcda34711e2edf5f183c02d5845ccd" kindref="member">relativeObj</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_transform_auto_relative_1a5241376061f50c568306a84ca2eae9ea" kindref="member">isRelativeRot</ref>)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.rotation<sp/>=<sp/>Quaternion.Euler(transform.rotation.eulerAngles.relativeTo(<ref refid="class_transform_auto_relative_1a63bcda34711e2edf5f183c02d5845ccd" kindref="member">relativeObj</ref>));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_transform_auto_relative_1a12eab594c61e8f44485ec6b8ab25d5ca" kindref="member">isRelativeScale</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.localScale<sp/>=<sp/>transform.localScale.relativeTo(<ref refid="class_transform_auto_relative_1a63bcda34711e2edf5f183c02d5845ccd" kindref="member">relativeObj</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Redundant/TransformAutoRelative.cs"/>
+  </compounddef>
+</doxygen>

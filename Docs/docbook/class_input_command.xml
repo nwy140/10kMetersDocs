@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_input_command" xml:lang="en-US">
+<title>InputCommand Class Reference</title>
+<indexterm><primary>InputCommand</primary></indexterm>
+Inheritance diagram for InputCommand:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for InputCommand:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_input_command_1_1_exec_extra_info">ExecExtraInfo</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_input_command_1a43dcf98e0801e194dd8030212cc3e145">SetExecExtraInfoByExecExtraInfo</link> (<link linkend="_struct_input_command_1_1_exec_extra_info">ExecExtraInfo</link> ex2)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_command_1a4470c759214a801d8f73f6f6190f2f76">SetExecInfo</link> (bool IsPress)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_input_command_1a32ba692a92ce5fd84c67ab3d320965ad">TryExecCommand</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73">ExecPress</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_input_command_1a8295f4448a37878709bda4b7db5ce75f">ExecDown</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_input_command_1ac4054b550c7ee70288847ea070f68af0">ExecDownCharging</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993">ExecRelease</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_input_command_1a30f8aedff59388b5293975b3cbfba443">Execd</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_input_command_1a64de2217fb20e650e8e04e1c80deaef8">OnExternalUpdate</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_command_1a97a167a50735820e585e0f6c9b926ede">OnInput</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_input_command_1a83a32db6da3e61a90b0a44232beaa266">OnInput</link> (InputValue value)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_input_command_1_1_exec_extra_info">ExecExtraInfo</link> <link linkend="_class_input_command_1abe94f0184191eb65faabf23b8330de64">execExtraInfo</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_input_command_1a650667185330f536d9d30006d0f24fb1">isExecChargedStyle</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_input_command_1a367ec9a14bb8adf2a0e6c8d08d69e293">isFullChargeAutoRelease</link></para>
+</listitem>
+            <listitem><para>Slider <link linkend="_class_input_command_1a7a80fa14702ddfb758a102a049e4b646">m_AimSlider</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_input_command_1a66f6ff264504a60e916f48ebcf505314">m_MinLaunchForce</link> = 15f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_input_command_1a83a0c47291eecef5303b9b2eab9b3f49">m_MaxLaunchForce</link> = 30f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_input_command_1aa625570f0ab58850e7c4a7dc11252f70">m_MaxChargeTime</link> = 0.75f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_input_command_1a30f8aedff59388b5293975b3cbfba443"/><section>
+    <title>Execd()</title>
+<indexterm><primary>Execd</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>Execd</secondary></indexterm>
+<para><computeroutput>override void InputCommand.Execd ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_command_base_1ae0f9aff4793563e3681b052196c93c61">CommandBase</link>.</para>
+</section>
+<anchor xml:id="_class_input_command_1a8295f4448a37878709bda4b7db5ce75f"/><section>
+    <title>ExecDown()</title>
+<indexterm><primary>ExecDown</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>ExecDown</secondary></indexterm>
+<para><computeroutput>override void InputCommand.ExecDown ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_command_base_1ac2d48e3cddefeb4e6a6eabba41aa7577">CommandBase</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command_a8295f4448a37878709bda4b7db5ce75f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_command_1ac4054b550c7ee70288847ea070f68af0"/><section>
+    <title>ExecDownCharging()</title>
+<indexterm><primary>ExecDownCharging</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>ExecDownCharging</secondary></indexterm>
+<para><computeroutput>override void InputCommand.ExecDownCharging ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_command_base_1abce04e951d2ff38afc8110a7e230e0ad">CommandBase</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command_ac4054b550c7ee70288847ea070f68af0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73"/><section>
+    <title>ExecPress()</title>
+<indexterm><primary>ExecPress</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>ExecPress</secondary></indexterm>
+<para><computeroutput>override void InputCommand.ExecPress ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_command_base_1a2555099b8b8f7345919865ca0daa4bdb">CommandBase</link>.</para>
+<para>
+Reimplemented in <link linkend="_class_enable_disable_game_object_command_1a90b52b05f06141aa37a6861111b4cb0a">EnableDisableGameObjectCommand</link>, and <link linkend="_class_set_material_color_command_1aa2fe24ca4fd7a4e27d2a0d56c44f66f7">SetMaterialColorCommand</link>.</para>
+</section>
+<anchor xml:id="_class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993"/><section>
+    <title>ExecRelease()</title>
+<indexterm><primary>ExecRelease</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>ExecRelease</secondary></indexterm>
+<para><computeroutput>override void InputCommand.ExecRelease ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_command_base_1a9f05ac9b2cd4da7f0649e5767629d298">CommandBase</link>.</para>
+</section>
+<anchor xml:id="_class_input_command_1a66721cfb45ec22e7137721a8e7e5cbf5"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>override void InputCommand.OnEnable ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_command_base_1a715925776f1d5f4cb3c75d60043455bd">CommandBase</link>.</para>
+</section>
+<anchor xml:id="_class_input_command_1a64de2217fb20e650e8e04e1c80deaef8"/><section>
+    <title>OnExternalUpdate()</title>
+<indexterm><primary>OnExternalUpdate</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>OnExternalUpdate</secondary></indexterm>
+<para><computeroutput>override void InputCommand.OnExternalUpdate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_command_base_1a2bd013311318d3d861a7d6f2a8b42cb0">CommandBase</link>.</para>
+</section>
+<anchor xml:id="_class_input_command_1a97a167a50735820e585e0f6c9b926ede"/><section>
+    <title>OnInput()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>OnInput</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>OnInput</secondary></indexterm>
+<para><computeroutput>void InputCommand.OnInput (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command_a97a167a50735820e585e0f6c9b926ede_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command_a97a167a50735820e585e0f6c9b926ede_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_command_1a83a32db6da3e61a90b0a44232beaa266"/><section>
+    <title>OnInput()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>OnInput</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>OnInput</secondary></indexterm>
+<para><computeroutput>void InputCommand.OnInput (InputValue value)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command_a83a32db6da3e61a90b0a44232beaa266_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_command_1a43dcf98e0801e194dd8030212cc3e145"/><section>
+    <title>SetExecExtraInfoByExecExtraInfo()</title>
+<indexterm><primary>SetExecExtraInfoByExecExtraInfo</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>SetExecExtraInfoByExecExtraInfo</secondary></indexterm>
+<para><computeroutput>void InputCommand.SetExecExtraInfoByExecExtraInfo (<link linkend="_struct_input_command_1_1_exec_extra_info">ExecExtraInfo</link> ex2)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command_a43dcf98e0801e194dd8030212cc3e145_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_command_1a4470c759214a801d8f73f6f6190f2f76"/><section>
+    <title>SetExecInfo()</title>
+<indexterm><primary>SetExecInfo</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>SetExecInfo</secondary></indexterm>
+<para><computeroutput>void InputCommand.SetExecInfo (bool IsPress)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command_a4470c759214a801d8f73f6f6190f2f76_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_input_command_1a32ba692a92ce5fd84c67ab3d320965ad"/><section>
+    <title>TryExecCommand()</title>
+<indexterm><primary>TryExecCommand</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>TryExecCommand</secondary></indexterm>
+<para><computeroutput>override void InputCommand.TryExecCommand ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_command_base_1a405d08e553ab58bb187c762a91fe20d8">CommandBase</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_input_command_a32ba692a92ce5fd84c67ab3d320965ad_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_input_command_1abe94f0184191eb65faabf23b8330de64"/><section>
+    <title>execExtraInfo</title>
+<indexterm><primary>execExtraInfo</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>execExtraInfo</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_input_command_1_1_exec_extra_info">ExecExtraInfo</link> InputCommand.execExtraInfo</computeroutput></para></section>
+<anchor xml:id="_class_input_command_1a650667185330f536d9d30006d0f24fb1"/><section>
+    <title>isExecChargedStyle</title>
+<indexterm><primary>isExecChargedStyle</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>isExecChargedStyle</secondary></indexterm>
+<para><computeroutput>bool InputCommand.isExecChargedStyle</computeroutput></para></section>
+<anchor xml:id="_class_input_command_1a367ec9a14bb8adf2a0e6c8d08d69e293"/><section>
+    <title>isFullChargeAutoRelease</title>
+<indexterm><primary>isFullChargeAutoRelease</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>isFullChargeAutoRelease</secondary></indexterm>
+<para><computeroutput>bool InputCommand.isFullChargeAutoRelease</computeroutput></para></section>
+<anchor xml:id="_class_input_command_1a7a80fa14702ddfb758a102a049e4b646"/><section>
+    <title>m_AimSlider</title>
+<indexterm><primary>m_AimSlider</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>m_AimSlider</secondary></indexterm>
+<para><computeroutput>Slider InputCommand.m_AimSlider</computeroutput></para></section>
+<anchor xml:id="_class_input_command_1aa625570f0ab58850e7c4a7dc11252f70"/><section>
+    <title>m_MaxChargeTime</title>
+<indexterm><primary>m_MaxChargeTime</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>m_MaxChargeTime</secondary></indexterm>
+<para><computeroutput>float InputCommand.m_MaxChargeTime = 0.75f</computeroutput></para></section>
+<anchor xml:id="_class_input_command_1a83a0c47291eecef5303b9b2eab9b3f49"/><section>
+    <title>m_MaxLaunchForce</title>
+<indexterm><primary>m_MaxLaunchForce</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>m_MaxLaunchForce</secondary></indexterm>
+<para><computeroutput>float InputCommand.m_MaxLaunchForce = 30f</computeroutput></para></section>
+<anchor xml:id="_class_input_command_1a66f6ff264504a60e916f48ebcf505314"/><section>
+    <title>m_MinLaunchForce</title>
+<indexterm><primary>m_MinLaunchForce</primary><secondary>InputCommand</secondary></indexterm>
+<indexterm><primary>InputCommand</primary><secondary>m_MinLaunchForce</secondary></indexterm>
+<para><computeroutput>float InputCommand.m_MinLaunchForce = 15f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/<link linkend="__input_command_8cs">InputCommand.cs</link></section>
+</section>

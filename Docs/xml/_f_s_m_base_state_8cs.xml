@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_f_s_m_base_state_8cs" kind="file" language="C#">
+    <compoundname>FSMBaseState.cs</compoundname>
+    <innerclass refid="class_f_s_m_base_state" prot="public">FSMBaseState</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>FSMExecutionState</name>
+        <enumvalue id="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3ab50339a10e1de285ac99d4c3990b8693" prot="public">
+          <name>NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3a18ff74f43da410c5529f7d6fca84f115" prot="public">
+          <name>ACTIVE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3a8f7afecbc8fbc4cd0f50a57d1172482e" prot="public">
+          <name>COMPLETED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3a9d725163e44a2e9cf094059c0abfdef1" prot="public">
+          <name>TERMINATED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="86" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>.Events;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//[System.Serializable]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ref:<sp/>https://youtu.be/21yDDUKCQOI?t=326<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_f_s_m_base_state" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_f_s_m_base_state" kindref="compound">FSMBaseState</ref><sp/>:<sp/>ScriptableObject</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Ref:<sp/>https://www.youtube.com/watch?v=Vt8aZDPzRjI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="class_f_s_m_system_base" kindref="compound">FSMSystemBase</ref><sp/><ref refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" kindref="member">_system</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>_aName;</highlight></codeline>
+<codeline lineno="14" refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" kindref="member">aName</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/>GetType().Name;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>=&gt;<sp/>_aName<sp/>=<sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref><sp/><ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref><sp/><ref refid="class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b" kindref="member">ExecutionState</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/><ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref>;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>=&gt;<sp/><ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref><sp/>=<sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" kindref="member">OnEnterTimeStamp</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Set<sp/>In<sp/>Runtime&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="21" refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" kindref="member">ElapsedTime</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" kindref="member">FSMBaseState</ref>(<ref refid="class_f_s_m_system_base" kindref="compound">FSMSystemBase</ref><sp/>system)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" kindref="member">_system</ref><sp/>=<sp/>system;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_aName<sp/>=<sp/><ref refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" kindref="member">aName</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Start<sp/>is<sp/>called<sp/>before<sp/>the<sp/>first<sp/>frame<sp/>update</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" kindref="member">OnEnterState</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" kindref="member">_system</ref>.<ref refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" kindref="member">isDebugLog</ref>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Enter<sp/>State:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" kindref="member">aName</ref>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref><sp/>!=<sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref>.ACTIVE)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref><sp/>=<sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref>.ACTIVE;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" kindref="member">OnEnterTimeStamp</ref><sp/>=<sp/>Time.time;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" kindref="member">ElapsedTime</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43" refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" kindref="member">OnUpdate</ref>()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" kindref="member">_system</ref>.<ref refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" kindref="member">isDebugLog</ref>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Updating<sp/>State:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" kindref="member">aName</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" kindref="member">ElapsedTime</ref><sp/>+=<sp/>Time.deltaTime;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref><sp/>==<sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref>.ACTIVE)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" kindref="member">OnStayState</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53" refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" kindref="member">OnStayState</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" kindref="member">_system</ref>.<ref refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" kindref="member">isDebugLog</ref>)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Stay<sp/>State:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" kindref="member">aName</ref>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59" refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2" kindref="member">OnExitState</ref>()</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" kindref="member">_system</ref>.<ref refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" kindref="member">isDebugLog</ref>)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Exit<sp/>State:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" kindref="member">aName</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref><sp/>!=<sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref>.COMPLETED)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref><sp/>=<sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref>.COMPLETED;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce" kindref="member">OnEnable</ref>()</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" kindref="member">_ExecutionState</ref><sp/>=<sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref>.NONE;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8" kindref="member">OnDisable</ref>()</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3ab50339a10e1de285ac99d4c3990b8693" kindref="member">NONE</ref>,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3a18ff74f43da410c5529f7d6fca84f115" kindref="member">ACTIVE</ref>,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3a8f7afecbc8fbc4cd0f50a57d1172482e" kindref="member">COMPLETED</ref>,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3a9d725163e44a2e9cf094059c0abfdef1" kindref="member">TERMINATED</ref>,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs"/>
+  </compounddef>
+</doxygen>

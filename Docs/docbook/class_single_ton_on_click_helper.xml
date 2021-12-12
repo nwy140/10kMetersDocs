@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_single_ton_on_click_helper" xml:lang="en-US">
+<title>SingleTonOnClickHelper Class Reference</title>
+<indexterm><primary>SingleTonOnClickHelper</primary></indexterm>
+Inheritance diagram for SingleTonOnClickHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_single_ton_on_click_helper__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SingleTonOnClickHelper:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_single_ton_on_click_helper__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_single_ton_on_click_helper_1ab789bcd5bd540a13d80e1f56b1707925">AudioManPlaySFX</link> (string name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_single_ton_on_click_helper_1ab8783aaa2ef78b7b60988c5c35f639b3">AudioManPlayBGM</link> (string name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_single_ton_on_click_helper_1a850393aef0c4c3530a81e4b40986b4a2">AudioManResetVolumeSettingsToDefault</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_single_ton_on_click_helper_1a956bff8eeb749243905053525bf4b147">AudioManSaveVolumeSettingsPlayerPrefs</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_single_ton_on_click_helper_1a00a8c9f0dd05698b5f4f91457a05034e">CommonTurnOnOffObjVisibility</link> (GameObject obj)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_single_ton_on_click_helper_1a86e4ecf36dec37d71d94dc7fad2a6d8a">CommonSetSelfVisibilityByObjVisibility</link> (GameObject obj)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_single_ton_on_click_helper_1ac0278753686d37371dbcd56f741a89ec">CommonSetSelfVisibilityByObjVisibilityInverted</link> (GameObject obj)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_single_ton_on_click_helper_1ab8783aaa2ef78b7b60988c5c35f639b3"/><section>
+    <title>AudioManPlayBGM()</title>
+<indexterm><primary>AudioManPlayBGM</primary><secondary>SingleTonOnClickHelper</secondary></indexterm>
+<indexterm><primary>SingleTonOnClickHelper</primary><secondary>AudioManPlayBGM</secondary></indexterm>
+<para><computeroutput>void SingleTonOnClickHelper.AudioManPlayBGM (string name)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_single_ton_on_click_helper_ab8783aaa2ef78b7b60988c5c35f639b3_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_single_ton_on_click_helper_1ab789bcd5bd540a13d80e1f56b1707925"/><section>
+    <title>AudioManPlaySFX()</title>
+<indexterm><primary>AudioManPlaySFX</primary><secondary>SingleTonOnClickHelper</secondary></indexterm>
+<indexterm><primary>SingleTonOnClickHelper</primary><secondary>AudioManPlaySFX</secondary></indexterm>
+<para><computeroutput>void SingleTonOnClickHelper.AudioManPlaySFX (string name)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_single_ton_on_click_helper_ab789bcd5bd540a13d80e1f56b1707925_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_single_ton_on_click_helper_1a850393aef0c4c3530a81e4b40986b4a2"/><section>
+    <title>AudioManResetVolumeSettingsToDefault()</title>
+<indexterm><primary>AudioManResetVolumeSettingsToDefault</primary><secondary>SingleTonOnClickHelper</secondary></indexterm>
+<indexterm><primary>SingleTonOnClickHelper</primary><secondary>AudioManResetVolumeSettingsToDefault</secondary></indexterm>
+<para><computeroutput>void SingleTonOnClickHelper.AudioManResetVolumeSettingsToDefault ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_single_ton_on_click_helper_a850393aef0c4c3530a81e4b40986b4a2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_single_ton_on_click_helper_1a956bff8eeb749243905053525bf4b147"/><section>
+    <title>AudioManSaveVolumeSettingsPlayerPrefs()</title>
+<indexterm><primary>AudioManSaveVolumeSettingsPlayerPrefs</primary><secondary>SingleTonOnClickHelper</secondary></indexterm>
+<indexterm><primary>SingleTonOnClickHelper</primary><secondary>AudioManSaveVolumeSettingsPlayerPrefs</secondary></indexterm>
+<para><computeroutput>void SingleTonOnClickHelper.AudioManSaveVolumeSettingsPlayerPrefs ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_single_ton_on_click_helper_a956bff8eeb749243905053525bf4b147_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_single_ton_on_click_helper_1a86e4ecf36dec37d71d94dc7fad2a6d8a"/><section>
+    <title>CommonSetSelfVisibilityByObjVisibility()</title>
+<indexterm><primary>CommonSetSelfVisibilityByObjVisibility</primary><secondary>SingleTonOnClickHelper</secondary></indexterm>
+<indexterm><primary>SingleTonOnClickHelper</primary><secondary>CommonSetSelfVisibilityByObjVisibility</secondary></indexterm>
+<para><computeroutput>void SingleTonOnClickHelper.CommonSetSelfVisibilityByObjVisibility (GameObject obj)</computeroutput></para></section>
+<anchor xml:id="_class_single_ton_on_click_helper_1ac0278753686d37371dbcd56f741a89ec"/><section>
+    <title>CommonSetSelfVisibilityByObjVisibilityInverted()</title>
+<indexterm><primary>CommonSetSelfVisibilityByObjVisibilityInverted</primary><secondary>SingleTonOnClickHelper</secondary></indexterm>
+<indexterm><primary>SingleTonOnClickHelper</primary><secondary>CommonSetSelfVisibilityByObjVisibilityInverted</secondary></indexterm>
+<para><computeroutput>void SingleTonOnClickHelper.CommonSetSelfVisibilityByObjVisibilityInverted (GameObject obj)</computeroutput></para></section>
+<anchor xml:id="_class_single_ton_on_click_helper_1a00a8c9f0dd05698b5f4f91457a05034e"/><section>
+    <title>CommonTurnOnOffObjVisibility()</title>
+<indexterm><primary>CommonTurnOnOffObjVisibility</primary><secondary>SingleTonOnClickHelper</secondary></indexterm>
+<indexterm><primary>SingleTonOnClickHelper</primary><secondary>CommonTurnOnOffObjVisibility</secondary></indexterm>
+<para><computeroutput>void SingleTonOnClickHelper.CommonTurnOnOffObjVisibility (GameObject obj)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/Helper/<link linkend="__single_ton_on_click_helper_8cs">SingleTonOnClickHelper.cs</link></section>
+</section>

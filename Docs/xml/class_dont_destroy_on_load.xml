@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_dont_destroy_on_load" kind="class" language="C#" prot="public">
+    <compoundname>DontDestroyOnLoad</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dont_destroy_on_load_1a7292d16b7981b57a7395bf577888b507" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DontDestroyOnLoad.isDestroyObjWithIdenticalName</definition>
+        <argsstring></argsstring>
+        <name>isDestroyObjWithIdenticalName</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DontDestroyOnLoad.cs" line="8" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DontDestroyOnLoad.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dont_destroy_on_load_1a57b7935da8ba8430848706698e0396e3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DontDestroyOnLoad.isDontDestroyOnLoadActivatedYet</definition>
+        <argsstring></argsstring>
+        <name>isDontDestroyOnLoadActivatedYet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DontDestroyOnLoad.cs" line="10" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DontDestroyOnLoad.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dont_destroy_on_load_1ac61674b41e1f8f34a3bf6702db19c035" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DontDestroyOnLoad.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DontDestroyOnLoad.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DontDestroyOnLoad.cs" bodystart="12" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DontDestroyOnLoad</label>
+        <link refid="class_dont_destroy_on_load"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DontDestroyOnLoad</label>
+        <link refid="class_dont_destroy_on_load"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DontDestroyOnLoad.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Monobehavior/DontDestroyOnLoad.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_dont_destroy_on_load_1ac61674b41e1f8f34a3bf6702db19c035" prot="private" virt="non-virtual"><scope>DontDestroyOnLoad</scope><name>Awake</name></member>
+      <member refid="class_dont_destroy_on_load_1a7292d16b7981b57a7395bf577888b507" prot="public" virt="non-virtual"><scope>DontDestroyOnLoad</scope><name>isDestroyObjWithIdenticalName</name></member>
+      <member refid="class_dont_destroy_on_load_1a57b7935da8ba8430848706698e0396e3" prot="public" virt="non-virtual"><scope>DontDestroyOnLoad</scope><name>isDontDestroyOnLoadActivatedYet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

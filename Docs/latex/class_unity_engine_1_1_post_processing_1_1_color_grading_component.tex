@@ -1,0 +1,214 @@
+\hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component}{}\doxysection{Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component Class Reference}
+\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component}\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+
+
+Inheritance diagram for Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a6028831311ad34f0f563fa5715c139dc}{Prepare}} (Material uber\+Material)
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_abf942f421fab142504cd5be46b804815}{On\+GUI}} ()
+\item 
+override void \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a888398f3d7e4eeb2809dd9f66b185622}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Vector3 \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a04daf0a2a8a42ead0163935f90d3f1f9}{Get\+Lift\+Value}} (Color lift)
+\item 
+static Vector3 \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a24d6c535749a5f5dc47e98607d4c9816}{Get\+Gamma\+Value}} (Color gamma)
+\item 
+static Vector3 \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a49b829055865dc106c6e19cce8aedb00}{Get\+Gain\+Value}} (Color gain)
+\item 
+static void \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a5b5248a23b4acc1ea1b5897d13fb1896}{Calculate\+Lift\+Gamma\+Gain}} (Color lift, Color gamma, Color gain, out Vector3 out\+Lift, out Vector3 out\+Gamma, out Vector3 out\+Gain)
+\item 
+static Vector3 \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_ae2018d90179b6aa3f02e04e8884cc2bf}{Get\+Slope\+Value}} (Color slope)
+\item 
+static Vector3 \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a9f7481136a36d81b1eea1faa04250bda}{Get\+Power\+Value}} (Color power)
+\item 
+static Vector3 \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a2819904531cd17c52080489f09b36db6}{Get\+Offset\+Value}} (Color offset)
+\item 
+static void \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a3233c060966fe59cc49a5fc241119748}{Calculate\+Slope\+Power\+Offset}} (Color slope, Color power, Color offset, out Vector3 out\+Slope, out Vector3 out\+Power, out Vector3 out\+Offset)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+override bool \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_color_grading_component_acc86c87eda1936a230afa7c7afad7be9}{active}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a5b5248a23b4acc1ea1b5897d13fb1896}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a5b5248a23b4acc1ea1b5897d13fb1896}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!CalculateLiftGammaGain@{CalculateLiftGammaGain}}
+\index{CalculateLiftGammaGain@{CalculateLiftGammaGain}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{CalculateLiftGammaGain()}{CalculateLiftGammaGain()}}
+{\footnotesize\ttfamily static void Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Calculate\+Lift\+Gamma\+Gain (\begin{DoxyParamCaption}\item[{Color}]{lift,  }\item[{Color}]{gamma,  }\item[{Color}]{gain,  }\item[{out Vector3}]{out\+Lift,  }\item[{out Vector3}]{out\+Gamma,  }\item[{out Vector3}]{out\+Gain }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a5b5248a23b4acc1ea1b5897d13fb1896_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a3233c060966fe59cc49a5fc241119748}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a3233c060966fe59cc49a5fc241119748}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!CalculateSlopePowerOffset@{CalculateSlopePowerOffset}}
+\index{CalculateSlopePowerOffset@{CalculateSlopePowerOffset}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{CalculateSlopePowerOffset()}{CalculateSlopePowerOffset()}}
+{\footnotesize\ttfamily static void Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Calculate\+Slope\+Power\+Offset (\begin{DoxyParamCaption}\item[{Color}]{slope,  }\item[{Color}]{power,  }\item[{Color}]{offset,  }\item[{out Vector3}]{out\+Slope,  }\item[{out Vector3}]{out\+Power,  }\item[{out Vector3}]{out\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a3233c060966fe59cc49a5fc241119748_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a49b829055865dc106c6e19cce8aedb00}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a49b829055865dc106c6e19cce8aedb00}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!GetGainValue@{GetGainValue}}
+\index{GetGainValue@{GetGainValue}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{GetGainValue()}{GetGainValue()}}
+{\footnotesize\ttfamily static Vector3 Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Get\+Gain\+Value (\begin{DoxyParamCaption}\item[{Color}]{gain }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a49b829055865dc106c6e19cce8aedb00_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a24d6c535749a5f5dc47e98607d4c9816}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a24d6c535749a5f5dc47e98607d4c9816}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!GetGammaValue@{GetGammaValue}}
+\index{GetGammaValue@{GetGammaValue}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{GetGammaValue()}{GetGammaValue()}}
+{\footnotesize\ttfamily static Vector3 Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Get\+Gamma\+Value (\begin{DoxyParamCaption}\item[{Color}]{gamma }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a24d6c535749a5f5dc47e98607d4c9816_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a04daf0a2a8a42ead0163935f90d3f1f9}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a04daf0a2a8a42ead0163935f90d3f1f9}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!GetLiftValue@{GetLiftValue}}
+\index{GetLiftValue@{GetLiftValue}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{GetLiftValue()}{GetLiftValue()}}
+{\footnotesize\ttfamily static Vector3 Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Get\+Lift\+Value (\begin{DoxyParamCaption}\item[{Color}]{lift }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a04daf0a2a8a42ead0163935f90d3f1f9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a2819904531cd17c52080489f09b36db6}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a2819904531cd17c52080489f09b36db6}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!GetOffsetValue@{GetOffsetValue}}
+\index{GetOffsetValue@{GetOffsetValue}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{GetOffsetValue()}{GetOffsetValue()}}
+{\footnotesize\ttfamily static Vector3 Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Get\+Offset\+Value (\begin{DoxyParamCaption}\item[{Color}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a2819904531cd17c52080489f09b36db6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a9f7481136a36d81b1eea1faa04250bda}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a9f7481136a36d81b1eea1faa04250bda}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!GetPowerValue@{GetPowerValue}}
+\index{GetPowerValue@{GetPowerValue}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{GetPowerValue()}{GetPowerValue()}}
+{\footnotesize\ttfamily static Vector3 Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Get\+Power\+Value (\begin{DoxyParamCaption}\item[{Color}]{power }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a9f7481136a36d81b1eea1faa04250bda_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_ae2018d90179b6aa3f02e04e8884cc2bf}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_ae2018d90179b6aa3f02e04e8884cc2bf}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!GetSlopeValue@{GetSlopeValue}}
+\index{GetSlopeValue@{GetSlopeValue}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{GetSlopeValue()}{GetSlopeValue()}}
+{\footnotesize\ttfamily static Vector3 Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Get\+Slope\+Value (\begin{DoxyParamCaption}\item[{Color}]{slope }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_ae2018d90179b6aa3f02e04e8884cc2bf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a888398f3d7e4eeb2809dd9f66b185622}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a888398f3d7e4eeb2809dd9f66b185622}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily override void Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a888398f3d7e4eeb2809dd9f66b185622_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_abf942f421fab142504cd5be46b804815}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_abf942f421fab142504cd5be46b804815}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!OnGUI@{OnGUI}}
+\index{OnGUI@{OnGUI}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{OnGUI()}{OnGUI()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+On\+GUI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a6028831311ad34f0f563fa5715c139dc}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_a6028831311ad34f0f563fa5715c139dc}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!Prepare@{Prepare}}
+\index{Prepare@{Prepare}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{Prepare()}{Prepare()}}
+{\footnotesize\ttfamily override void Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+Prepare (\begin{DoxyParamCaption}\item[{Material}]{uber\+Material }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_adcf0697959b318bf65a96ce47ee26732}{Unity\+Engine.\+Post\+Processing.\+Post\+Processing\+Component\+Render\+Texture$<$ Color\+Grading\+Model $>$}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_post_processing_1_1_color_grading_component_acc86c87eda1936a230afa7c7afad7be9}\label{class_unity_engine_1_1_post_processing_1_1_color_grading_component_acc86c87eda1936a230afa7c7afad7be9}} 
+\index{UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}!active@{active}}
+\index{active@{active}!UnityEngine.PostProcessing.ColorGradingComponent@{UnityEngine.PostProcessing.ColorGradingComponent}}
+\doxysubsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily override bool Unity\+Engine.\+Post\+Processing.\+Color\+Grading\+Component.\+active\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Samples/\+Input System/1.\+0.\+2/\+Tanks Demo/\+Tanks\+Demo/\+Post\+Processing/\+Runtime/\+Components/\mbox{\hyperlink{_color_grading_component_8cs}{Color\+Grading\+Component.\+cs}}\end{DoxyCompactItemize}

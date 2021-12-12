@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_requirement_checker" kind="class" language="C#" prot="public">
+    <compoundname>RequirementChecker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_requirement_checker_1a704d1da81f86360893c4cdc316996a1b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref></type>
+        <definition>PlayerUpgrades RequirementChecker.playerUpgrade</definition>
+        <argsstring></argsstring>
+        <name>playerUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="8" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">CheckRequirement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_requirement_checker_1a6ff96efd14c8f4cff078831140c8f46f" prot="public" static="no" mutable="no">
+        <type>Text[]</type>
+        <definition>Text [] RequirementChecker.fishMaterialText</definition>
+        <argsstring></argsstring>
+        <name>fishMaterialText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="13" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">CheckRequirement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_requirement_checker_1a469e5254195c45cdf953a3887f2aaa8c" prot="public" static="no" mutable="no">
+        <type>Text[]</type>
+        <definition>Text [] RequirementChecker.rawMaterialText</definition>
+        <argsstring></argsstring>
+        <name>rawMaterialText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="14" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">CheckRequirement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_requirement_checker_1ae5e28ce3b309f666ed86aede051a0400" prot="public" static="no" mutable="no">
+        <type><ref refid="classstorage" kindref="compound">storage</ref></type>
+        <definition>storage RequirementChecker.inv</definition>
+        <argsstring></argsstring>
+        <name>inv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="16" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" compoundref="_requirement_checker_8cs" startline="41" endline="109">CheckRequirement</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_requirement_checker_1a1308f86154f82cce9f124c53d48f53f5" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classitem" kindref="compound">item</ref> &gt;</type>
+        <definition>List&lt;item&gt; RequirementChecker.fishMaterials</definition>
+        <argsstring></argsstring>
+        <name>fishMaterials</name>
+        <initializer>= new List&lt;<ref refid="classitem" kindref="compound">item</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="10" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_requirement_checker_1a161abfd83791b6b2285840fbdda01fb9" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classitem" kindref="compound">item</ref> &gt;</type>
+        <definition>List&lt;item&gt; RequirementChecker.rawMaterials</definition>
+        <argsstring></argsstring>
+        <name>rawMaterials</name>
+        <initializer>= new List&lt;<ref refid="classitem" kindref="compound">item</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="11" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_requirement_checker_1a246b648ef8a3564917c7c11ffa88c974" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequirementChecker.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_requirement_checker_1af10c4be29729f28e4386a538128d7227" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequirementChecker.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="23" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_requirement_checker_1aa69af2798b5722049ceef4864eb602a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequirementChecker.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="36" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequirementChecker.CheckRequirement</definition>
+        <argsstring>()</argsstring>
+        <name>CheckRequirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="41" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="41" bodyend="109"/>
+        <references refid="classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9" compoundref="item_slots_8cs" startline="48" endline="62">itemSlots.Amount</references>
+        <references refid="class_requirement_checker_1a6ff96efd14c8f4cff078831140c8f46f" compoundref="_requirement_checker_8cs" startline="13">fishMaterialText</references>
+        <references refid="class_player_upgrades_1aafbbe9499b027d5b1670ef1d31aab7a4" compoundref="_player_upgrades_8cs" startline="26" endline="29">PlayerUpgrades.GetFishMaterialAmountRequirement</references>
+        <references refid="class_player_upgrades_1a6bb164625c5847a6af36709571ec851f" compoundref="_player_upgrades_8cs" startline="17" endline="20">PlayerUpgrades.GetFishMaterialTypeRequirement</references>
+        <references refid="classstorage_1a3f7ecf1a4a1217578fc922eed3ffde8e" compoundref="storage_8cs" startline="83" endline="94">storage.GetListOfItemsInInventory</references>
+        <references refid="class_player_upgrades_1a90101816a84d5531335b6f1ca159376f" compoundref="_player_upgrades_8cs" startline="31" endline="34">PlayerUpgrades.GetRawMaterialAmountRequirement</references>
+        <references refid="class_player_upgrades_1a5bc2766abbc8c3a46300fe0ec7501514" compoundref="_player_upgrades_8cs" startline="21" endline="24">PlayerUpgrades.GetRawMaterialTypeRequirement</references>
+        <references refid="class_requirement_checker_1ae5e28ce3b309f666ed86aede051a0400" compoundref="_requirement_checker_8cs" startline="16">inv</references>
+        <references refid="classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d" compoundref="item_slots_8cs" startline="27" endline="43">itemSlots.Item</references>
+        <references refid="class_requirement_checker_1a704d1da81f86360893c4cdc316996a1b" compoundref="_requirement_checker_8cs" startline="8">playerUpgrade</references>
+        <references refid="class_requirement_checker_1a469e5254195c45cdf953a3887f2aaa8c" compoundref="_requirement_checker_8cs" startline="14">rawMaterialText</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RequirementChecker</label>
+        <link refid="class_requirement_checker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>ItemContainer</label>
+        <link refid="class_item_container"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>RequirementChecker</label>
+        <link refid="class_requirement_checker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+playerUpgrade</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+fishMaterialText</edgelabel>
+          <edgelabel>+rawMaterialText</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+inv</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="5">
+        <label>Text</label>
+      </node>
+      <node id="6">
+        <label>storage</label>
+        <link refid="classstorage"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/RequirementChecker.cs" bodystart="7" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_requirement_checker_1a8f7e080a890694c51d12dba2c225bd8d" prot="public" virt="non-virtual"><scope>RequirementChecker</scope><name>CheckRequirement</name></member>
+      <member refid="class_requirement_checker_1a1308f86154f82cce9f124c53d48f53f5" prot="private" virt="non-virtual"><scope>RequirementChecker</scope><name>fishMaterials</name></member>
+      <member refid="class_requirement_checker_1a6ff96efd14c8f4cff078831140c8f46f" prot="public" virt="non-virtual"><scope>RequirementChecker</scope><name>fishMaterialText</name></member>
+      <member refid="class_requirement_checker_1af10c4be29729f28e4386a538128d7227" prot="private" virt="non-virtual"><scope>RequirementChecker</scope><name>Init</name></member>
+      <member refid="class_requirement_checker_1ae5e28ce3b309f666ed86aede051a0400" prot="public" virt="non-virtual"><scope>RequirementChecker</scope><name>inv</name></member>
+      <member refid="class_requirement_checker_1aa69af2798b5722049ceef4864eb602a3" prot="private" virt="non-virtual"><scope>RequirementChecker</scope><name>OnEnable</name></member>
+      <member refid="class_requirement_checker_1a704d1da81f86360893c4cdc316996a1b" prot="public" virt="non-virtual"><scope>RequirementChecker</scope><name>playerUpgrade</name></member>
+      <member refid="class_requirement_checker_1a161abfd83791b6b2285840fbdda01fb9" prot="private" virt="non-virtual"><scope>RequirementChecker</scope><name>rawMaterials</name></member>
+      <member refid="class_requirement_checker_1a469e5254195c45cdf953a3887f2aaa8c" prot="public" virt="non-virtual"><scope>RequirementChecker</scope><name>rawMaterialText</name></member>
+      <member refid="class_requirement_checker_1a246b648ef8a3564917c7c11ffa88c974" prot="private" virt="non-virtual"><scope>RequirementChecker</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

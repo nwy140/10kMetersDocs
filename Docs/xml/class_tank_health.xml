@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_tank_health" kind="class" language="C#" prot="public">
+    <compoundname>TankHealth</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tank_health_1a61f61a506cd75b2382f40c87f376f547" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankHealth.m_StartingHealth</definition>
+        <argsstring></argsstring>
+        <name>m_StartingHealth</name>
+        <initializer>= 100f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="7" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_health_1a4b41b54ea2d3515d6c258f2dfa352d91" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider TankHealth.m_Slider</definition>
+        <argsstring></argsstring>
+        <name>m_Slider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="8" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_health_1afe7189f28749f37650eaee5bbe1e9569" prot="public" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image TankHealth.m_FillImage</definition>
+        <argsstring></argsstring>
+        <name>m_FillImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_health_1a42ae2cdb01a927ac318e292a408ee530" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color TankHealth.m_FullHealthColor</definition>
+        <argsstring></argsstring>
+        <name>m_FullHealthColor</name>
+        <initializer>= Color.green</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_health_1aa0c52687011855683ffb71b787f159fb" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color TankHealth.m_ZeroHealthColor</definition>
+        <argsstring></argsstring>
+        <name>m_ZeroHealthColor</name>
+        <initializer>= Color.red</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_health_1a5ef8047ad181f98b49f021dcb2a79eff" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TankHealth.m_ExplosionPrefab</definition>
+        <argsstring></argsstring>
+        <name>m_ExplosionPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="12" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tank_health_1a93d4ea9666db9cafb4c7b0a048d539d5" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource TankHealth.m_ExplosionAudio</definition>
+        <argsstring></argsstring>
+        <name>m_ExplosionAudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="15" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_health_1a3f6b6ae598924d9efdc3fc6cad0608c2" prot="private" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem TankHealth.m_ExplosionParticles</definition>
+        <argsstring></argsstring>
+        <name>m_ExplosionParticles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="16" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_health_1ae673dd79be08ebafe2843fe58eb29bbb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TankHealth.m_CurrentHealth</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="17" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_health_1a6c5c310b86cdb8e89a275db89f503e8a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TankHealth.m_Dead</definition>
+        <argsstring></argsstring>
+        <name>m_Dead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tank_health_1a00dd338e17e94e84667557d672ed61d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankHealth.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="21" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_health_1a300f6fd76b07f262935115e3b144bc1d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankHealth.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="33" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="33" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_health_1a30298a77ddd8b74961a4344f48351887" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankHealth.SetHealthUI</definition>
+        <argsstring>()</argsstring>
+        <name>SetHealthUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="58" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_health_1a23f53ad18d9eb45432896b0119917181" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankHealth.OnDeath</definition>
+        <argsstring>()</argsstring>
+        <name>OnDeath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="67" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="67" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tank_health_1a5b4692ca0cdcd290c19819b612a1fb6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankHealth.TakeDamage</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>TakeDamage</name>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="43" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="43" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TankHealth</label>
+        <link refid="class_tank_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TankHealth</label>
+        <link refid="class_tank_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Tank/TankHealth.cs" bodystart="6" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_tank_health_1a00dd338e17e94e84667557d672ed61d9" prot="private" virt="non-virtual"><scope>TankHealth</scope><name>Awake</name></member>
+      <member refid="class_tank_health_1ae673dd79be08ebafe2843fe58eb29bbb" prot="private" virt="non-virtual"><scope>TankHealth</scope><name>m_CurrentHealth</name></member>
+      <member refid="class_tank_health_1a6c5c310b86cdb8e89a275db89f503e8a" prot="private" virt="non-virtual"><scope>TankHealth</scope><name>m_Dead</name></member>
+      <member refid="class_tank_health_1a93d4ea9666db9cafb4c7b0a048d539d5" prot="private" virt="non-virtual"><scope>TankHealth</scope><name>m_ExplosionAudio</name></member>
+      <member refid="class_tank_health_1a3f6b6ae598924d9efdc3fc6cad0608c2" prot="private" virt="non-virtual"><scope>TankHealth</scope><name>m_ExplosionParticles</name></member>
+      <member refid="class_tank_health_1a5ef8047ad181f98b49f021dcb2a79eff" prot="public" virt="non-virtual"><scope>TankHealth</scope><name>m_ExplosionPrefab</name></member>
+      <member refid="class_tank_health_1afe7189f28749f37650eaee5bbe1e9569" prot="public" virt="non-virtual"><scope>TankHealth</scope><name>m_FillImage</name></member>
+      <member refid="class_tank_health_1a42ae2cdb01a927ac318e292a408ee530" prot="public" virt="non-virtual"><scope>TankHealth</scope><name>m_FullHealthColor</name></member>
+      <member refid="class_tank_health_1a4b41b54ea2d3515d6c258f2dfa352d91" prot="public" virt="non-virtual"><scope>TankHealth</scope><name>m_Slider</name></member>
+      <member refid="class_tank_health_1a61f61a506cd75b2382f40c87f376f547" prot="public" virt="non-virtual"><scope>TankHealth</scope><name>m_StartingHealth</name></member>
+      <member refid="class_tank_health_1aa0c52687011855683ffb71b787f159fb" prot="public" virt="non-virtual"><scope>TankHealth</scope><name>m_ZeroHealthColor</name></member>
+      <member refid="class_tank_health_1a23f53ad18d9eb45432896b0119917181" prot="private" virt="non-virtual"><scope>TankHealth</scope><name>OnDeath</name></member>
+      <member refid="class_tank_health_1a300f6fd76b07f262935115e3b144bc1d" prot="private" virt="non-virtual"><scope>TankHealth</scope><name>OnEnable</name></member>
+      <member refid="class_tank_health_1a30298a77ddd8b74961a4344f48351887" prot="private" virt="non-virtual"><scope>TankHealth</scope><name>SetHealthUI</name></member>
+      <member refid="class_tank_health_1a5b4692ca0cdcd290c19819b612a1fb6a" prot="public" virt="non-virtual"><scope>TankHealth</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_collision_by_tag_event" kind="class" language="C#" prot="public">
+    <compoundname>CollisionByTagEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_collision_by_tag_event_1a569638adbde8c39dd52435b7fcc2895e" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; CollisionByTagEvent.allowedTags</definition>
+        <argsstring></argsstring>
+        <name>allowedTags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="8" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_collision_by_tag_event_1ace37b1de2a660606a71be6297751dd1e" compoundref="_collision_by_tag_event_8cs" startline="56" endline="83">OnHitbox</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_collision_by_tag_event_1aba4ff11f809ab2f8ed8a30a7f3b11124" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CollisionByTagEvent.filterByAllowedTags</definition>
+        <argsstring></argsstring>
+        <name>filterByAllowedTags</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="9" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_collision_by_tag_event_1ace37b1de2a660606a71be6297751dd1e" compoundref="_collision_by_tag_event_8cs" startline="56" endline="83">OnHitbox</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_collision_by_tag_event_1a54ebe9dcc24e3fbda4cfb810c53b4ef7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CollisionByTagEvent.isCallOnCollisionEnter2D</definition>
+        <argsstring></argsstring>
+        <name>isCallOnCollisionEnter2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="10" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_collision_by_tag_event_1a3b16e2ac6b5d842808e304beb3bfde0f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CollisionByTagEvent.isCallOnTriggerEnter2D</definition>
+        <argsstring></argsstring>
+        <name>isCallOnTriggerEnter2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="12" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_collision_by_tag_event_1ad9bca4c1ce84dca974677a8f4b5181d2" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; CollisionByTagEvent.disallowedTags</definition>
+        <argsstring></argsstring>
+        <name>disallowedTags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="13" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_collision_by_tag_event_1ace37b1de2a660606a71be6297751dd1e" compoundref="_collision_by_tag_event_8cs" startline="56" endline="83">OnHitbox</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_collision_by_tag_event_1a515bb90492078d40624ad83cc6ceabe2" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; CollisionByTagEvent.ignorePhysicsForTargetTags</definition>
+        <argsstring></argsstring>
+        <name>ignorePhysicsForTargetTags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="15" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_collision_by_tag_event_1ae9f4390ea960a89e0be3ad89be342b69" prot="public" static="no" mutable="no">
+        <type>List&lt; Collider2D &gt;</type>
+        <definition>List&lt;Collider2D&gt; CollisionByTagEvent.ignoreTargetCols</definition>
+        <argsstring></argsstring>
+        <name>ignoreTargetCols</name>
+        <initializer>= new List&lt;Collider2D&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="17" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_collision_by_tag_event_1aab3516fe7d96923f01fe259d41835771" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent CollisionByTagEvent.OnHitBox_Event</definition>
+        <argsstring></argsstring>
+        <name>OnHitBox_Event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="53" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_collision_by_tag_event_1ace37b1de2a660606a71be6297751dd1e" compoundref="_collision_by_tag_event_8cs" startline="56" endline="83">OnHitbox</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_collision_by_tag_event_1ab4a2fdd6b1321d4e7a40efb184912e1f" prot="private" static="no" mutable="no">
+        <type>Collider2D</type>
+        <definition>Collider2D CollisionByTagEvent.col</definition>
+        <argsstring></argsstring>
+        <name>col</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="18" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_collision_by_tag_event_1a6cf7292c79986fa3cc8d96ee47c34ddb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionByTagEvent.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="19" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="19" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_by_tag_event_1a6918b3f3b3563f1a1435b11243bc9eb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionByTagEvent.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D collision)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="33" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="33" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_by_tag_event_1abdd8304c3e3e0391aecfdb0ebe26b7ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionByTagEvent.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="46" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="46" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_collision_by_tag_event_1ace37b1de2a660606a71be6297751dd1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionByTagEvent.OnHitbox</definition>
+        <argsstring>(GameObject other)</argsstring>
+        <name>OnHitbox</name>
+        <param>
+          <type>GameObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="56" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="56" bodyend="83"/>
+        <references refid="class_collision_by_tag_event_1a569638adbde8c39dd52435b7fcc2895e" compoundref="_collision_by_tag_event_8cs" startline="8">allowedTags</references>
+        <references refid="class_collision_by_tag_event_1ad9bca4c1ce84dca974677a8f4b5181d2" compoundref="_collision_by_tag_event_8cs" startline="13">disallowedTags</references>
+        <references refid="class_collision_by_tag_event_1aba4ff11f809ab2f8ed8a30a7f3b11124" compoundref="_collision_by_tag_event_8cs" startline="9">filterByAllowedTags</references>
+        <references refid="class_collision_by_tag_event_1aab3516fe7d96923f01fe259d41835771" compoundref="_collision_by_tag_event_8cs" startline="53">OnHitBox_Event</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CollisionByTagEvent</label>
+        <link refid="class_collision_by_tag_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CollisionByTagEvent</label>
+        <link refid="class_collision_by_tag_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/Extend/CollisionByTagEvent.cs" bodystart="7" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_collision_by_tag_event_1a569638adbde8c39dd52435b7fcc2895e" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>allowedTags</name></member>
+      <member refid="class_collision_by_tag_event_1a6cf7292c79986fa3cc8d96ee47c34ddb" prot="private" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>Awake</name></member>
+      <member refid="class_collision_by_tag_event_1ab4a2fdd6b1321d4e7a40efb184912e1f" prot="private" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>col</name></member>
+      <member refid="class_collision_by_tag_event_1ad9bca4c1ce84dca974677a8f4b5181d2" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>disallowedTags</name></member>
+      <member refid="class_collision_by_tag_event_1aba4ff11f809ab2f8ed8a30a7f3b11124" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>filterByAllowedTags</name></member>
+      <member refid="class_collision_by_tag_event_1a515bb90492078d40624ad83cc6ceabe2" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>ignorePhysicsForTargetTags</name></member>
+      <member refid="class_collision_by_tag_event_1ae9f4390ea960a89e0be3ad89be342b69" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>ignoreTargetCols</name></member>
+      <member refid="class_collision_by_tag_event_1a54ebe9dcc24e3fbda4cfb810c53b4ef7" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>isCallOnCollisionEnter2D</name></member>
+      <member refid="class_collision_by_tag_event_1a3b16e2ac6b5d842808e304beb3bfde0f" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>isCallOnTriggerEnter2D</name></member>
+      <member refid="class_collision_by_tag_event_1a6918b3f3b3563f1a1435b11243bc9eb5" prot="private" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_collision_by_tag_event_1ace37b1de2a660606a71be6297751dd1e" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>OnHitbox</name></member>
+      <member refid="class_collision_by_tag_event_1aab3516fe7d96923f01fe259d41835771" prot="public" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>OnHitBox_Event</name></member>
+      <member refid="class_collision_by_tag_event_1abdd8304c3e3e0391aecfdb0ebe26b7ba" prot="private" virt="non-virtual"><scope>CollisionByTagEvent</scope><name>OnTriggerEnter2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

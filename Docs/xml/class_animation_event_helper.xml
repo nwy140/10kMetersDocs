@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_animation_event_helper" kind="class" language="C#" prot="public">
+    <compoundname>AnimationEventHelper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_animation_event_helper_1aaac19dcf4a57b2cde48497f4d68efd8e" prot="public" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator AnimationEventHelper.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="11" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_animation_event_helper_1a8c05ac33bfa360037c6a54ccae4eccd8" compoundref="_animation_event_helper_8cs" startline="50" endline="52">SetAnimatorIsEnabled</referencedby>
+        <referencedby refid="class_animation_event_helper_1a88f9fecf0d90601e924e5e76e74c8447" compoundref="_animation_event_helper_8cs" startline="23" endline="29">SetBool</referencedby>
+        <referencedby refid="class_animation_event_helper_1adee24feb5aaf52a2a73a0b6aa7521503" compoundref="_animation_event_helper_8cs" startline="30" endline="36">TurnBoolOnOff</referencedby>
+        <referencedby refid="class_animation_event_helper_1a9ef8e2593a4adbea0ed6758e0a90fb56" compoundref="_animation_event_helper_8cs" startline="37" endline="44">TurnBoolOnOffByName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_animation_event_helper_1ac8842b158e1699fa89ce7a909828236f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AnimationEventHelper.boolName</definition>
+        <argsstring></argsstring>
+        <name>boolName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="12" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_animation_event_helper_1a88f9fecf0d90601e924e5e76e74c8447" compoundref="_animation_event_helper_8cs" startline="23" endline="29">SetBool</referencedby>
+        <referencedby refid="class_animation_event_helper_1a06d808fe463ac7bda40da3d9f37f200f" compoundref="_animation_event_helper_8cs" startline="45" endline="48">SetBoolName</referencedby>
+        <referencedby refid="class_animation_event_helper_1adee24feb5aaf52a2a73a0b6aa7521503" compoundref="_animation_event_helper_8cs" startline="30" endline="36">TurnBoolOnOff</referencedby>
+        <referencedby refid="class_animation_event_helper_1a9ef8e2593a4adbea0ed6758e0a90fb56" compoundref="_animation_event_helper_8cs" startline="37" endline="44">TurnBoolOnOffByName</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_animation_event_helper_1a5fd629c258c430541c3a14f920f0c6c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationEventHelper.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_animation_event_helper_1a88f9fecf0d90601e924e5e76e74c8447" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationEventHelper.SetBool</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetBool</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="23" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="23" bodyend="29"/>
+        <references refid="class_animation_event_helper_1aaac19dcf4a57b2cde48497f4d68efd8e" compoundref="_animation_event_helper_8cs" startline="11">animator</references>
+        <references refid="class_animation_event_helper_1ac8842b158e1699fa89ce7a909828236f" compoundref="_animation_event_helper_8cs" startline="12">boolName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_animation_event_helper_1adee24feb5aaf52a2a73a0b6aa7521503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationEventHelper.TurnBoolOnOff</definition>
+        <argsstring>()</argsstring>
+        <name>TurnBoolOnOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="30" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="30" bodyend="36"/>
+        <references refid="class_animation_event_helper_1aaac19dcf4a57b2cde48497f4d68efd8e" compoundref="_animation_event_helper_8cs" startline="11">animator</references>
+        <references refid="class_animation_event_helper_1ac8842b158e1699fa89ce7a909828236f" compoundref="_animation_event_helper_8cs" startline="12">boolName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_animation_event_helper_1a9ef8e2593a4adbea0ed6758e0a90fb56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationEventHelper.TurnBoolOnOffByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>TurnBoolOnOffByName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="37" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="37" bodyend="44"/>
+        <references refid="class_animation_event_helper_1aaac19dcf4a57b2cde48497f4d68efd8e" compoundref="_animation_event_helper_8cs" startline="11">animator</references>
+        <references refid="class_animation_event_helper_1ac8842b158e1699fa89ce7a909828236f" compoundref="_animation_event_helper_8cs" startline="12">boolName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_animation_event_helper_1a06d808fe463ac7bda40da3d9f37f200f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationEventHelper.SetBoolName</definition>
+        <argsstring>(string newBoolname)</argsstring>
+        <name>SetBoolName</name>
+        <param>
+          <type>string</type>
+          <declname>newBoolname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="45" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="45" bodyend="48"/>
+        <references refid="class_animation_event_helper_1ac8842b158e1699fa89ce7a909828236f" compoundref="_animation_event_helper_8cs" startline="12">boolName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_animation_event_helper_1a8c05ac33bfa360037c6a54ccae4eccd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationEventHelper.SetAnimatorIsEnabled</definition>
+        <argsstring>(bool isEnabled)</argsstring>
+        <name>SetAnimatorIsEnabled</name>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="50" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="50" bodyend="52"/>
+        <references refid="class_animation_event_helper_1aaac19dcf4a57b2cde48497f4d68efd8e" compoundref="_animation_event_helper_8cs" startline="11">animator</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AnimationEventHelper</label>
+        <link refid="class_animation_event_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AnimationEventHelper</label>
+        <link refid="class_animation_event_helper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" line="9" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/AnimationEventHelper.cs" bodystart="10" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_animation_event_helper_1aaac19dcf4a57b2cde48497f4d68efd8e" prot="public" virt="non-virtual"><scope>AnimationEventHelper</scope><name>animator</name></member>
+      <member refid="class_animation_event_helper_1a5fd629c258c430541c3a14f920f0c6c8" prot="private" virt="non-virtual"><scope>AnimationEventHelper</scope><name>Awake</name></member>
+      <member refid="class_animation_event_helper_1ac8842b158e1699fa89ce7a909828236f" prot="public" virt="non-virtual"><scope>AnimationEventHelper</scope><name>boolName</name></member>
+      <member refid="class_animation_event_helper_1a8c05ac33bfa360037c6a54ccae4eccd8" prot="public" virt="non-virtual"><scope>AnimationEventHelper</scope><name>SetAnimatorIsEnabled</name></member>
+      <member refid="class_animation_event_helper_1a88f9fecf0d90601e924e5e76e74c8447" prot="public" virt="non-virtual"><scope>AnimationEventHelper</scope><name>SetBool</name></member>
+      <member refid="class_animation_event_helper_1a06d808fe463ac7bda40da3d9f37f200f" prot="public" virt="non-virtual"><scope>AnimationEventHelper</scope><name>SetBoolName</name></member>
+      <member refid="class_animation_event_helper_1adee24feb5aaf52a2a73a0b6aa7521503" prot="public" virt="non-virtual"><scope>AnimationEventHelper</scope><name>TurnBoolOnOff</name></member>
+      <member refid="class_animation_event_helper_1a9ef8e2593a4adbea0ed6758e0a90fb56" prot="public" virt="non-virtual"><scope>AnimationEventHelper</scope><name>TurnBoolOnOffByName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

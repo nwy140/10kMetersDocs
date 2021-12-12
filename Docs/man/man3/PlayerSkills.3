@@ -1,0 +1,163 @@
+.TH "PlayerSkills" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PlayerSkills
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBOnSkillUnlockedEventArgs\fP"
+.br
+.in -1c
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBSkillType\fP { \fBNone\fP, \fBLowTierTurbineStage1\fP, \fBLowTierTurbineStage2\fP, \fBHighTierTurbineStage1\fP, \fBHighTierTurbineStage2\fP, \fBLowTierWeaponStage1\fP, \fBLowTierWeaponStage2\fP, \fBHighTierWeaponStage1\fP, \fBHighTierWeaponStage2\fP, \fBLowTierHullStage1\fP, \fBLowTierHullStage2\fP, \fBHighTierHullStage1\fP, \fBHighTierHullStage2\fP, \fBLowTierSelfRepairStage1\fP, \fBLowTierSelfRepairStage2\fP, \fBHighTierSelfRepairStage1\fP, \fBHighTierSelfRepairStage2\fP, \fBLowTierOxygenTankStage1\fP, \fBLowTierOxygenTankStage2\fP, \fBHighTierOxygenTankStage1\fP, \fBHighTierOxygenTankStage2\fP, \fBLowTierInventoryStage1\fP, \fBLowTierInventoryStage2\fP, \fBHighTierInventoryStage1\fP, \fBHighTierInventoryStage2\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPlayerSkills\fP ()"
+.br
+.ti -1c
+.RI "void \fBGetCurrentUpgrades\fP (\fBUpgradeHolder\fP upgradeHolder)"
+.br
+.ti -1c
+.RI "void \fBSetRequirements\fP (\fBstorage\fP inv, \fBPlayerUpgrades\fP upg)"
+.br
+.ti -1c
+.RI "bool \fBIsRequirementMet\fP ()"
+.br
+.ti -1c
+.RI "void \fBRemoveAllUsedResources\fP ()"
+.br
+.ti -1c
+.RI "int \fBGetSkillPoints\fP ()"
+.br
+.ti -1c
+.RI "bool \fBIsSkillUnlocked\fP (\fBSkillType\fP skillType)"
+.br
+.ti -1c
+.RI "bool \fBCanUnlock\fP (\fBSkillType\fP skillType)"
+.br
+.ti -1c
+.RI "\fBSkillType\fP \fBGetSkillRequirement\fP (\fBSkillType\fP skillType)"
+.br
+.ti -1c
+.RI "bool \fBTryUnlockSkill\fP (\fBSkillType\fP skillType)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static Action \fBOnSetRequirementForPopup\fP"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler< \fBOnSkillUnlockedEventArgs\fP > \fBOnSkillUnlocked\fP"
+.br
+.in -1c
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBPlayerSkills\&.SkillType\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fILowTierTurbineStage1 \fP\fP
+.TP
+\fB\fILowTierTurbineStage2 \fP\fP
+.TP
+\fB\fIHighTierTurbineStage1 \fP\fP
+.TP
+\fB\fIHighTierTurbineStage2 \fP\fP
+.TP
+\fB\fILowTierWeaponStage1 \fP\fP
+.TP
+\fB\fILowTierWeaponStage2 \fP\fP
+.TP
+\fB\fIHighTierWeaponStage1 \fP\fP
+.TP
+\fB\fIHighTierWeaponStage2 \fP\fP
+.TP
+\fB\fILowTierHullStage1 \fP\fP
+.TP
+\fB\fILowTierHullStage2 \fP\fP
+.TP
+\fB\fIHighTierHullStage1 \fP\fP
+.TP
+\fB\fIHighTierHullStage2 \fP\fP
+.TP
+\fB\fILowTierSelfRepairStage1 \fP\fP
+.TP
+\fB\fILowTierSelfRepairStage2 \fP\fP
+.TP
+\fB\fIHighTierSelfRepairStage1 \fP\fP
+.TP
+\fB\fIHighTierSelfRepairStage2 \fP\fP
+.TP
+\fB\fILowTierOxygenTankStage1 \fP\fP
+.TP
+\fB\fILowTierOxygenTankStage2 \fP\fP
+.TP
+\fB\fIHighTierOxygenTankStage1 \fP\fP
+.TP
+\fB\fIHighTierOxygenTankStage2 \fP\fP
+.TP
+\fB\fILowTierInventoryStage1 \fP\fP
+.TP
+\fB\fILowTierInventoryStage2 \fP\fP
+.TP
+\fB\fIHighTierInventoryStage1 \fP\fP
+.TP
+\fB\fIHighTierInventoryStage2 \fP\fP
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "PlayerSkills\&.PlayerSkills ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "bool PlayerSkills\&.CanUnlock (\fBSkillType\fP skillType)"
+
+.SS "void PlayerSkills\&.GetCurrentUpgrades (\fBUpgradeHolder\fP upgradeHolder)"
+
+.SS "int PlayerSkills\&.GetSkillPoints ()"
+
+.SS "\fBSkillType\fP PlayerSkills\&.GetSkillRequirement (\fBSkillType\fP skillType)"
+
+.SS "bool PlayerSkills\&.IsRequirementMet ()"
+
+.SS "bool PlayerSkills\&.IsSkillUnlocked (\fBSkillType\fP skillType)"
+
+.SS "void PlayerSkills\&.RemoveAllUsedResources ()"
+
+.SS "void PlayerSkills\&.SetRequirements (\fBstorage\fP inv, \fBPlayerUpgrades\fP upg)"
+
+.SS "bool PlayerSkills\&.TryUnlockSkill (\fBSkillType\fP skillType)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "Action PlayerSkills\&.OnSetRequirementForPopup\fC [static]\fP"
+
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler<\fBOnSkillUnlockedEventArgs\fP> PlayerSkills\&.OnSkillUnlocked"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

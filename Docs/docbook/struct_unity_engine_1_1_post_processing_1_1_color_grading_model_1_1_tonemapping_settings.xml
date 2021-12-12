@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6">Tonemapper</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a96a7b7dcb0a6d40679501271d965f550">tonemapper</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a449e4735503e3a9074f1c7e59cf899ac">neutralBlackIn</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a8eeb01f595de7c751e7b99967aece296">neutralWhiteIn</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a81e19642855ceb6cfbd08e6726d1bc96">neutralBlackOut</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a6e3b523ad9572827ac0e5aea8b96cb4c">neutralWhiteOut</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a4f2e937233ddb0d540977b2ea1748137">neutralWhiteLevel</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a2433f12d9af67406a0117ea05e67f117">neutralWhiteClip</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings">TonemappingSettings</link> <link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1afaaeaac01b5da1e740cf66a4e56abe7b">defaultSettings</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a449e4735503e3a9074f1c7e59cf899ac"/><section>
+    <title>neutralBlackIn</title>
+<indexterm><primary>neutralBlackIn</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary><secondary>neutralBlackIn</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings.neutralBlackIn</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a81e19642855ceb6cfbd08e6726d1bc96"/><section>
+    <title>neutralBlackOut</title>
+<indexterm><primary>neutralBlackOut</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary><secondary>neutralBlackOut</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings.neutralBlackOut</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a2433f12d9af67406a0117ea05e67f117"/><section>
+    <title>neutralWhiteClip</title>
+<indexterm><primary>neutralWhiteClip</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary><secondary>neutralWhiteClip</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings.neutralWhiteClip</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a8eeb01f595de7c751e7b99967aece296"/><section>
+    <title>neutralWhiteIn</title>
+<indexterm><primary>neutralWhiteIn</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary><secondary>neutralWhiteIn</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings.neutralWhiteIn</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a4f2e937233ddb0d540977b2ea1748137"/><section>
+    <title>neutralWhiteLevel</title>
+<indexterm><primary>neutralWhiteLevel</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary><secondary>neutralWhiteLevel</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings.neutralWhiteLevel</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a6e3b523ad9572827ac0e5aea8b96cb4c"/><section>
+    <title>neutralWhiteOut</title>
+<indexterm><primary>neutralWhiteOut</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary><secondary>neutralWhiteOut</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings.neutralWhiteOut</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1a96a7b7dcb0a6d40679501271d965f550"/><section>
+    <title>tonemapper</title>
+<indexterm><primary>tonemapper</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary><secondary>tonemapper</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a4955bb9dfed7e27c93e7493ff66f3de6">Tonemapper</link> UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings.tonemapper</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings_1afaaeaac01b5da1e740cf66a4e56abe7b"/><section>
+    <title>defaultSettings</title>
+<indexterm><primary>defaultSettings</primary><secondary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings</primary><secondary>defaultSettings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_tonemapping_settings">TonemappingSettings</link> UnityEngine.PostProcessing.ColorGradingModel.TonemappingSettings.defaultSettings<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__color_grading_model_8cs">ColorGradingModel.cs</link></section>
+</section>

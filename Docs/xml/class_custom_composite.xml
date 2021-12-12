@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_custom_composite" kind="class" language="C#" prot="public">
+    <compoundname>CustomComposite</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">InputBindingComposite&lt; Vector2 &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_custom_composite_1aae42a5cd9b9eb8ac0f5e302ef0fc86c5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CustomComposite.multiplier</definition>
+        <argsstring></argsstring>
+        <name>multiplier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" line="106" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" bodystart="106" bodyend="-1"/>
+        <referencedby refid="class_custom_composite_1aa92ebf9a307e3d1a9ef09feed24e2303" compoundref="_custom_composite_8cs" startline="136" endline="154">ReadValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_custom_composite_1a04bae8f7a89f6541ef0d298bb3c47013" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CustomComposite.stick</definition>
+        <argsstring></argsstring>
+        <name>stick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" line="112" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" bodystart="112" bodyend="-1"/>
+        <referencedby refid="class_custom_composite_1aa92ebf9a307e3d1a9ef09feed24e2303" compoundref="_custom_composite_8cs" startline="136" endline="154">ReadValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_custom_composite_1afb97b7bbc54c62bc0cb336e88dc10faa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CustomComposite.scaleFactor</definition>
+        <argsstring></argsstring>
+        <name>scaleFactor</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" line="128" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" bodystart="128" bodyend="-1"/>
+        <referencedby refid="class_custom_composite_1aa92ebf9a307e3d1a9ef09feed24e2303" compoundref="_custom_composite_8cs" startline="136" endline="154">ReadValue</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_custom_composite_1aa351e9484b0b34d85c3b21e419d9d7de" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CustomComposite.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" line="62" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" bodystart="62" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_custom_composite_1aa92ebf9a307e3d1a9ef09feed24e2303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Vector2</type>
+        <definition>override Vector2 CustomComposite.ReadValue</definition>
+        <argsstring>(ref InputBindingCompositeContext context)</argsstring>
+        <name>ReadValue</name>
+        <param>
+          <type>ref InputBindingCompositeContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" line="136" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" bodystart="136" bodyend="154"/>
+        <references refid="class_custom_composite_1aae42a5cd9b9eb8ac0f5e302ef0fc86c5" compoundref="_custom_composite_8cs" startline="106">multiplier</references>
+        <references refid="class_custom_composite_1afb97b7bbc54c62bc0cb336e88dc10faa" compoundref="_custom_composite_8cs" startline="128">scaleFactor</references>
+        <references refid="class_custom_composite_1a04bae8f7a89f6541ef0d298bb3c47013" compoundref="_custom_composite_8cs" startline="112">stick</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CustomComposite</label>
+        <link refid="class_custom_composite"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>InputBindingComposite&lt; Vector2 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CustomComposite</label>
+        <link refid="class_custom_composite"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>InputBindingComposite&lt; Vector2 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" line="46" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Binding Composite/CustomComposite.cs" bodystart="47" bodyend="155"/>
+    <listofallmembers>
+      <member refid="class_custom_composite_1aa351e9484b0b34d85c3b21e419d9d7de" prot="private" virt="non-virtual"><scope>CustomComposite</scope><name>Initialize</name></member>
+      <member refid="class_custom_composite_1aae42a5cd9b9eb8ac0f5e302ef0fc86c5" prot="public" virt="non-virtual"><scope>CustomComposite</scope><name>multiplier</name></member>
+      <member refid="class_custom_composite_1aa92ebf9a307e3d1a9ef09feed24e2303" prot="public" virt="non-virtual"><scope>CustomComposite</scope><name>ReadValue</name></member>
+      <member refid="class_custom_composite_1afb97b7bbc54c62bc0cb336e88dc10faa" prot="public" virt="non-virtual"><scope>CustomComposite</scope><name>scaleFactor</name></member>
+      <member refid="class_custom_composite_1a04bae8f7a89f6541ef0d298bb3c47013" prot="public" virt="non-virtual"><scope>CustomComposite</scope><name>stick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

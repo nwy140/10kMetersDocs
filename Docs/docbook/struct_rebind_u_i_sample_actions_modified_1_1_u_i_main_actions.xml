@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions" xml:lang="en-US">
+<title>RebindUISampleActionsModified.UIMainActions Struct Reference</title>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary></indexterm>
+Collaboration diagram for RebindUISampleActionsModified.UIMainActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1ae91fc7cd49e645c6f8c67c91f23be19d">UIMainActions</link> (@<link linkend="_class_rebind_u_i_sample_actions_modified">RebindUISampleActionsModified</link> wrapper)</para>
+</listitem>
+            <listitem><para>InputActionMap <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a6506bbdabaebd386247eb2a903192367">Get</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a8d4c81837b62a8dc12956aceea9f3955">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1aa509c05bd618280432259db375acb280">Disable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a0ac8cbf68f04ce601e367eab36f2d902">SetCallbacks</link> (<link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions">IUIMainActions</link> instance)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static implicit <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a56be4df95ce13948f6fccf461176ed41">operator InputActionMap</link> (<link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions">UIMainActions</link> set)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1ad18af46b425311527b4b6282e51cf865">Navigate</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a4ee222a7f6709b2e83226367c2904487">Submit</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a326247a06c0132dbd99163f1a61f7b1a">Cancel</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1ae24efa4250d788e92f13c148910e149a">Point</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a244374b4c508df2bff047e7f08e2501a">Click</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a0a11eee4a3a0b8a384cdef06152f0fc3">enabled</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1ae91fc7cd49e645c6f8c67c91f23be19d"/><section>
+    <title>UIMainActions()</title>
+<indexterm><primary>UIMainActions</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>UIMainActions</secondary></indexterm>
+<para><computeroutput>RebindUISampleActionsModified.UIMainActions.UIMainActions (@<link linkend="_class_rebind_u_i_sample_actions_modified">RebindUISampleActionsModified</link> wrapper)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1aa509c05bd618280432259db375acb280"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.UIMainActions.Disable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_aa509c05bd618280432259db375acb280_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a8d4c81837b62a8dc12956aceea9f3955"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.UIMainActions.Enable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_a8d4c81837b62a8dc12956aceea9f3955_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a6506bbdabaebd386247eb2a903192367"/><section>
+    <title>Get()</title>
+<indexterm><primary>Get</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>InputActionMap RebindUISampleActionsModified.UIMainActions.Get ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_a6506bbdabaebd386247eb2a903192367_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a56be4df95ce13948f6fccf461176ed41"/><section>
+    <title>operator InputActionMap()</title>
+<indexterm><primary>operator InputActionMap</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>operator InputActionMap</secondary></indexterm>
+<para><computeroutput>static implicit RebindUISampleActionsModified.UIMainActions.operator InputActionMap (<link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions">UIMainActions</link> set)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a0ac8cbf68f04ce601e367eab36f2d902"/><section>
+    <title>SetCallbacks()</title>
+<indexterm><primary>SetCallbacks</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>SetCallbacks</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.UIMainActions.SetCallbacks (<link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions">IUIMainActions</link> instance)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_a0ac8cbf68f04ce601e367eab36f2d902_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a326247a06c0132dbd99163f1a61f7b1a"/><section>
+    <title>Cancel</title>
+<indexterm><primary>Cancel</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>Cancel</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.UIMainActions.Cancel<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a244374b4c508df2bff047e7f08e2501a"/><section>
+    <title>Click</title>
+<indexterm><primary>Click</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>Click</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.UIMainActions.Click<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a0a11eee4a3a0b8a384cdef06152f0fc3"/><section>
+    <title>enabled</title>
+<indexterm><primary>enabled</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>enabled</secondary></indexterm>
+<para><computeroutput>bool RebindUISampleActionsModified.UIMainActions.enabled<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1ad18af46b425311527b4b6282e51cf865"/><section>
+    <title>Navigate</title>
+<indexterm><primary>Navigate</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>Navigate</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.UIMainActions.Navigate<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1ae24efa4250d788e92f13c148910e149a"/><section>
+    <title>Point</title>
+<indexterm><primary>Point</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>Point</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.UIMainActions.Point<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions_1a4ee222a7f6709b2e83226367c2904487"/><section>
+    <title>Submit</title>
+<indexterm><primary>Submit</primary><secondary>RebindUISampleActionsModified.UIMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.UIMainActions</primary><secondary>Submit</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.UIMainActions.Submit<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/<link linkend="__rebind_u_i_sample_actions_modified_8cs">RebindUISampleActionsModified.cs</link></section>
+</section>

@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_slot_holder" kind="class" language="C#" prot="public">
+    <compoundname>CommandSlotHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_slot_holder_1a4a5b42aa8a9e47081b64c12d3cece71c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_input_command" kindref="compound">InputCommand</ref></type>
+        <definition>InputCommand CommandSlotHolder.commandInstanceSOAsset</definition>
+        <argsstring></argsstring>
+        <name>commandInstanceSOAsset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="10" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_slot_holder_1a29a0a9ac0f74357a9d13caffb2198911" prot="public" static="no" mutable="no">
+        <type><ref refid="class_input_command" kindref="compound">InputCommand</ref></type>
+        <definition>InputCommand CommandSlotHolder.commandInstanceInSlot</definition>
+        <argsstring></argsstring>
+        <name>commandInstanceInSlot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="13" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_command_queue_helper_1aa447c7015171043cf4a7b187675c3de7" compoundref="_command_queue_helper_8cs" startline="168" endline="179">CommandQueueHelper.CheckSequence</referencedby>
+        <referencedby refid="class_command_slot_holder_1ae0ad6427c38d0a7a73d52026d77b6ee8" compoundref="_command_slot_holder_8cs" startline="77" endline="81">OnInput</referencedby>
+        <referencedby refid="class_command_slot_holder_1a901044c36210e3c92512ec8b83026e85" compoundref="_command_slot_holder_8cs" startline="84" endline="89">OnSimulateInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_slot_holder_1a6b12e2044da41aa145f961755cd153db" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CommandSlotHolder.commandOwnerRootObj</definition>
+        <argsstring></argsstring>
+        <name>commandOwnerRootObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="15" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_slot_holder_1adcd1c93202894bba3af5d13442f3f600" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CommandSlotHolder.commandTargetObj</definition>
+        <argsstring></argsstring>
+        <name>commandTargetObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="17" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_slot_holder_1a05ee98839c8a13571e7af3429bf57457" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_accessor_refs_base" kindref="compound">CommandAccessorRefsBase</ref></type>
+        <definition>CommandAccessorRefsBase CommandSlotHolder.accessorComp</definition>
+        <argsstring></argsstring>
+        <name>accessorComp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="21" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_slot_holder_1afc6cb5b7f51abf91c6692e8fafe31d06" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CommandSlotHolder.isChainCommand</definition>
+        <argsstring></argsstring>
+        <name>isChainCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="22" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_command_slot_holder_1ae9702553316915f6250569e3a63934e9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_command_queue_helper" kindref="compound">CommandQueueHelper</ref></type>
+        <definition>CommandQueueHelper CommandSlotHolder._commandQueueHelper</definition>
+        <argsstring></argsstring>
+        <name>_commandQueueHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="19" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_command_slot_holder_1a3bf005461eaf26c46273e4add16e111d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotHolder.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="23" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="23" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_slot_holder_1a7b7b1c7fedc53e965a3a360ef3e394e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotHolder.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="32" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="32" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_slot_holder_1a8ff9a565179eae7e9e12ac265693ebaf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotHolder.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="41" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="41" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_slot_holder_1a5898d58f90fef8f9cf841b0875f56a59" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotHolder.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="59" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="59" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_slot_holder_1adb20c45b31cee41e8ee393d461ef9ca0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CommandSlotHolder.OnSimulateInputPress1Frame_Couroutine</definition>
+        <argsstring>()</argsstring>
+        <name>OnSimulateInputPress1Frame_Couroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="95" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="95" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_slot_holder_1ae0ad6427c38d0a7a73d52026d77b6ee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotHolder.OnInput</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnInput</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="77" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="77" bodyend="81"/>
+        <references refid="class_command_slot_holder_1a29a0a9ac0f74357a9d13caffb2198911" compoundref="_command_slot_holder_8cs" startline="13">commandInstanceInSlot</references>
+        <references refid="class_command_queue_helper_1aaf854de6f8905b86b04c690f79ac1f9a" compoundref="_command_queue_helper_8cs" startline="194" endline="201">CommandQueueHelper.ExecCommand_InputSystem</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_slot_holder_1a901044c36210e3c92512ec8b83026e85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotHolder.OnSimulateInput</definition>
+        <argsstring>(bool IsPressedThisFrame, float axis)</argsstring>
+        <name>OnSimulateInput</name>
+        <param>
+          <type>bool</type>
+          <declname>IsPressedThisFrame</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="84" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="84" bodyend="89"/>
+        <references refid="class_command_slot_holder_1a29a0a9ac0f74357a9d13caffb2198911" compoundref="_command_slot_holder_8cs" startline="13">commandInstanceInSlot</references>
+        <references refid="class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18" compoundref="_command_queue_helper_8cs" startline="202" endline="210">CommandQueueHelper.ExecCommand_SimulateInputSystem</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_slot_holder_1a64e3aec1cb950681f17374e1d74a2828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotHolder.OnSimulateInputPress1Frame</definition>
+        <argsstring>()</argsstring>
+        <name>OnSimulateInputPress1Frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="91" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_slot_holder_1af1341609808cef083a3ffd44564c8ce8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotHolder.OnSimulateInput</definition>
+        <argsstring>(bool IsPressedThisFrame)</argsstring>
+        <name>OnSimulateInput</name>
+        <param>
+          <type>bool</type>
+          <declname>IsPressedThisFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="103" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="103" bodyend="108"/>
+        <references refid="class_command_slot_holder_1a29a0a9ac0f74357a9d13caffb2198911" compoundref="_command_slot_holder_8cs" startline="13">commandInstanceInSlot</references>
+        <references refid="class_command_queue_helper_1affd76031933ce9ab22aad506ee3a9a18" compoundref="_command_queue_helper_8cs" startline="202" endline="210">CommandQueueHelper.ExecCommand_SimulateInputSystem</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CommandSlotHolder</label>
+        <link refid="class_command_slot_holder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>CommandAccessorRefsBase</label>
+        <link refid="class_command_accessor_refs_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+commandSlotHolder</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+commandSlotUnityEvents</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CommandAccessorRefsBase.CommandSlotUnityEvents</label>
+        <link refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events"/>
+      </node>
+      <node id="4">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+info</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+instanceInfo</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+cooldownInfo</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+execInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>CommandBase.CooldownInfo</label>
+        <link refid="struct_command_base_1_1_cooldown_info"/>
+      </node>
+      <node id="12">
+        <label>CommandBase.ExecutionInfo</label>
+        <link refid="class_command_base_1_1_execution_info"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+ExecDownChargingEvent</edgelabel>
+          <edgelabel>+ExecDownEvent</edgelabel>
+          <edgelabel>+ExecPressEvent</edgelabel>
+          <edgelabel>+ExecReleaseEvent</edgelabel>
+          <edgelabel>+ExecdEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CommandBase.Info</label>
+        <link refid="struct_command_base_1_1_info"/>
+      </node>
+      <node id="8">
+        <label>CommandBase.InstanceInfoRuntime</label>
+        <link refid="struct_command_base_1_1_instance_info_runtime"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+commandAccessorRefsComp</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+prevPrimaryCommand</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CommandSlotHolder</label>
+        <link refid="class_command_slot_holder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+commandInstanceInSlot</edgelabel>
+          <edgelabel>+commandInstanceSOAsset</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+accessorComp</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="3">
+        <label>InputCommand</label>
+        <link refid="class_input_command"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+execExtraInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>InputCommand.ExecExtraInfo</label>
+        <link refid="struct_input_command_1_1_exec_extra_info"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotHolder.cs" bodystart="8" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_command_slot_holder_1ae9702553316915f6250569e3a63934e9" prot="private" virt="non-virtual"><scope>CommandSlotHolder</scope><name>_commandQueueHelper</name></member>
+      <member refid="class_command_slot_holder_1a05ee98839c8a13571e7af3429bf57457" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>accessorComp</name></member>
+      <member refid="class_command_slot_holder_1a3bf005461eaf26c46273e4add16e111d" prot="private" virt="non-virtual"><scope>CommandSlotHolder</scope><name>Awake</name></member>
+      <member refid="class_command_slot_holder_1a29a0a9ac0f74357a9d13caffb2198911" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>commandInstanceInSlot</name></member>
+      <member refid="class_command_slot_holder_1a4a5b42aa8a9e47081b64c12d3cece71c" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>commandInstanceSOAsset</name></member>
+      <member refid="class_command_slot_holder_1a6b12e2044da41aa145f961755cd153db" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>commandOwnerRootObj</name></member>
+      <member refid="class_command_slot_holder_1adcd1c93202894bba3af5d13442f3f600" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>commandTargetObj</name></member>
+      <member refid="class_command_slot_holder_1afc6cb5b7f51abf91c6692e8fafe31d06" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>isChainCommand</name></member>
+      <member refid="class_command_slot_holder_1a8ff9a565179eae7e9e12ac265693ebaf" prot="private" virt="non-virtual"><scope>CommandSlotHolder</scope><name>OnDisable</name></member>
+      <member refid="class_command_slot_holder_1a7b7b1c7fedc53e965a3a360ef3e394e4" prot="private" virt="non-virtual"><scope>CommandSlotHolder</scope><name>OnEnable</name></member>
+      <member refid="class_command_slot_holder_1ae0ad6427c38d0a7a73d52026d77b6ee8" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>OnInput</name></member>
+      <member refid="class_command_slot_holder_1a901044c36210e3c92512ec8b83026e85" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>OnSimulateInput</name></member>
+      <member refid="class_command_slot_holder_1af1341609808cef083a3ffd44564c8ce8" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>OnSimulateInput</name></member>
+      <member refid="class_command_slot_holder_1a64e3aec1cb950681f17374e1d74a2828" prot="public" virt="non-virtual"><scope>CommandSlotHolder</scope><name>OnSimulateInputPress1Frame</name></member>
+      <member refid="class_command_slot_holder_1adb20c45b31cee41e8ee393d461ef9ca0" prot="private" virt="non-virtual"><scope>CommandSlotHolder</scope><name>OnSimulateInputPress1Frame_Couroutine</name></member>
+      <member refid="class_command_slot_holder_1a5898d58f90fef8f9cf841b0875f56a59" prot="private" virt="non-virtual"><scope>CommandSlotHolder</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

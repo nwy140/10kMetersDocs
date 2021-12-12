@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_save_handler_1_1_save_object" kind="class" language="C#" prot="private">
+    <compoundname>SaveHandler::SaveObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_save_handler_1_1_save_object_1a6708e2e6339f73ed396dbf2e2dc7879c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_turbine" kindref="compound">Turbine</ref></type>
+        <definition>Turbine SaveHandler.SaveObject.turbineUpgrade</definition>
+        <argsstring></argsstring>
+        <name>turbineUpgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Old/SaveHandler.cs" line="46" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Old/SaveHandler.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>PlayerUpgrades</label>
+        <link refid="class_player_upgrades"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SaveHandler.SaveObject</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+turbineUpgrade</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>Turbine</label>
+        <link refid="class_turbine"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Old/SaveHandler.cs" line="44" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Old/SaveHandler.cs" bodystart="45" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_save_handler_1_1_save_object_1a6708e2e6339f73ed396dbf2e2dc7879c" prot="public" virt="non-virtual"><scope>SaveHandler::SaveObject</scope><name>turbineUpgrade</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

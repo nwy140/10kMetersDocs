@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_patrol_by_random_pos" xml:lang="en-US">
+<title>PatrolByRandomPos Class Reference</title>
+<indexterm><primary>PatrolByRandomPos</primary></indexterm>
+Inheritance diagram for PatrolByRandomPos:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_random_pos__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for PatrolByRandomPos:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_random_pos__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_patrol_by_random_pos_1adc519deb1865afa1a55e3eb69ecadce0">PatrolByRandomPos</link> (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_patrol_by_random_pos_1a126c52c12f9907a4e7693a746151b3b5">OnEnterState</link> ()</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_patrol_by_random_pos_1a35f20bf96a35e62a592e92492b73e272">OnExitState</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_patrol_by_random_pos_1a15772a59fb76183c34994c59ce27fe3c">OnUpdate</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_patrol_by_random_pos_1a079eb0d6a5439a0e77e9d30e86b0eb7c">OnStayState</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_patrol_by_random_pos_1a6277984521445fecbb7a99c4b8b207ec">PerformStateBehaviour</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_patrol_by_random_pos_1a24716daa7c10ff70c7c8161c175247ae">waypointIndex</link> = 0</para>
+</listitem>
+            <listitem><para><link linkend="_class_waypoint_path">WaypointPath</link> <link linkend="_class_patrol_by_random_pos_1a5c9aacbbe51ded1fc8d1678b54b7e19f">waypointComp</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_patrol_by_random_pos_1ae61d4c34884179d0dd12541ea0f21f22">hasSetDestination</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_patrol_by_random_pos_1a88b8db5a376199b6be18022a349e9ddc">etaNextWaypoint</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_patrol_by_random_pos_1a5599049c9139d68f40b290a93467a7bf">timeBetweenWaypointsMin</link> = 5f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_patrol_by_random_pos_1a6c381c9d217ce77b5e3503369b1451a4">timeBetweenWaypointsMax</link> = 10f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_patrol_by_random_pos_1adc519deb1865afa1a55e3eb69ecadce0"/><section>
+    <title>PatrolByRandomPos()</title>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<para><computeroutput>PatrolByRandomPos.PatrolByRandomPos (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_patrol_by_random_pos_1a126c52c12f9907a4e7693a746151b3b5"/><section>
+    <title>OnEnterState()</title>
+<indexterm><primary>OnEnterState</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>OnEnterState</secondary></indexterm>
+<para><computeroutput>override bool PatrolByRandomPos.OnEnterState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_patrol_by_random_pos_1a35f20bf96a35e62a592e92492b73e272"/><section>
+    <title>OnExitState()</title>
+<indexterm><primary>OnExitState</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>OnExitState</secondary></indexterm>
+<para><computeroutput>override bool PatrolByRandomPos.OnExitState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_patrol_by_random_pos_1a079eb0d6a5439a0e77e9d30e86b0eb7c"/><section>
+    <title>OnStayState()</title>
+<indexterm><primary>OnStayState</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>OnStayState</secondary></indexterm>
+<para><computeroutput>override void PatrolByRandomPos.OnStayState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c">FSMBaseState</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_random_pos_a079eb0d6a5439a0e77e9d30e86b0eb7c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_patrol_by_random_pos_1a15772a59fb76183c34994c59ce27fe3c"/><section>
+    <title>OnUpdate()</title>
+<indexterm><primary>OnUpdate</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>OnUpdate</secondary></indexterm>
+<para><computeroutput>override void PatrolByRandomPos.OnUpdate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_patrol_by_random_pos_1a6277984521445fecbb7a99c4b8b207ec"/><section>
+    <title>PerformStateBehaviour()</title>
+<indexterm><primary>PerformStateBehaviour</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>PerformStateBehaviour</secondary></indexterm>
+<para><computeroutput>void PatrolByRandomPos.PerformStateBehaviour ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_random_pos_a6277984521445fecbb7a99c4b8b207ec_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_random_pos_a6277984521445fecbb7a99c4b8b207ec_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_patrol_by_random_pos_1a88b8db5a376199b6be18022a349e9ddc"/><section>
+    <title>etaNextWaypoint</title>
+<indexterm><primary>etaNextWaypoint</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>etaNextWaypoint</secondary></indexterm>
+<para><computeroutput>float PatrolByRandomPos.etaNextWaypoint</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_random_pos_1ae61d4c34884179d0dd12541ea0f21f22"/><section>
+    <title>hasSetDestination</title>
+<indexterm><primary>hasSetDestination</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>hasSetDestination</secondary></indexterm>
+<para><computeroutput>bool PatrolByRandomPos.hasSetDestination</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_random_pos_1a6c381c9d217ce77b5e3503369b1451a4"/><section>
+    <title>timeBetweenWaypointsMax</title>
+<indexterm><primary>timeBetweenWaypointsMax</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>timeBetweenWaypointsMax</secondary></indexterm>
+<para><computeroutput>float PatrolByRandomPos.timeBetweenWaypointsMax = 10f</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_random_pos_1a5599049c9139d68f40b290a93467a7bf"/><section>
+    <title>timeBetweenWaypointsMin</title>
+<indexterm><primary>timeBetweenWaypointsMin</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>timeBetweenWaypointsMin</secondary></indexterm>
+<para><computeroutput>float PatrolByRandomPos.timeBetweenWaypointsMin = 5f</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_random_pos_1a5c9aacbbe51ded1fc8d1678b54b7e19f"/><section>
+    <title>waypointComp</title>
+<indexterm><primary>waypointComp</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>waypointComp</secondary></indexterm>
+<para><computeroutput><link linkend="_class_waypoint_path">WaypointPath</link> PatrolByRandomPos.waypointComp</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_random_pos_1a24716daa7c10ff70c7c8161c175247ae"/><section>
+    <title>waypointIndex</title>
+<indexterm><primary>waypointIndex</primary><secondary>PatrolByRandomPos</secondary></indexterm>
+<indexterm><primary>PatrolByRandomPos</primary><secondary>waypointIndex</secondary></indexterm>
+<para><computeroutput>int PatrolByRandomPos.waypointIndex = 0</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/<link linkend="__n_p_c_a_i_states_type_a_8cs">NPCAIStatesTypeA.cs</link></section>
+</section>

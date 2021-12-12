@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_constraint_common" kind="class" language="C#" prot="public">
+    <compoundname>ConstraintCommon</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_constraint_common_1ab1162e9a13ab600cc1c251e55dc3176b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConstraintCommon.ResetCSrcToSingleTargetParent</definition>
+        <argsstring>(ParentConstraint parentConstraint, Transform targetTrans)</argsstring>
+        <name>ResetCSrcToSingleTargetParent</name>
+        <param>
+          <type>ParentConstraint</type>
+          <declname>parentConstraint</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>targetTrans</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/ConstraintCommon.cs" line="10" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/ConstraintCommon.cs" bodystart="10" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_constraint_common_1ab6419532bacd5d2075fb4d885281fbbe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConstraintCommon.SetFirstCSourceSnapTargetParent</definition>
+        <argsstring>(ParentConstraint parentConstraint, Transform targetTrans)</argsstring>
+        <name>SetFirstCSourceSnapTargetParent</name>
+        <param>
+          <type>ParentConstraint</type>
+          <declname>parentConstraint</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>targetTrans</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/ConstraintCommon.cs" line="35" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/ConstraintCommon.cs" bodystart="35" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_constraint_common_1ad8219bf64219a336899debcd2700b67a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ConstraintSource</type>
+        <definition>static ConstraintSource ConstraintCommon.NewCSourceParent</definition>
+        <argsstring>(Transform srcTransform, float weight)</argsstring>
+        <name>NewCSourceParent</name>
+        <param>
+          <type>Transform</type>
+          <declname>srcTransform</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/ConstraintCommon.cs" line="64" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/ConstraintCommon.cs" bodystart="64" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ConstraintCommon</label>
+        <link refid="class_constraint_common"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/ConstraintCommon.cs" line="7" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/Components/ConstraintCommon.cs" bodystart="8" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_constraint_common_1ad8219bf64219a336899debcd2700b67a" prot="public" virt="non-virtual"><scope>ConstraintCommon</scope><name>NewCSourceParent</name></member>
+      <member refid="class_constraint_common_1ab1162e9a13ab600cc1c251e55dc3176b" prot="public" virt="non-virtual"><scope>ConstraintCommon</scope><name>ResetCSrcToSingleTargetParent</name></member>
+      <member refid="class_constraint_common_1ab6419532bacd5d2075fb4d885281fbbe" prot="public" virt="non-virtual"><scope>ConstraintCommon</scope><name>SetFirstCSourceSnapTargetParent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

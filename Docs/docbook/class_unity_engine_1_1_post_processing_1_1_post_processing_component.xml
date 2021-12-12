@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a982348916489395b61300b2ed37784a3">Init</link> (<link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context">PostProcessingContext</link> pcontext, T pmodel)</para>
+</listitem>
+            <listitem><para>override <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model">PostProcessingModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_1ac946ffb514e0ebb0141e87777459ffc9">GetModel</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>T <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a7af78d4436d104b01373d1bf0f7bcedf">model</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_1ac946ffb514e0ebb0141e87777459ffc9"/><section>
+    <title>GetModel()</title>
+<indexterm><primary>GetModel</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</primary><secondary>GetModel</secondary></indexterm>
+<para><computeroutput>override <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model">PostProcessingModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component">UnityEngine.PostProcessing.PostProcessingComponent</link>&lt; T &gt;.GetModel ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a83558500b9f9bf231f57bffee50062ea">UnityEngine.PostProcessing.PostProcessingComponentBase</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a982348916489395b61300b2ed37784a3"/><section>
+    <title>Init()</title>
+<indexterm><primary>Init</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</primary><secondary>Init</secondary></indexterm>
+<para><computeroutput>virtual void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component">UnityEngine.PostProcessing.PostProcessingComponent</link>&lt; T &gt;.Init (<link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context">PostProcessingContext</link> pcontext, T pmodel)<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_1a7af78d4436d104b01373d1bf0f7bcedf"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>T <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component">UnityEngine.PostProcessing.PostProcessingComponent</link>&lt; T &gt;.model<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/<link linkend="__post_processing_component_8cs">PostProcessingComponent.cs</link></section>
+</section>

@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::Samples::InputActionVisualizer</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer" prot="public" virt="non-virtual">UnityEngine.InputSystem.Samples.InputVisualizer</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Visualization</name>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a689202409e48743b914713f96d93947c" prot="public">
+          <name>Value</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a61ee5a22cd5f14ed4e48eb5611031e74" prot="public">
+          <name>Interaction</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="315" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="316" bodyend="320"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1aac16bff89a8b86af09b2e09732be09e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputAction</type>
+        <definition>InputAction UnityEngine.InputSystem.Samples.InputActionVisualizer.action</definition>
+        <argsstring></argsstring>
+        <name>action</name>
+        <briefdescription>
+<para>The action that is being visualized. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>May be null. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="25" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a494f9673774a232581a65be4aff978c2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8" kindref="member">Visualization</ref></type>
+        <definition>Visualization UnityEngine.InputSystem.Samples.InputActionVisualizer.m_Visualization</definition>
+        <argsstring></argsstring>
+        <name>m_Visualization</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="295" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a27403ec59524ba75abed72663e4b6ad1" prot="private" static="no" mutable="no">
+        <type>InputActionReference</type>
+        <definition>InputActionReference UnityEngine.InputSystem.Samples.InputActionVisualizer.m_ActionReference</definition>
+        <argsstring></argsstring>
+        <name>m_ActionReference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="296" column="39" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1af222413c4834b3a5bf70f80f91b0a774" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UnityEngine.InputSystem.Samples.InputActionVisualizer.m_ActionName</definition>
+        <argsstring></argsstring>
+        <name>m_ActionName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="297" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ad4af2dee3398af689bca5d0dcd6efcdd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.Samples.InputActionVisualizer.m_ShowControlName</definition>
+        <argsstring></argsstring>
+        <name>m_ShowControlName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="298" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1aadf1c4ab55c55e5f162f6d31e2a35138" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction UnityEngine.InputSystem.Samples.InputActionVisualizer.m_Action</definition>
+        <argsstring></argsstring>
+        <name>m_Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="300" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a283eccb94f5d8634521717d7ec707c3e" prot="private" static="no" mutable="no">
+        <type>InputControl</type>
+        <definition>InputControl UnityEngine.InputSystem.Samples.InputActionVisualizer.m_ActiveControl</definition>
+        <argsstring></argsstring>
+        <name>m_ActiveControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="301" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a4db52423768cf16c8e5ce2f7ed4e6788" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEngine.InputSystem.Samples.InputActionVisualizer.m_ActiveControlName</definition>
+        <argsstring></argsstring>
+        <name>m_ActiveControlName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="302" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a49430c10e6b43e415c07805e3aaeb387" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer" kindref="compound">InputActionVisualizer</ref> &gt;</type>
+        <definition>List&lt;InputActionVisualizer&gt; UnityEngine.InputSystem.Samples.InputActionVisualizer.s_EnabledInstances</definition>
+        <argsstring></argsstring>
+        <name>s_EnabledInstances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="304" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1af6fd165b14d8da9203735714a3664f3f" prot="private" static="yes" mutable="no">
+        <type>readonly Color[]</type>
+        <definition>readonly Color [] UnityEngine.InputSystem.Samples.InputActionVisualizer.s_InteractionColors</definition>
+        <argsstring></argsstring>
+        <name>s_InteractionColors</name>
+        <initializer>=
+        {
+            new Color(1, 0, 0, 1),
+            new Color(0, 0, 1, 1),
+            new Color(1, 1, 0, 1),
+            new Color(1, 0, 1, 1),
+            new Color(0, 1, 1, 1),
+            new Color(0, 1, 0, 1),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="305" column="39" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a658379d2d13cd22c71978fda7a5f9b38" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InputActionVisualizer.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="27" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a071ccc1ab67b3d5bb64c40834a3673ca" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InputActionVisualizer.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="36" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1af06733090e6e429eb7e76ef2c80dc986" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="45" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="45" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a4d9e0ae926d5743b3c33ec6814a12562" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="62" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="62" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a8e83570d163bd349d647d7f0bf1353ee" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="78" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="78" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a7b44534f290d83c47a16580c2fbc2fd3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InputActionVisualizer.RecordValue</definition>
+        <argsstring>(double time)</argsstring>
+        <name>RecordValue</name>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="93" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="93" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1aeb0bb7ebb8087846734b3e1d8fb8e875" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InputActionVisualizer.RecordControlName</definition>
+        <argsstring>()</argsstring>
+        <name>RecordControlName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="105" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="105" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a2e46e764c8caeb59da3151d2e747839d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InputActionVisualizer.ResolveAction</definition>
+        <argsstring>()</argsstring>
+        <name>ResolveAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="115" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="115" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a66d1578f14fa7ee17bcb5947ba4e8962" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InputActionVisualizer.SetupVisualizer</definition>
+        <argsstring>()</argsstring>
+        <name>SetupVisualizer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="158" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="158" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a9819082f389838a1d0f876440350fa20" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnActionDisabled</definition>
+        <argsstring>()</argsstring>
+        <name>OnActionDisabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="212" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="212" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a4dd3802a606170746dd4eb1e04d9b544" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnActionTriggered</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnActionTriggered</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="216" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="216" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a2a7c37ae718afe02e39a24749527fa91" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.InputSystem.Samples.InputActionVisualizer.OnActionChange</definition>
+        <argsstring>(object actionOrMap, InputActionChange change)</argsstring>
+        <name>OnActionChange</name>
+        <param>
+          <type>object</type>
+          <declname>actionOrMap</declname>
+        </param>
+        <param>
+          <type>InputActionChange</type>
+          <declname>change</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="266" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="266" bodyend="293"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A component for debugging purposes that adds an on-screen display which shows activity on an input action over time (<ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a61ee5a22cd5f14ed4e48eb5611031e74" kindref="member">InputActionVisualizer.Visualization.Interaction</ref>) or an action&apos;s current value (<ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8a689202409e48743b914713f96d93947c" kindref="member">InputActionVisualizer.Visualization.Value</ref>). </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer" kindref="compound">InputControlVisualizer</ref></para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>InputVisualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.InputActionVisualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>InputVisualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>~m_Visualizer</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>~m_Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.InputActionVisualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>UnityEngine.InputSystem.Samples.InputVisualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>~m_Visualizer</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>~m_Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" line="20" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/InputActionVisualizer.cs" bodystart="21" bodyend="321"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1aac16bff89a8b86af09b2e09732be09e5" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>action</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a658379d2d13cd22c71978fda7a5f9b38" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>FixedUpdate</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1aadf1c4ab55c55e5f162f6d31e2a35138" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_Action</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1af222413c4834b3a5bf70f80f91b0a774" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_ActionName</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a27403ec59524ba75abed72663e4b6ad1" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_ActionReference</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a283eccb94f5d8634521717d7ec707c3e" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_ActiveControl</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a4db52423768cf16c8e5ce2f7ed4e6788" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_ActiveControlName</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1a6c091a804f633cac9e9d5e0d5d40237b" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_HistorySamples</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1aea51b44206fa4660126b8e7886e42213" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_Label</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1adfdc55da5a1fbf0c9c6e1e54a2ef1bef" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_LabelContent</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1a0dcfbf2b2c2a34f9b364370f19fe7c5e" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_Parent</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1a5cb184a32b553365dc736ee8b73c5cdd" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_Rect</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ad4af2dee3398af689bca5d0dcd6efcdd" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_ShowControlName</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1a1be3da720d51541251acb094b55d4172" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_TimeWindow</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a494f9673774a232581a65be4aff978c2" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_Visualization</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1a713f57994dc1f6c6f233195a3cb1f83c" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>m_Visualizer</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a2a7c37ae718afe02e39a24749527fa91" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>OnActionChange</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a9819082f389838a1d0f876440350fa20" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>OnActionDisabled</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a4dd3802a606170746dd4eb1e04d9b544" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>OnActionTriggered</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a4d9e0ae926d5743b3c33ec6814a12562" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1af06733090e6e429eb7e76ef2c80dc986" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a8e83570d163bd349d647d7f0bf1353ee" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>OnGUI</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1a4c3760b78b03bd41fbd68730680c8514" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>OnValidate</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1aeb0bb7ebb8087846734b3e1d8fb8e875" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>RecordControlName</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a7b44534f290d83c47a16580c2fbc2fd3" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>RecordValue</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a2e46e764c8caeb59da3151d2e747839d" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>ResolveAction</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_visualizer_1a80969112f2ab10c52e0fd80207145d45" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>ResolveParent</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a49430c10e6b43e415c07805e3aaeb387" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>s_EnabledInstances</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1af6fd165b14d8da9203735714a3664f3f" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>s_InteractionColors</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a66d1578f14fa7ee17bcb5947ba4e8962" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>SetupVisualizer</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1a071ccc1ab67b3d5bb64c40834a3673ca" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>Update</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer_1ae675b4adbc3e9b13c767fcd6ca0e46a8" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::InputActionVisualizer</scope><name>Visualization</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

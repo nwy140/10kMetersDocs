@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_control_rebinding_u_i" kind="class" language="C#" prot="public">
+    <compoundname>ControlRebindingUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a4b81a42899704cf72ad22fab47882f02" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button ControlRebindingUI.m_Button</definition>
+        <argsstring></argsstring>
+        <name>m_Button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="11" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_control_rebinding_u_i_1adaf5ec59d6f577651604dcd734bc9f33" compoundref="_control_rebinding_u_i_8cs" startline="24" endline="50">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a1ed1eb41de764b5c89ebef12a10e1705" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text ControlRebindingUI.m_Text</definition>
+        <argsstring></argsstring>
+        <name>m_Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="12" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_control_rebinding_u_i_1adaf5ec59d6f577651604dcd734bc9f33" compoundref="_control_rebinding_u_i_8cs" startline="24" endline="50">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a2cf085176490c8268863315d8bbea25d" prot="public" static="no" mutable="no">
+        <type>InputActionReference</type>
+        <definition>InputActionReference ControlRebindingUI.m_ActionReference</definition>
+        <argsstring></argsstring>
+        <name>m_ActionReference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="13" column="33" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_control_rebinding_u_i_1adaf5ec59d6f577651604dcd734bc9f33" compoundref="_control_rebinding_u_i_8cs" startline="24" endline="50">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a169a6e75a40d28c86a65048494205e7e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlRebindingUI.m_DefaultBindingIndex</definition>
+        <argsstring></argsstring>
+        <name>m_DefaultBindingIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="14" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_control_rebinding_u_i_1adaf5ec59d6f577651604dcd734bc9f33" compoundref="_control_rebinding_u_i_8cs" startline="24" endline="50">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a307a007a65ea51e807db54e8b7d87f7f" prot="public" static="no" mutable="no">
+        <type>Button[]</type>
+        <definition>Button [] ControlRebindingUI.m_CompositeButtons</definition>
+        <argsstring></argsstring>
+        <name>m_CompositeButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="15" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_control_rebinding_u_i_1adaf5ec59d6f577651604dcd734bc9f33" compoundref="_control_rebinding_u_i_8cs" startline="24" endline="50">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1ae53a2c8770a60a039dc2b0dcfabc22de" prot="public" static="no" mutable="no">
+        <type>Text[]</type>
+        <definition>Text [] ControlRebindingUI.m_CompositeTexts</definition>
+        <argsstring></argsstring>
+        <name>m_CompositeTexts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="16" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_control_rebinding_u_i_1adaf5ec59d6f577651604dcd734bc9f33" compoundref="_control_rebinding_u_i_8cs" startline="24" endline="50">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a6439f14f0971f487b4f4487dd098ef86" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction ControlRebindingUI.m_Action</definition>
+        <argsstring></argsstring>
+        <name>m_Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="18" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1ad7df285d991ce3a2d47e6ad7b43e1d6b" prot="private" static="no" mutable="no">
+        <type>InputActionRebindingExtensions.RebindingOperation</type>
+        <definition>InputActionRebindingExtensions.RebindingOperation ControlRebindingUI.m_RebindOperation</definition>
+        <argsstring></argsstring>
+        <name>m_RebindOperation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="19" column="62" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a3eb03b59a029f73d0cebbcdf94a3ef11" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] ControlRebindingUI.m_CompositeBindingIndices</definition>
+        <argsstring></argsstring>
+        <name>m_CompositeBindingIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="20" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a8bd8781854d14af7fc35569503f362cb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ControlRebindingUI.m_CompositeType</definition>
+        <argsstring></argsstring>
+        <name>m_CompositeType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="21" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_rebinding_u_i_1a850a9c324a49206aa4c4e541423558bf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ControlRebindingUI.m_IsUsingComposite</definition>
+        <argsstring></argsstring>
+        <name>m_IsUsingComposite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="22" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_control_rebinding_u_i_1adaf5ec59d6f577651604dcd734bc9f33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlRebindingUI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="24" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="24" bodyend="50"/>
+        <references refid="class_control_rebinding_u_i_1a2cf085176490c8268863315d8bbea25d" compoundref="_control_rebinding_u_i_8cs" startline="13">m_ActionReference</references>
+        <references refid="class_control_rebinding_u_i_1a4b81a42899704cf72ad22fab47882f02" compoundref="_control_rebinding_u_i_8cs" startline="11">m_Button</references>
+        <references refid="class_control_rebinding_u_i_1a307a007a65ea51e807db54e8b7d87f7f" compoundref="_control_rebinding_u_i_8cs" startline="15">m_CompositeButtons</references>
+        <references refid="class_control_rebinding_u_i_1ae53a2c8770a60a039dc2b0dcfabc22de" compoundref="_control_rebinding_u_i_8cs" startline="16">m_CompositeTexts</references>
+        <references refid="class_control_rebinding_u_i_1a169a6e75a40d28c86a65048494205e7e" compoundref="_control_rebinding_u_i_8cs" startline="14">m_DefaultBindingIndex</references>
+        <references refid="class_control_rebinding_u_i_1a1ed1eb41de764b5c89ebef12a10e1705" compoundref="_control_rebinding_u_i_8cs" startline="12">m_Text</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_control_rebinding_u_i_1a127620b45cf1ba6e62aa5a2793d6d33f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlRebindingUI.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="52" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_rebinding_u_i_1a5ad563f7fc3c84a76889f9564785fd01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ControlRebindingUI.ControlMatchesCompositeType</definition>
+        <argsstring>(InputControl control, string compositeType)</argsstring>
+        <name>ControlMatchesCompositeType</name>
+        <param>
+          <type>InputControl</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>compositeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="57" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="57" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_rebinding_u_i_1a0022695e02140ebb64ea575fb21b84e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float ControlRebindingUI.ScoreFunc</definition>
+        <argsstring>(string compositeType, InputControl control, InputEventPtr eventPtr)</argsstring>
+        <name>ScoreFunc</name>
+        <param>
+          <type>string</type>
+          <declname>compositeType</declname>
+        </param>
+        <param>
+          <type>InputControl</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>InputEventPtr</type>
+          <declname>eventPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="71" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="71" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_rebinding_u_i_1a6e9a579e9e16717656615991b6d2f57d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlRebindingUI.RemapButtonClicked</definition>
+        <argsstring>(string name, int bindingIndex=0)</argsstring>
+        <name>RemapButtonClicked</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bindingIndex</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="88" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="88" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_rebinding_u_i_1a14653624c88b15c3a5fb835c7b826f43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlRebindingUI.ResetButtonMappingTextValue</definition>
+        <argsstring>()</argsstring>
+        <name>ResetButtonMappingTextValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="130" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="130" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_rebinding_u_i_1a9f2d767d5e80b76319298c1eacc66a7f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlRebindingUI.ButtonRebindCompleted</definition>
+        <argsstring>()</argsstring>
+        <name>ButtonRebindCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="142" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="142" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ControlRebindingUI</label>
+        <link refid="class_control_rebinding_u_i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ControlRebindingUI</label>
+        <link refid="class_control_rebinding_u_i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+m_CompositeTexts</edgelabel>
+          <edgelabel>+m_Text</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>Text</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" line="9" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/ControlRebindingUI.cs" bodystart="10" bodyend="149"/>
+    <listofallmembers>
+      <member refid="class_control_rebinding_u_i_1a9f2d767d5e80b76319298c1eacc66a7f" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>ButtonRebindCompleted</name></member>
+      <member refid="class_control_rebinding_u_i_1a5ad563f7fc3c84a76889f9564785fd01" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>ControlMatchesCompositeType</name></member>
+      <member refid="class_control_rebinding_u_i_1a6439f14f0971f487b4f4487dd098ef86" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_Action</name></member>
+      <member refid="class_control_rebinding_u_i_1a2cf085176490c8268863315d8bbea25d" prot="public" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_ActionReference</name></member>
+      <member refid="class_control_rebinding_u_i_1a4b81a42899704cf72ad22fab47882f02" prot="public" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_Button</name></member>
+      <member refid="class_control_rebinding_u_i_1a3eb03b59a029f73d0cebbcdf94a3ef11" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_CompositeBindingIndices</name></member>
+      <member refid="class_control_rebinding_u_i_1a307a007a65ea51e807db54e8b7d87f7f" prot="public" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_CompositeButtons</name></member>
+      <member refid="class_control_rebinding_u_i_1ae53a2c8770a60a039dc2b0dcfabc22de" prot="public" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_CompositeTexts</name></member>
+      <member refid="class_control_rebinding_u_i_1a8bd8781854d14af7fc35569503f362cb" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_CompositeType</name></member>
+      <member refid="class_control_rebinding_u_i_1a169a6e75a40d28c86a65048494205e7e" prot="public" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_DefaultBindingIndex</name></member>
+      <member refid="class_control_rebinding_u_i_1a850a9c324a49206aa4c4e541423558bf" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_IsUsingComposite</name></member>
+      <member refid="class_control_rebinding_u_i_1ad7df285d991ce3a2d47e6ad7b43e1d6b" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_RebindOperation</name></member>
+      <member refid="class_control_rebinding_u_i_1a1ed1eb41de764b5c89ebef12a10e1705" prot="public" virt="non-virtual"><scope>ControlRebindingUI</scope><name>m_Text</name></member>
+      <member refid="class_control_rebinding_u_i_1a127620b45cf1ba6e62aa5a2793d6d33f" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>OnDestroy</name></member>
+      <member refid="class_control_rebinding_u_i_1a6e9a579e9e16717656615991b6d2f57d" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>RemapButtonClicked</name></member>
+      <member refid="class_control_rebinding_u_i_1a14653624c88b15c3a5fb835c7b826f43" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>ResetButtonMappingTextValue</name></member>
+      <member refid="class_control_rebinding_u_i_1a0022695e02140ebb64ea575fb21b84e1" prot="private" virt="non-virtual"><scope>ControlRebindingUI</scope><name>ScoreFunc</name></member>
+      <member refid="class_control_rebinding_u_i_1adaf5ec59d6f577651604dcd734bc9f33" prot="public" virt="non-virtual"><scope>ControlRebindingUI</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

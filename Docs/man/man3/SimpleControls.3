@@ -1,0 +1,108 @@
+.TH "SimpleControls" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SimpleControls
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits IInputActionCollection2, and IDisposable\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBGameplayActions\fP"
+.br
+.ti -1c
+.RI "interface \fBIGameplayActions\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSimpleControls\fP ()"
+.br
+.ti -1c
+.RI "void \fBDispose\fP ()"
+.br
+.ti -1c
+.RI "bool \fBContains\fP (InputAction action)"
+.br
+.ti -1c
+.RI "IEnumerator< InputAction > \fBGetEnumerator\fP ()"
+.br
+.ti -1c
+.RI "void \fBEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBDisable\fP ()"
+.br
+.ti -1c
+.RI "InputAction \fBFindAction\fP (string actionNameOrId, bool throwIfNotFound=false)"
+.br
+.ti -1c
+.RI "int \fBFindBinding\fP (InputBinding \fBbindingMask\fP, out InputAction action)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "InputActionAsset \fBasset\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputBinding? \fBbindingMask\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "ReadOnlyArray< InputDevice >? \fBdevices\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "ReadOnlyArray< InputControlScheme > \fBcontrolSchemes\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "IEnumerable< InputBinding > \fBbindings\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBGameplayActions\fP \fBgameplay\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SimpleControls\&.SimpleControls ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "bool SimpleControls\&.Contains (InputAction action)"
+
+.SS "void SimpleControls\&.Disable ()"
+
+.SS "void SimpleControls\&.Dispose ()"
+
+.SS "void SimpleControls\&.Enable ()"
+
+.SS "InputAction SimpleControls\&.FindAction (string actionNameOrId, bool throwIfNotFound = \fCfalse\fP)"
+
+.SS "int SimpleControls\&.FindBinding (InputBinding bindingMask, out InputAction action)"
+
+.SS "IEnumerator< InputAction > SimpleControls\&.GetEnumerator ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "InputActionAsset SimpleControls\&.asset\fC [get]\fP"
+
+.SS "InputBinding? SimpleControls\&.bindingMask\fC [get]\fP, \fC [set]\fP"
+
+.SS "IEnumerable<InputBinding> SimpleControls\&.bindings\fC [get]\fP"
+
+.SS "ReadOnlyArray<InputControlScheme> SimpleControls\&.controlSchemes\fC [get]\fP"
+
+.SS "ReadOnlyArray<InputDevice>? SimpleControls\&.devices\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBGameplayActions\fP SimpleControls\&.gameplay\fC [get]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_item_container" xml:lang="en-US">
+<title>ItemContainer Class Reference</title>
+<indexterm><primary>ItemContainer</primary></indexterm>
+Inheritance diagram for ItemContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_container__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for ItemContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_container__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_item_container_1afdacd7d3275a184268f58a243ab264a9">Awake</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_item_container_1a5628acd2a1298ad30086abcfb0b2f445">CheckIfSlotIsEmpty</link> (<link linkend="_classitem">item</link> <link linkend="_classitem">item</link>)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_item_container_1af6d25e8fc0187dca050a37f6b3d6767b">addItem</link> (<link linkend="_classitem">item</link> <link linkend="_classitem">item</link>)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_item_container_1ab50a72dfcb950d3a483dc1c53471fedf">removeItem</link> (<link linkend="_classitem">item</link> <link linkend="_classitem">item</link>)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_item_container_1a9fa954c3d26b1ee1844a73aa4e7f65eb">discardItem</link> (<link linkend="_classitem_slots">itemSlots</link> <link linkend="_classitem">item</link>)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_item_container_1adfd88e49a35c5bd49417507c48c05260">removeItemWithAmount</link> (<link linkend="_classitem">item</link> <link linkend="_classitem">item</link>, int amount)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_item_container_1aaaa93fedc164672528fee56061686ee0">IsFull</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_item_container_1ab50b820cf41946e71e0b4d680bf8117f">Clear</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff">ItemSlots</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_class_item_container_1a881703dfdea0d17ac5dd71439b14a41a">OnPointerEnterEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_class_item_container_1a79cf8f59fe58b8f27100ef2fa9dc6ab5">OnPointerExitEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_class_item_container_1a51e056c389290250e3b95270fd3e50e4">OnLeftClickEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_class_item_container_1a02f085904d3da683b71f5bbf7ab4cc95">OnBeginDragEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_class_item_container_1aa640b20e572e8ac726d2914375956d1e">OnEndDragEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_class_item_container_1ad8ea44ce84d6b1d8c5f8523038379cfb">OnDragEvent</link></para>
+</listitem>
+            <listitem><para>Action&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_class_item_container_1afe1f3259c2bd0f43dd3f4d53464e7d81">OnDropEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_item_container_1af6d25e8fc0187dca050a37f6b3d6767b"/><section>
+    <title>addItem()</title>
+<indexterm><primary>addItem</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>addItem</secondary></indexterm>
+<para><computeroutput>bool ItemContainer.addItem (<link linkend="_classitem">item</link> item)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_container_af6d25e8fc0187dca050a37f6b3d6767b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_item_container_1afdacd7d3275a184268f58a243ab264a9"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>virtual void ItemContainer.Awake ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_classstorage_1a72387ff5adec348a9190a7b5944ca260">storage</link>.</para>
+</section>
+<anchor xml:id="_class_item_container_1a5628acd2a1298ad30086abcfb0b2f445"/><section>
+    <title>CheckIfSlotIsEmpty()</title>
+<indexterm><primary>CheckIfSlotIsEmpty</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>CheckIfSlotIsEmpty</secondary></indexterm>
+<para><computeroutput>bool ItemContainer.CheckIfSlotIsEmpty (<link linkend="_classitem">item</link> item)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_container_a5628acd2a1298ad30086abcfb0b2f445_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_item_container_1ab50b820cf41946e71e0b4d680bf8117f"/><section>
+    <title>Clear()</title>
+<indexterm><primary>Clear</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>Clear</secondary></indexterm>
+<para><computeroutput>void ItemContainer.Clear ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_container_ab50b820cf41946e71e0b4d680bf8117f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_item_container_1a9fa954c3d26b1ee1844a73aa4e7f65eb"/><section>
+    <title>discardItem()</title>
+<indexterm><primary>discardItem</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>discardItem</secondary></indexterm>
+<para><computeroutput>bool ItemContainer.discardItem (<link linkend="_classitem_slots">itemSlots</link> item)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_container_a9fa954c3d26b1ee1844a73aa4e7f65eb_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_item_container_1aaaa93fedc164672528fee56061686ee0"/><section>
+    <title>IsFull()</title>
+<indexterm><primary>IsFull</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>IsFull</secondary></indexterm>
+<para><computeroutput>bool ItemContainer.IsFull ( )</computeroutput></para></section>
+<anchor xml:id="_class_item_container_1ab50a72dfcb950d3a483dc1c53471fedf"/><section>
+    <title>removeItem()</title>
+<indexterm><primary>removeItem</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>removeItem</secondary></indexterm>
+<para><computeroutput>bool ItemContainer.removeItem (<link linkend="_classitem">item</link> item)</computeroutput></para></section>
+<anchor xml:id="_class_item_container_1adfd88e49a35c5bd49417507c48c05260"/><section>
+    <title>removeItemWithAmount()</title>
+<indexterm><primary>removeItemWithAmount</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>removeItemWithAmount</secondary></indexterm>
+<para><computeroutput>bool ItemContainer.removeItemWithAmount (<link linkend="_classitem">item</link> item, int amount)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_item_container_adfd88e49a35c5bd49417507c48c05260_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff"/><section>
+    <title>ItemSlots</title>
+<indexterm><primary>ItemSlots</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>ItemSlots</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; ItemContainer.ItemSlots</computeroutput></para></section>
+</section>
+<section>
+<title>Event Documentation</title>
+<anchor xml:id="_class_item_container_1a02f085904d3da683b71f5bbf7ab4cc95"/><section>
+    <title>OnBeginDragEvent</title>
+<indexterm><primary>OnBeginDragEvent</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>OnBeginDragEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; ItemContainer.OnBeginDragEvent</computeroutput></para></section>
+<anchor xml:id="_class_item_container_1ad8ea44ce84d6b1d8c5f8523038379cfb"/><section>
+    <title>OnDragEvent</title>
+<indexterm><primary>OnDragEvent</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>OnDragEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; ItemContainer.OnDragEvent</computeroutput></para></section>
+<anchor xml:id="_class_item_container_1afe1f3259c2bd0f43dd3f4d53464e7d81"/><section>
+    <title>OnDropEvent</title>
+<indexterm><primary>OnDropEvent</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>OnDropEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; ItemContainer.OnDropEvent</computeroutput></para></section>
+<anchor xml:id="_class_item_container_1aa640b20e572e8ac726d2914375956d1e"/><section>
+    <title>OnEndDragEvent</title>
+<indexterm><primary>OnEndDragEvent</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>OnEndDragEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; ItemContainer.OnEndDragEvent</computeroutput></para></section>
+<anchor xml:id="_class_item_container_1a51e056c389290250e3b95270fd3e50e4"/><section>
+    <title>OnLeftClickEvent</title>
+<indexterm><primary>OnLeftClickEvent</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>OnLeftClickEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; ItemContainer.OnLeftClickEvent</computeroutput></para></section>
+<anchor xml:id="_class_item_container_1a881703dfdea0d17ac5dd71439b14a41a"/><section>
+    <title>OnPointerEnterEvent</title>
+<indexterm><primary>OnPointerEnterEvent</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>OnPointerEnterEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; ItemContainer.OnPointerEnterEvent</computeroutput></para></section>
+<anchor xml:id="_class_item_container_1a79cf8f59fe58b8f27100ef2fa9dc6ab5"/><section>
+    <title>OnPointerExitEvent</title>
+<indexterm><primary>OnPointerExitEvent</primary><secondary>ItemContainer</secondary></indexterm>
+<indexterm><primary>ItemContainer</primary><secondary>OnPointerExitEvent</secondary></indexterm>
+<para><computeroutput>Action&lt;<link linkend="_classitem_slots">itemSlots</link>&gt; ItemContainer.OnPointerExitEvent</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/<link linkend="__item_container_8cs">ItemContainer.cs</link></section>
+</section>

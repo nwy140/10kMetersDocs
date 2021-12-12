@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_simple_controller___using_action_asset" kind="class" language="C#" prot="public">
+    <compoundname>SimpleController_UsingActionAsset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_simple_controller___using_action_asset_1a40a2dc32a68da24e57379421d8a46d50" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SimpleController_UsingActionAsset.moveSpeed</definition>
+        <argsstring></argsstring>
+        <name>moveSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_controller___using_action_asset_1aac4916602942837a46375f37a3267636" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SimpleController_UsingActionAsset.rotateSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotateSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_controller___using_action_asset_1adeac070d24dc66dd9effa3ec585bc0fa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SimpleController_UsingActionAsset.burstSpeed</definition>
+        <argsstring></argsstring>
+        <name>burstSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_simple_controller___using_action_asset_1aaef383503b16f5ac75203341ac1b1b15" compoundref="_simple_controller___using_action_asset_8cs" startline="17" endline="45">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_controller___using_action_asset_1a7123310c8dcd0113d5f0652f3bb82095" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SimpleController_UsingActionAsset.projectile</definition>
+        <argsstring></argsstring>
+        <name>projectile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="11" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_simple_controller___using_action_asset_1aff431dcbe8d46a66db95f18af4183f4d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_simple_controls" kindref="compound">SimpleControls</ref></type>
+        <definition>SimpleControls SimpleController_UsingActionAsset.m_Controls</definition>
+        <argsstring></argsstring>
+        <name>m_Controls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="13" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_controller___using_action_asset_1a4cbe82e6be57fa2b98c96d5a6a0a3366" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SimpleController_UsingActionAsset.m_Charging</definition>
+        <argsstring></argsstring>
+        <name>m_Charging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_controller___using_action_asset_1aa0cad5a1bc280c2358dafa963bae413e" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 SimpleController_UsingActionAsset.m_Rotation</definition>
+        <argsstring></argsstring>
+        <name>m_Rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="15" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1aaef383503b16f5ac75203341ac1b1b15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleController_UsingActionAsset.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="17" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="17" bodyend="45"/>
+        <references refid="class_simple_controller___using_action_asset_1adeac070d24dc66dd9effa3ec585bc0fa" compoundref="_simple_controller___using_action_asset_8cs" startline="10">burstSpeed</references>
+        <references refid="struct_simple_controls_1_1_gameplay_actions_1a9fb1ac9a7729fdd1c7b58e3ecfaef801" compoundref="_simple_controls_8cs" startline="234">SimpleControls.GameplayActions.fire</references>
+        <references refid="class_simple_controls_1aa1f7940301bdcd3f53e5199eee0a87fd" compoundref="_simple_controls_8cs" startline="271">SimpleControls.gameplay</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1a6eee663889bfae52524fe239d97f6f25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleController_UsingActionAsset.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="47" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="47" bodyend="50"/>
+        <references refid="class_simple_controls_1a7ed80c60643102fd618035ee6e89788e" compoundref="_simple_controls_8cs" startline="204" endline="207">SimpleControls.Enable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1a94ef41ac35c9da86e9a9bf53f28034bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleController_UsingActionAsset.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="52" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="52" bodyend="55"/>
+        <references refid="class_simple_controls_1aeec60e089683297d9dcfdfe45856c9f3" compoundref="_simple_controls_8cs" startline="209" endline="212">SimpleControls.Disable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1a516abbfdbb62f0e697a14eae79b1507f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleController_UsingActionAsset.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="57" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1a35008e39e6c77570c26c85280621a3b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleController_UsingActionAsset.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="63" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="63" bodyend="72"/>
+        <references refid="class_simple_controls_1aa1f7940301bdcd3f53e5199eee0a87fd" compoundref="_simple_controls_8cs" startline="271">SimpleControls.gameplay</references>
+        <references refid="struct_simple_controls_1_1_gameplay_actions_1acf9c6edce97d49d87d88091d9ae81bb7" compoundref="_simple_controls_8cs" startline="236">SimpleControls.GameplayActions.look</references>
+        <references refid="struct_simple_controls_1_1_gameplay_actions_1a5f020372919fd5d14411267c8ff9e29d" compoundref="_simple_controls_8cs" startline="235">SimpleControls.GameplayActions.move</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1a1bd44c249cc36ecc1fae22fbe9fd0b23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleController_UsingActionAsset.Move</definition>
+        <argsstring>(Vector2 direction)</argsstring>
+        <name>Move</name>
+        <param>
+          <type>Vector2</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="74" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="74" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1a3b1370b76815e5a141c30449eab7d3bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleController_UsingActionAsset.Look</definition>
+        <argsstring>(Vector2 rotate)</argsstring>
+        <name>Look</name>
+        <param>
+          <type>Vector2</type>
+          <declname>rotate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="85" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="85" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1ad59f8751b8e636eece65becdc17736a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SimpleController_UsingActionAsset.BurstFire</definition>
+        <argsstring>(int burstAmount)</argsstring>
+        <name>BurstFire</name>
+        <param>
+          <type>int</type>
+          <declname>burstAmount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="95" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="95" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_controller___using_action_asset_1a9e7071a1c5a588bf94ec31d5699f9af4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleController_UsingActionAsset.Fire</definition>
+        <argsstring>()</argsstring>
+        <name>Fire</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="104" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="104" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SimpleController_UsingActionAsset</label>
+        <link refid="class_simple_controller___using_action_asset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SimpleController_UsingActionAsset</label>
+        <link refid="class_simple_controller___using_action_asset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" bodystart="7" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_simple_controller___using_action_asset_1aaef383503b16f5ac75203341ac1b1b15" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>Awake</name></member>
+      <member refid="class_simple_controller___using_action_asset_1ad59f8751b8e636eece65becdc17736a2" prot="private" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>BurstFire</name></member>
+      <member refid="class_simple_controller___using_action_asset_1adeac070d24dc66dd9effa3ec585bc0fa" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>burstSpeed</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a9e7071a1c5a588bf94ec31d5699f9af4" prot="private" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>Fire</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a3b1370b76815e5a141c30449eab7d3bc" prot="private" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>Look</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a4cbe82e6be57fa2b98c96d5a6a0a3366" prot="private" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>m_Charging</name></member>
+      <member refid="class_simple_controller___using_action_asset_1aff431dcbe8d46a66db95f18af4183f4d" prot="private" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>m_Controls</name></member>
+      <member refid="class_simple_controller___using_action_asset_1aa0cad5a1bc280c2358dafa963bae413e" prot="private" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>m_Rotation</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a1bd44c249cc36ecc1fae22fbe9fd0b23" prot="private" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>Move</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a40a2dc32a68da24e57379421d8a46d50" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>moveSpeed</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a94ef41ac35c9da86e9a9bf53f28034bf" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>OnDisable</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a6eee663889bfae52524fe239d97f6f25" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>OnEnable</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a516abbfdbb62f0e697a14eae79b1507f" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>OnGUI</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a7123310c8dcd0113d5f0652f3bb82095" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>projectile</name></member>
+      <member refid="class_simple_controller___using_action_asset_1aac4916602942837a46375f37a3267636" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>rotateSpeed</name></member>
+      <member refid="class_simple_controller___using_action_asset_1a35008e39e6c77570c26c85280621a3b4" prot="public" virt="non-virtual"><scope>SimpleController_UsingActionAsset</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

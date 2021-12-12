@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_character_move_clean" kind="class" language="C#" prot="public">
+    <compoundname>CharacterMoveClean</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_character_move_clean_1adda684f0061318ea75348552835c6554" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_handler" kindref="compound">CommandHandler</ref></type>
+        <definition>CommandHandler CharacterMoveClean.commandHandler</definition>
+        <argsstring></argsstring>
+        <name>commandHandler</name>
+        <initializer>= new <ref refid="class_command_handler" kindref="compound">CommandHandler</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveClean.cs" line="7" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveClean.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CharacterMoveClean</label>
+        <link refid="class_character_move_clean"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CharacterMoveClean</label>
+        <link refid="class_character_move_clean"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+commandHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommandHandler</label>
+        <link refid="class_command_handler"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveClean.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveClean.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_character_move_clean_1adda684f0061318ea75348552835c6554" prot="public" virt="non-virtual"><scope>CharacterMoveClean</scope><name>commandHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

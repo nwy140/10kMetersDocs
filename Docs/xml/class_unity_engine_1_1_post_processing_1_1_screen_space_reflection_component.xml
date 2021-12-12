@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; ScreenSpaceReflectionModel &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::ScreenSpaceReflectionComponent::Uniforms</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fe" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>PassIndex</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea4e443c185877beccda3d342600c0fbd0" prot="private">
+          <name>RayTraceStep</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea39ea82782e80bc4bfbd96c733dc0e23b" prot="private">
+          <name>CompositeFinal</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea8b52de510bc5497ac43abfe566be48ab" prot="private">
+          <name>Blur</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748feac4c0f029ff6db02d9518ed8bfd5820fb" prot="private">
+          <name>CompositeSSR</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748feab977b89aab3ac492ed34edd82416dc42" prot="private">
+          <name>MinMipGeneration</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea3708759e69595e1aa3c16a1912a0c375" prot="private">
+          <name>HitPointToReflections</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea2b4d95eef7a619af8440bd3bed22667b" prot="private">
+          <name>BilateralKeyPack</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fead24e43109af3ee6d200b65d6be048702" prot="private">
+          <name>BlitDepthAsCSZ</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748feafd8fe4ba186a27324e08d6736ca5b5cb" prot="private">
+          <name>PoissonBlur</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="55" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="56" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a096d2ef9820013ddb79b0bd4d23d4b0c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.k_HighlightSuppression</definition>
+        <argsstring></argsstring>
+        <name>k_HighlightSuppression</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="50" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a7fe586e0cf7002cdff8bcabd0576720a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.k_TraceBehindObjects</definition>
+        <argsstring></argsstring>
+        <name>k_TraceBehindObjects</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="51" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a405f360e417e577179cf1dde4b5402da" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.k_TreatBackfaceHitAsMiss</definition>
+        <argsstring></argsstring>
+        <name>k_TreatBackfaceHitAsMiss</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="52" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a10d58abd7dfda248863c117cdd480ace" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.k_BilateralUpsample</definition>
+        <argsstring></argsstring>
+        <name>k_BilateralUpsample</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="53" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a275d34901b7119d6da79847beac8fa8e" prot="private" static="no" mutable="no">
+        <type>readonly int[]</type>
+        <definition>readonly int [] UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.m_ReflectionTextures</definition>
+        <argsstring></argsstring>
+        <name>m_ReflectionTextures</name>
+        <initializer>= new int[5]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="68" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aa8700a0b57b1a9d4a9d928af7fb3fbad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="76" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="77" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aeaa198759ea4fae9a6ee5feac84730fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="71" column="42" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a0d58b4de3e36450e06df20a4de6bd84c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="86" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1ad4da13965c3b67798e594134f70505e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="95" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a696726c8892304b37695a69c900b2b97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override CameraEvent</type>
+        <definition>override CameraEvent UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetCameraEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraEvent</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="100" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a816b26c983d2e6b8723a049dafa72544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.PopulateCommandBuffer</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>PopulateCommandBuffer</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="105" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="105" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PostProcessingComponentCommandBuffer&lt; ScreenSpaceReflectionModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PostProcessingComponentCommandBuffer&lt; ScreenSpaceReflectionModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="9" bodyend="238"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aa8700a0b57b1a9d4a9d928af7fb3fbad" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a696726c8892304b37695a69c900b2b97" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>GetCameraEvent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aeaa198759ea4fae9a6ee5feac84730fa" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1ad4da13965c3b67798e594134f70505e3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>GetName</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a10d58abd7dfda248863c117cdd480ace" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>k_BilateralUpsample</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a096d2ef9820013ddb79b0bd4d23d4b0c" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>k_HighlightSuppression</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a7fe586e0cf7002cdff8bcabd0576720a" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>k_TraceBehindObjects</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a405f360e417e577179cf1dde4b5402da" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>k_TreatBackfaceHitAsMiss</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a275d34901b7119d6da79847beac8fa8e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>m_ReflectionTextures</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a0d58b4de3e36450e06df20a4de6bd84c" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fe" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>PassIndex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a816b26c983d2e6b8723a049dafa72544" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>PopulateCommandBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_command_base_1_1_info" kind="struct" language="C#" prot="public">
+    <compoundname>CommandBase::Info</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_command_base_1_1_info_1a3105505479aaffd031fe682605db46f9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CommandBase.Info._aName</definition>
+        <argsstring></argsstring>
+        <name>_aName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="21" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_command_base_1a6cc05d447a42f3b6fd8de5ee36d31df7" compoundref="_command_base_8cs" startline="229" endline="239">CommandBase.Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_command_base_1_1_info_1a8505fce264ed940a383ed1216488985f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CommandBase.Info.query</definition>
+        <argsstring></argsstring>
+        <name>query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="22" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_command_base_1_1_info_1a82b8109ae98b7c86a6a6ecb6b4fc5d02" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite CommandBase.Info.aSprite</definition>
+        <argsstring></argsstring>
+        <name>aSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="23" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CommandBase.Info._DebugLog</definition>
+        <argsstring></argsstring>
+        <name>_DebugLog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="24" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_input_command_1a8295f4448a37878709bda4b7db5ce75f" compoundref="_input_command_8cs" startline="158" endline="168">InputCommand.ExecDown</referencedby>
+        <referencedby refid="class_input_command_1ac4054b550c7ee70288847ea070f68af0" compoundref="_input_command_8cs" startline="170" endline="181">InputCommand.ExecDownCharging</referencedby>
+        <referencedby refid="class_input_command_1a6f825e18af09b2d7e8538032c3d8fc73" compoundref="_input_command_8cs" startline="152" endline="157">InputCommand.ExecPress</referencedby>
+        <referencedby refid="class_input_command_1a6a4ffd343a3f092fae5db46a7b2b0993" compoundref="_input_command_8cs" startline="182" endline="208">InputCommand.ExecRelease</referencedby>
+        <referencedby refid="class_input_command_1a97a167a50735820e585e0f6c9b926ede" compoundref="_input_command_8cs" startline="247" endline="260">InputCommand.OnInput</referencedby>
+        <referencedby refid="class_command_queue_1a3e75a40a7905a7cffeb55130f49bfcdd" compoundref="_command_queue_8cs" startline="105" endline="117">CommandQueue.TryExecuteCommand</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandBase.Info</label>
+        <link refid="struct_command_base_1_1_info"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" line="19" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/CommandBase.cs" bodystart="20" bodyend="25"/>
+    <listofallmembers>
+      <member refid="struct_command_base_1_1_info_1a3105505479aaffd031fe682605db46f9" prot="public" virt="non-virtual"><scope>CommandBase::Info</scope><name>_aName</name></member>
+      <member refid="struct_command_base_1_1_info_1ad0c31809c2aa1b7b2fe3623631a9bcc5" prot="public" virt="non-virtual"><scope>CommandBase::Info</scope><name>_DebugLog</name></member>
+      <member refid="struct_command_base_1_1_info_1a82b8109ae98b7c86a6a6ecb6b4fc5d02" prot="public" virt="non-virtual"><scope>CommandBase::Info</scope><name>aSprite</name></member>
+      <member refid="struct_command_base_1_1_info_1a8505fce264ed940a383ed1216488985f" prot="public" virt="non-virtual"><scope>CommandBase::Info</scope><name>query</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

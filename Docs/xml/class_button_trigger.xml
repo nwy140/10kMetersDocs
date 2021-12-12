@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_button_trigger" kind="class" language="C#" prot="public">
+    <compoundname>ButtonTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_button_trigger_1a832fdd645f0175d2779d50f4d877f3bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonTrigger.StartTutorial</definition>
+        <argsstring>()</argsstring>
+        <name>StartTutorial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Main Menu/ButtonTrigger.cs" line="9" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Main Menu/ButtonTrigger.cs" bodystart="9" bodyend="17"/>
+        <references refid="class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e" compoundref="_day_counter_8cs" startline="9">DayCounter.days</references>
+        <references refid="class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31" compoundref="_day_counter_8cs" startline="8">DayCounter.instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_button_trigger_1a753750ab908a052210e9226b47bda7d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonTrigger.SkipTutorial</definition>
+        <argsstring>()</argsstring>
+        <name>SkipTutorial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Main Menu/ButtonTrigger.cs" line="19" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Main Menu/ButtonTrigger.cs" bodystart="19" bodyend="27"/>
+        <references refid="class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e" compoundref="_day_counter_8cs" startline="9">DayCounter.days</references>
+        <references refid="class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31" compoundref="_day_counter_8cs" startline="8">DayCounter.instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_button_trigger_1aba45502f35ec970c032533d3b25fadd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonTrigger.ExitButton</definition>
+        <argsstring>()</argsstring>
+        <name>ExitButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Main Menu/ButtonTrigger.cs" line="29" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Main Menu/ButtonTrigger.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ButtonTrigger</label>
+        <link refid="class_button_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ButtonTrigger</label>
+        <link refid="class_button_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Main Menu/ButtonTrigger.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Main Menu/ButtonTrigger.cs" bodystart="8" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_button_trigger_1aba45502f35ec970c032533d3b25fadd6" prot="public" virt="non-virtual"><scope>ButtonTrigger</scope><name>ExitButton</name></member>
+      <member refid="class_button_trigger_1a753750ab908a052210e9226b47bda7d5" prot="public" virt="non-virtual"><scope>ButtonTrigger</scope><name>SkipTutorial</name></member>
+      <member refid="class_button_trigger_1a832fdd645f0175d2779d50f4d877f3bd" prot="public" virt="non-virtual"><scope>ButtonTrigger</scope><name>StartTutorial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

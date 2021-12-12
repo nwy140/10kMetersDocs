@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_stack" kind="class" language="C#" prot="public">
+    <compoundname>CommandStack</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_stack_1a11162442240b748cac3d24fff02cd1ac" prot="public" static="no" mutable="no">
+        <type>Stack&lt; <ref refid="interface_i_command" kindref="compound">ICommand</ref> &gt;</type>
+        <definition>Stack&lt;ICommand&gt; CommandStack._commandHistory</definition>
+        <argsstring></argsstring>
+        <name>_commandHistory</name>
+        <initializer>= new Stack&lt;<ref refid="interface_i_command" kindref="compound">ICommand</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/CommandStack.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/CommandStack.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_command_stack_1a0f639be831d08eec701e6b559358b515" compoundref="_command_stack_8cs" startline="12" endline="16">ExecuteCommand</referencedby>
+        <referencedby refid="class_command_stack_1a1428dd3fd746d1e55017fb42445522ac" compoundref="_command_stack_8cs" startline="18" endline="24">UndoLastCommand</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_stack_1a0f639be831d08eec701e6b559358b515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandStack.ExecuteCommand</definition>
+        <argsstring>(ICommand command)</argsstring>
+        <name>ExecuteCommand</name>
+        <param>
+          <type><ref refid="interface_i_command" kindref="compound">ICommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/CommandStack.cs" line="12" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/CommandStack.cs" bodystart="12" bodyend="16"/>
+        <references refid="class_command_stack_1a11162442240b748cac3d24fff02cd1ac" compoundref="_command_stack_8cs" startline="10">_commandHistory</references>
+        <references refid="interface_i_command_1a7fc0d324014976db246abbd800a4cc7b">ICommand.TryExecCommand</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_stack_1a1428dd3fd746d1e55017fb42445522ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandStack.UndoLastCommand</definition>
+        <argsstring>()</argsstring>
+        <name>UndoLastCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/CommandStack.cs" line="18" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/CommandStack.cs" bodystart="18" bodyend="24"/>
+        <references refid="class_command_stack_1a11162442240b748cac3d24fff02cd1ac" compoundref="_command_stack_8cs" startline="10">_commandHistory</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandStack</label>
+        <link refid="class_command_stack"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/CommandStack.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/Reusable/_Bin/CommandStack.cs" bodystart="8" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_command_stack_1a11162442240b748cac3d24fff02cd1ac" prot="public" virt="non-virtual"><scope>CommandStack</scope><name>_commandHistory</name></member>
+      <member refid="class_command_stack_1a0f639be831d08eec701e6b559358b515" prot="public" virt="virtual"><scope>CommandStack</scope><name>ExecuteCommand</name></member>
+      <member refid="class_command_stack_1a1428dd3fd746d1e55017fb42445522ac" prot="public" virt="virtual"><scope>CommandStack</scope><name>UndoLastCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_scene_transitioning" kind="class" language="C#" prot="public">
+    <compoundname>SceneTransitioning</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_previous_position" prot="public" virt="non-virtual">PreviousPosition</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_scene_transitioning_1a14204420cd27751ecb647e2d8b89c418" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string SceneTransitioning.prevScene</definition>
+        <argsstring></argsstring>
+        <name>prevScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" line="8" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_scene_transitioning_1ad27d0b124bba4968f64724df3c600620" compoundref="_scene_transitioning_8cs" startline="16" endline="20">SceneTransition</referencedby>
+        <referencedby refid="class_previous_position_1a48bad4a1506c412bf884f70d9375ad53" compoundref="_previous_position_8cs" startline="11" endline="19">PreviousPosition.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_transitioning_1a9d718bbe238abeed35b05d7928d86149" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string SceneTransitioning.currScene</definition>
+        <argsstring></argsstring>
+        <name>currScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" line="9" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_scene_transitioning_1ad27d0b124bba4968f64724df3c600620" compoundref="_scene_transitioning_8cs" startline="16" endline="20">SceneTransition</referencedby>
+        <referencedby refid="class_scene_transitioning_1a220cc89537fc81bc30cd452c33c24c02" compoundref="_scene_transitioning_8cs" startline="11" endline="14">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scene_transitioning_1a220cc89537fc81bc30cd452c33c24c02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void SceneTransitioning.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplementedby refid="class_previous_position_1a48bad4a1506c412bf884f70d9375ad53">Start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" line="11" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" bodystart="11" bodyend="14"/>
+        <references refid="class_scene_transitioning_1a9d718bbe238abeed35b05d7928d86149" compoundref="_scene_transitioning_8cs" startline="9">currScene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_transitioning_1ad27d0b124bba4968f64724df3c600620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneTransitioning.SceneTransition</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SceneTransition</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" line="16" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" bodystart="16" bodyend="20"/>
+        <references refid="class_scene_transitioning_1a9d718bbe238abeed35b05d7928d86149" compoundref="_scene_transitioning_8cs" startline="9">currScene</references>
+        <references refid="class_scene_transitioning_1a14204420cd27751ecb647e2d8b89c418" compoundref="_scene_transitioning_8cs" startline="8">prevScene</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>PreviousPosition</label>
+        <link refid="class_previous_position"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SceneTransitioning</label>
+        <link refid="class_scene_transitioning"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneTransitioning</label>
+        <link refid="class_scene_transitioning"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Scene Transitions/SceneTransitioning.cs" bodystart="7" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_scene_transitioning_1a9d718bbe238abeed35b05d7928d86149" prot="public" virt="non-virtual"><scope>SceneTransitioning</scope><name>currScene</name></member>
+      <member refid="class_scene_transitioning_1a14204420cd27751ecb647e2d8b89c418" prot="public" virt="non-virtual"><scope>SceneTransitioning</scope><name>prevScene</name></member>
+      <member refid="class_scene_transitioning_1ad27d0b124bba4968f64724df3c600620" prot="public" virt="non-virtual"><scope>SceneTransitioning</scope><name>SceneTransition</name></member>
+      <member refid="class_scene_transitioning_1a220cc89537fc81bc30cd452c33c24c02" prot="public" virt="virtual"><scope>SceneTransitioning</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

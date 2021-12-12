@@ -1,0 +1,94 @@
+.TH "CommandQueueHelper" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CommandQueueHelper
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBCheckSequence\fP (string entryQueueName, string[] sequence, string[] Sequence_Query, string[] ignoreCategory, int maxDuration, \fBCommandBase\fP chainCommand)"
+.br
+.ti -1c
+.RI "bool \fBCheckSequence\fP (string entryQueueName, \fBChainCommandData\fP c)"
+.br
+.ti -1c
+.RI "void \fBExecCommand_InputSystem\fP (InputAction\&.CallbackContext context, \fBInputCommand\fP curCommand, string queueDictionaryElementName='Primary')"
+.br
+.ti -1c
+.RI "void \fBExecCommand_SimulateInputSystem\fP (bool IsPressedThisFrame, float axis, \fBInputCommand\fP curCommand, string queueDictionaryElementName='Primary')"
+.br
+.ti -1c
+.RI "void \fBExecCommand_SimulateInputSystem\fP (bool IsPressedThisFrame, \fBInputCommand\fP curCommand, string queueDictionaryElementName='Primary')"
+.br
+.ti -1c
+.RI "void \fBExecCommand_Press\fP (\fBInputCommand\fP curCommand, string queueDictionaryElementName='Primary')"
+.br
+.ti -1c
+.RI "void \fBExecCommand_HoldRelease\fP (\fBInputCommand\fP curCommand)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "GameObject \fBcommandOwnerRootObj\fP"
+.br
+.ti -1c
+.RI "\fBGenericDictionary\fP< string, \fBCommandQueue\fP > \fBcommandQueuesDictionary\fP"
+.br
+.ti -1c
+.RI "int \fBCurrentTick\fP = 0"
+.br
+.ti -1c
+.RI "float \fBmaxDefaultAllowedTimeDifferenceCheck\fP = 2f"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "bool CommandQueueHelper\&.CheckSequence (string entryQueueName, \fBChainCommandData\fP c)"
+
+.SS "bool CommandQueueHelper\&.CheckSequence (string entryQueueName, string[] sequence, string[] Sequence_Query, string[] ignoreCategory, int maxDuration, \fBCommandBase\fP chainCommand)"
+
+.SS "void CommandQueueHelper\&.ExecCommand_HoldRelease (\fBInputCommand\fP curCommand)"
+
+.SS "void CommandQueueHelper\&.ExecCommand_InputSystem (InputAction\&.CallbackContext context, \fBInputCommand\fP curCommand, string queueDictionaryElementName = \fC'Primary'\fP)"
+
+.SS "void CommandQueueHelper\&.ExecCommand_Press (\fBInputCommand\fP curCommand, string queueDictionaryElementName = \fC'Primary'\fP)"
+
+.SS "void CommandQueueHelper\&.ExecCommand_SimulateInputSystem (bool IsPressedThisFrame, float axis, \fBInputCommand\fP curCommand, string queueDictionaryElementName = \fC'Primary'\fP)"
+
+.SS "void CommandQueueHelper\&.ExecCommand_SimulateInputSystem (bool IsPressedThisFrame, \fBInputCommand\fP curCommand, string queueDictionaryElementName = \fC'Primary'\fP)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "GameObject CommandQueueHelper\&.commandOwnerRootObj"
+
+.SS "\fBGenericDictionary\fP<string, \fBCommandQueue\fP> CommandQueueHelper\&.commandQueuesDictionary"
+\fBInitial value:\fP
+.PP
+.nf
+= new GenericDictionary<string, CommandQueue>()
+        {
+            { "Primary", new CommandQueue()}, 
+            { "Secondary", new CommandQueue()} ,
+            { "Tertiary", new CommandQueue()},
+            { "Axis", new CommandQueue()},
+            { "HoldDown", new CommandQueue()},
+            { "NegativeEdge", new CommandQueue()},  
+            { "Chain", new CommandQueue()},
+        }
+.fi
+.SS "int CommandQueueHelper\&.CurrentTick = 0"
+
+.SS "float CommandQueueHelper\&.maxDefaultAllowedTimeDifferenceCheck = 2f"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

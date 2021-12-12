@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_cool_down_comp" kind="class" language="C#" prot="public">
+    <compoundname>CommandCoolDownComp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_cool_down_comp_1a6d935806afcf7d83f54fb13065fbb5a5" prot="public" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image CommandCoolDownComp.darkMask</definition>
+        <argsstring></argsstring>
+        <name>darkMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_cool_down_comp_1a1dcd9fce203f1bc0d213583e394bbd1b" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text CommandCoolDownComp.coolDownTextDisplay</definition>
+        <argsstring></argsstring>
+        <name>coolDownTextDisplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="9" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_command_cool_down_comp_1a76c052607396c54b9e7ce6d4e4566027" prot="private" static="no" mutable="no">
+        <type><ref refid="class_command_base" kindref="compound">CommandBase</ref></type>
+        <definition>CommandBase CommandCoolDownComp.command</definition>
+        <argsstring></argsstring>
+        <name>command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="11" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_cool_down_comp_1a6c7e2b4015806d3154bfe34c0e479c62" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CommandCoolDownComp.weaponHolder</definition>
+        <argsstring></argsstring>
+        <name>weaponHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="12" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_cool_down_comp_1a927a1463f406ff888ff2d0f1a90692f7" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image CommandCoolDownComp.myButtonImage</definition>
+        <argsstring></argsstring>
+        <name>myButtonImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="13" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_cool_down_comp_1ad33a923dccb2e22e20c8f5515d64a693" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource CommandCoolDownComp.abilitySource</definition>
+        <argsstring></argsstring>
+        <name>abilitySource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="14" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_cool_down_comp_1a1cd65d0cefe79ff43a31659c670f98af" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CommandCoolDownComp.coolDownDuration</definition>
+        <argsstring></argsstring>
+        <name>coolDownDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="15" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_cool_down_comp_1a212c01367d0e63c1667b4e3f9132ea7c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CommandCoolDownComp.nextReadyTime</definition>
+        <argsstring></argsstring>
+        <name>nextReadyTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="16" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_cool_down_comp_1acdabd1fd0437639ee5353579f5952f24" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CommandCoolDownComp.coolDownTimeLeft</definition>
+        <argsstring></argsstring>
+        <name>coolDownTimeLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="17" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_command_cool_down_comp_1ade03dd833baef77cc1eb26427eb4b2c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandCoolDownComp.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="20" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_cool_down_comp_1acc58b2fe82f2547fd6431587025d7434" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandCoolDownComp.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="38" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="38" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_cool_down_comp_1a6ea114a7d7b983c1a6465c358cd6a59d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandCoolDownComp.CommandReady</definition>
+        <argsstring>()</argsstring>
+        <name>CommandReady</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="55" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_cool_down_comp_1a66a1623f4ff9d928b54290c7d719cdf7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandCoolDownComp.CoolDown</definition>
+        <argsstring>()</argsstring>
+        <name>CoolDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="63" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="63" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_cool_down_comp_1a158246c0a35255471e5f0b90a81da6fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandCoolDownComp.ButtonTriggered</definition>
+        <argsstring>()</argsstring>
+        <name>ButtonTriggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="73" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="73" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_cool_down_comp_1acd92d221c53b5d42dc34b5416aeff117" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandCoolDownComp.Initialize</definition>
+        <argsstring>(CommandBase selectedAbility, GameObject weaponHolder)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type><ref refid="class_command_base" kindref="compound">CommandBase</ref></type>
+          <declname>selectedAbility</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>weaponHolder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="25" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="25" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CommandCoolDownComp</label>
+        <link refid="class_command_cool_down_comp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandCoolDownComp</label>
+        <link refid="class_command_cool_down_comp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+coolDownTextDisplay</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>Text</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/Custom/CommandCoolDownComp.cs" bodystart="6" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_command_cool_down_comp_1ad33a923dccb2e22e20c8f5515d64a693" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>abilitySource</name></member>
+      <member refid="class_command_cool_down_comp_1a158246c0a35255471e5f0b90a81da6fa" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>ButtonTriggered</name></member>
+      <member refid="class_command_cool_down_comp_1a76c052607396c54b9e7ce6d4e4566027" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>command</name></member>
+      <member refid="class_command_cool_down_comp_1a6ea114a7d7b983c1a6465c358cd6a59d" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>CommandReady</name></member>
+      <member refid="class_command_cool_down_comp_1a66a1623f4ff9d928b54290c7d719cdf7" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>CoolDown</name></member>
+      <member refid="class_command_cool_down_comp_1a1cd65d0cefe79ff43a31659c670f98af" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>coolDownDuration</name></member>
+      <member refid="class_command_cool_down_comp_1a1dcd9fce203f1bc0d213583e394bbd1b" prot="public" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>coolDownTextDisplay</name></member>
+      <member refid="class_command_cool_down_comp_1acdabd1fd0437639ee5353579f5952f24" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>coolDownTimeLeft</name></member>
+      <member refid="class_command_cool_down_comp_1a6d935806afcf7d83f54fb13065fbb5a5" prot="public" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>darkMask</name></member>
+      <member refid="class_command_cool_down_comp_1acd92d221c53b5d42dc34b5416aeff117" prot="public" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>Initialize</name></member>
+      <member refid="class_command_cool_down_comp_1a927a1463f406ff888ff2d0f1a90692f7" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>myButtonImage</name></member>
+      <member refid="class_command_cool_down_comp_1a212c01367d0e63c1667b4e3f9132ea7c" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>nextReadyTime</name></member>
+      <member refid="class_command_cool_down_comp_1ade03dd833baef77cc1eb26427eb4b2c5" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>Start</name></member>
+      <member refid="class_command_cool_down_comp_1acc58b2fe82f2547fd6431587025d7434" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>Update</name></member>
+      <member refid="class_command_cool_down_comp_1a6c7e2b4015806d3154bfe34c0e479c62" prot="private" virt="non-virtual"><scope>CommandCoolDownComp</scope><name>weaponHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

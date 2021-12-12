@@ -1,0 +1,205 @@
+\hypertarget{class_command_queue_helper}{}\doxysection{Command\+Queue\+Helper Class Reference}
+\label{class_command_queue_helper}\index{CommandQueueHelper@{CommandQueueHelper}}
+
+
+Inheritance diagram for Command\+Queue\+Helper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{class_command_queue_helper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Command\+Queue\+Helper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{class_command_queue_helper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_command_queue_helper_a9d8c4132af6ab5211b7402472373c1d1}{Check\+Sequence}} (string entry\+Queue\+Name, string\mbox{[}$\,$\mbox{]} sequence, string\mbox{[}$\,$\mbox{]} Sequence\+\_\+\+Query, string\mbox{[}$\,$\mbox{]} ignore\+Category, int max\+Duration, \mbox{\hyperlink{class_command_base}{Command\+Base}} chain\+Command)
+\item 
+bool \mbox{\hyperlink{class_command_queue_helper_aa447c7015171043cf4a7b187675c3de7}{Check\+Sequence}} (string entry\+Queue\+Name, \mbox{\hyperlink{class_chain_command_data}{Chain\+Command\+Data}} c)
+\item 
+void \mbox{\hyperlink{class_command_queue_helper_aaf854de6f8905b86b04c690f79ac1f9a}{Exec\+Command\+\_\+\+Input\+System}} (Input\+Action.\+Callback\+Context context, \mbox{\hyperlink{class_input_command}{Input\+Command}} cur\+Command, string queue\+Dictionary\+Element\+Name=\char`\"{}Primary\char`\"{})
+\item 
+void \mbox{\hyperlink{class_command_queue_helper_affd76031933ce9ab22aad506ee3a9a18}{Exec\+Command\+\_\+\+Simulate\+Input\+System}} (bool Is\+Pressed\+This\+Frame, float axis, \mbox{\hyperlink{class_input_command}{Input\+Command}} cur\+Command, string queue\+Dictionary\+Element\+Name=\char`\"{}Primary\char`\"{})
+\item 
+void \mbox{\hyperlink{class_command_queue_helper_ae88a96a74253b03554ead59e02187039}{Exec\+Command\+\_\+\+Simulate\+Input\+System}} (bool Is\+Pressed\+This\+Frame, \mbox{\hyperlink{class_input_command}{Input\+Command}} cur\+Command, string queue\+Dictionary\+Element\+Name=\char`\"{}Primary\char`\"{})
+\item 
+void \mbox{\hyperlink{class_command_queue_helper_a2e67f0f4796efc3768308214d9c51516}{Exec\+Command\+\_\+\+Press}} (\mbox{\hyperlink{class_input_command}{Input\+Command}} cur\+Command, string queue\+Dictionary\+Element\+Name=\char`\"{}Primary\char`\"{})
+\item 
+void \mbox{\hyperlink{class_command_queue_helper_a1d27bd76d4426d4967b69d2d434ccc10}{Exec\+Command\+\_\+\+Hold\+Release}} (\mbox{\hyperlink{class_input_command}{Input\+Command}} cur\+Command)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_command_queue_helper_a8d018449d627df408db833e4a3f11171}{command\+Owner\+Root\+Obj}}
+\item 
+\mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ string, \mbox{\hyperlink{class_command_queue}{Command\+Queue}} $>$ \mbox{\hyperlink{class_command_queue_helper_a6309f9ec7e7c58b8b8a2920d6a6a05f4}{command\+Queues\+Dictionary}}
+\item 
+int \mbox{\hyperlink{class_command_queue_helper_a13b4dbede98d3e64762c5e1696aaeb01}{Current\+Tick}} = 0
+\item 
+float \mbox{\hyperlink{class_command_queue_helper_a9fc850b4fd58f361f9f18f095e959cae}{max\+Default\+Allowed\+Time\+Difference\+Check}} = 2f
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_command_queue_helper_aa447c7015171043cf4a7b187675c3de7}\label{class_command_queue_helper_aa447c7015171043cf4a7b187675c3de7}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!CheckSequence@{CheckSequence}}
+\index{CheckSequence@{CheckSequence}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{CheckSequence()}{CheckSequence()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Command\+Queue\+Helper.\+Check\+Sequence (\begin{DoxyParamCaption}\item[{string}]{entry\+Queue\+Name,  }\item[{\mbox{\hyperlink{class_chain_command_data}{Chain\+Command\+Data}}}]{c }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_helper_aa447c7015171043cf4a7b187675c3de7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_helper_a9d8c4132af6ab5211b7402472373c1d1}\label{class_command_queue_helper_a9d8c4132af6ab5211b7402472373c1d1}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!CheckSequence@{CheckSequence}}
+\index{CheckSequence@{CheckSequence}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{CheckSequence()}{CheckSequence()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Command\+Queue\+Helper.\+Check\+Sequence (\begin{DoxyParamCaption}\item[{string}]{entry\+Queue\+Name,  }\item[{string\mbox{[}$\,$\mbox{]}}]{sequence,  }\item[{string\mbox{[}$\,$\mbox{]}}]{Sequence\+\_\+\+Query,  }\item[{string\mbox{[}$\,$\mbox{]}}]{ignore\+Category,  }\item[{int}]{max\+Duration,  }\item[{\mbox{\hyperlink{class_command_base}{Command\+Base}}}]{chain\+Command }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_helper_a9d8c4132af6ab5211b7402472373c1d1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_helper_a1d27bd76d4426d4967b69d2d434ccc10}\label{class_command_queue_helper_a1d27bd76d4426d4967b69d2d434ccc10}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!ExecCommand\_HoldRelease@{ExecCommand\_HoldRelease}}
+\index{ExecCommand\_HoldRelease@{ExecCommand\_HoldRelease}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{ExecCommand\_HoldRelease()}{ExecCommand\_HoldRelease()}}
+{\footnotesize\ttfamily void Command\+Queue\+Helper.\+Exec\+Command\+\_\+\+Hold\+Release (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_input_command}{Input\+Command}}}]{cur\+Command }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_command_queue_helper_aaf854de6f8905b86b04c690f79ac1f9a}\label{class_command_queue_helper_aaf854de6f8905b86b04c690f79ac1f9a}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!ExecCommand\_InputSystem@{ExecCommand\_InputSystem}}
+\index{ExecCommand\_InputSystem@{ExecCommand\_InputSystem}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{ExecCommand\_InputSystem()}{ExecCommand\_InputSystem()}}
+{\footnotesize\ttfamily void Command\+Queue\+Helper.\+Exec\+Command\+\_\+\+Input\+System (\begin{DoxyParamCaption}\item[{Input\+Action.\+Callback\+Context}]{context,  }\item[{\mbox{\hyperlink{class_input_command}{Input\+Command}}}]{cur\+Command,  }\item[{string}]{queue\+Dictionary\+Element\+Name = {\ttfamily \char`\"{}Primary\char`\"{}} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_helper_aaf854de6f8905b86b04c690f79ac1f9a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_command_queue_helper_aaf854de6f8905b86b04c690f79ac1f9a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_helper_a2e67f0f4796efc3768308214d9c51516}\label{class_command_queue_helper_a2e67f0f4796efc3768308214d9c51516}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!ExecCommand\_Press@{ExecCommand\_Press}}
+\index{ExecCommand\_Press@{ExecCommand\_Press}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{ExecCommand\_Press()}{ExecCommand\_Press()}}
+{\footnotesize\ttfamily void Command\+Queue\+Helper.\+Exec\+Command\+\_\+\+Press (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_input_command}{Input\+Command}}}]{cur\+Command,  }\item[{string}]{queue\+Dictionary\+Element\+Name = {\ttfamily \char`\"{}Primary\char`\"{}} }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_helper_a2e67f0f4796efc3768308214d9c51516_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_helper_affd76031933ce9ab22aad506ee3a9a18}\label{class_command_queue_helper_affd76031933ce9ab22aad506ee3a9a18}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!ExecCommand\_SimulateInputSystem@{ExecCommand\_SimulateInputSystem}}
+\index{ExecCommand\_SimulateInputSystem@{ExecCommand\_SimulateInputSystem}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{ExecCommand\_SimulateInputSystem()}{ExecCommand\_SimulateInputSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Command\+Queue\+Helper.\+Exec\+Command\+\_\+\+Simulate\+Input\+System (\begin{DoxyParamCaption}\item[{bool}]{Is\+Pressed\+This\+Frame,  }\item[{float}]{axis,  }\item[{\mbox{\hyperlink{class_input_command}{Input\+Command}}}]{cur\+Command,  }\item[{string}]{queue\+Dictionary\+Element\+Name = {\ttfamily \char`\"{}Primary\char`\"{}} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_helper_affd76031933ce9ab22aad506ee3a9a18_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_helper_affd76031933ce9ab22aad506ee3a9a18_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_helper_ae88a96a74253b03554ead59e02187039}\label{class_command_queue_helper_ae88a96a74253b03554ead59e02187039}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!ExecCommand\_SimulateInputSystem@{ExecCommand\_SimulateInputSystem}}
+\index{ExecCommand\_SimulateInputSystem@{ExecCommand\_SimulateInputSystem}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{ExecCommand\_SimulateInputSystem()}{ExecCommand\_SimulateInputSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Command\+Queue\+Helper.\+Exec\+Command\+\_\+\+Simulate\+Input\+System (\begin{DoxyParamCaption}\item[{bool}]{Is\+Pressed\+This\+Frame,  }\item[{\mbox{\hyperlink{class_input_command}{Input\+Command}}}]{cur\+Command,  }\item[{string}]{queue\+Dictionary\+Element\+Name = {\ttfamily \char`\"{}Primary\char`\"{}} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_helper_ae88a96a74253b03554ead59e02187039_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_command_queue_helper_a8d018449d627df408db833e4a3f11171}\label{class_command_queue_helper_a8d018449d627df408db833e4a3f11171}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!commandOwnerRootObj@{commandOwnerRootObj}}
+\index{commandOwnerRootObj@{commandOwnerRootObj}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{commandOwnerRootObj}{commandOwnerRootObj}}
+{\footnotesize\ttfamily Game\+Object Command\+Queue\+Helper.\+command\+Owner\+Root\+Obj}
+
+\mbox{\Hypertarget{class_command_queue_helper_a6309f9ec7e7c58b8b8a2920d6a6a05f4}\label{class_command_queue_helper_a6309f9ec7e7c58b8b8a2920d6a6a05f4}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!commandQueuesDictionary@{commandQueuesDictionary}}
+\index{commandQueuesDictionary@{commandQueuesDictionary}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{commandQueuesDictionary}{commandQueuesDictionary}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$string, \mbox{\hyperlink{class_command_queue}{Command\+Queue}}$>$ Command\+Queue\+Helper.\+command\+Queues\+Dictionary}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \textcolor{keyword}{new} \mbox{\hyperlink{class_generic_dictionary}{GenericDictionary<string, CommandQueue>}}()}
+\DoxyCodeLine{        \{}
+\DoxyCodeLine{            \{ \textcolor{stringliteral}{"{}Primary"{}}, \textcolor{keyword}{new} \mbox{\hyperlink{class_command_queue}{CommandQueue}}()\}, }
+\DoxyCodeLine{            \{ \textcolor{stringliteral}{"{}Secondary"{}}, \textcolor{keyword}{new} \mbox{\hyperlink{class_command_queue}{CommandQueue}}()\} ,}
+\DoxyCodeLine{            \{ \textcolor{stringliteral}{"{}Tertiary"{}}, \textcolor{keyword}{new} \mbox{\hyperlink{class_command_queue}{CommandQueue}}()\},}
+\DoxyCodeLine{            \{ \textcolor{stringliteral}{"{}Axis"{}}, \textcolor{keyword}{new} \mbox{\hyperlink{class_command_queue}{CommandQueue}}()\},}
+\DoxyCodeLine{            \{ \textcolor{stringliteral}{"{}HoldDown"{}}, \textcolor{keyword}{new} \mbox{\hyperlink{class_command_queue}{CommandQueue}}()\},}
+\DoxyCodeLine{            \{ \textcolor{stringliteral}{"{}NegativeEdge"{}}, \textcolor{keyword}{new} \mbox{\hyperlink{class_command_queue}{CommandQueue}}()\},  }
+\DoxyCodeLine{            \{ \textcolor{stringliteral}{"{}Chain"{}}, \textcolor{keyword}{new} \mbox{\hyperlink{class_command_queue}{CommandQueue}}()\},}
+\DoxyCodeLine{        \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_command_queue_helper_a13b4dbede98d3e64762c5e1696aaeb01}\label{class_command_queue_helper_a13b4dbede98d3e64762c5e1696aaeb01}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!CurrentTick@{CurrentTick}}
+\index{CurrentTick@{CurrentTick}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{CurrentTick}{CurrentTick}}
+{\footnotesize\ttfamily int Command\+Queue\+Helper.\+Current\+Tick = 0}
+
+\mbox{\Hypertarget{class_command_queue_helper_a9fc850b4fd58f361f9f18f095e959cae}\label{class_command_queue_helper_a9fc850b4fd58f361f9f18f095e959cae}} 
+\index{CommandQueueHelper@{CommandQueueHelper}!maxDefaultAllowedTimeDifferenceCheck@{maxDefaultAllowedTimeDifferenceCheck}}
+\index{maxDefaultAllowedTimeDifferenceCheck@{maxDefaultAllowedTimeDifferenceCheck}!CommandQueueHelper@{CommandQueueHelper}}
+\doxysubsubsection{\texorpdfstring{maxDefaultAllowedTimeDifferenceCheck}{maxDefaultAllowedTimeDifferenceCheck}}
+{\footnotesize\ttfamily float Command\+Queue\+Helper.\+max\+Default\+Allowed\+Time\+Difference\+Check = 2f}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+Command\+Pattern/\+Command/\+My\+Scripts/\mbox{\hyperlink{_command_queue_helper_8cs}{Command\+Queue\+Helper.\+cs}}\end{DoxyCompactItemize}

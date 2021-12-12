@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_quick_open_inventory" kind="class" language="C#" prot="public">
+    <compoundname>QuickOpenInventory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_quick_open_inventory_1acdb564deaa067ae7fce25d6c01e347a5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_character" kindref="compound">Character</ref></type>
+        <definition>Character QuickOpenInventory.charInven</definition>
+        <argsstring></argsstring>
+        <name>charInven</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" line="9" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a" compoundref="_quick_open_inventory_8cs" startline="38" endline="57">AttemptOpenInventory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quick_open_inventory_1a9f0b2ee291ca2bfaa0d6c12a8733232d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_pause_menu_scripts" kindref="compound">PauseMenuScripts</ref></type>
+        <definition>PauseMenuScripts QuickOpenInventory.pauseMenu</definition>
+        <argsstring></argsstring>
+        <name>pauseMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" line="10" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a" compoundref="_quick_open_inventory_8cs" startline="38" endline="57">AttemptOpenInventory</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quick_open_inventory_1a824ed3bf0c88377c88975a0f05dd6e71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuickOpenInventory.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quick_open_inventory_1a250221ca5824ae52a3e512db793d4f5e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuickOpenInventory.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" bodystart="15" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quick_open_inventory_1afaf9aefe179fdd4c38d1ebc432a469b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuickOpenInventory.OnInputSelect</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnInputSelect</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" line="30" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" bodystart="30" bodyend="37"/>
+        <references refid="class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a" compoundref="_quick_open_inventory_8cs" startline="38" endline="57">AttemptOpenInventory</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuickOpenInventory.AttemptOpenInventory</definition>
+        <argsstring>()</argsstring>
+        <name>AttemptOpenInventory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" line="38" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" bodystart="38" bodyend="57"/>
+        <references refid="class_quick_open_inventory_1acdb564deaa067ae7fce25d6c01e347a5" compoundref="_quick_open_inventory_8cs" startline="9">charInven</references>
+        <references refid="class_pause_menu_scripts_1a183cd092b62d33d8f66b6d088ae785f1" compoundref="_pause_menu_scripts_8cs" startline="92" endline="98">PauseMenuScripts.ClosePauseMenu</references>
+        <references refid="class_pause_menu_scripts_1a123f46be08ea3e51275b40ac1d9f41f0" compoundref="_pause_menu_scripts_8cs" startline="83" endline="88">PauseMenuScripts.OpenPauseMenu</references>
+        <references refid="class_quick_open_inventory_1a9f0b2ee291ca2bfaa0d6c12a8733232d" compoundref="_quick_open_inventory_8cs" startline="10">pauseMenu</references>
+        <referencedby refid="class_quick_open_inventory_1afaf9aefe179fdd4c38d1ebc432a469b9" compoundref="_quick_open_inventory_8cs" startline="30" endline="37">OnInputSelect</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>QuickOpenInventory</label>
+        <link refid="class_quick_open_inventory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Character</label>
+        <link refid="class_character"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+Storage</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+itemToDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>IBeginDragHandler</label>
+      </node>
+      <node id="12">
+        <label>IDragHandler</label>
+      </node>
+      <node id="13">
+        <label>IDropHandler</label>
+      </node>
+      <node id="11">
+        <label>IEndDragHandler</label>
+      </node>
+      <node id="7">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="8">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="9">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="5">
+        <label>ItemContainer</label>
+        <link refid="class_item_container"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="16">
+        <label>PauseMenuScripts</label>
+        <link refid="class_pause_menu_scripts"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+character</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>QuickOpenInventory</label>
+        <link refid="class_quick_open_inventory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+charInven</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>+pauseMenu</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="14">
+        <label>item</label>
+        <link refid="classitem"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>itemSlots</label>
+        <link refid="classitem_slots"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+_item</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>storage</label>
+        <link refid="classstorage"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/QuickOpenInventory.cs" bodystart="7" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a" prot="public" virt="non-virtual"><scope>QuickOpenInventory</scope><name>AttemptOpenInventory</name></member>
+      <member refid="class_quick_open_inventory_1a824ed3bf0c88377c88975a0f05dd6e71" prot="private" virt="non-virtual"><scope>QuickOpenInventory</scope><name>Awake</name></member>
+      <member refid="class_quick_open_inventory_1acdb564deaa067ae7fce25d6c01e347a5" prot="public" virt="non-virtual"><scope>QuickOpenInventory</scope><name>charInven</name></member>
+      <member refid="class_quick_open_inventory_1a250221ca5824ae52a3e512db793d4f5e" prot="private" virt="non-virtual"><scope>QuickOpenInventory</scope><name>Init</name></member>
+      <member refid="class_quick_open_inventory_1afaf9aefe179fdd4c38d1ebc432a469b9" prot="public" virt="non-virtual"><scope>QuickOpenInventory</scope><name>OnInputSelect</name></member>
+      <member refid="class_quick_open_inventory_1a9f0b2ee291ca2bfaa0d6c12a8733232d" prot="public" virt="non-virtual"><scope>QuickOpenInventory</scope><name>pauseMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

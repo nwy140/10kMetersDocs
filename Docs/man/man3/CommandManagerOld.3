@@ -1,0 +1,61 @@
+.TH "CommandManagerOld" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CommandManagerOld
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBCheckSequence\fP (string[] sequence, int maxDuration, \fBCommandBase\fP chainCommand)"
+.br
+.ti -1c
+.RI "bool \fBCheckSequence\fP (string[] sequence, \fBCommandBase\fP chainCommand)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBCommandQueue\fP \fBcommandQueue_Basic\fP = new \fBCommandQueue\fP()"
+.br
+.ti -1c
+.RI "\fBCommandQueue\fP \fBcommandQueue_NegativeEdge\fP = new \fBCommandQueue\fP()"
+.br
+.ti -1c
+.RI "\fBCommandQueue\fP \fBcommandQueue_Chain\fP = new \fBCommandQueue\fP()"
+.br
+.ti -1c
+.RI "int \fBCurrentTick\fP = 0"
+.br
+.ti -1c
+.RI "float \fBmaxDefaultAllowedTimeDifferenceCheck\fP = 2f"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "bool CommandManagerOld\&.CheckSequence (string[] sequence, \fBCommandBase\fP chainCommand)"
+
+.SS "bool CommandManagerOld\&.CheckSequence (string[] sequence, int maxDuration, \fBCommandBase\fP chainCommand)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBCommandQueue\fP CommandManagerOld\&.commandQueue_Basic = new \fBCommandQueue\fP()"
+
+.SS "\fBCommandQueue\fP CommandManagerOld\&.commandQueue_Chain = new \fBCommandQueue\fP()"
+
+.SS "\fBCommandQueue\fP CommandManagerOld\&.commandQueue_NegativeEdge = new \fBCommandQueue\fP()"
+
+.SS "int CommandManagerOld\&.CurrentTick = 0"
+
+.SS "float CommandManagerOld\&.maxDefaultAllowedTimeDifferenceCheck = 2f"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

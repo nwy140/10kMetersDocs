@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_vector2_common" kind="class" language="C#" prot="public">
+    <compoundname>Vector2Common</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_vector2_common_1a04331da73999aa6d7b79767e48d0b191" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Vector2Common.GetRotBetween2Pos</definition>
+        <argsstring>(Vector2 posA, Vector2 posB)</argsstring>
+        <name>GetRotBetween2Pos</name>
+        <param>
+          <type>Vector2</type>
+          <declname>posA</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>posB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Vector2Common.cs" line="6" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Vector2Common.cs" bodystart="6" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector2_common_1a7244790604a8d8f1a62ee92ca9aeacf5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Vector2Common.LookAt2D</definition>
+        <argsstring>(Transform origin, Vector3 targetPos, float turnRate)</argsstring>
+        <name>LookAt2D</name>
+        <param>
+          <type>Transform</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>targetPos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>turnRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Vector2Common.cs" line="12" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Vector2Common.cs" bodystart="12" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Vector2Common</label>
+        <link refid="class_vector2_common"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Vector2Common.cs" line="3" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/Vector2Common.cs" bodystart="4" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_vector2_common_1a04331da73999aa6d7b79767e48d0b191" prot="public" virt="non-virtual"><scope>Vector2Common</scope><name>GetRotBetween2Pos</name></member>
+      <member refid="class_vector2_common_1a7244790604a8d8f1a62ee92ca9aeacf5" prot="public" virt="non-virtual"><scope>Vector2Common</scope><name>LookAt2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

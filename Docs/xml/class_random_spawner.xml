@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_random_spawner" kind="class" language="C#" prot="public">
+    <compoundname>RandomSpawner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_random_spawner_1a57eb7fbf3a46e3d3464be55668cc8de6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RandomSpawner.numberToSpawn</definition>
+        <argsstring></argsstring>
+        <name>numberToSpawn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" line="7" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_random_spawner_1a3bb19e1922686fc9a025f77ed9b5d942" compoundref="_random_spawner_8cs" startline="17" endline="40">spawnRes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_spawner_1a253a5a5b8846ff2ab2b240d9ec20df5f" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; RandomSpawner.spawnPool</definition>
+        <argsstring></argsstring>
+        <name>spawnPool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" line="8" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_random_spawner_1a3bb19e1922686fc9a025f77ed9b5d942" compoundref="_random_spawner_8cs" startline="17" endline="40">spawnRes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_spawner_1aab3c9fb5f8536a83b6a576f09644fd47" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RandomSpawner.bg</definition>
+        <argsstring></argsstring>
+        <name>bg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" line="9" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_random_spawner_1a3bb19e1922686fc9a025f77ed9b5d942" compoundref="_random_spawner_8cs" startline="17" endline="40">spawnRes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_spawner_1a9cfa7eb6ad857fa98b23bccf04fb2a1c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomSpawner.spawnRad</definition>
+        <argsstring></argsstring>
+        <name>spawnRad</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_spawner_1ade178d933ca8054c3dc14cbddd26badd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomSpawner.spawnCollisionCheckRadius</definition>
+        <argsstring></argsstring>
+        <name>spawnCollisionCheckRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_random_spawner_1a3bb19e1922686fc9a025f77ed9b5d942" compoundref="_random_spawner_8cs" startline="17" endline="40">spawnRes</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_random_spawner_1ad057fa857e1067319c5d38d2e007bd64" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RandomSpawner.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" line="12" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_random_spawner_1a3bb19e1922686fc9a025f77ed9b5d942" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RandomSpawner.spawnRes</definition>
+        <argsstring>()</argsstring>
+        <name>spawnRes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" line="17" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" bodystart="17" bodyend="40"/>
+        <references refid="class_random_spawner_1aab3c9fb5f8536a83b6a576f09644fd47" compoundref="_random_spawner_8cs" startline="9">bg</references>
+        <references refid="class_random_spawner_1a57eb7fbf3a46e3d3464be55668cc8de6" compoundref="_random_spawner_8cs" startline="7">numberToSpawn</references>
+        <references refid="class_random_spawner_1ade178d933ca8054c3dc14cbddd26badd" compoundref="_random_spawner_8cs" startline="11">spawnCollisionCheckRadius</references>
+        <references refid="class_random_spawner_1a253a5a5b8846ff2ab2b240d9ec20df5f" compoundref="_random_spawner_8cs" startline="8">spawnPool</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RandomSpawner</label>
+        <link refid="class_random_spawner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RandomSpawner</label>
+        <link refid="class_random_spawner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/RandomSpawner.cs" bodystart="6" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_random_spawner_1aab3c9fb5f8536a83b6a576f09644fd47" prot="public" virt="non-virtual"><scope>RandomSpawner</scope><name>bg</name></member>
+      <member refid="class_random_spawner_1a57eb7fbf3a46e3d3464be55668cc8de6" prot="public" virt="non-virtual"><scope>RandomSpawner</scope><name>numberToSpawn</name></member>
+      <member refid="class_random_spawner_1ade178d933ca8054c3dc14cbddd26badd" prot="public" virt="non-virtual"><scope>RandomSpawner</scope><name>spawnCollisionCheckRadius</name></member>
+      <member refid="class_random_spawner_1a253a5a5b8846ff2ab2b240d9ec20df5f" prot="public" virt="non-virtual"><scope>RandomSpawner</scope><name>spawnPool</name></member>
+      <member refid="class_random_spawner_1a9cfa7eb6ad857fa98b23bccf04fb2a1c" prot="public" virt="non-virtual"><scope>RandomSpawner</scope><name>spawnRad</name></member>
+      <member refid="class_random_spawner_1a3bb19e1922686fc9a025f77ed9b5d942" prot="public" virt="non-virtual"><scope>RandomSpawner</scope><name>spawnRes</name></member>
+      <member refid="class_random_spawner_1ad057fa857e1067319c5d38d2e007bd64" prot="private" virt="non-virtual"><scope>RandomSpawner</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

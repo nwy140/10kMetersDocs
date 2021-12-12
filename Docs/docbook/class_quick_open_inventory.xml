@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_quick_open_inventory" xml:lang="en-US">
+<title>QuickOpenInventory Class Reference</title>
+<indexterm><primary>QuickOpenInventory</primary></indexterm>
+Inheritance diagram for QuickOpenInventory:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_quick_open_inventory__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for QuickOpenInventory:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_quick_open_inventory__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_quick_open_inventory_1afaf9aefe179fdd4c38d1ebc432a469b9">OnInputSelect</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a">AttemptOpenInventory</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_character">Character</link> <link linkend="_class_quick_open_inventory_1acdb564deaa067ae7fce25d6c01e347a5">charInven</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_pause_menu_scripts">PauseMenuScripts</link> <link linkend="_class_quick_open_inventory_1a9f0b2ee291ca2bfaa0d6c12a8733232d">pauseMenu</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_quick_open_inventory_1afa00b285aa159d30696f1c68e51ddd8a"/><section>
+    <title>AttemptOpenInventory()</title>
+<indexterm><primary>AttemptOpenInventory</primary><secondary>QuickOpenInventory</secondary></indexterm>
+<indexterm><primary>QuickOpenInventory</primary><secondary>AttemptOpenInventory</secondary></indexterm>
+<para><computeroutput>void QuickOpenInventory.AttemptOpenInventory ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_quick_open_inventory_afa00b285aa159d30696f1c68e51ddd8a_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_quick_open_inventory_afa00b285aa159d30696f1c68e51ddd8a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_quick_open_inventory_1afaf9aefe179fdd4c38d1ebc432a469b9"/><section>
+    <title>OnInputSelect()</title>
+<indexterm><primary>OnInputSelect</primary><secondary>QuickOpenInventory</secondary></indexterm>
+<indexterm><primary>QuickOpenInventory</primary><secondary>OnInputSelect</secondary></indexterm>
+<para><computeroutput>void QuickOpenInventory.OnInputSelect (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_quick_open_inventory_afaf9aefe179fdd4c38d1ebc432a469b9_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_quick_open_inventory_1acdb564deaa067ae7fce25d6c01e347a5"/><section>
+    <title>charInven</title>
+<indexterm><primary>charInven</primary><secondary>QuickOpenInventory</secondary></indexterm>
+<indexterm><primary>QuickOpenInventory</primary><secondary>charInven</secondary></indexterm>
+<para><computeroutput><link linkend="_class_character">Character</link> QuickOpenInventory.charInven</computeroutput></para></section>
+<anchor xml:id="_class_quick_open_inventory_1a9f0b2ee291ca2bfaa0d6c12a8733232d"/><section>
+    <title>pauseMenu</title>
+<indexterm><primary>pauseMenu</primary><secondary>QuickOpenInventory</secondary></indexterm>
+<indexterm><primary>QuickOpenInventory</primary><secondary>pauseMenu</secondary></indexterm>
+<para><computeroutput><link linkend="_class_pause_menu_scripts">PauseMenuScripts</link> QuickOpenInventory.pauseMenu</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/<link linkend="__quick_open_inventory_8cs">QuickOpenInventory.cs</link></section>
+</section>

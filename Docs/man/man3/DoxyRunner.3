@@ -1,0 +1,161 @@
+.TH "DoxyRunner" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DoxyRunner \- This class spawns and runs Doxygen in a separate thread, and could serve as an example of how to create plugins for unity that call a command line application and then get the data back into Unity safely\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDoxyRunner\fP (string exepath, string[] args, \fBDoxyThreadSafeOutput\fP safeoutput, Action< int > callback)"
+.br
+.ti -1c
+.RI "void \fBupdateOuputString\fP (string output)"
+.br
+.ti -1c
+.RI "void \fBRunThreadedDoxy\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBRun\fP (Action< string > output, TextReader input, string exe, params string[] args)"
+.br
+.RI "Runs the specified executable with the provided arguments and returns the process' exit code\&. "
+.ti -1c
+.RI "static string \fBEscapeArguments\fP (params string[] args)"
+.br
+.RI "Quotes all arguments that contain whitespace, or begin with a quote and returns a single argument string for use with Process\&.Start()\&. "
+.ti -1c
+.RI "static string \fBFindExePath\fP (string exe)"
+.br
+.RI "Expands environment variables and, if unqualified, locates the exe in the working directory or the evironment's path\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Action< int > \fBonCompleteCallBack\fP"
+.br
+.ti -1c
+.RI "string \fBEXE\fP = null"
+.br
+.ti -1c
+.RI "string[] \fBArgs\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class spawns and runs Doxygen in a separate thread, and could serve as an example of how to create plugins for unity that call a command line application and then get the data back into Unity safely\&. 
+
+
+.br
+ 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "DoxyRunner\&.DoxyRunner (string exepath, string[] args, \fBDoxyThreadSafeOutput\fP safeoutput, Action< int > callback)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static string DoxyRunner\&.EscapeArguments (params string[] args)\fC [static]\fP"
+
+.PP
+Quotes all arguments that contain whitespace, or begin with a quote and returns a single argument string for use with Process\&.Start()\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIargs\fP A list of strings for arguments, may not contain null, '\\0', '\\r', or '
+.br
+'
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The combined list of escaped/quoted strings
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fISystem\&.ArgumentNullException\fP Raised when one of the arguments is null
+.br
+\fISystem\&.ArgumentOutOfRangeException\fP Raised if an argument contains '\\0', '\\r', or '
+.br
+'
+.RE
+.PP
+
+.SS "static string DoxyRunner\&.FindExePath (string exe)\fC [static]\fP"
+
+.PP
+Expands environment variables and, if unqualified, locates the exe in the working directory or the evironment's path\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIexe\fP The name of the executable file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The fully-qualified path to the file
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fISystem\&.IO\&.FileNotFoundException\fP Raised when the exe was not found
+.RE
+.PP
+
+.SS "static int DoxyRunner\&.Run (Action< string > output, TextReader input, string exe, params string[] args)\fC [static]\fP"
+
+.PP
+Runs the specified executable with the provided arguments and returns the process' exit code\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIoutput\fP Recieves the output of either std/err or std/out
+.br
+\fIinput\fP Provides the line-by-line input that will be written to std/in, null for empty
+.br
+\fIexe\fP The executable to run, may be unqualified or contain environment variables
+.br
+\fIargs\fP The list of unescaped arguments to provide to the executable
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns process' exit code after the program exits
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fISystem\&.IO\&.FileNotFoundException\fP Raised when the exe was not found
+.br
+\fISystem\&.ArgumentNullException\fP Raised when one of the arguments is null
+.br
+\fISystem\&.ArgumentOutOfRangeException\fP Raised if an argument contains '\\0', '\\r', or '
+.br
+' 
+.RE
+.PP
+
+.SS "void DoxyRunner\&.RunThreadedDoxy ()"
+
+.SS "void DoxyRunner\&.updateOuputString (string output)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "string [] DoxyRunner\&.Args"
+
+.SS "string DoxyRunner\&.EXE = null"
+
+.SS "Action<int> DoxyRunner\&.onCompleteCallBack"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_manager" xml:lang="en-US">
+<title>GameManager Class Reference</title>
+<indexterm><primary>GameManager</primary></indexterm>
+Inheritance diagram for GameManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_manager__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for GameManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_manager__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_game_manager_1ad6d2c86bc87403f661a7d54c8f5e2983">m_NumRoundsToWin</link> = 5</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_game_manager_1abaa4f38b4babf7616dbf9530488b8c16">m_StartDelay</link> = 3f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_game_manager_1a15a5dfa5777c7d7ff02f31bb86d3e412">m_EndDelay</link> = 3f</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_control">CameraControl</link> <link linkend="_class_game_manager_1ac1c2f9dd9fdbeee7ddbc83a10899d557">m_CameraControl</link></para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_game_manager_1ab48c44cba8cabaacd8b06a5a9f46c9ee">m_MessageText</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_game_manager_1abd37cb1a8777348319275ea8d59f7879">m_TankPrefab</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_tank_manager">TankManager</link>[] <link linkend="_class_game_manager_1ad3c238e7c632868e7eb9c3feaae67647">m_Tanks</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_game_manager_1ac1c2f9dd9fdbeee7ddbc83a10899d557"/><section>
+    <title>m_CameraControl</title>
+<indexterm><primary>m_CameraControl</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>m_CameraControl</secondary></indexterm>
+<para><computeroutput><link linkend="_class_camera_control">CameraControl</link> GameManager.m_CameraControl</computeroutput></para></section>
+<anchor xml:id="_class_game_manager_1a15a5dfa5777c7d7ff02f31bb86d3e412"/><section>
+    <title>m_EndDelay</title>
+<indexterm><primary>m_EndDelay</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>m_EndDelay</secondary></indexterm>
+<para><computeroutput>float GameManager.m_EndDelay = 3f</computeroutput></para></section>
+<anchor xml:id="_class_game_manager_1ab48c44cba8cabaacd8b06a5a9f46c9ee"/><section>
+    <title>m_MessageText</title>
+<indexterm><primary>m_MessageText</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>m_MessageText</secondary></indexterm>
+<para><computeroutput>Text GameManager.m_MessageText</computeroutput></para></section>
+<anchor xml:id="_class_game_manager_1ad6d2c86bc87403f661a7d54c8f5e2983"/><section>
+    <title>m_NumRoundsToWin</title>
+<indexterm><primary>m_NumRoundsToWin</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>m_NumRoundsToWin</secondary></indexterm>
+<para><computeroutput>int GameManager.m_NumRoundsToWin = 5</computeroutput></para></section>
+<anchor xml:id="_class_game_manager_1abaa4f38b4babf7616dbf9530488b8c16"/><section>
+    <title>m_StartDelay</title>
+<indexterm><primary>m_StartDelay</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>m_StartDelay</secondary></indexterm>
+<para><computeroutput>float GameManager.m_StartDelay = 3f</computeroutput></para></section>
+<anchor xml:id="_class_game_manager_1abd37cb1a8777348319275ea8d59f7879"/><section>
+    <title>m_TankPrefab</title>
+<indexterm><primary>m_TankPrefab</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>m_TankPrefab</secondary></indexterm>
+<para><computeroutput>GameObject GameManager.m_TankPrefab</computeroutput></para></section>
+<anchor xml:id="_class_game_manager_1ad3c238e7c632868e7eb9c3feaae67647"/><section>
+    <title>m_Tanks</title>
+<indexterm><primary>m_Tanks</primary><secondary>GameManager</secondary></indexterm>
+<indexterm><primary>GameManager</primary><secondary>m_Tanks</secondary></indexterm>
+<para><computeroutput><link linkend="_class_tank_manager">TankManager</link> [] GameManager.m_Tanks</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/<link linkend="__game_manager_8cs">GameManager.cs</link></section>
+</section>

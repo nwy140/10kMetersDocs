@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.PostProcessingProfile Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.PostProcessingProfile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_profile__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.PostProcessingProfile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_profile__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model">BuiltinDebugViewsModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ad21016c8b236981e27e7917098595a21">debugViews</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model">BuiltinDebugViewsModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_model">FogModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ac565d57ea6217a5e0682ec4cdd75e5ec">fog</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_model">FogModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model">AntialiasingModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a9f2fbda75210eafd49f0c756d1bdf47a">antialiasing</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model">AntialiasingModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model">AmbientOcclusionModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1abdfdf91a7ab89617d586fa5ec9c7434e">ambientOcclusion</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model">AmbientOcclusionModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model">ScreenSpaceReflectionModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a0801f9884ec8e0a1d36984e961a59148">screenSpaceReflection</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model">ScreenSpaceReflectionModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_depth_of_field_model">DepthOfFieldModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a35da8dc82f4a0cee7430e98ae5ff50c5">depthOfField</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_depth_of_field_model">DepthOfFieldModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_model">MotionBlurModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a702fc13e8b128cc3293735074ba5f166">motionBlur</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_model">MotionBlurModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model">EyeAdaptationModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a3feb8cd137ced7ae9ad37c47d7979626">eyeAdaptation</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model">EyeAdaptationModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_bloom_model">BloomModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1adcc626840ab5197eb860273f74bfa776">bloom</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_bloom_model">BloomModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model">ColorGradingModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a5578a3856b86fc10fbcca1565934e22f">colorGrading</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model">ColorGradingModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_user_lut_model">UserLutModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ad7bc8c3d05a8c92bb48c3766181ddd93">userLut</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_user_lut_model">UserLutModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model">ChromaticAberrationModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a142138c77a670d153c04da81fc8dcff5">chromaticAberration</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model">ChromaticAberrationModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_model">GrainModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ab2048238d01e1b60a859755167fae28a">grain</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_model">GrainModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model">VignetteModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1abee3b27a6acda75032c825ce759f2838">vignette</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model">VignetteModel</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_dithering_model">DitheringModel</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1aa72f3687adc37b27032d21e3649001e3">dithering</link> = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_dithering_model">DitheringModel</link>()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1abdfdf91a7ab89617d586fa5ec9c7434e"/><section>
+    <title>ambientOcclusion</title>
+<indexterm><primary>ambientOcclusion</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>ambientOcclusion</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model">AmbientOcclusionModel</link> UnityEngine.PostProcessing.PostProcessingProfile.ambientOcclusion = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model">AmbientOcclusionModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a9f2fbda75210eafd49f0c756d1bdf47a"/><section>
+    <title>antialiasing</title>
+<indexterm><primary>antialiasing</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>antialiasing</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model">AntialiasingModel</link> UnityEngine.PostProcessing.PostProcessingProfile.antialiasing = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model">AntialiasingModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1adcc626840ab5197eb860273f74bfa776"/><section>
+    <title>bloom</title>
+<indexterm><primary>bloom</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>bloom</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_bloom_model">BloomModel</link> UnityEngine.PostProcessing.PostProcessingProfile.bloom = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_bloom_model">BloomModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a142138c77a670d153c04da81fc8dcff5"/><section>
+    <title>chromaticAberration</title>
+<indexterm><primary>chromaticAberration</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>chromaticAberration</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model">ChromaticAberrationModel</link> UnityEngine.PostProcessing.PostProcessingProfile.chromaticAberration = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model">ChromaticAberrationModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a5578a3856b86fc10fbcca1565934e22f"/><section>
+    <title>colorGrading</title>
+<indexterm><primary>colorGrading</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>colorGrading</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model">ColorGradingModel</link> UnityEngine.PostProcessing.PostProcessingProfile.colorGrading = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model">ColorGradingModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ad21016c8b236981e27e7917098595a21"/><section>
+    <title>debugViews</title>
+<indexterm><primary>debugViews</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>debugViews</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model">BuiltinDebugViewsModel</link> UnityEngine.PostProcessing.PostProcessingProfile.debugViews = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model">BuiltinDebugViewsModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a35da8dc82f4a0cee7430e98ae5ff50c5"/><section>
+    <title>depthOfField</title>
+<indexterm><primary>depthOfField</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>depthOfField</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_depth_of_field_model">DepthOfFieldModel</link> UnityEngine.PostProcessing.PostProcessingProfile.depthOfField = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_depth_of_field_model">DepthOfFieldModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1aa72f3687adc37b27032d21e3649001e3"/><section>
+    <title>dithering</title>
+<indexterm><primary>dithering</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>dithering</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_dithering_model">DitheringModel</link> UnityEngine.PostProcessing.PostProcessingProfile.dithering = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_dithering_model">DitheringModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a3feb8cd137ced7ae9ad37c47d7979626"/><section>
+    <title>eyeAdaptation</title>
+<indexterm><primary>eyeAdaptation</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>eyeAdaptation</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model">EyeAdaptationModel</link> UnityEngine.PostProcessing.PostProcessingProfile.eyeAdaptation = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model">EyeAdaptationModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ac565d57ea6217a5e0682ec4cdd75e5ec"/><section>
+    <title>fog</title>
+<indexterm><primary>fog</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>fog</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_model">FogModel</link> UnityEngine.PostProcessing.PostProcessingProfile.fog = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_model">FogModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ab2048238d01e1b60a859755167fae28a"/><section>
+    <title>grain</title>
+<indexterm><primary>grain</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>grain</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_model">GrainModel</link> UnityEngine.PostProcessing.PostProcessingProfile.grain = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_model">GrainModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a702fc13e8b128cc3293735074ba5f166"/><section>
+    <title>motionBlur</title>
+<indexterm><primary>motionBlur</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>motionBlur</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_model">MotionBlurModel</link> UnityEngine.PostProcessing.PostProcessingProfile.motionBlur = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_model">MotionBlurModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a0801f9884ec8e0a1d36984e961a59148"/><section>
+    <title>screenSpaceReflection</title>
+<indexterm><primary>screenSpaceReflection</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>screenSpaceReflection</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model">ScreenSpaceReflectionModel</link> UnityEngine.PostProcessing.PostProcessingProfile.screenSpaceReflection = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model">ScreenSpaceReflectionModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ad7bc8c3d05a8c92bb48c3766181ddd93"/><section>
+    <title>userLut</title>
+<indexterm><primary>userLut</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>userLut</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_user_lut_model">UserLutModel</link> UnityEngine.PostProcessing.PostProcessingProfile.userLut = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_user_lut_model">UserLutModel</link>()</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1abee3b27a6acda75032c825ce759f2838"/><section>
+    <title>vignette</title>
+<indexterm><primary>vignette</primary><secondary>UnityEngine.PostProcessing.PostProcessingProfile</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingProfile</primary><secondary>vignette</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model">VignetteModel</link> UnityEngine.PostProcessing.PostProcessingProfile.vignette = new <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model">VignetteModel</link>()</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/<link linkend="__post_processing_profile_8cs">PostProcessingProfile.cs</link></section>
+</section>

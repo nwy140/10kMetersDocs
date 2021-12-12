@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers" kind="class" language="C#" prot="package">
+    <compoundname>UnityEngine::InputSystem::Samples::VisualizationHelpers</compoundname>
+    <innerclass refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer" prot="public">UnityEngine::InputSystem::Samples::VisualizationHelpers::RingBuffer</innerclass>
+    <innerclass refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer" prot="public">UnityEngine::InputSystem::Samples::VisualizationHelpers::ScalarVisualizer</innerclass>
+    <innerclass refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer" prot="public">UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer</innerclass>
+    <innerclass refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer" prot="public">UnityEngine::InputSystem::Samples::VisualizationHelpers::ValueVisualizer</innerclass>
+    <innerclass refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_vector2_visualizer" prot="public">UnityEngine::InputSystem::Samples::VisualizationHelpers::Vector2Visualizer</innerclass>
+    <innerclass refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer" prot="public">UnityEngine::InputSystem::Samples::VisualizationHelpers::Visualizer</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a6e1d9d513a67784a2edce2b41f5610ca" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Axis</name>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a6e1d9d513a67784a2edce2b41f5610caa02129bb861061d1a052c592e2dc6b383" prot="public">
+          <name>X</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a6e1d9d513a67784a2edce2b41f5610caa57cec4137b614c87cb4e24a3d003a3e0" prot="public">
+          <name>Y</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a6e1d9d513a67784a2edce2b41f5610caa21c2e59531c8710156d34a3c30ac81d5" prot="public">
+          <name>Z</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="12" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a26d48e6c0ac919186ad2b952e8729daa" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.InputSystem.Samples.VisualizationHelpers.s_OnePixTex</definition>
+        <argsstring></argsstring>
+        <name>s_OnePixTex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="599" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a4b54db7ed51bb7df3e1b87537e12b820" prot="private" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle UnityEngine.InputSystem.Samples.VisualizationHelpers.s_ValueTextStyle</definition>
+        <argsstring></argsstring>
+        <name>s_ValueTextStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="600" column="33" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="600" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a3b91989e454d089b9d8622dadc3239f0" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueTextStyle</definition>
+        <argsstring></argsstring>
+        <name>ValueTextStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="602" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="603" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1ab1e225979dba25fde0fe2f10378a7c75" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.InputSystem.Samples.VisualizationHelpers.OnePixTex</definition>
+        <argsstring></argsstring>
+        <name>OnePixTex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="616" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="617" bodyend="624"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a97b1d1c36ca451d194bea34b110bc834" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.InputSystem.Samples.VisualizationHelpers.DrawAxis</definition>
+        <argsstring>(Axis axis, Rect rect, Color color=default, float width=1)</argsstring>
+        <name>DrawAxis</name>
+        <param>
+          <type>Axis</type>
+          <declname>axis</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="501" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="501" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1ad4952998c57f4510ae8e061a4a02f6cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.InputSystem.Samples.VisualizationHelpers.DrawRectangle</definition>
+        <argsstring>(Rect rect, Color color)</argsstring>
+        <name>DrawRectangle</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="536" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="536" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a1c2e1e4a8af7e49b0ebce612df1e895c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.InputSystem.Samples.VisualizationHelpers.DrawText</definition>
+        <argsstring>(string text, Vector2 pos, GUIStyle style)</argsstring>
+        <name>DrawText</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="544" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="544" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a8ba20d38204d460fa257936fb70cc9b9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.InputSystem.Samples.VisualizationHelpers.DrawText</definition>
+        <argsstring>(GUIContent text, Vector2 pos, GUIStyle style)</argsstring>
+        <name>DrawText</name>
+        <param>
+          <type>GUIContent</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="550" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="550" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a6dddc3f1dc89dc642bbfd88c39739bf7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.InputSystem.Samples.VisualizationHelpers.DrawLine</definition>
+        <argsstring>(Vector2 pointA, Vector2 pointB, Color color=default, float width=1)</argsstring>
+        <name>DrawLine</name>
+        <param>
+          <type>Vector2</type>
+          <declname>pointA</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>pointB</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="559" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="559" bodyend="597"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="10" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="11" bodyend="669"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a6e1d9d513a67784a2edce2b41f5610ca" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>Axis</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a97b1d1c36ca451d194bea34b110bc834" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>DrawAxis</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a6dddc3f1dc89dc642bbfd88c39739bf7" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>DrawLine</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1ad4952998c57f4510ae8e061a4a02f6cc" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>DrawRectangle</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a1c2e1e4a8af7e49b0ebce612df1e895c" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>DrawText</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a8ba20d38204d460fa257936fb70cc9b9" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>DrawText</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1ab1e225979dba25fde0fe2f10378a7c75" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>OnePixTex</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a26d48e6c0ac919186ad2b952e8729daa" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>s_OnePixTex</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a4b54db7ed51bb7df3e1b87537e12b820" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>s_ValueTextStyle</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1a3b91989e454d089b9d8622dadc3239f0" prot="package" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers</scope><name>ValueTextStyle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

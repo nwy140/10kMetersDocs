@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_character_move_turn_based" kind="class" language="C#" prot="public">
+    <compoundname>CharacterMoveTurnBased</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_character_move_turn_based_1a84d542caa50b3d365fc82aa42cc57fda" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_move" kindref="compound">Move</ref> &gt;</type>
+        <definition>List&lt;Move&gt; CharacterMoveTurnBased.commandList</definition>
+        <argsstring></argsstring>
+        <name>commandList</name>
+        <initializer>= new List&lt;<ref refid="class_move" kindref="compound">Move</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="8" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_move_turn_based_1ae14b4b61f8562f267b9d5ec6ebdfe7c1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CharacterMoveTurnBased.verticalOffset</definition>
+        <argsstring></argsstring>
+        <name>verticalOffset</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="13" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_move_turn_based_1a5734a791a4ca2c75fab23bf4f03e6e33" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CharacterMoveTurnBased.startPoint</definition>
+        <argsstring></argsstring>
+        <name>startPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="14" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_move_turn_based_1a5a1586dd2d70cd4106abdad816dfca74" prot="private" static="no" mutable="no">
+        <type><ref refid="class_path_draw" kindref="compound">PathDraw</ref></type>
+        <definition>PathDraw CharacterMoveTurnBased.pathDrawer</definition>
+        <argsstring></argsstring>
+        <name>pathDrawer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="15" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_character_move_turn_based_1af2648d22944a510dc397be86c2dc5b95" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CharacterMoveTurnBased.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="12" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_character_move_turn_based_1a19cae3d0bccf1b2768fb1ab62663af1d" compoundref="_character_move_turn_based_8cs" startline="51" endline="67">UpdateLine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_character_move_turn_based_1a08621f2fb8e9240f80cfcc4e2491c304" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterMoveTurnBased.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_move_turn_based_1a2ce7ccafa4f286127521aa073e4d1353" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CharacterMoveTurnBased.DoMovesOverTime</definition>
+        <argsstring>()</argsstring>
+        <name>DoMovesOverTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="36" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="36" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_character_move_turn_based_1a0c25fd1994749ca6e36f4b89c64ce415" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterMoveTurnBased.AddCommand</definition>
+        <argsstring>(ICommandOWS command)</argsstring>
+        <name>AddCommand</name>
+        <param>
+          <type><ref refid="interface_i_command_o_w_s" kindref="compound">ICommandOWS</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="26" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_move_turn_based_1a6fdedad5895a1faf44dce271157ba72f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterMoveTurnBased.DoMoves</definition>
+        <argsstring>()</argsstring>
+        <name>DoMoves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="31" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_move_turn_based_1a19cae3d0bccf1b2768fb1ab62663af1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterMoveTurnBased.UpdateLine</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="51" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="51" bodyend="67"/>
+        <references refid="class_character_move_turn_based_1af2648d22944a510dc397be86c2dc5b95" compoundref="_character_move_turn_based_8cs" startline="12">index</references>
+        <references refid="class_path_draw_1a0682e99cc4427f423fb20be3df2edf91" compoundref="_path_draw_8cs" startline="11" endline="16">PathDraw.UpdateLine</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CharacterMoveTurnBased</label>
+        <link refid="class_character_move_turn_based"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CharacterMoveTurnBased</label>
+        <link refid="class_character_move_turn_based"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/CharacterMoveTurnBased.cs" bodystart="6" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_character_move_turn_based_1a0c25fd1994749ca6e36f4b89c64ce415" prot="public" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>AddCommand</name></member>
+      <member refid="class_character_move_turn_based_1a84d542caa50b3d365fc82aa42cc57fda" prot="private" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>commandList</name></member>
+      <member refid="class_character_move_turn_based_1a6fdedad5895a1faf44dce271157ba72f" prot="public" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>DoMoves</name></member>
+      <member refid="class_character_move_turn_based_1a2ce7ccafa4f286127521aa073e4d1353" prot="private" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>DoMovesOverTime</name></member>
+      <member refid="class_character_move_turn_based_1af2648d22944a510dc397be86c2dc5b95" prot="public" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>index</name></member>
+      <member refid="class_character_move_turn_based_1a5a1586dd2d70cd4106abdad816dfca74" prot="private" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>pathDrawer</name></member>
+      <member refid="class_character_move_turn_based_1a08621f2fb8e9240f80cfcc4e2491c304" prot="private" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>Start</name></member>
+      <member refid="class_character_move_turn_based_1a5734a791a4ca2c75fab23bf4f03e6e33" prot="private" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>startPoint</name></member>
+      <member refid="class_character_move_turn_based_1a19cae3d0bccf1b2768fb1ab62663af1d" prot="public" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>UpdateLine</name></member>
+      <member refid="class_character_move_turn_based_1ae14b4b61f8562f267b9d5ec6ebdfe7c1" prot="private" virt="non-virtual"><scope>CharacterMoveTurnBased</scope><name>verticalOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,136 @@
+\hypertarget{class_line_renderer_drawer}{}\doxysection{Line\+Renderer\+Drawer Class Reference}
+\label{class_line_renderer_drawer}\index{LineRendererDrawer@{LineRendererDrawer}}
+
+
+This class gets a line renderer in this object, and then set its end points based on its target.  
+
+
+
+
+Inheritance diagram for Line\+Renderer\+Drawer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_line_renderer_drawer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Line\+Renderer\+Drawer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_line_renderer_drawer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_line_renderer_drawer_aba4ee14f8f64de8789f37576a7491474}{Set\+Target}} (Transform new\+Target)
+\item 
+void \mbox{\hyperlink{class_line_renderer_drawer_a3d8676b2e6512a491f3126742f3632f0}{Reset\+Target}} ()
+\item 
+void \mbox{\hyperlink{class_line_renderer_drawer_a1ca3edf456579d487f7ed490a5015fb2}{Set\+Line\+Target\+Child\+Object}} ()
+\begin{DoxyCompactList}\small\item\em This function will attach line Renderer to any child objects of this object Explanation\+: \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Transform \mbox{\hyperlink{class_line_renderer_drawer_a340cbb002f61f95a0843e5792113db43}{origin}}
+\item 
+Transform \mbox{\hyperlink{class_line_renderer_drawer_ad00ce6c5117f6b92a9fbeecf7e37c302}{target}}
+\item 
+Line\+Renderer \mbox{\hyperlink{class_line_renderer_drawer_accf701f44ab5d58c7216b73df588fda5}{line}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class gets a line renderer in this object, and then set its end points based on its target. 
+
+Explanation\+:
+
+Usage\+: Integration\+:
+\begin{DoxyItemize}
+\item Attach this class script to an Obj with Line\+Renderer attached to it.
+\item Line Renderer will automatically set its end\+Point as the target that is passed in this script
+\item You can swap the target end\+Point by calling the set\+Target function
+\item You can reset the target to the initial default target by calling the Reset\+Target function
+\item You can make the Line\+Renderer target any child obj under this Obj by calling the Set\+Line\+Target\+Child\+Object function Implement Later\+: 
+\end{DoxyItemize}
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_line_renderer_drawer_a3d8676b2e6512a491f3126742f3632f0}\label{class_line_renderer_drawer_a3d8676b2e6512a491f3126742f3632f0}} 
+\index{LineRendererDrawer@{LineRendererDrawer}!ResetTarget@{ResetTarget}}
+\index{ResetTarget@{ResetTarget}!LineRendererDrawer@{LineRendererDrawer}}
+\doxysubsubsection{\texorpdfstring{ResetTarget()}{ResetTarget()}}
+{\footnotesize\ttfamily void Line\+Renderer\+Drawer.\+Reset\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_line_renderer_drawer_a3d8676b2e6512a491f3126742f3632f0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_line_renderer_drawer_a1ca3edf456579d487f7ed490a5015fb2}\label{class_line_renderer_drawer_a1ca3edf456579d487f7ed490a5015fb2}} 
+\index{LineRendererDrawer@{LineRendererDrawer}!SetLineTargetChildObject@{SetLineTargetChildObject}}
+\index{SetLineTargetChildObject@{SetLineTargetChildObject}!LineRendererDrawer@{LineRendererDrawer}}
+\doxysubsubsection{\texorpdfstring{SetLineTargetChildObject()}{SetLineTargetChildObject()}}
+{\footnotesize\ttfamily void Line\+Renderer\+Drawer.\+Set\+Line\+Target\+Child\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function will attach line Renderer to any child objects of this object Explanation\+: 
+
+
+\begin{DoxyItemize}
+\item Whenever there is more than 0 child attached to this object
+\item Set first child object as endpoint Usage\+:
+\item 
+\end{DoxyItemize}
+
+Integration\+:
+\begin{DoxyItemize}
+\item Call this function to make line renderer set its endpoint as target\+Child\+Object 
+\end{DoxyItemize}Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_line_renderer_drawer_a1ca3edf456579d487f7ed490a5015fb2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_line_renderer_drawer_aba4ee14f8f64de8789f37576a7491474}\label{class_line_renderer_drawer_aba4ee14f8f64de8789f37576a7491474}} 
+\index{LineRendererDrawer@{LineRendererDrawer}!SetTarget@{SetTarget}}
+\index{SetTarget@{SetTarget}!LineRendererDrawer@{LineRendererDrawer}}
+\doxysubsubsection{\texorpdfstring{SetTarget()}{SetTarget()}}
+{\footnotesize\ttfamily void Line\+Renderer\+Drawer.\+Set\+Target (\begin{DoxyParamCaption}\item[{Transform}]{new\+Target }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_line_renderer_drawer_accf701f44ab5d58c7216b73df588fda5}\label{class_line_renderer_drawer_accf701f44ab5d58c7216b73df588fda5}} 
+\index{LineRendererDrawer@{LineRendererDrawer}!line@{line}}
+\index{line@{line}!LineRendererDrawer@{LineRendererDrawer}}
+\doxysubsubsection{\texorpdfstring{line}{line}}
+{\footnotesize\ttfamily Line\+Renderer Line\+Renderer\+Drawer.\+line}
+
+\mbox{\Hypertarget{class_line_renderer_drawer_a340cbb002f61f95a0843e5792113db43}\label{class_line_renderer_drawer_a340cbb002f61f95a0843e5792113db43}} 
+\index{LineRendererDrawer@{LineRendererDrawer}!origin@{origin}}
+\index{origin@{origin}!LineRendererDrawer@{LineRendererDrawer}}
+\doxysubsubsection{\texorpdfstring{origin}{origin}}
+{\footnotesize\ttfamily Transform Line\+Renderer\+Drawer.\+origin}
+
+\mbox{\Hypertarget{class_line_renderer_drawer_ad00ce6c5117f6b92a9fbeecf7e37c302}\label{class_line_renderer_drawer_ad00ce6c5117f6b92a9fbeecf7e37c302}} 
+\index{LineRendererDrawer@{LineRendererDrawer}!target@{target}}
+\index{target@{target}!LineRendererDrawer@{LineRendererDrawer}}
+\doxysubsubsection{\texorpdfstring{target}{target}}
+{\footnotesize\ttfamily Transform Line\+Renderer\+Drawer.\+target}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+\_\+\+Common\+V0.\+2/\+Helper/\mbox{\hyperlink{_line_renderer_drawer_8cs}{Line\+Renderer\+Drawer.\+cs}}\end{DoxyCompactItemize}

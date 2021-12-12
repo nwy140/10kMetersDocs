@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_move" kind="class" language="C#" prot="public">
+    <compoundname>Move</compoundname>
+    <basecompoundref refid="interface_i_command_o_w_s" prot="public" virt="non-virtual">ICommandOWS</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_move_1a381bb205c30314fe6af663eb2eb2e445" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Move.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" line="9" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_move_1a55a85ee91da9a7624acb30752c505efc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Move.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" line="10" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_move_1ada771951311d4a71007672fbb0f1a374" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Move.objectToMove</definition>
+        <argsstring></argsstring>
+        <name>objectToMove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" line="11" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_move_1a94d97e8d4a9315a63b1f7d589cef3e58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Move.Move</definition>
+        <argsstring>(Transform objectToMove, Vector3 direction, float distance=1f)</argsstring>
+        <name>Move</name>
+        <param>
+          <type>Transform</type>
+          <declname>objectToMove</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+          <defval>1f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" line="13" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_move_1a53763bbbd1effc869af65c035bec59ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Move.Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <reimplements refid="interface_i_command_o_w_s_1adcd8f91e3914e3e1fa342868527f5942">Execute</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" line="20" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" bodystart="20" bodyend="23"/>
+        <referencedby refid="class_character_move_1a084dadfb55da7e99bd5db26122ebb137" compoundref="_character_move_8cs" startline="25" endline="35">CharacterMove.AddCommand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_move_1afdff2fb08f6cf41b01f9d523b203c44e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Move.Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <reimplements refid="interface_i_command_o_w_s_1a80206dee715e58a0e9d1d32715215f8f">Undo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" line="25" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_move_1a568feed72259a8043a5a264456fa0b8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 Move.GetMove</definition>
+        <argsstring>()</argsstring>
+        <name>GetMove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" line="31" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ICommandOWS</label>
+        <link refid="interface_i_command_o_w_s"/>
+      </node>
+      <node id="1">
+        <label>Move</label>
+        <link refid="class_move"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ICommandOWS</label>
+        <link refid="interface_i_command_o_w_s"/>
+      </node>
+      <node id="1">
+        <label>Move</label>
+        <link refid="class_move"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/_Samples/Script/Move.cs" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_move_1a381bb205c30314fe6af663eb2eb2e445" prot="private" virt="non-virtual"><scope>Move</scope><name>direction</name></member>
+      <member refid="class_move_1a55a85ee91da9a7624acb30752c505efc" prot="private" virt="non-virtual"><scope>Move</scope><name>distance</name></member>
+      <member refid="class_move_1a53763bbbd1effc869af65c035bec59ab" prot="public" virt="non-virtual"><scope>Move</scope><name>Execute</name></member>
+      <member refid="class_move_1a568feed72259a8043a5a264456fa0b8f" prot="public" virt="non-virtual"><scope>Move</scope><name>GetMove</name></member>
+      <member refid="class_move_1a94d97e8d4a9315a63b1f7d589cef3e58" prot="public" virt="non-virtual"><scope>Move</scope><name>Move</name></member>
+      <member refid="class_move_1ada771951311d4a71007672fbb0f1a374" prot="private" virt="non-virtual"><scope>Move</scope><name>objectToMove</name></member>
+      <member refid="class_move_1afdff2fb08f6cf41b01f9d523b203c44e" prot="public" virt="non-virtual"><scope>Move</scope><name>Undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

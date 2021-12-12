@@ -1,0 +1,67 @@
+.TH "ExtendedScriptableObjectDrawer" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ExtendedScriptableObjectDrawer \- Extends how ScriptableObject object references are displayed in the inspector Shows you all values under the object reference Also provides a button to create a new ScriptableObject if property is null\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits PropertyDrawer\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override float \fBGetPropertyHeight\fP (SerializedProperty property, GUIContent label)"
+.br
+.ti -1c
+.RI "override void \fBOnGUI\fP (Rect position, SerializedProperty property, GUIContent label)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static T \fB_GUILayout< T >\fP (string label, T objectReferenceValue, ref bool isExpanded)"
+.br
+.ti -1c
+.RI "static T \fB_GUILayout< T >\fP (GUIContent label, T objectReferenceValue, ref bool isExpanded)"
+.br
+.ti -1c
+.RI "static T \fBDrawScriptableObjectField< T >\fP (GUIContent label, T objectReferenceValue, ref bool isExpanded)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Extends how ScriptableObject object references are displayed in the inspector Shows you all values under the object reference Also provides a button to create a new ScriptableObject if property is null\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static T ExtendedScriptableObjectDrawer\&._GUILayout< T > (GUIContent label, T objectReferenceValue, ref bool isExpanded)\fC [static]\fP"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fIScriptableObject\fP
+.SS "static T ExtendedScriptableObjectDrawer\&._GUILayout< T > (string label, T objectReferenceValue, ref bool isExpanded)\fC [static]\fP"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fIScriptableObject\fP
+.SS "static T ExtendedScriptableObjectDrawer\&.DrawScriptableObjectField< T > (GUIContent label, T objectReferenceValue, ref bool isExpanded)\fC [static]\fP"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fIScriptableObject\fP
+.SS "override float ExtendedScriptableObjectDrawer\&.GetPropertyHeight (SerializedProperty property, GUIContent label)"
+
+.SS "override void ExtendedScriptableObjectDrawer\&.OnGUI (Rect position, SerializedProperty property, GUIContent label)"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

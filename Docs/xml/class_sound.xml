@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_sound" kind="class" language="C#" prot="public">
+    <compoundname>Sound</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sound_1a6232daa7d1f983315cc0d10cf776ab76" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sound.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="8" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" compoundref="_audio_manager_8cs" startline="187" endline="230">AudioManager.PlayBGM</referencedby>
+        <referencedby refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" compoundref="_audio_manager_8cs" startline="246" endline="289">AudioManager.PlayBGMFadeTransition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_1ab7878c271c13d5e8fbdf25714e363b77" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip Sound.clip</definition>
+        <argsstring></argsstring>
+        <name>clip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="9" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_1a24f0da6a226712e28b3159aa9ebb4be5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sound.loop</definition>
+        <argsstring></argsstring>
+        <name>loop</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="10" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_1a916f03f461ea5c83019c82c504ab0ac2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sound.isAllowMultiAudioSrcInstance</definition>
+        <argsstring></argsstring>
+        <name>isAllowMultiAudioSrcInstance</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="12" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" compoundref="_audio_manager_8cs" startline="187" endline="230">AudioManager.PlayBGM</referencedby>
+        <referencedby refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" compoundref="_audio_manager_8cs" startline="246" endline="289">AudioManager.PlayBGMFadeTransition</referencedby>
+        <referencedby refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" compoundref="_audio_manager_8cs" startline="155" endline="185">AudioManager.PlaySFX</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_1a7ab1335f27bd340c389568889823cc00" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sound.volume</definition>
+        <argsstring></argsstring>
+        <name>volume</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_audio_fade_1a511cd3d05043fbb6468e3043a45a7024" compoundref="_audio_manager_8cs" startline="355" endline="377">AudioFade.FadeIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_1aef4ee55185bf12b9b2b2ca037a8c621a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sound.pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="17" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_1a36d909da9cbdaa0149512a0110e3f955" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sound.initialVolume</definition>
+        <argsstring></argsstring>
+        <name>initialVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="20" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_1ac6ec734812a52abf31595cab2ba48d8d" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Sound.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="23" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_audio_fade_1a511cd3d05043fbb6468e3043a45a7024" compoundref="_audio_manager_8cs" startline="355" endline="377">AudioFade.FadeIn</referencedby>
+        <referencedby refid="class_audio_fade_1a05280991a4b1eea213ca976f6fe77a5a" compoundref="_audio_manager_8cs" startline="339" endline="354">AudioFade.FadeOut</referencedby>
+        <referencedby refid="class_audio_manager_1a54a5ef330c9fe89420a86337c785a2a8" compoundref="_audio_manager_8cs" startline="187" endline="230">AudioManager.PlayBGM</referencedby>
+        <referencedby refid="class_audio_manager_1a96b105320ad573f7e2371f70dd3688ae" compoundref="_audio_manager_8cs" startline="246" endline="289">AudioManager.PlayBGMFadeTransition</referencedby>
+        <referencedby refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" compoundref="_audio_manager_8cs" startline="155" endline="185">AudioManager.PlaySFX</referencedby>
+        <referencedby refid="class_audio_manager_1acd438e15c4afe675fe47d3f77fee4e4f" compoundref="_audio_manager_8cs" startline="233" endline="241">AudioManager.StopBGM</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Sound</label>
+        <link refid="class_sound"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/Sound.cs" bodystart="7" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_sound_1ab7878c271c13d5e8fbdf25714e363b77" prot="public" virt="non-virtual"><scope>Sound</scope><name>clip</name></member>
+      <member refid="class_sound_1a36d909da9cbdaa0149512a0110e3f955" prot="public" virt="non-virtual"><scope>Sound</scope><name>initialVolume</name></member>
+      <member refid="class_sound_1a916f03f461ea5c83019c82c504ab0ac2" prot="public" virt="non-virtual"><scope>Sound</scope><name>isAllowMultiAudioSrcInstance</name></member>
+      <member refid="class_sound_1a24f0da6a226712e28b3159aa9ebb4be5" prot="public" virt="non-virtual"><scope>Sound</scope><name>loop</name></member>
+      <member refid="class_sound_1a6232daa7d1f983315cc0d10cf776ab76" prot="public" virt="non-virtual"><scope>Sound</scope><name>name</name></member>
+      <member refid="class_sound_1aef4ee55185bf12b9b2b2ca037a8c621a" prot="public" virt="non-virtual"><scope>Sound</scope><name>pitch</name></member>
+      <member refid="class_sound_1ac6ec734812a52abf31595cab2ba48d8d" prot="public" virt="non-virtual"><scope>Sound</scope><name>source</name></member>
+      <member refid="class_sound_1a7ab1335f27bd340c389568889823cc00" prot="public" virt="non-virtual"><scope>Sound</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

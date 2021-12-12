@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_item_save_i_o" kind="class" language="C#" prot="public">
+    <compoundname>ItemSaveIO</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_item_save_i_o_1a9cce5c6c85985dd9311ae2dbbed5393c" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ItemSaveIO.baseSavePath</definition>
+        <argsstring></argsstring>
+        <name>baseSavePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" line="5" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_item_save_i_o_1a1e25d638de11f6c5c33639e6a746a781" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static ItemSaveIO.ItemSaveIO</definition>
+        <argsstring>()</argsstring>
+        <name>ItemSaveIO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" line="7" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_item_save_i_o_1a6ff6f5b86e6b8873fae683e038272983" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ItemSaveIO.SaveItems</definition>
+        <argsstring>(ItemContainerSaveData items, string fileName)</argsstring>
+        <name>SaveItems</name>
+        <param>
+          <type><ref refid="class_item_container_save_data" kindref="compound">ItemContainerSaveData</ref></type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" line="12" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_item_save_i_o_1a584e09dfc868e3d40155b84a0788aeeb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_item_container_save_data" kindref="compound">ItemContainerSaveData</ref></type>
+        <definition>static ItemContainerSaveData ItemSaveIO.LoadItems</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LoadItems</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" line="17" column="41" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" bodystart="17" bodyend="27"/>
+        <referencedby refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" compoundref="_item_save_manager_8cs" startline="11" endline="42">ItemSaveManager.LoadInventory</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ItemSaveIO</label>
+        <link refid="class_item_save_i_o"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" line="3" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/ItemSaveIO.cs" bodystart="4" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_item_save_i_o_1a9cce5c6c85985dd9311ae2dbbed5393c" prot="private" virt="non-virtual"><scope>ItemSaveIO</scope><name>baseSavePath</name></member>
+      <member refid="class_item_save_i_o_1a1e25d638de11f6c5c33639e6a746a781" prot="private" virt="non-virtual"><scope>ItemSaveIO</scope><name>ItemSaveIO</name></member>
+      <member refid="class_item_save_i_o_1a584e09dfc868e3d40155b84a0788aeeb" prot="public" virt="non-virtual"><scope>ItemSaveIO</scope><name>LoadItems</name></member>
+      <member refid="class_item_save_i_o_1a6ff6f5b86e6b8873fae683e038272983" prot="public" virt="non-virtual"><scope>ItemSaveIO</scope><name>SaveItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

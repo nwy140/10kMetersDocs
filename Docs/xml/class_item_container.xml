@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_item_container" kind="class" language="C#" prot="public">
+    <compoundname>ItemContainer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="classstorage" prot="public" virt="non-virtual">storage</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>List&lt;itemSlots&gt; ItemContainer.ItemSlots</definition>
+        <argsstring></argsstring>
+        <name>ItemSlots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="10" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_item_container_1af6d25e8fc0187dca050a37f6b3d6767b" compoundref="_item_container_8cs" startline="55" endline="68">addItem</referencedby>
+        <referencedby refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" compoundref="_item_container_8cs" startline="20" endline="32">Awake</referencedby>
+        <referencedby refid="class_item_container_1a5628acd2a1298ad30086abcfb0b2f445" compoundref="_item_container_8cs" startline="42" endline="53">CheckIfSlotIsEmpty</referencedby>
+        <referencedby refid="class_item_container_1ab50b820cf41946e71e0b4d680bf8117f" compoundref="_item_container_8cs" startline="146" endline="157">Clear</referencedby>
+        <referencedby refid="classstorage_1a3f7ecf1a4a1217578fc922eed3ffde8e" compoundref="storage_8cs" startline="83" endline="94">storage.GetListOfItemsInInventory</referencedby>
+        <referencedby refid="class_item_container_1aaaa93fedc164672528fee56061686ee0" compoundref="_item_container_8cs" startline="134" endline="144">IsFull</referencedby>
+        <referencedby refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" compoundref="_item_save_manager_8cs" startline="11" endline="42">ItemSaveManager.LoadInventory</referencedby>
+        <referencedby refid="class_item_container_1ab50a72dfcb950d3a483dc1c53471fedf" compoundref="_item_container_8cs" startline="70" endline="85">removeItem</referencedby>
+        <referencedby refid="class_item_container_1adfd88e49a35c5bd49417507c48c05260" compoundref="_item_container_8cs" startline="102" endline="132">removeItemWithAmount</referencedby>
+        <referencedby refid="class_item_save_manager_1a18f7b0abfe4a6c06d05de9f3fbe96bc9" compoundref="_item_save_manager_8cs" startline="44" endline="47">ItemSaveManager.SaveInventory</referencedby>
+        <referencedby refid="classstorage_1abf5bd78f2ecfc15a5a89a1adc942e34d" compoundref="storage_8cs" startline="62" endline="81">storage.SetInventoryUpgrade</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_item_container_1a881703dfdea0d17ac5dd71439b14a41a" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; ItemContainer.OnPointerEnterEvent</definition>
+        <argsstring></argsstring>
+        <name>OnPointerEnterEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="12" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" compoundref="_item_container_8cs" startline="20" endline="32">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_item_container_1a79cf8f59fe58b8f27100ef2fa9dc6ab5" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; ItemContainer.OnPointerExitEvent</definition>
+        <argsstring></argsstring>
+        <name>OnPointerExitEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="13" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" compoundref="_item_container_8cs" startline="20" endline="32">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_item_container_1a51e056c389290250e3b95270fd3e50e4" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; ItemContainer.OnLeftClickEvent</definition>
+        <argsstring></argsstring>
+        <name>OnLeftClickEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="14" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" compoundref="_item_container_8cs" startline="20" endline="32">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_item_container_1a02f085904d3da683b71f5bbf7ab4cc95" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; ItemContainer.OnBeginDragEvent</definition>
+        <argsstring></argsstring>
+        <name>OnBeginDragEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="15" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" compoundref="_item_container_8cs" startline="20" endline="32">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_item_container_1aa640b20e572e8ac726d2914375956d1e" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; ItemContainer.OnEndDragEvent</definition>
+        <argsstring></argsstring>
+        <name>OnEndDragEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="16" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" compoundref="_item_container_8cs" startline="20" endline="32">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_item_container_1ad8ea44ce84d6b1d8c5f8523038379cfb" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; ItemContainer.OnDragEvent</definition>
+        <argsstring></argsstring>
+        <name>OnDragEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="17" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" compoundref="_item_container_8cs" startline="20" endline="32">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_item_container_1afe1f3259c2bd0f43dd3f4d53464e7d81" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+        <definition>Action&lt;itemSlots&gt; ItemContainer.OnDropEvent</definition>
+        <argsstring></argsstring>
+        <name>OnDropEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="18" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" compoundref="_item_container_8cs" startline="20" endline="32">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_item_container_1aa1dc3be03a9508bca39252b0db5a345e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ItemContainer.passRemaining</definition>
+        <argsstring></argsstring>
+        <name>passRemaining</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="100" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_container_1afdacd7d3275a184268f58a243ab264a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ItemContainer.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <reimplementedby refid="classstorage_1a72387ff5adec348a9190a7b5944ca260">Awake</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="20" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="20" bodyend="32"/>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemSlots</references>
+        <references refid="class_item_container_1a02f085904d3da683b71f5bbf7ab4cc95" compoundref="_item_container_8cs" startline="15">OnBeginDragEvent</references>
+        <references refid="class_item_container_1ad8ea44ce84d6b1d8c5f8523038379cfb" compoundref="_item_container_8cs" startline="17">OnDragEvent</references>
+        <references refid="class_item_container_1afe1f3259c2bd0f43dd3f4d53464e7d81" compoundref="_item_container_8cs" startline="18">OnDropEvent</references>
+        <references refid="class_item_container_1aa640b20e572e8ac726d2914375956d1e" compoundref="_item_container_8cs" startline="16">OnEndDragEvent</references>
+        <references refid="class_item_container_1a51e056c389290250e3b95270fd3e50e4" compoundref="_item_container_8cs" startline="14">OnLeftClickEvent</references>
+        <references refid="class_item_container_1a881703dfdea0d17ac5dd71439b14a41a" compoundref="_item_container_8cs" startline="12">OnPointerEnterEvent</references>
+        <references refid="class_item_container_1a79cf8f59fe58b8f27100ef2fa9dc6ab5" compoundref="_item_container_8cs" startline="13">OnPointerExitEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_container_1a5628acd2a1298ad30086abcfb0b2f445" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ItemContainer.CheckIfSlotIsEmpty</definition>
+        <argsstring>(item item)</argsstring>
+        <name>CheckIfSlotIsEmpty</name>
+        <param>
+          <type><ref refid="classitem" kindref="compound">item</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="42" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="42" bodyend="53"/>
+        <references refid="classitem_1a68ea20b19325b04375505bf6a450f285" compoundref="item_8cs" startline="9" endline="9">item.ID</references>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemSlots</references>
+        <references refid="classitem_1a9538609f2181dbb017574b44ef64d5d2" compoundref="item_8cs" startline="14">item.maxStack</references>
+        <referencedby refid="class_player_movement_1a69aaa28d0715d1d2a86845ee7c0077ed" compoundref="_player_movement_8cs" startline="125" endline="162">PlayerMovement.Command_Interact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_container_1af6d25e8fc0187dca050a37f6b3d6767b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ItemContainer.addItem</definition>
+        <argsstring>(item item)</argsstring>
+        <name>addItem</name>
+        <param>
+          <type><ref refid="classitem" kindref="compound">item</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="55" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="55" bodyend="68"/>
+        <references refid="classitem_1a68ea20b19325b04375505bf6a450f285" compoundref="item_8cs" startline="9" endline="9">item.ID</references>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemSlots</references>
+        <references refid="classitem_1a9538609f2181dbb017574b44ef64d5d2" compoundref="item_8cs" startline="14">item.maxStack</references>
+        <referencedby refid="class_player_movement_1a69aaa28d0715d1d2a86845ee7c0077ed" compoundref="_player_movement_8cs" startline="125" endline="162">PlayerMovement.Command_Interact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_container_1ab50a72dfcb950d3a483dc1c53471fedf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ItemContainer.removeItem</definition>
+        <argsstring>(item item)</argsstring>
+        <name>removeItem</name>
+        <param>
+          <type><ref refid="classitem" kindref="compound">item</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="70" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="70" bodyend="85"/>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemSlots</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_container_1a9fa954c3d26b1ee1844a73aa4e7f65eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ItemContainer.discardItem</definition>
+        <argsstring>(itemSlots item)</argsstring>
+        <name>discardItem</name>
+        <param>
+          <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="86" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="86" bodyend="98"/>
+        <referencedby refid="class_character_1acbe29d969c692ce4da3f086eafe781e2" compoundref="_character_8cs" startline="96" endline="111">Character.BeginDiscard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_container_1adfd88e49a35c5bd49417507c48c05260" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ItemContainer.removeItemWithAmount</definition>
+        <argsstring>(item item, int amount)</argsstring>
+        <name>removeItemWithAmount</name>
+        <param>
+          <type><ref refid="classitem" kindref="compound">item</ref></type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="102" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="102" bodyend="132"/>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemSlots</references>
+        <referencedby refid="class_player_skills_1a13f145ea2840691dac8b1d4889dbb100" compoundref="_player_skills_8cs" startline="275" endline="306">PlayerSkills.RemoveAllUsedResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_container_1aaaa93fedc164672528fee56061686ee0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ItemContainer.IsFull</definition>
+        <argsstring>()</argsstring>
+        <name>IsFull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="134" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="134" bodyend="144"/>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemSlots</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_container_1ab50b820cf41946e71e0b4d680bf8117f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemContainer.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="146" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="146" bodyend="157"/>
+        <references refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" compoundref="_item_container_8cs" startline="10">ItemSlots</references>
+        <referencedby refid="class_item_save_manager_1a88f673ce4c62165ab8fa9c8a476773e3" compoundref="_item_save_manager_8cs" startline="11" endline="42">ItemSaveManager.LoadInventory</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_item_container_1ae8b8deff2310db3c47966a926d037c10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemContainer.EventHelper</definition>
+        <argsstring>(itemSlots itemSlot, Action&lt; itemSlots &gt; action)</argsstring>
+        <name>EventHelper</name>
+        <param>
+          <type><ref refid="classitem_slots" kindref="compound">itemSlots</ref></type>
+          <declname>itemSlot</declname>
+        </param>
+        <param>
+          <type>Action&lt; <ref refid="classitem_slots" kindref="compound">itemSlots</ref> &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="34" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="34" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ItemContainer</label>
+        <link refid="class_item_container"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>storage</label>
+        <link refid="classstorage"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ItemContainer</label>
+        <link refid="class_item_container"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" line="7" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/ItemContainer.cs" bodystart="8" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_item_container_1af6d25e8fc0187dca050a37f6b3d6767b" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>addItem</name></member>
+      <member refid="class_item_container_1afdacd7d3275a184268f58a243ab264a9" prot="public" virt="virtual"><scope>ItemContainer</scope><name>Awake</name></member>
+      <member refid="class_item_container_1a5628acd2a1298ad30086abcfb0b2f445" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>CheckIfSlotIsEmpty</name></member>
+      <member refid="class_item_container_1ab50b820cf41946e71e0b4d680bf8117f" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>Clear</name></member>
+      <member refid="class_item_container_1a9fa954c3d26b1ee1844a73aa4e7f65eb" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>discardItem</name></member>
+      <member refid="class_item_container_1ae8b8deff2310db3c47966a926d037c10" prot="private" virt="non-virtual"><scope>ItemContainer</scope><name>EventHelper</name></member>
+      <member refid="class_item_container_1aaaa93fedc164672528fee56061686ee0" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>IsFull</name></member>
+      <member refid="class_item_container_1a2a11aea62d65f1bf89a372c6b72ab1ff" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>ItemSlots</name></member>
+      <member refid="class_item_container_1a02f085904d3da683b71f5bbf7ab4cc95" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>OnBeginDragEvent</name></member>
+      <member refid="class_item_container_1ad8ea44ce84d6b1d8c5f8523038379cfb" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>OnDragEvent</name></member>
+      <member refid="class_item_container_1afe1f3259c2bd0f43dd3f4d53464e7d81" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>OnDropEvent</name></member>
+      <member refid="class_item_container_1aa640b20e572e8ac726d2914375956d1e" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>OnEndDragEvent</name></member>
+      <member refid="class_item_container_1a51e056c389290250e3b95270fd3e50e4" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>OnLeftClickEvent</name></member>
+      <member refid="class_item_container_1a881703dfdea0d17ac5dd71439b14a41a" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>OnPointerEnterEvent</name></member>
+      <member refid="class_item_container_1a79cf8f59fe58b8f27100ef2fa9dc6ab5" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>OnPointerExitEvent</name></member>
+      <member refid="class_item_container_1aa1dc3be03a9508bca39252b0db5a345e" prot="private" virt="non-virtual"><scope>ItemContainer</scope><name>passRemaining</name></member>
+      <member refid="class_item_container_1ab50a72dfcb950d3a483dc1c53471fedf" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>removeItem</name></member>
+      <member refid="class_item_container_1adfd88e49a35c5bd49417507c48c05260" prot="public" virt="non-virtual"><scope>ItemContainer</scope><name>removeItemWithAmount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,149 @@
+.TH "InputCommand" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+InputCommand
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBCommandBase\fP\&.
+.PP
+Inherited by \fBAbilityCommand\fP, \fBEnableDisableGameObjectCommand\fP, and \fBSetMaterialColorCommand\fP\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBExecExtraInfo\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSetExecExtraInfoByExecExtraInfo\fP (\fBExecExtraInfo\fP ex2)"
+.br
+.ti -1c
+.RI "override void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetExecInfo\fP (bool IsPress)"
+.br
+.ti -1c
+.RI "override void \fBTryExecCommand\fP ()"
+.br
+.ti -1c
+.RI "override void \fBExecPress\fP ()"
+.br
+.ti -1c
+.RI "override void \fBExecDown\fP ()"
+.br
+.ti -1c
+.RI "override void \fBExecDownCharging\fP ()"
+.br
+.ti -1c
+.RI "override void \fBExecRelease\fP ()"
+.br
+.ti -1c
+.RI "override void \fBExecd\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnExternalUpdate\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnInput\fP (InputAction\&.CallbackContext context)"
+.br
+.ti -1c
+.RI "void \fBOnInput\fP (InputValue value)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBExecExtraInfo\fP \fBexecExtraInfo\fP"
+.br
+.ti -1c
+.RI "bool \fBisExecChargedStyle\fP"
+.br
+.ti -1c
+.RI "bool \fBisFullChargeAutoRelease\fP"
+.br
+.ti -1c
+.RI "Slider \fBm_AimSlider\fP"
+.br
+.ti -1c
+.RI "float \fBm_MinLaunchForce\fP = 15f"
+.br
+.ti -1c
+.RI "float \fBm_MaxLaunchForce\fP = 30f"
+.br
+.ti -1c
+.RI "float \fBm_MaxChargeTime\fP = 0\&.75f"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Member Function Documentation"
+.PP 
+.SS "override void InputCommand\&.Execd ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBCommandBase\fP\&.
+.SS "override void InputCommand\&.ExecDown ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBCommandBase\fP\&.
+.SS "override void InputCommand\&.ExecDownCharging ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBCommandBase\fP\&.
+.SS "override void InputCommand\&.ExecPress ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBCommandBase\fP\&.
+.PP
+Reimplemented in \fBEnableDisableGameObjectCommand\fP, and \fBSetMaterialColorCommand\fP\&.
+.SS "override void InputCommand\&.ExecRelease ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBCommandBase\fP\&.
+.SS "override void InputCommand\&.OnEnable ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBCommandBase\fP\&.
+.SS "override void InputCommand\&.OnExternalUpdate ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBCommandBase\fP\&.
+.SS "void InputCommand\&.OnInput (InputAction\&.CallbackContext context)"
+
+.SS "void InputCommand\&.OnInput (InputValue value)"
+
+.SS "void InputCommand\&.SetExecExtraInfoByExecExtraInfo (\fBExecExtraInfo\fP ex2)"
+
+.SS "void InputCommand\&.SetExecInfo (bool IsPress)"
+
+.SS "override void InputCommand\&.TryExecCommand ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBCommandBase\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBExecExtraInfo\fP InputCommand\&.execExtraInfo"
+
+.SS "bool InputCommand\&.isExecChargedStyle"
+
+.SS "bool InputCommand\&.isFullChargeAutoRelease"
+
+.SS "Slider InputCommand\&.m_AimSlider"
+
+.SS "float InputCommand\&.m_MaxChargeTime = 0\&.75f"
+
+.SS "float InputCommand\&.m_MaxLaunchForce = 30f"
+
+.SS "float InputCommand\&.m_MinLaunchForce = 15f"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

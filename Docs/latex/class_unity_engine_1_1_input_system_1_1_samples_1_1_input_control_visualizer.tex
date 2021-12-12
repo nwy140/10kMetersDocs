@@ -1,0 +1,188 @@
+\hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer}{}\doxysection{Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer Class Reference}
+\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer}\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+
+
+A component for debugging purposes that adds an on-\/screen display which shows activity on an input control over time.  
+
+
+
+
+Inheritance diagram for Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3}{Mode}} \{ \newline
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a6adf97f83acf6453d4a6a4b1070f3754}{None}} = 0
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a689202409e48743b914713f96d93947c}{Value}} = 1
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a87f9f735a1d36793ceaecd4e47124b63}{Events}} = 4
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3ae023ae58219b6c3e057cdabb092e9f63}{Maximum\+Lag}} = 6
+, \newline
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a600e754f49b68aa0fc90a9cd64eb7051}{Bytes}} = 7
+ \}
+\begin{DoxyCompactList}\small\item\em Determines which aspect of the control should be visualized. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+new void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_af37e539581a9ffad64ab01b2091886e9}{On\+Enable}} ()
+\item 
+new void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_adf7b32caed756276a446092231632dd4}{On\+Disable}} ()
+\item 
+new void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_adfd8dedbea8a4d5225cfc8c1866773ea}{On\+GUI}} ()
+\item 
+new void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_aee67c21105e4318cd3f790e6ed587845}{On\+Validate}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3}{Mode}} \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a8739e964aed8054ede31b2a4c3e5f45d}{visualization}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em What kind of visualization to show. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a661607b086bd51c1dc1df80d46cff2b2}{control\+Path}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Path of the control that is to be visualized. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a84f6ef2483f229bd0593958696d6226f}{control\+Index}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em If, at runtime, multiple controls are matching \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a661607b086bd51c1dc1df80d46cff2b2}{control\+Path}}, this property determines the index of the control that is retrieved from the possible options. \end{DoxyCompactList}\item 
+Input\+Control \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_abd7a3240c5aaa8d75bf11a08ea9ea720}{control}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The control resolved from \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a661607b086bd51c1dc1df80d46cff2b2}{control\+Path}} at runtime. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A component for debugging purposes that adds an on-\/screen display which shows activity on an input control over time. 
+
+This component is most useful for debugging input directly on the source device. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_action_visualizer}{Input\+Action\+Visualizer}}
+
+
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!Mode@{Mode}}
+\index{Mode@{Mode}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{Mode}{Mode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3}{Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+Mode}}}
+
+
+
+Determines which aspect of the control should be visualized. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!None@{None}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a6adf97f83acf6453d4a6a4b1070f3754}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a6adf97f83acf6453d4a6a4b1070f3754}} 
+None&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Value@{Value}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!Value@{Value}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a689202409e48743b914713f96d93947c}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a689202409e48743b914713f96d93947c}} 
+Value&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Events@{Events}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!Events@{Events}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a87f9f735a1d36793ceaecd4e47124b63}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a87f9f735a1d36793ceaecd4e47124b63}} 
+Events&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MaximumLag@{MaximumLag}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!MaximumLag@{MaximumLag}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3ae023ae58219b6c3e057cdabb092e9f63}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3ae023ae58219b6c3e057cdabb092e9f63}} 
+Maximum\+Lag&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Bytes@{Bytes}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!Bytes@{Bytes}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a600e754f49b68aa0fc90a9cd64eb7051}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3a600e754f49b68aa0fc90a9cd64eb7051}} 
+Bytes&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_adf7b32caed756276a446092231632dd4}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_adf7b32caed756276a446092231632dd4}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily new void Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_af37e539581a9ffad64ab01b2091886e9}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_af37e539581a9ffad64ab01b2091886e9}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily new void Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_adfd8dedbea8a4d5225cfc8c1866773ea}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_adfd8dedbea8a4d5225cfc8c1866773ea}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!OnGUI@{OnGUI}}
+\index{OnGUI@{OnGUI}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{OnGUI()}{OnGUI()}}
+{\footnotesize\ttfamily new void Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+On\+GUI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_aee67c21105e4318cd3f790e6ed587845}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_aee67c21105e4318cd3f790e6ed587845}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!OnValidate@{OnValidate}}
+\index{OnValidate@{OnValidate}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{OnValidate()}{OnValidate()}}
+{\footnotesize\ttfamily new void Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+On\+Validate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_abd7a3240c5aaa8d75bf11a08ea9ea720}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_abd7a3240c5aaa8d75bf11a08ea9ea720}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!control@{control}}
+\index{control@{control}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{control}{control}}
+{\footnotesize\ttfamily Input\+Control Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+control\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The control resolved from \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a661607b086bd51c1dc1df80d46cff2b2}{control\+Path}} at runtime. 
+
+May be null. \mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a84f6ef2483f229bd0593958696d6226f}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a84f6ef2483f229bd0593958696d6226f}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!controlIndex@{controlIndex}}
+\index{controlIndex@{controlIndex}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{controlIndex}{controlIndex}}
+{\footnotesize\ttfamily int Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+control\+Index\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+If, at runtime, multiple controls are matching \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a661607b086bd51c1dc1df80d46cff2b2}{control\+Path}}, this property determines the index of the control that is retrieved from the possible options. 
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a661607b086bd51c1dc1df80d46cff2b2}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a661607b086bd51c1dc1df80d46cff2b2}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!controlPath@{controlPath}}
+\index{controlPath@{controlPath}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{controlPath}{controlPath}}
+{\footnotesize\ttfamily string Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+control\+Path\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Path of the control that is to be visualized. 
+
+\begin{DoxySeeAlso}{See also}
+Input\+Control\+Path, Input\+Control.\+path
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a8739e964aed8054ede31b2a4c3e5f45d}\label{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_a8739e964aed8054ede31b2a4c3e5f45d}} 
+\index{UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}!visualization@{visualization}}
+\index{visualization@{visualization}!UnityEngine.InputSystem.Samples.InputControlVisualizer@{UnityEngine.InputSystem.Samples.InputControlVisualizer}}
+\doxysubsubsection{\texorpdfstring{visualization}{visualization}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_samples_1_1_input_control_visualizer_acc2869a7134bc38ee8d18ea7ef1347d3}{Mode}} Unity\+Engine.\+Input\+System.\+Samples.\+Input\+Control\+Visualizer.\+visualization\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+What kind of visualization to show. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Samples/\+Input System/1.\+0.\+2/\+Visualizers/\mbox{\hyperlink{_input_control_visualizer_8cs}{Input\+Control\+Visualizer.\+cs}}\end{DoxyCompactItemize}

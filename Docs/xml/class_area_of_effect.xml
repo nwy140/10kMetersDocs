@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_area_of_effect" kind="class" language="C#" prot="public">
+    <compoundname>AreaOfEffect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_area_of_effect_1af86708ec4ce669a4876c44576758628d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AreaOfEffect.AOEDamage</definition>
+        <argsstring></argsstring>
+        <name>AOEDamage</name>
+        <initializer>= 100f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/AreaOfEffect.cs" line="7" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/AreaOfEffect.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_area_of_effect_1a333b889acefac6b6e253f55e6eb56f75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AreaOfEffect.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/AreaOfEffect.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/AreaOfEffect.cs" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_area_of_effect_1a10ed599c47e68dcb2cf388c5a53066c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AreaOfEffect.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/AreaOfEffect.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/AreaOfEffect.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AreaOfEffect</label>
+        <link refid="class_area_of_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AreaOfEffect</label>
+        <link refid="class_area_of_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/AreaOfEffect.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/AreaOfEffect.cs" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_area_of_effect_1af86708ec4ce669a4876c44576758628d" prot="private" virt="non-virtual"><scope>AreaOfEffect</scope><name>AOEDamage</name></member>
+      <member refid="class_area_of_effect_1a333b889acefac6b6e253f55e6eb56f75" prot="private" virt="non-virtual"><scope>AreaOfEffect</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_area_of_effect_1a10ed599c47e68dcb2cf388c5a53066c8" prot="private" virt="non-virtual"><scope>AreaOfEffect</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

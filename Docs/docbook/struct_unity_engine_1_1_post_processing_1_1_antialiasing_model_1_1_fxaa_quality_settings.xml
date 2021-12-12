@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings Struct Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings_1ac514fdce358d2574ff6077c396d6f21e">subpixelAliasingRemovalAmount</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings_1acdbd8b0638ef670b1cf306486c37224c">edgeDetectionThreshold</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings_1a9d0a9883141d960b0e9e84aa08d4f287">minimumRequiredLuminance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings">FxaaQualitySettings</link>[] <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings_1aa0de93d00805e6023393a52a6434a3b6">presets</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings_1acdbd8b0638ef670b1cf306486c37224c"/><section>
+    <title>edgeDetectionThreshold</title>
+<indexterm><primary>edgeDetectionThreshold</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</primary><secondary>edgeDetectionThreshold</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings.edgeDetectionThreshold</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings_1a9d0a9883141d960b0e9e84aa08d4f287"/><section>
+    <title>minimumRequiredLuminance</title>
+<indexterm><primary>minimumRequiredLuminance</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</primary><secondary>minimumRequiredLuminance</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings.minimumRequiredLuminance</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings_1aa0de93d00805e6023393a52a6434a3b6"/><section>
+    <title>presets</title>
+<indexterm><primary>presets</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</primary><secondary>presets</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings">FxaaQualitySettings</link> [] UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings.presets<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings_1ac514fdce358d2574ff6077c396d6f21e"/><section>
+    <title>subpixelAliasingRemovalAmount</title>
+<indexterm><primary>subpixelAliasingRemovalAmount</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings</primary><secondary>subpixelAliasingRemovalAmount</secondary></indexterm>
+<para><computeroutput>float UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings.subpixelAliasingRemovalAmount</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__antialiasing_model_8cs">AntialiasingModel.cs</link></section>
+</section>

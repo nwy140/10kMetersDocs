@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__doxygen_window_8cs" xml:lang="en-US">
+<title>C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs File Reference</title>
+<indexterm><primary>C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_doxygen_config">DoxygenConfig</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_doxygen_window">DoxygenWindow</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_doxy_runner">DoxyRunner</link></para>
+
+<para>This class spawns and runs Doxygen in a separate thread, and could serve as an example of how to create plugins for unity that call a command line application and then get the data back into Unity safely. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_doxy_thread_safe_output">DoxyThreadSafeOutput</link></para>
+
+<para>This class encapsulates the data output by Doxygen so it can be shared with Unity in a thread share way. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

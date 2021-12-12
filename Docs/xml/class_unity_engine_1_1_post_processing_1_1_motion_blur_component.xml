@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::MotionBlurComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; MotionBlurModel &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter" prot="public">UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter</innerclass>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter" prot="public">UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</innerclass>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>Pass</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a8160496624feed9b3ee4514f7525466f" prot="private">
+          <name>VelocitySetup</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a98ec28c5a667021bb63b3ce60db4e978" prot="private">
+          <name>TileMax1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72acf4326a3c610f4ffaec8d0b54c163ed7" prot="private">
+          <name>TileMax2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a5b907ab5f95df0c824de66cb6bf5a398" prot="private">
+          <name>TileMaxV</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a529feee54a29c16a469a49bf644cf4ee" prot="private">
+          <name>NeighborMax</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a2d4907781ee5dad928d4c2f39d4d4848" prot="private">
+          <name>Reconstruction</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a157552dfa282c1e0cfd3a225203fc9d5" prot="private">
+          <name>FrameCompression</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a5c4e5c6c309f03d321d0a71c8dac5107" prot="private">
+          <name>FrameBlendingChroma</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72aa85786aa5394bd6e6f535e88234a5c0a" prot="private">
+          <name>FrameBlendingRaw</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="42" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="43" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3b19c244dccf16b77d72bab6fb541e8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter" kindref="compound">ReconstructionFilter</ref></type>
+        <definition>ReconstructionFilter UnityEngine.PostProcessing.MotionBlurComponent.m_ReconstructionFilter</definition>
+        <argsstring></argsstring>
+        <name>m_ReconstructionFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="317" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1afe769fdbff3b2b14f5a4f3dcbe6c9434" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter" kindref="compound">FrameBlendingFilter</ref></type>
+        <definition>FrameBlendingFilter UnityEngine.PostProcessing.MotionBlurComponent.m_FrameBlendingFilter</definition>
+        <argsstring></argsstring>
+        <name>m_FrameBlendingFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="329" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ab5e206496b1bb49aa6222cd080169c9b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.MotionBlurComponent.m_FirstFrame</definition>
+        <argsstring></argsstring>
+        <name>m_FirstFrame</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="341" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aea13feeae21a2323a05a78650f761594" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter" kindref="compound">ReconstructionFilter</ref></type>
+        <definition>ReconstructionFilter UnityEngine.PostProcessing.MotionBlurComponent.reconstructionFilter</definition>
+        <argsstring></argsstring>
+        <name>reconstructionFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="318" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="319" bodyend="327"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934" compoundref="_motion_blur_component_8cs" startline="383" endline="436">UnityEngine.PostProcessing.MotionBlurComponent.PopulateCommandBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a21f0734301f3bd60e1454df1540c3a79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter" kindref="compound">FrameBlendingFilter</ref></type>
+        <definition>FrameBlendingFilter UnityEngine.PostProcessing.MotionBlurComponent.frameBlendingFilter</definition>
+        <argsstring></argsstring>
+        <name>frameBlendingFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="330" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="331" bodyend="339"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934" compoundref="_motion_blur_component_8cs" startline="383" endline="436">UnityEngine.PostProcessing.MotionBlurComponent.PopulateCommandBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aef85ae6ce557465b097ed27e23f0a27e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.MotionBlurComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="343" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="344" bodyend="353"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a9ffec424dc428506c72254c3b7d5ce19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.PostProcessing.MotionBlurComponent.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="355" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="355" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a796e8f0b76f16076e83b95d302560f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.MotionBlurComponent.ResetHistory</definition>
+        <argsstring>()</argsstring>
+        <name>ResetHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="360" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="360" bodyend="366"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a12cc91b85fedc39bf7d777a2c4d49f17" compoundref="_post_processing_behaviour_8cs" startline="342" endline="347">UnityEngine.PostProcessing.PostProcessingBehaviour.ResetTemporalEffects</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3733dff98d8b6d020c5f494607a6bebd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.MotionBlurComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="368" column="42" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="368" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ad3a58d6a79a3e0205cbf63b2312cd68a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override CameraEvent</type>
+        <definition>override CameraEvent UnityEngine.PostProcessing.MotionBlurComponent.GetCameraEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraEvent</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="373" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="373" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aa48148ebf17e8302a7952a49f7034247" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.MotionBlurComponent.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="378" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="378" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.MotionBlurComponent.PopulateCommandBuffer</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>PopulateCommandBuffer</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="383" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="383" bodyend="436"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1a679383bc1fc3e5e698bb5724676efcc5" compoundref="_motion_blur_component_8cs" startline="256" endline="282">UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.BlendFrames</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a21f0734301f3bd60e1454df1540c3a79" compoundref="_motion_blur_component_8cs" startline="331" endline="339">UnityEngine.PostProcessing.MotionBlurComponent.frameBlendingFilter</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a10805735f3c20028314f16e0bc6e06b5" compoundref="_motion_blur_component_8cs" startline="80" endline="149">UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.ProcessImage</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1a28f61022ba58cd83c34e46a2511c32ed" compoundref="_motion_blur_component_8cs" startline="239" endline="254">UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.PushFrame</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aea13feeae21a2323a05a78650f761594" compoundref="_motion_blur_component_8cs" startline="319" endline="327">UnityEngine.PostProcessing.MotionBlurComponent.reconstructionFilter</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a61167340f6855f661eed95d30c8528b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.MotionBlurComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="438" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="438" bodyend="442"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PostProcessingComponentCommandBuffer&lt; MotionBlurModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.MotionBlurComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PostProcessingComponentCommandBuffer&lt; MotionBlurModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer"/>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.MotionBlurComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="7" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="8" bodyend="443"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aef85ae6ce557465b097ed27e23f0a27e" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a21f0734301f3bd60e1454df1540c3a79" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>frameBlendingFilter</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ad3a58d6a79a3e0205cbf63b2312cd68a" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>GetCameraEvent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3733dff98d8b6d020c5f494607a6bebd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a9ffec424dc428506c72254c3b7d5ce19" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>GetName</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ab5e206496b1bb49aa6222cd080169c9b" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>m_FirstFrame</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1afe769fdbff3b2b14f5a4f3dcbe6c9434" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>m_FrameBlendingFilter</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3b19c244dccf16b77d72bab6fb541e8d" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>m_ReconstructionFilter</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a61167340f6855f661eed95d30c8528b4" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aa48148ebf17e8302a7952a49f7034247" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>Pass</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>PopulateCommandBuffer</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aea13feeae21a2323a05a78650f761594" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>reconstructionFilter</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a796e8f0b76f16076e83b95d302560f95" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>ResetHistory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

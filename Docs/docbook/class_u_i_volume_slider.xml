@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_u_i_volume_slider" xml:lang="en-US">
+<title>UIVolumeSlider Class Reference</title>
+<indexterm><primary>UIVolumeSlider</primary></indexterm>
+Inheritance diagram for UIVolumeSlider:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_i_volume_slider__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UIVolumeSlider:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_i_volume_slider__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_u_i_volume_slider_1aefd7a872ebf2f7dd5fbcfdfe9f005aaa">OnOverallVolumeSliderValueChanged</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_u_i_volume_slider_1a8fdf4dea80cb5c421f8553dba8bdc22c">OnSFXVolumeSliderValueChanged</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_u_i_volume_slider_1ab2dcb0a8fb571e950d82f67c96fc0d20">OnBGMVolumeSliderValueChanged</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Slider <link linkend="_class_u_i_volume_slider_1a6d62f5035d5968585148914fb2fcb933">slider</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_u_i_volume_slider_1a8bc6ac68ac4a1bcc2a5f23d664e89682">isOverallVolume</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_u_i_volume_slider_1a30be5c3e666e7cb062bea268caae37bc">isSFXVolume</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_u_i_volume_slider_1a0f300ec9a5a3a084f9ce9ab4bbb1203e">isBGMVolume</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_u_i_volume_slider_1ab2dcb0a8fb571e950d82f67c96fc0d20"/><section>
+    <title>OnBGMVolumeSliderValueChanged()</title>
+<indexterm><primary>OnBGMVolumeSliderValueChanged</primary><secondary>UIVolumeSlider</secondary></indexterm>
+<indexterm><primary>UIVolumeSlider</primary><secondary>OnBGMVolumeSliderValueChanged</secondary></indexterm>
+<para><computeroutput>void UIVolumeSlider.OnBGMVolumeSliderValueChanged ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_i_volume_slider_ab2dcb0a8fb571e950d82f67c96fc0d20_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_u_i_volume_slider_1aefd7a872ebf2f7dd5fbcfdfe9f005aaa"/><section>
+    <title>OnOverallVolumeSliderValueChanged()</title>
+<indexterm><primary>OnOverallVolumeSliderValueChanged</primary><secondary>UIVolumeSlider</secondary></indexterm>
+<indexterm><primary>UIVolumeSlider</primary><secondary>OnOverallVolumeSliderValueChanged</secondary></indexterm>
+<para><computeroutput>void UIVolumeSlider.OnOverallVolumeSliderValueChanged ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_i_volume_slider_aefd7a872ebf2f7dd5fbcfdfe9f005aaa_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_u_i_volume_slider_1a8fdf4dea80cb5c421f8553dba8bdc22c"/><section>
+    <title>OnSFXVolumeSliderValueChanged()</title>
+<indexterm><primary>OnSFXVolumeSliderValueChanged</primary><secondary>UIVolumeSlider</secondary></indexterm>
+<indexterm><primary>UIVolumeSlider</primary><secondary>OnSFXVolumeSliderValueChanged</secondary></indexterm>
+<para><computeroutput>void UIVolumeSlider.OnSFXVolumeSliderValueChanged ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_i_volume_slider_a8fdf4dea80cb5c421f8553dba8bdc22c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_u_i_volume_slider_1a0f300ec9a5a3a084f9ce9ab4bbb1203e"/><section>
+    <title>isBGMVolume</title>
+<indexterm><primary>isBGMVolume</primary><secondary>UIVolumeSlider</secondary></indexterm>
+<indexterm><primary>UIVolumeSlider</primary><secondary>isBGMVolume</secondary></indexterm>
+<para><computeroutput>bool UIVolumeSlider.isBGMVolume</computeroutput></para></section>
+<anchor xml:id="_class_u_i_volume_slider_1a8bc6ac68ac4a1bcc2a5f23d664e89682"/><section>
+    <title>isOverallVolume</title>
+<indexterm><primary>isOverallVolume</primary><secondary>UIVolumeSlider</secondary></indexterm>
+<indexterm><primary>UIVolumeSlider</primary><secondary>isOverallVolume</secondary></indexterm>
+<para><computeroutput>bool UIVolumeSlider.isOverallVolume</computeroutput></para></section>
+<anchor xml:id="_class_u_i_volume_slider_1a30be5c3e666e7cb062bea268caae37bc"/><section>
+    <title>isSFXVolume</title>
+<indexterm><primary>isSFXVolume</primary><secondary>UIVolumeSlider</secondary></indexterm>
+<indexterm><primary>UIVolumeSlider</primary><secondary>isSFXVolume</secondary></indexterm>
+<para><computeroutput>bool UIVolumeSlider.isSFXVolume</computeroutput></para></section>
+<anchor xml:id="_class_u_i_volume_slider_1a6d62f5035d5968585148914fb2fcb933"/><section>
+    <title>slider</title>
+<indexterm><primary>slider</primary><secondary>UIVolumeSlider</secondary></indexterm>
+<indexterm><primary>UIVolumeSlider</primary><secondary>slider</secondary></indexterm>
+<para><computeroutput>Slider UIVolumeSlider.slider</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/<link linkend="__u_i_volume_slider_8cs">UIVolumeSlider.cs</link></section>
+</section>

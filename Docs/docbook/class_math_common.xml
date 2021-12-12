@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_math_common" xml:lang="en-US">
+<title>MathCommon Class Reference</title>
+<indexterm><primary>MathCommon</primary></indexterm>
+Collaboration diagram for MathCommon:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_math_common__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static float <link linkend="_class_math_common_1ac7a4bc3c7bc91a9fc29e028dfd772abe">CalculateSliderValuePercentage</link> (Slider sliderUI, float currValue, float maxValue, float lerpTime)</para>
+</listitem>
+            <listitem><para>static float <link linkend="_class_math_common_1aafec06a9d75b7f18a1778638a83e1299">CalculateLerpValuePercentage</link> (float currValue, float maxValue, float lerpTime)</para>
+</listitem>
+            <listitem><para>static Vector3 <link linkend="_class_math_common_1a5f063f62f56ada8a64719748e2b2cdc0">lerpLinearVector3</link> (Vector3 start, Vector3 end, float timeStartedLerping, float lerpTime=1)</para>
+</listitem>
+            <listitem><para>static float <link linkend="_class_math_common_1ab4f7ab95afc8f01d0166035c7944fd1e">lerpLinearFloat</link> (float startVal, float endVal, float timeStartedLerping, float lerpTime=1)</para>
+</listitem>
+            <listitem><para>static Color <link linkend="_class_math_common_1a147dd0dbf49544bc599778d12f8c15c6">ColorParseHex</link> (string hexValue)</para>
+</listitem>
+            <listitem><para>static Color <link linkend="_class_math_common_1afea37ce7e332955adcafc1360fda3322">ColorInvert</link> (Color color)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_math_common_1aafec06a9d75b7f18a1778638a83e1299"/><section>
+    <title>CalculateLerpValuePercentage()</title>
+<indexterm><primary>CalculateLerpValuePercentage</primary><secondary>MathCommon</secondary></indexterm>
+<indexterm><primary>MathCommon</primary><secondary>CalculateLerpValuePercentage</secondary></indexterm>
+<para><computeroutput>static float MathCommon.CalculateLerpValuePercentage (float currValue, float maxValue, float lerpTime)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_math_common_1ac7a4bc3c7bc91a9fc29e028dfd772abe"/><section>
+    <title>CalculateSliderValuePercentage()</title>
+<indexterm><primary>CalculateSliderValuePercentage</primary><secondary>MathCommon</secondary></indexterm>
+<indexterm><primary>MathCommon</primary><secondary>CalculateSliderValuePercentage</secondary></indexterm>
+<para><computeroutput>static float MathCommon.CalculateSliderValuePercentage (Slider sliderUI, float currValue, float maxValue, float lerpTime)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_math_common_1afea37ce7e332955adcafc1360fda3322"/><section>
+    <title>ColorInvert()</title>
+<indexterm><primary>ColorInvert</primary><secondary>MathCommon</secondary></indexterm>
+<indexterm><primary>MathCommon</primary><secondary>ColorInvert</secondary></indexterm>
+<para><computeroutput>static Color MathCommon.ColorInvert (Color color)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_math_common_1a147dd0dbf49544bc599778d12f8c15c6"/><section>
+    <title>ColorParseHex()</title>
+<indexterm><primary>ColorParseHex</primary><secondary>MathCommon</secondary></indexterm>
+<indexterm><primary>MathCommon</primary><secondary>ColorParseHex</secondary></indexterm>
+<para><computeroutput>static Color MathCommon.ColorParseHex (string hexValue)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_math_common_1ab4f7ab95afc8f01d0166035c7944fd1e"/><section>
+    <title>lerpLinearFloat()</title>
+<indexterm><primary>lerpLinearFloat</primary><secondary>MathCommon</secondary></indexterm>
+<indexterm><primary>MathCommon</primary><secondary>lerpLinearFloat</secondary></indexterm>
+<para><computeroutput>static float MathCommon.lerpLinearFloat (float startVal, float endVal, float timeStartedLerping, float lerpTime = <computeroutput>1</computeroutput>
+)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_math_common_1a5f063f62f56ada8a64719748e2b2cdc0"/><section>
+    <title>lerpLinearVector3()</title>
+<indexterm><primary>lerpLinearVector3</primary><secondary>MathCommon</secondary></indexterm>
+<indexterm><primary>MathCommon</primary><secondary>lerpLinearVector3</secondary></indexterm>
+<para><computeroutput>static Vector3 MathCommon.lerpLinearVector3 (Vector3 start, Vector3 end, float timeStartedLerping, float lerpTime = <computeroutput>1</computeroutput>
+)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Calculation/<link linkend="__math_common_8cs">MathCommon.cs</link></section>
+</section>

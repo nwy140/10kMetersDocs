@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_on_enable_event_call_timer" xml:lang="en-US">
+<title>OnEnableEventCallTimer Class Reference</title>
+<indexterm><primary>OnEnableEventCallTimer</primary></indexterm>
+Inheritance diagram for OnEnableEventCallTimer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_on_enable_event_call_timer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for OnEnableEventCallTimer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_on_enable_event_call_timer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_on_enable_event_call_timer_1a49ed1e4a20d00a3cd72016cc240788f6">ResetTimer</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_on_enable_event_call_timer_1a3e6936d50d4f9c6c36b522649c152a18">PlayEventToCall</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_on_enable_event_call_timer_1af682408e500f3b19530e9fc8c3bd70ac">timerInSeconds</link> = 3f</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_on_enable_event_call_timer_1a99be872d42fbc8fb9c96e59c0c0f0df9">isUseIntervalTimer</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_on_enable_event_call_timer_1a61b0c2929e836dec07b2aefedbf1e349">isAllowDisable</link> = false</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_on_enable_event_call_timer_1ac9f7c49779695a5dcb537625c1ec2377">isCountUpTimer</link> = false</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_on_enable_event_call_timer_1a814013687c24af2585b78d8ec5fe7e1a">isTimerHasLimit</link> = true</para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_on_enable_event_call_timer_1ae9c5f7794c748e71767046be7947365a">timerText</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_on_enable_event_call_timer_1a8ff5d6c44840df0cef3156bc26cd469a">isLoopTimer</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_on_enable_event_call_timer_1a04e40b4c3c618cae28da366b0328e642">isUseRandomRangeTimerInSeconds</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_on_enable_event_call_timer_1aacf309c25c0e2b9748355eee3e388efd">minTimerInSeconds</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_on_enable_event_call_timer_1ade32dd137a18161be33310820b60c084">maxTimerInSeconds</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_on_enable_event_call_timer_1ac369766b9c7a6534fb782bab713afd01">targetTime</link></para>
+</listitem>
+            <listitem><para>UnityEvent <link linkend="_class_on_enable_event_call_timer_1ae29f82332b9adae46877aebf3743b221">eventToCall</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_on_enable_event_call_timer_1a3e6936d50d4f9c6c36b522649c152a18"/><section>
+    <title>PlayEventToCall()</title>
+<indexterm><primary>PlayEventToCall</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>PlayEventToCall</secondary></indexterm>
+<para><computeroutput>void OnEnableEventCallTimer.PlayEventToCall ( )</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1a49ed1e4a20d00a3cd72016cc240788f6"/><section>
+    <title>ResetTimer()</title>
+<indexterm><primary>ResetTimer</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>ResetTimer</secondary></indexterm>
+<para><computeroutput>void OnEnableEventCallTimer.ResetTimer ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_on_enable_event_call_timer_1ae29f82332b9adae46877aebf3743b221"/><section>
+    <title>eventToCall</title>
+<indexterm><primary>eventToCall</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>eventToCall</secondary></indexterm>
+<para><computeroutput>UnityEvent OnEnableEventCallTimer.eventToCall</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1a61b0c2929e836dec07b2aefedbf1e349"/><section>
+    <title>isAllowDisable</title>
+<indexterm><primary>isAllowDisable</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>isAllowDisable</secondary></indexterm>
+<para><computeroutput>bool OnEnableEventCallTimer.isAllowDisable = false</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1ac9f7c49779695a5dcb537625c1ec2377"/><section>
+    <title>isCountUpTimer</title>
+<indexterm><primary>isCountUpTimer</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>isCountUpTimer</secondary></indexterm>
+<para><computeroutput>bool OnEnableEventCallTimer.isCountUpTimer = false</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1a8ff5d6c44840df0cef3156bc26cd469a"/><section>
+    <title>isLoopTimer</title>
+<indexterm><primary>isLoopTimer</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>isLoopTimer</secondary></indexterm>
+<para><computeroutput>bool OnEnableEventCallTimer.isLoopTimer</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1a814013687c24af2585b78d8ec5fe7e1a"/><section>
+    <title>isTimerHasLimit</title>
+<indexterm><primary>isTimerHasLimit</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>isTimerHasLimit</secondary></indexterm>
+<para><computeroutput>bool OnEnableEventCallTimer.isTimerHasLimit = true</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1a99be872d42fbc8fb9c96e59c0c0f0df9"/><section>
+    <title>isUseIntervalTimer</title>
+<indexterm><primary>isUseIntervalTimer</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>isUseIntervalTimer</secondary></indexterm>
+<para><computeroutput>bool OnEnableEventCallTimer.isUseIntervalTimer</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1a04e40b4c3c618cae28da366b0328e642"/><section>
+    <title>isUseRandomRangeTimerInSeconds</title>
+<indexterm><primary>isUseRandomRangeTimerInSeconds</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>isUseRandomRangeTimerInSeconds</secondary></indexterm>
+<para><computeroutput>bool OnEnableEventCallTimer.isUseRandomRangeTimerInSeconds</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1ade32dd137a18161be33310820b60c084"/><section>
+    <title>maxTimerInSeconds</title>
+<indexterm><primary>maxTimerInSeconds</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>maxTimerInSeconds</secondary></indexterm>
+<para><computeroutput>float OnEnableEventCallTimer.maxTimerInSeconds</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1aacf309c25c0e2b9748355eee3e388efd"/><section>
+    <title>minTimerInSeconds</title>
+<indexterm><primary>minTimerInSeconds</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>minTimerInSeconds</secondary></indexterm>
+<para><computeroutput>float OnEnableEventCallTimer.minTimerInSeconds</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1ac369766b9c7a6534fb782bab713afd01"/><section>
+    <title>targetTime</title>
+<indexterm><primary>targetTime</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>targetTime</secondary></indexterm>
+<para><computeroutput>float OnEnableEventCallTimer.targetTime</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1af682408e500f3b19530e9fc8c3bd70ac"/><section>
+    <title>timerInSeconds</title>
+<indexterm><primary>timerInSeconds</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>timerInSeconds</secondary></indexterm>
+<para><computeroutput>float OnEnableEventCallTimer.timerInSeconds = 3f</computeroutput></para></section>
+<anchor xml:id="_class_on_enable_event_call_timer_1ae9c5f7794c748e71767046be7947365a"/><section>
+    <title>timerText</title>
+<indexterm><primary>timerText</primary><secondary>OnEnableEventCallTimer</secondary></indexterm>
+<indexterm><primary>OnEnableEventCallTimer</primary><secondary>timerText</secondary></indexterm>
+<para><computeroutput>Text OnEnableEventCallTimer.timerText</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Event/<link linkend="__on_enable_event_call_timer_8cs">OnEnableEventCallTimer.cs</link></section>
+</section>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_upgrade_save_manager" kind="class" language="C#" prot="public">
+    <compoundname>UpgradeSaveManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_upgrade_save_manager_1a5627e60833204997ee5219b25705105c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_database" kindref="compound">UpgradeDatabase</ref></type>
+        <definition>UpgradeDatabase UpgradeSaveManager.upgradeDatabase</definition>
+        <argsstring></argsstring>
+        <name>upgradeDatabase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" line="6" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_upgrade_save_manager_1a53e281ff32600a60e6d03d1102ef0b82" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string UpgradeSaveManager.UpgradeFileName</definition>
+        <argsstring></argsstring>
+        <name>UpgradeFileName</name>
+        <initializer>= &quot;Upgrade&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" line="8" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeSaveManager.LoadUpgrade</definition>
+        <argsstring>(UpgradeHolder upgradeHolder)</argsstring>
+        <name>LoadUpgrade</name>
+        <param>
+          <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+          <declname>upgradeHolder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" line="10" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" bodystart="10" bodyend="29"/>
+        <references refid="class_upgrade_database_1a94511ed08cae935308783b95bc17a491" compoundref="_upgrade_database_8cs" startline="24" endline="29">UpgradeDatabase.GetUpgradeCopy</references>
+        <references refid="class_upgrade_holder_1ae99c4ea3908d4ca167b180a33938d303" compoundref="_upgrade_holder_8cs" startline="158" endline="167">UpgradeHolder.HullUpgrade</references>
+        <references refid="class_installed_upgrade_save_data_1aab59dc1258f4e5251d84fd1078429007" compoundref="_upgrade_save_data_8cs" startline="18">InstalledUpgradeSaveData.installedUpgrade</references>
+        <references refid="class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6" compoundref="_upgrade_holder_8cs" startline="191" endline="200">UpgradeHolder.InventoryUpgrade</references>
+        <references refid="class_upgrade_save_i_o_1a4480b2dd3f7ebf9854bd685bdeba9345" compoundref="_upgrade_save_i_o_8cs" startline="17" endline="27">UpgradeSaveIO.LoadUpgrades</references>
+        <references refid="class_upgrade_holder_1ad96dbb09f57c0bbadb98c7a61cdf6dd7" compoundref="_upgrade_holder_8cs" startline="180" endline="189">UpgradeHolder.OxygenTankUpgrade</references>
+        <references refid="class_upgrade_holder_1afc3be7202277fa87ac4a4a5587164fac" compoundref="_upgrade_holder_8cs" startline="169" endline="178">UpgradeHolder.SelfRepairUpgrade</references>
+        <references refid="class_upgrade_holder_1aedf282972fb27acfa5d548136a5c28c3" compoundref="_upgrade_holder_8cs" startline="136" endline="145">UpgradeHolder.TurbineUpgrade</references>
+        <references refid="class_upgrade_save_data_1a55505e468eacf42f06ec87c4fa88c747" compoundref="_upgrade_save_data_8cs" startline="7">UpgradeSaveData.UpgradeID</references>
+        <references refid="class_upgrade_holder_1a1d6fdce24c1016914fabd8952dc3b18a" compoundref="_upgrade_holder_8cs" startline="147" endline="156">UpgradeHolder.WeaponUpgrade</references>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeSaveManager.SaveUpgrade</definition>
+        <argsstring>(UpgradeHolder upgradeHolder)</argsstring>
+        <name>SaveUpgrade</name>
+        <param>
+          <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+          <declname>upgradeHolder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" line="31" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" bodystart="31" bodyend="34"/>
+        <references refid="class_upgrade_holder_1ae99c4ea3908d4ca167b180a33938d303" compoundref="_upgrade_holder_8cs" startline="158" endline="167">UpgradeHolder.HullUpgrade</references>
+        <references refid="class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6" compoundref="_upgrade_holder_8cs" startline="191" endline="200">UpgradeHolder.InventoryUpgrade</references>
+        <references refid="class_upgrade_holder_1ad96dbb09f57c0bbadb98c7a61cdf6dd7" compoundref="_upgrade_holder_8cs" startline="180" endline="189">UpgradeHolder.OxygenTankUpgrade</references>
+        <references refid="class_upgrade_holder_1afc3be7202277fa87ac4a4a5587164fac" compoundref="_upgrade_holder_8cs" startline="169" endline="178">UpgradeHolder.SelfRepairUpgrade</references>
+        <references refid="class_upgrade_holder_1aedf282972fb27acfa5d548136a5c28c3" compoundref="_upgrade_holder_8cs" startline="136" endline="145">UpgradeHolder.TurbineUpgrade</references>
+        <references refid="class_upgrade_holder_1a1d6fdce24c1016914fabd8952dc3b18a" compoundref="_upgrade_holder_8cs" startline="147" endline="156">UpgradeHolder.WeaponUpgrade</references>
+        <referencedby refid="class_outpost_choices_1a1a2974f7449ec5444e11d43d537c49cc" compoundref="_outpost_choices_8cs" startline="75" endline="100">OutpostChoices.ReturnSea</referencedby>
+        <referencedby refid="class_scene_transitions_to_outpost_1a10e00fecf2254738eddd19d815366f9d" compoundref="_scene_transitions_to_outpost_8cs" startline="32" endline="37">SceneTransitionsToOutpost.Save</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_upgrade_save_manager_1a77e7e2850766ba3263a60e3e742aede6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeSaveManager.SaveUpgrades</definition>
+        <argsstring>(Turbine turbine, Weapon weapon, Hull hull, SelfRepair selfRepair, OxygenTank oxygenTank, Inventory inventory, string filename)</argsstring>
+        <name>SaveUpgrades</name>
+        <param>
+          <type><ref refid="class_turbine" kindref="compound">Turbine</ref></type>
+          <declname>turbine</declname>
+        </param>
+        <param>
+          <type><ref refid="class_weapon" kindref="compound">Weapon</ref></type>
+          <declname>weapon</declname>
+        </param>
+        <param>
+          <type><ref refid="class_hull" kindref="compound">Hull</ref></type>
+          <declname>hull</declname>
+        </param>
+        <param>
+          <type><ref refid="class_self_repair" kindref="compound">SelfRepair</ref></type>
+          <declname>selfRepair</declname>
+        </param>
+        <param>
+          <type><ref refid="class_oxygen_tank" kindref="compound">OxygenTank</ref></type>
+          <declname>oxygenTank</declname>
+        </param>
+        <param>
+          <type><ref refid="class_inventory" kindref="compound">Inventory</ref></type>
+          <declname>inventory</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" line="36" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" bodystart="36" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UpgradeSaveManager</label>
+        <link refid="class_upgrade_save_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UpgradeSaveManager</label>
+        <link refid="class_upgrade_save_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" line="4" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/UpgradeSaveManager.cs" bodystart="5" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_upgrade_save_manager_1aa7c5b2581895757dcf27eadfed99cc8c" prot="public" virt="non-virtual"><scope>UpgradeSaveManager</scope><name>LoadUpgrade</name></member>
+      <member refid="class_upgrade_save_manager_1a077e945b730bb45444117f7fe27b3a6d" prot="public" virt="non-virtual"><scope>UpgradeSaveManager</scope><name>SaveUpgrade</name></member>
+      <member refid="class_upgrade_save_manager_1a77e7e2850766ba3263a60e3e742aede6" prot="private" virt="non-virtual"><scope>UpgradeSaveManager</scope><name>SaveUpgrades</name></member>
+      <member refid="class_upgrade_save_manager_1a5627e60833204997ee5219b25705105c" prot="private" virt="non-virtual"><scope>UpgradeSaveManager</scope><name>upgradeDatabase</name></member>
+      <member refid="class_upgrade_save_manager_1a53e281ff32600a60e6d03d1102ef0b82" prot="private" virt="non-virtual"><scope>UpgradeSaveManager</scope><name>UpgradeFileName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

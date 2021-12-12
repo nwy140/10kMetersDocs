@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_enemy_health" kind="class" language="C#" prot="public">
+    <compoundname>EnemyHealth</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_health_1a9e2c7287b2680e917e614b649a186035" prot="private" static="no" mutable="no">
+        <type><ref refid="class_resource" kindref="compound">Resource</ref></type>
+        <definition>Resource EnemyHealth.fishMaterial</definition>
+        <argsstring></argsstring>
+        <name>fishMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="11" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_health_1ac68b0e529838187e353cb65e6f3def62" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite EnemyHealth.hurtSprite</definition>
+        <argsstring></argsstring>
+        <name>hurtSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="12" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_health_1ab98934dcce8ea4a3f203d6c7e50f0ffb" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite EnemyHealth.originalSprite</definition>
+        <argsstring></argsstring>
+        <name>originalSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="13" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_health_1a9446868e198057b297b1fb0740fefc5f" prot="private" static="no" mutable="no">
+        <type>Canvas</type>
+        <definition>Canvas EnemyHealth.gameCanvas</definition>
+        <argsstring></argsstring>
+        <name>gameCanvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="16" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_health_1a5ac17bfd29fb8be389797eda35f07f37" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyHealth.startingHealth</definition>
+        <argsstring></argsstring>
+        <name>startingHealth</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="18" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_health_1a9e3471fc37c7b40f5c0f8b8a107b2c2f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyHealth.health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="19" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_health_1a15afe2faad98391a1325912b80fdc45c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyHealth.hasFishMaterialSpawned</definition>
+        <argsstring></argsstring>
+        <name>hasFishMaterialSpawned</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="68" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_health_1aa841cd278eab259aaeb72b02b3974d6c" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent EnemyHealth.OnKO</definition>
+        <argsstring></argsstring>
+        <name>OnKO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="87" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_enemy_health_1ac69ced547ce1363787576a4238b78acb" compoundref="_enemy_health_8cs" startline="48" endline="58">GetDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_health_1a39b183a0c0642fdb1d1e56b63ed77d41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHealth.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="21" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_health_1a54cf9f16d11c4af18d2cabcea9d937e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHealth.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="35" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_health_1ae53051c82f68739b6ed749334e3c1d68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHealth.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="40" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_health_1a5af08c136f4aefa5ce171e9bef698856" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator EnemyHealth.ReturnOriginalSprite</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnOriginalSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="60" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_health_1a7f6ce1fe7e6ddeb6112921a361baf787" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHealth.KillEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>KillEnemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="69" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="69" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_health_1ac69ced547ce1363787576a4238b78acb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyHealth.GetDamage</definition>
+        <argsstring>(float damage)</argsstring>
+        <name>GetDamage</name>
+        <param>
+          <type>float</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="48" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="48" bodyend="58"/>
+        <references refid="class_enemy_health_1aa841cd278eab259aaeb72b02b3974d6c" compoundref="_enemy_health_8cs" startline="87">OnKO</references>
+        <referencedby refid="class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed" compoundref="_player_bullet_8cs" startline="65" endline="74">PlayerBullet.OnHitBox</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyHealth</label>
+        <link refid="class_enemy_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyHealth</label>
+        <link refid="class_enemy_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/EnemyHealth.cs" bodystart="9" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_enemy_health_1a39b183a0c0642fdb1d1e56b63ed77d41" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>Awake</name></member>
+      <member refid="class_enemy_health_1a9e2c7287b2680e917e614b649a186035" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>fishMaterial</name></member>
+      <member refid="class_enemy_health_1a9446868e198057b297b1fb0740fefc5f" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>gameCanvas</name></member>
+      <member refid="class_enemy_health_1ac69ced547ce1363787576a4238b78acb" prot="public" virt="non-virtual"><scope>EnemyHealth</scope><name>GetDamage</name></member>
+      <member refid="class_enemy_health_1a15afe2faad98391a1325912b80fdc45c" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>hasFishMaterialSpawned</name></member>
+      <member refid="class_enemy_health_1a9e3471fc37c7b40f5c0f8b8a107b2c2f" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>health</name></member>
+      <member refid="class_enemy_health_1ac68b0e529838187e353cb65e6f3def62" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>hurtSprite</name></member>
+      <member refid="class_enemy_health_1a7f6ce1fe7e6ddeb6112921a361baf787" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>KillEnemy</name></member>
+      <member refid="class_enemy_health_1aa841cd278eab259aaeb72b02b3974d6c" prot="public" virt="non-virtual"><scope>EnemyHealth</scope><name>OnKO</name></member>
+      <member refid="class_enemy_health_1ab98934dcce8ea4a3f203d6c7e50f0ffb" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>originalSprite</name></member>
+      <member refid="class_enemy_health_1a5af08c136f4aefa5ce171e9bef698856" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>ReturnOriginalSprite</name></member>
+      <member refid="class_enemy_health_1a54cf9f16d11c4af18d2cabcea9d937e6" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>Start</name></member>
+      <member refid="class_enemy_health_1a5ac17bfd29fb8be389797eda35f07f37" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>startingHealth</name></member>
+      <member refid="class_enemy_health_1ae53051c82f68739b6ed749334e3c1d68" prot="private" virt="non-virtual"><scope>EnemyHealth</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_event" xml:lang="en-US">
+<title>CommandEvent Class Reference</title>
+<indexterm><primary>CommandEvent</primary></indexterm>
+Inheritance diagram for CommandEvent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CommandEvent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_command_event_1ae91059b18bc99831c62057d274a67e1c">Raise</link> (GameObject instigatorObjRef)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_command_event_1a7eac92ba222ebe5e043972be457f0279">instigatorObj</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_event_1ae91059b18bc99831c62057d274a67e1c"/><section>
+    <title>Raise()</title>
+<indexterm><primary>Raise</primary><secondary>CommandEvent</secondary></indexterm>
+<indexterm><primary>CommandEvent</primary><secondary>Raise</secondary></indexterm>
+<para><computeroutput>virtual void CommandEvent.Raise (GameObject instigatorObjRef)<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event_ae91059b18bc99831c62057d274a67e1c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_event_ae91059b18bc99831c62057d274a67e1c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_event_1a7eac92ba222ebe5e043972be457f0279"/><section>
+    <title>instigatorObj</title>
+<indexterm><primary>instigatorObj</primary><secondary>CommandEvent</secondary></indexterm>
+<indexterm><primary>CommandEvent</primary><secondary>instigatorObj</secondary></indexterm>
+<para><computeroutput>GameObject CommandEvent.instigatorObj</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/<link linkend="__command_event_8cs">CommandEvent.cs</link></section>
+</section>

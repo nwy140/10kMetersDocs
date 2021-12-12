@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_hold_key_input_tuto" kind="class" language="C#" prot="public">
+    <compoundname>HoldKeyInputTuto</compoundname>
+    <basecompoundref refid="class_tutorial" prot="public" virt="non-virtual">Tutorial</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_hold_key_input_tuto_1a62c7c3ab3f2d7162e6c2b8d7ed4b8215" prot="public" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode HoldKeyInputTuto.collectKey</definition>
+        <argsstring></argsstring>
+        <name>collectKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/HoldKeyInputTuto.cs" line="7" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/HoldKeyInputTuto.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_hold_key_input_tuto_1a7ae7d28cd5f71c2256ef58ee25260ccc" compoundref="_hold_key_input_tuto_8cs" startline="9" endline="15">CheckIfHappening</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hold_key_input_tuto_1a7ae7d28cd5f71c2256ef58ee25260ccc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void HoldKeyInputTuto.CheckIfHappening</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfHappening</name>
+        <reimplements refid="class_tutorial_1a0075438f79f2add2c1c2fd196608833f">CheckIfHappening</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/HoldKeyInputTuto.cs" line="9" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/HoldKeyInputTuto.cs" bodystart="9" bodyend="15"/>
+        <references refid="class_hold_key_input_tuto_1a62c7c3ab3f2d7162e6c2b8d7ed4b8215" compoundref="_hold_key_input_tuto_8cs" startline="7">collectKey</references>
+        <references refid="class_tuto_manager_1ae773fafaeead301c063af296469f89f9" compoundref="_tuto_manager_8cs" startline="72" endline="75">TutoManager.EndTuto</references>
+        <references refid="class_tuto_manager_1adeee7b0021555fdec1691a417d9286bb" compoundref="_tuto_manager_8cs" startline="15" endline="26">TutoManager.instance</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HoldKeyInputTuto</label>
+        <link refid="class_hold_key_input_tuto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Tutorial</label>
+        <link refid="class_tutorial"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HoldKeyInputTuto</label>
+        <link refid="class_hold_key_input_tuto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Tutorial</label>
+        <link refid="class_tutorial"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/HoldKeyInputTuto.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/HoldKeyInputTuto.cs" bodystart="6" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_hold_key_input_tuto_1a7ae7d28cd5f71c2256ef58ee25260ccc" prot="public" virt="virtual"><scope>HoldKeyInputTuto</scope><name>CheckIfHappening</name></member>
+      <member refid="class_hold_key_input_tuto_1a62c7c3ab3f2d7162e6c2b8d7ed4b8215" prot="public" virt="non-virtual"><scope>HoldKeyInputTuto</scope><name>collectKey</name></member>
+      <member refid="class_tutorial_1a8da14339e8bfd87f9742211d7cb0ecf0" prot="public" virt="non-virtual"><scope>HoldKeyInputTuto</scope><name>sequence</name></member>
+      <member refid="class_tutorial_1a036275897b288b4669e0f5f247fbe7a6" prot="public" virt="non-virtual"><scope>HoldKeyInputTuto</scope><name>tutoDialogue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

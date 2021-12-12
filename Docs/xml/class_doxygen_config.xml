@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_doxygen_config" kind="class" language="C#" prot="public">
+    <compoundname>DoxygenConfig</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_doxygen_config_1ae69318495ba1db9f3a4d88e01764f9b4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenConfig.Project</definition>
+        <argsstring></argsstring>
+        <name>Project</name>
+        <initializer>= PlayerSettings.productName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="22" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" compoundref="_doxygen_window_8cs" startline="317" endline="359">DoxygenWindow.MakeNewDoxyFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_config_1a2b1926144ba2768c36de32a8d3445567" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenConfig.Synopsis</definition>
+        <argsstring></argsstring>
+        <name>Synopsis</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="23" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" compoundref="_doxygen_window_8cs" startline="317" endline="359">DoxygenWindow.MakeNewDoxyFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_config_1af72cbcc553de9766a100f77f90c35626" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenConfig.Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="24" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" compoundref="_doxygen_window_8cs" startline="317" endline="359">DoxygenWindow.MakeNewDoxyFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_config_1aea53b2e7fc0f47a7f658ce25e65c4a09" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenConfig.ScriptsDirectory</definition>
+        <argsstring></argsstring>
+        <name>ScriptsDirectory</name>
+        <initializer>= Application.dataPath</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="25" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" compoundref="_doxygen_window_8cs" startline="317" endline="359">DoxygenWindow.MakeNewDoxyFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_config_1aea9ba41fe61487effafbeb77120749f0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenConfig.DocDirectory</definition>
+        <argsstring></argsstring>
+        <name>DocDirectory</name>
+        <initializer>= Application.dataPath.Replace(&quot;Assets&quot;, &quot;Docs&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="26" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1abf3c2a3c3a53e6691e58b865da8404de" compoundref="_doxygen_window_8cs" startline="317" endline="359">DoxygenWindow.MakeNewDoxyFile</referencedby>
+        <referencedby refid="class_doxygen_window_1a63924417d5b5b7a71570ec9a9ef1ca5e" compoundref="_doxygen_window_8cs" startline="432" endline="446">DoxygenWindow.RunDoxygen</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_doxygen_config_1ad308ed1d0bdb202587fba232b754929f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DoxygenConfig.PathtoDoxygen</definition>
+        <argsstring></argsstring>
+        <name>PathtoDoxygen</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="27" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_doxygen_window_1a63924417d5b5b7a71570ec9a9ef1ca5e" compoundref="_doxygen_window_8cs" startline="432" endline="446">DoxygenWindow.RunDoxygen</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A small data structure class hold values for making Doxygen config files </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>DoxygenConfig</label>
+        <link refid="class_doxygen_config"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" line="20" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Editor/Doxygen/DoxygenWindow.cs" bodystart="21" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_doxygen_config_1aea9ba41fe61487effafbeb77120749f0" prot="public" virt="non-virtual"><scope>DoxygenConfig</scope><name>DocDirectory</name></member>
+      <member refid="class_doxygen_config_1ad308ed1d0bdb202587fba232b754929f" prot="public" virt="non-virtual"><scope>DoxygenConfig</scope><name>PathtoDoxygen</name></member>
+      <member refid="class_doxygen_config_1ae69318495ba1db9f3a4d88e01764f9b4" prot="public" virt="non-virtual"><scope>DoxygenConfig</scope><name>Project</name></member>
+      <member refid="class_doxygen_config_1aea53b2e7fc0f47a7f658ce25e65c4a09" prot="public" virt="non-virtual"><scope>DoxygenConfig</scope><name>ScriptsDirectory</name></member>
+      <member refid="class_doxygen_config_1a2b1926144ba2768c36de32a8d3445567" prot="public" virt="non-virtual"><scope>DoxygenConfig</scope><name>Synopsis</name></member>
+      <member refid="class_doxygen_config_1af72cbcc553de9766a100f77f90c35626" prot="public" virt="non-virtual"><scope>DoxygenConfig</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

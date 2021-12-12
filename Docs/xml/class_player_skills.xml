@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_skills" kind="class" language="C#" prot="public">
+    <compoundname>PlayerSkills</compoundname>
+    <innerclass refid="class_player_skills_1_1_on_skill_unlocked_event_args" prot="public">PlayerSkills::OnSkillUnlockedEventArgs</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SkillType</name>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a55a5a9e59ca582cd9aad9c8967179cac" prot="public">
+          <name>LowTierTurbineStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0fb9a6ca88ff4c8fd315923c6b60c154" prot="public">
+          <name>LowTierTurbineStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ad5eb75ef30cfbc44ed5e2b5d00ec76c8" prot="public">
+          <name>HighTierTurbineStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aa308350ec8c30b54eda811f9e6240171" prot="public">
+          <name>HighTierTurbineStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aac0a9d114313313ebd946a500d0b20e0" prot="public">
+          <name>LowTierWeaponStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0bae2889c6223909c0180b0d3fdc057c" prot="public">
+          <name>LowTierWeaponStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298af18bfd184431f35ff0e8fc066e8bb725" prot="public">
+          <name>HighTierWeaponStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ac3a88cf8786fdc3702e51f88b8e7fc48" prot="public">
+          <name>HighTierWeaponStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a57ecf7a27acb5b19c945a03ba19246bb" prot="public">
+          <name>LowTierHullStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a1c828f951acaef361286004b686c1b98" prot="public">
+          <name>LowTierHullStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298ab6bd8789a9cfa81403d9b16a604ac935" prot="public">
+          <name>HighTierHullStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298af73c4f285fd19ecf8e590b689e6dacaa" prot="public">
+          <name>HighTierHullStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a925a4c4518adfb6b85a8e79b06d0b6c0" prot="public">
+          <name>LowTierSelfRepairStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a30cf252e5e1a42c27ca180a17114c2a4" prot="public">
+          <name>LowTierSelfRepairStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a97591b3fb76138b125a69f2232f62a08" prot="public">
+          <name>HighTierSelfRepairStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a6f8b7dd5340142dabccffca20e0e6805" prot="public">
+          <name>HighTierSelfRepairStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aba62a5c42d65ffab9f893bf2a0c1bf88" prot="public">
+          <name>LowTierOxygenTankStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a3d9389e221cd20ce9075f1e4d5e8fc24" prot="public">
+          <name>LowTierOxygenTankStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a0fe937fe394b7d1506c20abeb2d2c6db" prot="public">
+          <name>HighTierOxygenTankStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aa18b7f28f46902ca8813fa5e16ed6b1b" prot="public">
+          <name>HighTierOxygenTankStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a1c5627c5ba2d39d4c5edffb185dc6750" prot="public">
+          <name>LowTierInventoryStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298aae797d3ae11f401e1686d35c6a595b7e" prot="public">
+          <name>LowTierInventoryStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a7fcbca285ad3a082883a7f2069f03605" prot="public">
+          <name>HighTierInventoryStage1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298a72a92ff42375f5f3a4550508f3295caa" prot="public">
+          <name>HighTierInventoryStage2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="14" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="15" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_player_skills_1a51336b4071dd19a0a3c28a8f0da0d54c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_player_skills_1_1_on_skill_unlocked_event_args" kindref="compound">OnSkillUnlockedEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;OnSkillUnlockedEventArgs&gt; PlayerSkills.OnSkillUnlocked</definition>
+        <argsstring></argsstring>
+        <name>OnSkillUnlocked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="8" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_skills_1a2345cbc158e420731398e6fc4be59902" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" kindref="member">SkillType</ref> &gt;</type>
+        <definition>List&lt;SkillType&gt; PlayerSkills.unlockedSkillTypeList</definition>
+        <argsstring></argsstring>
+        <name>unlockedSkillTypeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="55" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_skills_1aedee093d943970a4419698feb32cb87e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerSkills.skillPoints</definition>
+        <argsstring></argsstring>
+        <name>skillPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="57" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_skills_1aa00ef621033fef0d4659b6f533ba5e2c" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem" kindref="compound">item</ref>[]</type>
+        <definition>item [] PlayerSkills.fishR</definition>
+        <argsstring></argsstring>
+        <name>fishR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="58" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_skills_1a367c1b37e58f12423872dbd23a96f8f2" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem" kindref="compound">item</ref>[]</type>
+        <definition>item [] PlayerSkills.rawR</definition>
+        <argsstring></argsstring>
+        <name>rawR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="58" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_skills_1adedd9a562ccade40843c20ebe9b0b778" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] PlayerSkills.fishNumR</definition>
+        <argsstring></argsstring>
+        <name>fishNumR</name>
+        <initializer>= { 1, 1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="58" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_skills_1a145931128fcf620a3908824f092d0764" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] PlayerSkills.rawNumR</definition>
+        <argsstring></argsstring>
+        <name>rawNumR</name>
+        <initializer>= { 1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="58" column="44" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_skills_1a37e45b1729bbdb4fcc03452bd07b6370" prot="private" static="no" mutable="no">
+        <type><ref refid="classstorage" kindref="compound">storage</ref></type>
+        <definition>storage PlayerSkills.inv</definition>
+        <argsstring></argsstring>
+        <name>inv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="58" column="61" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_skills_1ab064d160b54a5b296adcfe4f842848cd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref></type>
+        <definition>PlayerUpgrades PlayerSkills.upg</definition>
+        <argsstring></argsstring>
+        <name>upg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="58" column="80" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_skills_1a0ec622875a404c5e3240278829663788" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="classitem" kindref="compound">item</ref> &gt;</type>
+        <definition>readonly List&lt;item&gt; PlayerSkills.itemsToRemove</definition>
+        <argsstring></argsstring>
+        <name>itemsToRemove</name>
+        <initializer>= new List&lt;<ref refid="classitem" kindref="compound">item</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="59" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_player_skills_1a56adfcda139b8da8b371bb41587ef464" prot="public" static="yes" mutable="no">
+        <type>Action</type>
+        <definition>Action PlayerSkills.OnSetRequirementForPopup</definition>
+        <argsstring></argsstring>
+        <name>OnSetRequirementForPopup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="61" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_skills_1a744ba9c950815350b7177d3ff1a825e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PlayerSkills.PlayerSkills</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="63" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerSkills.GetCurrentUpgrades</definition>
+        <argsstring>(UpgradeHolder upgradeHolder)</argsstring>
+        <name>GetCurrentUpgrades</name>
+        <param>
+          <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+          <declname>upgradeHolder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="68" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="68" bodyend="135"/>
+        <references refid="class_upgrade_holder_1a031deb2c7cc03415b0d2a248ee2f7fcf" compoundref="_upgrade_holder_8cs" startline="221" endline="224">UpgradeHolder.GetHullUpgrades</references>
+        <references refid="class_upgrade_holder_1a8979d01786a6df9284a7bbe620af7cae" compoundref="_upgrade_holder_8cs" startline="233" endline="236">UpgradeHolder.GetInventoryUpgrades</references>
+        <references refid="class_upgrade_holder_1ac846be559406fcc8fd8d2b0b760d6dc7" compoundref="_upgrade_holder_8cs" startline="229" endline="232">UpgradeHolder.GetOxygenTankUpgrades</references>
+        <references refid="class_upgrade_holder_1a240c6fb7fa5c7c40c45a5aff5dacb1b6" compoundref="_upgrade_holder_8cs" startline="225" endline="228">UpgradeHolder.GetSelfRepairUpgrades</references>
+        <references refid="class_upgrade_holder_1ab850945bf9d76f2cd44fee60df417bfc" compoundref="_upgrade_holder_8cs" startline="213" endline="216">UpgradeHolder.GetTurbineUpgrades</references>
+        <references refid="class_upgrade_holder_1a3b69f1ed25de4dc6b9d9ad6ac560f36c" compoundref="_upgrade_holder_8cs" startline="217" endline="220">UpgradeHolder.GetWeaponUpgrades</references>
+        <references refid="class_upgrade_holder_1ae99c4ea3908d4ca167b180a33938d303" compoundref="_upgrade_holder_8cs" startline="158" endline="167">UpgradeHolder.HullUpgrade</references>
+        <references refid="class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6" compoundref="_upgrade_holder_8cs" startline="191" endline="200">UpgradeHolder.InventoryUpgrade</references>
+        <references refid="class_upgrade_holder_1ad96dbb09f57c0bbadb98c7a61cdf6dd7" compoundref="_upgrade_holder_8cs" startline="180" endline="189">UpgradeHolder.OxygenTankUpgrade</references>
+        <references refid="class_upgrade_holder_1afc3be7202277fa87ac4a4a5587164fac" compoundref="_upgrade_holder_8cs" startline="169" endline="178">UpgradeHolder.SelfRepairUpgrade</references>
+        <references refid="class_upgrade_holder_1aedf282972fb27acfa5d548136a5c28c3" compoundref="_upgrade_holder_8cs" startline="136" endline="145">UpgradeHolder.TurbineUpgrade</references>
+        <references refid="class_upgrade_holder_1a1d6fdce24c1016914fabd8952dc3b18a" compoundref="_upgrade_holder_8cs" startline="147" endline="156">UpgradeHolder.WeaponUpgrade</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1ace8108a48b4b8efa6774e1d571b9221b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerSkills.SetRequirements</definition>
+        <argsstring>(storage inv, PlayerUpgrades upg)</argsstring>
+        <name>SetRequirements</name>
+        <param>
+          <type><ref refid="classstorage" kindref="compound">storage</ref></type>
+          <declname>inv</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref></type>
+          <declname>upg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="137" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="137" bodyend="156"/>
+        <references refid="class_player_upgrades_1aafbbe9499b027d5b1670ef1d31aab7a4" compoundref="_player_upgrades_8cs" startline="26" endline="29">PlayerUpgrades.GetFishMaterialAmountRequirement</references>
+        <references refid="class_player_upgrades_1a6bb164625c5847a6af36709571ec851f" compoundref="_player_upgrades_8cs" startline="17" endline="20">PlayerUpgrades.GetFishMaterialTypeRequirement</references>
+        <references refid="class_player_upgrades_1a90101816a84d5531335b6f1ca159376f" compoundref="_player_upgrades_8cs" startline="31" endline="34">PlayerUpgrades.GetRawMaterialAmountRequirement</references>
+        <references refid="class_player_upgrades_1a5bc2766abbc8c3a46300fe0ec7501514" compoundref="_player_upgrades_8cs" startline="21" endline="24">PlayerUpgrades.GetRawMaterialTypeRequirement</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1a22c2907b0d980b1b21b850eb5f0f8dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerSkills.IsRequirementMet</definition>
+        <argsstring>()</argsstring>
+        <name>IsRequirementMet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="158" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="158" bodyend="273"/>
+        <references refid="classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9" compoundref="item_slots_8cs" startline="48" endline="62">itemSlots.Amount</references>
+        <references refid="classstorage_1a3f7ecf1a4a1217578fc922eed3ffde8e" compoundref="storage_8cs" startline="83" endline="94">storage.GetListOfItemsInInventory</references>
+        <references refid="classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d" compoundref="item_slots_8cs" startline="27" endline="43">itemSlots.Item</references>
+        <referencedby refid="class_player_skills_1ad624f39b59e0ddafc5bf982a3edf44a4" compoundref="_player_skills_8cs" startline="379" endline="400">TryUnlockSkill</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1a13f145ea2840691dac8b1d4889dbb100" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerSkills.RemoveAllUsedResources</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveAllUsedResources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="275" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="275" bodyend="306"/>
+        <references refid="class_item_container_1adfd88e49a35c5bd49417507c48c05260" compoundref="_item_container_8cs" startline="102" endline="132">ItemContainer.removeItemWithAmount</references>
+        <referencedby refid="class_player_skills_1ad624f39b59e0ddafc5bf982a3edf44a4" compoundref="_player_skills_8cs" startline="379" endline="400">TryUnlockSkill</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1a79829d8f1292134b26f37be0455a87c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PlayerSkills.GetSkillPoints</definition>
+        <argsstring>()</argsstring>
+        <name>GetSkillPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="308" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="308" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1a237e14f6349adfcd6bae46904e8a9016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerSkills.IsSkillUnlocked</definition>
+        <argsstring>(SkillType skillType)</argsstring>
+        <name>IsSkillUnlocked</name>
+        <param>
+          <type><ref refid="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" kindref="member">SkillType</ref></type>
+          <declname>skillType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="322" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="322" bodyend="325"/>
+        <referencedby refid="class_player_skills_1ad60a97fd7052171b0ba45469873b8561" compoundref="_player_skills_8cs" startline="327" endline="346">CanUnlock</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1ad60a97fd7052171b0ba45469873b8561" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerSkills.CanUnlock</definition>
+        <argsstring>(SkillType skillType)</argsstring>
+        <name>CanUnlock</name>
+        <param>
+          <type><ref refid="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" kindref="member">SkillType</ref></type>
+          <declname>skillType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="327" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="327" bodyend="346"/>
+        <references refid="class_player_skills_1a13838f81de63d112fd778e6c1ab829a2" compoundref="_player_skills_8cs" startline="348" endline="377">GetSkillRequirement</references>
+        <references refid="class_player_skills_1a237e14f6349adfcd6bae46904e8a9016" compoundref="_player_skills_8cs" startline="322" endline="325">IsSkillUnlocked</references>
+        <referencedby refid="class_player_skills_1ad624f39b59e0ddafc5bf982a3edf44a4" compoundref="_player_skills_8cs" startline="379" endline="400">TryUnlockSkill</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1a13838f81de63d112fd778e6c1ab829a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" kindref="member">SkillType</ref></type>
+        <definition>SkillType PlayerSkills.GetSkillRequirement</definition>
+        <argsstring>(SkillType skillType)</argsstring>
+        <name>GetSkillRequirement</name>
+        <param>
+          <type><ref refid="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" kindref="member">SkillType</ref></type>
+          <declname>skillType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="348" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="348" bodyend="377"/>
+        <referencedby refid="class_player_skills_1ad60a97fd7052171b0ba45469873b8561" compoundref="_player_skills_8cs" startline="327" endline="346">CanUnlock</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_skills_1ad624f39b59e0ddafc5bf982a3edf44a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerSkills.TryUnlockSkill</definition>
+        <argsstring>(SkillType skillType)</argsstring>
+        <name>TryUnlockSkill</name>
+        <param>
+          <type><ref refid="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" kindref="member">SkillType</ref></type>
+          <declname>skillType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="379" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="379" bodyend="400"/>
+        <references refid="class_player_skills_1ad60a97fd7052171b0ba45469873b8561" compoundref="_player_skills_8cs" startline="327" endline="346">CanUnlock</references>
+        <references refid="class_player_skills_1a22c2907b0d980b1b21b850eb5f0f8dc8" compoundref="_player_skills_8cs" startline="158" endline="273">IsRequirementMet</references>
+        <references refid="class_player_skills_1a13f145ea2840691dac8b1d4889dbb100" compoundref="_player_skills_8cs" startline="275" endline="306">RemoveAllUsedResources</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_skills_1ab3dfcd5480e6914d8d865fcf236e5741" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerSkills.UnlockSkill</definition>
+        <argsstring>(SkillType skillType)</argsstring>
+        <name>UnlockSkill</name>
+        <param>
+          <type><ref refid="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" kindref="member">SkillType</ref></type>
+          <declname>skillType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="313" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="313" bodyend="320"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>PlayerSkills</label>
+        <link refid="class_player_skills"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Skill Tree/PlayerSkills.cs" bodystart="7" bodyend="401"/>
+    <listofallmembers>
+      <member refid="class_player_skills_1ad60a97fd7052171b0ba45469873b8561" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>CanUnlock</name></member>
+      <member refid="class_player_skills_1adedd9a562ccade40843c20ebe9b0b778" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>fishNumR</name></member>
+      <member refid="class_player_skills_1aa00ef621033fef0d4659b6f533ba5e2c" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>fishR</name></member>
+      <member refid="class_player_skills_1a186254dfc7bca209ecdde37fe874e47c" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>GetCurrentUpgrades</name></member>
+      <member refid="class_player_skills_1a79829d8f1292134b26f37be0455a87c8" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>GetSkillPoints</name></member>
+      <member refid="class_player_skills_1a13838f81de63d112fd778e6c1ab829a2" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>GetSkillRequirement</name></member>
+      <member refid="class_player_skills_1a37e45b1729bbdb4fcc03452bd07b6370" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>inv</name></member>
+      <member refid="class_player_skills_1a22c2907b0d980b1b21b850eb5f0f8dc8" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>IsRequirementMet</name></member>
+      <member refid="class_player_skills_1a237e14f6349adfcd6bae46904e8a9016" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>IsSkillUnlocked</name></member>
+      <member refid="class_player_skills_1a0ec622875a404c5e3240278829663788" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>itemsToRemove</name></member>
+      <member refid="class_player_skills_1a56adfcda139b8da8b371bb41587ef464" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>OnSetRequirementForPopup</name></member>
+      <member refid="class_player_skills_1a51336b4071dd19a0a3c28a8f0da0d54c" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>OnSkillUnlocked</name></member>
+      <member refid="class_player_skills_1a744ba9c950815350b7177d3ff1a825e3" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>PlayerSkills</name></member>
+      <member refid="class_player_skills_1a145931128fcf620a3908824f092d0764" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>rawNumR</name></member>
+      <member refid="class_player_skills_1a367c1b37e58f12423872dbd23a96f8f2" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>rawR</name></member>
+      <member refid="class_player_skills_1a13f145ea2840691dac8b1d4889dbb100" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>RemoveAllUsedResources</name></member>
+      <member refid="class_player_skills_1ace8108a48b4b8efa6774e1d571b9221b" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>SetRequirements</name></member>
+      <member refid="class_player_skills_1aedee093d943970a4419698feb32cb87e" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>skillPoints</name></member>
+      <member refid="class_player_skills_1a107bc5aae0a2bb0104aa07899d8d1298" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>SkillType</name></member>
+      <member refid="class_player_skills_1ad624f39b59e0ddafc5bf982a3edf44a4" prot="public" virt="non-virtual"><scope>PlayerSkills</scope><name>TryUnlockSkill</name></member>
+      <member refid="class_player_skills_1a2345cbc158e420731398e6fc4be59902" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>unlockedSkillTypeList</name></member>
+      <member refid="class_player_skills_1ab3dfcd5480e6914d8d865fcf236e5741" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>UnlockSkill</name></member>
+      <member refid="class_player_skills_1ab064d160b54a5b296adcfe4f842848cd" prot="private" virt="non-virtual"><scope>PlayerSkills</scope><name>upg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

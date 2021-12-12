@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_model" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.VignetteModel Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.VignetteModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_vignette_model__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.VignetteModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_vignette_model__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings">Settings</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53d">Mode</link> { <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53dad35b51b639528d580362ca7042de6a0e">Classic</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53da6864311f985d160ad4bd46a9fbe4a4d4">Masked</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a7598645b887ddf177a33787cd06ca751">Reset</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings">Settings</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a9bf7faa890c766df24f80fb30f62e761">settings</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53d"/><section>
+    <title>Mode</title>
+<indexterm><primary>Mode</primary><secondary>UnityEngine.PostProcessing.VignetteModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel</primary><secondary>Mode</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53d">UnityEngine.PostProcessing.VignetteModel.Mode</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Classic</primary><secondary>UnityEngine.PostProcessing.VignetteModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel</primary><secondary>Classic</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53dad35b51b639528d580362ca7042de6a0e"/>Classic</entry><entry></entry></row><row><entry><indexterm><primary>Masked</primary><secondary>UnityEngine.PostProcessing.VignetteModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel</primary><secondary>Masked</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53da6864311f985d160ad4bd46a9fbe4a4d4"/>Masked</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a7598645b887ddf177a33787cd06ca751"/><section>
+    <title>Reset()</title>
+<indexterm><primary>Reset</primary><secondary>UnityEngine.PostProcessing.VignetteModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel</primary><secondary>Reset</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.VignetteModel.Reset ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">UnityEngine.PostProcessing.PostProcessingModel</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a9bf7faa890c766df24f80fb30f62e761"/><section>
+    <title>settings</title>
+<indexterm><primary>settings</primary><secondary>UnityEngine.PostProcessing.VignetteModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.VignetteModel</primary><secondary>settings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings">Settings</link> UnityEngine.PostProcessing.VignetteModel.settings<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__vignette_model_8cs">VignetteModel.cs</link></section>
+</section>

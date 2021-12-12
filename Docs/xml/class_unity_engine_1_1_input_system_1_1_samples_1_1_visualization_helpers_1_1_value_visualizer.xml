@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::Samples::VisualizationHelpers::ValueVisualizer</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer" prot="public" virt="non-virtual">UnityEngine.InputSystem.Samples.VisualizationHelpers.Visualizer</basecompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer" prot="public" virt="non-virtual">UnityEngine.InputSystem.Samples.VisualizationHelpers.ScalarVisualizer&lt; TValue &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>TValue</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20b92ea14426fc5627156e7b03c7cc37" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer" kindref="compound">RingBuffer</ref>&lt; TValue &gt;</type>
+        <definition>RingBuffer&lt;TValue&gt; UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.samples</definition>
+        <argsstring></argsstring>
+        <name>samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="23" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1aa241faf4ea3fa22cca2232d21a9d550b" compoundref="_visualization_helpers_8cs" startline="32" endline="47">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.AddSample</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer_1ad1ba7e8439695f2f45da5288146df372" compoundref="_visualization_helpers_8cs" startline="64" endline="89">UnityEngine.InputSystem.Samples.VisualizationHelpers.ScalarVisualizer&lt; TValue &gt;.OnDraw</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a0372961daa481fa8c00c502a61407eb5" compoundref="_visualization_helpers_8cs" startline="26" endline="30">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.ValueVisualizer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20aeb2b6e3eecdddd211da1b1c6c1663" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer" kindref="compound">RingBuffer</ref>&lt; GUIContent &gt;</type>
+        <definition>RingBuffer&lt;GUIContent&gt; UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.samplesText</definition>
+        <argsstring></argsstring>
+        <name>samplesText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="24" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1aa241faf4ea3fa22cca2232d21a9d550b" compoundref="_visualization_helpers_8cs" startline="32" endline="47">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.AddSample</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer_1ad1ba7e8439695f2f45da5288146df372" compoundref="_visualization_helpers_8cs" startline="64" endline="89">UnityEngine.InputSystem.Samples.VisualizationHelpers.ScalarVisualizer&lt; TValue &gt;.OnDraw</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a0372961daa481fa8c00c502a61407eb5" compoundref="_visualization_helpers_8cs" startline="26" endline="30">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.ValueVisualizer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a0372961daa481fa8c00c502a61407eb5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.ValueVisualizer</definition>
+        <argsstring>(int numSamples=10)</argsstring>
+        <name>ValueVisualizer</name>
+        <param>
+          <type>int</type>
+          <declname>numSamples</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="26" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="26" bodyend="30"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20b92ea14426fc5627156e7b03c7cc37" compoundref="_visualization_helpers_8cs" startline="23">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.samples</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20aeb2b6e3eecdddd211da1b1c6c1663" compoundref="_visualization_helpers_8cs" startline="24">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.samplesText</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1aa241faf4ea3fa22cca2232d21a9d550b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.AddSample</definition>
+        <argsstring>(object value, double time)</argsstring>
+        <name>AddSample</name>
+        <reimplements refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1aa4595a8dcdf9b1bafc07a66e2b3cf528">AddSample</reimplements>
+        <reimplementedby refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer_1a4923130fba9c8d5f1df85488286a01c9">AddSample</reimplementedby>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="32" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="32" bodyend="47"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20b92ea14426fc5627156e7b03c7cc37" compoundref="_visualization_helpers_8cs" startline="23">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.samples</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20aeb2b6e3eecdddd211da1b1c6c1663" compoundref="_visualization_helpers_8cs" startline="24">UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;.samplesText</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.ScalarVisualizer&lt; TValue &gt;</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_scalar_visualizer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Visualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.ValueVisualizer&lt; TValue &gt;</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Visualizer</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="20" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="22" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1aa241faf4ea3fa22cca2232d21a9d550b" prot="public" virt="virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::ValueVisualizer</scope><name>AddSample</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_visualizer_1ac226269829c48806e6365065befd204a" prot="public" virt="pure-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::ValueVisualizer</scope><name>OnDraw</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20b92ea14426fc5627156e7b03c7cc37" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::ValueVisualizer</scope><name>samples</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a20aeb2b6e3eecdddd211da1b1c6c1663" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::ValueVisualizer</scope><name>samplesText</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_value_visualizer_1a0372961daa481fa8c00c502a61407eb5" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::ValueVisualizer</scope><name>ValueVisualizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

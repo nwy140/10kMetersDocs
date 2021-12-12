@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_upgrade_holder" xml:lang="en-US">
+<title>UpgradeHolder Class Reference</title>
+<indexterm><primary>UpgradeHolder</primary></indexterm>
+Inheritance diagram for UpgradeHolder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_holder__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UpgradeHolder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_holder__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_player_skills">PlayerSkills</link> <link linkend="_class_upgrade_holder_1a3b4afaa85bfb57d1378da74f72e3f76e">GetPlayerSkills</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classstorage">storage</link> <link linkend="_class_upgrade_holder_1af73c5d2c92cf6f4fd8c80ff4b40be54b">GetStorage</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_turbine">Turbine</link>[] <link linkend="_class_upgrade_holder_1ab850945bf9d76f2cd44fee60df417bfc">GetTurbineUpgrades</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_weapon">Weapon</link>[] <link linkend="_class_upgrade_holder_1a3b69f1ed25de4dc6b9d9ad6ac560f36c">GetWeaponUpgrades</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_hull">Hull</link>[] <link linkend="_class_upgrade_holder_1a031deb2c7cc03415b0d2a248ee2f7fcf">GetHullUpgrades</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_self_repair">SelfRepair</link>[] <link linkend="_class_upgrade_holder_1a240c6fb7fa5c7c40c45a5aff5dacb1b6">GetSelfRepairUpgrades</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_oxygen_tank">OxygenTank</link>[] <link linkend="_class_upgrade_holder_1ac846be559406fcc8fd8d2b0b760d6dc7">GetOxygenTankUpgrades</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_inventory">Inventory</link>[] <link linkend="_class_upgrade_holder_1a8979d01786a6df9284a7bbe620af7cae">GetInventoryUpgrades</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_turbine">Turbine</link> <link linkend="_class_upgrade_holder_1aedf282972fb27acfa5d548136a5c28c3">TurbineUpgrade</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_class_weapon">Weapon</link> <link linkend="_class_upgrade_holder_1a1d6fdce24c1016914fabd8952dc3b18a">WeaponUpgrade</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_class_hull">Hull</link> <link linkend="_class_upgrade_holder_1ae99c4ea3908d4ca167b180a33938d303">HullUpgrade</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_class_self_repair">SelfRepair</link> <link linkend="_class_upgrade_holder_1afc3be7202277fa87ac4a4a5587164fac">SelfRepairUpgrade</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_class_oxygen_tank">OxygenTank</link> <link linkend="_class_upgrade_holder_1ad96dbb09f57c0bbadb98c7a61cdf6dd7">OxygenTankUpgrade</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_class_inventory">Inventory</link> <link linkend="_class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6">InventoryUpgrade</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_upgrade_holder_1a031deb2c7cc03415b0d2a248ee2f7fcf"/><section>
+    <title>GetHullUpgrades()</title>
+<indexterm><primary>GetHullUpgrades</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>GetHullUpgrades</secondary></indexterm>
+<para><computeroutput><link linkend="_class_hull">Hull</link>[] UpgradeHolder.GetHullUpgrades ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_holder_a031deb2c7cc03415b0d2a248ee2f7fcf_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_upgrade_holder_1a8979d01786a6df9284a7bbe620af7cae"/><section>
+    <title>GetInventoryUpgrades()</title>
+<indexterm><primary>GetInventoryUpgrades</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>GetInventoryUpgrades</secondary></indexterm>
+<para><computeroutput><link linkend="_class_inventory">Inventory</link>[] UpgradeHolder.GetInventoryUpgrades ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_holder_a8979d01786a6df9284a7bbe620af7cae_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_upgrade_holder_1ac846be559406fcc8fd8d2b0b760d6dc7"/><section>
+    <title>GetOxygenTankUpgrades()</title>
+<indexterm><primary>GetOxygenTankUpgrades</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>GetOxygenTankUpgrades</secondary></indexterm>
+<para><computeroutput><link linkend="_class_oxygen_tank">OxygenTank</link>[] UpgradeHolder.GetOxygenTankUpgrades ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_holder_ac846be559406fcc8fd8d2b0b760d6dc7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_upgrade_holder_1a3b4afaa85bfb57d1378da74f72e3f76e"/><section>
+    <title>GetPlayerSkills()</title>
+<indexterm><primary>GetPlayerSkills</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>GetPlayerSkills</secondary></indexterm>
+<para><computeroutput><link linkend="_class_player_skills">PlayerSkills</link> UpgradeHolder.GetPlayerSkills ( )</computeroutput></para></section>
+<anchor xml:id="_class_upgrade_holder_1a240c6fb7fa5c7c40c45a5aff5dacb1b6"/><section>
+    <title>GetSelfRepairUpgrades()</title>
+<indexterm><primary>GetSelfRepairUpgrades</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>GetSelfRepairUpgrades</secondary></indexterm>
+<para><computeroutput><link linkend="_class_self_repair">SelfRepair</link>[] UpgradeHolder.GetSelfRepairUpgrades ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_holder_a240c6fb7fa5c7c40c45a5aff5dacb1b6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_upgrade_holder_1af73c5d2c92cf6f4fd8c80ff4b40be54b"/><section>
+    <title>GetStorage()</title>
+<indexterm><primary>GetStorage</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>GetStorage</secondary></indexterm>
+<para><computeroutput><link linkend="_classstorage">storage</link> UpgradeHolder.GetStorage ( )</computeroutput></para></section>
+<anchor xml:id="_class_upgrade_holder_1ab850945bf9d76f2cd44fee60df417bfc"/><section>
+    <title>GetTurbineUpgrades()</title>
+<indexterm><primary>GetTurbineUpgrades</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>GetTurbineUpgrades</secondary></indexterm>
+<para><computeroutput><link linkend="_class_turbine">Turbine</link>[] UpgradeHolder.GetTurbineUpgrades ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_holder_ab850945bf9d76f2cd44fee60df417bfc_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_upgrade_holder_1a3b69f1ed25de4dc6b9d9ad6ac560f36c"/><section>
+    <title>GetWeaponUpgrades()</title>
+<indexterm><primary>GetWeaponUpgrades</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>GetWeaponUpgrades</secondary></indexterm>
+<para><computeroutput><link linkend="_class_weapon">Weapon</link>[] UpgradeHolder.GetWeaponUpgrades ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_upgrade_holder_a3b69f1ed25de4dc6b9d9ad6ac560f36c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_upgrade_holder_1ae99c4ea3908d4ca167b180a33938d303"/><section>
+    <title>HullUpgrade</title>
+<indexterm><primary>HullUpgrade</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>HullUpgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_class_hull">Hull</link> UpgradeHolder.HullUpgrade<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6"/><section>
+    <title>InventoryUpgrade</title>
+<indexterm><primary>InventoryUpgrade</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>InventoryUpgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_class_inventory">Inventory</link> UpgradeHolder.InventoryUpgrade<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_upgrade_holder_1ad96dbb09f57c0bbadb98c7a61cdf6dd7"/><section>
+    <title>OxygenTankUpgrade</title>
+<indexterm><primary>OxygenTankUpgrade</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>OxygenTankUpgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_class_oxygen_tank">OxygenTank</link> UpgradeHolder.OxygenTankUpgrade<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_upgrade_holder_1afc3be7202277fa87ac4a4a5587164fac"/><section>
+    <title>SelfRepairUpgrade</title>
+<indexterm><primary>SelfRepairUpgrade</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>SelfRepairUpgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_class_self_repair">SelfRepair</link> UpgradeHolder.SelfRepairUpgrade<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_upgrade_holder_1aedf282972fb27acfa5d548136a5c28c3"/><section>
+    <title>TurbineUpgrade</title>
+<indexterm><primary>TurbineUpgrade</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>TurbineUpgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_class_turbine">Turbine</link> UpgradeHolder.TurbineUpgrade<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_upgrade_holder_1a1d6fdce24c1016914fabd8952dc3b18a"/><section>
+    <title>WeaponUpgrade</title>
+<indexterm><primary>WeaponUpgrade</primary><secondary>UpgradeHolder</secondary></indexterm>
+<indexterm><primary>UpgradeHolder</primary><secondary>WeaponUpgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_class_weapon">Weapon</link> UpgradeHolder.WeaponUpgrade<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/<link linkend="__upgrade_holder_8cs">UpgradeHolder.cs</link></section>
+</section>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_slots_holder_manager" kind="class" language="C#" prot="public">
+    <compoundname>CommandSlotsHolderManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_slots_holder_manager_1a6569bc08c5d75fbcc7622d3ef987a080" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_command_slot_holder" kindref="compound">CommandSlotHolder</ref> &gt;</type>
+        <definition>List&lt;CommandSlotHolder&gt; CommandSlotsHolderManager.commandSlotsInChild</definition>
+        <argsstring></argsstring>
+        <name>commandSlotsInChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="8" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_command_slots_holder_manager_1a583efb3620ae910082140830bc86597a" compoundref="_command_slots_holder_manager_8cs" startline="37" endline="47">FindCommandSlotByName</referencedby>
+        <referencedby refid="class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53" compoundref="_command_event_listener_8cs" startline="68" endline="76">CommandEventListener.InitTypeB</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_slots_holder_manager_1a94a87bb937eaa12a7591f086e6550ef5" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; CommandSlotsHolderManager.commandSlotsNames</definition>
+        <argsstring></argsstring>
+        <name>commandSlotsNames</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="9" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_command_event_listener_1ad4936d41f182680df9f6b5405d2d1d53" compoundref="_command_event_listener_8cs" startline="68" endline="76">CommandEventListener.InitTypeB</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_slots_holder_manager_1abe72bf3b8a840ec698f298610edbf4b1" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CommandSlotsHolderManager.commandOwnerRootObj</definition>
+        <argsstring></argsstring>
+        <name>commandOwnerRootObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="10" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_slots_holder_manager_1a6553805081aeb27e5f02dc77cceb1c50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CommandSlotsHolderManager.PlayerNumber</definition>
+        <argsstring></argsstring>
+        <name>PlayerNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="11" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_command_slots_holder_manager_1afd43e82cbcfc1ebdc04e7d4b1d842f3a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_command_queue_helper" kindref="compound">CommandQueueHelper</ref></type>
+        <definition>CommandQueueHelper CommandSlotsHolderManager._commandHelper</definition>
+        <argsstring></argsstring>
+        <name>_commandHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="12" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_command_slots_holder_manager_1a3dfb9db562a267b5b446d343e4122970" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_command_queue_helper" kindref="compound">CommandQueueHelper</ref></type>
+        <definition>virtual CommandQueueHelper CommandSlotsHolderManager.commandHelper</definition>
+        <argsstring></argsstring>
+        <name>commandHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="13" column="39" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_command_slots_holder_manager_1aa33ff32b2732f247325c328fa2d7e384" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandSlotsHolderManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="14" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_slots_holder_manager_1a583efb3620ae910082140830bc86597a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_command_slot_holder" kindref="compound">CommandSlotHolder</ref></type>
+        <definition>CommandSlotHolder CommandSlotsHolderManager.FindCommandSlotByName</definition>
+        <argsstring>(string commandName)</argsstring>
+        <name>FindCommandSlotByName</name>
+        <param>
+          <type>string</type>
+          <declname>commandName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="37" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="37" bodyend="47"/>
+        <references refid="class_command_slots_holder_manager_1a6569bc08c5d75fbcc7622d3ef987a080" compoundref="_command_slots_holder_manager_8cs" startline="8">commandSlotsInChild</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CommandSlotsHolderManager</label>
+        <link refid="class_command_slots_holder_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandSlotsHolderManager</label>
+        <link refid="class_command_slots_holder_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/CommandSlotsHolderManager.cs" bodystart="7" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_command_slots_holder_manager_1afd43e82cbcfc1ebdc04e7d4b1d842f3a" prot="private" virt="non-virtual"><scope>CommandSlotsHolderManager</scope><name>_commandHelper</name></member>
+      <member refid="class_command_slots_holder_manager_1aa33ff32b2732f247325c328fa2d7e384" prot="private" virt="non-virtual"><scope>CommandSlotsHolderManager</scope><name>Awake</name></member>
+      <member refid="class_command_slots_holder_manager_1a3dfb9db562a267b5b446d343e4122970" prot="public" virt="non-virtual"><scope>CommandSlotsHolderManager</scope><name>commandHelper</name></member>
+      <member refid="class_command_slots_holder_manager_1abe72bf3b8a840ec698f298610edbf4b1" prot="public" virt="non-virtual"><scope>CommandSlotsHolderManager</scope><name>commandOwnerRootObj</name></member>
+      <member refid="class_command_slots_holder_manager_1a6569bc08c5d75fbcc7622d3ef987a080" prot="public" virt="non-virtual"><scope>CommandSlotsHolderManager</scope><name>commandSlotsInChild</name></member>
+      <member refid="class_command_slots_holder_manager_1a94a87bb937eaa12a7591f086e6550ef5" prot="public" virt="non-virtual"><scope>CommandSlotsHolderManager</scope><name>commandSlotsNames</name></member>
+      <member refid="class_command_slots_holder_manager_1a583efb3620ae910082140830bc86597a" prot="public" virt="non-virtual"><scope>CommandSlotsHolderManager</scope><name>FindCommandSlotByName</name></member>
+      <member refid="class_command_slots_holder_manager_1a6553805081aeb27e5f02dc77cceb1c50" prot="public" virt="non-virtual"><scope>CommandSlotsHolderManager</scope><name>PlayerNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

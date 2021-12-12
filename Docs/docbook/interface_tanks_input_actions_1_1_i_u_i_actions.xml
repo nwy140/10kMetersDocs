@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_tanks_input_actions_1_1_i_u_i_actions" xml:lang="en-US">
+<title>TanksInputActions.IUIActions Interface Reference</title>
+<indexterm><primary>TanksInputActions.IUIActions</primary></indexterm>
+Collaboration diagram for TanksInputActions.IUIActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_u_i_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_u_i_actions_1af555a103ab44fd39eca336088c22f41c">OnNavigate</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_u_i_actions_1a6fc20065ebab4bd79833f655ee0aef39">OnSubmit</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_u_i_actions_1a9b11474140c77cd3b1650cabcf7b6814">OnCancel</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_u_i_actions_1a27d013524ab4ebb805dde019b6515bdb">OnPoint</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_tanks_input_actions_1_1_i_u_i_actions_1abd2037de9e10591e001628e948170544">OnClick</link> (InputAction.CallbackContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_u_i_actions_1a9b11474140c77cd3b1650cabcf7b6814"/><section>
+    <title>OnCancel()</title>
+<indexterm><primary>OnCancel</primary><secondary>TanksInputActions.IUIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IUIActions</primary><secondary>OnCancel</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IUIActions.OnCancel (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_u_i_actions_a9b11474140c77cd3b1650cabcf7b6814_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_u_i_actions_1abd2037de9e10591e001628e948170544"/><section>
+    <title>OnClick()</title>
+<indexterm><primary>OnClick</primary><secondary>TanksInputActions.IUIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IUIActions</primary><secondary>OnClick</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IUIActions.OnClick (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_u_i_actions_abd2037de9e10591e001628e948170544_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_u_i_actions_1af555a103ab44fd39eca336088c22f41c"/><section>
+    <title>OnNavigate()</title>
+<indexterm><primary>OnNavigate</primary><secondary>TanksInputActions.IUIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IUIActions</primary><secondary>OnNavigate</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IUIActions.OnNavigate (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_u_i_actions_af555a103ab44fd39eca336088c22f41c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_u_i_actions_1a27d013524ab4ebb805dde019b6515bdb"/><section>
+    <title>OnPoint()</title>
+<indexterm><primary>OnPoint</primary><secondary>TanksInputActions.IUIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IUIActions</primary><secondary>OnPoint</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IUIActions.OnPoint (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_u_i_actions_a27d013524ab4ebb805dde019b6515bdb_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_tanks_input_actions_1_1_i_u_i_actions_1a6fc20065ebab4bd79833f655ee0aef39"/><section>
+    <title>OnSubmit()</title>
+<indexterm><primary>OnSubmit</primary><secondary>TanksInputActions.IUIActions</secondary></indexterm>
+<indexterm><primary>TanksInputActions.IUIActions</primary><secondary>OnSubmit</secondary></indexterm>
+<para><computeroutput>void TanksInputActions.IUIActions.OnSubmit (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_tanks_input_actions_1_1_i_u_i_actions_a6fc20065ebab4bd79833f655ee0aef39_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/<link linkend="__tanks_input_actions_8cs">TanksInputActions.cs</link></section>
+</section>

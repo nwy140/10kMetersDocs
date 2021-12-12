@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_simple_controller___using_actions" xml:lang="en-US">
+<title>SimpleController_UsingActions Class Reference</title>
+<indexterm><primary>SimpleController_UsingActions</primary></indexterm>
+Inheritance diagram for SimpleController_UsingActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_simple_controller___using_actions__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SimpleController_UsingActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_simple_controller___using_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_simple_controller___using_actions_1a680bf08f14f206b21167623ff1fe94ee">Awake</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controller___using_actions_1a1b996a8860ba56043232ad388aea285a">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controller___using_actions_1af9de3a470af584bcab1c93313a1b6c1a">OnDisable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controller___using_actions_1aebc71b961f3b6ffe2f42b80cb6b411a2">OnGUI</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_simple_controller___using_actions_1abaa13d82f4f70830f45417339c39cb33">Update</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_simple_controller___using_actions_1a483319deca69eef90a11bca76a48703a">moveSpeed</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_simple_controller___using_actions_1ac860794a70c4b45dcb9ad6484c6b89ce">rotateSpeed</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_simple_controller___using_actions_1a602d88e1122b258fd2f54d209a545298">burstSpeed</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_simple_controller___using_actions_1afac16edf5e038886c63e4af2b7892b41">projectile</link></para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_class_simple_controller___using_actions_1a7c3eb949d1c00f1473929d9ff8efdce4">moveAction</link></para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_class_simple_controller___using_actions_1a6be2df56a03888b109516c78aafdd25a">lookAction</link></para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_class_simple_controller___using_actions_1a359815e306dc08b6130e745ec0b7c8e6">fireAction</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_simple_controller___using_actions_1a680bf08f14f206b21167623ff1fe94ee"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingActions.Awake ( )</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1af9de3a470af584bcab1c93313a1b6c1a"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingActions.OnDisable ( )</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1a1b996a8860ba56043232ad388aea285a"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingActions.OnEnable ( )</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1aebc71b961f3b6ffe2f42b80cb6b411a2"/><section>
+    <title>OnGUI()</title>
+<indexterm><primary>OnGUI</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>OnGUI</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingActions.OnGUI ( )</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1abaa13d82f4f70830f45417339c39cb33"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void SimpleController_UsingActions.Update ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_simple_controller___using_actions_1a602d88e1122b258fd2f54d209a545298"/><section>
+    <title>burstSpeed</title>
+<indexterm><primary>burstSpeed</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>burstSpeed</secondary></indexterm>
+<para><computeroutput>float SimpleController_UsingActions.burstSpeed</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1a359815e306dc08b6130e745ec0b7c8e6"/><section>
+    <title>fireAction</title>
+<indexterm><primary>fireAction</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>fireAction</secondary></indexterm>
+<para><computeroutput>InputAction SimpleController_UsingActions.fireAction</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1a6be2df56a03888b109516c78aafdd25a"/><section>
+    <title>lookAction</title>
+<indexterm><primary>lookAction</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>lookAction</secondary></indexterm>
+<para><computeroutput>InputAction SimpleController_UsingActions.lookAction</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1a7c3eb949d1c00f1473929d9ff8efdce4"/><section>
+    <title>moveAction</title>
+<indexterm><primary>moveAction</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>moveAction</secondary></indexterm>
+<para><computeroutput>InputAction SimpleController_UsingActions.moveAction</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1a483319deca69eef90a11bca76a48703a"/><section>
+    <title>moveSpeed</title>
+<indexterm><primary>moveSpeed</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>moveSpeed</secondary></indexterm>
+<para><computeroutput>float SimpleController_UsingActions.moveSpeed</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1afac16edf5e038886c63e4af2b7892b41"/><section>
+    <title>projectile</title>
+<indexterm><primary>projectile</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>projectile</secondary></indexterm>
+<para><computeroutput>GameObject SimpleController_UsingActions.projectile</computeroutput></para></section>
+<anchor xml:id="_class_simple_controller___using_actions_1ac860794a70c4b45dcb9ad6484c6b89ce"/><section>
+    <title>rotateSpeed</title>
+<indexterm><primary>rotateSpeed</primary><secondary>SimpleController_UsingActions</secondary></indexterm>
+<indexterm><primary>SimpleController_UsingActions</primary><secondary>rotateSpeed</secondary></indexterm>
+<para><computeroutput>float SimpleController_UsingActions.rotateSpeed</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/<link linkend="__simple_controller___using_actions_8cs">SimpleController_UsingActions.cs</link></section>
+</section>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_complete_1_1_u_i_direction_control" kind="class" language="C#" prot="public">
+    <compoundname>Complete::UIDirectionControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_complete_1_1_u_i_direction_control_1a385dfac3236bd33fef3b107be91870ec" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Complete.UIDirectionControl.m_UseRelativeRotation</definition>
+        <argsstring></argsstring>
+        <name>m_UseRelativeRotation</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" line="10" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_complete_1_1_u_i_direction_control_1a03d55828b70f12c2bddbb8a8ecf70b1c" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion Complete.UIDirectionControl.m_RelativeRotation</definition>
+        <argsstring></argsstring>
+        <name>m_RelativeRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" line="13" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_complete_1_1_u_i_direction_control_1a957c2ed506dec1b84cdce0f49d4eec2c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Complete.UIDirectionControl.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" line="16" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_complete_1_1_u_i_direction_control_1a844f3331b16ca05a2e03c6e558b1f8ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Complete.UIDirectionControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" line="21" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Complete.UIDirectionControl</label>
+        <link refid="class_complete_1_1_u_i_direction_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Complete.UIDirectionControl</label>
+        <link refid="class_complete_1_1_u_i_direction_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" line="5" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/UI/UIDirectionControl.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_complete_1_1_u_i_direction_control_1a03d55828b70f12c2bddbb8a8ecf70b1c" prot="private" virt="non-virtual"><scope>Complete::UIDirectionControl</scope><name>m_RelativeRotation</name></member>
+      <member refid="class_complete_1_1_u_i_direction_control_1a385dfac3236bd33fef3b107be91870ec" prot="public" virt="non-virtual"><scope>Complete::UIDirectionControl</scope><name>m_UseRelativeRotation</name></member>
+      <member refid="class_complete_1_1_u_i_direction_control_1a957c2ed506dec1b84cdce0f49d4eec2c" prot="private" virt="non-virtual"><scope>Complete::UIDirectionControl</scope><name>Start</name></member>
+      <member refid="class_complete_1_1_u_i_direction_control_1a844f3331b16ca05a2e03c6e558b1f8ef" prot="private" virt="non-virtual"><scope>Complete::UIDirectionControl</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

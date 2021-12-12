@@ -1,0 +1,97 @@
+.TH "PatrolByRandomPos" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PatrolByRandomPos
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFSMBaseState\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPatrolByRandomPos\fP (\fBFSMSystemBase\fP system)"
+.br
+.ti -1c
+.RI "override bool \fBOnEnterState\fP ()"
+.br
+.ti -1c
+.RI "override bool \fBOnExitState\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnUpdate\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnStayState\fP ()"
+.br
+.ti -1c
+.RI "void \fBPerformStateBehaviour\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBwaypointIndex\fP = 0"
+.br
+.ti -1c
+.RI "\fBWaypointPath\fP \fBwaypointComp\fP"
+.br
+.ti -1c
+.RI "bool \fBhasSetDestination\fP"
+.br
+.ti -1c
+.RI "float \fBetaNextWaypoint\fP"
+.br
+.ti -1c
+.RI "float \fBtimeBetweenWaypointsMin\fP = 5f"
+.br
+.ti -1c
+.RI "float \fBtimeBetweenWaypointsMax\fP = 10f"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "PatrolByRandomPos\&.PatrolByRandomPos (\fBFSMSystemBase\fP system)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override bool PatrolByRandomPos\&.OnEnterState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMBaseState\fP\&.
+.SS "override bool PatrolByRandomPos\&.OnExitState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMBaseState\fP\&.
+.SS "override void PatrolByRandomPos\&.OnStayState ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMBaseState\fP\&.
+.SS "override void PatrolByRandomPos\&.OnUpdate ()\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBFSMBaseState\fP\&.
+.SS "void PatrolByRandomPos\&.PerformStateBehaviour ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "float PatrolByRandomPos\&.etaNextWaypoint"
+
+.SS "bool PatrolByRandomPos\&.hasSetDestination"
+
+.SS "float PatrolByRandomPos\&.timeBetweenWaypointsMax = 10f"
+
+.SS "float PatrolByRandomPos\&.timeBetweenWaypointsMin = 5f"
+
+.SS "\fBWaypointPath\fP PatrolByRandomPos\&.waypointComp"
+
+.SS "int PatrolByRandomPos\&.waypointIndex = 0"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

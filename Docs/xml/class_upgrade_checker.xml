@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_upgrade_checker" kind="class" language="C#" prot="public">
+    <compoundname>UpgradeChecker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_upgrade_checker_1a1ae48a3b97ef17822cd33a8b6c03dc2f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref>[]</type>
+        <definition>PlayerUpgrades [] UpgradeChecker.standardUpgrades</definition>
+        <argsstring></argsstring>
+        <name>standardUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="11" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a81b4199743404597740017554a15fcfb" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite UpgradeChecker.disabledImage</definition>
+        <argsstring></argsstring>
+        <name>disabledImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="13" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1ace61d4935fa44f7943cf8c07c7085686" prot="private" static="no" mutable="no">
+        <type>Button[]</type>
+        <definition>Button [] UpgradeChecker.turbineButtons</definition>
+        <argsstring></argsstring>
+        <name>turbineButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="17" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a5c6abf4357914ca17a2bcb51609a68bb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_turbine" kindref="compound">Turbine</ref>[]</type>
+        <definition>Turbine [] UpgradeChecker.turbineUpgrades</definition>
+        <argsstring></argsstring>
+        <name>turbineUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="18" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a4d8230b3cfb49496957966394d508e8e" prot="private" static="no" mutable="no">
+        <type>Button[]</type>
+        <definition>Button [] UpgradeChecker.oxygenTankButtons</definition>
+        <argsstring></argsstring>
+        <name>oxygenTankButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="22" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1ae7b4dd82b6230a0f074425ad4e67b745" prot="private" static="no" mutable="no">
+        <type><ref refid="class_oxygen_tank" kindref="compound">OxygenTank</ref>[]</type>
+        <definition>OxygenTank [] UpgradeChecker.oxygenTankUpgrades</definition>
+        <argsstring></argsstring>
+        <name>oxygenTankUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="23" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1ae4b744a75cbbb3c5a9ed349d23364f75" prot="private" static="no" mutable="no">
+        <type>Button[]</type>
+        <definition>Button [] UpgradeChecker.inventoryButtons</definition>
+        <argsstring></argsstring>
+        <name>inventoryButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="27" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a303081506bc9b2d5cc905b388ea391a7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_inventory" kindref="compound">Inventory</ref>[]</type>
+        <definition>Inventory [] UpgradeChecker.inventoryUpgrades</definition>
+        <argsstring></argsstring>
+        <name>inventoryUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="28" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a2fd7477b8aeeb725c32ef4b129d4e8b9" prot="private" static="no" mutable="no">
+        <type>Button[]</type>
+        <definition>Button [] UpgradeChecker.hullButtons</definition>
+        <argsstring></argsstring>
+        <name>hullButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="32" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a4845ce4eda562e02a272c357f8ec11df" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hull" kindref="compound">Hull</ref>[]</type>
+        <definition>Hull [] UpgradeChecker.hullUpgrades</definition>
+        <argsstring></argsstring>
+        <name>hullUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="33" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a517fb0d48424e0bbc4fbdbf10f9665e4" prot="private" static="no" mutable="no">
+        <type>Button[]</type>
+        <definition>Button [] UpgradeChecker.selfRepairButtons</definition>
+        <argsstring></argsstring>
+        <name>selfRepairButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="37" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1ab5cf709f25069aa2a5e896c000c76237" prot="private" static="no" mutable="no">
+        <type><ref refid="class_self_repair" kindref="compound">SelfRepair</ref>[]</type>
+        <definition>SelfRepair [] UpgradeChecker.selfRepairUpgrades</definition>
+        <argsstring></argsstring>
+        <name>selfRepairUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="38" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1ab0adaa8cce3167ec8ceb824b1a6bbde5" prot="private" static="no" mutable="no">
+        <type>Button[]</type>
+        <definition>Button [] UpgradeChecker.weaponButtons</definition>
+        <argsstring></argsstring>
+        <name>weaponButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="42" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a38d9ea834d61108e8b7bca9e7ba061d6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_weapon" kindref="compound">Weapon</ref>[]</type>
+        <definition>Weapon [] UpgradeChecker.weaponUpgrades</definition>
+        <argsstring></argsstring>
+        <name>weaponUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="43" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_upgrade_checker_1a565006c84a49f5cf402e8acad38cc4b0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_upgrade_holder" kindref="compound">UpgradeHolder</ref></type>
+        <definition>UpgradeHolder UpgradeChecker.upgradeHolder</definition>
+        <argsstring></argsstring>
+        <name>upgradeHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="47" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_upgrade_checker_1a23f758248717073a236bb770cc269cde" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeChecker.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="50" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="50" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_upgrade_checker_1afb704adccff8dbe03ca7d42ba814c4b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeChecker.CheckUpgradeButtons</definition>
+        <argsstring>(Button[] upgradeButton, PlayerUpgrades[] playerUpgrades, PlayerUpgrades currentUpgrade)</argsstring>
+        <name>CheckUpgradeButtons</name>
+        <param>
+          <type>Button[]</type>
+          <declname>upgradeButton</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref>[]</type>
+          <declname>playerUpgrades</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player_upgrades" kindref="compound">PlayerUpgrades</ref></type>
+          <declname>currentUpgrade</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="70" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="70" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_upgrade_checker_1a8a229f1a0d156b501b2804cc64e0dda2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpgradeChecker.CheckAllUpgrades</definition>
+        <argsstring>()</argsstring>
+        <name>CheckAllUpgrades</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="60" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="60" bodyend="68"/>
+        <references refid="class_upgrade_holder_1ae99c4ea3908d4ca167b180a33938d303" compoundref="_upgrade_holder_8cs" startline="158" endline="167">UpgradeHolder.HullUpgrade</references>
+        <references refid="class_upgrade_holder_1a75c1bf41adb7c390c410d1e6476174a6" compoundref="_upgrade_holder_8cs" startline="191" endline="200">UpgradeHolder.InventoryUpgrade</references>
+        <references refid="class_upgrade_holder_1ad96dbb09f57c0bbadb98c7a61cdf6dd7" compoundref="_upgrade_holder_8cs" startline="180" endline="189">UpgradeHolder.OxygenTankUpgrade</references>
+        <references refid="class_upgrade_holder_1afc3be7202277fa87ac4a4a5587164fac" compoundref="_upgrade_holder_8cs" startline="169" endline="178">UpgradeHolder.SelfRepairUpgrade</references>
+        <references refid="class_upgrade_holder_1aedf282972fb27acfa5d548136a5c28c3" compoundref="_upgrade_holder_8cs" startline="136" endline="145">UpgradeHolder.TurbineUpgrade</references>
+        <references refid="class_upgrade_holder_1a1d6fdce24c1016914fabd8952dc3b18a" compoundref="_upgrade_holder_8cs" startline="147" endline="156">UpgradeHolder.WeaponUpgrade</references>
+        <referencedby refid="class_u_i___skill_tree_1acbeb6487c2ef09baf3df2909d8ea45c2" compoundref="_u_i___skill_tree_8cs" startline="39" endline="51">UI_SkillTree.StartBuyingUpgrade</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UpgradeChecker</label>
+        <link refid="class_upgrade_checker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UpgradeChecker</label>
+        <link refid="class_upgrade_checker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" line="9" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/UpgradeChecker.cs" bodystart="10" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_upgrade_checker_1a8a229f1a0d156b501b2804cc64e0dda2" prot="public" virt="non-virtual"><scope>UpgradeChecker</scope><name>CheckAllUpgrades</name></member>
+      <member refid="class_upgrade_checker_1afb704adccff8dbe03ca7d42ba814c4b0" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>CheckUpgradeButtons</name></member>
+      <member refid="class_upgrade_checker_1a81b4199743404597740017554a15fcfb" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>disabledImage</name></member>
+      <member refid="class_upgrade_checker_1a2fd7477b8aeeb725c32ef4b129d4e8b9" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>hullButtons</name></member>
+      <member refid="class_upgrade_checker_1a4845ce4eda562e02a272c357f8ec11df" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>hullUpgrades</name></member>
+      <member refid="class_upgrade_checker_1ae4b744a75cbbb3c5a9ed349d23364f75" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>inventoryButtons</name></member>
+      <member refid="class_upgrade_checker_1a303081506bc9b2d5cc905b388ea391a7" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>inventoryUpgrades</name></member>
+      <member refid="class_upgrade_checker_1a4d8230b3cfb49496957966394d508e8e" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>oxygenTankButtons</name></member>
+      <member refid="class_upgrade_checker_1ae7b4dd82b6230a0f074425ad4e67b745" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>oxygenTankUpgrades</name></member>
+      <member refid="class_upgrade_checker_1a517fb0d48424e0bbc4fbdbf10f9665e4" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>selfRepairButtons</name></member>
+      <member refid="class_upgrade_checker_1ab5cf709f25069aa2a5e896c000c76237" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>selfRepairUpgrades</name></member>
+      <member refid="class_upgrade_checker_1a1ae48a3b97ef17822cd33a8b6c03dc2f" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>standardUpgrades</name></member>
+      <member refid="class_upgrade_checker_1a23f758248717073a236bb770cc269cde" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>Start</name></member>
+      <member refid="class_upgrade_checker_1ace61d4935fa44f7943cf8c07c7085686" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>turbineButtons</name></member>
+      <member refid="class_upgrade_checker_1a5c6abf4357914ca17a2bcb51609a68bb" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>turbineUpgrades</name></member>
+      <member refid="class_upgrade_checker_1a565006c84a49f5cf402e8acad38cc4b0" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>upgradeHolder</name></member>
+      <member refid="class_upgrade_checker_1ab0adaa8cce3167ec8ceb824b1a6bbde5" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>weaponButtons</name></member>
+      <member refid="class_upgrade_checker_1a38d9ea834d61108e8b7bca9e7ba061d6" prot="private" virt="non-virtual"><scope>UpgradeChecker</scope><name>weaponUpgrades</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_accessor_refs_base" kind="class" language="C#" prot="public">
+    <compoundname>CommandAccessorRefsBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events" prot="public">CommandAccessorRefsBase::CommandSlotUnityEvents</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_accessor_refs_base_1acda5694ace3ec7a71a45a571757bb0cf" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_slot_holder" kindref="compound">CommandSlotHolder</ref></type>
+        <definition>CommandSlotHolder CommandAccessorRefsBase.commandSlotHolder</definition>
+        <argsstring></argsstring>
+        <name>commandSlotHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="13" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events" kindref="compound">CommandSlotUnityEvents</ref></type>
+        <definition>CommandSlotUnityEvents CommandAccessorRefsBase.commandSlotUnityEvents</definition>
+        <argsstring></argsstring>
+        <name>commandSlotUnityEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="27" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_command_accessor_refs_base_1ae90967129d8c187c04b9cff8615dc68c" compoundref="_command_accessor_refs_base_8cs" startline="59" endline="64">Execd</referencedby>
+        <referencedby refid="class_command_accessor_refs_base_1a9e1b6afd3c246328cc9c4ecfb50252a8" compoundref="_command_accessor_refs_base_8cs" startline="41" endline="45">ExecDown</referencedby>
+        <referencedby refid="class_command_accessor_refs_base_1a2efe5f53b05a309413caa0f80d280d3b" compoundref="_command_accessor_refs_base_8cs" startline="47" endline="51">ExecDownCharging</referencedby>
+        <referencedby refid="class_command_accessor_refs_base_1ad55d19fe8fa95bf27cc400411dc1a3ae" compoundref="_command_accessor_refs_base_8cs" startline="37" endline="40">ExecPress</referencedby>
+        <referencedby refid="class_command_accessor_refs_base_1ab5b0d3cdf05705e67d07935ac88e03dd" compoundref="_command_accessor_refs_base_8cs" startline="53" endline="57">ExecRelease</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_command_accessor_refs_base_1aacadce48850ff021371e29a10676eba0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandAccessorRefsBase.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_accessor_refs_base_1ad55d19fe8fa95bf27cc400411dc1a3ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandAccessorRefsBase.ExecPress</definition>
+        <argsstring>()</argsstring>
+        <name>ExecPress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="37" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="37" bodyend="40"/>
+        <references refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" compoundref="_command_accessor_refs_base_8cs" startline="27">commandSlotUnityEvents</references>
+        <references refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1ad29cc65c2d4714c5a68d2655088abaf4" compoundref="_command_accessor_refs_base_8cs" startline="31">CommandAccessorRefsBase.CommandSlotUnityEvents.ExecPressUnityEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_accessor_refs_base_1a9e1b6afd3c246328cc9c4ecfb50252a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandAccessorRefsBase.ExecDown</definition>
+        <argsstring>()</argsstring>
+        <name>ExecDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="41" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="41" bodyend="45"/>
+        <references refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" compoundref="_command_accessor_refs_base_8cs" startline="27">commandSlotUnityEvents</references>
+        <references refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1aa88e39564e297be4553b8c1673bb89fd" compoundref="_command_accessor_refs_base_8cs" startline="32">CommandAccessorRefsBase.CommandSlotUnityEvents.ExecDownUnityEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_accessor_refs_base_1a2efe5f53b05a309413caa0f80d280d3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandAccessorRefsBase.ExecDownCharging</definition>
+        <argsstring>()</argsstring>
+        <name>ExecDownCharging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="47" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="47" bodyend="51"/>
+        <references refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" compoundref="_command_accessor_refs_base_8cs" startline="27">commandSlotUnityEvents</references>
+        <references refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1a273959d0948de8a6b61a6b5136f4f513" compoundref="_command_accessor_refs_base_8cs" startline="33">CommandAccessorRefsBase.CommandSlotUnityEvents.ExecDownChargingUnityEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_accessor_refs_base_1ab5b0d3cdf05705e67d07935ac88e03dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandAccessorRefsBase.ExecRelease</definition>
+        <argsstring>()</argsstring>
+        <name>ExecRelease</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="53" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="53" bodyend="57"/>
+        <references refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" compoundref="_command_accessor_refs_base_8cs" startline="27">commandSlotUnityEvents</references>
+        <references refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1abb67df8418fdc126b65e890519774765" compoundref="_command_accessor_refs_base_8cs" startline="34">CommandAccessorRefsBase.CommandSlotUnityEvents.ExecReleaseUnityEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_command_accessor_refs_base_1ae90967129d8c187c04b9cff8615dc68c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CommandAccessorRefsBase.Execd</definition>
+        <argsstring>()</argsstring>
+        <name>Execd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="59" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="59" bodyend="64"/>
+        <references refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" compoundref="_command_accessor_refs_base_8cs" startline="27">commandSlotUnityEvents</references>
+        <references refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events_1a6450936e4b44cefb48eff478c10cda66" compoundref="_command_accessor_refs_base_8cs" startline="35">CommandAccessorRefsBase.CommandSlotUnityEvents.ExecdUnityEvent</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CommandAccessorRefsBase</label>
+        <link refid="class_command_accessor_refs_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandAccessorRefsBase</label>
+        <link refid="class_command_accessor_refs_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+commandSlotHolder</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+commandSlotUnityEvents</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>CommandAccessorRefsBase.CommandSlotUnityEvents</label>
+        <link refid="struct_command_accessor_refs_base_1_1_command_slot_unity_events"/>
+      </node>
+      <node id="5">
+        <label>CommandBase</label>
+        <link refid="class_command_base"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+info</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+instanceInfo</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+cooldownInfo</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+execInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CommandBase.CooldownInfo</label>
+        <link refid="struct_command_base_1_1_cooldown_info"/>
+      </node>
+      <node id="11">
+        <label>CommandBase.ExecutionInfo</label>
+        <link refid="class_command_base_1_1_execution_info"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+ExecDownChargingEvent</edgelabel>
+          <edgelabel>+ExecDownEvent</edgelabel>
+          <edgelabel>+ExecPressEvent</edgelabel>
+          <edgelabel>+ExecReleaseEvent</edgelabel>
+          <edgelabel>+ExecdEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CommandBase.Info</label>
+        <link refid="struct_command_base_1_1_info"/>
+      </node>
+      <node id="9">
+        <label>CommandBase.InstanceInfoRuntime</label>
+        <link refid="struct_command_base_1_1_instance_info_runtime"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+commandAccessorRefsComp</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+prevPrimaryCommand</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>CommandEvent</label>
+        <link refid="class_command_event"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommandSlotHolder</label>
+        <link refid="class_command_slot_holder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+commandInstanceInSlot</edgelabel>
+          <edgelabel>+commandInstanceSOAsset</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+accessorComp</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>GameEvent</label>
+        <link refid="class_game_event"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ICommand</label>
+        <link refid="interface_i_command"/>
+      </node>
+      <node id="4">
+        <label>InputCommand</label>
+        <link refid="class_input_command"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+execExtraInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>InputCommand.ExecExtraInfo</label>
+        <link refid="struct_input_command_1_1_exec_extra_info"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="6">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" line="11" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/CommandAccessorRefsBase.cs" bodystart="12" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_command_accessor_refs_base_1aacadce48850ff021371e29a10676eba0" prot="private" virt="non-virtual"><scope>CommandAccessorRefsBase</scope><name>Awake</name></member>
+      <member refid="class_command_accessor_refs_base_1acda5694ace3ec7a71a45a571757bb0cf" prot="public" virt="non-virtual"><scope>CommandAccessorRefsBase</scope><name>commandSlotHolder</name></member>
+      <member refid="class_command_accessor_refs_base_1ae7bf8a1aaa63cdd99b959c40668af327" prot="public" virt="non-virtual"><scope>CommandAccessorRefsBase</scope><name>commandSlotUnityEvents</name></member>
+      <member refid="class_command_accessor_refs_base_1ae90967129d8c187c04b9cff8615dc68c" prot="public" virt="virtual"><scope>CommandAccessorRefsBase</scope><name>Execd</name></member>
+      <member refid="class_command_accessor_refs_base_1a9e1b6afd3c246328cc9c4ecfb50252a8" prot="public" virt="virtual"><scope>CommandAccessorRefsBase</scope><name>ExecDown</name></member>
+      <member refid="class_command_accessor_refs_base_1a2efe5f53b05a309413caa0f80d280d3b" prot="public" virt="virtual"><scope>CommandAccessorRefsBase</scope><name>ExecDownCharging</name></member>
+      <member refid="class_command_accessor_refs_base_1ad55d19fe8fa95bf27cc400411dc1a3ae" prot="public" virt="virtual"><scope>CommandAccessorRefsBase</scope><name>ExecPress</name></member>
+      <member refid="class_command_accessor_refs_base_1ab5b0d3cdf05705e67d07935ac88e03dd" prot="public" virt="virtual"><scope>CommandAccessorRefsBase</scope><name>ExecRelease</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

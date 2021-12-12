@@ -43,7 +43,7 @@ var searchData=
   ['spawnenemy_40',['spawnEnemy',['../class_random_enemy.html#a4dbe7b45e06744756ccc12fd0e88e580',1,'RandomEnemy']]],
   ['spawnrandomobj_41',['SpawnRandomObj',['../class_game_obj_spawn_helper.html#a3b1800a986636477677518176fd56bd6',1,'GameObjSpawnHelper']]],
   ['spawnres_42',['spawnRes',['../class_random_spawner.html#a3bb19e1922686fc9a025f77ed9b5d942',1,'RandomSpawner']]],
-  ['start_43',['Start',['../class_control_rebinding_u_i.html#adaf5ec59d6f577651604dcd734bc9f33',1,'ControlRebindingUI.Start()'],['../class_previous_position.html#a48bad4a1506c412bf884f70d9375ad53',1,'PreviousPosition.Start()'],['../class_scene_transitioning.html#a220cc89537fc81bc30cd452c33c24c02',1,'SceneTransitioning.Start()']]],
+  ['start_43',['Start',['../class_player_bullet.html#ab8df5c791812259f63b39abd9e60ac06',1,'PlayerBullet.Start()'],['../class_control_rebinding_u_i.html#adaf5ec59d6f577651604dcd734bc9f33',1,'ControlRebindingUI.Start()'],['../class_previous_position.html#a48bad4a1506c412bf884f70d9375ad53',1,'PreviousPosition.Start()'],['../class_scene_transitioning.html#a220cc89537fc81bc30cd452c33c24c02',1,'SceneTransitioning.Start()']]],
   ['startbuyingupgrade_44',['StartBuyingUpgrade',['../class_u_i___skill_tree.html#acbeb6487c2ef09baf3df2909d8ea45c2',1,'UI_SkillTree']]],
   ['startcapture_45',['StartCapture',['../class_unity_engine_1_1_input_system_1_1_input_recorder.html#a9455c855eede37598d802cce55e9bb2d',1,'UnityEngine::InputSystem::InputRecorder']]],
   ['startinteractiverebind_46',['StartInteractiveRebind',['../class_unity_engine_1_1_input_system_1_1_samples_1_1_rebind_u_i_1_1_rebind_action_u_i.html#a2285105c31e12a1ce08204a0c811701b',1,'UnityEngine::InputSystem::Samples::RebindUI::RebindActionUI']]],

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_command_base_1_1_instance_info_runtime" xml:lang="en-US">
+<title>CommandBase.InstanceInfoRuntime Struct Reference</title>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary></indexterm>
+Collaboration diagram for CommandBase.InstanceInfoRuntime:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_command_base_1_1_instance_info_runtime__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_struct_command_base_1_1_instance_info_runtime_1ac7c51b522a603d3969c97a77120da22e">_isExecuted</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_command_base_1_1_instance_info_runtime_1a3c9118c9ff0948d6c6937d6aa9907844">_isEnabled</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_struct_command_base_1_1_instance_info_runtime_1a730bb19b6118ae6d192bce2abe0a9a0f">_id</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_command_base_1_1_instance_info_runtime_1a3d11277f1cac450e6fe7593919847d48">TimeStamp</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_struct_command_base_1_1_instance_info_runtime_1abc9563c0017b4cc2ea6c0da7024db137">ElapsedTime</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a">commandOwnerRootObj</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_struct_command_base_1_1_instance_info_runtime_1ade43d87749f149634332ebbc8b122507">commandTargetObj</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_accessor_refs_base">CommandAccessorRefsBase</link> <link linkend="_struct_command_base_1_1_instance_info_runtime_1adbc54d10c64394077aa29ff927964577">commandAccessorRefsComp</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_command_base_1_1_instance_info_runtime_1a5e191bc230b8115b61c0e8baf6ad8309">isSoInstance</link></para>
+</listitem>
+            <listitem><para>List&lt; string &gt; <link linkend="_struct_command_base_1_1_instance_info_runtime_1a9b7c6ca05272404e1d3b7f37cee0a29b">UsedToExecChainCommands</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_struct_command_base_1_1_instance_info_runtime_1ab97786de6855477331f81e781e6222f9">prevPrimaryCommandName</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_base">CommandBase</link> <link linkend="_struct_command_base_1_1_instance_info_runtime_1a9b0a78617433c4e9902a594ee8b62bab">prevPrimaryCommand</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1a730bb19b6118ae6d192bce2abe0a9a0f"/><section>
+    <title>_id</title>
+<indexterm><primary>_id</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>_id</secondary></indexterm>
+<para><computeroutput>int CommandBase.InstanceInfoRuntime._id</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1a3c9118c9ff0948d6c6937d6aa9907844"/><section>
+    <title>_isEnabled</title>
+<indexterm><primary>_isEnabled</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>_isEnabled</secondary></indexterm>
+<para><computeroutput>bool CommandBase.InstanceInfoRuntime._isEnabled</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1ac7c51b522a603d3969c97a77120da22e"/><section>
+    <title>_isExecuted</title>
+<indexterm><primary>_isExecuted</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>_isExecuted</secondary></indexterm>
+<para><computeroutput>bool CommandBase.InstanceInfoRuntime._isExecuted</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1adbc54d10c64394077aa29ff927964577"/><section>
+    <title>commandAccessorRefsComp</title>
+<indexterm><primary>commandAccessorRefsComp</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>commandAccessorRefsComp</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_accessor_refs_base">CommandAccessorRefsBase</link> CommandBase.InstanceInfoRuntime.commandAccessorRefsComp</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1a737089c539e4d15accb93b784d4ad45a"/><section>
+    <title>commandOwnerRootObj</title>
+<indexterm><primary>commandOwnerRootObj</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>commandOwnerRootObj</secondary></indexterm>
+<para><computeroutput>GameObject CommandBase.InstanceInfoRuntime.commandOwnerRootObj</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1ade43d87749f149634332ebbc8b122507"/><section>
+    <title>commandTargetObj</title>
+<indexterm><primary>commandTargetObj</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>commandTargetObj</secondary></indexterm>
+<para><computeroutput>GameObject CommandBase.InstanceInfoRuntime.commandTargetObj</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1abc9563c0017b4cc2ea6c0da7024db137"/><section>
+    <title>ElapsedTime</title>
+<indexterm><primary>ElapsedTime</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>ElapsedTime</secondary></indexterm>
+<para><computeroutput>float CommandBase.InstanceInfoRuntime.ElapsedTime</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1a5e191bc230b8115b61c0e8baf6ad8309"/><section>
+    <title>isSoInstance</title>
+<indexterm><primary>isSoInstance</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>isSoInstance</secondary></indexterm>
+<para><computeroutput>bool CommandBase.InstanceInfoRuntime.isSoInstance</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1a9b0a78617433c4e9902a594ee8b62bab"/><section>
+    <title>prevPrimaryCommand</title>
+<indexterm><primary>prevPrimaryCommand</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>prevPrimaryCommand</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_base">CommandBase</link> CommandBase.InstanceInfoRuntime.prevPrimaryCommand</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1ab97786de6855477331f81e781e6222f9"/><section>
+    <title>prevPrimaryCommandName</title>
+<indexterm><primary>prevPrimaryCommandName</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>prevPrimaryCommandName</secondary></indexterm>
+<para><computeroutput>string CommandBase.InstanceInfoRuntime.prevPrimaryCommandName</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1a3d11277f1cac450e6fe7593919847d48"/><section>
+    <title>TimeStamp</title>
+<indexterm><primary>TimeStamp</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>TimeStamp</secondary></indexterm>
+<para><computeroutput>float CommandBase.InstanceInfoRuntime.TimeStamp</computeroutput></para></section>
+<anchor xml:id="_struct_command_base_1_1_instance_info_runtime_1a9b7c6ca05272404e1d3b7f37cee0a29b"/><section>
+    <title>UsedToExecChainCommands</title>
+<indexterm><primary>UsedToExecChainCommands</primary><secondary>CommandBase.InstanceInfoRuntime</secondary></indexterm>
+<indexterm><primary>CommandBase.InstanceInfoRuntime</primary><secondary>UsedToExecChainCommands</secondary></indexterm>
+<para><computeroutput>List&lt;string&gt; CommandBase.InstanceInfoRuntime.UsedToExecChainCommands</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/<link linkend="__command_base_8cs">CommandBase.cs</link></section>
+</section>

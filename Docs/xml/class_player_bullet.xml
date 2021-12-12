@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_bullet" kind="class" language="C#" prot="public">
+    <compoundname>PlayerBullet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_breakable_wall_bullet" prot="public" virt="non-virtual">BreakableWallBullet</derivedcompoundref>
+    <derivedcompoundref refid="class_homing_bullet" prot="public" virt="non-virtual">HomingBullet</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_bullet_1a013f5c2f733d7fbf3293d1ed88bae512" prot="public" static="no" mutable="no">
+        <type><ref refid="class_player_bullet_properties" kindref="compound">PlayerBulletProperties</ref></type>
+        <definition>PlayerBulletProperties PlayerBullet.PlayerBulletProperties</definition>
+        <argsstring></argsstring>
+        <name>PlayerBulletProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="14" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_bullet_1aa87ce265ba30f571793943f83e46214e" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D PlayerBullet.bulletRigidbody2D</definition>
+        <argsstring></argsstring>
+        <name>bulletRigidbody2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="15" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_bullet_1a23079475c0d4d05a2c4818e8a26a0b79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float PlayerBullet.BulletDamage</definition>
+        <argsstring></argsstring>
+        <name>BulletDamage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="33" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="34" bodyend="43"/>
+        <referencedby refid="class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed" compoundref="_player_bullet_8cs" startline="65" endline="74">OnHitBox</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_player_bullet_1a75177f576180e59f7092684d57bd80c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float PlayerBullet.BulletSpeed</definition>
+        <argsstring></argsstring>
+        <name>BulletSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="45" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="46" bodyend="55"/>
+        <referencedby refid="class_homing_bullet_1a9a76926993c2849d6d402d9c3e2ad050" compoundref="_homing_bullet_8cs" startline="69" endline="101">HomingBullet.HeatSeekEnemy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_player_bullet_1ab8df5c791812259f63b39abd9e60ac06" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerBullet.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="17" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_bullet_1a7107e3bdcea687d3473877a4d0706d63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerBullet.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="22" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="22" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_bullet_1a1417fdee0adf101b64cc539699c48d76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerBullet.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="57" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_bullet_1af613e2d986ed1328d9571899a6afa093" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerBullet.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D collision)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="61" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerBullet.OnHitBox</definition>
+        <argsstring>(GameObject other)</argsstring>
+        <name>OnHitBox</name>
+        <param>
+          <type>GameObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="65" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="65" bodyend="74"/>
+        <references refid="class_player_bullet_1a23079475c0d4d05a2c4818e8a26a0b79" compoundref="_player_bullet_8cs" startline="34" endline="43">BulletDamage</references>
+        <references refid="class_enemy_health_1ac69ced547ce1363787576a4238b78acb" compoundref="_enemy_health_8cs" startline="48" endline="58">EnemyHealth.GetDamage</references>
+        <references refid="class_audio_manager_1a22b1b1a94ee423ccb2b142b4f5a70ad4" compoundref="_audio_manager_8cs" startline="12">AudioManager.instance</references>
+        <references refid="class_audio_manager_1a857cbe52aa78360c54f9a2414deb51e7" compoundref="_audio_manager_8cs" startline="155" endline="185">AudioManager.PlaySFX</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>BreakableWallBullet</label>
+        <link refid="class_breakable_wall_bullet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>HomingBullet</label>
+        <link refid="class_homing_bullet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerBullet</label>
+        <link refid="class_player_bullet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerBullet</label>
+        <link refid="class_player_bullet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+PlayerBulletProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PlayerBulletProperties</label>
+        <link refid="class_player_bullet_properties"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" line="12" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/PlayerBullet.cs" bodystart="13" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_player_bullet_1a23079475c0d4d05a2c4818e8a26a0b79" prot="public" virt="non-virtual"><scope>PlayerBullet</scope><name>BulletDamage</name></member>
+      <member refid="class_player_bullet_1aa87ce265ba30f571793943f83e46214e" prot="private" virt="non-virtual"><scope>PlayerBullet</scope><name>bulletRigidbody2D</name></member>
+      <member refid="class_player_bullet_1a75177f576180e59f7092684d57bd80c7" prot="public" virt="non-virtual"><scope>PlayerBullet</scope><name>BulletSpeed</name></member>
+      <member refid="class_player_bullet_1af613e2d986ed1328d9571899a6afa093" prot="private" virt="non-virtual"><scope>PlayerBullet</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed" prot="public" virt="non-virtual"><scope>PlayerBullet</scope><name>OnHitBox</name></member>
+      <member refid="class_player_bullet_1a1417fdee0adf101b64cc539699c48d76" prot="private" virt="non-virtual"><scope>PlayerBullet</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_player_bullet_1a013f5c2f733d7fbf3293d1ed88bae512" prot="public" virt="non-virtual"><scope>PlayerBullet</scope><name>PlayerBulletProperties</name></member>
+      <member refid="class_player_bullet_1ab8df5c791812259f63b39abd9e60ac06" prot="protected" virt="non-virtual"><scope>PlayerBullet</scope><name>Start</name></member>
+      <member refid="class_player_bullet_1a7107e3bdcea687d3473877a4d0706d63" prot="private" virt="non-virtual"><scope>PlayerBullet</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

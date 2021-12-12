@@ -1,0 +1,179 @@
+\hypertarget{class_patrol_by_waypoints}{}\doxysection{Patrol\+By\+Waypoints Class Reference}
+\label{class_patrol_by_waypoints}\index{PatrolByWaypoints@{PatrolByWaypoints}}
+
+
+Inheritance diagram for Patrol\+By\+Waypoints\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_patrol_by_waypoints__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Patrol\+By\+Waypoints\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_patrol_by_waypoints__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_patrol_by_waypoints_aa713531703de93523f69a78c14a4270d}{Patrol\+By\+Waypoints}} (\mbox{\hyperlink{class_f_s_m_system_base}{FSMSystem\+Base}} system)
+\item 
+override bool \mbox{\hyperlink{class_patrol_by_waypoints_adcba748e4f330067dcf038b057021e16}{On\+Enter\+State}} ()
+\item 
+override bool \mbox{\hyperlink{class_patrol_by_waypoints_ae55e0e2a1f0370f8757383aa93c81a34}{On\+Exit\+State}} ()
+\item 
+override void \mbox{\hyperlink{class_patrol_by_waypoints_a9fef0c96e7781b44b02302ef8090fdd9}{On\+Update}} ()
+\item 
+override void \mbox{\hyperlink{class_patrol_by_waypoints_ae27477594ec3618830d92df7915773e6}{On\+Stay\+State}} ()
+\item 
+void \mbox{\hyperlink{class_patrol_by_waypoints_a4d6e8aa2832b7dd8f935b3509d9f8a4e}{Perform\+State\+Behaviour}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_patrol_by_waypoints_a034cba82242831414187a5fe177da05c}{waypoint\+Index}} = 0
+\item 
+\mbox{\hyperlink{class_waypoint_path}{Waypoint\+Path}} \mbox{\hyperlink{class_patrol_by_waypoints_a3bde554a11e0e047be9a0d21ad573985}{waypoint\+Comp}}
+\item 
+bool \mbox{\hyperlink{class_patrol_by_waypoints_a4e772bf82fdf52bf23c3ba64e6e4c12c}{has\+Set\+Destination}}
+\item 
+float \mbox{\hyperlink{class_patrol_by_waypoints_a96d9e4914af864793d885575f7e3244e}{eta\+Next\+Waypoint}}
+\item 
+float \mbox{\hyperlink{class_patrol_by_waypoints_a8c075da08c0103d43074d22fbbaaf0c4}{time\+Between\+Waypoints\+Min}} = 5f
+\item 
+float \mbox{\hyperlink{class_patrol_by_waypoints_a33ba374905cc50c105e99ffed45c1c06}{time\+Between\+Waypoints\+Max}} = 10f
+\item 
+bool \mbox{\hyperlink{class_patrol_by_waypoints_ad495e6cb52eba111e2bd30d1ba290640}{is\+Invert\+Waypoints\+Iteration}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_patrol_by_waypoints_aa713531703de93523f69a78c14a4270d}\label{class_patrol_by_waypoints_aa713531703de93523f69a78c14a4270d}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!PatrolByWaypoints@{PatrolByWaypoints}}
+\index{PatrolByWaypoints@{PatrolByWaypoints}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{PatrolByWaypoints()}{PatrolByWaypoints()}}
+{\footnotesize\ttfamily Patrol\+By\+Waypoints.\+Patrol\+By\+Waypoints (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_f_s_m_system_base}{FSMSystem\+Base}}}]{system }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_patrol_by_waypoints_adcba748e4f330067dcf038b057021e16}\label{class_patrol_by_waypoints_adcba748e4f330067dcf038b057021e16}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!OnEnterState@{OnEnterState}}
+\index{OnEnterState@{OnEnterState}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{OnEnterState()}{OnEnterState()}}
+{\footnotesize\ttfamily override bool Patrol\+By\+Waypoints.\+On\+Enter\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_base_state_afce6f3cd900d48397de7d426c55aa4aa}{FSMBase\+State}}.
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_ae55e0e2a1f0370f8757383aa93c81a34}\label{class_patrol_by_waypoints_ae55e0e2a1f0370f8757383aa93c81a34}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!OnExitState@{OnExitState}}
+\index{OnExitState@{OnExitState}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{OnExitState()}{OnExitState()}}
+{\footnotesize\ttfamily override bool Patrol\+By\+Waypoints.\+On\+Exit\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_base_state_aca1b00bfc69e2bf3675a9749731a08c2}{FSMBase\+State}}.
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_ae27477594ec3618830d92df7915773e6}\label{class_patrol_by_waypoints_ae27477594ec3618830d92df7915773e6}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!OnStayState@{OnStayState}}
+\index{OnStayState@{OnStayState}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{OnStayState()}{OnStayState()}}
+{\footnotesize\ttfamily override void Patrol\+By\+Waypoints.\+On\+Stay\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_base_state_a24001f0dd8208f4a50a1d47c2503072c}{FSMBase\+State}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_patrol_by_waypoints_ae27477594ec3618830d92df7915773e6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_patrol_by_waypoints_a9fef0c96e7781b44b02302ef8090fdd9}\label{class_patrol_by_waypoints_a9fef0c96e7781b44b02302ef8090fdd9}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{OnUpdate()}{OnUpdate()}}
+{\footnotesize\ttfamily override void Patrol\+By\+Waypoints.\+On\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_f_s_m_base_state_a8bbff9bd64640de38f8748c38553f56e}{FSMBase\+State}}.
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_a4d6e8aa2832b7dd8f935b3509d9f8a4e}\label{class_patrol_by_waypoints_a4d6e8aa2832b7dd8f935b3509d9f8a4e}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!PerformStateBehaviour@{PerformStateBehaviour}}
+\index{PerformStateBehaviour@{PerformStateBehaviour}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{PerformStateBehaviour()}{PerformStateBehaviour()}}
+{\footnotesize\ttfamily void Patrol\+By\+Waypoints.\+Perform\+State\+Behaviour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_patrol_by_waypoints_a4d6e8aa2832b7dd8f935b3509d9f8a4e_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_patrol_by_waypoints_a96d9e4914af864793d885575f7e3244e}\label{class_patrol_by_waypoints_a96d9e4914af864793d885575f7e3244e}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!etaNextWaypoint@{etaNextWaypoint}}
+\index{etaNextWaypoint@{etaNextWaypoint}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{etaNextWaypoint}{etaNextWaypoint}}
+{\footnotesize\ttfamily float Patrol\+By\+Waypoints.\+eta\+Next\+Waypoint}
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_a4e772bf82fdf52bf23c3ba64e6e4c12c}\label{class_patrol_by_waypoints_a4e772bf82fdf52bf23c3ba64e6e4c12c}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!hasSetDestination@{hasSetDestination}}
+\index{hasSetDestination@{hasSetDestination}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{hasSetDestination}{hasSetDestination}}
+{\footnotesize\ttfamily bool Patrol\+By\+Waypoints.\+has\+Set\+Destination}
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_ad495e6cb52eba111e2bd30d1ba290640}\label{class_patrol_by_waypoints_ad495e6cb52eba111e2bd30d1ba290640}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!isInvertWaypointsIteration@{isInvertWaypointsIteration}}
+\index{isInvertWaypointsIteration@{isInvertWaypointsIteration}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{isInvertWaypointsIteration}{isInvertWaypointsIteration}}
+{\footnotesize\ttfamily bool Patrol\+By\+Waypoints.\+is\+Invert\+Waypoints\+Iteration}
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_a33ba374905cc50c105e99ffed45c1c06}\label{class_patrol_by_waypoints_a33ba374905cc50c105e99ffed45c1c06}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!timeBetweenWaypointsMax@{timeBetweenWaypointsMax}}
+\index{timeBetweenWaypointsMax@{timeBetweenWaypointsMax}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{timeBetweenWaypointsMax}{timeBetweenWaypointsMax}}
+{\footnotesize\ttfamily float Patrol\+By\+Waypoints.\+time\+Between\+Waypoints\+Max = 10f}
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_a8c075da08c0103d43074d22fbbaaf0c4}\label{class_patrol_by_waypoints_a8c075da08c0103d43074d22fbbaaf0c4}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!timeBetweenWaypointsMin@{timeBetweenWaypointsMin}}
+\index{timeBetweenWaypointsMin@{timeBetweenWaypointsMin}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{timeBetweenWaypointsMin}{timeBetweenWaypointsMin}}
+{\footnotesize\ttfamily float Patrol\+By\+Waypoints.\+time\+Between\+Waypoints\+Min = 5f}
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_a3bde554a11e0e047be9a0d21ad573985}\label{class_patrol_by_waypoints_a3bde554a11e0e047be9a0d21ad573985}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!waypointComp@{waypointComp}}
+\index{waypointComp@{waypointComp}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{waypointComp}{waypointComp}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_waypoint_path}{Waypoint\+Path}} Patrol\+By\+Waypoints.\+waypoint\+Comp}
+
+\mbox{\Hypertarget{class_patrol_by_waypoints_a034cba82242831414187a5fe177da05c}\label{class_patrol_by_waypoints_a034cba82242831414187a5fe177da05c}} 
+\index{PatrolByWaypoints@{PatrolByWaypoints}!waypointIndex@{waypointIndex}}
+\index{waypointIndex@{waypointIndex}!PatrolByWaypoints@{PatrolByWaypoints}}
+\doxysubsubsection{\texorpdfstring{waypointIndex}{waypointIndex}}
+{\footnotesize\ttfamily int Patrol\+By\+Waypoints.\+waypoint\+Index = 0}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+\_\+\+\_\+\+Experimental/\+AIApproach/\+State\+Pattern/\mbox{\hyperlink{_n_p_c_a_i_states_type_a_8cs}{NPCAIStates\+Type\+A.\+cs}}\end{DoxyCompactItemize}

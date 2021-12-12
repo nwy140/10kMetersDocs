@@ -1,0 +1,871 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::PostProcessing::PostProcessingBehaviour</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a34c4569526dd0e87af574653c99ab1db" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile" kindref="compound">PostProcessingProfile</ref></type>
+        <definition>PostProcessingProfile UnityEngine.PostProcessing.PostProcessingBehaviour.profile</definition>
+        <argsstring></argsstring>
+        <name>profile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="17" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8cd98b27f5b575670763aeca458e2547" prot="public" static="no" mutable="no">
+        <type>Func&lt; Vector2, Matrix4x4 &gt;</type>
+        <definition>Func&lt;Vector2, Matrix4x4&gt; UnityEngine.PostProcessing.PostProcessingBehaviour.jitteredMatrixFunc</definition>
+        <argsstring></argsstring>
+        <name>jitteredMatrixFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="19" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ac40000066132d19ddeb89b5adca34a9c" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Type, KeyValuePair&lt; CameraEvent, CommandBuffer &gt; &gt;</type>
+        <definition>Dictionary&lt;Type, KeyValuePair&lt;CameraEvent, CommandBuffer&gt; &gt; UnityEngine.PostProcessing.PostProcessingBehaviour.m_CommandBuffers</definition>
+        <argsstring></argsstring>
+        <name>m_CommandBuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="22" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a513cbc0e00a3f2859e58b876b46dc9a7" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base" kindref="compound">PostProcessingComponentBase</ref> &gt;</type>
+        <definition>List&lt;PostProcessingComponentBase&gt; UnityEngine.PostProcessing.PostProcessingBehaviour.m_Components</definition>
+        <argsstring></argsstring>
+        <name>m_Components</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="23" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a6fe09de3fb35b0bd03fea3bf872c0816" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base" kindref="compound">PostProcessingComponentBase</ref>, bool &gt;</type>
+        <definition>Dictionary&lt;PostProcessingComponentBase, bool&gt; UnityEngine.PostProcessing.PostProcessingBehaviour.m_ComponentStates</definition>
+        <argsstring></argsstring>
+        <name>m_ComponentStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="24" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a9a1af34486f0420ea6abf92204746b7d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_material_factory" kindref="compound">MaterialFactory</ref></type>
+        <definition>MaterialFactory UnityEngine.PostProcessing.PostProcessingBehaviour.m_MaterialFactory</definition>
+        <argsstring></argsstring>
+        <name>m_MaterialFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="26" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a61e80e05217e10d0375d950a288d4c30" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory" kindref="compound">RenderTextureFactory</ref></type>
+        <definition>RenderTextureFactory UnityEngine.PostProcessing.PostProcessingBehaviour.m_RenderTextureFactory</definition>
+        <argsstring></argsstring>
+        <name>m_RenderTextureFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="27" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a1e8d987c41ca013f11713a93406f53bd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context" kindref="compound">PostProcessingContext</ref></type>
+        <definition>PostProcessingContext UnityEngine.PostProcessing.PostProcessingBehaviour.m_Context</definition>
+        <argsstring></argsstring>
+        <name>m_Context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="28" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1adfcea2ffd3253f7a9d58313776fb925f" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera UnityEngine.PostProcessing.PostProcessingBehaviour.m_Camera</definition>
+        <argsstring></argsstring>
+        <name>m_Camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="29" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ac13ef32f02eab1ca1c88bd2fa69fefd5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile" kindref="compound">PostProcessingProfile</ref></type>
+        <definition>PostProcessingProfile UnityEngine.PostProcessing.PostProcessingBehaviour.m_PreviousProfile</definition>
+        <argsstring></argsstring>
+        <name>m_PreviousProfile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="30" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ae6c35dde2ae62883dc273971faecd397" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.PostProcessingBehaviour.m_RenderingInSceneView</definition>
+        <argsstring></argsstring>
+        <name>m_RenderingInSceneView</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="32" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a562edbe79605c6bc0673426ad0ff0d47" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_component" kindref="compound">BuiltinDebugViewsComponent</ref></type>
+        <definition>BuiltinDebugViewsComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_DebugViews</definition>
+        <argsstring></argsstring>
+        <name>m_DebugViews</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="35" column="36" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1af850fdfad7a2e5f2d4619c34b07439f9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component" kindref="compound">AmbientOcclusionComponent</ref></type>
+        <definition>AmbientOcclusionComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_AmbientOcclusion</definition>
+        <argsstring></argsstring>
+        <name>m_AmbientOcclusion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="36" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a07ffdcc81a17ad09ab30345515f9e1a7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component" kindref="compound">ScreenSpaceReflectionComponent</ref></type>
+        <definition>ScreenSpaceReflectionComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_ScreenSpaceReflection</definition>
+        <argsstring></argsstring>
+        <name>m_ScreenSpaceReflection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="37" column="40" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a0658fe1662cabc8878d33fd3783f1d96" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_fog_component" kindref="compound">FogComponent</ref></type>
+        <definition>FogComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_FogComponent</definition>
+        <argsstring></argsstring>
+        <name>m_FogComponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="38" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a3e10ed1669eecf0301714a4837182630" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component" kindref="compound">MotionBlurComponent</ref></type>
+        <definition>MotionBlurComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_MotionBlur</definition>
+        <argsstring></argsstring>
+        <name>m_MotionBlur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="39" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a68d70f207d9f61fae9324d5676a62289" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_taa_component" kindref="compound">TaaComponent</ref></type>
+        <definition>TaaComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_Taa</definition>
+        <argsstring></argsstring>
+        <name>m_Taa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="40" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a867d03658b35820362ab422af035d45a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component" kindref="compound">EyeAdaptationComponent</ref></type>
+        <definition>EyeAdaptationComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_EyeAdaptation</definition>
+        <argsstring></argsstring>
+        <name>m_EyeAdaptation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="41" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ab68ac63e0b6bd953f0615c12ffaf7580" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_component" kindref="compound">DepthOfFieldComponent</ref></type>
+        <definition>DepthOfFieldComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_DepthOfField</definition>
+        <argsstring></argsstring>
+        <name>m_DepthOfField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="42" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a74b8b30eb379042ebd97214803606c11" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_bloom_component" kindref="compound">BloomComponent</ref></type>
+        <definition>BloomComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_Bloom</definition>
+        <argsstring></argsstring>
+        <name>m_Bloom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="43" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1aaeea461481577da0d00ebbd42a4dcc4b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component" kindref="compound">ChromaticAberrationComponent</ref></type>
+        <definition>ChromaticAberrationComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_ChromaticAberration</definition>
+        <argsstring></argsstring>
+        <name>m_ChromaticAberration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="44" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8411c984b3bed64194a1ec54c04ddba4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component" kindref="compound">ColorGradingComponent</ref></type>
+        <definition>ColorGradingComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_ColorGrading</definition>
+        <argsstring></argsstring>
+        <name>m_ColorGrading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="45" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ad5bb4823c32c89f7d4f9d91ca32e2c95" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component" kindref="compound">UserLutComponent</ref></type>
+        <definition>UserLutComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_UserLut</definition>
+        <argsstring></argsstring>
+        <name>m_UserLut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="46" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1afe2b306c76150515322aa31a0537665d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_grain_component" kindref="compound">GrainComponent</ref></type>
+        <definition>GrainComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_Grain</definition>
+        <argsstring></argsstring>
+        <name>m_Grain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="47" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1af072b35c927d047677ffa027fb663062" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_vignette_component" kindref="compound">VignetteComponent</ref></type>
+        <definition>VignetteComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_Vignette</definition>
+        <argsstring></argsstring>
+        <name>m_Vignette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="48" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ac5e882d5684ee3857b5eaf95cd0e548f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_dithering_component" kindref="compound">DitheringComponent</ref></type>
+        <definition>DitheringComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_Dithering</definition>
+        <argsstring></argsstring>
+        <name>m_Dithering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="49" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a75f4bdc86e50bd69a3b6f27a21ed3fcb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_fxaa_component" kindref="compound">FxaaComponent</ref></type>
+        <definition>FxaaComponent UnityEngine.PostProcessing.PostProcessingBehaviour.m_Fxaa</definition>
+        <argsstring></argsstring>
+        <name>m_Fxaa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="50" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a2e5832971f38739a59a7401b8e2075b0" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base" kindref="compound">PostProcessingComponentBase</ref> &gt;</type>
+        <definition>List&lt;PostProcessingComponentBase&gt; UnityEngine.PostProcessing.PostProcessingBehaviour.m_ComponentsToEnable</definition>
+        <argsstring></argsstring>
+        <name>m_ComponentsToEnable</name>
+        <initializer>= new List&lt;<ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base" kindref="compound">PostProcessingComponentBase</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="351" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a6884e92159569b6863daa4d993278294" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base" kindref="compound">PostProcessingComponentBase</ref> &gt;</type>
+        <definition>List&lt;PostProcessingComponentBase&gt; UnityEngine.PostProcessing.PostProcessingBehaviour.m_ComponentsToDisable</definition>
+        <argsstring></argsstring>
+        <name>m_ComponentsToDisable</name>
+        <initializer>= new List&lt;<ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base" kindref="compound">PostProcessingComponentBase</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="352" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8d7a6197915a1920305fd099094eb30f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="52" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="52" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a0133b1e4048698bfc2bd3a1061318f18" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.OnPreCull</definition>
+        <argsstring>()</argsstring>
+        <name>OnPreCull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="89" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="89" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a6a4e3b048d0285d3474b1cb054bdb451" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.OnPreRender</definition>
+        <argsstring>()</argsstring>
+        <name>OnPreRender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="160" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="160" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1aa8c253050704f427694b6598ae6b4c2f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.OnPostRender</definition>
+        <argsstring>()</argsstring>
+        <name>OnPostRender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="175" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="175" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ace9285947348e24fb9e15005eba7819e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.OnRenderImage</definition>
+        <argsstring>(RenderTexture source, RenderTexture destination)</argsstring>
+        <name>OnRenderImage</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="187" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="187" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a5953c6d2c781844a766b4a29611c7ce4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="299" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="299" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a426de5a098539878692c8c4f20af00e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="315" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="315" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8120aef0a42aeb78208fc706da9ce891" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.CheckObservers</definition>
+        <argsstring>()</argsstring>
+        <name>CheckObservers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="354" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="354" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a62ad48d587ccb6bd5cf278c5f9c250ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.DisableComponents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableComponents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="386" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="386" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a239edd13dd36850eb294dc2274956dbb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CommandBuffer</type>
+        <definition>CommandBuffer UnityEngine.PostProcessing.PostProcessingBehaviour.AddCommandBuffer&lt; T &gt;</definition>
+        <argsstring>(CameraEvent evt, string name)</argsstring>
+        <name>AddCommandBuffer&lt; T &gt;</name>
+        <param>
+          <type>CameraEvent</type>
+          <declname>evt</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="401" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="401" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8624bc2c102255242d0aea59f7a6f997" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.RemoveCommandBuffer&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveCommandBuffer&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="411" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="411" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a4701b2157fb380c7991f2fc0746bbc55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CommandBuffer</type>
+        <definition>CommandBuffer UnityEngine.PostProcessing.PostProcessingBehaviour.GetCommandBuffer&lt; T &gt;</definition>
+        <argsstring>(CameraEvent evt, string name)</argsstring>
+        <name>GetCommandBuffer&lt; T &gt;</name>
+        <param>
+          <type>CameraEvent</type>
+          <declname>evt</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="425" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="425" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a7e4ac0aacc4396830371b8ea8bfc8dc4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.TryExecuteCommandBuffer&lt; T &gt;</definition>
+        <argsstring>(PostProcessingComponentCommandBuffer&lt; T &gt; component)</argsstring>
+        <name>TryExecuteCommandBuffer&lt; T &gt;</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer" kindref="compound">PostProcessingComponentCommandBuffer</ref>&lt; T &gt;</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="445" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="445" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ad7c082b745dda02b996c3995741f49b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.PostProcessingBehaviour.TryPrepareUberImageEffect&lt; T &gt;</definition>
+        <argsstring>(PostProcessingComponentRenderTexture&lt; T &gt; component, Material material)</argsstring>
+        <name>TryPrepareUberImageEffect&lt; T &gt;</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture" kindref="compound">PostProcessingComponentRenderTexture</ref>&lt; T &gt;</type>
+          <declname>component</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="457" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="457" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a472f4ab59c0a4adc0ebc8f75c78f6e59" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T UnityEngine.PostProcessing.PostProcessingBehaviour.AddComponent&lt; T &gt;</definition>
+        <argsstring>(T component)</argsstring>
+        <name>AddComponent&lt; T &gt;</name>
+        <param>
+          <type>T</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="467" column="9" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="467" bodyend="472"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a12cc91b85fedc39bf7d777a2c4d49f17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.PostProcessingBehaviour.ResetTemporalEffects</definition>
+        <argsstring>()</argsstring>
+        <name>ResetTemporalEffects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="342" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="342" bodyend="347"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a461fa3fb6ad4571e4d860ed8c7c0beb4" compoundref="_eye_adaptation_component_8cs" startline="43" endline="46">UnityEngine.PostProcessing.EyeAdaptationComponent.ResetHistory</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a796e8f0b76f16076e83b95d302560f95" compoundref="_motion_blur_component_8cs" startline="360" endline="366">UnityEngine.PostProcessing.MotionBlurComponent.ResetHistory</references>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a338933e1af86c58cfcd016994651b5d8" compoundref="_taa_component_8cs" startline="43" endline="46">UnityEngine.PostProcessing.TaaComponent.ResetHistory</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.PostProcessingBehaviour</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="6">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.PostProcessing.PostProcessingBehaviour</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+profile</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+debugViews</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+fog</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+antialiasing</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+bloom</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>+userLut</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>+chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>+grain</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>+vignette</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>+dithering</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" line="14" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/PostProcessingBehaviour.cs" bodystart="15" bodyend="475"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a239edd13dd36850eb294dc2274956dbb" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>AddCommandBuffer&lt; T &gt;</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a472f4ab59c0a4adc0ebc8f75c78f6e59" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>AddComponent&lt; T &gt;</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8120aef0a42aeb78208fc706da9ce891" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>CheckObservers</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a62ad48d587ccb6bd5cf278c5f9c250ce" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>DisableComponents</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a4701b2157fb380c7991f2fc0746bbc55" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>GetCommandBuffer&lt; T &gt;</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8cd98b27f5b575670763aeca458e2547" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>jitteredMatrixFunc</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1af850fdfad7a2e5f2d4619c34b07439f9" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_AmbientOcclusion</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a74b8b30eb379042ebd97214803606c11" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Bloom</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1adfcea2ffd3253f7a9d58313776fb925f" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Camera</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1aaeea461481577da0d00ebbd42a4dcc4b" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_ChromaticAberration</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8411c984b3bed64194a1ec54c04ddba4" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_ColorGrading</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ac40000066132d19ddeb89b5adca34a9c" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_CommandBuffers</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a513cbc0e00a3f2859e58b876b46dc9a7" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Components</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a6fe09de3fb35b0bd03fea3bf872c0816" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_ComponentStates</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a6884e92159569b6863daa4d993278294" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_ComponentsToDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a2e5832971f38739a59a7401b8e2075b0" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_ComponentsToEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a1e8d987c41ca013f11713a93406f53bd" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a562edbe79605c6bc0673426ad0ff0d47" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_DebugViews</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ab68ac63e0b6bd953f0615c12ffaf7580" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_DepthOfField</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ac5e882d5684ee3857b5eaf95cd0e548f" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Dithering</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a867d03658b35820362ab422af035d45a" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_EyeAdaptation</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a0658fe1662cabc8878d33fd3783f1d96" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_FogComponent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a75f4bdc86e50bd69a3b6f27a21ed3fcb" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Fxaa</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1afe2b306c76150515322aa31a0537665d" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Grain</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a9a1af34486f0420ea6abf92204746b7d" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_MaterialFactory</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a3e10ed1669eecf0301714a4837182630" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_MotionBlur</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ac13ef32f02eab1ca1c88bd2fa69fefd5" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_PreviousProfile</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ae6c35dde2ae62883dc273971faecd397" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_RenderingInSceneView</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a61e80e05217e10d0375d950a288d4c30" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_RenderTextureFactory</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a07ffdcc81a17ad09ab30345515f9e1a7" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_ScreenSpaceReflection</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a68d70f207d9f61fae9324d5676a62289" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Taa</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ad5bb4823c32c89f7d4f9d91ca32e2c95" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_UserLut</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1af072b35c927d047677ffa027fb663062" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>m_Vignette</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a426de5a098539878692c8c4f20af00e6" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8d7a6197915a1920305fd099094eb30f" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a5953c6d2c781844a766b4a29611c7ce4" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>OnGUI</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1aa8c253050704f427694b6598ae6b4c2f" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>OnPostRender</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a0133b1e4048698bfc2bd3a1061318f18" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>OnPreCull</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a6a4e3b048d0285d3474b1cb054bdb451" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>OnPreRender</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ace9285947348e24fb9e15005eba7819e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>OnRenderImage</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a34c4569526dd0e87af574653c99ab1db" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>profile</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8624bc2c102255242d0aea59f7a6f997" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>RemoveCommandBuffer&lt; T &gt;</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a12cc91b85fedc39bf7d777a2c4d49f17" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>ResetTemporalEffects</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a7e4ac0aacc4396830371b8ea8bfc8dc4" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>TryExecuteCommandBuffer&lt; T &gt;</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ad7c082b745dda02b996c3995741f49b6" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingBehaviour</scope><name>TryPrepareUberImageEffect&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

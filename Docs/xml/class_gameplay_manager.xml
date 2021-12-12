@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_gameplay_manager" kind="class" language="C#" prot="public">
+    <compoundname>GameplayManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GameplayState</name>
+        <enumvalue id="class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3aa444257b19ebdad5dfdf78059b8362c2" prot="public">
+          <name>GAME_RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3ac284700dc9572f6575a2a6cce186ab6f" prot="public">
+          <name>GAME_PAUSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a53a6cdbb3faacc18a96f53787c0f3e05" prot="public">
+          <name>GAME_GAMEOVER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a2ceec8ee42cb4076cd6831200c0dd895" prot="public">
+          <name>GAME_GAMEWIN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3a4b86ad41aa8cb5c61aaf1fa814898978" prot="public">
+          <name>GAME_ENDCLOSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="21" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="21" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_gameplay_manager_1a4e5bbf33d5f4054ec063aebe34b5d21c" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_gameplay_manager" kindref="compound">GameplayManager</ref></type>
+        <definition>GameplayManager GameplayManager.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="8" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_scene_async_manager_1a231b54e8f95b791c4e5b7878c41c8454" compoundref="_scene_async_manager_8cs" startline="146" endline="155">SceneAsyncManager.PauseLevel</referencedby>
+        <referencedby refid="class_scene_async_manager_1ad8f58e32271b5eaad8a5a631afb89de2" compoundref="_scene_async_manager_8cs" startline="157" endline="165">SceneAsyncManager.unPauseLevel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_gameplay_manager_1ae0a38b9f8c7c4899dc9f37656f65af60" prot="public" static="no" mutable="no">
+        <type><ref refid="class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3" kindref="member">GameplayState</ref></type>
+        <definition>GameplayState GameplayManager.CurrGameplayState</definition>
+        <argsstring></argsstring>
+        <name>CurrGameplayState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="10" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_scene_async_manager_1a231b54e8f95b791c4e5b7878c41c8454" compoundref="_scene_async_manager_8cs" startline="146" endline="155">SceneAsyncManager.PauseLevel</referencedby>
+        <referencedby refid="class_scene_async_manager_1ad8f58e32271b5eaad8a5a631afb89de2" compoundref="_scene_async_manager_8cs" startline="157" endline="165">SceneAsyncManager.unPauseLevel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_gameplay_manager_1ad43d362c2f28f6ddea36d0a84ea10807" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GameplayManager.GameplayTimeScale</definition>
+        <argsstring></argsstring>
+        <name>GameplayTimeScale</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="11" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_gameplay_manager_1a13fc649366c9856364afa79e18c3f911" compoundref="_gameplay_manager_8cs" startline="185" endline="190">cheatDecreaseTimeScale</referencedby>
+        <referencedby refid="class_gameplay_manager_1a7dcb2fe82a368839b77b162f52e227cb" compoundref="_gameplay_manager_8cs" startline="181" endline="184">cheatIncreaseTimeScale</referencedby>
+        <referencedby refid="class_gameplay_manager_1a8fa41cf7382504e9ba6a3a1e574b9ab4" compoundref="_gameplay_manager_8cs" startline="177" endline="179">setGameplayTimeScale</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_gameplay_manager_1acca3296a7830253209508f37a8756fb2" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; GameplayManager.UIObjs</definition>
+        <argsstring></argsstring>
+        <name>UIObjs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="14" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_gameplay_manager_1a6080c8c0fe36406953ebc3e3d13a7134" compoundref="_gameplay_manager_8cs" startline="44" endline="60">ToggleUIByIndex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_gameplay_manager_1a4b9c5c627b3de91d0df5467ce25ee72c" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject GameplayManager.currUIObj</definition>
+        <argsstring></argsstring>
+        <name>currUIObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="15" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gameplay_manager_1a56169eb9f48c5d0e51548da853541c59" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="30" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="30" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1a382a9a9c4685b2c0b3b7b57988e12ca2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.MakeInstance</definition>
+        <argsstring>()</argsstring>
+        <name>MakeInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="62" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1a10f6bf37a6b847e4c3aad15b465f5151" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="70" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="70" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1accb4636f39a83a5ce2a458791f059e15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.OnGameRunning</definition>
+        <argsstring>()</argsstring>
+        <name>OnGameRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="113" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1a8c581459fb11f282d79006621f70ee1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.OnGamePause</definition>
+        <argsstring>()</argsstring>
+        <name>OnGamePause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="124" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="124" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1a7b08aeaf2a9e524298840edcd8a1bd0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.OnGameOver</definition>
+        <argsstring>()</argsstring>
+        <name>OnGameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="136" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="136" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1a6e909b6bb8934f653827233207179347" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.OnGameWin</definition>
+        <argsstring>()</argsstring>
+        <name>OnGameWin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="150" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="150" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1ab635c9c28a74755d9b4978b3c4a31fd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.OnGameEndClose</definition>
+        <argsstring>()</argsstring>
+        <name>OnGameEndClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="166" column="6" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="166" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gameplay_manager_1a6080c8c0fe36406953ebc3e3d13a7134" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.ToggleUIByIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ToggleUIByIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="44" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="44" bodyend="60"/>
+        <references refid="class_gameplay_manager_1acca3296a7830253209508f37a8756fb2" compoundref="_gameplay_manager_8cs" startline="14">UIObjs</references>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1a8fa41cf7382504e9ba6a3a1e574b9ab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.setGameplayTimeScale</definition>
+        <argsstring>(float timeScaleVal)</argsstring>
+        <name>setGameplayTimeScale</name>
+        <param>
+          <type>float</type>
+          <declname>timeScaleVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="177" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="177" bodyend="179"/>
+        <references refid="class_gameplay_manager_1ad43d362c2f28f6ddea36d0a84ea10807" compoundref="_gameplay_manager_8cs" startline="11">GameplayTimeScale</references>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1a7dcb2fe82a368839b77b162f52e227cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.cheatIncreaseTimeScale</definition>
+        <argsstring>()</argsstring>
+        <name>cheatIncreaseTimeScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="181" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="181" bodyend="184"/>
+        <references refid="class_gameplay_manager_1ad43d362c2f28f6ddea36d0a84ea10807" compoundref="_gameplay_manager_8cs" startline="11">GameplayTimeScale</references>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_manager_1a13fc649366c9856364afa79e18c3f911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplayManager.cheatDecreaseTimeScale</definition>
+        <argsstring>()</argsstring>
+        <name>cheatDecreaseTimeScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="185" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="185" bodyend="190"/>
+        <references refid="class_gameplay_manager_1ad43d362c2f28f6ddea36d0a84ea10807" compoundref="_gameplay_manager_8cs" startline="11">GameplayTimeScale</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameplayManager</label>
+        <link refid="class_gameplay_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameplayManager</label>
+        <link refid="class_gameplay_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/GameplayManager.cs" bodystart="7" bodyend="191"/>
+    <listofallmembers>
+      <member refid="class_gameplay_manager_1a56169eb9f48c5d0e51548da853541c59" prot="private" virt="non-virtual"><scope>GameplayManager</scope><name>Awake</name></member>
+      <member refid="class_gameplay_manager_1a13fc649366c9856364afa79e18c3f911" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>cheatDecreaseTimeScale</name></member>
+      <member refid="class_gameplay_manager_1a7dcb2fe82a368839b77b162f52e227cb" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>cheatIncreaseTimeScale</name></member>
+      <member refid="class_gameplay_manager_1ae0a38b9f8c7c4899dc9f37656f65af60" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>CurrGameplayState</name></member>
+      <member refid="class_gameplay_manager_1a4b9c5c627b3de91d0df5467ce25ee72c" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>currUIObj</name></member>
+      <member refid="class_gameplay_manager_1a9680f34e2fba2030c179f2ba2af908d3" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>GameplayState</name></member>
+      <member refid="class_gameplay_manager_1ad43d362c2f28f6ddea36d0a84ea10807" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>GameplayTimeScale</name></member>
+      <member refid="class_gameplay_manager_1a4e5bbf33d5f4054ec063aebe34b5d21c" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>instance</name></member>
+      <member refid="class_gameplay_manager_1a382a9a9c4685b2c0b3b7b57988e12ca2" prot="private" virt="non-virtual"><scope>GameplayManager</scope><name>MakeInstance</name></member>
+      <member refid="class_gameplay_manager_1ab635c9c28a74755d9b4978b3c4a31fd7" prot="private" virt="non-virtual"><scope>GameplayManager</scope><name>OnGameEndClose</name></member>
+      <member refid="class_gameplay_manager_1a7b08aeaf2a9e524298840edcd8a1bd0b" prot="private" virt="non-virtual"><scope>GameplayManager</scope><name>OnGameOver</name></member>
+      <member refid="class_gameplay_manager_1a8c581459fb11f282d79006621f70ee1e" prot="private" virt="non-virtual"><scope>GameplayManager</scope><name>OnGamePause</name></member>
+      <member refid="class_gameplay_manager_1accb4636f39a83a5ce2a458791f059e15" prot="private" virt="non-virtual"><scope>GameplayManager</scope><name>OnGameRunning</name></member>
+      <member refid="class_gameplay_manager_1a6e909b6bb8934f653827233207179347" prot="private" virt="non-virtual"><scope>GameplayManager</scope><name>OnGameWin</name></member>
+      <member refid="class_gameplay_manager_1a8fa41cf7382504e9ba6a3a1e574b9ab4" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>setGameplayTimeScale</name></member>
+      <member refid="class_gameplay_manager_1a6080c8c0fe36406953ebc3e3d13a7134" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>ToggleUIByIndex</name></member>
+      <member refid="class_gameplay_manager_1acca3296a7830253209508f37a8756fb2" prot="public" virt="non-virtual"><scope>GameplayManager</scope><name>UIObjs</name></member>
+      <member refid="class_gameplay_manager_1a10f6bf37a6b847e4c3aad15b465f5151" prot="private" virt="non-virtual"><scope>GameplayManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

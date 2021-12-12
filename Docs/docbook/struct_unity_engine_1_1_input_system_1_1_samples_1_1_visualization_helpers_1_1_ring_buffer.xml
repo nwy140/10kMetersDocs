@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt; Struct Template Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</primary></indexterm>
+Collaboration diagram for UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a60abbb93a03812dcbdda331e6e480001">RingBuffer</link> (int size)</para>
+</listitem>
+            <listitem><para>ref TValue <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ae4989a156f2cd00f689c482685cf0164">Append</link> (TValue value)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>TValue[] <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ad297400819c47f049cdeccee80eacf03">array</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1aaf3593a582d56a8d8297903bcf73cdd0">head</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a2fe97fca0040a71f7b34339213ef33eb">count</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>ref TValue <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a1c4b246e1ed12aa05327d350ac2a1e35">this[int index]</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a60abbb93a03812dcbdda331e6e480001"/><section>
+    <title>RingBuffer()</title>
+<indexterm><primary>RingBuffer</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</primary><secondary>RingBuffer</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer</link>&lt; TValue &gt;.<link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">RingBuffer</link> (int size)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ae4989a156f2cd00f689c482685cf0164"/><section>
+    <title>Append()</title>
+<indexterm><primary>Append</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</primary><secondary>Append</secondary></indexterm>
+<para><computeroutput>ref TValue <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer</link>&lt; TValue &gt;.Append (TValue value)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ad297400819c47f049cdeccee80eacf03"/><section>
+    <title>array</title>
+<indexterm><primary>array</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</primary><secondary>array</secondary></indexterm>
+<para><computeroutput>TValue [] <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer</link>&lt; TValue &gt;.array</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a2fe97fca0040a71f7b34339213ef33eb"/><section>
+    <title>count</title>
+<indexterm><primary>count</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</primary><secondary>count</secondary></indexterm>
+<para><computeroutput>int <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer</link>&lt; TValue &gt;.count</computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1aaf3593a582d56a8d8297903bcf73cdd0"/><section>
+    <title>head</title>
+<indexterm><primary>head</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</primary><secondary>head</secondary></indexterm>
+<para><computeroutput>int <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer</link>&lt; TValue &gt;.head</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a1c4b246e1ed12aa05327d350ac2a1e35"/><section>
+    <title>this[int index]</title>
+<indexterm><primary>this[int index]</primary><secondary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</primary><secondary>this[int index]</secondary></indexterm>
+<para><computeroutput>ref TValue <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer</link>&lt; TValue &gt;.this[int index]<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/<link linkend="__visualization_helpers_8cs">VisualizationHelpers.cs</link></section>
+</section>

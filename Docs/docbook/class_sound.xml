@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sound" xml:lang="en-US">
+<title>Sound Class Reference</title>
+<indexterm><primary>Sound</primary></indexterm>
+Collaboration diagram for Sound:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sound__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_sound_1a6232daa7d1f983315cc0d10cf776ab76">name</link></para>
+</listitem>
+            <listitem><para>AudioClip <link linkend="_class_sound_1ab7878c271c13d5e8fbdf25714e363b77">clip</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_sound_1a24f0da6a226712e28b3159aa9ebb4be5">loop</link> = false</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_sound_1a916f03f461ea5c83019c82c504ab0ac2">isAllowMultiAudioSrcInstance</link> = false</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_sound_1a7ab1335f27bd340c389568889823cc00">volume</link> = 1f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_sound_1aef4ee55185bf12b9b2b2ca037a8c621a">pitch</link> = 1f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_sound_1a36d909da9cbdaa0149512a0110e3f955">initialVolume</link></para>
+</listitem>
+            <listitem><para>AudioSource <link linkend="_class_sound_1ac6ec734812a52abf31595cab2ba48d8d">source</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_sound_1ab7878c271c13d5e8fbdf25714e363b77"/><section>
+    <title>clip</title>
+<indexterm><primary>clip</primary><secondary>Sound</secondary></indexterm>
+<indexterm><primary>Sound</primary><secondary>clip</secondary></indexterm>
+<para><computeroutput>AudioClip Sound.clip</computeroutput></para></section>
+<anchor xml:id="_class_sound_1a36d909da9cbdaa0149512a0110e3f955"/><section>
+    <title>initialVolume</title>
+<indexterm><primary>initialVolume</primary><secondary>Sound</secondary></indexterm>
+<indexterm><primary>Sound</primary><secondary>initialVolume</secondary></indexterm>
+<para><computeroutput>float Sound.initialVolume</computeroutput></para></section>
+<anchor xml:id="_class_sound_1a916f03f461ea5c83019c82c504ab0ac2"/><section>
+    <title>isAllowMultiAudioSrcInstance</title>
+<indexterm><primary>isAllowMultiAudioSrcInstance</primary><secondary>Sound</secondary></indexterm>
+<indexterm><primary>Sound</primary><secondary>isAllowMultiAudioSrcInstance</secondary></indexterm>
+<para><computeroutput>bool Sound.isAllowMultiAudioSrcInstance = false</computeroutput></para></section>
+<anchor xml:id="_class_sound_1a24f0da6a226712e28b3159aa9ebb4be5"/><section>
+    <title>loop</title>
+<indexterm><primary>loop</primary><secondary>Sound</secondary></indexterm>
+<indexterm><primary>Sound</primary><secondary>loop</secondary></indexterm>
+<para><computeroutput>bool Sound.loop = false</computeroutput></para></section>
+<anchor xml:id="_class_sound_1a6232daa7d1f983315cc0d10cf776ab76"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>Sound</secondary></indexterm>
+<indexterm><primary>Sound</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>string Sound.name</computeroutput></para></section>
+<anchor xml:id="_class_sound_1aef4ee55185bf12b9b2b2ca037a8c621a"/><section>
+    <title>pitch</title>
+<indexterm><primary>pitch</primary><secondary>Sound</secondary></indexterm>
+<indexterm><primary>Sound</primary><secondary>pitch</secondary></indexterm>
+<para><computeroutput>float Sound.pitch = 1f</computeroutput></para></section>
+<anchor xml:id="_class_sound_1ac6ec734812a52abf31595cab2ba48d8d"/><section>
+    <title>source</title>
+<indexterm><primary>source</primary><secondary>Sound</secondary></indexterm>
+<indexterm><primary>Sound</primary><secondary>source</secondary></indexterm>
+<para><computeroutput>AudioSource Sound.source</computeroutput></para></section>
+<anchor xml:id="_class_sound_1a7ab1335f27bd340c389568889823cc00"/><section>
+    <title>volume</title>
+<indexterm><primary>volume</primary><secondary>Sound</secondary></indexterm>
+<indexterm><primary>Sound</primary><secondary>volume</secondary></indexterm>
+<para><computeroutput>float Sound.volume = 1f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Singletons/<link linkend="__sound_8cs">Sound.cs</link></section>
+</section>

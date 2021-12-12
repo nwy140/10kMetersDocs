@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_custom_device" xml:lang="en-US">
+<title>CustomDevice Class Reference</title>
+<indexterm><primary>CustomDevice</primary></indexterm>
+Inheritance diagram for CustomDevice:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_custom_device__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CustomDevice:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_custom_device__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_custom_device_1af7b575df41b7afd718c6b8557c006243">MakeCurrent</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_custom_device_1a0d3e7e4061fb57df82bd3282daa5400c">OnUpdate</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_custom_device_1aeeb415864d2144c23a79eb20a304ac7c">FinishSetup</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_custom_device_1a9b0bedafc96ee73592531bc5762e6e26">OnRemoved</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>ButtonControl <link linkend="_class_custom_device_1a753cb7ee984c2a1e720f11b37c9377a5">firstButton</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ButtonControl <link linkend="_class_custom_device_1aa49c8a93fe4e40dca0814d8867d21a47">secondButton</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ButtonControl <link linkend="_class_custom_device_1a2257fbe5cfbe72b30de0000b5b4ea977">thirdButton</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>StickControl <link linkend="_class_custom_device_1aa80dcd2f4cda6dd5873e60f17d8fa7b9">stick</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>static <link linkend="_class_custom_device">CustomDevice</link> <link linkend="_class_custom_device_1ae1b49d794eb6da41858f1b7f623ee6d6">current</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_custom_device_1aeeb415864d2144c23a79eb20a304ac7c"/><section>
+    <title>FinishSetup()</title>
+<indexterm><primary>FinishSetup</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>FinishSetup</secondary></indexterm>
+<para><computeroutput>override void CustomDevice.FinishSetup ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_custom_device_1af7b575df41b7afd718c6b8557c006243"/><section>
+    <title>MakeCurrent()</title>
+<indexterm><primary>MakeCurrent</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>MakeCurrent</secondary></indexterm>
+<para><computeroutput>override void CustomDevice.MakeCurrent ( )</computeroutput></para></section>
+<anchor xml:id="_class_custom_device_1a9b0bedafc96ee73592531bc5762e6e26"/><section>
+    <title>OnRemoved()</title>
+<indexterm><primary>OnRemoved</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>OnRemoved</secondary></indexterm>
+<para><computeroutput>override void CustomDevice.OnRemoved ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_custom_device_1a0d3e7e4061fb57df82bd3282daa5400c"/><section>
+    <title>OnUpdate()</title>
+<indexterm><primary>OnUpdate</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>OnUpdate</secondary></indexterm>
+<para><computeroutput>void CustomDevice.OnUpdate ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_custom_device_1ae1b49d794eb6da41858f1b7f623ee6d6"/><section>
+    <title>current</title>
+<indexterm><primary>current</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>current</secondary></indexterm>
+<para><computeroutput><link linkend="_class_custom_device">CustomDevice</link> CustomDevice.current<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_custom_device_1a753cb7ee984c2a1e720f11b37c9377a5"/><section>
+    <title>firstButton</title>
+<indexterm><primary>firstButton</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>firstButton</secondary></indexterm>
+<para><computeroutput>ButtonControl CustomDevice.firstButton<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_custom_device_1aa49c8a93fe4e40dca0814d8867d21a47"/><section>
+    <title>secondButton</title>
+<indexterm><primary>secondButton</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>secondButton</secondary></indexterm>
+<para><computeroutput>ButtonControl CustomDevice.secondButton<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_custom_device_1aa80dcd2f4cda6dd5873e60f17d8fa7b9"/><section>
+    <title>stick</title>
+<indexterm><primary>stick</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>stick</secondary></indexterm>
+<para><computeroutput>StickControl CustomDevice.stick<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_custom_device_1a2257fbe5cfbe72b30de0000b5b4ea977"/><section>
+    <title>thirdButton</title>
+<indexterm><primary>thirdButton</primary><secondary>CustomDevice</secondary></indexterm>
+<indexterm><primary>CustomDevice</primary><secondary>thirdButton</secondary></indexterm>
+<para><computeroutput>ButtonControl CustomDevice.thirdButton<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Custom Device/<link linkend="__custom_device_8cs">CustomDevice.cs</link></section>
+</section>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer" kind="struct" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::Samples::VisualizationHelpers::RingBuffer</compoundname>
+    <templateparamlist>
+      <param>
+        <type>TValue</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ad297400819c47f049cdeccee80eacf03" prot="public" static="no" mutable="no">
+        <type>TValue[]</type>
+        <definition>TValue [] UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.array</definition>
+        <argsstring></argsstring>
+        <name>array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="628" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="628" bodyend="-1"/>
+        <referencedby refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ae4989a156f2cd00f689c482685cf0164" compoundref="_visualization_helpers_8cs" startline="639" endline="657">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.Append</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a60abbb93a03812dcbdda331e6e480001" compoundref="_visualization_helpers_8cs" startline="632" endline="637">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.RingBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1aaf3593a582d56a8d8297903bcf73cdd0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.head</definition>
+        <argsstring></argsstring>
+        <name>head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="629" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="629" bodyend="-1"/>
+        <referencedby refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ae4989a156f2cd00f689c482685cf0164" compoundref="_visualization_helpers_8cs" startline="639" endline="657">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.Append</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a60abbb93a03812dcbdda331e6e480001" compoundref="_visualization_helpers_8cs" startline="632" endline="637">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.RingBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a2fe97fca0040a71f7b34339213ef33eb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="630" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="630" bodyend="-1"/>
+        <referencedby refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ae4989a156f2cd00f689c482685cf0164" compoundref="_visualization_helpers_8cs" startline="639" endline="657">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.Append</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a60abbb93a03812dcbdda331e6e480001" compoundref="_visualization_helpers_8cs" startline="632" endline="637">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.RingBuffer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a1c4b246e1ed12aa05327d350ac2a1e35" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ref TValue</type>
+        <definition>ref TValue UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="659" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="660" bodyend="667"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a60abbb93a03812dcbdda331e6e480001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.RingBuffer</definition>
+        <argsstring>(int size)</argsstring>
+        <name>RingBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="632" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="632" bodyend="637"/>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ad297400819c47f049cdeccee80eacf03" compoundref="_visualization_helpers_8cs" startline="628">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.array</references>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a2fe97fca0040a71f7b34339213ef33eb" compoundref="_visualization_helpers_8cs" startline="630">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.count</references>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1aaf3593a582d56a8d8297903bcf73cdd0" compoundref="_visualization_helpers_8cs" startline="629">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.head</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ae4989a156f2cd00f689c482685cf0164" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ref TValue</type>
+        <definition>ref TValue UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.Append</definition>
+        <argsstring>(TValue value)</argsstring>
+        <name>Append</name>
+        <param>
+          <type>TValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="639" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="639" bodyend="657"/>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ad297400819c47f049cdeccee80eacf03" compoundref="_visualization_helpers_8cs" startline="628">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.array</references>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a2fe97fca0040a71f7b34339213ef33eb" compoundref="_visualization_helpers_8cs" startline="630">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.count</references>
+        <references refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1aaf3593a582d56a8d8297903bcf73cdd0" compoundref="_visualization_helpers_8cs" startline="629">UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;.head</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.RingBuffer&lt; TValue &gt;</label>
+        <link refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="626" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="627" bodyend="668"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ae4989a156f2cd00f689c482685cf0164" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::RingBuffer</scope><name>Append</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1ad297400819c47f049cdeccee80eacf03" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::RingBuffer</scope><name>array</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a2fe97fca0040a71f7b34339213ef33eb" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::RingBuffer</scope><name>count</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1aaf3593a582d56a8d8297903bcf73cdd0" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::RingBuffer</scope><name>head</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a60abbb93a03812dcbdda331e6e480001" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::RingBuffer</scope><name>RingBuffer</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer_1a1c4b246e1ed12aa05327d350ac2a1e35" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::RingBuffer</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

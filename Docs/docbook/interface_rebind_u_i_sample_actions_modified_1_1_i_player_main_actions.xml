@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions" xml:lang="en-US">
+<title>RebindUISampleActionsModified.IPlayerMainActions Interface Reference</title>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary></indexterm>
+Collaboration diagram for RebindUISampleActionsModified.IPlayerMainActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1aaef60641e86c2c18b54d532ccff02493">OnCommandSlot0</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a6cdd1cd18de08c80999e07eada0bb1a9">OnCommandSlot1</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1ab3958c434c36109a2a80c8cc19b4aee1">OnCommandSlot2</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a135b6ca5a31601131edb4202e5f19315">OnCommandSlot3</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a5623847b83958d9bc285c689a0368a67">OnSecondaryCommandSlot4</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a372d0c8cdbb27f9c08aede2fd2fdf02d">OnSecondaryCommandSlot5</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a38f6c41ebe46e8d5b2a64e9a3d933177">OnTertiaryCommandSlotAxis6</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a13a2606da09bc6b8cac5ce736deb8a46">OnTertiaryCommandSlotAxis7</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1aa66d52523a5ce90c6bb0d2e53e8be313">OnStart</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a8b3b4fb13a76d9c00f8209c74e2d3055">OnSelect</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a9104ca76d2a9d3b409afa57e436c65a7">OnDPadAxisHorizontal</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a99e396e9387188866b75a8580d0c5a9a">OnDPadAxisVertical</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a2af77b78a13e22c4a6876c92d03c7056">OnLeftStickAxisHorizontal</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a400e71e4aeafbbb72cdb2046f8725d91">OnLeftStickAxisVertical</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a6ed758cfe3cce4b2969b8ca531e59569">OnRightStickAxisHorizontal</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a479986e5d055a5ac9e4a055468d1ce49">OnRightStickAxisVertical</link> (InputAction.CallbackContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1aaef60641e86c2c18b54d532ccff02493"/><section>
+    <title>OnCommandSlot0()</title>
+<indexterm><primary>OnCommandSlot0</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnCommandSlot0</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnCommandSlot0 (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_aaef60641e86c2c18b54d532ccff02493_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a6cdd1cd18de08c80999e07eada0bb1a9"/><section>
+    <title>OnCommandSlot1()</title>
+<indexterm><primary>OnCommandSlot1</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnCommandSlot1</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnCommandSlot1 (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a6cdd1cd18de08c80999e07eada0bb1a9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1ab3958c434c36109a2a80c8cc19b4aee1"/><section>
+    <title>OnCommandSlot2()</title>
+<indexterm><primary>OnCommandSlot2</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnCommandSlot2</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnCommandSlot2 (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_ab3958c434c36109a2a80c8cc19b4aee1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a135b6ca5a31601131edb4202e5f19315"/><section>
+    <title>OnCommandSlot3()</title>
+<indexterm><primary>OnCommandSlot3</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnCommandSlot3</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnCommandSlot3 (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a135b6ca5a31601131edb4202e5f19315_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a9104ca76d2a9d3b409afa57e436c65a7"/><section>
+    <title>OnDPadAxisHorizontal()</title>
+<indexterm><primary>OnDPadAxisHorizontal</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnDPadAxisHorizontal</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnDPadAxisHorizontal (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a9104ca76d2a9d3b409afa57e436c65a7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a99e396e9387188866b75a8580d0c5a9a"/><section>
+    <title>OnDPadAxisVertical()</title>
+<indexterm><primary>OnDPadAxisVertical</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnDPadAxisVertical</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnDPadAxisVertical (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a99e396e9387188866b75a8580d0c5a9a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a2af77b78a13e22c4a6876c92d03c7056"/><section>
+    <title>OnLeftStickAxisHorizontal()</title>
+<indexterm><primary>OnLeftStickAxisHorizontal</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnLeftStickAxisHorizontal</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnLeftStickAxisHorizontal (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a2af77b78a13e22c4a6876c92d03c7056_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a400e71e4aeafbbb72cdb2046f8725d91"/><section>
+    <title>OnLeftStickAxisVertical()</title>
+<indexterm><primary>OnLeftStickAxisVertical</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnLeftStickAxisVertical</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnLeftStickAxisVertical (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a400e71e4aeafbbb72cdb2046f8725d91_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a6ed758cfe3cce4b2969b8ca531e59569"/><section>
+    <title>OnRightStickAxisHorizontal()</title>
+<indexterm><primary>OnRightStickAxisHorizontal</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnRightStickAxisHorizontal</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnRightStickAxisHorizontal (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a6ed758cfe3cce4b2969b8ca531e59569_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a479986e5d055a5ac9e4a055468d1ce49"/><section>
+    <title>OnRightStickAxisVertical()</title>
+<indexterm><primary>OnRightStickAxisVertical</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnRightStickAxisVertical</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnRightStickAxisVertical (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a479986e5d055a5ac9e4a055468d1ce49_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a5623847b83958d9bc285c689a0368a67"/><section>
+    <title>OnSecondaryCommandSlot4()</title>
+<indexterm><primary>OnSecondaryCommandSlot4</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnSecondaryCommandSlot4</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnSecondaryCommandSlot4 (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a5623847b83958d9bc285c689a0368a67_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a372d0c8cdbb27f9c08aede2fd2fdf02d"/><section>
+    <title>OnSecondaryCommandSlot5()</title>
+<indexterm><primary>OnSecondaryCommandSlot5</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnSecondaryCommandSlot5</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnSecondaryCommandSlot5 (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a372d0c8cdbb27f9c08aede2fd2fdf02d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a8b3b4fb13a76d9c00f8209c74e2d3055"/><section>
+    <title>OnSelect()</title>
+<indexterm><primary>OnSelect</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnSelect</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnSelect (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a8b3b4fb13a76d9c00f8209c74e2d3055_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1aa66d52523a5ce90c6bb0d2e53e8be313"/><section>
+    <title>OnStart()</title>
+<indexterm><primary>OnStart</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnStart</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnStart (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_aa66d52523a5ce90c6bb0d2e53e8be313_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a38f6c41ebe46e8d5b2a64e9a3d933177"/><section>
+    <title>OnTertiaryCommandSlotAxis6()</title>
+<indexterm><primary>OnTertiaryCommandSlotAxis6</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnTertiaryCommandSlotAxis6</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnTertiaryCommandSlotAxis6 (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a38f6c41ebe46e8d5b2a64e9a3d933177_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_1a13a2606da09bc6b8cac5ce736deb8a46"/><section>
+    <title>OnTertiaryCommandSlotAxis7()</title>
+<indexterm><primary>OnTertiaryCommandSlotAxis7</primary><secondary>RebindUISampleActionsModified.IPlayerMainActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.IPlayerMainActions</primary><secondary>OnTertiaryCommandSlotAxis7</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.IPlayerMainActions.OnTertiaryCommandSlotAxis7 (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions_a13a2606da09bc6b8cac5ce736deb8a46_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/<link linkend="__rebind_u_i_sample_actions_modified_8cs">RebindUISampleActionsModified.cs</link></section>
+</section>

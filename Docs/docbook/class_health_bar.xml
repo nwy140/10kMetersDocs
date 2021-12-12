@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_health_bar" xml:lang="en-US">
+<title>HealthBar Class Reference</title>
+<indexterm><primary>HealthBar</primary></indexterm>
+Inheritance diagram for HealthBar:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_health_bar__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for HealthBar:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_health_bar__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_health_bar_1aaad7809e10026c72325f65ad8f3d2e56">HealthDeplate</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_meter_tank">MeterTank</link> <link linkend="_class_health_bar_1adb61786b904f585c925fa53bce6224cc">oxygen</link></para>
+</listitem>
+            <listitem><para>Slider <link linkend="_class_health_bar_1a6f74e25e1e4ea2d14b6745c7a4077ed7">health</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_health_bar_1aaad7809e10026c72325f65ad8f3d2e56"/><section>
+    <title>HealthDeplate()</title>
+<indexterm><primary>HealthDeplate</primary><secondary>HealthBar</secondary></indexterm>
+<indexterm><primary>HealthBar</primary><secondary>HealthDeplate</secondary></indexterm>
+<para><computeroutput>void HealthBar.HealthDeplate ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_health_bar_1a6f74e25e1e4ea2d14b6745c7a4077ed7"/><section>
+    <title>health</title>
+<indexterm><primary>health</primary><secondary>HealthBar</secondary></indexterm>
+<indexterm><primary>HealthBar</primary><secondary>health</secondary></indexterm>
+<para><computeroutput>Slider HealthBar.health</computeroutput></para></section>
+<anchor xml:id="_class_health_bar_1adb61786b904f585c925fa53bce6224cc"/><section>
+    <title>oxygen</title>
+<indexterm><primary>oxygen</primary><secondary>HealthBar</secondary></indexterm>
+<indexterm><primary>HealthBar</primary><secondary>oxygen</secondary></indexterm>
+<para><computeroutput><link linkend="_class_meter_tank">MeterTank</link> HealthBar.oxygen</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/UI Test Scripts/<link linkend="__health_bar_8cs">HealthBar.cs</link></section>
+</section>

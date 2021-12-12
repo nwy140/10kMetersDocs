@@ -1,0 +1,92 @@
+.TH "UnityEngine.PostProcessing.ColorGradingComponent" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.PostProcessing.ColorGradingComponent
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUnityEngine\&.PostProcessing\&.PostProcessingComponentRenderTexture< ColorGradingModel >\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBPrepare\fP (Material uberMaterial)"
+.br
+.ti -1c
+.RI "void \fBOnGUI\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnDisable\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static Vector3 \fBGetLiftValue\fP (Color lift)"
+.br
+.ti -1c
+.RI "static Vector3 \fBGetGammaValue\fP (Color gamma)"
+.br
+.ti -1c
+.RI "static Vector3 \fBGetGainValue\fP (Color gain)"
+.br
+.ti -1c
+.RI "static void \fBCalculateLiftGammaGain\fP (Color lift, Color gamma, Color gain, out Vector3 outLift, out Vector3 outGamma, out Vector3 outGain)"
+.br
+.ti -1c
+.RI "static Vector3 \fBGetSlopeValue\fP (Color slope)"
+.br
+.ti -1c
+.RI "static Vector3 \fBGetPowerValue\fP (Color power)"
+.br
+.ti -1c
+.RI "static Vector3 \fBGetOffsetValue\fP (Color offset)"
+.br
+.ti -1c
+.RI "static void \fBCalculateSlopePowerOffset\fP (Color slope, Color power, Color offset, out Vector3 outSlope, out Vector3 outPower, out Vector3 outOffset)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "override bool \fBactive\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "static void UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.CalculateLiftGammaGain (Color lift, Color gamma, Color gain, out Vector3 outLift, out Vector3 outGamma, out Vector3 outGain)\fC [static]\fP"
+
+.SS "static void UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.CalculateSlopePowerOffset (Color slope, Color power, Color offset, out Vector3 outSlope, out Vector3 outPower, out Vector3 outOffset)\fC [static]\fP"
+
+.SS "static Vector3 UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.GetGainValue (Color gain)\fC [static]\fP"
+
+.SS "static Vector3 UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.GetGammaValue (Color gamma)\fC [static]\fP"
+
+.SS "static Vector3 UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.GetLiftValue (Color lift)\fC [static]\fP"
+
+.SS "static Vector3 UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.GetOffsetValue (Color offset)\fC [static]\fP"
+
+.SS "static Vector3 UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.GetPowerValue (Color power)\fC [static]\fP"
+
+.SS "static Vector3 UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.GetSlopeValue (Color slope)\fC [static]\fP"
+
+.SS "override void UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.OnDisable ()"
+
+.SS "void UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.OnGUI ()"
+
+.SS "override void UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.Prepare (Material uberMaterial)\fC [virtual]\fP"
+
+.PP
+Reimplemented from \fBUnityEngine\&.PostProcessing\&.PostProcessingComponentRenderTexture< ColorGradingModel >\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "override bool UnityEngine\&.PostProcessing\&.ColorGradingComponent\&.active\fC [get]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

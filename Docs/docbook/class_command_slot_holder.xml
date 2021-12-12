@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_slot_holder" xml:lang="en-US">
+<title>CommandSlotHolder Class Reference</title>
+<indexterm><primary>CommandSlotHolder</primary></indexterm>
+Inheritance diagram for CommandSlotHolder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_slot_holder__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CommandSlotHolder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_slot_holder__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_command_slot_holder_1ae0ad6427c38d0a7a73d52026d77b6ee8">OnInput</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_slot_holder_1a901044c36210e3c92512ec8b83026e85">OnSimulateInput</link> (bool IsPressedThisFrame, float axis)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_slot_holder_1a64e3aec1cb950681f17374e1d74a2828">OnSimulateInputPress1Frame</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_slot_holder_1af1341609808cef083a3ffd44564c8ce8">OnSimulateInput</link> (bool IsPressedThisFrame)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_input_command">InputCommand</link> <link linkend="_class_command_slot_holder_1a4a5b42aa8a9e47081b64c12d3cece71c">commandInstanceSOAsset</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_input_command">InputCommand</link> <link linkend="_class_command_slot_holder_1a29a0a9ac0f74357a9d13caffb2198911">commandInstanceInSlot</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_command_slot_holder_1a6b12e2044da41aa145f961755cd153db">commandOwnerRootObj</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_command_slot_holder_1adcd1c93202894bba3af5d13442f3f600">commandTargetObj</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_command_accessor_refs_base">CommandAccessorRefsBase</link> <link linkend="_class_command_slot_holder_1a05ee98839c8a13571e7af3429bf57457">accessorComp</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_command_slot_holder_1afc6cb5b7f51abf91c6692e8fafe31d06">isChainCommand</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_slot_holder_1ae0ad6427c38d0a7a73d52026d77b6ee8"/><section>
+    <title>OnInput()</title>
+<indexterm><primary>OnInput</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>OnInput</secondary></indexterm>
+<para><computeroutput>void CommandSlotHolder.OnInput (InputAction.CallbackContext context)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_slot_holder_ae0ad6427c38d0a7a73d52026d77b6ee8_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_slot_holder_1af1341609808cef083a3ffd44564c8ce8"/><section>
+    <title>OnSimulateInput()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>OnSimulateInput</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>OnSimulateInput</secondary></indexterm>
+<para><computeroutput>void CommandSlotHolder.OnSimulateInput (bool IsPressedThisFrame)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_slot_holder_af1341609808cef083a3ffd44564c8ce8_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_slot_holder_1a901044c36210e3c92512ec8b83026e85"/><section>
+    <title>OnSimulateInput()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>OnSimulateInput</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>OnSimulateInput</secondary></indexterm>
+<para><computeroutput>void CommandSlotHolder.OnSimulateInput (bool IsPressedThisFrame, float axis)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_slot_holder_a901044c36210e3c92512ec8b83026e85_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_slot_holder_1a64e3aec1cb950681f17374e1d74a2828"/><section>
+    <title>OnSimulateInputPress1Frame()</title>
+<indexterm><primary>OnSimulateInputPress1Frame</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>OnSimulateInputPress1Frame</secondary></indexterm>
+<para><computeroutput>void CommandSlotHolder.OnSimulateInputPress1Frame ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_slot_holder_1a05ee98839c8a13571e7af3429bf57457"/><section>
+    <title>accessorComp</title>
+<indexterm><primary>accessorComp</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>accessorComp</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_accessor_refs_base">CommandAccessorRefsBase</link> CommandSlotHolder.accessorComp</computeroutput></para></section>
+<anchor xml:id="_class_command_slot_holder_1a29a0a9ac0f74357a9d13caffb2198911"/><section>
+    <title>commandInstanceInSlot</title>
+<indexterm><primary>commandInstanceInSlot</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>commandInstanceInSlot</secondary></indexterm>
+<para><computeroutput><link linkend="_class_input_command">InputCommand</link> CommandSlotHolder.commandInstanceInSlot</computeroutput></para></section>
+<anchor xml:id="_class_command_slot_holder_1a4a5b42aa8a9e47081b64c12d3cece71c"/><section>
+    <title>commandInstanceSOAsset</title>
+<indexterm><primary>commandInstanceSOAsset</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>commandInstanceSOAsset</secondary></indexterm>
+<para><computeroutput><link linkend="_class_input_command">InputCommand</link> CommandSlotHolder.commandInstanceSOAsset</computeroutput></para></section>
+<anchor xml:id="_class_command_slot_holder_1a6b12e2044da41aa145f961755cd153db"/><section>
+    <title>commandOwnerRootObj</title>
+<indexterm><primary>commandOwnerRootObj</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>commandOwnerRootObj</secondary></indexterm>
+<para><computeroutput>GameObject CommandSlotHolder.commandOwnerRootObj</computeroutput></para></section>
+<anchor xml:id="_class_command_slot_holder_1adcd1c93202894bba3af5d13442f3f600"/><section>
+    <title>commandTargetObj</title>
+<indexterm><primary>commandTargetObj</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>commandTargetObj</secondary></indexterm>
+<para><computeroutput>GameObject CommandSlotHolder.commandTargetObj</computeroutput></para></section>
+<anchor xml:id="_class_command_slot_holder_1afc6cb5b7f51abf91c6692e8fafe31d06"/><section>
+    <title>isChainCommand</title>
+<indexterm><primary>isChainCommand</primary><secondary>CommandSlotHolder</secondary></indexterm>
+<indexterm><primary>CommandSlotHolder</primary><secondary>isChainCommand</secondary></indexterm>
+<para><computeroutput>bool CommandSlotHolder.isChainCommand</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/TypeB_CommandHolder/<link linkend="__command_slot_holder_8cs">CommandSlotHolder.cs</link></section>
+</section>

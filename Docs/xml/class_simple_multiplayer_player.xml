@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_simple_multiplayer_player" kind="class" language="C#" prot="public">
+    <compoundname>SimpleMultiplayerPlayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_simple_multiplayer_player_1ac96d5050596b95482b12e64a49f3bb23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleMultiplayerPlayer.OnTeleport</definition>
+        <argsstring>()</argsstring>
+        <name>OnTeleport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Multiplayer/SimpleMultiplayerPlayer.cs" line="7" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Multiplayer/SimpleMultiplayerPlayer.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SimpleMultiplayerPlayer</label>
+        <link refid="class_simple_multiplayer_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SimpleMultiplayerPlayer</label>
+        <link refid="class_simple_multiplayer_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Multiplayer/SimpleMultiplayerPlayer.cs" line="3" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Multiplayer/SimpleMultiplayerPlayer.cs" bodystart="4" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_simple_multiplayer_player_1ac96d5050596b95482b12e64a49f3bb23" prot="public" virt="non-virtual"><scope>SimpleMultiplayerPlayer</scope><name>OnTeleport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

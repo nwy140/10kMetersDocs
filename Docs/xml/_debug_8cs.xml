@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_debug_8cs" kind="file" language="C#">
+    <compoundname>Debug.cs</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Using<sp/>the<sp/>Same<sp/>Class<sp/>Name<sp/>as<sp/>Unity&apos;s<sp/>own<sp/>Debug<sp/>Log<sp/>Class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Uncomment<sp/>this<sp/>to<sp/>disable<sp/>all<sp/>of<sp/>Unity&apos;s<sp/>own<sp/>Debug<sp/>Log<sp/>Method<sp/>calls.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">public<sp/>static<sp/>class<sp/>Debug<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/>public<sp/>static<sp/>bool<sp/>isDebugBuild;</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/><sp/>public<sp/>static<sp/>void<sp/>Log(string<sp/>log)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/>public<sp/>static<sp/>void<sp/>LogError(string<sp/>log)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/EngineOverride/Debug.cs"/>
+  </compounddef>
+</doxygen>

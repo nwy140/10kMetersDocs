@@ -1,0 +1,233 @@
+\hypertarget{class_generic_dictionary}{}\doxysection{Generic\+Dictionary\texorpdfstring{$<$}{<} TKey, TValue \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_generic_dictionary}\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+
+
+Generic Serializable Dictionary for Unity 2020.\+1.  
+
+
+
+
+Inheritance diagram for Generic\+Dictionary\texorpdfstring{$<$}{<} TKey, TValue \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_generic_dictionary__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Generic\+Dictionary\texorpdfstring{$<$}{<} TKey, TValue \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_generic_dictionary__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_generic_dictionary_afa7d7ea0b03cb741f5972cdb9dad9820}{On\+Before\+Serialize}} ()
+\item 
+void \mbox{\hyperlink{class_generic_dictionary_aa7e3c7674d72aa09908d823828bfe9a0}{On\+After\+Deserialize}} ()
+\item 
+void \mbox{\hyperlink{class_generic_dictionary_a3131a602b17fa42446948df937e584f7}{Add}} (TKey key, TValue value)
+\item 
+bool \mbox{\hyperlink{class_generic_dictionary_a467b6e4d31cedc2b38b39a0229bc27f3}{Contains\+Key}} (TKey key)
+\item 
+bool \mbox{\hyperlink{class_generic_dictionary_acb60c1c04eaf193894e672a903d4d7c9}{Remove}} (TKey key)
+\item 
+bool \mbox{\hyperlink{class_generic_dictionary_abcf475aa029c54b4d76528e3f18c959a}{Try\+Get\+Value}} (TKey key, out TValue value)
+\item 
+void \mbox{\hyperlink{class_generic_dictionary_a5518c081100f250284866a97ffeaae83}{Add}} (Key\+Value\+Pair$<$ TKey, TValue $>$ pair)
+\item 
+void \mbox{\hyperlink{class_generic_dictionary_a5db3892fe9887beb04bbe276ef87e8a6}{Clear}} ()
+\item 
+bool \mbox{\hyperlink{class_generic_dictionary_a7ef41939aa49dc6c0c18a64dca398839}{Contains}} (Key\+Value\+Pair$<$ TKey, TValue $>$ pair)
+\item 
+void \mbox{\hyperlink{class_generic_dictionary_aebb652620a964cc219be4bd9f9a92378}{Copy\+To}} (Key\+Value\+Pair$<$ TKey, TValue $>$\mbox{[}$\,$\mbox{]} array, int array\+Index)
+\item 
+bool \mbox{\hyperlink{class_generic_dictionary_a329fdd017e33a42057b50469a9720ba9}{Remove}} (Key\+Value\+Pair$<$ TKey, TValue $>$ pair)
+\item 
+IEnumerator$<$ Key\+Value\+Pair$<$ TKey, TValue $>$ $>$ \mbox{\hyperlink{class_generic_dictionary_abbc58e30b43342a6debd5de40b2245c8}{Get\+Enumerator}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+TValue \mbox{\hyperlink{class_generic_dictionary_a3366552e2cdd8858f2d18478a6bb6f25}{this\mbox{[}\+TKey key\mbox{]}}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+ICollection$<$ TKey $>$ \mbox{\hyperlink{class_generic_dictionary_a679f48bd2ee64873186e97c78b642213}{Keys}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+ICollection$<$ TValue $>$ \mbox{\hyperlink{class_generic_dictionary_af906857dbe6c25c750b6dc7fb1aedca0}{Values}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_generic_dictionary_a26ee931c47c12e0f13ee6bbb27264fe8}{Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_generic_dictionary_aa3fd065828bdb39d64be67280a056d96}{Is\+Read\+Only}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generic Serializable Dictionary for Unity 2020.\+1. 
+
+Simply declare your key/value types and you\textquotesingle{}re good to go -\/ zero boilerplate. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_generic_dictionary_a5518c081100f250284866a97ffeaae83}\label{class_generic_dictionary_a5518c081100f250284866a97ffeaae83}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Add@{Add}}
+\index{Add@{Add}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Add (\begin{DoxyParamCaption}\item[{Key\+Value\+Pair$<$ TKey, TValue $>$}]{pair }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_generic_dictionary_a5518c081100f250284866a97ffeaae83_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_dictionary_a3131a602b17fa42446948df937e584f7}\label{class_generic_dictionary_a3131a602b17fa42446948df937e584f7}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Add@{Add}}
+\index{Add@{Add}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Add (\begin{DoxyParamCaption}\item[{TKey}]{key,  }\item[{TValue}]{value }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_generic_dictionary_a3131a602b17fa42446948df937e584f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_dictionary_a5db3892fe9887beb04bbe276ef87e8a6}\label{class_generic_dictionary_a5db3892fe9887beb04bbe276ef87e8a6}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Clear@{Clear}}
+\index{Clear@{Clear}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_generic_dictionary_a7ef41939aa49dc6c0c18a64dca398839}\label{class_generic_dictionary_a7ef41939aa49dc6c0c18a64dca398839}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Contains@{Contains}}
+\index{Contains@{Contains}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Contains()}{Contains()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Contains (\begin{DoxyParamCaption}\item[{Key\+Value\+Pair$<$ TKey, TValue $>$}]{pair }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_generic_dictionary_a467b6e4d31cedc2b38b39a0229bc27f3}\label{class_generic_dictionary_a467b6e4d31cedc2b38b39a0229bc27f3}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!ContainsKey@{ContainsKey}}
+\index{ContainsKey@{ContainsKey}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{ContainsKey()}{ContainsKey()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Contains\+Key (\begin{DoxyParamCaption}\item[{TKey}]{key }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_generic_dictionary_a467b6e4d31cedc2b38b39a0229bc27f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_dictionary_aebb652620a964cc219be4bd9f9a92378}\label{class_generic_dictionary_aebb652620a964cc219be4bd9f9a92378}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!CopyTo@{CopyTo}}
+\index{CopyTo@{CopyTo}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{CopyTo()}{CopyTo()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Copy\+To (\begin{DoxyParamCaption}\item[{Key\+Value\+Pair$<$ TKey, TValue $>$\mbox{[}$\,$\mbox{]}}]{array,  }\item[{int}]{array\+Index }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_generic_dictionary_abbc58e30b43342a6debd5de40b2245c8}\label{class_generic_dictionary_abbc58e30b43342a6debd5de40b2245c8}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!GetEnumerator@{GetEnumerator}}
+\index{GetEnumerator@{GetEnumerator}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{GetEnumerator()}{GetEnumerator()}}
+{\footnotesize\ttfamily IEnumerator$<$ Key\+Value\+Pair$<$ TKey, TValue $>$ $>$ \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Get\+Enumerator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_generic_dictionary_aa7e3c7674d72aa09908d823828bfe9a0}\label{class_generic_dictionary_aa7e3c7674d72aa09908d823828bfe9a0}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!OnAfterDeserialize@{OnAfterDeserialize}}
+\index{OnAfterDeserialize@{OnAfterDeserialize}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{OnAfterDeserialize()}{OnAfterDeserialize()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.On\+After\+Deserialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_generic_dictionary_aa7e3c7674d72aa09908d823828bfe9a0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_dictionary_afa7d7ea0b03cb741f5972cdb9dad9820}\label{class_generic_dictionary_afa7d7ea0b03cb741f5972cdb9dad9820}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!OnBeforeSerialize@{OnBeforeSerialize}}
+\index{OnBeforeSerialize@{OnBeforeSerialize}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{OnBeforeSerialize()}{OnBeforeSerialize()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.On\+Before\+Serialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_generic_dictionary_a329fdd017e33a42057b50469a9720ba9}\label{class_generic_dictionary_a329fdd017e33a42057b50469a9720ba9}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Remove (\begin{DoxyParamCaption}\item[{Key\+Value\+Pair$<$ TKey, TValue $>$}]{pair }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_generic_dictionary_a329fdd017e33a42057b50469a9720ba9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_dictionary_acb60c1c04eaf193894e672a903d4d7c9}\label{class_generic_dictionary_acb60c1c04eaf193894e672a903d4d7c9}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Remove (\begin{DoxyParamCaption}\item[{TKey}]{key }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_generic_dictionary_acb60c1c04eaf193894e672a903d4d7c9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_dictionary_abcf475aa029c54b4d76528e3f18c959a}\label{class_generic_dictionary_abcf475aa029c54b4d76528e3f18c959a}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!TryGetValue@{TryGetValue}}
+\index{TryGetValue@{TryGetValue}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{TryGetValue()}{TryGetValue()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Try\+Get\+Value (\begin{DoxyParamCaption}\item[{TKey}]{key,  }\item[{out TValue}]{value }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_generic_dictionary_a26ee931c47c12e0f13ee6bbb27264fe8}\label{class_generic_dictionary_a26ee931c47c12e0f13ee6bbb27264fe8}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Count@{Count}}
+\index{Count@{Count}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Count}{Count}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Count\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_generic_dictionary_aa3fd065828bdb39d64be67280a056d96}\label{class_generic_dictionary_aa3fd065828bdb39d64be67280a056d96}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!IsReadOnly@{IsReadOnly}}
+\index{IsReadOnly@{IsReadOnly}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{IsReadOnly}{IsReadOnly}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Is\+Read\+Only\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_generic_dictionary_a679f48bd2ee64873186e97c78b642213}\label{class_generic_dictionary_a679f48bd2ee64873186e97c78b642213}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Keys@{Keys}}
+\index{Keys@{Keys}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Keys}{Keys}}
+{\footnotesize\ttfamily ICollection$<$TKey$>$ \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Keys\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_generic_dictionary_a3366552e2cdd8858f2d18478a6bb6f25}\label{class_generic_dictionary_a3366552e2cdd8858f2d18478a6bb6f25}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!this\mbox{[}TKey key\mbox{]}@{this[TKey key]}}
+\index{this\mbox{[}TKey key\mbox{]}@{this[TKey key]}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{this[TKey key]}{this[TKey key]}}
+{\footnotesize\ttfamily TValue \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.this\mbox{[}TKey key\mbox{]}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_generic_dictionary_af906857dbe6c25c750b6dc7fb1aedca0}\label{class_generic_dictionary_af906857dbe6c25c750b6dc7fb1aedca0}} 
+\index{GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}!Values@{Values}}
+\index{Values@{Values}!GenericDictionary$<$ TKey, TValue $>$@{GenericDictionary$<$ TKey, TValue $>$}}
+\doxysubsubsection{\texorpdfstring{Values}{Values}}
+{\footnotesize\ttfamily ICollection$<$TValue$>$ \mbox{\hyperlink{class_generic_dictionary}{Generic\+Dictionary}}$<$ TKey, TValue $>$.Values\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+Serializable\+Data\+Structures/\mbox{\hyperlink{_generic_dictionary_8cs}{Generic\+Dictionary.\+cs}}\end{DoxyCompactItemize}

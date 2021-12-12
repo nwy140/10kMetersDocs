@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classbreakable_wall" kind="class" language="C#" prot="public">
+    <compoundname>breakableWall</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbreakable_wall_1a4f90ca3bbecb1f65255dde9cca822a29" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject breakableWall.bulletPrefab</definition>
+        <argsstring></argsstring>
+        <name>bulletPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" line="9" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbreakable_wall_1a1ab9783d80bfe41cb8971da5d50879a0" prot="public" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem breakableWall.par</definition>
+        <argsstring></argsstring>
+        <name>par</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" line="10" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbreakable_wall_1ae43ee0ed5cd5fc4e4747c9600feabbd0" prot="public" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem breakableWall.par2</definition>
+        <argsstring></argsstring>
+        <name>par2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" line="11" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbreakable_wall_1a783115764e6d3c60785c7c1b44062410" prot="public" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem breakableWall.par3</definition>
+        <argsstring></argsstring>
+        <name>par3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" line="12" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbreakable_wall_1aabd84d3c2c54ddcea53c25fb5084d983" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void breakableWall.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D collision)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" bodystart="14" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>breakableWall</label>
+        <link refid="classbreakable_wall"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>breakableWall</label>
+        <link refid="classbreakable_wall"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/breakableWall.cs" bodystart="7" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classbreakable_wall_1a4f90ca3bbecb1f65255dde9cca822a29" prot="public" virt="non-virtual"><scope>breakableWall</scope><name>bulletPrefab</name></member>
+      <member refid="classbreakable_wall_1aabd84d3c2c54ddcea53c25fb5084d983" prot="private" virt="non-virtual"><scope>breakableWall</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="classbreakable_wall_1a1ab9783d80bfe41cb8971da5d50879a0" prot="public" virt="non-virtual"><scope>breakableWall</scope><name>par</name></member>
+      <member refid="classbreakable_wall_1ae43ee0ed5cd5fc4e4747c9600feabbd0" prot="public" virt="non-virtual"><scope>breakableWall</scope><name>par2</name></member>
+      <member refid="classbreakable_wall_1a783115764e6d3c60785c7c1b44062410" prot="public" virt="non-virtual"><scope>breakableWall</scope><name>par3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

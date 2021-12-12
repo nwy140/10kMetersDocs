@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_f_s_m_base_state" kind="class" language="C#" prot="public">
+    <compoundname>FSMBaseState</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="class_alert" prot="public" virt="non-virtual">Alert</derivedcompoundref>
+    <derivedcompoundref refid="class_chase" prot="public" virt="non-virtual">Chase</derivedcompoundref>
+    <derivedcompoundref refid="class_default_state" prot="public" virt="non-virtual">DefaultState</derivedcompoundref>
+    <derivedcompoundref refid="class_flee" prot="public" virt="non-virtual">Flee</derivedcompoundref>
+    <derivedcompoundref refid="class_patrol_by_random_pos" prot="public" virt="non-virtual">PatrolByRandomPos</derivedcompoundref>
+    <derivedcompoundref refid="class_patrol_by_waypoints" prot="public" virt="non-virtual">PatrolByWaypoints</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" prot="protected" static="no" mutable="no">
+        <type>readonly <ref refid="class_f_s_m_system_base" kindref="compound">FSMSystemBase</ref></type>
+        <definition>readonly FSMSystemBase FSMBaseState._system</definition>
+        <argsstring></argsstring>
+        <name>_system</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="12" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_chase_1ae83ef24db35726136b86857301f9d6ff" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="64" endline="69">Chase.Chase</referencedby>
+        <referencedby refid="class_flee_1a6139b23f08e9a5d006f38d840bf81da1" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="105" endline="110">Flee.Flee</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" compoundref="_f_s_m_base_state_8cs" startline="22" endline="26">FSMBaseState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" compoundref="_f_s_m_base_state_8cs" startline="29" endline="42">OnEnterState</referencedby>
+        <referencedby refid="class_alert_1a4c74d0a6408ab55791ad5925867de6ef" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="36" endline="43">Alert.OnEnterState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2" compoundref="_f_s_m_base_state_8cs" startline="59" endline="70">OnExitState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" compoundref="_f_s_m_base_state_8cs" startline="53" endline="58">OnStayState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" compoundref="_f_s_m_base_state_8cs" startline="43" endline="52">OnUpdate</referencedby>
+        <referencedby refid="class_patrol_by_random_pos_1adc519deb1865afa1a55e3eb69ecadce0" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="172" endline="176">PatrolByRandomPos.PatrolByRandomPos</referencedby>
+        <referencedby refid="class_patrol_by_waypoints_1aa713531703de93523f69a78c14a4270d" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="222" endline="226">PatrolByWaypoints.PatrolByWaypoints</referencedby>
+        <referencedby refid="class_patrol_by_random_pos_1a6277984521445fecbb7a99c4b8b207ec" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="202" endline="208">PatrolByRandomPos.PerformStateBehaviour</referencedby>
+        <referencedby refid="class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e" compoundref="_n_p_c_a_i_states_type_a_8cs" startline="252" endline="277">PatrolByWaypoints.PerformStateBehaviour</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_s_m_base_state_1a98e3c51765313c1ad31abd0b45fd1d30" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FSMBaseState._aName</definition>
+        <argsstring></argsstring>
+        <name>_aName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="13" column="13" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>virtual string FSMBaseState.aName</definition>
+        <argsstring></argsstring>
+        <name>aName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="14" column="27" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="14" bodyend="14"/>
+        <referencedby refid="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" compoundref="_f_s_m_base_state_8cs" startline="22" endline="26">FSMBaseState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" compoundref="_f_s_m_base_state_8cs" startline="29" endline="42">OnEnterState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2" compoundref="_f_s_m_base_state_8cs" startline="59" endline="70">OnExitState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" compoundref="_f_s_m_base_state_8cs" startline="53" endline="58">OnStayState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" compoundref="_f_s_m_base_state_8cs" startline="43" endline="52">OnUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref></type>
+        <definition>virtual FSMExecutionState FSMBaseState.ExecutionState</definition>
+        <argsstring></argsstring>
+        <name>ExecutionState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="17" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" prot="public" static="no" mutable="no">
+        <type><ref refid="_f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3" kindref="member">FSMExecutionState</ref></type>
+        <definition>FSMExecutionState FSMBaseState._ExecutionState</definition>
+        <argsstring></argsstring>
+        <name>_ExecutionState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="16" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce" compoundref="_f_s_m_base_state_8cs" startline="72" endline="75">OnEnable</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" compoundref="_f_s_m_base_state_8cs" startline="29" endline="42">OnEnterState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2" compoundref="_f_s_m_base_state_8cs" startline="59" endline="70">OnExitState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" compoundref="_f_s_m_base_state_8cs" startline="43" endline="52">OnUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FSMBaseState.OnEnterTimeStamp</definition>
+        <argsstring></argsstring>
+        <name>OnEnterTimeStamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="19" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" compoundref="_f_s_m_base_state_8cs" startline="29" endline="42">OnEnterState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FSMBaseState.ElapsedTime</definition>
+        <argsstring></argsstring>
+        <name>ElapsedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" compoundref="_f_s_m_base_state_8cs" startline="29" endline="42">OnEnterState</referencedby>
+        <referencedby refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" compoundref="_f_s_m_base_state_8cs" startline="43" endline="52">OnUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FSMBaseState.FSMBaseState</definition>
+        <argsstring>(FSMSystemBase system)</argsstring>
+        <name>FSMBaseState</name>
+        <param>
+          <type><ref refid="class_f_s_m_system_base" kindref="compound">FSMSystemBase</ref></type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="22" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="22" bodyend="26"/>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">_system</references>
+        <references refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" compoundref="_f_s_m_base_state_8cs" startline="14" endline="14">aName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool FSMBaseState.OnEnterState</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnterState</name>
+        <reimplementedby refid="class_default_state_1a1ac73c9e44849218e1987cc049406cd5">OnEnterState</reimplementedby>
+        <reimplementedby refid="class_alert_1a4c74d0a6408ab55791ad5925867de6ef">OnEnterState</reimplementedby>
+        <reimplementedby refid="class_chase_1a391d61b7b55208fbf6093eb013db4aa0">OnEnterState</reimplementedby>
+        <reimplementedby refid="class_flee_1a22f828df5c3eb7da25a2e3dd8f59d1cd">OnEnterState</reimplementedby>
+        <reimplementedby refid="class_patrol_by_random_pos_1a126c52c12f9907a4e7693a746151b3b5">OnEnterState</reimplementedby>
+        <reimplementedby refid="class_patrol_by_waypoints_1adcba748e4f330067dcf038b057021e16">OnEnterState</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="29" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="29" bodyend="42"/>
+        <references refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" compoundref="_f_s_m_base_state_8cs" startline="16">_ExecutionState</references>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">_system</references>
+        <references refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" compoundref="_f_s_m_base_state_8cs" startline="14" endline="14">aName</references>
+        <references refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" compoundref="_f_s_m_base_state_8cs" startline="21">ElapsedTime</references>
+        <references refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" compoundref="_f_s_m_system_base_8cs" startline="15">FSMSystemBase.isDebugLog</references>
+        <references refid="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" compoundref="_f_s_m_base_state_8cs" startline="19">OnEnterTimeStamp</references>
+        <referencedby refid="class_f_s_m_system_base_1ab80678c5526db2e0089a98a440c29a60" compoundref="_f_s_m_system_base_8cs" startline="18" endline="29">FSMSystemBase.Awake</referencedby>
+        <referencedby refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" compoundref="_f_s_m_system_base_8cs" startline="39" endline="49">FSMSystemBase.TryEnterState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FSMBaseState.OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <reimplementedby refid="class_default_state_1a07b33569596bb004a631be1bd10eb41d">OnUpdate</reimplementedby>
+        <reimplementedby refid="class_patrol_by_random_pos_1a15772a59fb76183c34994c59ce27fe3c">OnUpdate</reimplementedby>
+        <reimplementedby refid="class_patrol_by_waypoints_1a9fef0c96e7781b44b02302ef8090fdd9">OnUpdate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="43" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="43" bodyend="52"/>
+        <references refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" compoundref="_f_s_m_base_state_8cs" startline="16">_ExecutionState</references>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">_system</references>
+        <references refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" compoundref="_f_s_m_base_state_8cs" startline="14" endline="14">aName</references>
+        <references refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" compoundref="_f_s_m_base_state_8cs" startline="21">ElapsedTime</references>
+        <references refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" compoundref="_f_s_m_system_base_8cs" startline="15">FSMSystemBase.isDebugLog</references>
+        <references refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" compoundref="_f_s_m_base_state_8cs" startline="53" endline="58">OnStayState</references>
+        <referencedby refid="class_f_s_m_system_base_1a4da20f26b8e2b553122e84ef9eb70bfc" compoundref="_f_s_m_system_base_8cs" startline="32" endline="38">FSMSystemBase.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FSMBaseState.OnStayState</definition>
+        <argsstring>()</argsstring>
+        <name>OnStayState</name>
+        <reimplementedby refid="class_chase_1a8ca474ca24a2c28b07c6b17535a38548">OnStayState</reimplementedby>
+        <reimplementedby refid="class_flee_1aa3c3ad56ebf0ebd2e4c06a26be350677">OnStayState</reimplementedby>
+        <reimplementedby refid="class_patrol_by_random_pos_1a079eb0d6a5439a0e77e9d30e86b0eb7c">OnStayState</reimplementedby>
+        <reimplementedby refid="class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6">OnStayState</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="53" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="53" bodyend="58"/>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">_system</references>
+        <references refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" compoundref="_f_s_m_base_state_8cs" startline="14" endline="14">aName</references>
+        <references refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" compoundref="_f_s_m_system_base_8cs" startline="15">FSMSystemBase.isDebugLog</references>
+        <referencedby refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" compoundref="_f_s_m_base_state_8cs" startline="43" endline="52">OnUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool FSMBaseState.OnExitState</definition>
+        <argsstring>()</argsstring>
+        <name>OnExitState</name>
+        <reimplementedby refid="class_default_state_1ab46682c863828f1a5ab57cb164cb4223">OnExitState</reimplementedby>
+        <reimplementedby refid="class_alert_1a5074dc24717dd36b9c760590c39fb68b">OnExitState</reimplementedby>
+        <reimplementedby refid="class_chase_1ad693e8310c8bd50502f914fa9593aa02">OnExitState</reimplementedby>
+        <reimplementedby refid="class_flee_1a6dac7e6c97f912966967865bd6ba2789">OnExitState</reimplementedby>
+        <reimplementedby refid="class_patrol_by_random_pos_1a35f20bf96a35e62a592e92492b73e272">OnExitState</reimplementedby>
+        <reimplementedby refid="class_patrol_by_waypoints_1ae55e0e2a1f0370f8757383aa93c81a34">OnExitState</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="59" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="59" bodyend="70"/>
+        <references refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" compoundref="_f_s_m_base_state_8cs" startline="16">_ExecutionState</references>
+        <references refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" compoundref="_f_s_m_base_state_8cs" startline="12">_system</references>
+        <references refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" compoundref="_f_s_m_base_state_8cs" startline="14" endline="14">aName</references>
+        <references refid="class_f_s_m_system_base_1a7115e059506f642bb3ac21326c35f017" compoundref="_f_s_m_system_base_8cs" startline="15">FSMSystemBase.isDebugLog</references>
+        <referencedby refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" compoundref="_f_s_m_system_base_8cs" startline="39" endline="49">FSMSystemBase.TryEnterState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FSMBaseState.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="72" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="72" bodyend="75"/>
+        <references refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" compoundref="_f_s_m_base_state_8cs" startline="16">_ExecutionState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FSMBaseState.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="77" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Alert</label>
+        <link refid="class_alert"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Chase</label>
+        <link refid="class_chase"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DefaultState</label>
+        <link refid="class_default_state"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Flee</label>
+        <link refid="class_flee"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>PatrolByRandomPos</label>
+        <link refid="class_patrol_by_random_pos"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>PatrolByWaypoints</label>
+        <link refid="class_patrol_by_waypoints"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FSMBaseState</label>
+        <link refid="class_f_s_m_base_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>#_system</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FSMSystemBase</label>
+        <link refid="class_f_s_m_system_base"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+_curState</edgelabel>
+          <edgelabel>+_prevState</edgelabel>
+          <edgelabel>+_startingState</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" line="9" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/FSMBaseState.cs" bodystart="10" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_f_s_m_base_state_1a98e3c51765313c1ad31abd0b45fd1d30" prot="private" virt="non-virtual"><scope>FSMBaseState</scope><name>_aName</name></member>
+      <member refid="class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb" prot="public" virt="non-virtual"><scope>FSMBaseState</scope><name>_ExecutionState</name></member>
+      <member refid="class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a" prot="protected" virt="non-virtual"><scope>FSMBaseState</scope><name>_system</name></member>
+      <member refid="class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2" prot="public" virt="non-virtual"><scope>FSMBaseState</scope><name>aName</name></member>
+      <member refid="class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c" prot="public" virt="non-virtual"><scope>FSMBaseState</scope><name>ElapsedTime</name></member>
+      <member refid="class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b" prot="public" virt="non-virtual"><scope>FSMBaseState</scope><name>ExecutionState</name></member>
+      <member refid="class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb" prot="public" virt="non-virtual"><scope>FSMBaseState</scope><name>FSMBaseState</name></member>
+      <member refid="class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8" prot="public" virt="non-virtual"><scope>FSMBaseState</scope><name>OnDisable</name></member>
+      <member refid="class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce" prot="public" virt="non-virtual"><scope>FSMBaseState</scope><name>OnEnable</name></member>
+      <member refid="class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa" prot="public" virt="virtual"><scope>FSMBaseState</scope><name>OnEnterState</name></member>
+      <member refid="class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22" prot="public" virt="non-virtual"><scope>FSMBaseState</scope><name>OnEnterTimeStamp</name></member>
+      <member refid="class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2" prot="public" virt="virtual"><scope>FSMBaseState</scope><name>OnExitState</name></member>
+      <member refid="class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c" prot="public" virt="virtual"><scope>FSMBaseState</scope><name>OnStayState</name></member>
+      <member refid="class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e" prot="public" virt="virtual"><scope>FSMBaseState</scope><name>OnUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

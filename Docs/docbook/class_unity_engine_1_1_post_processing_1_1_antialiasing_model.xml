@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.AntialiasingModel Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.AntialiasingModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_antialiasing_model__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.AntialiasingModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_antialiasing_model__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_console_settings">FxaaConsoleSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_quality_settings">FxaaQualitySettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_settings">FxaaSettings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings">Settings</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_taa_settings">TaaSettings</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1ab5cf39cfa77f367f530971a77518e89f">Method</link> { <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1ab5cf39cfa77f367f530971a77518e89fa857fb43809a96061d0a5a63fd6bdff56">Fxaa</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1ab5cf39cfa77f367f530971a77518e89fa1f3b7d963472fedbd884f0fc86bb5e26">Taa</link>
+ }</para>
+</listitem>
+            <listitem><para>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4">FxaaPreset</link> { 
+<link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a1b3568c586b58152cec02755d6e57307">ExtremePerformance</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a9446a98ad14416153cc4d45ab8b531bf">Performance</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a7a1920d61156abc05a60135aefe8bc67">Default</link>
+, <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a571094bb27864b600d8e6b561a137a55">Quality</link>
+, 
+<link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a86af81c2ddddadd2edf63762a982d83c">ExtremeQuality</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1aeed2830b0c1b3a6ef09c0aea26b0b206">Reset</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings">Settings</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1af1ad76b667f86a55a3db817f6ebfdbe9">settings</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4"/><section>
+    <title>FxaaPreset</title>
+<indexterm><primary>FxaaPreset</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>FxaaPreset</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4">UnityEngine.PostProcessing.AntialiasingModel.FxaaPreset</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>ExtremePerformance</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>ExtremePerformance</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a1b3568c586b58152cec02755d6e57307"/>ExtremePerformance</entry><entry></entry></row><row><entry><indexterm><primary>Performance</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>Performance</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a9446a98ad14416153cc4d45ab8b531bf"/>Performance</entry><entry></entry></row><row><entry><indexterm><primary>Default</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>Default</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a7a1920d61156abc05a60135aefe8bc67"/>Default</entry><entry></entry></row><row><entry><indexterm><primary>Quality</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>Quality</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a571094bb27864b600d8e6b561a137a55"/>Quality</entry><entry></entry></row><row><entry><indexterm><primary>ExtremeQuality</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>ExtremeQuality</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1a8fa1e784663b26f942fb5558e3328bc4a86af81c2ddddadd2edf63762a982d83c"/>ExtremeQuality</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1ab5cf39cfa77f367f530971a77518e89f"/><section>
+    <title>Method</title>
+<indexterm><primary>Method</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>Method</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1ab5cf39cfa77f367f530971a77518e89f">UnityEngine.PostProcessing.AntialiasingModel.Method</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Fxaa</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>Fxaa</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1ab5cf39cfa77f367f530971a77518e89fa857fb43809a96061d0a5a63fd6bdff56"/>Fxaa</entry><entry></entry></row><row><entry><indexterm><primary>Taa</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>Taa</secondary></indexterm>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1ab5cf39cfa77f367f530971a77518e89fa1f3b7d963472fedbd884f0fc86bb5e26"/>Taa</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1aeed2830b0c1b3a6ef09c0aea26b0b206"/><section>
+    <title>Reset()</title>
+<indexterm><primary>Reset</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>Reset</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.AntialiasingModel.Reset ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">UnityEngine.PostProcessing.PostProcessingModel</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1af1ad76b667f86a55a3db817f6ebfdbe9"/><section>
+    <title>settings</title>
+<indexterm><primary>settings</primary><secondary>UnityEngine.PostProcessing.AntialiasingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.AntialiasingModel</primary><secondary>settings</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings">Settings</link> UnityEngine.PostProcessing.AntialiasingModel.settings<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Models/<link linkend="__antialiasing_model_8cs">AntialiasingModel.cs</link></section>
+</section>

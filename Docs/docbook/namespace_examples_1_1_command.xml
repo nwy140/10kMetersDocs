@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_examples_1_1_command" xml:lang="en-US">
+<title>Examples.Command Namespace Reference</title>
+<indexterm><primary>Examples.Command</primary></indexterm>
+<para>
+
+<para>Utility script that creates a random color for us and returns it. </para>
+ 
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_examples_1_1_command_1_1_color_creator">ColorCreator</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_examples_1_1_command_1_1_light_active_toggle">LightActiveToggle</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_examples_1_1_command_1_1_light_color_change">LightColorChange</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_examples_1_1_command_1_1_light_controller">LightController</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_examples_1_1_command_1_1_light_decrease_intensity">LightDecreaseIntensity</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_examples_1_1_command_1_1_light_increase_intensity">LightIncreaseIntensity</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Utility script that creates a random color for us and returns it. </para>
+
+<para>This class is used to test our <link linkend="_namespace_examples_1_1_command">Command</link> Stack functionality.</para>
+
+<para>Example of a <link linkend="_namespace_examples_1_1_command">Command</link> for our Light.</para>
+
+<para>Example of a <link linkend="_namespace_examples_1_1_command">Command</link> for the light.</para>
+
+<para>Example of a command for the light.</para>
+
+<para>An example <link linkend="_namespace_examples_1_1_command">Command</link> for our light that turns on and off the light component.</para>
+
+<para>We assign a new color to the light, and change it back when we&apos;re done. </para>
+
+<para>We decrease its intensity, and undo our decrease on undo </para>
+
+<para>We increase the intensity, and on Undo, we revert our increase. </para>
+
+<para>You can use key inputs to execute commands through the <link linkend="_namespace_examples_1_1_command">Command</link> Stack <link linkend="_namespace_examples_1_1_command">Command</link> Stack tracks history, so Undo button will undo our last command </para>
+</section>
+</section>

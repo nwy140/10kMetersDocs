@@ -1,0 +1,151 @@
+.TH "RebindUISampleActionsModified" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RebindUISampleActionsModified
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits IInputActionCollection2, and IDisposable\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBGameplaySampleUnusedActions\fP"
+.br
+.ti -1c
+.RI "interface \fBIGameplaySampleUnusedActions\fP"
+.br
+.ti -1c
+.RI "interface \fBIPlayerMainActions\fP"
+.br
+.ti -1c
+.RI "interface \fBIUIMainActions\fP"
+.br
+.ti -1c
+.RI "interface \fBIVector2AxisActions\fP"
+.br
+.ti -1c
+.RI "struct \fBPlayerMainActions\fP"
+.br
+.ti -1c
+.RI "struct \fBUIMainActions\fP"
+.br
+.ti -1c
+.RI "struct \fBVector2AxisActions\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRebindUISampleActionsModified\fP ()"
+.br
+.ti -1c
+.RI "void \fBDispose\fP ()"
+.br
+.ti -1c
+.RI "bool \fBContains\fP (InputAction action)"
+.br
+.ti -1c
+.RI "IEnumerator< InputAction > \fBGetEnumerator\fP ()"
+.br
+.ti -1c
+.RI "void \fBEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBDisable\fP ()"
+.br
+.ti -1c
+.RI "InputAction \fBFindAction\fP (string actionNameOrId, bool throwIfNotFound=false)"
+.br
+.ti -1c
+.RI "int \fBFindBinding\fP (InputBinding \fBbindingMask\fP, out InputAction action)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "InputActionAsset \fBasset\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputBinding? \fBbindingMask\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "ReadOnlyArray< InputDevice >? \fBdevices\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "ReadOnlyArray< InputControlScheme > \fBcontrolSchemes\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "IEnumerable< InputBinding > \fBbindings\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBPlayerMainActions\fP \fBPlayerMain\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBUIMainActions\fP \fBUIMain\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBGameplaySampleUnusedActions\fP \fBGameplaySampleUnused\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBVector2AxisActions\fP \fBVector2Axis\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputControlScheme \fBGamepadScheme\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "InputControlScheme \fBKeyboardScheme\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "RebindUISampleActionsModified\&.RebindUISampleActionsModified ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "bool RebindUISampleActionsModified\&.Contains (InputAction action)"
+
+.SS "void RebindUISampleActionsModified\&.Disable ()"
+
+.SS "void RebindUISampleActionsModified\&.Dispose ()"
+
+.SS "void RebindUISampleActionsModified\&.Enable ()"
+
+.SS "InputAction RebindUISampleActionsModified\&.FindAction (string actionNameOrId, bool throwIfNotFound = \fCfalse\fP)"
+
+.SS "int RebindUISampleActionsModified\&.FindBinding (InputBinding bindingMask, out InputAction action)"
+
+.SS "IEnumerator< InputAction > RebindUISampleActionsModified\&.GetEnumerator ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "InputActionAsset RebindUISampleActionsModified\&.asset\fC [get]\fP"
+
+.SS "InputBinding? RebindUISampleActionsModified\&.bindingMask\fC [get]\fP, \fC [set]\fP"
+
+.SS "IEnumerable<InputBinding> RebindUISampleActionsModified\&.bindings\fC [get]\fP"
+
+.SS "ReadOnlyArray<InputControlScheme> RebindUISampleActionsModified\&.controlSchemes\fC [get]\fP"
+
+.SS "ReadOnlyArray<InputDevice>? RebindUISampleActionsModified\&.devices\fC [get]\fP, \fC [set]\fP"
+
+.SS "InputControlScheme RebindUISampleActionsModified\&.GamepadScheme\fC [get]\fP"
+
+.SS "\fBGameplaySampleUnusedActions\fP RebindUISampleActionsModified\&.GameplaySampleUnused\fC [get]\fP"
+
+.SS "InputControlScheme RebindUISampleActionsModified\&.KeyboardScheme\fC [get]\fP"
+
+.SS "\fBPlayerMainActions\fP RebindUISampleActionsModified\&.PlayerMain\fC [get]\fP"
+
+.SS "\fBUIMainActions\fP RebindUISampleActionsModified\&.UIMain\fC [get]\fP"
+
+.SS "\fBVector2AxisActions\fP RebindUISampleActionsModified\&.Vector2Axis\fC [get]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

@@ -1,0 +1,212 @@
+.TH "UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI \- A reusable component with a self-contained \fBUI\fP for rebinding a single action\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBInteractiveRebindEvent\fP"
+.br
+.ti -1c
+.RI "class \fBUpdateBindingUIEvent\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBResolveActionAndBinding\fP (out InputAction action, out int bindingIndex)"
+.br
+.RI "Return the action and binding index for the binding that is targeted by the component according to "
+.ti -1c
+.RI "void \fBUpdateBindingDisplay\fP ()"
+.br
+.RI "Trigger a refresh of the currently displayed binding\&. "
+.ti -1c
+.RI "void \fBResetToDefault\fP ()"
+.br
+.RI "Remove currently applied binding overrides\&. "
+.ti -1c
+.RI "void \fBStartInteractiveRebind\fP ()"
+.br
+.RI "Initiate an interactive rebind that lets the player actuate a control to choose a new binding for the action\&. "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnDisable\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "InputActionReference \fBactionReference\fP\fC [getset]\fP"
+.br
+.RI "Reference to the action that is to be rebound\&. "
+.ti -1c
+.RI "string \fBbindingId\fP\fC [getset]\fP"
+.br
+.RI "ID (in string form) of the binding that is to be rebound on the action\&. "
+.ti -1c
+.RI "InputBinding\&.DisplayStringOptions \fBdisplayStringOptions\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "Text \fBactionLabel\fP\fC [getset]\fP"
+.br
+.RI "Text component that receives the name of the action\&. "
+.ti -1c
+.RI "Text \fBbindingText\fP\fC [getset]\fP"
+.br
+.RI "Text component that receives the display string of the binding\&. "
+.ti -1c
+.RI "Text \fBrebindPrompt\fP\fC [getset]\fP"
+.br
+.RI "Optional text component that receives a text prompt when waiting for a control to be actuated\&. "
+.ti -1c
+.RI "GameObject \fBrebindOverlay\fP\fC [getset]\fP"
+.br
+.RI "Optional \fBUI\fP that is activated when an interactive rebind is started and deactivated when the rebind is finished\&. "
+.ti -1c
+.RI "\fBUpdateBindingUIEvent\fP \fBupdateBindingUIEvent\fP\fC [get]\fP"
+.br
+.RI "Event that is triggered every time the \fBUI\fP updates to reflect the current binding\&. "
+.ti -1c
+.RI "\fBInteractiveRebindEvent\fP \fBstartRebindEvent\fP\fC [get]\fP"
+.br
+.RI "Event that is triggered when an interactive rebind is started on the action\&. "
+.ti -1c
+.RI "\fBInteractiveRebindEvent\fP \fBstopRebindEvent\fP\fC [get]\fP"
+.br
+.RI "Event that is triggered when an interactive rebind has been completed or canceled\&. "
+.ti -1c
+.RI "InputActionRebindingExtensions\&.RebindingOperation \fBongoingRebind\fP\fC [get]\fP"
+.br
+.RI "When an interactive rebind is in progress, this is the rebind operation controller\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+A reusable component with a self-contained \fBUI\fP for rebinding a single action\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.OnDisable ()\fC [protected]\fP"
+
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.OnEnable ()\fC [protected]\fP"
+
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.ResetToDefault ()"
+
+.PP
+Remove currently applied binding overrides\&. 
+.SS "bool UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.ResolveActionAndBinding (out InputAction action, out int bindingIndex)"
+
+.PP
+Return the action and binding index for the binding that is targeted by the component according to 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaction\fP 
+.br
+\fIbindingIndex\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.StartInteractiveRebind ()"
+
+.PP
+Initiate an interactive rebind that lets the player actuate a control to choose a new binding for the action\&. 
+.SS "void UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.UpdateBindingDisplay ()"
+
+.PP
+Trigger a refresh of the currently displayed binding\&. 
+.SH "Property Documentation"
+.PP 
+.SS "Text UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.actionLabel\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Text component that receives the name of the action\&. Optional\&. 
+.SS "InputActionReference UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.actionReference\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Reference to the action that is to be rebound\&. 
+.SS "string UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.bindingId\fC [get]\fP, \fC [set]\fP"
+
+.PP
+ID (in string form) of the binding that is to be rebound on the action\&. 
+.PP
+\fBSee also\fP
+.RS 4
+InputBinding\&.id
+.PP
+.RE
+.PP
+
+.SS "Text UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.bindingText\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Text component that receives the display string of the binding\&. Can be \fCnull\fP in which case the component entirely relies on \fBupdateBindingUIEvent\fP\&. 
+.SS "InputBinding\&.DisplayStringOptions UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.displayStringOptions\fC [get]\fP, \fC [set]\fP"
+
+.SS "InputActionRebindingExtensions\&.RebindingOperation UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.ongoingRebind\fC [get]\fP"
+
+.PP
+When an interactive rebind is in progress, this is the rebind operation controller\&. Otherwise, it is \fCnull\fP\&. 
+.SS "GameObject UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.rebindOverlay\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional \fBUI\fP that is activated when an interactive rebind is started and deactivated when the rebind is finished\&. This is normally used to display an overlay over the current \fBUI\fP while the system is waiting for a control to be actuated\&. 
+.PP
+If neither \fBrebindPrompt\fP nor \fCrebindOverlay\fP is set, the component will temporarily replaced the \fBbindingText\fP (if not \fCnull\fP) with \fC'Waiting\&.\&.\&.'\fP\&. 
+.PP
+\fBSee also\fP
+.RS 4
+\fBstartRebindEvent\fP, \fBrebindPrompt\fP
+.PP
+.RE
+.PP
+
+.SS "Text UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.rebindPrompt\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Optional text component that receives a text prompt when waiting for a control to be actuated\&. 
+.PP
+\fBSee also\fP
+.RS 4
+\fBstartRebindEvent\fP, \fBrebindOverlay\fP
+.PP
+.RE
+.PP
+
+.SS "\fBInteractiveRebindEvent\fP UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.startRebindEvent\fC [get]\fP"
+
+.PP
+Event that is triggered when an interactive rebind is started on the action\&. 
+.SS "\fBInteractiveRebindEvent\fP UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.stopRebindEvent\fC [get]\fP"
+
+.PP
+Event that is triggered when an interactive rebind has been completed or canceled\&. 
+.SS "\fBUpdateBindingUIEvent\fP UnityEngine\&.InputSystem\&.Samples\&.RebindUI\&.RebindActionUI\&.updateBindingUIEvent\fC [get]\fP"
+
+.PP
+Event that is triggered every time the \fBUI\fP updates to reflect the current binding\&. This can be used to tie custom visualizations to bindings\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

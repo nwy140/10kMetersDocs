@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_n_p_c_a_i_system_type_a_8cs" kind="file" language="C#">
+    <compoundname>NPCAISystemTypeA.cs</compoundname>
+    <innerclass refid="class_n_p_c_a_i_system_type_a" prot="public">NPCAISystemTypeA</innerclass>
+    <innernamespace refid="namespace_unity_engine_1_1_animations">UnityEngine::Animations</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NPCAITypeAReactinStyle</name>
+        <enumvalue id="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081aeaff692e84900d6b0999355abb0f3e43" prot="public">
+          <name>Chase</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081a20a8b1e6e473f9f1b219973fb365af44" prot="public">
+          <name>Flee</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081aec9c8d80d0c58b8002b9c68148f24a4c" prot="public">
+          <name>Flock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081adf7a8712303eeadde5d19f0e2955085c" prot="public">
+          <name>Patrol</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" line="8" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>.AI;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>.Animations;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="8" refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081" kindref="member">NPCAITypeAReactinStyle</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_chase" kindref="compound">Chase</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_flee" kindref="compound">Flee</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081aec9c8d80d0c58b8002b9c68148f24a4c" kindref="member">Flock</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081adf7a8712303eeadde5d19f0e2955085c" kindref="member">Patrol</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15" refid="class_n_p_c_a_i_system_type_a" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_n_p_c_a_i_system_type_a" kindref="compound">NPCAISystemTypeA</ref><sp/>:<sp/><ref refid="class_f_s_m_system_base" kindref="compound">FSMSystemBase</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="class_n_p_c_a_i_system_type_a_1acccedf1008acf03883bb07c628b70f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081" kindref="member">NPCAITypeAReactinStyle</ref><sp/><ref refid="class_n_p_c_a_i_system_type_a_1acccedf1008acf03883bb07c628b70f71" kindref="member">reactionStyle</ref><sp/>=<sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081" kindref="member">NPCAITypeAReactinStyle</ref>.Chase;</highlight></codeline>
+<codeline lineno="18" refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;FSMBaseState&gt;<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" kindref="member">possibleStatesSOInstance</ref>;</highlight></codeline>
+<codeline lineno="19" refid="class_n_p_c_a_i_system_type_a_1a2801ced43f434bdb5f63bf84675433a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;string&gt;<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a2801ced43f434bdb5f63bf84675433a2" kindref="member">possibleStatesNames</ref>;</highlight></codeline>
+<codeline lineno="20" refid="class_n_p_c_a_i_system_type_a_1a281f06a167415bd50de695bfd96df510" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_command_slots_holder_manager" kindref="compound">CommandSlotsHolderManager</ref><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a281f06a167415bd50de695bfd96df510" kindref="member">commandSlotsHolderManager</ref>;</highlight></codeline>
+<codeline lineno="21" refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>NavMeshAgent<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" kindref="member">agent</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_n_p_c_a_i_system_type_a_1a3019d46ac9182a9bfedb5b22b2eb0c43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_camera_sight_perception_sensor2_d" kindref="compound">CameraSightPerceptionSensor2D</ref><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a3019d46ac9182a9bfedb5b22b2eb0c43" kindref="member">sensor</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_n_p_c_a_i_system_type_a_1a9f8b200312416836a716a5ec1ca11a1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_waypoint_path" kindref="compound">WaypointPath</ref><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a9f8b200312416836a716a5ec1ca11a1b" kindref="member">waypointComp</ref>;</highlight></codeline>
+<codeline lineno="25" refid="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" kindref="member">isUseWaypoint</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>RotationConstraint<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" kindref="member">rotationConstraint</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a86968fc0e0f7a0e0a4981ed791a749f1" kindref="member">Awake</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.Awake();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" kindref="member">rotationConstraint</ref><sp/>=<sp/>GetComponentInChildren&lt;RotationConstraint&gt;();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" kindref="member">rotationConstraint</ref>.sourceCount<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" kindref="member">rotationConstraint</ref>.GetSource(0).sourceTransform<sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>rotationVector<sp/>=<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" kindref="member">rotationConstraint</ref>.transform.rotation.eulerAngles;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rotationVector.z<sp/>=<sp/>-90;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" kindref="member">rotationConstraint</ref>.transform.rotation<sp/>=<sp/>Quaternion.Euler(rotationVector);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ConstraintSource<sp/>cSrc<sp/><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ConstraintSource()<sp/>{<sp/>sourceTransform<sp/>=<sp/>Camera.main.transform,<sp/>weight<sp/>=<sp/>1<sp/>};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" kindref="member">rotationConstraint</ref>.SetSource(0,<sp/>cSrc);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a9f8b5f0a9be6e498975aee7d06a33167" kindref="member">rotationConstraint</ref>.locked<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_n_p_c_a_i_system_type_a_1a281f06a167415bd50de695bfd96df510" kindref="member">commandSlotsHolderManager</ref><sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a281f06a167415bd50de695bfd96df510" kindref="member">commandSlotsHolderManager</ref><sp/>=<sp/>GetComponentInChildren&lt;CommandSlotsHolderManager&gt;();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" kindref="member">agent</ref><sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" kindref="member">agent</ref><sp/>=<sp/>GetComponentInChildren&lt;NavMeshAgent&gt;();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" kindref="member">agent</ref>.gameObject.AddComponent&lt;NavMeshObstacle&gt;();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_f_s_m_system_base_1a2f6e165ca4a189639dfac080fff32714" kindref="member">_curState</ref><sp/>!=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" kindref="member">possibleStatesSOInstance</ref>.Add(<ref refid="class_f_s_m_system_base_1a2f6e165ca4a189639dfac080fff32714" kindref="member">_curState</ref>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" kindref="member">possibleStatesSOInstance</ref>.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_patrol_by_waypoints" kindref="compound">PatrolByWaypoints</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" kindref="member">possibleStatesSOInstance</ref>.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_patrol_by_random_pos" kindref="compound">PatrolByRandomPos</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//possibleStatesSOInstance.Add(new<sp/>Alert(this));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" kindref="member">possibleStatesSOInstance</ref>.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081aeaff692e84900d6b0999355abb0f3e43" kindref="member">Chase</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" kindref="member">possibleStatesSOInstance</ref>.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081a20a8b1e6e473f9f1b219973fb365af44" kindref="member">Flee</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//possibleStatesSOInstance.Add(new<sp/>GoToLastSeenLocation(this));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" kindref="member">possibleStatesSOInstance</ref>.ForEach(x<sp/>=&gt;<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a2801ced43f434bdb5f63bf84675433a2" kindref="member">possibleStatesNames</ref>.Add(x.aName));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_n_p_c_a_i_system_type_a_1a9f8b200312416836a716a5ec1ca11a1b" kindref="member">waypointComp</ref><sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" kindref="member">isUseWaypoint</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" kindref="member">HandleEnterPatrolState</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_p_c_a_i_system_type_a_1affde73f519dc478b8d4dc2c93fc1d136" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.Update();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_n_p_c_a_i_system_type_a_1a3019d46ac9182a9bfedb5b22b2eb0c43" kindref="member">sensor</ref>.<ref refid="class_camera_sight_perception_sensor2_d_1adedb682ee7cead7a4e23568ca2ab59ea" kindref="member">visibleRenderers</ref>.Count<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Transform<sp/>evaluatedTargetWithinSight<sp/>=<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a3019d46ac9182a9bfedb5b22b2eb0c43" kindref="member">sensor</ref>.<ref refid="class_camera_sight_perception_sensor2_d_1adedb682ee7cead7a4e23568ca2ab59ea" kindref="member">visibleRenderers</ref>.Find(x<sp/>=&gt;<sp/>x.GetComponent&lt;<ref refid="class_player" kindref="compound">Player</ref>&gt;()<sp/>!=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal"><sp/>||<sp/>x.GetComponentInParent&lt;<ref refid="class_player" kindref="compound">Player</ref>&gt;()<sp/>!=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*&amp;&amp;<sp/>Physics2D.Linecast(agent.transform.position,x.transform.position,<sp/>)==<sp/>false*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(evaluatedTargetWithinSight<sp/>!=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Evaluate<sp/>Target<sp/>Faction<sp/>..<sp/>i.e<sp/>Neutral,<sp/>Friendly,<sp/>Hostile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pass<sp/>in<sp/>the<sp/>target<sp/>Transform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_n_p_c_a_i_system_type_a_1acccedf1008acf03883bb07c628b70f71" kindref="member">reactionStyle</ref><sp/>==<sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081" kindref="member">NPCAITypeAReactinStyle</ref>.Chase)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>tempState<sp/>=<sp/>(<ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081aeaff692e84900d6b0999355abb0f3e43" kindref="member">Chase</ref>)<ref refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" kindref="member">GetStateSOInstanceByName</ref>(nameof(<ref refid="class_chase" kindref="compound">Chase</ref>));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempState.target<sp/>=<sp/>evaluatedTargetWithinSight;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" kindref="member">TryEnterState</ref>(tempState);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_n_p_c_a_i_system_type_a_1acccedf1008acf03883bb07c628b70f71" kindref="member">reactionStyle</ref><sp/>==<sp/><ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081" kindref="member">NPCAITypeAReactinStyle</ref>.Flee)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>tempState<sp/>=<sp/>(<ref refid="_n_p_c_a_i_system_type_a_8cs_1a197d14e9aca240e57418f08258d24081a20a8b1e6e473f9f1b219973fb365af44" kindref="member">Flee</ref>)<ref refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" kindref="member">GetStateSOInstanceByName</ref>(nameof(<ref refid="class_flee" kindref="compound">Flee</ref>));</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempState.target<sp/>=<sp/>evaluatedTargetWithinSight;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" kindref="member">TryEnterState</ref>(tempState);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(_curState.aName<sp/>!=<sp/>nameof(Chase))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>TryEnterStateByName(nameof(Alert));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" kindref="member">HandleEnterPatrolState</ref>();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" kindref="member">HandleEnterPatrolState</ref>();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Refresh<sp/>Agent<sp/>destination<sp/>by<sp/>itself<sp/>on<sp/>Update</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(agent.SetDestination(new<sp/>Vector3(agent.destination.x,<sp/>agent.destination.y,<sp/>transform.position.z))<sp/>==<sp/>false)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//TryEnterStateByName(nameof(PatrolByRandomPos));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a34be60ba55fd59a38c93420a77395f96" kindref="member">HandleEnterPatrolState</ref>()</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" kindref="member">isUseWaypoint</ref><sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>tempState<sp/>=<sp/>(<ref refid="class_patrol_by_waypoints" kindref="compound">PatrolByWaypoints</ref>)<ref refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" kindref="member">GetStateSOInstanceByName</ref>(nameof(<ref refid="class_patrol_by_waypoints" kindref="compound">PatrolByWaypoints</ref>));</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" kindref="member">TryEnterState</ref>(tempState);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_n_p_c_a_i_system_type_a_1ad948b8c39299b5c1251312c3d85e2f74" kindref="member">isUseWaypoint</ref><sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>tempState<sp/>=<sp/>(<ref refid="class_patrol_by_random_pos" kindref="compound">PatrolByRandomPos</ref>)<ref refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" kindref="member">GetStateSOInstanceByName</ref>(nameof(<ref refid="class_patrol_by_random_pos" kindref="compound">PatrolByRandomPos</ref>));</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" kindref="member">TryEnterState</ref>(tempState);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="class_n_p_c_a_i_system_type_a_1a30682f80178535058a2c8a57203957da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a30682f80178535058a2c8a57203957da" kindref="member">TryEnterStateByName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>nextStateName)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_f_s_m_system_base_1a57867290c6bfb9e82cc65ad8b32bf20a" kindref="member">TryEnterState</ref>(<ref refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" kindref="member">GetStateSOInstanceByName</ref>(nextStateName));</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnEnable()</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SwitchState(GetStateSOInstanceByName(nameof(Patrol)));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_f_s_m_base_state" kindref="compound">FSMBaseState</ref><sp/><ref refid="class_n_p_c_a_i_system_type_a_1ace7efa0e967f79e50692b2c44d22cb5b" kindref="member">GetStateSOInstanceByName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>stateName)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_n_p_c_a_i_system_type_a_1a274f78b2efcb0be5c9a2b7c715cd4a75" kindref="member">possibleStatesSOInstance</ref>[<ref refid="class_n_p_c_a_i_system_type_a_1a2801ced43f434bdb5f63bf84675433a2" kindref="member">possibleStatesNames</ref>.IndexOf(stateName)];</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="class_n_p_c_a_i_system_type_a_1a9d56a4587b059bc33ef8232285097e57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a9d56a4587b059bc33ef8232285097e57" kindref="member">target</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>bool<sp/>hasFoundHostile<sp/>=<sp/>false;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>float<sp/>chaseRequiredProximityDistance<sp/>=<sp/>80f;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>float<sp/>alertRequiredProximityDistance<sp/>=<sp/>200f;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDrawGizmos()</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.DrawCube(<ref refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" kindref="member">agent</ref>.destination,<sp/>Vector3.one);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.DrawLine(<ref refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" kindref="member">agent</ref>.transform.position,<sp/><ref refid="class_n_p_c_a_i_system_type_a_1a6c837ccad35236e92c19a48b1c18d965" kindref="member">agent</ref>.destination);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/NPCAISystemTypeA.cs"/>
+  </compounddef>
+</doxygen>

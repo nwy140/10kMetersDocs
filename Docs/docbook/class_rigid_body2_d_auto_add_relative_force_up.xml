@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_rigid_body2_d_auto_add_relative_force_up" xml:lang="en-US">
+<title>RigidBody2DAutoAddRelativeForceUp Class Reference</title>
+<indexterm><primary>RigidBody2DAutoAddRelativeForceUp</primary></indexterm>
+Inheritance diagram for RigidBody2DAutoAddRelativeForceUp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_rigid_body2_d_auto_add_relative_force_up__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for RigidBody2DAutoAddRelativeForceUp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_rigid_body2_d_auto_add_relative_force_up__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_rigid_body2_d_auto_add_relative_force_up_1a6d820a1943177cd61f5f97cbbbd97c30">Move</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_rigid_body2_d_auto_add_relative_force_up_1acd536c272a69db706b71d5c07d228f2d">MoveAcelSpeed</link> = 2.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_rigid_body2_d_auto_add_relative_force_up_1adb1c44f7f9b920b67cbf65624a5ee58a">maxMoveAcelSpeed</link> = 10f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_rigid_body2_d_auto_add_relative_force_up_1a604a2d714fa8889f7ba99ece52f0ebf5">curAcelSpeed</link> = 0</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_rigid_body2_d_auto_add_relative_force_up_1a541948c660e68d0541128c96bbd16796">SprintAcelSpeed</link> = 5.335f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_rigid_body2_d_auto_add_relative_force_up_1a7bb6138458318788dfef83d3d2efbd55">maxSprintAcelSpeed</link> = 20f</para>
+</listitem>
+            <listitem><para>Rigidbody2D <link linkend="_class_rigid_body2_d_auto_add_relative_force_up_1a8fc6c34e32ca4aad62d0b0ad461bb890">_rigidbody2D</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_rigid_body2_d_auto_add_relative_force_up_1a6d820a1943177cd61f5f97cbbbd97c30"/><section>
+    <title>Move()</title>
+<indexterm><primary>Move</primary><secondary>RigidBody2DAutoAddRelativeForceUp</secondary></indexterm>
+<indexterm><primary>RigidBody2DAutoAddRelativeForceUp</primary><secondary>Move</secondary></indexterm>
+<para><computeroutput>void RigidBody2DAutoAddRelativeForceUp.Move ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_rigid_body2_d_auto_add_relative_force_up_1a8fc6c34e32ca4aad62d0b0ad461bb890"/><section>
+    <title>_rigidbody2D</title>
+<indexterm><primary>_rigidbody2D</primary><secondary>RigidBody2DAutoAddRelativeForceUp</secondary></indexterm>
+<indexterm><primary>RigidBody2DAutoAddRelativeForceUp</primary><secondary>_rigidbody2D</secondary></indexterm>
+<para><computeroutput>Rigidbody2D RigidBody2DAutoAddRelativeForceUp._rigidbody2D</computeroutput></para></section>
+<anchor xml:id="_class_rigid_body2_d_auto_add_relative_force_up_1a604a2d714fa8889f7ba99ece52f0ebf5"/><section>
+    <title>curAcelSpeed</title>
+<indexterm><primary>curAcelSpeed</primary><secondary>RigidBody2DAutoAddRelativeForceUp</secondary></indexterm>
+<indexterm><primary>RigidBody2DAutoAddRelativeForceUp</primary><secondary>curAcelSpeed</secondary></indexterm>
+<para><computeroutput>float RigidBody2DAutoAddRelativeForceUp.curAcelSpeed = 0</computeroutput></para></section>
+<anchor xml:id="_class_rigid_body2_d_auto_add_relative_force_up_1adb1c44f7f9b920b67cbf65624a5ee58a"/><section>
+    <title>maxMoveAcelSpeed</title>
+<indexterm><primary>maxMoveAcelSpeed</primary><secondary>RigidBody2DAutoAddRelativeForceUp</secondary></indexterm>
+<indexterm><primary>RigidBody2DAutoAddRelativeForceUp</primary><secondary>maxMoveAcelSpeed</secondary></indexterm>
+<para><computeroutput>float RigidBody2DAutoAddRelativeForceUp.maxMoveAcelSpeed = 10f</computeroutput></para></section>
+<anchor xml:id="_class_rigid_body2_d_auto_add_relative_force_up_1a7bb6138458318788dfef83d3d2efbd55"/><section>
+    <title>maxSprintAcelSpeed</title>
+<indexterm><primary>maxSprintAcelSpeed</primary><secondary>RigidBody2DAutoAddRelativeForceUp</secondary></indexterm>
+<indexterm><primary>RigidBody2DAutoAddRelativeForceUp</primary><secondary>maxSprintAcelSpeed</secondary></indexterm>
+<para><computeroutput>float RigidBody2DAutoAddRelativeForceUp.maxSprintAcelSpeed = 20f</computeroutput></para></section>
+<anchor xml:id="_class_rigid_body2_d_auto_add_relative_force_up_1acd536c272a69db706b71d5c07d228f2d"/><section>
+    <title>MoveAcelSpeed</title>
+<indexterm><primary>MoveAcelSpeed</primary><secondary>RigidBody2DAutoAddRelativeForceUp</secondary></indexterm>
+<indexterm><primary>RigidBody2DAutoAddRelativeForceUp</primary><secondary>MoveAcelSpeed</secondary></indexterm>
+<para><computeroutput>float RigidBody2DAutoAddRelativeForceUp.MoveAcelSpeed = 2.0f</computeroutput></para></section>
+<anchor xml:id="_class_rigid_body2_d_auto_add_relative_force_up_1a541948c660e68d0541128c96bbd16796"/><section>
+    <title>SprintAcelSpeed</title>
+<indexterm><primary>SprintAcelSpeed</primary><secondary>RigidBody2DAutoAddRelativeForceUp</secondary></indexterm>
+<indexterm><primary>RigidBody2DAutoAddRelativeForceUp</primary><secondary>SprintAcelSpeed</secondary></indexterm>
+<para><computeroutput>float RigidBody2DAutoAddRelativeForceUp.SprintAcelSpeed = 5.335f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/CommonExtend/2D/<link linkend="__rigid_body2_d_auto_add_relative_force_up_8cs">RigidBody2DAutoAddRelativeForceUp.cs</link></section>
+</section>

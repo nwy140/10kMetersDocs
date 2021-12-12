@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Extensions</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_extensions_1a1e3aa61bd3640bc7d27f67f3fe1775a2" prot="private" static="yes" mutable="no">
+        <type>System.Random</type>
+        <definition>System.Random Extensions.rng</definition>
+        <argsstring></argsstring>
+        <name>rng</name>
+        <initializer>= new System.Random()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Extensions.cs" line="7" column="33" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Extensions.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_extensions_1ae3e9e5ccb4c277438496b66c211b9807" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Extensions.Shuffle&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list)</argsstring>
+        <name>Shuffle&lt; T &gt;</name>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Extensions.cs" line="8" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Extensions.cs" bodystart="8" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Extensions</label>
+        <link refid="class_extensions"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Extensions.cs" line="5" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Extensions.cs" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_extensions_1a1e3aa61bd3640bc7d27f67f3fe1775a2" prot="private" virt="non-virtual"><scope>Extensions</scope><name>rng</name></member>
+      <member refid="class_extensions_1ae3e9e5ccb4c277438496b66c211b9807" prot="public" virt="non-virtual"><scope>Extensions</scope><name>Shuffle&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

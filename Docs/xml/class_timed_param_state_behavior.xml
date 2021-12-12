@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_timed_param_state_behavior" kind="class" language="C#" prot="public">
+    <compoundname>TimedParamStateBehavior</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">StateMachineBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_timed_param_state_behavior_1a6f456d268124eec95763ccf1dc09b97c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_set_param_state_data" kindref="compound">SetParamStateData</ref></type>
+        <definition>SetParamStateData TimedParamStateBehavior.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="9" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_timed_param_state_behavior_1a17f3d621193c677eb10199a96a0fef21" compoundref="_timed_param_state_behavior_8cs" startline="16" endline="22">OnStateEnter</referencedby>
+        <referencedby refid="class_timed_param_state_behavior_1a72a1b5b9d0a234efc96b4f85e37b3e8d" compoundref="_timed_param_state_behavior_8cs" startline="43" endline="50">OnStateExit</referencedby>
+        <referencedby refid="class_timed_param_state_behavior_1a5104771534ba2df328c50ac2a3dec512" compoundref="_timed_param_state_behavior_8cs" startline="25" endline="36">OnStateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_timed_param_state_behavior_1a7d383f1de1482b70e81c670a35749bbe" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TimedParamStateBehavior.Start</definition>
+        <argsstring></argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_timed_param_state_behavior_1a5104771534ba2df328c50ac2a3dec512" compoundref="_timed_param_state_behavior_8cs" startline="25" endline="36">OnStateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_timed_param_state_behavior_1a553e0d9444447c6ad3bb26ca1a1e223a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TimedParamStateBehavior.End</definition>
+        <argsstring></argsstring>
+        <name>End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="10" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_timed_param_state_behavior_1a5104771534ba2df328c50ac2a3dec512" compoundref="_timed_param_state_behavior_8cs" startline="25" endline="36">OnStateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_timed_param_state_behavior_1a73d0e2ebd2110fa88111fec04332792c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TimedParamStateBehavior._waitForExit</definition>
+        <argsstring></argsstring>
+        <name>_waitForExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_timed_param_state_behavior_1a4270c69d9f6a625a6c2736eda8d2ecb7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TimedParamStateBehavior._onTransitionExitTriggered</definition>
+        <argsstring></argsstring>
+        <name>_onTransitionExitTriggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="13" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_timed_param_state_behavior_1a17f3d621193c677eb10199a96a0fef21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TimedParamStateBehavior.OnStateEnter</definition>
+        <argsstring>(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</argsstring>
+        <name>OnStateEnter</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>AnimatorStateInfo</type>
+          <declname>stateInfo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="16" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="16" bodyend="22"/>
+        <references refid="class_timed_param_state_behavior_1a6f456d268124eec95763ccf1dc09b97c" compoundref="_timed_param_state_behavior_8cs" startline="9">data</references>
+        <references refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" compoundref="_param_state_behavior_8cs" startline="130" endline="148">SetParamStateData.SetAnimatorParamDatas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_timed_param_state_behavior_1a5104771534ba2df328c50ac2a3dec512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TimedParamStateBehavior.OnStateUpdate</definition>
+        <argsstring>(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</argsstring>
+        <name>OnStateUpdate</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>AnimatorStateInfo</type>
+          <declname>stateInfo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="25" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="25" bodyend="36"/>
+        <references refid="class_timed_param_state_behavior_1a6f456d268124eec95763ccf1dc09b97c" compoundref="_timed_param_state_behavior_8cs" startline="9">data</references>
+        <references refid="class_timed_param_state_behavior_1a553e0d9444447c6ad3bb26ca1a1e223a" compoundref="_timed_param_state_behavior_8cs" startline="10">End</references>
+        <references refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" compoundref="_param_state_behavior_8cs" startline="130" endline="148">SetParamStateData.SetAnimatorParamDatas</references>
+        <references refid="class_timed_param_state_behavior_1a7d383f1de1482b70e81c670a35749bbe" compoundref="_timed_param_state_behavior_8cs" startline="10">Start</references>
+      </memberdef>
+      <memberdef kind="function" id="class_timed_param_state_behavior_1a72a1b5b9d0a234efc96b4f85e37b3e8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TimedParamStateBehavior.OnStateExit</definition>
+        <argsstring>(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</argsstring>
+        <name>OnStateExit</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>AnimatorStateInfo</type>
+          <declname>stateInfo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="43" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="43" bodyend="50"/>
+        <references refid="class_timed_param_state_behavior_1a6f456d268124eec95763ccf1dc09b97c" compoundref="_timed_param_state_behavior_8cs" startline="9">data</references>
+        <references refid="class_set_param_state_data_1a3fce2a3b74e4e01bdf8c97d267023f25" compoundref="_param_state_behavior_8cs" startline="130" endline="148">SetParamStateData.SetAnimatorParamDatas</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_timed_param_state_behavior_1a75975cb38ff1f6dbef9f4e852b14241c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimedParamStateBehavior.OnStateTransitionExit</definition>
+        <argsstring>(Animator animator)</argsstring>
+        <name>OnStateTransitionExit</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="38" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_timed_param_state_behavior_1ad61075cce9130d1f1722566ea90572fe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TimedParamStateBehavior.CheckOnTransitionExit</definition>
+        <argsstring>(Animator animator, int layerIndex)</argsstring>
+        <name>CheckOnTransitionExit</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="52" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="52" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>StateMachineBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TimedParamStateBehavior</label>
+        <link refid="class_timed_param_state_behavior"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>SetParamStateData</label>
+        <link refid="class_set_param_state_data"/>
+      </node>
+      <node id="2">
+        <label>StateMachineBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TimedParamStateBehavior</label>
+        <link refid="class_timed_param_state_behavior"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" line="7" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/Animator/TimedParamStateBehavior.cs" bodystart="8" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_timed_param_state_behavior_1a4270c69d9f6a625a6c2736eda8d2ecb7" prot="private" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>_onTransitionExitTriggered</name></member>
+      <member refid="class_timed_param_state_behavior_1a73d0e2ebd2110fa88111fec04332792c" prot="private" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>_waitForExit</name></member>
+      <member refid="class_timed_param_state_behavior_1ad61075cce9130d1f1722566ea90572fe" prot="private" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>CheckOnTransitionExit</name></member>
+      <member refid="class_timed_param_state_behavior_1a6f456d268124eec95763ccf1dc09b97c" prot="public" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>data</name></member>
+      <member refid="class_timed_param_state_behavior_1a553e0d9444447c6ad3bb26ca1a1e223a" prot="public" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>End</name></member>
+      <member refid="class_timed_param_state_behavior_1a17f3d621193c677eb10199a96a0fef21" prot="public" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>OnStateEnter</name></member>
+      <member refid="class_timed_param_state_behavior_1a72a1b5b9d0a234efc96b4f85e37b3e8d" prot="public" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>OnStateExit</name></member>
+      <member refid="class_timed_param_state_behavior_1a75975cb38ff1f6dbef9f4e852b14241c" prot="private" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>OnStateTransitionExit</name></member>
+      <member refid="class_timed_param_state_behavior_1a5104771534ba2df328c50ac2a3dec512" prot="public" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>OnStateUpdate</name></member>
+      <member refid="class_timed_param_state_behavior_1a7d383f1de1482b70e81c670a35749bbe" prot="public" virt="non-virtual"><scope>TimedParamStateBehavior</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

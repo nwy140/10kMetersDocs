@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classturbine_unique" kind="class" language="C#" prot="public">
+    <compoundname>turbineUnique</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classturbine_unique_1aba0e0c597d966535a5593b62b98a5fed" prot="private" static="no" mutable="no">
+        <type>Collider2D</type>
+        <definition>Collider2D turbineUnique.col</definition>
+        <argsstring></argsstring>
+        <name>col</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="8" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classturbine_unique_1a0a03f70816e0295733f458b18408cdae" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D turbineUnique.rig</definition>
+        <argsstring></argsstring>
+        <name>rig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="9" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classturbine_unique_1a49a10099cf44eced231d40af4714212d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool turbineUnique.cooldownFlag</definition>
+        <argsstring></argsstring>
+        <name>cooldownFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="17" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classturbine_unique_1a92934bdd72f0c45640b1dacbc1608d70" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float turbineUnique.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classturbine_unique_1ab371237b189d79278ef4923fb054112b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float turbineUnique.timeToStopDash</definition>
+        <argsstring></argsstring>
+        <name>timeToStopDash</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="11" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classturbine_unique_1a20bce9e44bfaed9b77c03c165d422385" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float turbineUnique.cooldown</definition>
+        <argsstring></argsstring>
+        <name>cooldown</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="12" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classturbine_unique_1a466c0f7bb45100f5e66531fb06e6be9b" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] turbineUnique.allEnemy</definition>
+        <argsstring></argsstring>
+        <name>allEnemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="14" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classturbine_unique_1a4ffd5746f536942fac4ba82fbe5b6cd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void turbineUnique.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="20" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classturbine_unique_1a0dd9f25e779b68637e280494f015a7f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void turbineUnique.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="28" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classturbine_unique_1ac3b1f312e60206ccbd30205d531bff11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void turbineUnique.dash</definition>
+        <argsstring>(float speedX, float speedY)</argsstring>
+        <name>dash</name>
+        <param>
+          <type>float</type>
+          <declname>speedX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speedY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="63" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="63" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classturbine_unique_1a58fc20e00c3bcd2de2d92d5420d0770f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void turbineUnique.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="85" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="85" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classturbine_unique_1a7da67e03f96235caf0021d487b10179d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void turbineUnique.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="103" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="103" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classturbine_unique_1ab8f8b34350e205ab1cbe4664d74e7a7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator turbineUnique.dashCooldown</definition>
+        <argsstring>()</argsstring>
+        <name>dashCooldown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="133" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="133" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classturbine_unique_1a1841da8c345bbb8b4e4ed69748170dab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator turbineUnique.timeToStop</definition>
+        <argsstring>()</argsstring>
+        <name>timeToStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="141" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="141" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>turbineUnique</label>
+        <link refid="classturbine_unique"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>turbineUnique</label>
+        <link refid="classturbine_unique"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/turbineUnique.cs" bodystart="6" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classturbine_unique_1a466c0f7bb45100f5e66531fb06e6be9b" prot="public" virt="non-virtual"><scope>turbineUnique</scope><name>allEnemy</name></member>
+      <member refid="classturbine_unique_1a4ffd5746f536942fac4ba82fbe5b6cd5" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>Awake</name></member>
+      <member refid="classturbine_unique_1aba0e0c597d966535a5593b62b98a5fed" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>col</name></member>
+      <member refid="classturbine_unique_1a20bce9e44bfaed9b77c03c165d422385" prot="public" virt="non-virtual"><scope>turbineUnique</scope><name>cooldown</name></member>
+      <member refid="classturbine_unique_1a49a10099cf44eced231d40af4714212d" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>cooldownFlag</name></member>
+      <member refid="classturbine_unique_1ac3b1f312e60206ccbd30205d531bff11" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>dash</name></member>
+      <member refid="classturbine_unique_1ab8f8b34350e205ab1cbe4664d74e7a7b" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>dashCooldown</name></member>
+      <member refid="classturbine_unique_1a58fc20e00c3bcd2de2d92d5420d0770f" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="classturbine_unique_1a0a03f70816e0295733f458b18408cdae" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>rig</name></member>
+      <member refid="classturbine_unique_1a92934bdd72f0c45640b1dacbc1608d70" prot="public" virt="non-virtual"><scope>turbineUnique</scope><name>speed</name></member>
+      <member refid="classturbine_unique_1a0dd9f25e779b68637e280494f015a7f2" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>Start</name></member>
+      <member refid="classturbine_unique_1a1841da8c345bbb8b4e4ed69748170dab" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>timeToStop</name></member>
+      <member refid="classturbine_unique_1ab371237b189d79278ef4923fb054112b" prot="public" virt="non-virtual"><scope>turbineUnique</scope><name>timeToStopDash</name></member>
+      <member refid="classturbine_unique_1a7da67e03f96235caf0021d487b10179d" prot="private" virt="non-virtual"><scope>turbineUnique</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

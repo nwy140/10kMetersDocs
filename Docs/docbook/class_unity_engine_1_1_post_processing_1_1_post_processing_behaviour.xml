@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.PostProcessingBehaviour Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingBehaviour</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.PostProcessingBehaviour:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.PostProcessingBehaviour:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a12cc91b85fedc39bf7d777a2c4d49f17">ResetTemporalEffects</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile">PostProcessingProfile</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a34c4569526dd0e87af574653c99ab1db">profile</link></para>
+</listitem>
+            <listitem><para>Func&lt; Vector2, Matrix4x4 &gt; <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8cd98b27f5b575670763aeca458e2547">jitteredMatrixFunc</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a12cc91b85fedc39bf7d777a2c4d49f17"/><section>
+    <title>ResetTemporalEffects()</title>
+<indexterm><primary>ResetTemporalEffects</primary><secondary>UnityEngine.PostProcessing.PostProcessingBehaviour</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingBehaviour</primary><secondary>ResetTemporalEffects</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.PostProcessingBehaviour.ResetTemporalEffects ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_a12cc91b85fedc39bf7d777a2c4d49f17_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a8cd98b27f5b575670763aeca458e2547"/><section>
+    <title>jitteredMatrixFunc</title>
+<indexterm><primary>jitteredMatrixFunc</primary><secondary>UnityEngine.PostProcessing.PostProcessingBehaviour</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingBehaviour</primary><secondary>jitteredMatrixFunc</secondary></indexterm>
+<para><computeroutput>Func&lt;Vector2, Matrix4x4&gt; UnityEngine.PostProcessing.PostProcessingBehaviour.jitteredMatrixFunc</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a34c4569526dd0e87af574653c99ab1db"/><section>
+    <title>profile</title>
+<indexterm><primary>profile</primary><secondary>UnityEngine.PostProcessing.PostProcessingBehaviour</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingBehaviour</primary><secondary>profile</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile">PostProcessingProfile</link> UnityEngine.PostProcessing.PostProcessingBehaviour.profile</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/<link linkend="__post_processing_behaviour_8cs">PostProcessingBehaviour.cs</link></section>
+</section>

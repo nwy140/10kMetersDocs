@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_simple_controls_1_1_i_gameplay_actions" xml:lang="en-US">
+<title>SimpleControls.IGameplayActions Interface Reference</title>
+<indexterm><primary>SimpleControls.IGameplayActions</primary></indexterm>
+Collaboration diagram for SimpleControls.IGameplayActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_simple_controls_1_1_i_gameplay_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_simple_controls_1_1_i_gameplay_actions_1ab1604849bf93553c8f708bcde939b9cf">OnFire</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_simple_controls_1_1_i_gameplay_actions_1abf3d19d7ed1a44d120f2cb6d48360464">OnMove</link> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_simple_controls_1_1_i_gameplay_actions_1a7890e9fde7d8247885cc638dc6e9c55e">OnLook</link> (InputAction.CallbackContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_simple_controls_1_1_i_gameplay_actions_1ab1604849bf93553c8f708bcde939b9cf"/><section>
+    <title>OnFire()</title>
+<indexterm><primary>OnFire</primary><secondary>SimpleControls.IGameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.IGameplayActions</primary><secondary>OnFire</secondary></indexterm>
+<para><computeroutput>void SimpleControls.IGameplayActions.OnFire (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_simple_controls_1_1_i_gameplay_actions_ab1604849bf93553c8f708bcde939b9cf_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_simple_controls_1_1_i_gameplay_actions_1a7890e9fde7d8247885cc638dc6e9c55e"/><section>
+    <title>OnLook()</title>
+<indexterm><primary>OnLook</primary><secondary>SimpleControls.IGameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.IGameplayActions</primary><secondary>OnLook</secondary></indexterm>
+<para><computeroutput>void SimpleControls.IGameplayActions.OnLook (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_simple_controls_1_1_i_gameplay_actions_a7890e9fde7d8247885cc638dc6e9c55e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_interface_simple_controls_1_1_i_gameplay_actions_1abf3d19d7ed1a44d120f2cb6d48360464"/><section>
+    <title>OnMove()</title>
+<indexterm><primary>OnMove</primary><secondary>SimpleControls.IGameplayActions</secondary></indexterm>
+<indexterm><primary>SimpleControls.IGameplayActions</primary><secondary>OnMove</secondary></indexterm>
+<para><computeroutput>void SimpleControls.IGameplayActions.OnMove (InputAction.CallbackContext context)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_simple_controls_1_1_i_gameplay_actions_abf3d19d7ed1a44d120f2cb6d48360464_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Simple Demo/<link linkend="__simple_controls_8cs">SimpleControls.cs</link></section>
+</section>

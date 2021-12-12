@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions" xml:lang="en-US">
+<title>RebindUISampleActionsModified.GameplaySampleUnusedActions Struct Reference</title>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary></indexterm>
+Collaboration diagram for RebindUISampleActionsModified.GameplaySampleUnusedActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1abe7e8e863d8f87c8a6665c505d7ee788">GameplaySampleUnusedActions</link> (@<link linkend="_class_rebind_u_i_sample_actions_modified">RebindUISampleActionsModified</link> wrapper)</para>
+</listitem>
+            <listitem><para>InputActionMap <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a17404d91f0df73f1213d7b40e9a440ba">Get</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a69a91c10548c61e134ca899f0dde975e">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a199823eb9fbd441204056feb0770f004">Disable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1aed2da4e3e2fc364344609020538385a8">SetCallbacks</link> (<link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_gameplay_sample_unused_actions">IGameplaySampleUnusedActions</link> instance)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static implicit <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1ab26c61e38bba840997439e5ea4055122">operator InputActionMap</link> (<link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions">GameplaySampleUnusedActions</link> set)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a6a9f0e03e227c01a5f51f453082ee0ce">Move</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1ab082d1b45063d30732057d0cf0c1225e">Look</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a6b31dd0ef97d727a2ab0a2168ee00ab9">Interact</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a04aa361ae1b72263365f3e7003109d0c">enabled</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1abe7e8e863d8f87c8a6665c505d7ee788"/><section>
+    <title>GameplaySampleUnusedActions()</title>
+<indexterm><primary>GameplaySampleUnusedActions</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>GameplaySampleUnusedActions</secondary></indexterm>
+<para><computeroutput>RebindUISampleActionsModified.GameplaySampleUnusedActions.GameplaySampleUnusedActions (@<link linkend="_class_rebind_u_i_sample_actions_modified">RebindUISampleActionsModified</link> wrapper)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a199823eb9fbd441204056feb0770f004"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.GameplaySampleUnusedActions.Disable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_a199823eb9fbd441204056feb0770f004_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a69a91c10548c61e134ca899f0dde975e"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.GameplaySampleUnusedActions.Enable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_a69a91c10548c61e134ca899f0dde975e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a17404d91f0df73f1213d7b40e9a440ba"/><section>
+    <title>Get()</title>
+<indexterm><primary>Get</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>InputActionMap RebindUISampleActionsModified.GameplaySampleUnusedActions.Get ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_a17404d91f0df73f1213d7b40e9a440ba_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1ab26c61e38bba840997439e5ea4055122"/><section>
+    <title>operator InputActionMap()</title>
+<indexterm><primary>operator InputActionMap</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>operator InputActionMap</secondary></indexterm>
+<para><computeroutput>static implicit RebindUISampleActionsModified.GameplaySampleUnusedActions.operator InputActionMap (<link linkend="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions">GameplaySampleUnusedActions</link> set)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1aed2da4e3e2fc364344609020538385a8"/><section>
+    <title>SetCallbacks()</title>
+<indexterm><primary>SetCallbacks</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>SetCallbacks</secondary></indexterm>
+<para><computeroutput>void RebindUISampleActionsModified.GameplaySampleUnusedActions.SetCallbacks (<link linkend="_interface_rebind_u_i_sample_actions_modified_1_1_i_gameplay_sample_unused_actions">IGameplaySampleUnusedActions</link> instance)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_aed2da4e3e2fc364344609020538385a8_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a04aa361ae1b72263365f3e7003109d0c"/><section>
+    <title>enabled</title>
+<indexterm><primary>enabled</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>enabled</secondary></indexterm>
+<para><computeroutput>bool RebindUISampleActionsModified.GameplaySampleUnusedActions.enabled<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a6b31dd0ef97d727a2ab0a2168ee00ab9"/><section>
+    <title>Interact</title>
+<indexterm><primary>Interact</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>Interact</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.GameplaySampleUnusedActions.Interact<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1ab082d1b45063d30732057d0cf0c1225e"/><section>
+    <title>Look</title>
+<indexterm><primary>Look</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>Look</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.GameplaySampleUnusedActions.Look<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions_1a6a9f0e03e227c01a5f51f453082ee0ce"/><section>
+    <title>Move</title>
+<indexterm><primary>Move</primary><secondary>RebindUISampleActionsModified.GameplaySampleUnusedActions</secondary></indexterm>
+<indexterm><primary>RebindUISampleActionsModified.GameplaySampleUnusedActions</primary><secondary>Move</secondary></indexterm>
+<para><computeroutput>InputAction RebindUISampleActionsModified.GameplaySampleUnusedActions.Move<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/<link linkend="__rebind_u_i_sample_actions_modified_8cs">RebindUISampleActionsModified.cs</link></section>
+</section>

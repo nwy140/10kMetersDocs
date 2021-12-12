@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_tanks_input_actions_1_1_i_player_actions" kind="interface" language="C#" prot="public">
+    <compoundname>TanksInputActions::IPlayerActions</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_player_actions_1af2748877b719f79d8b208abb614ddbec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IPlayerActions.OnGas</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnGas</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="525" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_player_actions_1aadcdc0271de678b3d4e451bd0ad8ce90" compoundref="_tanks_input_actions_8cs" startline="398" endline="437">TanksInputActions.PlayerActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_player_actions_1af46d97b3d118b677ab0292fa89ac9695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IPlayerActions.OnBrake</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnBrake</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="526" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_player_actions_1aadcdc0271de678b3d4e451bd0ad8ce90" compoundref="_tanks_input_actions_8cs" startline="398" endline="437">TanksInputActions.PlayerActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_player_actions_1a7ec815739023a02fa5f56d246e6be8c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IPlayerActions.OnTurret</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnTurret</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="527" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_player_actions_1aadcdc0271de678b3d4e451bd0ad8ce90" compoundref="_tanks_input_actions_8cs" startline="398" endline="437">TanksInputActions.PlayerActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_player_actions_1a7a3cee78b1264760cd9522a24add995d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IPlayerActions.OnFire</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnFire</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="528" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_player_actions_1aadcdc0271de678b3d4e451bd0ad8ce90" compoundref="_tanks_input_actions_8cs" startline="398" endline="437">TanksInputActions.PlayerActions.SetCallbacks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_tanks_input_actions_1_1_i_player_actions_1a6644d0c055dc39c6ae919bbd2c3a30a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TanksInputActions.IPlayerActions.OnPause</definition>
+        <argsstring>(InputAction.CallbackContext context)</argsstring>
+        <name>OnPause</name>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="529" column="14"/>
+        <referencedby refid="struct_tanks_input_actions_1_1_player_actions_1aadcdc0271de678b3d4e451bd0ad8ce90" compoundref="_tanks_input_actions_8cs" startline="398" endline="437">TanksInputActions.PlayerActions.SetCallbacks</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TanksInputActions.IPlayerActions</label>
+        <link refid="interface_tanks_input_actions_1_1_i_player_actions"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" line="523" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/TanksInputActions.cs" bodystart="524" bodyend="530"/>
+    <listofallmembers>
+      <member refid="interface_tanks_input_actions_1_1_i_player_actions_1af46d97b3d118b677ab0292fa89ac9695" prot="public" virt="non-virtual"><scope>TanksInputActions::IPlayerActions</scope><name>OnBrake</name></member>
+      <member refid="interface_tanks_input_actions_1_1_i_player_actions_1a7a3cee78b1264760cd9522a24add995d" prot="public" virt="non-virtual"><scope>TanksInputActions::IPlayerActions</scope><name>OnFire</name></member>
+      <member refid="interface_tanks_input_actions_1_1_i_player_actions_1af2748877b719f79d8b208abb614ddbec" prot="public" virt="non-virtual"><scope>TanksInputActions::IPlayerActions</scope><name>OnGas</name></member>
+      <member refid="interface_tanks_input_actions_1_1_i_player_actions_1a6644d0c055dc39c6ae919bbd2c3a30a0" prot="public" virt="non-virtual"><scope>TanksInputActions::IPlayerActions</scope><name>OnPause</name></member>
+      <member refid="interface_tanks_input_actions_1_1_i_player_actions_1a7ec815739023a02fa5f56d246e6be8c6" prot="public" virt="non-virtual"><scope>TanksInputActions::IPlayerActions</scope><name>OnTurret</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

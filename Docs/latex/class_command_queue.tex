@@ -1,0 +1,275 @@
+\hypertarget{class_command_queue}{}\doxysection{Command\+Queue Class Reference}
+\label{class_command_queue}\index{CommandQueue@{CommandQueue}}
+
+
+Collaboration diagram for Command\+Queue\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{class_command_queue__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_command_queue_a7c17899beea609e834c8ebc947024c73}{On\+Update}} ()
+\item 
+void \mbox{\hyperlink{class_command_queue_a2332b95d6a6d25ec9ac49ef6d4bc2d36}{Display\+Log\+Text}} ()
+\item 
+void \mbox{\hyperlink{class_command_queue_a49bdb3f6c6ba3fe06175aeec03b5cdc3}{Enqueue}} (\mbox{\hyperlink{class_command_base}{Command\+Base}} command)
+\item 
+\mbox{\hyperlink{class_command_base}{Command\+Base}} \mbox{\hyperlink{class_command_queue_ac6faf8163ad0427d049f3c6051d8cdb7}{Dequeue}} ()
+\item 
+void \mbox{\hyperlink{class_command_queue_a5cabe5bc15b329d1a055f96c85487536}{On\+Queue\+Modified}} ()
+\item 
+\mbox{\hyperlink{class_command_base}{Command\+Base}} \mbox{\hyperlink{class_command_queue_a3e75a40a7905a7cffeb55130f49bfcdd}{Try\+Execute\+Command}} (\mbox{\hyperlink{class_command_base}{Command\+Base}} command, bool will\+Instante\+AClone\+SO=false)
+\item 
+virtual void \mbox{\hyperlink{class_command_queue_ac4bf2295a1f39ed4827b7381691c7912}{Undo\+Last\+Command}} ()
+\item 
+void \mbox{\hyperlink{class_command_queue_a450a8cae5d83f56c51b8d3a0be567e36}{Remove}} (\mbox{\hyperlink{class_command_base}{Command\+Base}} c)
+\item 
+void \mbox{\hyperlink{class_command_queue_a285befddbc2fdc8862cdec31a1463198}{Remove\+At}} (int index)
+\item 
+bool \mbox{\hyperlink{class_command_queue_a7433b6aefa8697a01e1f4bee913af70a}{Contains}} (string command\+Name)
+\item 
+void \mbox{\hyperlink{class_command_queue_aa593a4ba6e81bdc7bdf831c16564b69f}{Clear}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$ string $>$ \mbox{\hyperlink{class_command_queue_ae254395b75d332c79a0b55f17f062b7f}{\+\_\+command\+Names\+History}} = new \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$string$>$()
+\item 
+\mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$ float $>$ \mbox{\hyperlink{class_command_queue_a37d6f9bd9dcc782f0e454797ffa1af95}{\+\_\+command\+Time\+Stamps}} = new \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$float$>$()
+\item 
+\mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$ \mbox{\hyperlink{class_command_base}{Command\+Base}} $>$ \mbox{\hyperlink{class_command_queue_aeb320924717bd033db344c2b2d95b19a}{\+\_\+command\+History}} = new \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$\mbox{\hyperlink{class_command_base}{Command\+Base}}$>$()
+\item 
+int \mbox{\hyperlink{class_command_queue_a12f0dbfa7f5767c0a80317e461b6ed08}{max\+Count}} = 30
+\item 
+Text \mbox{\hyperlink{class_command_queue_a57377653199a51e3e17930ecef0af777}{Log\+Text}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_command_queue_a51daa38d294e2e46520b681a173b9aa8}{Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_command_queue_aa593a4ba6e81bdc7bdf831c16564b69f}\label{class_command_queue_aa593a4ba6e81bdc7bdf831c16564b69f}} 
+\index{CommandQueue@{CommandQueue}!Clear@{Clear}}
+\index{Clear@{Clear}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void Command\+Queue.\+Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_aa593a4ba6e81bdc7bdf831c16564b69f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_a7433b6aefa8697a01e1f4bee913af70a}\label{class_command_queue_a7433b6aefa8697a01e1f4bee913af70a}} 
+\index{CommandQueue@{CommandQueue}!Contains@{Contains}}
+\index{Contains@{Contains}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{Contains()}{Contains()}}
+{\footnotesize\ttfamily bool Command\+Queue.\+Contains (\begin{DoxyParamCaption}\item[{string}]{command\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_command_queue_ac6faf8163ad0427d049f3c6051d8cdb7}\label{class_command_queue_ac6faf8163ad0427d049f3c6051d8cdb7}} 
+\index{CommandQueue@{CommandQueue}!Dequeue@{Dequeue}}
+\index{Dequeue@{Dequeue}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{Dequeue()}{Dequeue()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_command_base}{Command\+Base}} Command\+Queue.\+Dequeue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_ac6faf8163ad0427d049f3c6051d8cdb7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_ac6faf8163ad0427d049f3c6051d8cdb7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_a2332b95d6a6d25ec9ac49ef6d4bc2d36}\label{class_command_queue_a2332b95d6a6d25ec9ac49ef6d4bc2d36}} 
+\index{CommandQueue@{CommandQueue}!DisplayLogText@{DisplayLogText}}
+\index{DisplayLogText@{DisplayLogText}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{DisplayLogText()}{DisplayLogText()}}
+{\footnotesize\ttfamily void Command\+Queue.\+Display\+Log\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a2332b95d6a6d25ec9ac49ef6d4bc2d36_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_a49bdb3f6c6ba3fe06175aeec03b5cdc3}\label{class_command_queue_a49bdb3f6c6ba3fe06175aeec03b5cdc3}} 
+\index{CommandQueue@{CommandQueue}!Enqueue@{Enqueue}}
+\index{Enqueue@{Enqueue}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{Enqueue()}{Enqueue()}}
+{\footnotesize\ttfamily void Command\+Queue.\+Enqueue (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_command_base}{Command\+Base}}}]{command }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a49bdb3f6c6ba3fe06175aeec03b5cdc3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a49bdb3f6c6ba3fe06175aeec03b5cdc3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_a5cabe5bc15b329d1a055f96c85487536}\label{class_command_queue_a5cabe5bc15b329d1a055f96c85487536}} 
+\index{CommandQueue@{CommandQueue}!OnQueueModified@{OnQueueModified}}
+\index{OnQueueModified@{OnQueueModified}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{OnQueueModified()}{OnQueueModified()}}
+{\footnotesize\ttfamily void Command\+Queue.\+On\+Queue\+Modified (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a5cabe5bc15b329d1a055f96c85487536_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_a7c17899beea609e834c8ebc947024c73}\label{class_command_queue_a7c17899beea609e834c8ebc947024c73}} 
+\index{CommandQueue@{CommandQueue}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{OnUpdate()}{OnUpdate()}}
+{\footnotesize\ttfamily void Command\+Queue.\+On\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a7c17899beea609e834c8ebc947024c73_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_a450a8cae5d83f56c51b8d3a0be567e36}\label{class_command_queue_a450a8cae5d83f56c51b8d3a0be567e36}} 
+\index{CommandQueue@{CommandQueue}!Remove@{Remove}}
+\index{Remove@{Remove}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily void Command\+Queue.\+Remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_command_base}{Command\+Base}}}]{c }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a450a8cae5d83f56c51b8d3a0be567e36_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_a285befddbc2fdc8862cdec31a1463198}\label{class_command_queue_a285befddbc2fdc8862cdec31a1463198}} 
+\index{CommandQueue@{CommandQueue}!RemoveAt@{RemoveAt}}
+\index{RemoveAt@{RemoveAt}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{RemoveAt()}{RemoveAt()}}
+{\footnotesize\ttfamily void Command\+Queue.\+Remove\+At (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a285befddbc2fdc8862cdec31a1463198_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a285befddbc2fdc8862cdec31a1463198_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_a3e75a40a7905a7cffeb55130f49bfcdd}\label{class_command_queue_a3e75a40a7905a7cffeb55130f49bfcdd}} 
+\index{CommandQueue@{CommandQueue}!TryExecuteCommand@{TryExecuteCommand}}
+\index{TryExecuteCommand@{TryExecuteCommand}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{TryExecuteCommand()}{TryExecuteCommand()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_command_base}{Command\+Base}} Command\+Queue.\+Try\+Execute\+Command (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_command_base}{Command\+Base}}}]{command,  }\item[{bool}]{will\+Instante\+AClone\+SO = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_a3e75a40a7905a7cffeb55130f49bfcdd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_queue_ac4bf2295a1f39ed4827b7381691c7912}\label{class_command_queue_ac4bf2295a1f39ed4827b7381691c7912}} 
+\index{CommandQueue@{CommandQueue}!UndoLastCommand@{UndoLastCommand}}
+\index{UndoLastCommand@{UndoLastCommand}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{UndoLastCommand()}{UndoLastCommand()}}
+{\footnotesize\ttfamily virtual void Command\+Queue.\+Undo\+Last\+Command (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_queue_ac4bf2295a1f39ed4827b7381691c7912_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_command_queue_aeb320924717bd033db344c2b2d95b19a}\label{class_command_queue_aeb320924717bd033db344c2b2d95b19a}} 
+\index{CommandQueue@{CommandQueue}!\_commandHistory@{\_commandHistory}}
+\index{\_commandHistory@{\_commandHistory}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{\_commandHistory}{\_commandHistory}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$\mbox{\hyperlink{class_command_base}{Command\+Base}}$>$ Command\+Queue.\+\_\+command\+History = new \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$\mbox{\hyperlink{class_command_base}{Command\+Base}}$>$()}
+
+\mbox{\Hypertarget{class_command_queue_ae254395b75d332c79a0b55f17f062b7f}\label{class_command_queue_ae254395b75d332c79a0b55f17f062b7f}} 
+\index{CommandQueue@{CommandQueue}!\_commandNamesHistory@{\_commandNamesHistory}}
+\index{\_commandNamesHistory@{\_commandNamesHistory}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{\_commandNamesHistory}{\_commandNamesHistory}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$string$>$ Command\+Queue.\+\_\+command\+Names\+History = new \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$string$>$()}
+
+\mbox{\Hypertarget{class_command_queue_a37d6f9bd9dcc782f0e454797ffa1af95}\label{class_command_queue_a37d6f9bd9dcc782f0e454797ffa1af95}} 
+\index{CommandQueue@{CommandQueue}!\_commandTimeStamps@{\_commandTimeStamps}}
+\index{\_commandTimeStamps@{\_commandTimeStamps}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{\_commandTimeStamps}{\_commandTimeStamps}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$float$>$ Command\+Queue.\+\_\+command\+Time\+Stamps = new \mbox{\hyperlink{class_serializable_queue_list}{Serializable\+Queue\+List}}$<$float$>$()}
+
+\mbox{\Hypertarget{class_command_queue_a57377653199a51e3e17930ecef0af777}\label{class_command_queue_a57377653199a51e3e17930ecef0af777}} 
+\index{CommandQueue@{CommandQueue}!LogText@{LogText}}
+\index{LogText@{LogText}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{LogText}{LogText}}
+{\footnotesize\ttfamily Text Command\+Queue.\+Log\+Text}
+
+\mbox{\Hypertarget{class_command_queue_a12f0dbfa7f5767c0a80317e461b6ed08}\label{class_command_queue_a12f0dbfa7f5767c0a80317e461b6ed08}} 
+\index{CommandQueue@{CommandQueue}!maxCount@{maxCount}}
+\index{maxCount@{maxCount}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{maxCount}{maxCount}}
+{\footnotesize\ttfamily int Command\+Queue.\+max\+Count = 30}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_command_queue_a51daa38d294e2e46520b681a173b9aa8}\label{class_command_queue_a51daa38d294e2e46520b681a173b9aa8}} 
+\index{CommandQueue@{CommandQueue}!Count@{Count}}
+\index{Count@{Count}!CommandQueue@{CommandQueue}}
+\doxysubsubsection{\texorpdfstring{Count}{Count}}
+{\footnotesize\ttfamily int Command\+Queue.\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+Command\+Pattern/\+Command/\+My\+Scripts/\mbox{\hyperlink{_command_queue_8cs}{Command\+Queue.\+cs}}\end{DoxyCompactItemize}

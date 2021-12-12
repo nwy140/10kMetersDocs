@@ -1,0 +1,297 @@
+\hypertarget{class_input_command}{}\doxysection{Input\+Command Class Reference}
+\label{class_input_command}\index{InputCommand@{InputCommand}}
+
+
+Inheritance diagram for Input\+Command\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_input_command__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Input\+Command\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_input_command_1_1_exec_extra_info}{Exec\+Extra\+Info}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_input_command_a43dcf98e0801e194dd8030212cc3e145}{Set\+Exec\+Extra\+Info\+By\+Exec\+Extra\+Info}} (\mbox{\hyperlink{struct_input_command_1_1_exec_extra_info}{Exec\+Extra\+Info}} ex2)
+\item 
+override void \mbox{\hyperlink{class_input_command_a66721cfb45ec22e7137721a8e7e5cbf5}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_input_command_a4470c759214a801d8f73f6f6190f2f76}{Set\+Exec\+Info}} (bool Is\+Press)
+\item 
+override void \mbox{\hyperlink{class_input_command_a32ba692a92ce5fd84c67ab3d320965ad}{Try\+Exec\+Command}} ()
+\item 
+override void \mbox{\hyperlink{class_input_command_a6f825e18af09b2d7e8538032c3d8fc73}{Exec\+Press}} ()
+\item 
+override void \mbox{\hyperlink{class_input_command_a8295f4448a37878709bda4b7db5ce75f}{Exec\+Down}} ()
+\item 
+override void \mbox{\hyperlink{class_input_command_ac4054b550c7ee70288847ea070f68af0}{Exec\+Down\+Charging}} ()
+\item 
+override void \mbox{\hyperlink{class_input_command_a6a4ffd343a3f092fae5db46a7b2b0993}{Exec\+Release}} ()
+\item 
+override void \mbox{\hyperlink{class_input_command_a30f8aedff59388b5293975b3cbfba443}{Execd}} ()
+\item 
+override void \mbox{\hyperlink{class_input_command_a64de2217fb20e650e8e04e1c80deaef8}{On\+External\+Update}} ()
+\item 
+void \mbox{\hyperlink{class_input_command_a97a167a50735820e585e0f6c9b926ede}{On\+Input}} (Input\+Action.\+Callback\+Context context)
+\item 
+void \mbox{\hyperlink{class_input_command_a83a32db6da3e61a90b0a44232beaa266}{On\+Input}} (Input\+Value value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_input_command_1_1_exec_extra_info}{Exec\+Extra\+Info}} \mbox{\hyperlink{class_input_command_abe94f0184191eb65faabf23b8330de64}{exec\+Extra\+Info}}
+\item 
+bool \mbox{\hyperlink{class_input_command_a650667185330f536d9d30006d0f24fb1}{is\+Exec\+Charged\+Style}}
+\item 
+bool \mbox{\hyperlink{class_input_command_a367ec9a14bb8adf2a0e6c8d08d69e293}{is\+Full\+Charge\+Auto\+Release}}
+\item 
+Slider \mbox{\hyperlink{class_input_command_a7a80fa14702ddfb758a102a049e4b646}{m\+\_\+\+Aim\+Slider}}
+\item 
+float \mbox{\hyperlink{class_input_command_a66f6ff264504a60e916f48ebcf505314}{m\+\_\+\+Min\+Launch\+Force}} = 15f
+\item 
+float \mbox{\hyperlink{class_input_command_a83a0c47291eecef5303b9b2eab9b3f49}{m\+\_\+\+Max\+Launch\+Force}} = 30f
+\item 
+float \mbox{\hyperlink{class_input_command_aa625570f0ab58850e7c4a7dc11252f70}{m\+\_\+\+Max\+Charge\+Time}} = 0.\+75f
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_input_command_a30f8aedff59388b5293975b3cbfba443}\label{class_input_command_a30f8aedff59388b5293975b3cbfba443}} 
+\index{InputCommand@{InputCommand}!Execd@{Execd}}
+\index{Execd@{Execd}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{Execd()}{Execd()}}
+{\footnotesize\ttfamily override void Input\+Command.\+Execd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_command_base_ae0f9aff4793563e3681b052196c93c61}{Command\+Base}}.
+
+\mbox{\Hypertarget{class_input_command_a8295f4448a37878709bda4b7db5ce75f}\label{class_input_command_a8295f4448a37878709bda4b7db5ce75f}} 
+\index{InputCommand@{InputCommand}!ExecDown@{ExecDown}}
+\index{ExecDown@{ExecDown}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{ExecDown()}{ExecDown()}}
+{\footnotesize\ttfamily override void Input\+Command.\+Exec\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_command_base_ac2d48e3cddefeb4e6a6eabba41aa7577}{Command\+Base}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command_a8295f4448a37878709bda4b7db5ce75f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_input_command_ac4054b550c7ee70288847ea070f68af0}\label{class_input_command_ac4054b550c7ee70288847ea070f68af0}} 
+\index{InputCommand@{InputCommand}!ExecDownCharging@{ExecDownCharging}}
+\index{ExecDownCharging@{ExecDownCharging}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{ExecDownCharging()}{ExecDownCharging()}}
+{\footnotesize\ttfamily override void Input\+Command.\+Exec\+Down\+Charging (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_command_base_abce04e951d2ff38afc8110a7e230e0ad}{Command\+Base}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command_ac4054b550c7ee70288847ea070f68af0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_input_command_a6f825e18af09b2d7e8538032c3d8fc73}\label{class_input_command_a6f825e18af09b2d7e8538032c3d8fc73}} 
+\index{InputCommand@{InputCommand}!ExecPress@{ExecPress}}
+\index{ExecPress@{ExecPress}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{ExecPress()}{ExecPress()}}
+{\footnotesize\ttfamily override void Input\+Command.\+Exec\+Press (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_command_base_a2555099b8b8f7345919865ca0daa4bdb}{Command\+Base}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_enable_disable_game_object_command_a90b52b05f06141aa37a6861111b4cb0a}{Enable\+Disable\+Game\+Object\+Command}}, and \mbox{\hyperlink{class_set_material_color_command_aa2fe24ca4fd7a4e27d2a0d56c44f66f7}{Set\+Material\+Color\+Command}}.
+
+\mbox{\Hypertarget{class_input_command_a6a4ffd343a3f092fae5db46a7b2b0993}\label{class_input_command_a6a4ffd343a3f092fae5db46a7b2b0993}} 
+\index{InputCommand@{InputCommand}!ExecRelease@{ExecRelease}}
+\index{ExecRelease@{ExecRelease}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{ExecRelease()}{ExecRelease()}}
+{\footnotesize\ttfamily override void Input\+Command.\+Exec\+Release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_command_base_a9f05ac9b2cd4da7f0649e5767629d298}{Command\+Base}}.
+
+\mbox{\Hypertarget{class_input_command_a66721cfb45ec22e7137721a8e7e5cbf5}\label{class_input_command_a66721cfb45ec22e7137721a8e7e5cbf5}} 
+\index{InputCommand@{InputCommand}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily override void Input\+Command.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_command_base_a715925776f1d5f4cb3c75d60043455bd}{Command\+Base}}.
+
+\mbox{\Hypertarget{class_input_command_a64de2217fb20e650e8e04e1c80deaef8}\label{class_input_command_a64de2217fb20e650e8e04e1c80deaef8}} 
+\index{InputCommand@{InputCommand}!OnExternalUpdate@{OnExternalUpdate}}
+\index{OnExternalUpdate@{OnExternalUpdate}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{OnExternalUpdate()}{OnExternalUpdate()}}
+{\footnotesize\ttfamily override void Input\+Command.\+On\+External\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_command_base_a2bd013311318d3d861a7d6f2a8b42cb0}{Command\+Base}}.
+
+\mbox{\Hypertarget{class_input_command_a97a167a50735820e585e0f6c9b926ede}\label{class_input_command_a97a167a50735820e585e0f6c9b926ede}} 
+\index{InputCommand@{InputCommand}!OnInput@{OnInput}}
+\index{OnInput@{OnInput}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{OnInput()}{OnInput()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Input\+Command.\+On\+Input (\begin{DoxyParamCaption}\item[{Input\+Action.\+Callback\+Context}]{context }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command_a97a167a50735820e585e0f6c9b926ede_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command_a97a167a50735820e585e0f6c9b926ede_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_input_command_a83a32db6da3e61a90b0a44232beaa266}\label{class_input_command_a83a32db6da3e61a90b0a44232beaa266}} 
+\index{InputCommand@{InputCommand}!OnInput@{OnInput}}
+\index{OnInput@{OnInput}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{OnInput()}{OnInput()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Input\+Command.\+On\+Input (\begin{DoxyParamCaption}\item[{Input\+Value}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command_a83a32db6da3e61a90b0a44232beaa266_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_input_command_a43dcf98e0801e194dd8030212cc3e145}\label{class_input_command_a43dcf98e0801e194dd8030212cc3e145}} 
+\index{InputCommand@{InputCommand}!SetExecExtraInfoByExecExtraInfo@{SetExecExtraInfoByExecExtraInfo}}
+\index{SetExecExtraInfoByExecExtraInfo@{SetExecExtraInfoByExecExtraInfo}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{SetExecExtraInfoByExecExtraInfo()}{SetExecExtraInfoByExecExtraInfo()}}
+{\footnotesize\ttfamily void Input\+Command.\+Set\+Exec\+Extra\+Info\+By\+Exec\+Extra\+Info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_input_command_1_1_exec_extra_info}{Exec\+Extra\+Info}}}]{ex2 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command_a43dcf98e0801e194dd8030212cc3e145_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_input_command_a4470c759214a801d8f73f6f6190f2f76}\label{class_input_command_a4470c759214a801d8f73f6f6190f2f76}} 
+\index{InputCommand@{InputCommand}!SetExecInfo@{SetExecInfo}}
+\index{SetExecInfo@{SetExecInfo}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{SetExecInfo()}{SetExecInfo()}}
+{\footnotesize\ttfamily void Input\+Command.\+Set\+Exec\+Info (\begin{DoxyParamCaption}\item[{bool}]{Is\+Press }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command_a4470c759214a801d8f73f6f6190f2f76_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_input_command_a32ba692a92ce5fd84c67ab3d320965ad}\label{class_input_command_a32ba692a92ce5fd84c67ab3d320965ad}} 
+\index{InputCommand@{InputCommand}!TryExecCommand@{TryExecCommand}}
+\index{TryExecCommand@{TryExecCommand}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{TryExecCommand()}{TryExecCommand()}}
+{\footnotesize\ttfamily override void Input\+Command.\+Try\+Exec\+Command (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_command_base_a405d08e553ab58bb187c762a91fe20d8}{Command\+Base}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_input_command_a32ba692a92ce5fd84c67ab3d320965ad_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_input_command_abe94f0184191eb65faabf23b8330de64}\label{class_input_command_abe94f0184191eb65faabf23b8330de64}} 
+\index{InputCommand@{InputCommand}!execExtraInfo@{execExtraInfo}}
+\index{execExtraInfo@{execExtraInfo}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{execExtraInfo}{execExtraInfo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_input_command_1_1_exec_extra_info}{Exec\+Extra\+Info}} Input\+Command.\+exec\+Extra\+Info}
+
+\mbox{\Hypertarget{class_input_command_a650667185330f536d9d30006d0f24fb1}\label{class_input_command_a650667185330f536d9d30006d0f24fb1}} 
+\index{InputCommand@{InputCommand}!isExecChargedStyle@{isExecChargedStyle}}
+\index{isExecChargedStyle@{isExecChargedStyle}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{isExecChargedStyle}{isExecChargedStyle}}
+{\footnotesize\ttfamily bool Input\+Command.\+is\+Exec\+Charged\+Style}
+
+\mbox{\Hypertarget{class_input_command_a367ec9a14bb8adf2a0e6c8d08d69e293}\label{class_input_command_a367ec9a14bb8adf2a0e6c8d08d69e293}} 
+\index{InputCommand@{InputCommand}!isFullChargeAutoRelease@{isFullChargeAutoRelease}}
+\index{isFullChargeAutoRelease@{isFullChargeAutoRelease}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{isFullChargeAutoRelease}{isFullChargeAutoRelease}}
+{\footnotesize\ttfamily bool Input\+Command.\+is\+Full\+Charge\+Auto\+Release}
+
+\mbox{\Hypertarget{class_input_command_a7a80fa14702ddfb758a102a049e4b646}\label{class_input_command_a7a80fa14702ddfb758a102a049e4b646}} 
+\index{InputCommand@{InputCommand}!m\_AimSlider@{m\_AimSlider}}
+\index{m\_AimSlider@{m\_AimSlider}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{m\_AimSlider}{m\_AimSlider}}
+{\footnotesize\ttfamily Slider Input\+Command.\+m\+\_\+\+Aim\+Slider}
+
+\mbox{\Hypertarget{class_input_command_aa625570f0ab58850e7c4a7dc11252f70}\label{class_input_command_aa625570f0ab58850e7c4a7dc11252f70}} 
+\index{InputCommand@{InputCommand}!m\_MaxChargeTime@{m\_MaxChargeTime}}
+\index{m\_MaxChargeTime@{m\_MaxChargeTime}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{m\_MaxChargeTime}{m\_MaxChargeTime}}
+{\footnotesize\ttfamily float Input\+Command.\+m\+\_\+\+Max\+Charge\+Time = 0.\+75f}
+
+\mbox{\Hypertarget{class_input_command_a83a0c47291eecef5303b9b2eab9b3f49}\label{class_input_command_a83a0c47291eecef5303b9b2eab9b3f49}} 
+\index{InputCommand@{InputCommand}!m\_MaxLaunchForce@{m\_MaxLaunchForce}}
+\index{m\_MaxLaunchForce@{m\_MaxLaunchForce}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{m\_MaxLaunchForce}{m\_MaxLaunchForce}}
+{\footnotesize\ttfamily float Input\+Command.\+m\+\_\+\+Max\+Launch\+Force = 30f}
+
+\mbox{\Hypertarget{class_input_command_a66f6ff264504a60e916f48ebcf505314}\label{class_input_command_a66f6ff264504a60e916f48ebcf505314}} 
+\index{InputCommand@{InputCommand}!m\_MinLaunchForce@{m\_MinLaunchForce}}
+\index{m\_MinLaunchForce@{m\_MinLaunchForce}!InputCommand@{InputCommand}}
+\doxysubsubsection{\texorpdfstring{m\_MinLaunchForce}{m\_MinLaunchForce}}
+{\footnotesize\ttfamily float Input\+Command.\+m\+\_\+\+Min\+Launch\+Force = 15f}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+Command\+Pattern/\+Command/\+SOScripts/\mbox{\hyperlink{_input_command_8cs}{Input\+Command.\+cs}}\end{DoxyCompactItemize}

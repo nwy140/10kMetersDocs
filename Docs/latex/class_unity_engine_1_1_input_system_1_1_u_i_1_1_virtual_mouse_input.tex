@@ -1,0 +1,298 @@
+\hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input}{}\doxysection{Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input Class Reference}
+\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input}\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+
+
+A component that creates a virtual Mouse device and drives its input from gamepad-\/style inputs.  
+
+
+
+
+Inheritance diagram for Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169}{Cursor\+Mode}} \{ \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169a9c947e305c5e18893723b4dd23e26569}{Software\+Cursor}}
+, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521}{Hardware\+Cursor\+If\+Available}}
+ \}
+\begin{DoxyCompactList}\small\item\em Determines how the cursor for the virtual mouse is represented. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab68c176f775cb42c44695cd30b7783a1}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab6f8ddbb3b7b9f86618f7aa0cb8ba939}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Rect\+Transform \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab7e6b4d09d9fbf392de5cfb95e66071a}{cursor\+Transform}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Optional transform that will be updated to correspond to the current mouse position. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a6f988f3122704289114872f39522630f}{cursor\+Speed}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em How many pixels per second the cursor travels in one axis when the respective axis from \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a97b535934a9747f7ea0b116fab9261a5}{stick\+Action}} is 1. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169}{Cursor\+Mode}} \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_aaba471e985a805943ba52db802b6c13c}{cursor\+Mode}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Determines which cursor representation to use. \end{DoxyCompactList}\item 
+Graphic \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_af3370c9f5f45a7e0b235539a55d29cea}{cursor\+Graphic}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} graphic element that represents the mouse cursor. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a854cf6f7aba67a71349a8ca68ac30302}{scroll\+Speed}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Multiplier for values received from \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a4301db4eb88d512bbeec2deac85ffcbb}{scroll\+Wheel\+Action}}. \end{DoxyCompactList}\item 
+Mouse \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The virtual mouse device that the component feeds with input. \end{DoxyCompactList}\item 
+Input\+Action\+Property \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a97b535934a9747f7ea0b116fab9261a5}{stick\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The Vector2 stick input that drives the mouse cursor, i.\+e. \end{DoxyCompactList}\item 
+Input\+Action\+Property \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a45b3667aecf3273cbb8cf077345ea5b2}{left\+Button\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Optional button input that determines when Mouse.\+left\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. \end{DoxyCompactList}\item 
+Input\+Action\+Property \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ae833671e88d8c2a3bb8984fc362bd292}{right\+Button\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Optional button input that determines when Mouse.\+right\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. \end{DoxyCompactList}\item 
+Input\+Action\+Property \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad39bfec811ff08f0c824357038eb5b17}{middle\+Button\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Optional button input that determines when Mouse.\+middle\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. \end{DoxyCompactList}\item 
+Input\+Action\+Property \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab1c00f346ded23ce0b4a3e92fa164c1d}{forward\+Button\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Optional button input that determines when Mouse.\+forward\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. \end{DoxyCompactList}\item 
+Input\+Action\+Property \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a7a947e38440b1c66c4bd4b2ae05d4023}{back\+Button\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Optional button input that determines when Mouse.\+forward\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. \end{DoxyCompactList}\item 
+Input\+Action\+Property \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a4301db4eb88d512bbeec2deac85ffcbb}{scroll\+Wheel\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Optional Vector2 value input that determines the value of Mouse.\+scroll on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A component that creates a virtual Mouse device and drives its input from gamepad-\/style inputs. 
+
+This effectively adds a software mouse cursor. 
+
+This component can be used with UIs that are designed for mouse input, i.\+e. need to be operated with a cursor. By hooking up the Input\+Actions of this component to gamepad input and directing \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab7e6b4d09d9fbf392de5cfb95e66071a}{cursor\+Transform}} to the \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} transform of the cursor, you can use this component to drive an on-\/screen cursor.
+
+Note that this component does not actually trigger \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} input itself. Instead, it creates a virtual Mouse device which can then be picked up elsewhere (such as by Input\+System\+UIInput\+Module) where mouse/pointer input is expected.
+
+Also note that if there is a Mouse added by the platform, it is not impacted by this component. More specifically, the system mouse cursor will not be moved or otherwise used by this component. 
+
+\begin{DoxySeeAlso}{See also}
+Gamepad, Mouse
+
+
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!CursorMode@{CursorMode}}
+\index{CursorMode@{CursorMode}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{CursorMode}{CursorMode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169}{Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+Cursor\+Mode}}}
+
+
+
+Determines how the cursor for the virtual mouse is represented. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_aaba471e985a805943ba52db802b6c13c}{cursor\+Mode}}
+
+
+\end{DoxySeeAlso}
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SoftwareCursor@{SoftwareCursor}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!SoftwareCursor@{SoftwareCursor}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169a9c947e305c5e18893723b4dd23e26569}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169a9c947e305c5e18893723b4dd23e26569}} 
+Software\+Cursor&The cursor is represented as a \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} element. See \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_af3370c9f5f45a7e0b235539a55d29cea}{cursor\+Graphic}}. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HardwareCursorIfAvailable@{HardwareCursorIfAvailable}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!HardwareCursorIfAvailable@{HardwareCursorIfAvailable}}}\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521}} 
+Hardware\+Cursor\+If\+Available&If a native Mouse device is present, its cursor will be used and driven by the virtual mouse using Mouse.\+Warp\+Cursor\+Position. The software cursor referenced by \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_af3370c9f5f45a7e0b235539a55d29cea}{cursor\+Graphic}} will be disabled.
+
+Note that if no native Mouse is present, behavior will fall back to Software\+Cursor. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab6f8ddbb3b7b9f86618f7aa0cb8ba939}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab6f8ddbb3b7b9f86618f7aa0cb8ba939}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab68c176f775cb42c44695cd30b7783a1}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab68c176f775cb42c44695cd30b7783a1}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a7a947e38440b1c66c4bd4b2ae05d4023}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a7a947e38440b1c66c4bd4b2ae05d4023}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!backButtonAction@{backButtonAction}}
+\index{backButtonAction@{backButtonAction}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{backButtonAction}{backButtonAction}}
+{\footnotesize\ttfamily Input\+Action\+Property Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+back\+Button\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Optional button input that determines when Mouse.\+forward\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. 
+
+Input for Mouse.\+forward\+Button.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_af3370c9f5f45a7e0b235539a55d29cea}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_af3370c9f5f45a7e0b235539a55d29cea}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!cursorGraphic@{cursorGraphic}}
+\index{cursorGraphic@{cursorGraphic}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{cursorGraphic}{cursorGraphic}}
+{\footnotesize\ttfamily Graphic Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+cursor\+Graphic\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} graphic element that represents the mouse cursor. 
+
+Graphic element for the software mouse cursor.
+
+If \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_aaba471e985a805943ba52db802b6c13c}{cursor\+Mode}} is set to \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521}{Cursor\+Mode.\+Hardware\+Cursor\+If\+Available}}, this graphic will be disabled.
+
+Also, this \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} component implicitly determines the {\ttfamily Canvas} that defines the screen area for the cursor. The canvas that this graphic is on will be looked up using {\ttfamily Get\+Component\+In\+Parent} and then the {\ttfamily Canvas.\+pixel\+Rect} of the canvas is used as the bounds for the cursor motion range. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169a9c947e305c5e18893723b4dd23e26569}{Cursor\+Mode.\+Software\+Cursor}}
+
+
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_aaba471e985a805943ba52db802b6c13c}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_aaba471e985a805943ba52db802b6c13c}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!cursorMode@{cursorMode}}
+\index{cursorMode@{cursorMode}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{cursorMode}{cursorMode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169}{Cursor\+Mode}} Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+cursor\+Mode\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Determines which cursor representation to use. 
+
+If this is set to \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169a9c947e305c5e18893723b4dd23e26569}{Cursor\+Mode.\+Software\+Cursor}} (the default), then \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_af3370c9f5f45a7e0b235539a55d29cea}{cursor\+Graphic}} and \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab7e6b4d09d9fbf392de5cfb95e66071a}{cursor\+Transform}} define a software cursor that is made to correspond to the position of \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. If this is set to \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521}{Cursor\+Mode.\+Hardware\+Cursor\+If\+Available}} and there is a native Mouse device present, the component will take over that mouse device and disable it (so as for it to not also generate position updates). It will then use Mouse.\+Warp\+Cursor\+Position to move the system mouse cursor to correspond to the position of the \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. In this case, \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_af3370c9f5f45a7e0b235539a55d29cea}{cursor\+Graphic}} will be disabled and \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab7e6b4d09d9fbf392de5cfb95e66071a}{cursor\+Transform}} will not be updated. 
+
+Whether the system mouse cursor (if present) should be made to correspond with the virtual mouse position.
+
+Note that regardless of which mode is used for the cursor, mouse input is expected to be picked up from \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}.
+
+Note that if \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad8109e2f6cbaabc62534268ff82f4169ae95232d90d3a6242c8a18dd19f09c521}{Cursor\+Mode.\+Hardware\+Cursor\+If\+Available}} is used, the software cursor is still used if no native Mouse device is present. \mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a6f988f3122704289114872f39522630f}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a6f988f3122704289114872f39522630f}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!cursorSpeed@{cursorSpeed}}
+\index{cursorSpeed@{cursorSpeed}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{cursorSpeed}{cursorSpeed}}
+{\footnotesize\ttfamily float Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+cursor\+Speed\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+How many pixels per second the cursor travels in one axis when the respective axis from \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a97b535934a9747f7ea0b116fab9261a5}{stick\+Action}} is 1. 
+
+Mouse speed in pixels per second.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab7e6b4d09d9fbf392de5cfb95e66071a}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab7e6b4d09d9fbf392de5cfb95e66071a}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!cursorTransform@{cursorTransform}}
+\index{cursorTransform@{cursorTransform}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{cursorTransform}{cursorTransform}}
+{\footnotesize\ttfamily Rect\+Transform Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+cursor\+Transform\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Optional transform that will be updated to correspond to the current mouse position. 
+
+Transform to update with mouse position.
+
+This is useful for having a \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} object that directly represents the mouse cursor. Simply add both the {\ttfamily \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input}{Virtual\+Mouse\+Input}}} component and an \href{https://docs.unity3d.com/Manual/script-Image.html}{\texttt{ Image}} component and hook the \href{https://docs.unity3d.com/ScriptReference/RectTransform.html}{\texttt{ Rect\+Transform}} component for the \mbox{\hyperlink{namespace_unity_engine_1_1_input_system_1_1_u_i}{UI}} object into here. The object as a whole will then follow the generated mouse cursor motion. \mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab1c00f346ded23ce0b4a3e92fa164c1d}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab1c00f346ded23ce0b4a3e92fa164c1d}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!forwardButtonAction@{forwardButtonAction}}
+\index{forwardButtonAction@{forwardButtonAction}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{forwardButtonAction}{forwardButtonAction}}
+{\footnotesize\ttfamily Input\+Action\+Property Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+forward\+Button\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Optional button input that determines when Mouse.\+forward\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. 
+
+Input for Mouse.\+forward\+Button.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a45b3667aecf3273cbb8cf077345ea5b2}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a45b3667aecf3273cbb8cf077345ea5b2}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!leftButtonAction@{leftButtonAction}}
+\index{leftButtonAction@{leftButtonAction}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{leftButtonAction}{leftButtonAction}}
+{\footnotesize\ttfamily Input\+Action\+Property Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+left\+Button\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Optional button input that determines when Mouse.\+left\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. 
+
+Input for Mouse.\+left\+Button.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad39bfec811ff08f0c824357038eb5b17}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ad39bfec811ff08f0c824357038eb5b17}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!middleButtonAction@{middleButtonAction}}
+\index{middleButtonAction@{middleButtonAction}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{middleButtonAction}{middleButtonAction}}
+{\footnotesize\ttfamily Input\+Action\+Property Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+middle\+Button\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Optional button input that determines when Mouse.\+middle\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. 
+
+Input for Mouse.\+middle\+Button.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ae833671e88d8c2a3bb8984fc362bd292}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ae833671e88d8c2a3bb8984fc362bd292}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!rightButtonAction@{rightButtonAction}}
+\index{rightButtonAction@{rightButtonAction}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{rightButtonAction}{rightButtonAction}}
+{\footnotesize\ttfamily Input\+Action\+Property Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+right\+Button\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Optional button input that determines when Mouse.\+right\+Button is pressed on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. 
+
+Input for Mouse.\+right\+Button.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a854cf6f7aba67a71349a8ca68ac30302}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a854cf6f7aba67a71349a8ca68ac30302}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!scrollSpeed@{scrollSpeed}}
+\index{scrollSpeed@{scrollSpeed}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{scrollSpeed}{scrollSpeed}}
+{\footnotesize\ttfamily float Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+scroll\+Speed\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Multiplier for values received from \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a4301db4eb88d512bbeec2deac85ffcbb}{scroll\+Wheel\+Action}}. 
+
+Multiplier for scroll values.\mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a4301db4eb88d512bbeec2deac85ffcbb}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a4301db4eb88d512bbeec2deac85ffcbb}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!scrollWheelAction@{scrollWheelAction}}
+\index{scrollWheelAction@{scrollWheelAction}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{scrollWheelAction}{scrollWheelAction}}
+{\footnotesize\ttfamily Input\+Action\+Property Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+scroll\+Wheel\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Optional Vector2 value input that determines the value of Mouse.\+scroll on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}}. 
+
+Input for Mouse.\+scroll.
+
+In case you want to only bind vertical scrolling, simply have a Composites.\+Vector2\+Composite with only {\ttfamily Up} and {\ttfamily Down} bound and {\ttfamily Left} and {\ttfamily Right} deleted or bound to nothing. \mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a97b535934a9747f7ea0b116fab9261a5}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a97b535934a9747f7ea0b116fab9261a5}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!stickAction@{stickAction}}
+\index{stickAction@{stickAction}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{stickAction}{stickAction}}
+{\footnotesize\ttfamily Input\+Action\+Property Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+stick\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The Vector2 stick input that drives the mouse cursor, i.\+e. 
+
+Mouse.\+position on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}{virtual\+Mouse}} and the \href{https://docs.unity3d.com/ScriptReference/RectTransform-anchoredPosition.html}{\texttt{ anchored\+Position}} on \mbox{\hyperlink{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_ab7e6b4d09d9fbf392de5cfb95e66071a}{cursor\+Transform}} (if set). 
+
+Stick input that drives cursor position.
+
+This should normally be bound to controls such as Gamepad.\+left\+Stick and/or Gamepad.\+right\+Stick. \mbox{\Hypertarget{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}\label{class_unity_engine_1_1_input_system_1_1_u_i_1_1_virtual_mouse_input_a83490a2cca7d7f7e0347975c5692d8b0}} 
+\index{UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}!virtualMouse@{virtualMouse}}
+\index{virtualMouse@{virtualMouse}!UnityEngine.InputSystem.UI.VirtualMouseInput@{UnityEngine.InputSystem.UI.VirtualMouseInput}}
+\doxysubsubsection{\texorpdfstring{virtualMouse}{virtualMouse}}
+{\footnotesize\ttfamily Mouse Unity\+Engine.\+Input\+System.\+UI.\+Virtual\+Mouse\+Input.\+virtual\+Mouse\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The virtual mouse device that the component feeds with input. 
+
+Instance of virtual mouse or {\ttfamily null}.
+
+This is only initialized after the component has been enabled for the first time. Note that when subsequently disabling the component, the property will continue to return the mouse device but the device will not be added to the system while the component is not enabled. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+Samples/\+Input System/1.\+0.\+2/\+Gamepad Mouse Cursor/\mbox{\hyperlink{_virtual_mouse_input_8cs}{Virtual\+Mouse\+Input.\+cs}}\end{DoxyCompactItemize}

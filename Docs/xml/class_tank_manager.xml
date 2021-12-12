@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_tank_manager" kind="class" language="C#" prot="public">
+    <compoundname>TankManager</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tank_manager_1a00f8ea8c026bc2be1215255c572ce24c" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color TankManager.m_PlayerColor</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="13" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_tank_manager_1adfea056ff87cf9e231b8517424523587" compoundref="_tank_manager_8cs" startline="26" endline="49">Setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_manager_1a0a19fbc586bdd84486db536fbe25f61a" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform TankManager.m_SpawnPoint</definition>
+        <argsstring></argsstring>
+        <name>m_SpawnPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="14" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_tank_manager_1a89675bc32c6dd907f68f7421a7c6e8e2" compoundref="_tank_manager_8cs" startline="70" endline="77">Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_manager_1afdf9037848c7f6194f835381752edc3f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TankManager.m_PlayerNumber</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="15" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_tank_manager_1adfea056ff87cf9e231b8517424523587" compoundref="_tank_manager_8cs" startline="26" endline="49">Setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_manager_1a57aeeff3cac93ea8ea026a41271e60a0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TankManager.m_ColoredPlayerText</definition>
+        <argsstring></argsstring>
+        <name>m_ColoredPlayerText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="16" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_tank_manager_1adfea056ff87cf9e231b8517424523587" compoundref="_tank_manager_8cs" startline="26" endline="49">Setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_manager_1a16fe43d5057c1b812638a89fde1aa225" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TankManager.m_Instance</definition>
+        <argsstring></argsstring>
+        <name>m_Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="17" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_tank_manager_1a89675bc32c6dd907f68f7421a7c6e8e2" compoundref="_tank_manager_8cs" startline="70" endline="77">Reset</referencedby>
+        <referencedby refid="class_tank_manager_1adfea056ff87cf9e231b8517424523587" compoundref="_tank_manager_8cs" startline="26" endline="49">Setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_manager_1a87305e8bf77b24464fb5bfc924a1c85e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TankManager.m_Wins</definition>
+        <argsstring></argsstring>
+        <name>m_Wins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="18" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tank_manager_1afc089546b08301f2e2df77b42cc79cc9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tank_movement" kindref="compound">TankMovement</ref></type>
+        <definition>TankMovement TankManager.m_Movement</definition>
+        <argsstring></argsstring>
+        <name>m_Movement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="21" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_manager_1a722d69037caa9d140028945756b82149" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tank_shooting" kindref="compound">TankShooting</ref></type>
+        <definition>TankShooting TankManager.m_Shooting</definition>
+        <argsstring></argsstring>
+        <name>m_Shooting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="22" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tank_manager_1ac32ee3bc6af3a30544d2b75ea67404af" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TankManager.m_CanvasGameObject</definition>
+        <argsstring></argsstring>
+        <name>m_CanvasGameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="23" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tank_manager_1adfea056ff87cf9e231b8517424523587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankManager.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="26" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="26" bodyend="49"/>
+        <references refid="class_tank_manager_1a57aeeff3cac93ea8ea026a41271e60a0" compoundref="_tank_manager_8cs" startline="16">m_ColoredPlayerText</references>
+        <references refid="class_tank_manager_1a16fe43d5057c1b812638a89fde1aa225" compoundref="_tank_manager_8cs" startline="17">m_Instance</references>
+        <references refid="class_tank_manager_1a00f8ea8c026bc2be1215255c572ce24c" compoundref="_tank_manager_8cs" startline="13">m_PlayerColor</references>
+        <references refid="class_tank_manager_1afdf9037848c7f6194f835381752edc3f" compoundref="_tank_manager_8cs" startline="15">m_PlayerNumber</references>
+        <references refid="class_tank_movement_1a092fd2b162c27d963991f423b24bf714" compoundref="_tank_movement_8cs" startline="7">TankMovement.m_PlayerNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_manager_1a215f539b28fcd32c07f831a28533386d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankManager.DisableControl</definition>
+        <argsstring>()</argsstring>
+        <name>DisableControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="52" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_manager_1ad904353e6e7eeeaf9bde2092b1e87b66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankManager.EnableControl</definition>
+        <argsstring>()</argsstring>
+        <name>EnableControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="61" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tank_manager_1a89675bc32c6dd907f68f7421a7c6e8e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TankManager.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="70" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="70" bodyend="77"/>
+        <references refid="class_tank_manager_1a16fe43d5057c1b812638a89fde1aa225" compoundref="_tank_manager_8cs" startline="17">m_Instance</references>
+        <references refid="class_tank_manager_1a0a19fbc586bdd84486db536fbe25f61a" compoundref="_tank_manager_8cs" startline="14">m_SpawnPoint</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TankManager</label>
+        <link refid="class_tank_manager"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/Scripts/Managers/TankManager.cs" bodystart="7" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_tank_manager_1a215f539b28fcd32c07f831a28533386d" prot="public" virt="non-virtual"><scope>TankManager</scope><name>DisableControl</name></member>
+      <member refid="class_tank_manager_1ad904353e6e7eeeaf9bde2092b1e87b66" prot="public" virt="non-virtual"><scope>TankManager</scope><name>EnableControl</name></member>
+      <member refid="class_tank_manager_1ac32ee3bc6af3a30544d2b75ea67404af" prot="private" virt="non-virtual"><scope>TankManager</scope><name>m_CanvasGameObject</name></member>
+      <member refid="class_tank_manager_1a57aeeff3cac93ea8ea026a41271e60a0" prot="public" virt="non-virtual"><scope>TankManager</scope><name>m_ColoredPlayerText</name></member>
+      <member refid="class_tank_manager_1a16fe43d5057c1b812638a89fde1aa225" prot="public" virt="non-virtual"><scope>TankManager</scope><name>m_Instance</name></member>
+      <member refid="class_tank_manager_1afc089546b08301f2e2df77b42cc79cc9" prot="private" virt="non-virtual"><scope>TankManager</scope><name>m_Movement</name></member>
+      <member refid="class_tank_manager_1a00f8ea8c026bc2be1215255c572ce24c" prot="public" virt="non-virtual"><scope>TankManager</scope><name>m_PlayerColor</name></member>
+      <member refid="class_tank_manager_1afdf9037848c7f6194f835381752edc3f" prot="public" virt="non-virtual"><scope>TankManager</scope><name>m_PlayerNumber</name></member>
+      <member refid="class_tank_manager_1a722d69037caa9d140028945756b82149" prot="private" virt="non-virtual"><scope>TankManager</scope><name>m_Shooting</name></member>
+      <member refid="class_tank_manager_1a0a19fbc586bdd84486db536fbe25f61a" prot="public" virt="non-virtual"><scope>TankManager</scope><name>m_SpawnPoint</name></member>
+      <member refid="class_tank_manager_1a87305e8bf77b24464fb5bfc924a1c85e" prot="public" virt="non-virtual"><scope>TankManager</scope><name>m_Wins</name></member>
+      <member refid="class_tank_manager_1a89675bc32c6dd907f68f7421a7c6e8e2" prot="public" virt="non-virtual"><scope>TankManager</scope><name>Reset</name></member>
+      <member refid="class_tank_manager_1adfea056ff87cf9e231b8517424523587" prot="public" virt="non-virtual"><scope>TankManager</scope><name>Setup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

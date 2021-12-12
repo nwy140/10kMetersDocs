@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_chain_command_invoker" kind="class" language="C#" prot="public">
+    <compoundname>ChainCommandInvoker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_chain_command_invoker_1a1c10fdc482964ea9f377e54d2578c5a1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_command_queue_helper" kindref="compound">CommandQueueHelper</ref></type>
+        <definition>CommandQueueHelper ChainCommandInvoker._commandQueueHelper</definition>
+        <argsstring></argsstring>
+        <name>_commandQueueHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" line="11" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_chain_command_invoker_1af1f929a25ae73aaa2d90b9851ed590d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_command_queue_helper" kindref="compound">CommandQueueHelper</ref></type>
+        <definition>virtual CommandQueueHelper ChainCommandInvoker.commandQueueHelper</definition>
+        <argsstring></argsstring>
+        <name>commandQueueHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" line="12" column="39" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_chain_command_invoker_1af2ee283392f2bc4d9d0b5dae50f0aa6c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_slots_holder_manager" kindref="compound">CommandSlotsHolderManager</ref></type>
+        <definition>CommandSlotsHolderManager ChainCommandInvoker.commandSlotsHolderManager</definition>
+        <argsstring></argsstring>
+        <name>commandSlotsHolderManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" line="14" column="38" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chain_command_invoker_1a1f098a3bc8e66f17a8f1c01a5f6e4975" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_chain_command_data" kindref="compound">ChainCommandData</ref> &gt;</type>
+        <definition>List&lt;ChainCommandData&gt; ChainCommandInvoker.chainCommandDatas</definition>
+        <argsstring></argsstring>
+        <name>chainCommandDatas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" line="20" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_chain_command_invoker_1aa1b4b275d977fb752bb23dc21820e5b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChainCommandInvoker.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" line="22" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" bodystart="22" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chain_command_invoker_1a59da6fcf67a36e05ea15a63401600cc9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChainCommandInvoker.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" line="33" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" bodystart="33" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ChainCommandInvoker</label>
+        <link refid="class_chain_command_invoker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ChainCommandInvoker</label>
+        <link refid="class_chain_command_invoker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+commandSlotsHolderManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommandSlotsHolderManager</label>
+        <link refid="class_command_slots_holder_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" line="9" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/MyScripts/ChainCommandInvoker.cs" bodystart="10" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_chain_command_invoker_1a1c10fdc482964ea9f377e54d2578c5a1" prot="private" virt="non-virtual"><scope>ChainCommandInvoker</scope><name>_commandQueueHelper</name></member>
+      <member refid="class_chain_command_invoker_1aa1b4b275d977fb752bb23dc21820e5b2" prot="private" virt="non-virtual"><scope>ChainCommandInvoker</scope><name>Awake</name></member>
+      <member refid="class_chain_command_invoker_1a1f098a3bc8e66f17a8f1c01a5f6e4975" prot="public" virt="non-virtual"><scope>ChainCommandInvoker</scope><name>chainCommandDatas</name></member>
+      <member refid="class_chain_command_invoker_1af1f929a25ae73aaa2d90b9851ed590d7" prot="public" virt="non-virtual"><scope>ChainCommandInvoker</scope><name>commandQueueHelper</name></member>
+      <member refid="class_chain_command_invoker_1af2ee283392f2bc4d9d0b5dae50f0aa6c" prot="public" virt="non-virtual"><scope>ChainCommandInvoker</scope><name>commandSlotsHolderManager</name></member>
+      <member refid="class_chain_command_invoker_1a59da6fcf67a36e05ea15a63401600cc9" prot="private" virt="non-virtual"><scope>ChainCommandInvoker</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

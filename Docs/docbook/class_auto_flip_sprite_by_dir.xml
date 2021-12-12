@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_auto_flip_sprite_by_dir" xml:lang="en-US">
+<title>AutoFlipSpriteByDir Class Reference</title>
+<indexterm><primary>AutoFlipSpriteByDir</primary></indexterm>
+Inheritance diagram for AutoFlipSpriteByDir:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_auto_flip_sprite_by_dir__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for AutoFlipSpriteByDir:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_auto_flip_sprite_by_dir__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_auto_flip_sprite_by_dir_1a914a8f5735ec5dc39adf4d44a49b79b4">ClampRotation2</link> (float angle, float min, float max)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_auto_flip_sprite_by_dir_1abed7f62d6e4eb921ef88b89acc0d623e">IsWithinArbitaryRot</link> (float angle, float min, float max)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>SpriteRenderer <link linkend="_class_auto_flip_sprite_by_dir_1a8928a75c1fb92bc46e9caa20dc70439e">sprite</link></para>
+</listitem>
+            <listitem><para>Rigidbody2D <link linkend="_class_auto_flip_sprite_by_dir_1a31e956ac5c5a813f39c3a82bdf555f1f">rb</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_auto_flip_sprite_by_dir_1aaac44c4f52f226fa3850ea4bf0ca8cee">hasRb</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_auto_flip_sprite_by_dir_1a914a8f5735ec5dc39adf4d44a49b79b4"/><section>
+    <title>ClampRotation2()</title>
+<indexterm><primary>ClampRotation2</primary><secondary>AutoFlipSpriteByDir</secondary></indexterm>
+<indexterm><primary>AutoFlipSpriteByDir</primary><secondary>ClampRotation2</secondary></indexterm>
+<para><computeroutput>float AutoFlipSpriteByDir.ClampRotation2 (float angle, float min, float max)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_auto_flip_sprite_by_dir_a914a8f5735ec5dc39adf4d44a49b79b4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_auto_flip_sprite_by_dir_1abed7f62d6e4eb921ef88b89acc0d623e"/><section>
+    <title>IsWithinArbitaryRot()</title>
+<indexterm><primary>IsWithinArbitaryRot</primary><secondary>AutoFlipSpriteByDir</secondary></indexterm>
+<indexterm><primary>AutoFlipSpriteByDir</primary><secondary>IsWithinArbitaryRot</secondary></indexterm>
+<para><computeroutput>bool AutoFlipSpriteByDir.IsWithinArbitaryRot (float angle, float min, float max)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_auto_flip_sprite_by_dir_abed7f62d6e4eb921ef88b89acc0d623e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_auto_flip_sprite_by_dir_1aaac44c4f52f226fa3850ea4bf0ca8cee"/><section>
+    <title>hasRb</title>
+<indexterm><primary>hasRb</primary><secondary>AutoFlipSpriteByDir</secondary></indexterm>
+<indexterm><primary>AutoFlipSpriteByDir</primary><secondary>hasRb</secondary></indexterm>
+<para><computeroutput>bool AutoFlipSpriteByDir.hasRb</computeroutput></para></section>
+<anchor xml:id="_class_auto_flip_sprite_by_dir_1a31e956ac5c5a813f39c3a82bdf555f1f"/><section>
+    <title>rb</title>
+<indexterm><primary>rb</primary><secondary>AutoFlipSpriteByDir</secondary></indexterm>
+<indexterm><primary>AutoFlipSpriteByDir</primary><secondary>rb</secondary></indexterm>
+<para><computeroutput>Rigidbody2D AutoFlipSpriteByDir.rb</computeroutput></para></section>
+<anchor xml:id="_class_auto_flip_sprite_by_dir_1a8928a75c1fb92bc46e9caa20dc70439e"/><section>
+    <title>sprite</title>
+<indexterm><primary>sprite</primary><secondary>AutoFlipSpriteByDir</secondary></indexterm>
+<indexterm><primary>AutoFlipSpriteByDir</primary><secondary>sprite</secondary></indexterm>
+<para><computeroutput>SpriteRenderer AutoFlipSpriteByDir.sprite</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/_ProjectSpecific/Ocean/MyScripts/Passive Components/<link linkend="__auto_flip_sprite_by_dir_8cs">AutoFlipSpriteByDir.cs</link></section>
+</section>

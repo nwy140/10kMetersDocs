@@ -1,0 +1,67 @@
+.TH "FSMSystemBase" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FSMSystemBase
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.PP
+Inherited by \fBNPCAISystemTypeA\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBAwake\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBUpdate\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBTryEnterState\fP (\fBFSMBaseState\fP nextState)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBFSMBaseState\fP \fB_curState\fP"
+.br
+.ti -1c
+.RI "\fBFSMBaseState\fP \fB_prevState\fP"
+.br
+.ti -1c
+.RI "\fBFSMBaseState\fP \fB_startingState\fP"
+.br
+.ti -1c
+.RI "bool \fBisDebugLog\fP = false"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual void FSMSystemBase\&.Awake ()\fC [virtual]\fP"
+
+.PP
+Reimplemented in \fBNPCAISystemTypeA\fP\&.
+.SS "virtual void FSMSystemBase\&.TryEnterState (\fBFSMBaseState\fP nextState)\fC [virtual]\fP"
+
+.SS "virtual void FSMSystemBase\&.Update ()\fC [virtual]\fP"
+
+.PP
+Reimplemented in \fBNPCAISystemTypeA\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBFSMBaseState\fP FSMSystemBase\&._curState"
+
+.SS "\fBFSMBaseState\fP FSMSystemBase\&._prevState"
+
+.SS "\fBFSMBaseState\fP FSMSystemBase\&._startingState"
+
+.SS "bool FSMSystemBase\&.isDebugLog = false"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

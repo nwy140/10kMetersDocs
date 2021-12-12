@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_command_manager_old" kind="class" language="C#" prot="public">
+    <compoundname>CommandManagerOld</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_command_manager_old_1a39271da1cc38e158a168f388d72bd0a5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_queue" kindref="compound">CommandQueue</ref></type>
+        <definition>CommandQueue CommandManagerOld.commandQueue_Basic</definition>
+        <argsstring></argsstring>
+        <name>commandQueue_Basic</name>
+        <initializer>= new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="10" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c" compoundref="_command_manager_old_8cs" startline="95" endline="176">CheckSequence</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_manager_old_1a268e3c8e54766b696f86ce9b5b327aae" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_queue" kindref="compound">CommandQueue</ref></type>
+        <definition>CommandQueue CommandManagerOld.commandQueue_NegativeEdge</definition>
+        <argsstring></argsstring>
+        <name>commandQueue_NegativeEdge</name>
+        <initializer>= new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="11" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_manager_old_1a470de513223e9210f44f8776a3974e3a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_command_queue" kindref="compound">CommandQueue</ref></type>
+        <definition>CommandQueue CommandManagerOld.commandQueue_Chain</definition>
+        <argsstring></argsstring>
+        <name>commandQueue_Chain</name>
+        <initializer>= new <ref refid="class_command_queue" kindref="compound">CommandQueue</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="12" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_manager_old_1a9f8d1f3b425258ca953311437b819f20" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CommandManagerOld.CurrentTick</definition>
+        <argsstring></argsstring>
+        <name>CurrentTick</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="28" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c" compoundref="_command_manager_old_8cs" startline="95" endline="176">CheckSequence</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_command_manager_old_1ab6f7310710a3ab945dcaaa750b76509d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CommandManagerOld.maxDefaultAllowedTimeDifferenceCheck</definition>
+        <argsstring></argsstring>
+        <name>maxDefaultAllowedTimeDifferenceCheck</name>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="89" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="89" bodyend="-1"/>
+        <referencedby refid="class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c" compoundref="_command_manager_old_8cs" startline="95" endline="176">CheckSequence</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_command_manager_old_1a1a9a0b1810f4946b0b9944d00934ac41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandManagerOld.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="15" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_manager_old_1ab46e33ebe49d9e8cc305d4437340e83e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CommandManagerOld.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="21" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="21" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CommandManagerOld.CheckSequence</definition>
+        <argsstring>(string[] sequence, int maxDuration, CommandBase chainCommand)</argsstring>
+        <name>CheckSequence</name>
+        <param>
+          <type>string[]</type>
+          <declname>sequence</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxDuration</declname>
+        </param>
+        <param>
+          <type><ref refid="class_command_base" kindref="compound">CommandBase</ref></type>
+          <declname>chainCommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="95" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="95" bodyend="176"/>
+        <references refid="class_command_queue_1aeb320924717bd033db344c2b2d95b19a" compoundref="_command_queue_8cs" startline="14">CommandQueue._commandHistory</references>
+        <references refid="class_command_queue_1ae254395b75d332c79a0b55f17f062b7f" compoundref="_command_queue_8cs" startline="12">CommandQueue._commandNamesHistory</references>
+        <references refid="class_command_base_1aff5582377a9008fb9dd715e06627f345" compoundref="_command_base_8cs" startline="114" endline="114">CommandBase.aName</references>
+        <references refid="class_command_manager_old_1a39271da1cc38e158a168f388d72bd0a5" compoundref="_command_manager_old_8cs" startline="10">commandQueue_Basic</references>
+        <references refid="class_command_manager_old_1a9f8d1f3b425258ca953311437b819f20" compoundref="_command_manager_old_8cs" startline="28">CurrentTick</references>
+        <references refid="class_command_manager_old_1ab6f7310710a3ab945dcaaa750b76509d" compoundref="_command_manager_old_8cs" startline="89">maxDefaultAllowedTimeDifferenceCheck</references>
+        <referencedby refid="class_command_manager_old_1a9a746b5972db17c5a7749fecadf7fb1c" compoundref="_command_manager_old_8cs" startline="178" endline="182">CheckSequence</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_command_manager_old_1a9a746b5972db17c5a7749fecadf7fb1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CommandManagerOld.CheckSequence</definition>
+        <argsstring>(string[] sequence, CommandBase chainCommand)</argsstring>
+        <name>CheckSequence</name>
+        <param>
+          <type>string[]</type>
+          <declname>sequence</declname>
+        </param>
+        <param>
+          <type><ref refid="class_command_base" kindref="compound">CommandBase</ref></type>
+          <declname>chainCommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="178" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="178" bodyend="182"/>
+        <references refid="class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c" compoundref="_command_manager_old_8cs" startline="95" endline="176">CheckSequence</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CommandManagerOld</label>
+        <link refid="class_command_manager_old"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CommandManagerOld</label>
+        <link refid="class_command_manager_old"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+commandQueue_Basic</edgelabel>
+          <edgelabel>+commandQueue_Chain</edgelabel>
+          <edgelabel>+commandQueue_NegativeEdge</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommandQueue</label>
+        <link refid="class_command_queue"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+LogText</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>Text</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/CommandManagerOld.cs" bodystart="6" bodyend="190"/>
+    <listofallmembers>
+      <member refid="class_command_manager_old_1a1a9a0b1810f4946b0b9944d00934ac41" prot="private" virt="non-virtual"><scope>CommandManagerOld</scope><name>Awake</name></member>
+      <member refid="class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c" prot="public" virt="non-virtual"><scope>CommandManagerOld</scope><name>CheckSequence</name></member>
+      <member refid="class_command_manager_old_1a9a746b5972db17c5a7749fecadf7fb1c" prot="public" virt="non-virtual"><scope>CommandManagerOld</scope><name>CheckSequence</name></member>
+      <member refid="class_command_manager_old_1a39271da1cc38e158a168f388d72bd0a5" prot="public" virt="non-virtual"><scope>CommandManagerOld</scope><name>commandQueue_Basic</name></member>
+      <member refid="class_command_manager_old_1a470de513223e9210f44f8776a3974e3a" prot="public" virt="non-virtual"><scope>CommandManagerOld</scope><name>commandQueue_Chain</name></member>
+      <member refid="class_command_manager_old_1a268e3c8e54766b696f86ce9b5b327aae" prot="public" virt="non-virtual"><scope>CommandManagerOld</scope><name>commandQueue_NegativeEdge</name></member>
+      <member refid="class_command_manager_old_1a9f8d1f3b425258ca953311437b819f20" prot="public" virt="non-virtual"><scope>CommandManagerOld</scope><name>CurrentTick</name></member>
+      <member refid="class_command_manager_old_1ab6f7310710a3ab945dcaaa750b76509d" prot="public" virt="non-virtual"><scope>CommandManagerOld</scope><name>maxDefaultAllowedTimeDifferenceCheck</name></member>
+      <member refid="class_command_manager_old_1ab46e33ebe49d9e8cc305d4437340e83e" prot="private" virt="non-virtual"><scope>CommandManagerOld</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

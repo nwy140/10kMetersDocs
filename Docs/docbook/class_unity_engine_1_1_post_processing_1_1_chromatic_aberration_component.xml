@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.ChromaticAberrationComponent Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.ChromaticAberrationComponent</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.ChromaticAberrationComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.ChromaticAberrationComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1aa88d860317b08f10454a6021dce03069">OnDisable</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1acbf442cadd4fcb16e9008ecfd32698fa">Prepare</link> (Material uberMaterial)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1ab1fb32c83cea3eb44e199fe7b6fb05e5">active</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1aa88d860317b08f10454a6021dce03069"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>UnityEngine.PostProcessing.ChromaticAberrationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ChromaticAberrationComponent</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.ChromaticAberrationComponent.OnDisable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_aa88d860317b08f10454a6021dce03069_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1acbf442cadd4fcb16e9008ecfd32698fa"/><section>
+    <title>Prepare()</title>
+<indexterm><primary>Prepare</primary><secondary>UnityEngine.PostProcessing.ChromaticAberrationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ChromaticAberrationComponent</primary><secondary>Prepare</secondary></indexterm>
+<para><computeroutput>override void UnityEngine.PostProcessing.ChromaticAberrationComponent.Prepare (Material uberMaterial)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_1adcf0697959b318bf65a96ce47ee26732">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; ChromaticAberrationModel &gt;</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1ab1fb32c83cea3eb44e199fe7b6fb05e5"/><section>
+    <title>active</title>
+<indexterm><primary>active</primary><secondary>UnityEngine.PostProcessing.ChromaticAberrationComponent</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.ChromaticAberrationComponent</primary><secondary>active</secondary></indexterm>
+<para><computeroutput>override bool UnityEngine.PostProcessing.ChromaticAberrationComponent.active<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__chromatic_aberration_component_8cs">ChromaticAberrationComponent.cs</link></section>
+</section>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_character" xml:lang="en-US">
+<title>Character Class Reference</title>
+<indexterm><primary>Character</primary></indexterm>
+Inheritance diagram for Character:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Character:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_character_1a20befaddd8906f32beca7057a0bd0530">Open</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_character_1a0660844ea548f4a4dba135cbb004815f">Close</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_character_1acbe29d969c692ce4da3f086eafe781e2">BeginDiscard</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classstorage">storage</link> <link linkend="_class_character_1aee8b9925c3e1c50c6afae316255e3b52">Storage</link></para>
+</listitem>
+            <listitem><para><link linkend="_classitem_slots">itemSlots</link> <link linkend="_class_character_1a3007737cf19f2565a37ff613d94ab155">itemToDelete</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_character_1acbe29d969c692ce4da3f086eafe781e2"/><section>
+    <title>BeginDiscard()</title>
+<indexterm><primary>BeginDiscard</primary><secondary>Character</secondary></indexterm>
+<indexterm><primary>Character</primary><secondary>BeginDiscard</secondary></indexterm>
+<para><computeroutput>void Character.BeginDiscard ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_acbe29d969c692ce4da3f086eafe781e2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_character_1a0660844ea548f4a4dba135cbb004815f"/><section>
+    <title>Close()</title>
+<indexterm><primary>Close</primary><secondary>Character</secondary></indexterm>
+<indexterm><primary>Character</primary><secondary>Close</secondary></indexterm>
+<para><computeroutput>void Character.Close ( )</computeroutput></para></section>
+<anchor xml:id="_class_character_1a20befaddd8906f32beca7057a0bd0530"/><section>
+    <title>Open()</title>
+<indexterm><primary>Open</primary><secondary>Character</secondary></indexterm>
+<indexterm><primary>Character</primary><secondary>Open</secondary></indexterm>
+<para><computeroutput>void Character.Open ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_character_1a3007737cf19f2565a37ff613d94ab155"/><section>
+    <title>itemToDelete</title>
+<indexterm><primary>itemToDelete</primary><secondary>Character</secondary></indexterm>
+<indexterm><primary>Character</primary><secondary>itemToDelete</secondary></indexterm>
+<para><computeroutput><link linkend="_classitem_slots">itemSlots</link> Character.itemToDelete</computeroutput></para></section>
+<anchor xml:id="_class_character_1aee8b9925c3e1c50c6afae316255e3b52"/><section>
+    <title>Storage</title>
+<indexterm><primary>Storage</primary><secondary>Character</secondary></indexterm>
+<indexterm><primary>Character</primary><secondary>Storage</secondary></indexterm>
+<para><computeroutput><link linkend="_classstorage">storage</link> Character.Storage</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/<link linkend="__character_8cs">Character.cs</link></section>
+</section>

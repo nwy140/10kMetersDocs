@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_trigger_transition_tuto" kind="class" language="C#" prot="public">
+    <compoundname>TriggerTransitionTuto</compoundname>
+    <basecompoundref refid="class_tutorial" prot="public" virt="non-virtual">Tutorial</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_trigger_transition_tuto_1a7b9e36b19d622e479f2f59c36cf63e27" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform TriggerTransitionTuto.outpostTransition</definition>
+        <argsstring></argsstring>
+        <name>outpostTransition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" line="7" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_trigger_transition_tuto_1a988126572d0763f8190e0e3d0b6c3d1b" compoundref="_trigger_transition_tuto_8cs" startline="15" endline="25">OnTriggerEnter2D</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_trigger_transition_tuto_1adf6b2fa3d792035d750a750b473e0064" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TriggerTransitionTuto.ongoingTuto</definition>
+        <argsstring></argsstring>
+        <name>ongoingTuto</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" line="8" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_trigger_transition_tuto_1a7126819f5705df9e51831d45b62ef3d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void TriggerTransitionTuto.CheckIfHappening</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfHappening</name>
+        <reimplements refid="class_tutorial_1a0075438f79f2add2c1c2fd196608833f">CheckIfHappening</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" line="10" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_transition_tuto_1a988126572d0763f8190e0e3d0b6c3d1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerTransitionTuto.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D collision)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" line="15" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" bodystart="15" bodyend="25"/>
+        <references refid="class_tuto_manager_1ae773fafaeead301c063af296469f89f9" compoundref="_tuto_manager_8cs" startline="72" endline="75">TutoManager.EndTuto</references>
+        <references refid="class_tuto_manager_1adeee7b0021555fdec1691a417d9286bb" compoundref="_tuto_manager_8cs" startline="15" endline="26">TutoManager.instance</references>
+        <references refid="class_trigger_transition_tuto_1a7b9e36b19d622e479f2f59c36cf63e27" compoundref="_trigger_transition_tuto_8cs" startline="7">outpostTransition</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TriggerTransitionTuto</label>
+        <link refid="class_trigger_transition_tuto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Tutorial</label>
+        <link refid="class_tutorial"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TriggerTransitionTuto</label>
+        <link refid="class_trigger_transition_tuto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Tutorial</label>
+        <link refid="class_tutorial"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Tutorial Scripts/TriggerTransitionTuto.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_trigger_transition_tuto_1a7126819f5705df9e51831d45b62ef3d8" prot="public" virt="virtual"><scope>TriggerTransitionTuto</scope><name>CheckIfHappening</name></member>
+      <member refid="class_trigger_transition_tuto_1adf6b2fa3d792035d750a750b473e0064" prot="private" virt="non-virtual"><scope>TriggerTransitionTuto</scope><name>ongoingTuto</name></member>
+      <member refid="class_trigger_transition_tuto_1a988126572d0763f8190e0e3d0b6c3d1b" prot="public" virt="non-virtual"><scope>TriggerTransitionTuto</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_trigger_transition_tuto_1a7b9e36b19d622e479f2f59c36cf63e27" prot="public" virt="non-virtual"><scope>TriggerTransitionTuto</scope><name>outpostTransition</name></member>
+      <member refid="class_tutorial_1a8da14339e8bfd87f9742211d7cb0ecf0" prot="public" virt="non-virtual"><scope>TriggerTransitionTuto</scope><name>sequence</name></member>
+      <member refid="class_tutorial_1a036275897b288b4669e0f5f247fbe7a6" prot="public" virt="non-virtual"><scope>TriggerTransitionTuto</scope><name>tutoDialogue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

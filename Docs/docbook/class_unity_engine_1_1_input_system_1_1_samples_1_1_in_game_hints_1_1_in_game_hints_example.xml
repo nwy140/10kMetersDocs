@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample Class Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary></indexterm>
+Inheritance diagram for UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a56685a9a9dc69d52847296629e81477e">Awake</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a8edef1c0ea99dcacbf3868cdf4558fc5">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1af501dff27467249fc605c4b3fe3666f4">OnControlsChanged</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1ad4086311986f3e7d7e2c9f82ef546a04">Update</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Text <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1ab338a88363bd90d2e3a504ecc491aa37">helpText</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a444596d110eb2be9e1870df167f76f18">moveSpeed</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a164b972e880427f0013f063b82245bb9">rotateSpeed</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a7c3ed023a04c1d2014cbc4a52163e961">throwForce</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a1fa473c77085a5ef00df1812f34e6266">pickupDistance</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a9bb12c8997ea5b5afcd01a23226a8d5c">holdDistance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a56685a9a9dc69d52847296629e81477e"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.Awake ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1af501dff27467249fc605c4b3fe3666f4"/><section>
+    <title>OnControlsChanged()</title>
+<indexterm><primary>OnControlsChanged</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>OnControlsChanged</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.OnControlsChanged ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a8edef1c0ea99dcacbf3868cdf4558fc5"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.OnEnable ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1ad4086311986f3e7d7e2c9f82ef546a04"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.Update ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1ab338a88363bd90d2e3a504ecc491aa37"/><section>
+    <title>helpText</title>
+<indexterm><primary>helpText</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>helpText</secondary></indexterm>
+<para><computeroutput>Text UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.helpText</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a9bb12c8997ea5b5afcd01a23226a8d5c"/><section>
+    <title>holdDistance</title>
+<indexterm><primary>holdDistance</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>holdDistance</secondary></indexterm>
+<para><computeroutput>float UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.holdDistance</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a444596d110eb2be9e1870df167f76f18"/><section>
+    <title>moveSpeed</title>
+<indexterm><primary>moveSpeed</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>moveSpeed</secondary></indexterm>
+<para><computeroutput>float UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.moveSpeed</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a1fa473c77085a5ef00df1812f34e6266"/><section>
+    <title>pickupDistance</title>
+<indexterm><primary>pickupDistance</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>pickupDistance</secondary></indexterm>
+<para><computeroutput>float UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.pickupDistance</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a164b972e880427f0013f063b82245bb9"/><section>
+    <title>rotateSpeed</title>
+<indexterm><primary>rotateSpeed</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>rotateSpeed</secondary></indexterm>
+<para><computeroutput>float UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.rotateSpeed</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_example_1a7c3ed023a04c1d2014cbc4a52163e961"/><section>
+    <title>throwForce</title>
+<indexterm><primary>throwForce</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample</primary><secondary>throwForce</secondary></indexterm>
+<para><computeroutput>float UnityEngine.InputSystem.Samples.InGameHints.InGameHintsExample.throwForce</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/<link linkend="__in_game_hints_example_8cs">InGameHintsExample.cs</link></section>
+</section>

@@ -1,0 +1,916 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_rebind_u_i_sample_actions_modified" kind="class" language="C#" prot="public">
+    <compoundname>RebindUISampleActionsModified</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IInputActionCollection2</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <innerclass refid="struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions" prot="public">RebindUISampleActionsModified::GameplaySampleUnusedActions</innerclass>
+    <innerclass refid="interface_rebind_u_i_sample_actions_modified_1_1_i_gameplay_sample_unused_actions" prot="public">RebindUISampleActionsModified::IGameplaySampleUnusedActions</innerclass>
+    <innerclass refid="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions" prot="public">RebindUISampleActionsModified::IPlayerMainActions</innerclass>
+    <innerclass refid="interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions" prot="public">RebindUISampleActionsModified::IUIMainActions</innerclass>
+    <innerclass refid="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions" prot="public">RebindUISampleActionsModified::IVector2AxisActions</innerclass>
+    <innerclass refid="struct_rebind_u_i_sample_actions_modified_1_1_player_main_actions" prot="public">RebindUISampleActionsModified::PlayerMainActions</innerclass>
+    <innerclass refid="struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions" prot="public">RebindUISampleActionsModified::UIMainActions</innerclass>
+    <innerclass refid="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions" prot="public">RebindUISampleActionsModified::Vector2AxisActions</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputActionAsset</type>
+        <definition>InputActionAsset RebindUISampleActionsModified.asset</definition>
+        <argsstring></argsstring>
+        <name>asset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="20" column="29" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="20" bodyend="20"/>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1aeae0ed58b7baa106bde09e7e91a29164" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1553" endline="1556">Contains</referencedby>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1a79077f4452a70cb79e9ddc9942fee2f2" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1573" endline="1576">Disable</referencedby>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1aa4ae504f66544be47758cc8ae1349e86" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1534" endline="1537">Dispose</referencedby>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1aa054d9bf7b4dab89dc98cc32ed803adc" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1568" endline="1571">Enable</referencedby>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1a0ce4a0313554615ffd31f2911f716670" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1579" endline="1582">FindAction</referencedby>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1a11f96c7568160527cccdc2a0f7b3c377" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1583" endline="1586">FindBinding</referencedby>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1a3a880826b16e17af0219d27c331ef830" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1558" endline="1561">GetEnumerator</referencedby>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1a0206d0df3f2057e09be1ab7852198c2d" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="21" endline="1532">RebindUISampleActionsModified</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1a1ffce5ae9fc1f5a46fc4279f7d89d7a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputBinding?</type>
+        <definition>InputBinding? RebindUISampleActionsModified.bindingMask</definition>
+        <argsstring></argsstring>
+        <name>bindingMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1539" column="25" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1540" bodyend="1543"/>
+        <referencedby refid="class_rebind_u_i_sample_actions_modified_1a11f96c7568160527cccdc2a0f7b3c377" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1583" endline="1586">FindBinding</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1a6e3a0edfad9a66f16bb62f1fdc036411" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputDevice &gt;?</type>
+        <definition>ReadOnlyArray&lt;InputDevice&gt;? RebindUISampleActionsModified.devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1545" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1546" bodyend="1549"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1ab741f2b2719fc9de651696b3e4ee0e5a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputControlScheme &gt;</type>
+        <definition>ReadOnlyArray&lt;InputControlScheme&gt; RebindUISampleActionsModified.controlSchemes</definition>
+        <argsstring></argsstring>
+        <name>controlSchemes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1551" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1551" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1ac21b48e30a94fa389d9a97d8d74e5e35" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; InputBinding &gt;</type>
+        <definition>IEnumerable&lt;InputBinding&gt; RebindUISampleActionsModified.bindings</definition>
+        <argsstring></argsstring>
+        <name>bindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1577" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1577" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1a2f9cd1cea6deda12666502886120b024" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_rebind_u_i_sample_actions_modified_1_1_player_main_actions" kindref="compound">PlayerMainActions</ref></type>
+        <definition>PlayerMainActions RebindUISampleActionsModified.PlayerMain</definition>
+        <argsstring></argsstring>
+        <name>PlayerMain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1739" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1739" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1a08ac677cdbd4473bb0eb1777027b827e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_rebind_u_i_sample_actions_modified_1_1_u_i_main_actions" kindref="compound">UIMainActions</ref></type>
+        <definition>UIMainActions RebindUISampleActionsModified.UIMain</definition>
+        <argsstring></argsstring>
+        <name>UIMain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1804" column="26" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1804" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1a1598d9b723f8e535444a83d364c5b2a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_rebind_u_i_sample_actions_modified_1_1_gameplay_sample_unused_actions" kindref="compound">GameplaySampleUnusedActions</ref></type>
+        <definition>GameplaySampleUnusedActions RebindUISampleActionsModified.GameplaySampleUnused</definition>
+        <argsstring></argsstring>
+        <name>GameplaySampleUnused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1853" column="40" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1853" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1a53510665014476d73a5a988065bc27dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_rebind_u_i_sample_actions_modified_1_1_vector2_axis_actions" kindref="compound">Vector2AxisActions</ref></type>
+        <definition>Vector2AxisActions RebindUISampleActionsModified.Vector2Axis</definition>
+        <argsstring></argsstring>
+        <name>Vector2Axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1910" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1a5bd5e709b6590083dad948180a4c5ab4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme RebindUISampleActionsModified.GamepadScheme</definition>
+        <argsstring></argsstring>
+        <name>GamepadScheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1912" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1913" bodyend="1919"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rebind_u_i_sample_actions_modified_1a0ce5367008c7c62b3a32b693c0db581c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme RebindUISampleActionsModified.KeyboardScheme</definition>
+        <argsstring></argsstring>
+        <name>KeyboardScheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1921" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1922" bodyend="1928"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a72706b3ee14d9970b1423d1b6d0377a9" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap RebindUISampleActionsModified.m_PlayerMain</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1589" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1589" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a0636ca3138b02e262eefaa24226ce422" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_rebind_u_i_sample_actions_modified_1_1_i_player_main_actions" kindref="compound">IPlayerMainActions</ref></type>
+        <definition>IPlayerMainActions RebindUISampleActionsModified.m_PlayerMainActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMainActionsCallbackInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1590" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1590" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a7d7b99d22d72c70797f1b47d363d15fe" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_CommandSlot0</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_CommandSlot0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1591" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1591" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a67bd798837ad5e0ef5f82b18c329ae8b" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_CommandSlot1</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_CommandSlot1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1592" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a1d94a1f97cf3a75c37fd4ab880e0d09e" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_CommandSlot2</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_CommandSlot2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1593" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a2e7df629fb6012740ac689f7d25f1040" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_CommandSlot3</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_CommandSlot3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1594" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1594" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a11522e8075d2081457de103432df37d9" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_SecondaryCommandSlot4</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_SecondaryCommandSlot4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1595" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1595" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a0b68e329669933c5a4e6308c920eab10" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_SecondaryCommandSlot5</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_SecondaryCommandSlot5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1596" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1596" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1ad210062ea6cf9141ec7bcffef3fe6d3f" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_TertiaryCommandSlotAxis6</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_TertiaryCommandSlotAxis6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1597" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1597" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1aff9ee10d3b888c807564e226c4114571" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_TertiaryCommandSlotAxis7</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_TertiaryCommandSlotAxis7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1598" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1ab0d2410c662fca5ace5201390b40e82d" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_Start</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1599" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a63ac8c03a8ae039555a2ea8d87a82f67" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_Select</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1600" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1600" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a4b227b9cbc03891759d73af20a41260b" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_DPadAxisHorizontal</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_DPadAxisHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1601" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1601" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a3831108fbbce71c52daafdd755f3316d" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_DPadAxisVertical</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_DPadAxisVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1602" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a6d7c42a2732eb04dc911ea56f082a6e5" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_LeftStickAxisHorizontal</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_LeftStickAxisHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1603" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1603" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1aebdcc533a7b9a8ecdcd89343e79ceba7" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_LeftStickAxisVertical</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_LeftStickAxisVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1604" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1afdf4dd7d8c1fb0d95b7f3f06dea8c128" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_RightStickAxisHorizontal</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_RightStickAxisHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1605" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1ab21316693552ec4733bae3046287ec8b" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_PlayerMain_RightStickAxisVertical</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerMain_RightStickAxisVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1606" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1606" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1ad5109ce3df0571bf81e9e25eb4d16d47" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap RebindUISampleActionsModified.m_UIMain</definition>
+        <argsstring></argsstring>
+        <name>m_UIMain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1742" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1742" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1ac6167aca3a36f0cc3e2e1472252a07f0" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_rebind_u_i_sample_actions_modified_1_1_i_u_i_main_actions" kindref="compound">IUIMainActions</ref></type>
+        <definition>IUIMainActions RebindUISampleActionsModified.m_UIMainActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_UIMainActionsCallbackInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1743" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1743" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a2b38e58b591a515cf97e64354fb79e31" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_UIMain_Navigate</definition>
+        <argsstring></argsstring>
+        <name>m_UIMain_Navigate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1744" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1744" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a808bf65f62acbcfcf8b380fd53c60a7b" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_UIMain_Submit</definition>
+        <argsstring></argsstring>
+        <name>m_UIMain_Submit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1745" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1aff2edc1c3bea76d7486805260a6b6665" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_UIMain_Cancel</definition>
+        <argsstring></argsstring>
+        <name>m_UIMain_Cancel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1746" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1aace091bc2a1a11a65388cbd706475d2f" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_UIMain_Point</definition>
+        <argsstring></argsstring>
+        <name>m_UIMain_Point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1747" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a4a10374c08c85b32fbd2319892edeba8" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_UIMain_Click</definition>
+        <argsstring></argsstring>
+        <name>m_UIMain_Click</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1748" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a4c3402b60a219712a577519e3f158783" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap RebindUISampleActionsModified.m_GameplaySampleUnused</definition>
+        <argsstring></argsstring>
+        <name>m_GameplaySampleUnused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1807" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1807" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a751e23b0d68afc338b9876b4317a0324" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_rebind_u_i_sample_actions_modified_1_1_i_gameplay_sample_unused_actions" kindref="compound">IGameplaySampleUnusedActions</ref></type>
+        <definition>IGameplaySampleUnusedActions RebindUISampleActionsModified.m_GameplaySampleUnusedActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_GameplaySampleUnusedActionsCallbackInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1808" column="42" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1808" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a69dcbbf2502be745b5d1aecb9f5c6d01" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_GameplaySampleUnused_Move</definition>
+        <argsstring></argsstring>
+        <name>m_GameplaySampleUnused_Move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1809" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a791a5708be5725386f2000ea789ed07c" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_GameplaySampleUnused_Look</definition>
+        <argsstring></argsstring>
+        <name>m_GameplaySampleUnused_Look</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1810" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1810" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a1ff0716abd3e24dcc8753247ea87d542" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_GameplaySampleUnused_Interact</definition>
+        <argsstring></argsstring>
+        <name>m_GameplaySampleUnused_Interact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1811" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1aba4750e12f512e7019be66c00d7aef35" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap RebindUISampleActionsModified.m_Vector2Axis</definition>
+        <argsstring></argsstring>
+        <name>m_Vector2Axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1856" column="37" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1ad119df2f963a9ccb2c1e5ecf73a1b194" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_rebind_u_i_sample_actions_modified_1_1_i_vector2_axis_actions" kindref="compound">IVector2AxisActions</ref></type>
+        <definition>IVector2AxisActions RebindUISampleActionsModified.m_Vector2AxisActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_Vector2AxisActionsCallbackInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1857" column="33" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a3ee116b591d82e3aca6dd2df6846abfa" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_Vector2Axis_Newaction</definition>
+        <argsstring></argsstring>
+        <name>m_Vector2Axis_Newaction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1858" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1858" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1adf15649f7957c9e454d3bb64f2ff10aa" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_Vector2Axis_LeftStickAxis2D</definition>
+        <argsstring></argsstring>
+        <name>m_Vector2Axis_LeftStickAxis2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1859" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1859" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1ad8ac78fa8f06baad6969c9b487ae474c" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_Vector2Axis_RightStickAxis2D</definition>
+        <argsstring></argsstring>
+        <name>m_Vector2Axis_RightStickAxis2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1860" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1860" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a63e231da8619a760ef5b5dc019652a5d" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction RebindUISampleActionsModified.m_Vector2Axis_DPadAxis2D</definition>
+        <argsstring></argsstring>
+        <name>m_Vector2Axis_DPadAxis2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1861" column="34" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1861" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1adbabcbc12cfe7ee6f8615d7a64d03a8f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RebindUISampleActionsModified.m_GamepadSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_GamepadSchemeIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1911" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rebind_u_i_sample_actions_modified_1a3d810c1aa4ec529a3cd1c4bb6c70f8d3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RebindUISampleActionsModified.m_KeyboardSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_KeyboardSchemeIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1920" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1920" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1a0206d0df3f2057e09be1ab7852198c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RebindUISampleActionsModified.RebindUISampleActionsModified</definition>
+        <argsstring>()</argsstring>
+        <name>RebindUISampleActionsModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="21" column="12" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="21" bodyend="1532"/>
+        <references refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1aa4ae504f66544be47758cc8ae1349e86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RebindUISampleActionsModified.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1534" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1534" bodyend="1537"/>
+        <references refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1aeae0ed58b7baa106bde09e7e91a29164" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RebindUISampleActionsModified.Contains</definition>
+        <argsstring>(InputAction action)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1553" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1553" bodyend="1556"/>
+        <references refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1a3a880826b16e17af0219d27c331ef830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; InputAction &gt;</type>
+        <definition>IEnumerator&lt; InputAction &gt; RebindUISampleActionsModified.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1558" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1558" bodyend="1561"/>
+        <references refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1aa054d9bf7b4dab89dc98cc32ed803adc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RebindUISampleActionsModified.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1568" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1568" bodyend="1571"/>
+        <references refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1a79077f4452a70cb79e9ddc9942fee2f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RebindUISampleActionsModified.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1573" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1573" bodyend="1576"/>
+        <references refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1a0ce4a0313554615ffd31f2911f716670" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>InputAction</type>
+        <definition>InputAction RebindUISampleActionsModified.FindAction</definition>
+        <argsstring>(string actionNameOrId, bool throwIfNotFound=false)</argsstring>
+        <name>FindAction</name>
+        <param>
+          <type>string</type>
+          <declname>actionNameOrId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwIfNotFound</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1579" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1579" bodyend="1582"/>
+        <references refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="20" endline="20">asset</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1a11f96c7568160527cccdc2a0f7b3c377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RebindUISampleActionsModified.FindBinding</definition>
+        <argsstring>(InputBinding bindingMask, out InputAction action)</argsstring>
+        <name>FindBinding</name>
+        <param>
+          <type>InputBinding</type>
+          <declname>bindingMask</declname>
+        </param>
+        <param>
+          <type>out InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1583" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1583" bodyend="1586"/>
+        <references refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="20" endline="20">asset</references>
+        <references refid="class_rebind_u_i_sample_actions_modified_1a1ffce5ae9fc1f5a46fc4279f7d89d7a0" compoundref="_rebind_u_i_sample_actions_modified_8cs" startline="1540" endline="1543">bindingMask</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rebind_u_i_sample_actions_modified_1a44831566c8c0e6a4d19cfb59f7810729" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. RebindUISampleActionsModified.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="1563" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="1563" bodyend="1566"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>RebindUISampleActionsModified</label>
+        <link refid="class_rebind_u_i_sample_actions_modified"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>RebindUISampleActionsModified</label>
+        <link refid="class_rebind_u_i_sample_actions_modified"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" line="18" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOAssets/InputSystemPackage/RebindUISampleActionsModified.cs" bodystart="19" bodyend="1969"/>
+    <listofallmembers>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ada905d29ff5579dd0e54b24e0a72e7d5" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>asset</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a1ffce5ae9fc1f5a46fc4279f7d89d7a0" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>bindingMask</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ac21b48e30a94fa389d9a97d8d74e5e35" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>bindings</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1aeae0ed58b7baa106bde09e7e91a29164" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>Contains</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ab741f2b2719fc9de651696b3e4ee0e5a" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>controlSchemes</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a6e3a0edfad9a66f16bb62f1fdc036411" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>devices</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a79077f4452a70cb79e9ddc9942fee2f2" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>Disable</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1aa4ae504f66544be47758cc8ae1349e86" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>Dispose</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1aa054d9bf7b4dab89dc98cc32ed803adc" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>Enable</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a0ce4a0313554615ffd31f2911f716670" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>FindAction</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a11f96c7568160527cccdc2a0f7b3c377" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>FindBinding</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a5bd5e709b6590083dad948180a4c5ab4" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>GamepadScheme</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a1598d9b723f8e535444a83d364c5b2a0" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>GameplaySampleUnused</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a3a880826b16e17af0219d27c331ef830" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>GetEnumerator</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a44831566c8c0e6a4d19cfb59f7810729" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>GetEnumerator</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a0ce5367008c7c62b3a32b693c0db581c" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>KeyboardScheme</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1adbabcbc12cfe7ee6f8615d7a64d03a8f" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_GamepadSchemeIndex</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a4c3402b60a219712a577519e3f158783" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_GameplaySampleUnused</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a1ff0716abd3e24dcc8753247ea87d542" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_GameplaySampleUnused_Interact</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a791a5708be5725386f2000ea789ed07c" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_GameplaySampleUnused_Look</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a69dcbbf2502be745b5d1aecb9f5c6d01" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_GameplaySampleUnused_Move</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a751e23b0d68afc338b9876b4317a0324" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_GameplaySampleUnusedActionsCallbackInterface</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a3d810c1aa4ec529a3cd1c4bb6c70f8d3" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_KeyboardSchemeIndex</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a72706b3ee14d9970b1423d1b6d0377a9" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a7d7b99d22d72c70797f1b47d363d15fe" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_CommandSlot0</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a67bd798837ad5e0ef5f82b18c329ae8b" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_CommandSlot1</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a1d94a1f97cf3a75c37fd4ab880e0d09e" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_CommandSlot2</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a2e7df629fb6012740ac689f7d25f1040" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_CommandSlot3</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a4b227b9cbc03891759d73af20a41260b" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_DPadAxisHorizontal</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a3831108fbbce71c52daafdd755f3316d" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_DPadAxisVertical</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a6d7c42a2732eb04dc911ea56f082a6e5" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_LeftStickAxisHorizontal</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1aebdcc533a7b9a8ecdcd89343e79ceba7" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_LeftStickAxisVertical</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1afdf4dd7d8c1fb0d95b7f3f06dea8c128" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_RightStickAxisHorizontal</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ab21316693552ec4733bae3046287ec8b" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_RightStickAxisVertical</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a11522e8075d2081457de103432df37d9" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_SecondaryCommandSlot4</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a0b68e329669933c5a4e6308c920eab10" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_SecondaryCommandSlot5</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a63ac8c03a8ae039555a2ea8d87a82f67" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_Select</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ab0d2410c662fca5ace5201390b40e82d" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_Start</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ad210062ea6cf9141ec7bcffef3fe6d3f" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_TertiaryCommandSlotAxis6</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1aff9ee10d3b888c807564e226c4114571" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMain_TertiaryCommandSlotAxis7</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a0636ca3138b02e262eefaa24226ce422" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_PlayerMainActionsCallbackInterface</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ad5109ce3df0571bf81e9e25eb4d16d47" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_UIMain</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1aff2edc1c3bea76d7486805260a6b6665" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_UIMain_Cancel</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a4a10374c08c85b32fbd2319892edeba8" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_UIMain_Click</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a2b38e58b591a515cf97e64354fb79e31" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_UIMain_Navigate</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1aace091bc2a1a11a65388cbd706475d2f" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_UIMain_Point</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a808bf65f62acbcfcf8b380fd53c60a7b" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_UIMain_Submit</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ac6167aca3a36f0cc3e2e1472252a07f0" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_UIMainActionsCallbackInterface</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1aba4750e12f512e7019be66c00d7aef35" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_Vector2Axis</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a63e231da8619a760ef5b5dc019652a5d" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_Vector2Axis_DPadAxis2D</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1adf15649f7957c9e454d3bb64f2ff10aa" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_Vector2Axis_LeftStickAxis2D</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a3ee116b591d82e3aca6dd2df6846abfa" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_Vector2Axis_Newaction</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ad8ac78fa8f06baad6969c9b487ae474c" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_Vector2Axis_RightStickAxis2D</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1ad119df2f963a9ccb2c1e5ecf73a1b194" prot="private" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>m_Vector2AxisActionsCallbackInterface</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a2f9cd1cea6deda12666502886120b024" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>PlayerMain</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a0206d0df3f2057e09be1ab7852198c2d" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>RebindUISampleActionsModified</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a08ac677cdbd4473bb0eb1777027b827e" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>UIMain</name></member>
+      <member refid="class_rebind_u_i_sample_actions_modified_1a53510665014476d73a5a988065bc27dc" prot="public" virt="non-virtual"><scope>RebindUISampleActionsModified</scope><name>Vector2Axis</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,495 @@
+\hypertarget{class_command_base}{}\doxysection{Command\+Base Class Reference}
+\label{class_command_base}\index{CommandBase@{CommandBase}}
+
+
+Inheritance diagram for Command\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Command\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_command_base__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_command_base_1_1_cooldown_info}{Cooldown\+Info}}
+\item 
+class \mbox{\hyperlink{class_command_base_1_1_execution_info}{Execution\+Info}}
+\item 
+struct \mbox{\hyperlink{struct_command_base_1_1_info}{Info}}
+\item 
+struct \mbox{\hyperlink{struct_command_base_1_1_instance_info_runtime}{Instance\+Info\+Runtime}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4b}{Cast\+State}} \{ \mbox{\hyperlink{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4bab2fdab230a2c39f3595a947861863cb7}{ready}}
+, \mbox{\hyperlink{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4bac76a5e84e4bdee527e274ea30c680d79}{active}}
+, \mbox{\hyperlink{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4ba59c659396e8d30a10effe3566f8b782d}{cooldown}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a99b32aa77f30f6b42ee58778183e5db5}{Activate}} (Game\+Object owner\+Root\+Parent\+Obj=null)
+\item 
+virtual void \mbox{\hyperlink{class_command_base_adcc42ebe79b3532b8a45b8be75958497}{Begin\+Cooldown}} (Game\+Object owner\+Root\+Parent\+Obj=null)
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a7e86bdf437ded67513c61d554b2ed79b}{Stay\+Cooldown}} (Game\+Object owner\+Root\+Parent\+Obj=null)
+\item 
+virtual void \mbox{\hyperlink{class_command_base_ae4422d145540bf12661a8078c6066ab4}{End\+Cooldown}} (Game\+Object owner\+Root\+Parent\+Obj=null)
+\item 
+void \mbox{\hyperlink{class_command_base_af6ee9e1a406a4f1ec172336bb833a8d2}{Handle\+Cooldown}} (Game\+Object owner\+Root\+Parent\+Obj)
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a405d08e553ab58bb187c762a91fe20d8}{Try\+Exec\+Command}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a2bd013311318d3d861a7d6f2a8b42cb0}{On\+External\+Update}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a1daf934f29ab2fed7aa0469e7794f01b}{Calculate\+Elapsed\+Time}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a2555099b8b8f7345919865ca0daa4bdb}{Exec\+Press}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_ac2d48e3cddefeb4e6a6eabba41aa7577}{Exec\+Down}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_abce04e951d2ff38afc8110a7e230e0ad}{Exec\+Down\+Charging}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a9f05ac9b2cd4da7f0649e5767629d298}{Exec\+Release}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_ae0f9aff4793563e3681b052196c93c61}{Execd}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_ad212a686f171b8d585283c12f85ec943}{Init\+Game\+Obj}} (Game\+Object owner\+Root\+Parent\+Obj)
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a6cc05d447a42f3b6fd8de5ee36d31df7}{Init}} ()
+\item 
+virtual \mbox{\hyperlink{class_command_base}{Command\+Base}} \mbox{\hyperlink{class_command_base_a4dcfa4d779498beebcace4649f911d2d}{Create\+New\+Instance\+Of\+Self}} (Game\+Object new\+Instigator\+Obj\+Ref=null)
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a566ca9e15250f13d927bf52c81951923}{Awake}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a715925776f1d5f4cb3c75d60043455bd}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_a6bf6020fca1d369cd58792b3d99fedd5}{On\+Disable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_af947c78d3d9a637f7a424a679c3b8f52}{On\+Destroy}} ()
+\item 
+virtual void \mbox{\hyperlink{class_command_base_aaa3fd572c9dfd1314889b530955d9871}{Undo}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_command_base_1_1_info}{Info}} \mbox{\hyperlink{class_command_base_a4fe442f9e369fb2325c89b2a2488acad}{info}}
+\item 
+\mbox{\hyperlink{struct_command_base_1_1_instance_info_runtime}{Instance\+Info\+Runtime}} \mbox{\hyperlink{class_command_base_a0da567c6d9f76378bfafae1145fc76c5}{instance\+Info}}
+\item 
+\mbox{\hyperlink{struct_command_base_1_1_cooldown_info}{Cooldown\+Info}} \mbox{\hyperlink{class_command_base_a00855c89a1d7f998d84163304d5568fd}{cooldown\+Info}}
+\item 
+\mbox{\hyperlink{class_command_base_1_1_execution_info}{Execution\+Info}} \mbox{\hyperlink{class_command_base_a9d160629089439a8d86ff0dfabb79315}{exec\+Info}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+virtual string \mbox{\hyperlink{class_command_base_aff5582377a9008fb9dd715e06627f345}{a\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+virtual float \mbox{\hyperlink{class_command_base_a6593ea3d53501bd90c83e2bc7bb5f81c}{Time\+Stamp}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+virtual float \mbox{\hyperlink{class_command_base_aeaa20a07ff3ae4982db4f91d09ee21af}{Elapsed\+Time}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\item 
+virtual int \mbox{\hyperlink{class_command_base_a9da58b3b0bfbd61fec118c863dff71df}{id}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4b}\label{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4b}} 
+\index{CommandBase@{CommandBase}!CastState@{CastState}}
+\index{CastState@{CastState}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{CastState}{CastState}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4b}{Command\+Base.\+Cast\+State}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ready@{ready}!CommandBase@{CommandBase}}\index{CommandBase@{CommandBase}!ready@{ready}}}\mbox{\Hypertarget{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4bab2fdab230a2c39f3595a947861863cb7}\label{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4bab2fdab230a2c39f3595a947861863cb7}} 
+ready&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{active@{active}!CommandBase@{CommandBase}}\index{CommandBase@{CommandBase}!active@{active}}}\mbox{\Hypertarget{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4bac76a5e84e4bdee527e274ea30c680d79}\label{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4bac76a5e84e4bdee527e274ea30c680d79}} 
+active&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{cooldown@{cooldown}!CommandBase@{CommandBase}}\index{CommandBase@{CommandBase}!cooldown@{cooldown}}}\mbox{\Hypertarget{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4ba59c659396e8d30a10effe3566f8b782d}\label{class_command_base_aa2c3a6c84456af9e0ebb49c7fc0a4d4ba59c659396e8d30a10effe3566f8b782d}} 
+cooldown&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_command_base_a99b32aa77f30f6b42ee58778183e5db5}\label{class_command_base_a99b32aa77f30f6b42ee58778183e5db5}} 
+\index{CommandBase@{CommandBase}!Activate@{Activate}}
+\index{Activate@{Activate}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{Activate()}{Activate()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Activate (\begin{DoxyParamCaption}\item[{Game\+Object}]{owner\+Root\+Parent\+Obj = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_a99b32aa77f30f6b42ee58778183e5db5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a566ca9e15250f13d927bf52c81951923}\label{class_command_base_a566ca9e15250f13d927bf52c81951923}} 
+\index{CommandBase@{CommandBase}!Awake@{Awake}}
+\index{Awake@{Awake}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_command_base_adcc42ebe79b3532b8a45b8be75958497}\label{class_command_base_adcc42ebe79b3532b8a45b8be75958497}} 
+\index{CommandBase@{CommandBase}!BeginCooldown@{BeginCooldown}}
+\index{BeginCooldown@{BeginCooldown}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{BeginCooldown()}{BeginCooldown()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Begin\+Cooldown (\begin{DoxyParamCaption}\item[{Game\+Object}]{owner\+Root\+Parent\+Obj = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_adcc42ebe79b3532b8a45b8be75958497_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a1daf934f29ab2fed7aa0469e7794f01b}\label{class_command_base_a1daf934f29ab2fed7aa0469e7794f01b}} 
+\index{CommandBase@{CommandBase}!CalculateElapsedTime@{CalculateElapsedTime}}
+\index{CalculateElapsedTime@{CalculateElapsedTime}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{CalculateElapsedTime()}{CalculateElapsedTime()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Calculate\+Elapsed\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_a1daf934f29ab2fed7aa0469e7794f01b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a4dcfa4d779498beebcace4649f911d2d}\label{class_command_base_a4dcfa4d779498beebcace4649f911d2d}} 
+\index{CommandBase@{CommandBase}!CreateNewInstanceOfSelf@{CreateNewInstanceOfSelf}}
+\index{CreateNewInstanceOfSelf@{CreateNewInstanceOfSelf}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{CreateNewInstanceOfSelf()}{CreateNewInstanceOfSelf()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_command_base}{Command\+Base}} Command\+Base.\+Create\+New\+Instance\+Of\+Self (\begin{DoxyParamCaption}\item[{Game\+Object}]{new\+Instigator\+Obj\+Ref = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_a4dcfa4d779498beebcace4649f911d2d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_ae4422d145540bf12661a8078c6066ab4}\label{class_command_base_ae4422d145540bf12661a8078c6066ab4}} 
+\index{CommandBase@{CommandBase}!EndCooldown@{EndCooldown}}
+\index{EndCooldown@{EndCooldown}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{EndCooldown()}{EndCooldown()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+End\+Cooldown (\begin{DoxyParamCaption}\item[{Game\+Object}]{owner\+Root\+Parent\+Obj = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_ae4422d145540bf12661a8078c6066ab4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_ae0f9aff4793563e3681b052196c93c61}\label{class_command_base_ae0f9aff4793563e3681b052196c93c61}} 
+\index{CommandBase@{CommandBase}!Execd@{Execd}}
+\index{Execd@{Execd}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{Execd()}{Execd()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Execd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_input_command_a30f8aedff59388b5293975b3cbfba443}{Input\+Command}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_ae0f9aff4793563e3681b052196c93c61_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_ac2d48e3cddefeb4e6a6eabba41aa7577}\label{class_command_base_ac2d48e3cddefeb4e6a6eabba41aa7577}} 
+\index{CommandBase@{CommandBase}!ExecDown@{ExecDown}}
+\index{ExecDown@{ExecDown}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{ExecDown()}{ExecDown()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Exec\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_input_command_a8295f4448a37878709bda4b7db5ce75f}{Input\+Command}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_ac2d48e3cddefeb4e6a6eabba41aa7577_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_abce04e951d2ff38afc8110a7e230e0ad}\label{class_command_base_abce04e951d2ff38afc8110a7e230e0ad}} 
+\index{CommandBase@{CommandBase}!ExecDownCharging@{ExecDownCharging}}
+\index{ExecDownCharging@{ExecDownCharging}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{ExecDownCharging()}{ExecDownCharging()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Exec\+Down\+Charging (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_input_command_ac4054b550c7ee70288847ea070f68af0}{Input\+Command}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_abce04e951d2ff38afc8110a7e230e0ad_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a2555099b8b8f7345919865ca0daa4bdb}\label{class_command_base_a2555099b8b8f7345919865ca0daa4bdb}} 
+\index{CommandBase@{CommandBase}!ExecPress@{ExecPress}}
+\index{ExecPress@{ExecPress}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{ExecPress()}{ExecPress()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Exec\+Press (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_input_command_a6f825e18af09b2d7e8538032c3d8fc73}{Input\+Command}}, \mbox{\hyperlink{class_enable_disable_game_object_command_a90b52b05f06141aa37a6861111b4cb0a}{Enable\+Disable\+Game\+Object\+Command}}, and \mbox{\hyperlink{class_set_material_color_command_aa2fe24ca4fd7a4e27d2a0d56c44f66f7}{Set\+Material\+Color\+Command}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_a2555099b8b8f7345919865ca0daa4bdb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a9f05ac9b2cd4da7f0649e5767629d298}\label{class_command_base_a9f05ac9b2cd4da7f0649e5767629d298}} 
+\index{CommandBase@{CommandBase}!ExecRelease@{ExecRelease}}
+\index{ExecRelease@{ExecRelease}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{ExecRelease()}{ExecRelease()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Exec\+Release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_input_command_a6a4ffd343a3f092fae5db46a7b2b0993}{Input\+Command}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_a9f05ac9b2cd4da7f0649e5767629d298_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_af6ee9e1a406a4f1ec172336bb833a8d2}\label{class_command_base_af6ee9e1a406a4f1ec172336bb833a8d2}} 
+\index{CommandBase@{CommandBase}!HandleCooldown@{HandleCooldown}}
+\index{HandleCooldown@{HandleCooldown}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{HandleCooldown()}{HandleCooldown()}}
+{\footnotesize\ttfamily void Command\+Base.\+Handle\+Cooldown (\begin{DoxyParamCaption}\item[{Game\+Object}]{owner\+Root\+Parent\+Obj }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_af6ee9e1a406a4f1ec172336bb833a8d2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_af6ee9e1a406a4f1ec172336bb833a8d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a6cc05d447a42f3b6fd8de5ee36d31df7}\label{class_command_base_a6cc05d447a42f3b6fd8de5ee36d31df7}} 
+\index{CommandBase@{CommandBase}!Init@{Init}}
+\index{Init@{Init}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_command_base_a6cc05d447a42f3b6fd8de5ee36d31df7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_ad212a686f171b8d585283c12f85ec943}\label{class_command_base_ad212a686f171b8d585283c12f85ec943}} 
+\index{CommandBase@{CommandBase}!InitGameObj@{InitGameObj}}
+\index{InitGameObj@{InitGameObj}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{InitGameObj()}{InitGameObj()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Init\+Game\+Obj (\begin{DoxyParamCaption}\item[{Game\+Object}]{owner\+Root\+Parent\+Obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_command_base_af947c78d3d9a637f7a424a679c3b8f52}\label{class_command_base_af947c78d3d9a637f7a424a679c3b8f52}} 
+\index{CommandBase@{CommandBase}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_command_base_a6bf6020fca1d369cd58792b3d99fedd5}\label{class_command_base_a6bf6020fca1d369cd58792b3d99fedd5}} 
+\index{CommandBase@{CommandBase}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_command_base_a715925776f1d5f4cb3c75d60043455bd}\label{class_command_base_a715925776f1d5f4cb3c75d60043455bd}} 
+\index{CommandBase@{CommandBase}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_input_command_a66721cfb45ec22e7137721a8e7e5cbf5}{Input\+Command}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_command_base_a715925776f1d5f4cb3c75d60043455bd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a2bd013311318d3d861a7d6f2a8b42cb0}\label{class_command_base_a2bd013311318d3d861a7d6f2a8b42cb0}} 
+\index{CommandBase@{CommandBase}!OnExternalUpdate@{OnExternalUpdate}}
+\index{OnExternalUpdate@{OnExternalUpdate}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{OnExternalUpdate()}{OnExternalUpdate()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+On\+External\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_input_command_a64de2217fb20e650e8e04e1c80deaef8}{Input\+Command}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_a2bd013311318d3d861a7d6f2a8b42cb0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a7e86bdf437ded67513c61d554b2ed79b}\label{class_command_base_a7e86bdf437ded67513c61d554b2ed79b}} 
+\index{CommandBase@{CommandBase}!StayCooldown@{StayCooldown}}
+\index{StayCooldown@{StayCooldown}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{StayCooldown()}{StayCooldown()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Stay\+Cooldown (\begin{DoxyParamCaption}\item[{Game\+Object}]{owner\+Root\+Parent\+Obj = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_a7e86bdf437ded67513c61d554b2ed79b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_command_base_a405d08e553ab58bb187c762a91fe20d8}\label{class_command_base_a405d08e553ab58bb187c762a91fe20d8}} 
+\index{CommandBase@{CommandBase}!TryExecCommand@{TryExecCommand}}
+\index{TryExecCommand@{TryExecCommand}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{TryExecCommand()}{TryExecCommand()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Try\+Exec\+Command (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{interface_i_command_a7fc0d324014976db246abbd800a4cc7b}{ICommand}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_input_command_a32ba692a92ce5fd84c67ab3d320965ad}{Input\+Command}}.
+
+\mbox{\Hypertarget{class_command_base_aaa3fd572c9dfd1314889b530955d9871}\label{class_command_base_aaa3fd572c9dfd1314889b530955d9871}} 
+\index{CommandBase@{CommandBase}!Undo@{Undo}}
+\index{Undo@{Undo}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{Undo()}{Undo()}}
+{\footnotesize\ttfamily virtual void Command\+Base.\+Undo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{interface_i_command_aaee389e6fbefdb121ccd719f1447a05e}{ICommand}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_command_base_aaa3fd572c9dfd1314889b530955d9871_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_command_base_a00855c89a1d7f998d84163304d5568fd}\label{class_command_base_a00855c89a1d7f998d84163304d5568fd}} 
+\index{CommandBase@{CommandBase}!cooldownInfo@{cooldownInfo}}
+\index{cooldownInfo@{cooldownInfo}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{cooldownInfo}{cooldownInfo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_command_base_1_1_cooldown_info}{Cooldown\+Info}} Command\+Base.\+cooldown\+Info}
+
+\mbox{\Hypertarget{class_command_base_a9d160629089439a8d86ff0dfabb79315}\label{class_command_base_a9d160629089439a8d86ff0dfabb79315}} 
+\index{CommandBase@{CommandBase}!execInfo@{execInfo}}
+\index{execInfo@{execInfo}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{execInfo}{execInfo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_command_base_1_1_execution_info}{Execution\+Info}} Command\+Base.\+exec\+Info}
+
+\mbox{\Hypertarget{class_command_base_a4fe442f9e369fb2325c89b2a2488acad}\label{class_command_base_a4fe442f9e369fb2325c89b2a2488acad}} 
+\index{CommandBase@{CommandBase}!info@{info}}
+\index{info@{info}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{info}{info}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_command_base_1_1_info}{Info}} Command\+Base.\+info}
+
+\mbox{\Hypertarget{class_command_base_a0da567c6d9f76378bfafae1145fc76c5}\label{class_command_base_a0da567c6d9f76378bfafae1145fc76c5}} 
+\index{CommandBase@{CommandBase}!instanceInfo@{instanceInfo}}
+\index{instanceInfo@{instanceInfo}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{instanceInfo}{instanceInfo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_command_base_1_1_instance_info_runtime}{Instance\+Info\+Runtime}} Command\+Base.\+instance\+Info}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_command_base_aff5582377a9008fb9dd715e06627f345}\label{class_command_base_aff5582377a9008fb9dd715e06627f345}} 
+\index{CommandBase@{CommandBase}!aName@{aName}}
+\index{aName@{aName}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{aName}{aName}}
+{\footnotesize\ttfamily virtual string Command\+Base.\+a\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_command_base_aeaa20a07ff3ae4982db4f91d09ee21af}\label{class_command_base_aeaa20a07ff3ae4982db4f91d09ee21af}} 
+\index{CommandBase@{CommandBase}!ElapsedTime@{ElapsedTime}}
+\index{ElapsedTime@{ElapsedTime}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{ElapsedTime}{ElapsedTime}}
+{\footnotesize\ttfamily virtual float Command\+Base.\+Elapsed\+Time\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_command_base_a9da58b3b0bfbd61fec118c863dff71df}\label{class_command_base_a9da58b3b0bfbd61fec118c863dff71df}} 
+\index{CommandBase@{CommandBase}!id@{id}}
+\index{id@{id}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily virtual int Command\+Base.\+id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_command_base_a6593ea3d53501bd90c83e2bc7bb5f81c}\label{class_command_base_a6593ea3d53501bd90c83e2bc7bb5f81c}} 
+\index{CommandBase@{CommandBase}!TimeStamp@{TimeStamp}}
+\index{TimeStamp@{TimeStamp}!CommandBase@{CommandBase}}
+\doxysubsubsection{\texorpdfstring{TimeStamp}{TimeStamp}}
+{\footnotesize\ttfamily virtual float Command\+Base.\+Time\+Stamp\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+\_\+\+SSDSPEEDUP/2021/clone/gps1\+\_\+manadesigner/\+GPS1-\/\+Manadesigner/\+Assets/\+\_\+\+Utils\+V0.\+4/\+My\+Scripts/\+\_\+\+Utils/\+Command\+Pattern/\+Command/\+SOScripts/\mbox{\hyperlink{_command_base_8cs}{Command\+Base.\+cs}}\end{DoxyCompactItemize}

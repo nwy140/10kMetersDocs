@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_event" xml:lang="en-US">
+<title>GameEvent Class Reference</title>
+<indexterm><primary>GameEvent</primary></indexterm>
+Inheritance diagram for GameEvent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_event__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for GameEvent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_event__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_game_event_1a2c24a40f0d0cdc9ee848beb6d590ba14">Raise</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_game_event_1a0518267051728a4ade5e19db0b21cc19">RegisterListener</link> (<link linkend="_class_game_event_listener">GameEventListener</link> listener)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_game_event_1a535914a2d43d3095e99db102563f5a45">UnregisterListener</link> (<link linkend="_class_game_event_listener">GameEventListener</link> listener)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_event_1a2c24a40f0d0cdc9ee848beb6d590ba14"/><section>
+    <title>Raise()</title>
+<indexterm><primary>Raise</primary><secondary>GameEvent</secondary></indexterm>
+<indexterm><primary>GameEvent</primary><secondary>Raise</secondary></indexterm>
+<para><computeroutput>virtual void GameEvent.Raise ( )<computeroutput>[virtual]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_event_a2c24a40f0d0cdc9ee848beb6d590ba14_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_game_event_1a0518267051728a4ade5e19db0b21cc19"/><section>
+    <title>RegisterListener()</title>
+<indexterm><primary>RegisterListener</primary><secondary>GameEvent</secondary></indexterm>
+<indexterm><primary>GameEvent</primary><secondary>RegisterListener</secondary></indexterm>
+<para><computeroutput>virtual void GameEvent.RegisterListener (<link linkend="_class_game_event_listener">GameEventListener</link> listener)<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_event_1a535914a2d43d3095e99db102563f5a45"/><section>
+    <title>UnregisterListener()</title>
+<indexterm><primary>UnregisterListener</primary><secondary>GameEvent</secondary></indexterm>
+<indexterm><primary>GameEvent</primary><secondary>UnregisterListener</secondary></indexterm>
+<para><computeroutput>virtual void GameEvent.UnregisterListener (<link linkend="_class_game_event_listener">GameEventListener</link> listener)<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Events/<link linkend="__game_event_8cs">GameEvent.cs</link></section>
+</section>

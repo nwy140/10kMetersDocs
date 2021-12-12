@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions" xml:lang="en-US">
+<title>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions Struct Reference</title>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary></indexterm>
+Collaboration diagram for UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a2c02cb597bd8504183a7d42a7923f1fa">GameplayActions</link> (@<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions">InGameHintsActions</link> wrapper)</para>
+</listitem>
+            <listitem><para>InputActionMap <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1ae43fc46491ef6aaa1f777bfc8b50fd57">Get</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1ab7ea1148ae1358577d935457e5aa379d">Enable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1ace0121b24384671fef37b5418e8b6bab">Disable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a21bf26c75bfb17b6532a1f94625a2ad1">SetCallbacks</link> (<link linkend="_interface_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_i_gameplay_actions">IGameplayActions</link> instance)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static implicit <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a0881fc0becc29f858b27a84379d69a99">operator InputActionMap</link> (<link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions">GameplayActions</link> set)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1aa1b61d45b18efa1bd786f5f79dabc3b3">Move</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a5f60277149483ae43fdb0ee25a92ee26">Look</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a87f3950eab90a0a68c8910a340206aa1">PickUp</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a7897f85409c436c9516f68a953f71062">Drop</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>InputAction <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a78f11f91684c81a8cf100d50e83ca95f">Throw</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a26246a206b6847965b1d42ea3b9547c1">enabled</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a2c02cb597bd8504183a7d42a7923f1fa"/><section>
+    <title>GameplayActions()</title>
+<indexterm><primary>GameplayActions</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>GameplayActions</secondary></indexterm>
+<para><computeroutput>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.GameplayActions (@<link linkend="_class_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions">InGameHintsActions</link> wrapper)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1ace0121b24384671fef37b5418e8b6bab"/><section>
+    <title>Disable()</title>
+<indexterm><primary>Disable</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>Disable</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.Disable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_ace0121b24384671fef37b5418e8b6bab_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1ab7ea1148ae1358577d935457e5aa379d"/><section>
+    <title>Enable()</title>
+<indexterm><primary>Enable</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>Enable</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.Enable ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_ab7ea1148ae1358577d935457e5aa379d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1ae43fc46491ef6aaa1f777bfc8b50fd57"/><section>
+    <title>Get()</title>
+<indexterm><primary>Get</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>InputActionMap UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.Get ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_ae43fc46491ef6aaa1f777bfc8b50fd57_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a0881fc0becc29f858b27a84379d69a99"/><section>
+    <title>operator InputActionMap()</title>
+<indexterm><primary>operator InputActionMap</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>operator InputActionMap</secondary></indexterm>
+<para><computeroutput>static implicit UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.operator InputActionMap (<link linkend="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions">GameplayActions</link> set)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a21bf26c75bfb17b6532a1f94625a2ad1"/><section>
+    <title>SetCallbacks()</title>
+<indexterm><primary>SetCallbacks</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>SetCallbacks</secondary></indexterm>
+<para><computeroutput>void UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.SetCallbacks (<link linkend="_interface_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_i_gameplay_actions">IGameplayActions</link> instance)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_a21bf26c75bfb17b6532a1f94625a2ad1_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a7897f85409c436c9516f68a953f71062"/><section>
+    <title>Drop</title>
+<indexterm><primary>Drop</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>Drop</secondary></indexterm>
+<para><computeroutput>InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.Drop<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a26246a206b6847965b1d42ea3b9547c1"/><section>
+    <title>enabled</title>
+<indexterm><primary>enabled</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>enabled</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.enabled<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a5f60277149483ae43fdb0ee25a92ee26"/><section>
+    <title>Look</title>
+<indexterm><primary>Look</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>Look</secondary></indexterm>
+<para><computeroutput>InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.Look<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1aa1b61d45b18efa1bd786f5f79dabc3b3"/><section>
+    <title>Move</title>
+<indexterm><primary>Move</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>Move</secondary></indexterm>
+<para><computeroutput>InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.Move<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a87f3950eab90a0a68c8910a340206aa1"/><section>
+    <title>PickUp</title>
+<indexterm><primary>PickUp</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>PickUp</secondary></indexterm>
+<para><computeroutput>InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.PickUp<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_struct_unity_engine_1_1_input_system_1_1_samples_1_1_in_game_hints_1_1_in_game_hints_actions_1_1_gameplay_actions_1a78f11f91684c81a8cf100d50e83ca95f"/><section>
+    <title>Throw</title>
+<indexterm><primary>Throw</primary><secondary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</secondary></indexterm>
+<indexterm><primary>UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions</primary><secondary>Throw</secondary></indexterm>
+<para><computeroutput>InputAction UnityEngine.InputSystem.Samples.InGameHints.InGameHintsActions.GameplayActions.Throw<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/In-Game Hints/<link linkend="__in_game_hints_actions_8cs">InGameHintsActions.cs</link></section>
+</section>

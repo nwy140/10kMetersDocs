@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_day_counter" xml:lang="en-US">
+<title>DayCounter Class Reference</title>
+<indexterm><primary>DayCounter</primary></indexterm>
+Inheritance diagram for DayCounter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_day_counter__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for DayCounter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_day_counter__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_day_counter_1ac85dfdea3515196a4cfbe406cf8dda21">CountDays</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e">days</link> = 0</para>
+</listitem>
+            <listitem><para>Text <link linkend="_class_day_counter_1a9eb4ff86b839f359df25c0d37962528e">dayCounter</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_day_counter">DayCounter</link> <link linkend="_class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_day_counter_1ac85dfdea3515196a4cfbe406cf8dda21"/><section>
+    <title>CountDays()</title>
+<indexterm><primary>CountDays</primary><secondary>DayCounter</secondary></indexterm>
+<indexterm><primary>DayCounter</primary><secondary>CountDays</secondary></indexterm>
+<para><computeroutput>void DayCounter.CountDays ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_day_counter_1a9eb4ff86b839f359df25c0d37962528e"/><section>
+    <title>dayCounter</title>
+<indexterm><primary>dayCounter</primary><secondary>DayCounter</secondary></indexterm>
+<indexterm><primary>DayCounter</primary><secondary>dayCounter</secondary></indexterm>
+<para><computeroutput>Text DayCounter.dayCounter</computeroutput></para></section>
+<anchor xml:id="_class_day_counter_1a2c4ee7959dc502cfc49ed6a0c7dc4a7e"/><section>
+    <title>days</title>
+<indexterm><primary>days</primary><secondary>DayCounter</secondary></indexterm>
+<indexterm><primary>DayCounter</primary><secondary>days</secondary></indexterm>
+<para><computeroutput>int DayCounter.days = 0</computeroutput></para></section>
+<anchor xml:id="_class_day_counter_1acebea68a1c0f9339470d7d1873d6ae31"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>DayCounter</secondary></indexterm>
+<indexterm><primary>DayCounter</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_day_counter">DayCounter</link> DayCounter.instance<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Outpost/<link linkend="__day_counter_8cs">DayCounter.cs</link></section>
+</section>

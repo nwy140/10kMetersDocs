@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_breakable_wall_bullet" kind="class" language="C#" prot="public">
+    <compoundname>BreakableWallBullet</compoundname>
+    <basecompoundref refid="class_player_bullet" prot="public" virt="non-virtual">PlayerBullet</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_breakable_wall_bullet_1adf2938700d1aa6e1b232f6df4f43814a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_area_of_effect" kindref="compound">AreaOfEffect</ref></type>
+        <definition>AreaOfEffect BreakableWallBullet.areaOfEffect</definition>
+        <argsstring></argsstring>
+        <name>areaOfEffect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/BreakableWallBullet.cs" line="7" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/BreakableWallBullet.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_breakable_wall_bullet_1af1b45a24a362abf1deead64e6f21543f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BreakableWallBullet.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/BreakableWallBullet.cs" line="9" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/BreakableWallBullet.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BreakableWallBullet</label>
+        <link refid="class_breakable_wall_bullet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>PlayerBullet</label>
+        <link refid="class_player_bullet"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BreakableWallBullet</label>
+        <link refid="class_breakable_wall_bullet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>PlayerBullet</label>
+        <link refid="class_player_bullet"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+PlayerBulletProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>PlayerBulletProperties</label>
+        <link refid="class_player_bullet_properties"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/BreakableWallBullet.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PlayerBullet/BreakableWallBullet.cs" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_breakable_wall_bullet_1adf2938700d1aa6e1b232f6df4f43814a" prot="private" virt="non-virtual"><scope>BreakableWallBullet</scope><name>areaOfEffect</name></member>
+      <member refid="class_player_bullet_1a23079475c0d4d05a2c4818e8a26a0b79" prot="public" virt="non-virtual"><scope>BreakableWallBullet</scope><name>BulletDamage</name></member>
+      <member refid="class_player_bullet_1a75177f576180e59f7092684d57bd80c7" prot="public" virt="non-virtual"><scope>BreakableWallBullet</scope><name>BulletSpeed</name></member>
+      <member refid="class_breakable_wall_bullet_1af1b45a24a362abf1deead64e6f21543f" prot="private" virt="non-virtual"><scope>BreakableWallBullet</scope><name>OnDestroy</name></member>
+      <member refid="class_player_bullet_1abfce8acc1beca3930f5695fafdda41ed" prot="public" virt="non-virtual"><scope>BreakableWallBullet</scope><name>OnHitBox</name></member>
+      <member refid="class_player_bullet_1a013f5c2f733d7fbf3293d1ed88bae512" prot="public" virt="non-virtual"><scope>BreakableWallBullet</scope><name>PlayerBulletProperties</name></member>
+      <member refid="class_player_bullet_1ab8df5c791812259f63b39abd9e60ac06" prot="protected" virt="non-virtual"><scope>BreakableWallBullet</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

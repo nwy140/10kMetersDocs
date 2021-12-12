@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_patrol_by_waypoints" xml:lang="en-US">
+<title>PatrolByWaypoints Class Reference</title>
+<indexterm><primary>PatrolByWaypoints</primary></indexterm>
+Inheritance diagram for PatrolByWaypoints:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_waypoints__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for PatrolByWaypoints:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_waypoints__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_patrol_by_waypoints_1aa713531703de93523f69a78c14a4270d">PatrolByWaypoints</link> (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_patrol_by_waypoints_1adcba748e4f330067dcf038b057021e16">OnEnterState</link> ()</para>
+</listitem>
+            <listitem><para>override bool <link linkend="_class_patrol_by_waypoints_1ae55e0e2a1f0370f8757383aa93c81a34">OnExitState</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_patrol_by_waypoints_1a9fef0c96e7781b44b02302ef8090fdd9">OnUpdate</link> ()</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6">OnStayState</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e">PerformStateBehaviour</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_patrol_by_waypoints_1a034cba82242831414187a5fe177da05c">waypointIndex</link> = 0</para>
+</listitem>
+            <listitem><para><link linkend="_class_waypoint_path">WaypointPath</link> <link linkend="_class_patrol_by_waypoints_1a3bde554a11e0e047be9a0d21ad573985">waypointComp</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_patrol_by_waypoints_1a4e772bf82fdf52bf23c3ba64e6e4c12c">hasSetDestination</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_patrol_by_waypoints_1a96d9e4914af864793d885575f7e3244e">etaNextWaypoint</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_patrol_by_waypoints_1a8c075da08c0103d43074d22fbbaaf0c4">timeBetweenWaypointsMin</link> = 5f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_patrol_by_waypoints_1a33ba374905cc50c105e99ffed45c1c06">timeBetweenWaypointsMax</link> = 10f</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_patrol_by_waypoints_1ad495e6cb52eba111e2bd30d1ba290640">isInvertWaypointsIteration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_patrol_by_waypoints_1aa713531703de93523f69a78c14a4270d"/><section>
+    <title>PatrolByWaypoints()</title>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<para><computeroutput>PatrolByWaypoints.PatrolByWaypoints (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_patrol_by_waypoints_1adcba748e4f330067dcf038b057021e16"/><section>
+    <title>OnEnterState()</title>
+<indexterm><primary>OnEnterState</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>OnEnterState</secondary></indexterm>
+<para><computeroutput>override bool PatrolByWaypoints.OnEnterState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_patrol_by_waypoints_1ae55e0e2a1f0370f8757383aa93c81a34"/><section>
+    <title>OnExitState()</title>
+<indexterm><primary>OnExitState</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>OnExitState</secondary></indexterm>
+<para><computeroutput>override bool PatrolByWaypoints.OnExitState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6"/><section>
+    <title>OnStayState()</title>
+<indexterm><primary>OnStayState</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>OnStayState</secondary></indexterm>
+<para><computeroutput>override void PatrolByWaypoints.OnStayState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c">FSMBaseState</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_waypoints_ae27477594ec3618830d92df7915773e6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_patrol_by_waypoints_1a9fef0c96e7781b44b02302ef8090fdd9"/><section>
+    <title>OnUpdate()</title>
+<indexterm><primary>OnUpdate</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>OnUpdate</secondary></indexterm>
+<para><computeroutput>override void PatrolByWaypoints.OnUpdate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e">FSMBaseState</link>.</para>
+</section>
+<anchor xml:id="_class_patrol_by_waypoints_1a4d6e8aa2832b7dd8f935b3509d9f8a4e"/><section>
+    <title>PerformStateBehaviour()</title>
+<indexterm><primary>PerformStateBehaviour</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>PerformStateBehaviour</secondary></indexterm>
+<para><computeroutput>void PatrolByWaypoints.PerformStateBehaviour ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_patrol_by_waypoints_a4d6e8aa2832b7dd8f935b3509d9f8a4e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_patrol_by_waypoints_1a96d9e4914af864793d885575f7e3244e"/><section>
+    <title>etaNextWaypoint</title>
+<indexterm><primary>etaNextWaypoint</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>etaNextWaypoint</secondary></indexterm>
+<para><computeroutput>float PatrolByWaypoints.etaNextWaypoint</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_waypoints_1a4e772bf82fdf52bf23c3ba64e6e4c12c"/><section>
+    <title>hasSetDestination</title>
+<indexterm><primary>hasSetDestination</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>hasSetDestination</secondary></indexterm>
+<para><computeroutput>bool PatrolByWaypoints.hasSetDestination</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_waypoints_1ad495e6cb52eba111e2bd30d1ba290640"/><section>
+    <title>isInvertWaypointsIteration</title>
+<indexterm><primary>isInvertWaypointsIteration</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>isInvertWaypointsIteration</secondary></indexterm>
+<para><computeroutput>bool PatrolByWaypoints.isInvertWaypointsIteration</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_waypoints_1a33ba374905cc50c105e99ffed45c1c06"/><section>
+    <title>timeBetweenWaypointsMax</title>
+<indexterm><primary>timeBetweenWaypointsMax</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>timeBetweenWaypointsMax</secondary></indexterm>
+<para><computeroutput>float PatrolByWaypoints.timeBetweenWaypointsMax = 10f</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_waypoints_1a8c075da08c0103d43074d22fbbaaf0c4"/><section>
+    <title>timeBetweenWaypointsMin</title>
+<indexterm><primary>timeBetweenWaypointsMin</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>timeBetweenWaypointsMin</secondary></indexterm>
+<para><computeroutput>float PatrolByWaypoints.timeBetweenWaypointsMin = 5f</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_waypoints_1a3bde554a11e0e047be9a0d21ad573985"/><section>
+    <title>waypointComp</title>
+<indexterm><primary>waypointComp</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>waypointComp</secondary></indexterm>
+<para><computeroutput><link linkend="_class_waypoint_path">WaypointPath</link> PatrolByWaypoints.waypointComp</computeroutput></para></section>
+<anchor xml:id="_class_patrol_by_waypoints_1a034cba82242831414187a5fe177da05c"/><section>
+    <title>waypointIndex</title>
+<indexterm><primary>waypointIndex</primary><secondary>PatrolByWaypoints</secondary></indexterm>
+<indexterm><primary>PatrolByWaypoints</primary><secondary>waypointIndex</secondary></indexterm>
+<para><computeroutput>int PatrolByWaypoints.waypointIndex = 0</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/<link linkend="__n_p_c_a_i_states_type_a_8cs">NPCAIStatesTypeA.cs</link></section>
+</section>

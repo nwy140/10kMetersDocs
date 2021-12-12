@@ -1,0 +1,81 @@
+.TH "Maze" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Maze
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBGenerate\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "List< \fBMapLocation\fP > \fBdirections\fP"
+.br
+.ti -1c
+.RI "int \fBxMin\fP"
+.br
+.ti -1c
+.RI "int \fByMin\fP"
+.br
+.ti -1c
+.RI "int \fBxMax\fP"
+.br
+.ti -1c
+.RI "int \fByMax\fP"
+.br
+.ti -1c
+.RI "byte[,] \fBmap\fP"
+.br
+.ti -1c
+.RI "int \fBscale\fP = 6"
+.br
+.ti -1c
+.RI "GameObject \fBtileMarkerPrefab\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual void Maze\&.Generate ()\fC [virtual]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "List<\fBMapLocation\fP> Maze\&.directions"
+\fBInitial value:\fP
+.PP
+.nf
+= new List<MapLocation>()
+    {
+        new MapLocation(1,0),
+        new MapLocation(0,1),
+        new MapLocation(-1,0),
+        new MapLocation(0,-1)
+    }
+.fi
+.SS "byte [,] Maze\&.map"
+
+.SS "int Maze\&.scale = 6"
+
+.SS "GameObject Maze\&.tileMarkerPrefab"
+
+.SS "int Maze\&.xMax"
+
+.SS "int Maze\&.xMin"
+
+.SS "int Maze\&.yMax"
+
+.SS "int Maze\&.yMin"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

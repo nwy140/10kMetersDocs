@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_model" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.PostProcessingModel Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingModel</primary></indexterm>
+Inheritance diagram for UnityEngine.PostProcessing.PostProcessingModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_model__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for UnityEngine.PostProcessing.PostProcessingModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_model__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>abstract void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">Reset</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768">OnValidate</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3">enabled</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768"/><section>
+    <title>OnValidate()</title>
+<indexterm><primary>OnValidate</primary><secondary>UnityEngine.PostProcessing.PostProcessingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingModel</primary><secondary>OnValidate</secondary></indexterm>
+<para><computeroutput>virtual void UnityEngine.PostProcessing.PostProcessingModel.OnValidate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a2cdf5183a4882e9ae3439b22fe935f12">UnityEngine.PostProcessing.ColorGradingModel</link>.</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d"/><section>
+    <title>Reset()</title>
+<indexterm><primary>Reset</primary><secondary>UnityEngine.PostProcessing.PostProcessingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingModel</primary><secondary>Reset</secondary></indexterm>
+<para><computeroutput>abstract void UnityEngine.PostProcessing.PostProcessingModel.Reset ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1acd50412ffa1f482d1d7561c48cc7f731">UnityEngine.PostProcessing.AmbientOcclusionModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1aeed2830b0c1b3a6ef09c0aea26b0b206">UnityEngine.PostProcessing.AntialiasingModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_bloom_model_1afe5c14fd79a06f6ca4c0f96ae056ec07">UnityEngine.PostProcessing.BloomModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1ad9e1b645a461131af7abfc318a45d9b0">UnityEngine.PostProcessing.BuiltinDebugViewsModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1a10912d80b3a86b38f88a0bfee52ff948">UnityEngine.PostProcessing.ChromaticAberrationModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a64a6bc1783ee8f2f66e4eb6c13385eed">UnityEngine.PostProcessing.ColorGradingModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1aed85b9c87b7fd8c5844d44ff7883309c">UnityEngine.PostProcessing.DepthOfFieldModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_dithering_model_1a32230e9d0e5db63630764379fe5eb09e">UnityEngine.PostProcessing.DitheringModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1a055eae23b68fd6d5b6ab1d98c306e814">UnityEngine.PostProcessing.EyeAdaptationModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_fog_model_1ac02075eb4d6e2eaa462eb33ab53c4753">UnityEngine.PostProcessing.FogModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_grain_model_1ab4dbacfe4c524d5e483285e361897d30">UnityEngine.PostProcessing.GrainModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_model_1a04196279454910f3f9c840378a80b8c7">UnityEngine.PostProcessing.MotionBlurModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1abf314aab69e370e9f092e17e69a57066">UnityEngine.PostProcessing.ScreenSpaceReflectionModel</link>, <link linkend="_class_unity_engine_1_1_post_processing_1_1_user_lut_model_1af9a480ba07bbcd8c4863610c30e2e1f7">UnityEngine.PostProcessing.UserLutModel</link>, and <link linkend="_class_unity_engine_1_1_post_processing_1_1_vignette_model_1a7598645b887ddf177a33787cd06ca751">UnityEngine.PostProcessing.VignetteModel</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3"/><section>
+    <title>enabled</title>
+<indexterm><primary>enabled</primary><secondary>UnityEngine.PostProcessing.PostProcessingModel</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingModel</primary><secondary>enabled</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.PostProcessingModel.enabled<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/<link linkend="__post_processing_model_8cs">PostProcessingModel.cs</link></section>
+</section>

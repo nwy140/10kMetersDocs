@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_editor_1_1_post_processing_1_1_reflection_utils" xml:lang="en-US">
+<title>UnityEditor.PostProcessing.ReflectionUtils Class Reference</title>
+<indexterm><primary>UnityEditor.PostProcessing.ReflectionUtils</primary></indexterm>
+Collaboration diagram for UnityEditor.PostProcessing.ReflectionUtils:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_editor_1_1_post_processing_1_1_reflection_utils__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static FieldInfo <link linkend="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1afb51a45fa3cb4823ee4a57978c6f3742">GetFieldInfoFromPath</link> (object source, string path)</para>
+</listitem>
+            <listitem><para>static string <link linkend="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a29aebe020b4730dd76f3f216d3bd6af4">GetFieldPath&lt; T, TValue &gt;</link> (Expression&lt; Func&lt; T, TValue &gt; &gt; expr)</para>
+</listitem>
+            <listitem><para>static object <link linkend="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a331c1ec710785e3a2e6b87ecf379c7bd">GetFieldValue</link> (object source, string name)</para>
+</listitem>
+            <listitem><para>static object <link linkend="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1af06ab5437079d8ea80ac2eeb220b5599">GetFieldValueFromPath</link> (object source, ref Type baseType, string path)</para>
+</listitem>
+            <listitem><para>static object <link linkend="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a70d1948fae4fb73e77b7dc6e531cf034">GetParentObject</link> (string path, object obj)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1afb51a45fa3cb4823ee4a57978c6f3742"/><section>
+    <title>GetFieldInfoFromPath()</title>
+<indexterm><primary>GetFieldInfoFromPath</primary><secondary>UnityEditor.PostProcessing.ReflectionUtils</secondary></indexterm>
+<indexterm><primary>UnityEditor.PostProcessing.ReflectionUtils</primary><secondary>GetFieldInfoFromPath</secondary></indexterm>
+<para><computeroutput>static FieldInfo UnityEditor.PostProcessing.ReflectionUtils.GetFieldInfoFromPath (object source, string path)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a29aebe020b4730dd76f3f216d3bd6af4"/><section>
+    <title>GetFieldPath&lt; T, TValue &gt;()</title>
+<indexterm><primary>GetFieldPath&lt; T, TValue &gt;</primary><secondary>UnityEditor.PostProcessing.ReflectionUtils</secondary></indexterm>
+<indexterm><primary>UnityEditor.PostProcessing.ReflectionUtils</primary><secondary>GetFieldPath&lt; T, TValue &gt;</secondary></indexterm>
+<para><computeroutput>static string UnityEditor.PostProcessing.ReflectionUtils.GetFieldPath&lt; T, TValue &gt; (Expression&lt; Func&lt; T, TValue &gt; &gt; expr)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a331c1ec710785e3a2e6b87ecf379c7bd"/><section>
+    <title>GetFieldValue()</title>
+<indexterm><primary>GetFieldValue</primary><secondary>UnityEditor.PostProcessing.ReflectionUtils</secondary></indexterm>
+<indexterm><primary>UnityEditor.PostProcessing.ReflectionUtils</primary><secondary>GetFieldValue</secondary></indexterm>
+<para><computeroutput>static object UnityEditor.PostProcessing.ReflectionUtils.GetFieldValue (object source, string name)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_editor_1_1_post_processing_1_1_reflection_utils_a331c1ec710785e3a2e6b87ecf379c7bd_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1af06ab5437079d8ea80ac2eeb220b5599"/><section>
+    <title>GetFieldValueFromPath()</title>
+<indexterm><primary>GetFieldValueFromPath</primary><secondary>UnityEditor.PostProcessing.ReflectionUtils</secondary></indexterm>
+<indexterm><primary>UnityEditor.PostProcessing.ReflectionUtils</primary><secondary>GetFieldValueFromPath</secondary></indexterm>
+<para><computeroutput>static object UnityEditor.PostProcessing.ReflectionUtils.GetFieldValueFromPath (object source, ref Type baseType, string path)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_editor_1_1_post_processing_1_1_reflection_utils_af06ab5437079d8ea80ac2eeb220b5599_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a70d1948fae4fb73e77b7dc6e531cf034"/><section>
+    <title>GetParentObject()</title>
+<indexterm><primary>GetParentObject</primary><secondary>UnityEditor.PostProcessing.ReflectionUtils</secondary></indexterm>
+<indexterm><primary>UnityEditor.PostProcessing.ReflectionUtils</primary><secondary>GetParentObject</secondary></indexterm>
+<para><computeroutput>static object UnityEditor.PostProcessing.ReflectionUtils.GetParentObject (string path, object obj)<computeroutput>[static]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_editor_1_1_post_processing_1_1_reflection_utils_a70d1948fae4fb73e77b7dc6e531cf034_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_editor_1_1_post_processing_1_1_reflection_utils_a70d1948fae4fb73e77b7dc6e531cf034_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Editor/Utils/<link linkend="__reflection_utils_8cs">ReflectionUtils.cs</link></section>
+</section>

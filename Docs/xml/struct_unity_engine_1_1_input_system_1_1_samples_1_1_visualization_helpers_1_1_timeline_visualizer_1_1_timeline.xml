@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline" kind="struct" language="C#" prot="private">
+    <compoundname>UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer::Timeline</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a5718a5d1c0794ff6aed613a6f9da8472" prot="public" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.Timeline.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="479" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a08d95aef189233ceea2cb304d4fb5169" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.Timeline.color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="480" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a3106a3faf1a4b6923afab3d6df0e8558" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer" kindref="compound">RingBuffer</ref>&lt; TimeSample &gt;</type>
+        <definition>RingBuffer&lt;TimeSample&gt; UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.Timeline.timeSamples</definition>
+        <argsstring></argsstring>
+        <name>timeSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="481" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1af6c03879a1c7804918ef9ea328d59327" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_ring_buffer" kindref="compound">RingBuffer</ref>&lt; FrameSample &gt;</type>
+        <definition>RingBuffer&lt;FrameSample&gt; UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.Timeline.frameSamples</definition>
+        <argsstring></argsstring>
+        <name>frameSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="482" column="35" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="482" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a3f90234f76610e4800889dd8ff542b78" prot="public" static="no" mutable="no">
+        <type>PrimitiveValue</type>
+        <definition>PrimitiveValue UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.Timeline.minValue</definition>
+        <argsstring></argsstring>
+        <name>minValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="483" column="39" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a183bdcaa9de1cde1c2aa47426456fd61" prot="public" static="no" mutable="no">
+        <type>PrimitiveValue</type>
+        <definition>PrimitiveValue UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.Timeline.maxValue</definition>
+        <argsstring></argsstring>
+        <name>maxValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="484" column="39" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a87f946b2b5f5e0c8b5607ff1c9f3dd14" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1a9fb492da84369d163a1c55c241977d8c" kindref="member">PlotType</ref></type>
+        <definition>PlotType UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.Timeline.plotType</definition>
+        <argsstring></argsstring>
+        <name>plotType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="485" column="33" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="485" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEngine.InputSystem.Samples.VisualizationHelpers.TimelineVisualizer.Timeline</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" line="477" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Visualizers/VisualizationHelpers.cs" bodystart="478" bodyend="486"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a08d95aef189233ceea2cb304d4fb5169" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer::Timeline</scope><name>color</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1af6c03879a1c7804918ef9ea328d59327" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer::Timeline</scope><name>frameSamples</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a183bdcaa9de1cde1c2aa47426456fd61" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer::Timeline</scope><name>maxValue</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a3f90234f76610e4800889dd8ff542b78" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer::Timeline</scope><name>minValue</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a5718a5d1c0794ff6aed613a6f9da8472" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer::Timeline</scope><name>name</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a87f946b2b5f5e0c8b5607ff1c9f3dd14" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer::Timeline</scope><name>plotType</name></member>
+      <member refid="struct_unity_engine_1_1_input_system_1_1_samples_1_1_visualization_helpers_1_1_timeline_visualizer_1_1_timeline_1a3106a3faf1a4b6923afab3d6df0e8558" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::Samples::VisualizationHelpers::TimelineVisualizer::Timeline</scope><name>timeSamples</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

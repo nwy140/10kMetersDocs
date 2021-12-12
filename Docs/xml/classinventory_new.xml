@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classinventory_new" kind="class" language="C#" prot="public">
+    <compoundname>inventoryNew</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classinventory_new_1ac3a8d8d4dbabe16e08ea07e4297e859f" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem_new" kindref="compound">itemNew</ref></type>
+        <definition>itemNew inventoryNew.item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="7" column="14" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classinventory_new_1a65713897bbcfb1157a99b87f69ae2f93" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classitem_new" kindref="compound">itemNew</ref> &gt;</type>
+        <definition>List&lt;itemNew&gt; inventoryNew.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="8" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classinventory_new_1a52fd923ef69fdf1ff1b7a98ed50ac8cd" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform inventoryNew.itemsParent</definition>
+        <argsstring></argsstring>
+        <name>itemsParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="9" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classinventory_new_1acf145ce24a3e9dbb829fa3b2c04a5c67" prot="private" static="no" mutable="no">
+        <type><ref refid="classitem_slots_new" kindref="compound">itemSlotsNew</ref>[]</type>
+        <definition>itemSlotsNew [] inventoryNew.itemSlots</definition>
+        <argsstring></argsstring>
+        <name>itemSlots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="10" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="classinventory_new_1a0c0caf976a16d5672d653698add50527" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.Action&lt; <ref refid="classitem_new" kindref="compound">itemNew</ref> &gt;</type>
+        <definition>System.Action&lt;itemNew&gt; inventoryNew.OnItemRightClickEvent</definition>
+        <argsstring></argsstring>
+        <name>OnItemRightClickEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="12" column="31" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classinventory_new_1a6c18141402848f35c02eef3cf4dc0af5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void inventoryNew.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="14" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classinventory_new_1a0b75b7221ba30b6cadea09f9d2b43047" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void inventoryNew.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="26" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="26" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classinventory_new_1a3706fc01a9e4ddc06996dcd80b7fddc2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void inventoryNew.refreshUI</definition>
+        <argsstring>()</argsstring>
+        <name>refreshUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="40" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="40" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classinventory_new_1a5f69a31b00ccd93d2afd19c5d01c8986" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void inventoryNew.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="61" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="61" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classinventory_new_1afdef58cdfdb139e9ba9c5d47ef5a7eaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool inventoryNew.addItem</definition>
+        <argsstring>(itemNew item)</argsstring>
+        <name>addItem</name>
+        <param>
+          <type><ref refid="classitem_new" kindref="compound">itemNew</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="71" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="71" bodyend="135"/>
+        <references refid="classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9" compoundref="item_slots_8cs" startline="48" endline="62">itemSlots.Amount</references>
+        <references refid="classinventory_new_1abd48c99551acf6f114ae48e8170e84be" compoundref="inventory_new_8cs" startline="157" endline="162">IsFull</references>
+        <references refid="classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d" compoundref="item_slots_8cs" startline="27" endline="43">itemSlots.Item</references>
+      </memberdef>
+      <memberdef kind="function" id="classinventory_new_1aa2b63c67069cc81cea458ca7bf47210b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool inventoryNew.removeItem</definition>
+        <argsstring>(item item)</argsstring>
+        <name>removeItem</name>
+        <param>
+          <type><ref refid="classitem" kindref="compound">item</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="137" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="137" bodyend="155"/>
+        <references refid="classitem_slots_1acbfc9f3c36a773cf5c80a9701b2eafd9" compoundref="item_slots_8cs" startline="48" endline="62">itemSlots.Amount</references>
+        <references refid="classitem_slots_1a37b52c921b50bd1518015c5e0013cd2d" compoundref="item_slots_8cs" startline="27" endline="43">itemSlots.Item</references>
+      </memberdef>
+      <memberdef kind="function" id="classinventory_new_1abd48c99551acf6f114ae48e8170e84be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool inventoryNew.IsFull</definition>
+        <argsstring>()</argsstring>
+        <name>IsFull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="157" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="157" bodyend="162"/>
+        <referencedby refid="classinventory_new_1afdef58cdfdb139e9ba9c5d47ef5a7eaf" compoundref="inventory_new_8cs" startline="71" endline="135">addItem</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>inventoryNew</label>
+        <link refid="classinventory_new"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>inventoryNew</label>
+        <link refid="classinventory_new"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Thrish/inventoryNew.cs" bodystart="6" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classinventory_new_1afdef58cdfdb139e9ba9c5d47ef5a7eaf" prot="public" virt="non-virtual"><scope>inventoryNew</scope><name>addItem</name></member>
+      <member refid="classinventory_new_1a6c18141402848f35c02eef3cf4dc0af5" prot="private" virt="non-virtual"><scope>inventoryNew</scope><name>Awake</name></member>
+      <member refid="classinventory_new_1abd48c99551acf6f114ae48e8170e84be" prot="public" virt="non-virtual"><scope>inventoryNew</scope><name>IsFull</name></member>
+      <member refid="classinventory_new_1ac3a8d8d4dbabe16e08ea07e4297e859f" prot="private" virt="non-virtual"><scope>inventoryNew</scope><name>item</name></member>
+      <member refid="classinventory_new_1a65713897bbcfb1157a99b87f69ae2f93" prot="private" virt="non-virtual"><scope>inventoryNew</scope><name>items</name></member>
+      <member refid="classinventory_new_1acf145ce24a3e9dbb829fa3b2c04a5c67" prot="private" virt="non-virtual"><scope>inventoryNew</scope><name>itemSlots</name></member>
+      <member refid="classinventory_new_1a52fd923ef69fdf1ff1b7a98ed50ac8cd" prot="private" virt="non-virtual"><scope>inventoryNew</scope><name>itemsParent</name></member>
+      <member refid="classinventory_new_1a0c0caf976a16d5672d653698add50527" prot="public" virt="non-virtual"><scope>inventoryNew</scope><name>OnItemRightClickEvent</name></member>
+      <member refid="classinventory_new_1a0b75b7221ba30b6cadea09f9d2b43047" prot="private" virt="non-virtual"><scope>inventoryNew</scope><name>OnValidate</name></member>
+      <member refid="classinventory_new_1a3706fc01a9e4ddc06996dcd80b7fddc2" prot="private" virt="non-virtual"><scope>inventoryNew</scope><name>refreshUI</name></member>
+      <member refid="classinventory_new_1aa2b63c67069cc81cea458ca7bf47210b" prot="public" virt="non-virtual"><scope>inventoryNew</scope><name>removeItem</name></member>
+      <member refid="classinventory_new_1a5f69a31b00ccd93d2afd19c5d01c8986" prot="private" virt="non-virtual"><scope>inventoryNew</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

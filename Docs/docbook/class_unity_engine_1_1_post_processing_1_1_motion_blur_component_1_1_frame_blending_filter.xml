@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1aba7c640390a45264550828c72b73b8e3">FrameBlendingFilter</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1a65d54ba8a2c251750ae6f0b24b820dea">Dispose</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1a28f61022ba58cd83c34e46a2511c32ed">PushFrame</link> (CommandBuffer cb, RenderTargetIdentifier source, int width, int height, Material material)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1a679383bc1fc3e5e698bb5724676efcc5">BlendFrames</link> (CommandBuffer cb, float strength, RenderTargetIdentifier source, RenderTargetIdentifier destination, Material material)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1aba7c640390a45264550828c72b73b8e3"/><section>
+    <title>FrameBlendingFilter()</title>
+<indexterm><primary>FrameBlendingFilter</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</primary><secondary>FrameBlendingFilter</secondary></indexterm>
+<para><computeroutput>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.FrameBlendingFilter ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1a679383bc1fc3e5e698bb5724676efcc5"/><section>
+    <title>BlendFrames()</title>
+<indexterm><primary>BlendFrames</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</primary><secondary>BlendFrames</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.BlendFrames (CommandBuffer cb, float strength, RenderTargetIdentifier source, RenderTargetIdentifier destination, Material material)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_a679383bc1fc3e5e698bb5724676efcc5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1a65d54ba8a2c251750ae6f0b24b820dea"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Dispose ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1a28f61022ba58cd83c34e46a2511c32ed"/><section>
+    <title>PushFrame()</title>
+<indexterm><primary>PushFrame</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</primary><secondary>PushFrame</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.PushFrame (CommandBuffer cb, RenderTargetIdentifier source, int width, int height, Material material)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_a28f61022ba58cd83c34e46a2511c32ed_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__motion_blur_component_8cs">MotionBlurComponent.cs</link></section>
+</section>

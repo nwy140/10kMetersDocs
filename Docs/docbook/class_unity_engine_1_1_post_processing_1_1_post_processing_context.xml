@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.PostProcessingContext Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.PostProcessingContext:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_post_processing_context__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a5576527ed48192d867c94726398fd83f">Interrupt</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context">PostProcessingContext</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ab29cec74ac7c25ed7793d1d4fcb82271">Reset</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile">PostProcessingProfile</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1aed4fe6d35c8aacba8a038aeac53ca64a">profile</link></para>
+</listitem>
+            <listitem><para>Camera <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a298c483394cb3576866937f0764f9411">camera</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_material_factory">MaterialFactory</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a4ca8220cc2d91501656021290e9a3a86">materialFactory</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory">RenderTextureFactory</link> <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ae753b3a16ac9f652e135c6a454886d26">renderTextureFactory</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ab93ab5b37f664bd229c322164ca5bf70">interrupted</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ac66f43731d1ae15bb7d0b1fb2884826e">isGBufferAvailable</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a4b5a681cde9e4aca82c23981d2130539">isHdr</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a6998d843d59216ccb88e6fd343fb7306">width</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ab1c293d501b4437e15c58d98b07c8b4b">height</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>Rect <link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a8a1709dc0cdb5e5f7db01f7723f4baf3">viewport</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a5576527ed48192d867c94726398fd83f"/><section>
+    <title>Interrupt()</title>
+<indexterm><primary>Interrupt</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>Interrupt</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.PostProcessingContext.Interrupt ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ab29cec74ac7c25ed7793d1d4fcb82271"/><section>
+    <title>Reset()</title>
+<indexterm><primary>Reset</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>Reset</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context">PostProcessingContext</link> UnityEngine.PostProcessing.PostProcessingContext.Reset ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a298c483394cb3576866937f0764f9411"/><section>
+    <title>camera</title>
+<indexterm><primary>camera</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>camera</secondary></indexterm>
+<para><computeroutput>Camera UnityEngine.PostProcessing.PostProcessingContext.camera</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a4ca8220cc2d91501656021290e9a3a86"/><section>
+    <title>materialFactory</title>
+<indexterm><primary>materialFactory</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>materialFactory</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_material_factory">MaterialFactory</link> UnityEngine.PostProcessing.PostProcessingContext.materialFactory</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1aed4fe6d35c8aacba8a038aeac53ca64a"/><section>
+    <title>profile</title>
+<indexterm><primary>profile</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>profile</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_profile">PostProcessingProfile</link> UnityEngine.PostProcessing.PostProcessingContext.profile</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ae753b3a16ac9f652e135c6a454886d26"/><section>
+    <title>renderTextureFactory</title>
+<indexterm><primary>renderTextureFactory</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>renderTextureFactory</secondary></indexterm>
+<para><computeroutput><link linkend="_class_unity_engine_1_1_post_processing_1_1_render_texture_factory">RenderTextureFactory</link> UnityEngine.PostProcessing.PostProcessingContext.renderTextureFactory</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ab1c293d501b4437e15c58d98b07c8b4b"/><section>
+    <title>height</title>
+<indexterm><primary>height</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>height</secondary></indexterm>
+<para><computeroutput>int UnityEngine.PostProcessing.PostProcessingContext.height<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ab93ab5b37f664bd229c322164ca5bf70"/><section>
+    <title>interrupted</title>
+<indexterm><primary>interrupted</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>interrupted</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.PostProcessingContext.interrupted<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ac66f43731d1ae15bb7d0b1fb2884826e"/><section>
+    <title>isGBufferAvailable</title>
+<indexterm><primary>isGBufferAvailable</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>isGBufferAvailable</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.PostProcessingContext.isGBufferAvailable<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a4b5a681cde9e4aca82c23981d2130539"/><section>
+    <title>isHdr</title>
+<indexterm><primary>isHdr</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>isHdr</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.PostProcessingContext.isHdr<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a8a1709dc0cdb5e5f7db01f7723f4baf3"/><section>
+    <title>viewport</title>
+<indexterm><primary>viewport</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>viewport</secondary></indexterm>
+<para><computeroutput>Rect UnityEngine.PostProcessing.PostProcessingContext.viewport<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_post_processing_context_1a6998d843d59216ccb88e6fd343fb7306"/><section>
+    <title>width</title>
+<indexterm><primary>width</primary><secondary>UnityEngine.PostProcessing.PostProcessingContext</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.PostProcessingContext</primary><secondary>width</secondary></indexterm>
+<para><computeroutput>int UnityEngine.PostProcessing.PostProcessingContext.width<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/<link linkend="__post_processing_context_8cs">PostProcessingContext.cs</link></section>
+</section>

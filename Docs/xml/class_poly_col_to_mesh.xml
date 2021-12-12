@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_poly_col_to_mesh" kind="class" language="C#" prot="public">
+    <compoundname>PolyColToMesh</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_poly_col_to_mesh_1a642dbf35c7a78de81cf120be34a3d3b6" prot="private" static="no" mutable="no">
+        <type>PolygonCollider2D</type>
+        <definition>PolygonCollider2D PolyColToMesh.col</definition>
+        <argsstring></argsstring>
+        <name>col</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PolyColToMesh.cs" line="8" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PolyColToMesh.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_poly_col_to_mesh_1a1a8909d18038f6f539c4fc56b467e73d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PolyColToMesh.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PolyColToMesh.cs" line="10" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PolyColToMesh.cs" bodystart="10" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PolyColToMesh</label>
+        <link refid="class_poly_col_to_mesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PolyColToMesh</label>
+        <link refid="class_poly_col_to_mesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PolyColToMesh.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PolyColToMesh.cs" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_poly_col_to_mesh_1a1a8909d18038f6f539c4fc56b467e73d" prot="private" virt="non-virtual"><scope>PolyColToMesh</scope><name>Awake</name></member>
+      <member refid="class_poly_col_to_mesh_1a642dbf35c7a78de81cf120be34a3d3b6" prot="private" virt="non-virtual"><scope>PolyColToMesh</scope><name>col</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

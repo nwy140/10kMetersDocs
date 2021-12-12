@@ -1,0 +1,116 @@
+.TH "ItemContainer" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ItemContainer
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.PP
+Inherited by \fBstorage\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBAwake\fP ()"
+.br
+.ti -1c
+.RI "bool \fBCheckIfSlotIsEmpty\fP (\fBitem\fP \fBitem\fP)"
+.br
+.ti -1c
+.RI "bool \fBaddItem\fP (\fBitem\fP \fBitem\fP)"
+.br
+.ti -1c
+.RI "bool \fBremoveItem\fP (\fBitem\fP \fBitem\fP)"
+.br
+.ti -1c
+.RI "bool \fBdiscardItem\fP (\fBitemSlots\fP \fBitem\fP)"
+.br
+.ti -1c
+.RI "bool \fBremoveItemWithAmount\fP (\fBitem\fP \fBitem\fP, int amount)"
+.br
+.ti -1c
+.RI "bool \fBIsFull\fP ()"
+.br
+.ti -1c
+.RI "void \fBClear\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "List< \fBitemSlots\fP > \fBItemSlots\fP"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnPointerEnterEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnPointerExitEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnLeftClickEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnBeginDragEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnEndDragEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnDragEvent\fP"
+.br
+.ti -1c
+.RI "Action< \fBitemSlots\fP > \fBOnDropEvent\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "bool ItemContainer\&.addItem (\fBitem\fP item)"
+
+.SS "virtual void ItemContainer\&.Awake ()\fC [virtual]\fP"
+
+.PP
+Reimplemented in \fBstorage\fP\&.
+.SS "bool ItemContainer\&.CheckIfSlotIsEmpty (\fBitem\fP item)"
+
+.SS "void ItemContainer\&.Clear ()"
+
+.SS "bool ItemContainer\&.discardItem (\fBitemSlots\fP item)"
+
+.SS "bool ItemContainer\&.IsFull ()"
+
+.SS "bool ItemContainer\&.removeItem (\fBitem\fP item)"
+
+.SS "bool ItemContainer\&.removeItemWithAmount (\fBitem\fP item, int amount)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "List<\fBitemSlots\fP> ItemContainer\&.ItemSlots"
+
+.SH "Event Documentation"
+.PP 
+.SS "Action<\fBitemSlots\fP> ItemContainer\&.OnBeginDragEvent"
+
+.SS "Action<\fBitemSlots\fP> ItemContainer\&.OnDragEvent"
+
+.SS "Action<\fBitemSlots\fP> ItemContainer\&.OnDropEvent"
+
+.SS "Action<\fBitemSlots\fP> ItemContainer\&.OnEndDragEvent"
+
+.SS "Action<\fBitemSlots\fP> ItemContainer\&.OnLeftClickEvent"
+
+.SS "Action<\fBitemSlots\fP> ItemContainer\&.OnPointerEnterEvent"
+
+.SS "Action<\fBitemSlots\fP> ItemContainer\&.OnPointerExitEvent"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

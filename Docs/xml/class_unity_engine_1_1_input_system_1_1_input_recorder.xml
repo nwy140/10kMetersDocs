@@ -1,0 +1,888 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_unity_engine_1_1_input_system_1_1_input_recorder" kind="class" language="C#" prot="public">
+    <compoundname>UnityEngine::InputSystem::InputRecorder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1_1_change_event" prot="public">UnityEngine::InputSystem::InputRecorder::ChangeEvent</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Change</name>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3ac18aa2fe1eb13832f6ef0a967e8ed2fa" prot="public">
+          <name>EventCaptured</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3add976227177359cbdc2c5a569f8eb0f8" prot="public">
+          <name>EventPlayed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3a25f8d499c643591b30aa8152b2ac7497" prot="public">
+          <name>CaptureStarted</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3a8efa2bba5117e56781bee170040ac595" prot="public">
+          <name>CaptureStopped</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3a0197af9a31ee9a8ca22ac49c544897d6" prot="public">
+          <name>ReplayStarted</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3a919adac6ce580eba4384e4da7cfd1c42" prot="public">
+          <name>ReplayStopped</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="456" column="15" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="457" bodyend="465"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ac01a021b1b8869ca6a872597bbe58f1b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.captureIsRunning</definition>
+        <argsstring></argsstring>
+        <name>captureIsRunning</name>
+        <briefdescription>
+<para>Whether a capture is currently in progress. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>True if a capture is in progress.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="39" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1aaa7bc60df73f6ced3ef4b3aa45a14752" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.replayIsRunning</definition>
+        <argsstring></argsstring>
+        <name>replayIsRunning</name>
+        <briefdescription>
+<para>Whether a replay is currently being run by the component. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>True if replay is running.</para>
+<para><simplesect kind="see"><para><ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1abee89d3a1c98ed22bf893d6c72f76a22" kindref="member">replay</ref>, <ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0e8d20b45d477821fa142e44bdc327a5" kindref="member">StartReplay</ref>, <ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1afbed62e175e7da3b94855921e9595577" kindref="member">StopReplay</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="48" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0e8d20b45d477821fa142e44bdc327a5" compoundref="_input_recorder_8cs" startline="233" endline="260">UnityEngine.InputSystem.InputRecorder.StartReplay</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ab951a223a553a78b0e1189d7c2a1faaa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.startRecordingWhenEnabled</definition>
+        <argsstring></argsstring>
+        <name>startRecordingWhenEnabled</name>
+        <briefdescription>
+<para>If true, input recording is started immediately when the component is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Disabled by default. Call <ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a9455c855eede37598d802cce55e9bb2d" kindref="member">StartCapture</ref> to manually start capturing. </para>
+<para>True if component will start recording automatically in <ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a82280c322d1960063d2f48dae3f443cb" kindref="member">OnEnable</ref>.</para>
+<para><simplesect kind="see"><para><ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a9455c855eede37598d802cce55e9bb2d" kindref="member">StartCapture</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="56" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="57" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a22fc70e5c89d6a39b061679fe20ed599" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long UnityEngine.InputSystem.InputRecorder.eventCount</definition>
+        <argsstring></argsstring>
+        <name>eventCount</name>
+        <briefdescription>
+<para>Total number of events captured. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of captured events.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="71" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ac7c509ae5d43cc46827fd5708a464d5b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long UnityEngine.InputSystem.InputRecorder.totalEventSizeInBytes</definition>
+        <argsstring></argsstring>
+        <name>totalEventSizeInBytes</name>
+        <briefdescription>
+<para>Total size of captured events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of captured events in bytes.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="77" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1af12621ea7c2bd060c2494280be2b2c2f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long UnityEngine.InputSystem.InputRecorder.allocatedSizeInBytes</definition>
+        <argsstring></argsstring>
+        <name>allocatedSizeInBytes</name>
+        <briefdescription>
+<para>Total size of capture memory currently allocated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of memory allocated for capture.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="83" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a2ba2b7c25d096bd758437294674b33a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.recordFrames</definition>
+        <argsstring></argsstring>
+        <name>recordFrames</name>
+        <briefdescription>
+<para>Whether to record frame marker events when capturing input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Enabled by default. </para>
+<para>True if frame marker events will be recorded.</para>
+<para><simplesect kind="see"><para>InputEventTrace.recordFrameMarkers</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="90" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="91" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1aa9c396a6401e9ae7fae6a3e0d6c0caa5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.recordStateEventsOnly</definition>
+        <argsstring></argsstring>
+        <name>recordStateEventsOnly</name>
+        <briefdescription>
+<para>Whether to record only StateEvents and DeltaStateEvents. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Disabled by default. </para>
+<para>True if anything but state events should be ignored.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="108" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0d458aea368305397dac20664eb5000e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string UnityEngine.InputSystem.InputRecorder.devicePath</definition>
+        <argsstring></argsstring>
+        <name>devicePath</name>
+        <briefdescription>
+<para>Path that constrains the devices to record from. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input control path to match devices or null/empty.</para>
+<para>By default, this is not set. Meaning that input will be recorded from all devices. By setting this property to a path, only events for devices that match the given path (as dictated by InputControlPath.Matches) will be recorded from.</para>
+<para>By setting this property to the exact path of a device at runtime, recording can be restricted to just that device. </para>
+<para><simplesect kind="see"><para>InputControlPath, InputControlPath.Matches</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="128" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a3d3628007e5a0f8a39871b41cca74116" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string UnityEngine.InputSystem.InputRecorder.recordButtonPath</definition>
+        <argsstring></argsstring>
+        <name>recordButtonPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="134" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="135" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ace530c1391e845aad0d6f7dc8af01729" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string UnityEngine.InputSystem.InputRecorder.playButtonPath</definition>
+        <argsstring></argsstring>
+        <name>playButtonPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="144" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="145" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ace561e1cbc4a3146ed9bed3bc3b709b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputEventTrace</type>
+        <definition>InputEventTrace UnityEngine.InputSystem.InputRecorder.capture</definition>
+        <argsstring></argsstring>
+        <name>capture</name>
+        <briefdescription>
+<para>The underlying event trace that contains the captured input events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Underlying event trace.</para>
+<para>This will be null if no capture is currently associated with the recorder. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="161" column="32" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1abee89d3a1c98ed22bf893d6c72f76a22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputEventTrace.ReplayController</type>
+        <definition>InputEventTrace.ReplayController UnityEngine.InputSystem.InputRecorder.replay</definition>
+        <argsstring></argsstring>
+        <name>replay</name>
+        <briefdescription>
+<para>The replay controller for when a replay is running. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Replay controller for the event trace while replay is running.</para>
+<para><simplesect kind="see"><para><ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1aaa7bc60df73f6ced3ef4b3aa45a14752" kindref="member">replayIsRunning</ref>, <ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0e8d20b45d477821fa142e44bdc327a5" kindref="member">StartReplay</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="169" column="48" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="169" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0e8d20b45d477821fa142e44bdc327a5" compoundref="_input_recorder_8cs" startline="233" endline="260">UnityEngine.InputSystem.InputRecorder.StartReplay</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1aad1da83e32e6b9eab9e958b1dd1ce6f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int UnityEngine.InputSystem.InputRecorder.replayPosition</definition>
+        <argsstring></argsstring>
+        <name>replayPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="171" column="20" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="172" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a167a7b1463ba3d160c2acd59773ba52e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.replayOnNewDevices</definition>
+        <argsstring></argsstring>
+        <name>replayOnNewDevices</name>
+        <briefdescription>
+<para>Whether a replay should create new devices or replay recorded events as is. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Disabled by default. </para>
+<para>True if replay should temporary create new devices.</para>
+<para><simplesect kind="see"><para>InputEventTrace.ReplayController.WithAllDevicesMappedToNewInstances</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="187" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a939078e382146cbb178a34c0d397c4ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.simulateOriginalTimingOnReplay</definition>
+        <argsstring></argsstring>
+        <name>simulateOriginalTimingOnReplay</name>
+        <briefdescription>
+<para>Whether to attempt to re-create the original event timing when replaying events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Disabled by default. </para>
+<para>If true, events are queued based on their timestamp rather than based on their recorded frames (if any).</para>
+<para><simplesect kind="see"><para>InputEventTrace.ReplayController.PlayAllEventsAccordingToTimestamps</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="198" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a4da084956bda36b15f449f192f0fe052" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1_1_change_event" kindref="compound">ChangeEvent</ref></type>
+        <definition>ChangeEvent UnityEngine.InputSystem.InputRecorder.changeEvent</definition>
+        <argsstring></argsstring>
+        <name>changeEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="204" column="28" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="205" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a684d8048ebd63b6d20764adc1ed5498f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.m_StartRecordingWhenEnabled</definition>
+        <argsstring></argsstring>
+        <name>m_StartRecordingWhenEnabled</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="383" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a58f25d2483396274abc3e08390a6a2d6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.m_RecordFrames</definition>
+        <argsstring></argsstring>
+        <name>m_RecordFrames</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="388" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a3c1c5afadc3ba3c4bb78f19a6f7b06cc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.m_ReplayOnNewDevices</definition>
+        <argsstring></argsstring>
+        <name>m_ReplayOnNewDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="392" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a19df3c95346706b8234e88c01d170cfb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.m_SimulateOriginalTimingOnReplay</definition>
+        <argsstring></argsstring>
+        <name>m_SimulateOriginalTimingOnReplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="397" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a3c6db96f3445dd17c89f067ced7238c5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.m_RecordStateEventsOnly</definition>
+        <argsstring></argsstring>
+        <name>m_RecordStateEventsOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="400" column="23" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ad9fcc7de691192d4ec685c0089627218" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.InputSystem.InputRecorder.m_CaptureMemoryDefaultSize</definition>
+        <argsstring></argsstring>
+        <name>m_CaptureMemoryDefaultSize</name>
+        <initializer>= 2 * 1024 * 1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="402" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a480e021f3f04203dc40b7fcccf5acb26" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.InputSystem.InputRecorder.m_CaptureMemoryMaxSize</definition>
+        <argsstring></argsstring>
+        <name>m_CaptureMemoryMaxSize</name>
+        <initializer>= 10 * 1024 * 1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="403" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a320ea661d677fcefec3f9ef510cb8b0e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UnityEngine.InputSystem.InputRecorder.m_DevicePath</definition>
+        <argsstring></argsstring>
+        <name>m_DevicePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="407" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a29814215c64d2d7f040e38c3e34ac5fc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UnityEngine.InputSystem.InputRecorder.m_RecordButtonPath</definition>
+        <argsstring></argsstring>
+        <name>m_RecordButtonPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="411" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a7e0b2a1169d15b5ca6973234d9111c96" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UnityEngine.InputSystem.InputRecorder.m_PlayButtonPath</definition>
+        <argsstring></argsstring>
+        <name>m_PlayButtonPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="415" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a6a7322e08f85f927ae530c71e99364e3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1_1_change_event" kindref="compound">ChangeEvent</ref></type>
+        <definition>ChangeEvent UnityEngine.InputSystem.InputRecorder.m_ChangeEvent</definition>
+        <argsstring></argsstring>
+        <name>m_ChangeEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="417" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1aa0b76f5a56a9786e48a2bdd60bf7c1ea" prot="private" static="no" mutable="no">
+        <type>Action&lt; InputEventPtr, InputDevice &gt;</type>
+        <definition>Action&lt;InputEventPtr, InputDevice&gt; UnityEngine.InputSystem.InputRecorder.m_OnInputEventDelegate</definition>
+        <argsstring></argsstring>
+        <name>m_OnInputEventDelegate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="419" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a4dd43a17d1eb871061b999e6cc4e58c7" prot="private" static="no" mutable="no">
+        <type>InputEventTrace</type>
+        <definition>InputEventTrace UnityEngine.InputSystem.InputRecorder.m_EventTrace</definition>
+        <argsstring></argsstring>
+        <name>m_EventTrace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="420" column="33" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a94f49ef4c9d0b739d8f283da6137f1e6" prot="private" static="no" mutable="no">
+        <type>InputEventTrace.ReplayController</type>
+        <definition>InputEventTrace.ReplayController UnityEngine.InputSystem.InputRecorder.m_ReplayController</definition>
+        <argsstring></argsstring>
+        <name>m_ReplayController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="421" column="49" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a9455c855eede37598d802cce55e9bb2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.StartCapture</definition>
+        <argsstring>()</argsstring>
+        <name>StartCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="214" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="214" bodyend="222"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a82280c322d1960063d2f48dae3f443cb" compoundref="_input_recorder_8cs" startline="299" endline="306">UnityEngine.InputSystem.InputRecorder.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ac16d188234d2bc6a4903d19a06de07c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.StopCapture</definition>
+        <argsstring>()</argsstring>
+        <name>StopCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="224" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="224" bodyend="231"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ade706e2ce09b8f50ae83e90379080176" compoundref="_input_recorder_8cs" startline="308" endline="313">UnityEngine.InputSystem.InputRecorder.OnDisable</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0e8d20b45d477821fa142e44bdc327a5" compoundref="_input_recorder_8cs" startline="233" endline="260">UnityEngine.InputSystem.InputRecorder.StartReplay</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0e8d20b45d477821fa142e44bdc327a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.StartReplay</definition>
+        <argsstring>()</argsstring>
+        <name>StartReplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="233" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="233" bodyend="260"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1abee89d3a1c98ed22bf893d6c72f76a22" compoundref="_input_recorder_8cs" startline="169">UnityEngine.InputSystem.InputRecorder.replay</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1aaa7bc60df73f6ced3ef4b3aa45a14752" compoundref="_input_recorder_8cs" startline="48">UnityEngine.InputSystem.InputRecorder.replayIsRunning</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ac16d188234d2bc6a4903d19a06de07c5" compoundref="_input_recorder_8cs" startline="224" endline="231">UnityEngine.InputSystem.InputRecorder.StopCapture</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1afbed62e175e7da3b94855921e9595577" compoundref="_input_recorder_8cs" startline="262" endline="270">UnityEngine.InputSystem.InputRecorder.StopReplay</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1afbed62e175e7da3b94855921e9595577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.StopReplay</definition>
+        <argsstring>()</argsstring>
+        <name>StopReplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="262" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="262" bodyend="270"/>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ade706e2ce09b8f50ae83e90379080176" compoundref="_input_recorder_8cs" startline="308" endline="313">UnityEngine.InputSystem.InputRecorder.OnDisable</referencedby>
+        <referencedby refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0e8d20b45d477821fa142e44bdc327a5" compoundref="_input_recorder_8cs" startline="233" endline="260">UnityEngine.InputSystem.InputRecorder.StartReplay</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a2b9cafe2cb3100c9007a408b3194d343" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.PauseReplay</definition>
+        <argsstring>()</argsstring>
+        <name>PauseReplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="272" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="272" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a9b958c59e9e1d597a554a6dea7d95155" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.ClearCapture</definition>
+        <argsstring>()</argsstring>
+        <name>ClearCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="278" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="278" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a6be6d39b51efa1cbe70edd1650ca2f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.LoadCaptureFromFile</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LoadCaptureFromFile</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="283" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="283" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ae1e595336c5054c10c50f235c6a21daf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.SaveCaptureToFile</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>SaveCaptureToFile</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="292" column="21" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="292" bodyend="297"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a82280c322d1960063d2f48dae3f443cb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="299" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="299" bodyend="306"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a9455c855eede37598d802cce55e9bb2d" compoundref="_input_recorder_8cs" startline="214" endline="222">UnityEngine.InputSystem.InputRecorder.StartCapture</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1ade706e2ce09b8f50ae83e90379080176" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="308" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="308" bodyend="313"/>
+        <references refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ac16d188234d2bc6a4903d19a06de07c5" compoundref="_input_recorder_8cs" startline="224" endline="231">UnityEngine.InputSystem.InputRecorder.StopCapture</references>
+        <references refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1afbed62e175e7da3b94855921e9595577" compoundref="_input_recorder_8cs" startline="262" endline="270">UnityEngine.InputSystem.InputRecorder.StopReplay</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a4ad82b21310d01f87355316da25c4e34" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="315" column="24" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="315" bodyend="321"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a396e433a0bc0e086903e4f5d534e9b74" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.InputSystem.InputRecorder.OnFilterInputEvent</definition>
+        <argsstring>(InputEventPtr eventPtr, InputDevice device)</argsstring>
+        <name>OnFilterInputEvent</name>
+        <param>
+          <type>InputEventPtr</type>
+          <declname>eventPtr</declname>
+        </param>
+        <param>
+          <type>InputDevice</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="323" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="323" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1aa3f9fd43b1ccf817f5a6a5857845814e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.OnEventRecorded</definition>
+        <argsstring>(InputEventPtr eventPtr)</argsstring>
+        <name>OnEventRecorded</name>
+        <param>
+          <type>InputEventPtr</type>
+          <declname>eventPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="335" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="335" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a56572805e44391007539b278dbfd7460" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.OnInputEvent</definition>
+        <argsstring>(InputEventPtr eventPtr, InputDevice device)</argsstring>
+        <name>OnInputEvent</name>
+        <param>
+          <type>InputEventPtr</type>
+          <declname>eventPtr</declname>
+        </param>
+        <param>
+          <type>InputDevice</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="340" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="340" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1aab5a816c67532a107ed86ac624c7d4fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.CreateEventTrace</definition>
+        <argsstring>()</argsstring>
+        <name>CreateEventTrace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="423" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="423" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a2fff06274d659ade34948d579512da26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.HookOnInputEvent</definition>
+        <argsstring>()</argsstring>
+        <name>HookOnInputEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="437" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="437" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_input_system_1_1_input_recorder_1a46df9a42c075f0d48cdc96de19011ac5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.InputSystem.InputRecorder.UnhookOnInputEvent</definition>
+        <argsstring>()</argsstring>
+        <name>UnhookOnInputEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="450" column="22" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="450" bodyend="454"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A wrapper component around InputEventTrace that provides an easy interface for recording input from a GameObject. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This component comes with a custom inspector that provides an easy recording and playback interface and also gives feedback about what has been recorded in the trace. The interface also allows saving and loading event traces.</para>
+<para>Capturing can either be constrained by a <ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0d458aea368305397dac20664eb5000e" kindref="member">devicePath</ref> or capture all input occuring in the system.</para>
+<para>Replay by default will happen frame by frame (see InputEventTrace.ReplayController.PlayAllFramesOneByOne). If frame markers are disabled (see <ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a2ba2b7c25d096bd758437294674b33a2" kindref="member">recordFrames</ref>), all events are queued right away in the first frame and replay completes immediately.</para>
+<para>Other than frame-by-frame, replay can be made to happen in a way that tries to simulate the original input timing. To do so, enable <ref refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a939078e382146cbb178a34c0d397c4ba" kindref="member">simulateOriginalTimingOnReplay</ref>. This will make use of InputEventTrace.ReplayController.PlayAllEventsAccordingToTimestamps </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.InputRecorder</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_input_recorder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UnityEngine.InputSystem.InputRecorder</label>
+        <link refid="class_unity_engine_1_1_input_system_1_1_input_recorder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" line="33" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Input Recorder/InputRecorder.cs" bodystart="34" bodyend="471"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1af12621ea7c2bd060c2494280be2b2c2f" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>allocatedSizeInBytes</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ace561e1cbc4a3146ed9bed3bc3b709b3" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>capture</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ac01a021b1b8869ca6a872597bbe58f1b" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>captureIsRunning</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a981a04fb32c4cf91099ddc317706c1f3" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>Change</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a4da084956bda36b15f449f192f0fe052" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>changeEvent</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a9b958c59e9e1d597a554a6dea7d95155" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>ClearCapture</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1aab5a816c67532a107ed86ac624c7d4fb" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>CreateEventTrace</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0d458aea368305397dac20664eb5000e" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>devicePath</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a22fc70e5c89d6a39b061679fe20ed599" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>eventCount</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a2fff06274d659ade34948d579512da26" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>HookOnInputEvent</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a6be6d39b51efa1cbe70edd1650ca2f31" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>LoadCaptureFromFile</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ad9fcc7de691192d4ec685c0089627218" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_CaptureMemoryDefaultSize</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a480e021f3f04203dc40b7fcccf5acb26" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_CaptureMemoryMaxSize</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a6a7322e08f85f927ae530c71e99364e3" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_ChangeEvent</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a320ea661d677fcefec3f9ef510cb8b0e" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_DevicePath</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a4dd43a17d1eb871061b999e6cc4e58c7" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_EventTrace</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1aa0b76f5a56a9786e48a2bdd60bf7c1ea" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_OnInputEventDelegate</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a7e0b2a1169d15b5ca6973234d9111c96" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_PlayButtonPath</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a29814215c64d2d7f040e38c3e34ac5fc" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_RecordButtonPath</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a58f25d2483396274abc3e08390a6a2d6" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_RecordFrames</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a3c6db96f3445dd17c89f067ced7238c5" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_RecordStateEventsOnly</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a94f49ef4c9d0b739d8f283da6137f1e6" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_ReplayController</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a3c1c5afadc3ba3c4bb78f19a6f7b06cc" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_ReplayOnNewDevices</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a19df3c95346706b8234e88c01d170cfb" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_SimulateOriginalTimingOnReplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a684d8048ebd63b6d20764adc1ed5498f" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>m_StartRecordingWhenEnabled</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a4ad82b21310d01f87355316da25c4e34" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>OnDestroy</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ade706e2ce09b8f50ae83e90379080176" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a82280c322d1960063d2f48dae3f443cb" prot="protected" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1aa3f9fd43b1ccf817f5a6a5857845814e" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>OnEventRecorded</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a396e433a0bc0e086903e4f5d534e9b74" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>OnFilterInputEvent</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a56572805e44391007539b278dbfd7460" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>OnInputEvent</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a2b9cafe2cb3100c9007a408b3194d343" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>PauseReplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ace530c1391e845aad0d6f7dc8af01729" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>playButtonPath</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a3d3628007e5a0f8a39871b41cca74116" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>recordButtonPath</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a2ba2b7c25d096bd758437294674b33a2" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>recordFrames</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1aa9c396a6401e9ae7fae6a3e0d6c0caa5" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>recordStateEventsOnly</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1abee89d3a1c98ed22bf893d6c72f76a22" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>replay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1aaa7bc60df73f6ced3ef4b3aa45a14752" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>replayIsRunning</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a167a7b1463ba3d160c2acd59773ba52e" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>replayOnNewDevices</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1aad1da83e32e6b9eab9e958b1dd1ce6f0" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>replayPosition</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ae1e595336c5054c10c50f235c6a21daf" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>SaveCaptureToFile</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a939078e382146cbb178a34c0d397c4ba" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>simulateOriginalTimingOnReplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a9455c855eede37598d802cce55e9bb2d" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>StartCapture</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ab951a223a553a78b0e1189d7c2a1faaa" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>startRecordingWhenEnabled</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a0e8d20b45d477821fa142e44bdc327a5" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>StartReplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ac16d188234d2bc6a4903d19a06de07c5" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>StopCapture</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1afbed62e175e7da3b94855921e9595577" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>StopReplay</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1ac7c509ae5d43cc46827fd5708a464d5b" prot="public" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>totalEventSizeInBytes</name></member>
+      <member refid="class_unity_engine_1_1_input_system_1_1_input_recorder_1a46df9a42c075f0d48cdc96de19011ac5" prot="private" virt="non-virtual"><scope>UnityEngine::InputSystem::InputRecorder</scope><name>UnhookOnInputEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

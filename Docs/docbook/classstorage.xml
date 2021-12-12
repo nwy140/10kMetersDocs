@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classstorage" xml:lang="en-US">
+<title>storage Class Reference</title>
+<indexterm><primary>storage</primary></indexterm>
+Inheritance diagram for storage:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classstorage__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for storage:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classstorage__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_classstorage_1a72387ff5adec348a9190a7b5944ca260">Awake</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classstorage_1abf5bd78f2ecfc15a5a89a1adc942e34d">SetInventoryUpgrade</link> (<link linkend="_class_inventory">Inventory</link> inventoryUpgrade)</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; <link linkend="_classstorage_1a3f7ecf1a4a1217578fc922eed3ffde8e">GetListOfItemsInInventory</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classstorage_1a72387ff5adec348a9190a7b5944ca260"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>storage</secondary></indexterm>
+<indexterm><primary>storage</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>override void storage.Awake ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented from <link linkend="_class_item_container_1afdacd7d3275a184268f58a243ab264a9">ItemContainer</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classstorage_a72387ff5adec348a9190a7b5944ca260_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classstorage_1a3f7ecf1a4a1217578fc922eed3ffde8e"/><section>
+    <title>GetListOfItemsInInventory()</title>
+<indexterm><primary>GetListOfItemsInInventory</primary><secondary>storage</secondary></indexterm>
+<indexterm><primary>storage</primary><secondary>GetListOfItemsInInventory</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classitem_slots">itemSlots</link> &gt; storage.GetListOfItemsInInventory ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classstorage_a3f7ecf1a4a1217578fc922eed3ffde8e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classstorage_1abf5bd78f2ecfc15a5a89a1adc942e34d"/><section>
+    <title>SetInventoryUpgrade()</title>
+<indexterm><primary>SetInventoryUpgrade</primary><secondary>storage</secondary></indexterm>
+<indexterm><primary>storage</primary><secondary>SetInventoryUpgrade</secondary></indexterm>
+<para><computeroutput>void storage.SetInventoryUpgrade (<link linkend="_class_inventory">Inventory</link> inventoryUpgrade)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classstorage_abf5bd78f2ecfc15a5a89a1adc942e34d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classstorage_abf5bd78f2ecfc15a5a89a1adc942e34d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/InventoryScripts/<link linkend="_storage_8cs">storage.cs</link></section>
+</section>

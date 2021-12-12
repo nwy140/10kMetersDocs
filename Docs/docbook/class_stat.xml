@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_stat" xml:lang="en-US">
+<title>Stat Class Reference</title>
+<indexterm><primary>Stat</primary></indexterm>
+Collaboration diagram for Stat:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_stat__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_stat_1abbdf79c800dd18a27b39bf50c37b0ade">IncrementValue</link> (int incrementVal)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_stat_1a478b0262ab30af3ebdc6317c000e5680">DecrementValue</link> (int decrementVal)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_stat_1ad97cef0a04f694041d0afeff0e4a370e">OnStatValueModified</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_stat_1a280ed9b5d39d1cbab7c6f84bc4ea4028">OnExternalUpdate</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_stat_1ab5e2b14bcd59e9c22ab52cfacf16a59a">maxValue</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_stat_1a20c4b06ff8c2161091f4fdaa1e9a7764">minValue</link> = 0</para>
+</listitem>
+            <listitem><para>UnityEvent <link linkend="_class_stat_1a81be2f5532330a6d2d677d20fbf164e5">OnStatValueModifiedEvent</link></para>
+</listitem>
+            <listitem><para>Slider <link linkend="_class_stat_1a28f5c6ac17e8ef4610a907c0bbe84c1e">slider</link></para>
+</listitem>
+            <listitem><para>TextMeshProUGUI <link linkend="_class_stat_1a5e69f84b29a6caa2eaa9727b80ba1040">text</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_stat_1afd1b26cd647dd56d5dc8b6cf8a160279">hpSliderLerpSpeed</link> = 0.95f</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_stat_1acccdfd69ccaadd433b03ecd0168da715">hasSliderFinishedLerping</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>virtual int <link linkend="_class_stat_1a34389c3b69d4e3945f6ef27d413ab3d9">curValue</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_stat_1a478b0262ab30af3ebdc6317c000e5680"/><section>
+    <title>DecrementValue()</title>
+<indexterm><primary>DecrementValue</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>DecrementValue</secondary></indexterm>
+<para><computeroutput>int Stat.DecrementValue (int decrementVal)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_stat_a478b0262ab30af3ebdc6317c000e5680_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_stat_1abbdf79c800dd18a27b39bf50c37b0ade"/><section>
+    <title>IncrementValue()</title>
+<indexterm><primary>IncrementValue</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>IncrementValue</secondary></indexterm>
+<para><computeroutput>int Stat.IncrementValue (int incrementVal)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_stat_abbdf79c800dd18a27b39bf50c37b0ade_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_stat_1a280ed9b5d39d1cbab7c6f84bc4ea4028"/><section>
+    <title>OnExternalUpdate()</title>
+<indexterm><primary>OnExternalUpdate</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>OnExternalUpdate</secondary></indexterm>
+<para><computeroutput>void Stat.OnExternalUpdate ( )</computeroutput></para></section>
+<anchor xml:id="_class_stat_1ad97cef0a04f694041d0afeff0e4a370e"/><section>
+    <title>OnStatValueModified()</title>
+<indexterm><primary>OnStatValueModified</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>OnStatValueModified</secondary></indexterm>
+<para><computeroutput>void Stat.OnStatValueModified ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_stat_ad97cef0a04f694041d0afeff0e4a370e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_stat_1acccdfd69ccaadd433b03ecd0168da715"/><section>
+    <title>hasSliderFinishedLerping</title>
+<indexterm><primary>hasSliderFinishedLerping</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>hasSliderFinishedLerping</secondary></indexterm>
+<para><computeroutput>bool Stat.hasSliderFinishedLerping</computeroutput></para></section>
+<anchor xml:id="_class_stat_1afd1b26cd647dd56d5dc8b6cf8a160279"/><section>
+    <title>hpSliderLerpSpeed</title>
+<indexterm><primary>hpSliderLerpSpeed</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>hpSliderLerpSpeed</secondary></indexterm>
+<para><computeroutput>float Stat.hpSliderLerpSpeed = 0.95f</computeroutput></para></section>
+<anchor xml:id="_class_stat_1ab5e2b14bcd59e9c22ab52cfacf16a59a"/><section>
+    <title>maxValue</title>
+<indexterm><primary>maxValue</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>maxValue</secondary></indexterm>
+<para><computeroutput>int Stat.maxValue</computeroutput></para></section>
+<anchor xml:id="_class_stat_1a20c4b06ff8c2161091f4fdaa1e9a7764"/><section>
+    <title>minValue</title>
+<indexterm><primary>minValue</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>minValue</secondary></indexterm>
+<para><computeroutput>int Stat.minValue = 0</computeroutput></para></section>
+<anchor xml:id="_class_stat_1a81be2f5532330a6d2d677d20fbf164e5"/><section>
+    <title>OnStatValueModifiedEvent</title>
+<indexterm><primary>OnStatValueModifiedEvent</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>OnStatValueModifiedEvent</secondary></indexterm>
+<para><computeroutput>UnityEvent Stat.OnStatValueModifiedEvent</computeroutput></para></section>
+<anchor xml:id="_class_stat_1a28f5c6ac17e8ef4610a907c0bbe84c1e"/><section>
+    <title>slider</title>
+<indexterm><primary>slider</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>slider</secondary></indexterm>
+<para><computeroutput>Slider Stat.slider</computeroutput></para></section>
+<anchor xml:id="_class_stat_1a5e69f84b29a6caa2eaa9727b80ba1040"/><section>
+    <title>text</title>
+<indexterm><primary>text</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>text</secondary></indexterm>
+<para><computeroutput>TextMeshProUGUI Stat.text</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_stat_1a34389c3b69d4e3945f6ef27d413ab3d9"/><section>
+    <title>curValue</title>
+<indexterm><primary>curValue</primary><secondary>Stat</secondary></indexterm>
+<indexterm><primary>Stat</primary><secondary>curValue</secondary></indexterm>
+<para><computeroutput>virtual int Stat.curValue<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/<link linkend="__stat_8cs">Stat.cs</link></section>
+</section>

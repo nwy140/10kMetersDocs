@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_random_spawner" xml:lang="en-US">
+<title>RandomSpawner Class Reference</title>
+<indexterm><primary>RandomSpawner</primary></indexterm>
+Inheritance diagram for RandomSpawner:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_random_spawner__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for RandomSpawner:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_random_spawner__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_random_spawner_1a3bb19e1922686fc9a025f77ed9b5d942">spawnRes</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_random_spawner_1a57eb7fbf3a46e3d3464be55668cc8de6">numberToSpawn</link></para>
+</listitem>
+            <listitem><para>List&lt; GameObject &gt; <link linkend="_class_random_spawner_1a253a5a5b8846ff2ab2b240d9ec20df5f">spawnPool</link></para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_class_random_spawner_1aab3c9fb5f8536a83b6a576f09644fd47">bg</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_random_spawner_1a9cfa7eb6ad857fa98b23bccf04fb2a1c">spawnRad</link> = 5</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_random_spawner_1ade178d933ca8054c3dc14cbddd26badd">spawnCollisionCheckRadius</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_random_spawner_1a3bb19e1922686fc9a025f77ed9b5d942"/><section>
+    <title>spawnRes()</title>
+<indexterm><primary>spawnRes</primary><secondary>RandomSpawner</secondary></indexterm>
+<indexterm><primary>RandomSpawner</primary><secondary>spawnRes</secondary></indexterm>
+<para><computeroutput>void RandomSpawner.spawnRes ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_random_spawner_1aab3c9fb5f8536a83b6a576f09644fd47"/><section>
+    <title>bg</title>
+<indexterm><primary>bg</primary><secondary>RandomSpawner</secondary></indexterm>
+<indexterm><primary>RandomSpawner</primary><secondary>bg</secondary></indexterm>
+<para><computeroutput>GameObject RandomSpawner.bg</computeroutput></para></section>
+<anchor xml:id="_class_random_spawner_1a57eb7fbf3a46e3d3464be55668cc8de6"/><section>
+    <title>numberToSpawn</title>
+<indexterm><primary>numberToSpawn</primary><secondary>RandomSpawner</secondary></indexterm>
+<indexterm><primary>RandomSpawner</primary><secondary>numberToSpawn</secondary></indexterm>
+<para><computeroutput>int RandomSpawner.numberToSpawn</computeroutput></para></section>
+<anchor xml:id="_class_random_spawner_1ade178d933ca8054c3dc14cbddd26badd"/><section>
+    <title>spawnCollisionCheckRadius</title>
+<indexterm><primary>spawnCollisionCheckRadius</primary><secondary>RandomSpawner</secondary></indexterm>
+<indexterm><primary>RandomSpawner</primary><secondary>spawnCollisionCheckRadius</secondary></indexterm>
+<para><computeroutput>float RandomSpawner.spawnCollisionCheckRadius</computeroutput></para></section>
+<anchor xml:id="_class_random_spawner_1a253a5a5b8846ff2ab2b240d9ec20df5f"/><section>
+    <title>spawnPool</title>
+<indexterm><primary>spawnPool</primary><secondary>RandomSpawner</secondary></indexterm>
+<indexterm><primary>RandomSpawner</primary><secondary>spawnPool</secondary></indexterm>
+<para><computeroutput>List&lt;GameObject&gt; RandomSpawner.spawnPool</computeroutput></para></section>
+<anchor xml:id="_class_random_spawner_1a9cfa7eb6ad857fa98b23bccf04fb2a1c"/><section>
+    <title>spawnRad</title>
+<indexterm><primary>spawnRad</primary><secondary>RandomSpawner</secondary></indexterm>
+<indexterm><primary>RandomSpawner</primary><secondary>spawnRad</secondary></indexterm>
+<para><computeroutput>float RandomSpawner.spawnRad = 5</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Stage Scripts/Resource Spawn/<link linkend="__random_spawner_8cs">RandomSpawner.cs</link></section>
+</section>

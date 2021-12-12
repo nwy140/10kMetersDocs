@@ -1,0 +1,39 @@
+.TH "CommandStack" 3 "Sun Dec 12 2021" "10,000 meters below" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CommandStack
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBExecuteCommand\fP (\fBICommand\fP command)"
+.br
+.ti -1c
+.RI "virtual void \fBUndoLastCommand\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Stack< \fBICommand\fP > \fB_commandHistory\fP = new Stack<\fBICommand\fP>()"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual void CommandStack\&.ExecuteCommand (\fBICommand\fP command)\fC [virtual]\fP"
+
+.SS "virtual void CommandStack\&.UndoLastCommand ()\fC [virtual]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "Stack<\fBICommand\fP> CommandStack\&._commandHistory = new Stack<\fBICommand\fP>()"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for 10,000 meters below from the source code\&.

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_manager_old" xml:lang="en-US">
+<title>CommandManagerOld Class Reference</title>
+<indexterm><primary>CommandManagerOld</primary></indexterm>
+Inheritance diagram for CommandManagerOld:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_manager_old__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for CommandManagerOld:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_manager_old__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c">CheckSequence</link> (string[] sequence, int maxDuration, <link linkend="_class_command_base">CommandBase</link> chainCommand)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_command_manager_old_1a9a746b5972db17c5a7749fecadf7fb1c">CheckSequence</link> (string[] sequence, <link linkend="_class_command_base">CommandBase</link> chainCommand)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_command_queue">CommandQueue</link> <link linkend="_class_command_manager_old_1a39271da1cc38e158a168f388d72bd0a5">commandQueue_Basic</link> = new <link linkend="_class_command_queue">CommandQueue</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_command_queue">CommandQueue</link> <link linkend="_class_command_manager_old_1a268e3c8e54766b696f86ce9b5b327aae">commandQueue_NegativeEdge</link> = new <link linkend="_class_command_queue">CommandQueue</link>()</para>
+</listitem>
+            <listitem><para><link linkend="_class_command_queue">CommandQueue</link> <link linkend="_class_command_manager_old_1a470de513223e9210f44f8776a3974e3a">commandQueue_Chain</link> = new <link linkend="_class_command_queue">CommandQueue</link>()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_command_manager_old_1a9f8d1f3b425258ca953311437b819f20">CurrentTick</link> = 0</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_command_manager_old_1ab6f7310710a3ab945dcaaa750b76509d">maxDefaultAllowedTimeDifferenceCheck</link> = 2f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_manager_old_1a9a746b5972db17c5a7749fecadf7fb1c"/><section>
+    <title>CheckSequence()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>CheckSequence</primary><secondary>CommandManagerOld</secondary></indexterm>
+<indexterm><primary>CommandManagerOld</primary><secondary>CheckSequence</secondary></indexterm>
+<para><computeroutput>bool CommandManagerOld.CheckSequence (string[] sequence, <link linkend="_class_command_base">CommandBase</link> chainCommand)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_manager_old_a9a746b5972db17c5a7749fecadf7fb1c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_manager_old_1a2b39ed29209798f2f01d3a9c4513a04c"/><section>
+    <title>CheckSequence()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>CheckSequence</primary><secondary>CommandManagerOld</secondary></indexterm>
+<indexterm><primary>CommandManagerOld</primary><secondary>CheckSequence</secondary></indexterm>
+<para><computeroutput>bool CommandManagerOld.CheckSequence (string[] sequence, int maxDuration, <link linkend="_class_command_base">CommandBase</link> chainCommand)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_manager_old_a2b39ed29209798f2f01d3a9c4513a04c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_command_manager_old_1a39271da1cc38e158a168f388d72bd0a5"/><section>
+    <title>commandQueue_Basic</title>
+<indexterm><primary>commandQueue_Basic</primary><secondary>CommandManagerOld</secondary></indexterm>
+<indexterm><primary>CommandManagerOld</primary><secondary>commandQueue_Basic</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_queue">CommandQueue</link> CommandManagerOld.commandQueue_Basic = new <link linkend="_class_command_queue">CommandQueue</link>()</computeroutput></para></section>
+<anchor xml:id="_class_command_manager_old_1a470de513223e9210f44f8776a3974e3a"/><section>
+    <title>commandQueue_Chain</title>
+<indexterm><primary>commandQueue_Chain</primary><secondary>CommandManagerOld</secondary></indexterm>
+<indexterm><primary>CommandManagerOld</primary><secondary>commandQueue_Chain</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_queue">CommandQueue</link> CommandManagerOld.commandQueue_Chain = new <link linkend="_class_command_queue">CommandQueue</link>()</computeroutput></para></section>
+<anchor xml:id="_class_command_manager_old_1a268e3c8e54766b696f86ce9b5b327aae"/><section>
+    <title>commandQueue_NegativeEdge</title>
+<indexterm><primary>commandQueue_NegativeEdge</primary><secondary>CommandManagerOld</secondary></indexterm>
+<indexterm><primary>CommandManagerOld</primary><secondary>commandQueue_NegativeEdge</secondary></indexterm>
+<para><computeroutput><link linkend="_class_command_queue">CommandQueue</link> CommandManagerOld.commandQueue_NegativeEdge = new <link linkend="_class_command_queue">CommandQueue</link>()</computeroutput></para></section>
+<anchor xml:id="_class_command_manager_old_1a9f8d1f3b425258ca953311437b819f20"/><section>
+    <title>CurrentTick</title>
+<indexterm><primary>CurrentTick</primary><secondary>CommandManagerOld</secondary></indexterm>
+<indexterm><primary>CommandManagerOld</primary><secondary>CurrentTick</secondary></indexterm>
+<para><computeroutput>int CommandManagerOld.CurrentTick = 0</computeroutput></para></section>
+<anchor xml:id="_class_command_manager_old_1ab6f7310710a3ab945dcaaa750b76509d"/><section>
+    <title>maxDefaultAllowedTimeDifferenceCheck</title>
+<indexterm><primary>maxDefaultAllowedTimeDifferenceCheck</primary><secondary>CommandManagerOld</secondary></indexterm>
+<indexterm><primary>CommandManagerOld</primary><secondary>maxDefaultAllowedTimeDifferenceCheck</secondary></indexterm>
+<para><computeroutput>float CommandManagerOld.maxDefaultAllowedTimeDifferenceCheck = 2f</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/_Bin/<link linkend="__command_manager_old_8cs">CommandManagerOld.cs</link></section>
+</section>

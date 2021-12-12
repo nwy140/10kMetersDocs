@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_u_i_h_p_slider_color" kind="class" language="C#" prot="public">
+    <compoundname>UIHPSliderColor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>UIColorTransition</name>
+        <enumvalue id="class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a655d20c1ca69519ca647684edbb2db35" prot="public">
+          <name>High</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a248c951164a35e1e91ff0267c0f666ea" prot="public">
+          <name>Med</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944a28d0edd045e05cf5af64e35ae0c4c6ef" prot="public">
+          <name>Low</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="9" column="11" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_i_h_p_slider_color_1a3c55716a13fc1645e70f021b12abb8d2" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color UIHPSliderColor.high</definition>
+        <argsstring></argsstring>
+        <name>high</name>
+        <initializer>= Color.green</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="17" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228" compoundref="_u_i_h_p_slider_color_8cs" startline="35" endline="67">SetCurrColorTransitionBySliderValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_h_p_slider_color_1a6219a100ae20896ccdb7d1ef05a0168c" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color UIHPSliderColor.med</definition>
+        <argsstring></argsstring>
+        <name>med</name>
+        <initializer>= Color.yellow</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="18" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228" compoundref="_u_i_h_p_slider_color_8cs" startline="35" endline="67">SetCurrColorTransitionBySliderValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_h_p_slider_color_1af756c059c14885e880be751b5ea9160c" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color UIHPSliderColor.low</definition>
+        <argsstring></argsstring>
+        <name>low</name>
+        <initializer>= new Color(1.0f, 0.64f, 0.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="19" column="18" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228" compoundref="_u_i_h_p_slider_color_8cs" startline="35" endline="67">SetCurrColorTransitionBySliderValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_h_p_slider_color_1ad5ddef6b1ee622254e77c53c8cc8a08e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944" kindref="member">UIColorTransition</ref></type>
+        <definition>UIColorTransition UIHPSliderColor.currColorTransition</definition>
+        <argsstring></argsstring>
+        <name>currColorTransition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="21" column="30" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228" compoundref="_u_i_h_p_slider_color_8cs" startline="35" endline="67">SetCurrColorTransitionBySliderValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_h_p_slider_color_1abc9ee433bc5a15b8dfa99670ff8035dd" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider UIHPSliderColor.slider</definition>
+        <argsstring></argsstring>
+        <name>slider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="22" column="19" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228" compoundref="_u_i_h_p_slider_color_8cs" startline="35" endline="67">SetCurrColorTransitionBySliderValue</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_h_p_slider_color_1a1bf0f9bcb11b9d6b04089572f8122f08" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIHPSliderColor.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="24" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="24" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIHPSliderColor.SetCurrColorTransitionBySliderValue</definition>
+        <argsstring>()</argsstring>
+        <name>SetCurrColorTransitionBySliderValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="35" column="17" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="35" bodyend="67"/>
+        <references refid="class_u_i_h_p_slider_color_1ad5ddef6b1ee622254e77c53c8cc8a08e" compoundref="_u_i_h_p_slider_color_8cs" startline="21">currColorTransition</references>
+        <references refid="class_u_i_h_p_slider_color_1a3c55716a13fc1645e70f021b12abb8d2" compoundref="_u_i_h_p_slider_color_8cs" startline="17">high</references>
+        <references refid="class_u_i_h_p_slider_color_1af756c059c14885e880be751b5ea9160c" compoundref="_u_i_h_p_slider_color_8cs" startline="19">low</references>
+        <references refid="class_u_i_h_p_slider_color_1a6219a100ae20896ccdb7d1ef05a0168c" compoundref="_u_i_h_p_slider_color_8cs" startline="18">med</references>
+        <references refid="class_u_i_h_p_slider_color_1abc9ee433bc5a15b8dfa99670ff8035dd" compoundref="_u_i_h_p_slider_color_8cs" startline="22">slider</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIHPSliderColor</label>
+        <link refid="class_u_i_h_p_slider_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIHPSliderColor</label>
+        <link refid="class_u_i_h_p_slider_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" line="6" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/_CommonV0.2/UICanvas/UIHPSliderColor.cs" bodystart="7" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_u_i_h_p_slider_color_1a1bf0f9bcb11b9d6b04089572f8122f08" prot="private" virt="non-virtual"><scope>UIHPSliderColor</scope><name>Awake</name></member>
+      <member refid="class_u_i_h_p_slider_color_1ad5ddef6b1ee622254e77c53c8cc8a08e" prot="public" virt="non-virtual"><scope>UIHPSliderColor</scope><name>currColorTransition</name></member>
+      <member refid="class_u_i_h_p_slider_color_1a3c55716a13fc1645e70f021b12abb8d2" prot="public" virt="non-virtual"><scope>UIHPSliderColor</scope><name>high</name></member>
+      <member refid="class_u_i_h_p_slider_color_1af756c059c14885e880be751b5ea9160c" prot="public" virt="non-virtual"><scope>UIHPSliderColor</scope><name>low</name></member>
+      <member refid="class_u_i_h_p_slider_color_1a6219a100ae20896ccdb7d1ef05a0168c" prot="public" virt="non-virtual"><scope>UIHPSliderColor</scope><name>med</name></member>
+      <member refid="class_u_i_h_p_slider_color_1a3037a88e882a2ba900a711c5d3b1e228" prot="public" virt="non-virtual"><scope>UIHPSliderColor</scope><name>SetCurrColorTransitionBySliderValue</name></member>
+      <member refid="class_u_i_h_p_slider_color_1abc9ee433bc5a15b8dfa99670ff8035dd" prot="public" virt="non-virtual"><scope>UIHPSliderColor</scope><name>slider</name></member>
+      <member refid="class_u_i_h_p_slider_color_1a09c7588345d574bc944e1531a7e67944" prot="public" virt="non-virtual"><scope>UIHPSliderColor</scope><name>UIColorTransition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

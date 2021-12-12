@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_save_system" xml:lang="en-US">
+<title>SaveSystem Class Reference</title>
+<indexterm><primary>SaveSystem</primary></indexterm>
+Collaboration diagram for SaveSystem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_save_system__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_save_system_1a8b75e5e46baa8de45ba44318629d0531">SavePlayer</link> (<link linkend="_class_player_movement">PlayerMovement</link> playerMovement)</para>
+</listitem>
+            <listitem><para>static <link linkend="_class_player_data">PlayerData</link> <link linkend="_class_save_system_1abb561eb8b20c15350c3bf6a66c37bd2f">LoadPlayer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_save_system_1abb561eb8b20c15350c3bf6a66c37bd2f"/><section>
+    <title>LoadPlayer()</title>
+<indexterm><primary>LoadPlayer</primary><secondary>SaveSystem</secondary></indexterm>
+<indexterm><primary>SaveSystem</primary><secondary>LoadPlayer</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_player_data">PlayerData</link> SaveSystem.LoadPlayer ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_save_system_1a8b75e5e46baa8de45ba44318629d0531"/><section>
+    <title>SavePlayer()</title>
+<indexterm><primary>SavePlayer</primary><secondary>SaveSystem</secondary></indexterm>
+<indexterm><primary>SaveSystem</primary><secondary>SavePlayer</secondary></indexterm>
+<para><computeroutput>static void SaveSystem.SavePlayer (<link linkend="_class_player_movement">PlayerMovement</link> playerMovement)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Scripts/Arif&apos;s Test Scripts/Save State/Unused/<link linkend="__save_system_8cs">SaveSystem.cs</link></section>
+</section>

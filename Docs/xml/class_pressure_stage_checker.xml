@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_pressure_stage_checker" kind="class" language="C#" prot="public">
+    <compoundname>PressureStageChecker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pressure_stage_checker_1ae3df15f28d4cf85b287c236ed6d77953" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PressureStageChecker.stage</definition>
+        <argsstring></argsstring>
+        <name>stage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PressureStageChecker.cs" line="7" column="10" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PressureStageChecker.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pressure_stage_checker_1a18a9749189de6a76e8978d60510f0fc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PressureStageChecker.GetStage</definition>
+        <argsstring>()</argsstring>
+        <name>GetStage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PressureStageChecker.cs" line="9" column="16" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PressureStageChecker.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PressureStageChecker</label>
+        <link refid="class_pressure_stage_checker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PressureStageChecker</label>
+        <link refid="class_pressure_stage_checker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PressureStageChecker.cs" line="5" column="7" bodyfile="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/PressureStageChecker.cs" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_pressure_stage_checker_1a18a9749189de6a76e8978d60510f0fc2" prot="public" virt="non-virtual"><scope>PressureStageChecker</scope><name>GetStage</name></member>
+      <member refid="class_pressure_stage_checker_1ae3df15f28d4cf85b287c236ed6d77953" prot="private" virt="non-virtual"><scope>PressureStageChecker</scope><name>stage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

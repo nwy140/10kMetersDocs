@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_enable_disable_game_object_command_8cs" kind="file" language="C#">
+    <compoundname>EnableDisableGameObjectCommand.cs</compoundname>
+    <innerclass refid="class_enable_disable_game_object_command" prot="public">EnableDisableGameObjectCommand</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">[CreateAssetMenu(menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;SInt_Utils/EnableDisableGameObjectCommand&quot;</highlight><highlight class="normal">,<sp/>order<sp/>=<sp/>1)]</highlight></codeline>
+<codeline lineno="4" refid="class_enable_disable_game_object_command" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_enable_disable_game_object_command" kindref="compound">EnableDisableGameObjectCommand</ref><sp/>:<sp/><ref refid="class_input_command" kindref="compound">InputCommand</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_enable_disable_game_object_command_1a90b52b05f06141aa37a6861111b4cb0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_enable_disable_game_object_command_1a90b52b05f06141aa37a6861111b4cb0a" kindref="member">ExecPress</ref>()</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.ExecPress();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" kindref="member">instanceInfo</ref>.<ref refid="struct_command_base_1_1_instance_info_runtime_1ade43d87749f149634332ebbc8b122507" kindref="member">commandTargetObj</ref><sp/>!=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" kindref="member">instanceInfo</ref>.<ref refid="struct_command_base_1_1_instance_info_runtime_1ade43d87749f149634332ebbc8b122507" kindref="member">commandTargetObj</ref>.SetActive(!<ref refid="class_command_base_1a0da567c6d9f76378bfafae1145fc76c5" kindref="member">instanceInfo</ref>.<ref refid="struct_command_base_1_1_instance_info_runtime_1ade43d87749f149634332ebbc8b122507" kindref="member">commandTargetObj</ref>.activeInHierarchy);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>override<sp/>void<sp/>ExecDown()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>base.ExecDown();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>ExecPress();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/Command/SOScripts/Misc/EnableDisableGameObjectCommand.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter" xml:lang="en-US">
+<title>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter Class Reference</title>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter</primary></indexterm>
+Collaboration diagram for UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1ae9b95b23b6e09486fc64ac5b3dba4672">ReconstructionFilter</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a1ae5385e2ce35105c89b09d668d08cb5">IsSupported</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a10805735f3c20028314f16e0bc6e06b5">ProcessImage</link> (<link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context">PostProcessingContext</link> context, CommandBuffer cb, ref <link linkend="_namespace_unity_engine_1_1_post_processing_1a592ef3c37c37720c9148658370d5e39b">Settings</link> settings, RenderTargetIdentifier source, RenderTargetIdentifier destination, Material material)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1ae9b95b23b6e09486fc64ac5b3dba4672"/><section>
+    <title>ReconstructionFilter()</title>
+<indexterm><primary>ReconstructionFilter</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter</primary><secondary>ReconstructionFilter</secondary></indexterm>
+<para><computeroutput>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.ReconstructionFilter ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a1ae5385e2ce35105c89b09d668d08cb5"/><section>
+    <title>IsSupported()</title>
+<indexterm><primary>IsSupported</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter</primary><secondary>IsSupported</secondary></indexterm>
+<para><computeroutput>bool UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.IsSupported ( )</computeroutput></para></section>
+<anchor xml:id="_class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a10805735f3c20028314f16e0bc6e06b5"/><section>
+    <title>ProcessImage()</title>
+<indexterm><primary>ProcessImage</primary><secondary>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter</secondary></indexterm>
+<indexterm><primary>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter</primary><secondary>ProcessImage</secondary></indexterm>
+<para><computeroutput>void UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.ProcessImage (<link linkend="_class_unity_engine_1_1_post_processing_1_1_post_processing_context">PostProcessingContext</link> context, CommandBuffer cb, ref <link linkend="_namespace_unity_engine_1_1_post_processing_1a592ef3c37c37720c9148658370d5e39b">Settings</link> settings, RenderTargetIdentifier source, RenderTargetIdentifier destination, Material material)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_a10805735f3c20028314f16e0bc6e06b5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/Samples/Input System/1.0.2/Tanks Demo/TanksDemo/PostProcessing/Runtime/Components/<link linkend="__motion_blur_component_8cs">MotionBlurComponent.cs</link></section>
+</section>

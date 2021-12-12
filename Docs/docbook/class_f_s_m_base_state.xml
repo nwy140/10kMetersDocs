@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_f_s_m_base_state" xml:lang="en-US">
+<title>FSMBaseState Class Reference</title>
+<indexterm><primary>FSMBaseState</primary></indexterm>
+Inheritance diagram for FSMBaseState:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_base_state__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for FSMBaseState:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_base_state__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb">FSMBaseState</link> (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</para>
+</listitem>
+            <listitem><para>virtual bool <link linkend="_class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa">OnEnterState</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e">OnUpdate</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c">OnStayState</link> ()</para>
+</listitem>
+            <listitem><para>virtual bool <link linkend="_class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2">OnExitState</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce">OnEnable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8">OnDisable</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="__f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3">FSMExecutionState</link> <link linkend="_class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb">_ExecutionState</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22">OnEnterTimeStamp</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c">ElapsedTime</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para>readonly <link linkend="_class_f_s_m_system_base">FSMSystemBase</link> <link linkend="_class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a">_system</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>virtual string <link linkend="_class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2">aName</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>virtual <link linkend="__f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3">FSMExecutionState</link> <link linkend="_class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b">ExecutionState</link><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_f_s_m_base_state_1af19acfae3ac59edd1d3249ad471982bb"/><section>
+    <title>FSMBaseState()</title>
+<indexterm><primary>FSMBaseState</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>FSMBaseState</secondary></indexterm>
+<para><computeroutput>FSMBaseState.FSMBaseState (<link linkend="_class_f_s_m_system_base">FSMSystemBase</link> system)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_f_s_m_base_state_1ac611db4884f51b6b0969449f8b18d0b8"/><section>
+    <title>OnDisable()</title>
+<indexterm><primary>OnDisable</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>OnDisable</secondary></indexterm>
+<para><computeroutput>void FSMBaseState.OnDisable ( )</computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_base_state_1a994956ee450eb6c1c62486015119f8ce"/><section>
+    <title>OnEnable()</title>
+<indexterm><primary>OnEnable</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>OnEnable</secondary></indexterm>
+<para><computeroutput>void FSMBaseState.OnEnable ( )</computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_base_state_1afce6f3cd900d48397de7d426c55aa4aa"/><section>
+    <title>OnEnterState()</title>
+<indexterm><primary>OnEnterState</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>OnEnterState</secondary></indexterm>
+<para><computeroutput>virtual bool FSMBaseState.OnEnterState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_default_state_1a1ac73c9e44849218e1987cc049406cd5">DefaultState</link>, <link linkend="_class_alert_1a4c74d0a6408ab55791ad5925867de6ef">Alert</link>, <link linkend="_class_chase_1a391d61b7b55208fbf6093eb013db4aa0">Chase</link>, <link linkend="_class_flee_1a22f828df5c3eb7da25a2e3dd8f59d1cd">Flee</link>, <link linkend="_class_patrol_by_random_pos_1a126c52c12f9907a4e7693a746151b3b5">PatrolByRandomPos</link>, and <link linkend="_class_patrol_by_waypoints_1adcba748e4f330067dcf038b057021e16">PatrolByWaypoints</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_base_state_afce6f3cd900d48397de7d426c55aa4aa_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_f_s_m_base_state_1aca1b00bfc69e2bf3675a9749731a08c2"/><section>
+    <title>OnExitState()</title>
+<indexterm><primary>OnExitState</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>OnExitState</secondary></indexterm>
+<para><computeroutput>virtual bool FSMBaseState.OnExitState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_default_state_1ab46682c863828f1a5ab57cb164cb4223">DefaultState</link>, <link linkend="_class_alert_1a5074dc24717dd36b9c760590c39fb68b">Alert</link>, <link linkend="_class_chase_1ad693e8310c8bd50502f914fa9593aa02">Chase</link>, <link linkend="_class_flee_1a6dac7e6c97f912966967865bd6ba2789">Flee</link>, <link linkend="_class_patrol_by_random_pos_1a35f20bf96a35e62a592e92492b73e272">PatrolByRandomPos</link>, and <link linkend="_class_patrol_by_waypoints_1ae55e0e2a1f0370f8757383aa93c81a34">PatrolByWaypoints</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_base_state_aca1b00bfc69e2bf3675a9749731a08c2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_f_s_m_base_state_1a24001f0dd8208f4a50a1d47c2503072c"/><section>
+    <title>OnStayState()</title>
+<indexterm><primary>OnStayState</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>OnStayState</secondary></indexterm>
+<para><computeroutput>virtual void FSMBaseState.OnStayState ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_chase_1a8ca474ca24a2c28b07c6b17535a38548">Chase</link>, <link linkend="_class_flee_1aa3c3ad56ebf0ebd2e4c06a26be350677">Flee</link>, <link linkend="_class_patrol_by_random_pos_1a079eb0d6a5439a0e77e9d30e86b0eb7c">PatrolByRandomPos</link>, and <link linkend="_class_patrol_by_waypoints_1ae27477594ec3618830d92df7915773e6">PatrolByWaypoints</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_base_state_a24001f0dd8208f4a50a1d47c2503072c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_f_s_m_base_state_1a8bbff9bd64640de38f8748c38553f56e"/><section>
+    <title>OnUpdate()</title>
+<indexterm><primary>OnUpdate</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>OnUpdate</secondary></indexterm>
+<para><computeroutput>virtual void FSMBaseState.OnUpdate ( )<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_default_state_1a07b33569596bb004a631be1bd10eb41d">DefaultState</link>, <link linkend="_class_patrol_by_random_pos_1a15772a59fb76183c34994c59ce27fe3c">PatrolByRandomPos</link>, and <link linkend="_class_patrol_by_waypoints_1a9fef0c96e7781b44b02302ef8090fdd9">PatrolByWaypoints</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_base_state_a8bbff9bd64640de38f8748c38553f56e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_f_s_m_base_state_a8bbff9bd64640de38f8748c38553f56e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_f_s_m_base_state_1a2caeb9d2993be51d7104c008fb911fcb"/><section>
+    <title>_ExecutionState</title>
+<indexterm><primary>_ExecutionState</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>_ExecutionState</secondary></indexterm>
+<para><computeroutput><link linkend="__f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3">FSMExecutionState</link> FSMBaseState._ExecutionState</computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_base_state_1a312accf992b2b1ba032cc87039963e7a"/><section>
+    <title>_system</title>
+<indexterm><primary>_system</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>_system</secondary></indexterm>
+<para><computeroutput>readonly <link linkend="_class_f_s_m_system_base">FSMSystemBase</link> FSMBaseState._system<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_base_state_1a3c8c8fecab98d15b382943ce0e56090c"/><section>
+    <title>ElapsedTime</title>
+<indexterm><primary>ElapsedTime</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>ElapsedTime</secondary></indexterm>
+<para><computeroutput>float FSMBaseState.ElapsedTime</computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_base_state_1aaeccd393215a104f54393a6cd0d73b22"/><section>
+    <title>OnEnterTimeStamp</title>
+<indexterm><primary>OnEnterTimeStamp</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>OnEnterTimeStamp</secondary></indexterm>
+<para><computeroutput>float FSMBaseState.OnEnterTimeStamp</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_f_s_m_base_state_1a3065be43cc8e6707a769b05a67978aa2"/><section>
+    <title>aName</title>
+<indexterm><primary>aName</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>aName</secondary></indexterm>
+<para><computeroutput>virtual string FSMBaseState.aName<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_f_s_m_base_state_1a77e03284b9bacb413221c7bb88951b7b"/><section>
+    <title>ExecutionState</title>
+<indexterm><primary>ExecutionState</primary><secondary>FSMBaseState</secondary></indexterm>
+<indexterm><primary>FSMBaseState</primary><secondary>ExecutionState</secondary></indexterm>
+<para><computeroutput>virtual <link linkend="__f_s_m_base_state_8cs_1a0286fa86c7565bd62bea739b662c89c3">FSMExecutionState</link> FSMBaseState.ExecutionState<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/__Experimental/AIApproach/StatePattern/<link linkend="__f_s_m_base_state_8cs">FSMBaseState.cs</link></section>
+</section>

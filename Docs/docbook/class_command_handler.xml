@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command_handler" xml:lang="en-US">
+<title>CommandHandler Class Reference</title>
+<indexterm><primary>CommandHandler</primary></indexterm>
+Collaboration diagram for CommandHandler:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_handler__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_command_handler_1aaced5d8a9f662d1b76cefbd1e078543d">AddCommand</link> (<link linkend="_interface_i_command_o_w_s">ICommandOWS</link> command)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_handler_1aa7750e06c4053d499ed57f1e80271476">UndoCommand</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_command_handler_1a4cc8725842050eb05536f37e26b11673">RedoCommand</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_command_handler_1aaced5d8a9f662d1b76cefbd1e078543d"/><section>
+    <title>AddCommand()</title>
+<indexterm><primary>AddCommand</primary><secondary>CommandHandler</secondary></indexterm>
+<indexterm><primary>CommandHandler</primary><secondary>AddCommand</secondary></indexterm>
+<para><computeroutput>void CommandHandler.AddCommand (<link linkend="_interface_i_command_o_w_s">ICommandOWS</link> command)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command_handler_aaced5d8a9f662d1b76cefbd1e078543d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_command_handler_1a4cc8725842050eb05536f37e26b11673"/><section>
+    <title>RedoCommand()</title>
+<indexterm><primary>RedoCommand</primary><secondary>CommandHandler</secondary></indexterm>
+<indexterm><primary>CommandHandler</primary><secondary>RedoCommand</secondary></indexterm>
+<para><computeroutput>void CommandHandler.RedoCommand ( )</computeroutput></para></section>
+<anchor xml:id="_class_command_handler_1aa7750e06c4053d499ed57f1e80271476"/><section>
+    <title>UndoCommand()</title>
+<indexterm><primary>UndoCommand</primary><secondary>CommandHandler</secondary></indexterm>
+<indexterm><primary>CommandHandler</primary><secondary>UndoCommand</secondary></indexterm>
+<para><computeroutput>void CommandHandler.UndoCommand ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/_SSDSPEEDUP/2021/clone/gps1_manadesigner/GPS1-Manadesigner/Assets/_UtilsV0.4/MyScripts/_Utils/CommandPattern/_Bin/OWS/<link linkend="__command_handler_8cs">CommandHandler.cs</link></section>
+</section>
